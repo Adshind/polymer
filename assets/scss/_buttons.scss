@@ -1,0 +1,115 @@
+//>>>>> Component Button Here <<<<<//
+.ht-btn {
+    background: $theme-color-3;
+    color: white;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    font-family: $heading-font;
+    font-weight: 600;
+    padding: 20px 30px;
+    border-radius: 12px;
+    text-transform: capitalize;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    z-index: 2;
+    line-height: 1;
+    overflow: hidden;
+    text-transform: uppercase;
+
+    &.style-2 {
+        padding: 24px 30px;
+        background: $theme-color-2;
+        color: $white;
+
+        &::before {
+            background: $theme-color-3;
+        }
+
+        &:hover {
+            color: $black;
+        }
+    }
+
+    &.style-3 {
+        padding: 24px 30px;
+        background: $theme-color;
+        color: $white;
+
+        &::before {
+            background: $theme-color-2;
+        }
+    }
+
+    &.style-4 {
+        &::before {
+            background: $theme-color-2;
+        }
+    }
+
+    &::before {
+        content: "";
+        position: absolute;
+        height: 100%;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        background-color: $theme-color-2;
+        z-index: -1;
+        transition: all 0.4s ease-out;
+        border-radius: inherit;
+    }
+
+    &:hover {
+        color: $white;
+
+        &::before {
+            width: 100%;
+        }
+    }
+
+
+    @include breakpoint (max-md) {
+        padding: 20px 32px;
+    }
+
+    @include breakpoint (max-sm) {
+        padding: 18px 30px;
+        font-size: 14px;
+    }
+
+    &.border-btn {
+        border: 1px solid $border-color;
+        background: transparent;
+        color: $white;
+
+        &::before,
+        &::after {
+            background: $theme-color;
+        }
+
+        img {
+            @include transition;
+
+        }
+
+        &:hover {
+            img {
+                filter: grayscale(100%) brightness(300%);
+            }
+        }
+    }
+
+    &.radius-btn {
+        border-radius: 60px;
+
+        &:hover {
+
+            i,
+            img {
+                filter: grayscale(100%) brightness(300%);
+            }
+        }
+    }
+}

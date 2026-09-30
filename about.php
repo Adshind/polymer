@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<?php $title = 'About Us - Polymer Products & Dynamic Prestress Group' ?>
+<?php include './partials/head.php' ?>
+
+<body class="body-color">
+<?php include './partials/preloader.php' ?>
+<?php include './partials/mouse-cursor.php' ?>
+<?php include './partials/scroll-up.php' ?>
+<?php include './partials/header.php' ?>
+<?php include './partials/offcanvas.php' ?>
+
+<!-- Page Header -->
+<div class="py-5" style="background: linear-gradient(135deg, #0b192c 0%, #1e3e62 100%); color:#fff;">
+    <div class="container-fluid px-3 px-lg-5 py-4 text-center">
+        <span class="badge bg-primary px-3 py-2 mb-2 text-uppercase fw-bold">Company Profile & Infrastructure</span>
+        <h1 class="display-5 fw-bold text-white mb-2">About Polymer Products</h1>
+        <p class="lead text-light mb-0 mx-auto" style="max-width:750px;">Specialized manufacturing and quality testing of Elastomeric Bearings & Seismic Solutions for India's major infrastructure projects.</p>
+    </div>
+</div>
+
+<!-- Company Overview Section -->
+<section class="py-5" style="background:#fff;">
+    <div class="container-fluid px-3 px-lg-5 py-4">
+        <div class="row align-items-center g-5">
+            <div class="col-lg-6">
+                <div class="section-title mb-4">
+                    <span class="badge bg-primary-subtle text-primary px-3 py-2 mb-2 font-monospace fw-bold">OUR HERITAGE</span>
+                    <h2 class="fw-bold text-dark">Decades of Prestressing & Polymer Engineering Expertise</h2>
+                </div>
+                <p class="text-secondary" style="font-size:16px; line-height:1.8;">
+                    <strong>Dynamic Prestress (I) Pvt. Ltd.</strong> is an established Indian enterprise with extensive experience in the field of prestressing technology and infrastructure solutions. Over decades of dedicated industry leadership, the company has played a vital role in the design, manufacturing, supply, and installation of prestressing materials, post-tensioning systems, and specialized infrastructure components for bridges, flyovers, metro networks, and railway corridors.
+                </p>
+                <p class="text-secondary" style="font-size:16px; line-height:1.8;">
+                    As a specialized part of the Dynamic group, <strong>Polymer Products</strong> focuses on the manufacturing and supply of <strong>Elastomeric Bearings</strong> and <strong>Seismic Pads</strong> for civil engineering and bridge applications. Its manufacturing facility at <strong>Nashik, Maharashtra</strong> is supported by experienced technical personnel, including Rubber Technologists, Polymer Chemists, and Structural Engineers, alongside comprehensive in-house quality-control and testing laboratories.
+                </p>
+            </div>
+            <div class="col-lg-6">
+                <div class="rounded-4 overflow-hidden shadow border p-2 bg-white">
+                    <img src="assets/pp_data/Machine's Images/IMG20260913162055.jpg" alt="Polymer Products Facility" class="img-fluid rounded-3 w-100" style="height:360px; object-fit:cover;">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Sister Concern Callout Section -->
+<section class="py-5" id="sister-concern" style="background:#f8fafc; border-top:1px solid #e2e8f0; border-bottom:1px solid #e2e8f0;">
+    <div class="container-fluid px-3 px-lg-5 py-3">
+        <div class="card bg-white border shadow-sm rounded-4 p-4 p-lg-5">
+            <div class="row align-items-center g-4">
+                <div class="col-lg-8">
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="p-3 bg-primary text-white rounded-circle me-3">
+                            <i class="fa-solid fa-handshake fa-2x"></i>
+                        </div>
+                        <div>
+                            <span class="badge bg-primary-subtle text-primary fw-bold text-uppercase">Corporate Synergy</span>
+                            <h3 class="fw-bold text-dark mb-0">Sister Concern Relationship</h3>
+                        </div>
+                    </div>
+                    <p class="text-muted" style="line-height:1.8;">
+                        Polymer Products operates as a specialized division within the Dynamic Prestress group. This synergy enables seamless integration of prestressing hardware, structural bridge bearings, expansion joints, and specialized elastomeric components under unified technical governance and rigorous quality audits.
+                    </p>
+                    <div class="row g-2 mt-2">
+                        <div class="col-sm-6"><i class="fa-solid fa-circle-check text-success me-2"></i>Official Corporate Tie-up Letter</div>
+                        <div class="col-sm-6"><i class="fa-solid fa-circle-check text-success me-2"></i>Unified Quality Assurance System</div>
+                        <div class="col-sm-6"><i class="fa-solid fa-circle-check text-success me-2"></i>Combined Technical Consultancy</div>
+                        <div class="col-sm-6"><i class="fa-solid fa-circle-check text-success me-2"></i>Approved by Major Govt Authorities</div>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-lg-end text-center">
+                    <div class="p-3 bg-light rounded-3 border text-center">
+                        <i class="fa-solid fa-file-pdf text-danger fa-3x mb-2"></i>
+                        <h6 class="fw-bold text-dark mb-1">Sister Concern Certificate</h6>
+                        <p class="small text-muted mb-3">Official Verification & Credential Letter (2026)</p>
+                        <a href="assets/pp_data/Page 02/sister cons latter - 2026.pdf" target="_blank" class="btn btn-primary btn-sm rounded-pill px-4 fw-bold">
+                            <i class="fa-solid fa-download me-1"></i> View Sister Concern Letter
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Technical Team Section with Real Photos & Certificates -->
+<section class="py-5" id="our-team" style="background:#fff;">
+    <div class="container-fluid px-3 px-lg-5 py-4">
+        <div class="section-title text-center mb-5">
+            <span class="badge bg-primary text-white px-3 py-2 mb-2 text-uppercase fw-bold">Experienced Professionals</span>
+            <h2 class="fw-bold text-dark">Meet Our Key Leadership & Technical Team</h2>
+            <p class="text-muted mx-auto" style="max-width:700px;">Meet the people behind our operations, bringing together experience, polymer expertise, and an unwavering commitment to quality.</p>
+        </div>
+
+        <div class="row g-4 justify-content-center">
+            
+            <!-- Person 1: MPP Sir (Managing Director) -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card h-100 border shadow-sm rounded-4 p-4 text-center">
+                    <div class="rounded-circle overflow-hidden mx-auto mb-3 shadow border" style="width:130px; height:130px;">
+                        <img src="assets/pp_data/Page 02/Emp Details/Directors/MPP Sir.jpg" alt="Managing Director" class="w-100 h-100" style="object-fit:cover;">
+                    </div>
+                    <h5 class="fw-bold text-dark mb-1">M. P. Patil</h5>
+                    <span class="badge bg-primary mb-2">Managing Director</span>
+                    <p class="small text-muted mb-3">Visionary leadership with decades of experience heading Dynamic Prestress (I) Pvt. Ltd. & Polymer Products.</p>
+                    <div class="border-top pt-2">
+                        <a href="assets/pp_data/Page 02/Emp Details/Directors/MD (MPP Sir).pdf" target="_blank" class="btn btn-outline-primary btn-sm rounded-pill px-3">
+                            <i class="fa-solid fa-award me-1"></i> View Degree / Profile
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Person 2: CMP Sir (Director) -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card h-100 border shadow-sm rounded-4 p-4 text-center">
+                    <div class="rounded-circle overflow-hidden mx-auto mb-3 shadow border" style="width:130px; height:130px;">
+                        <img src="assets/pp_data/Page 02/Emp Details/Directors/CMP Sir.jpg" alt="Technical Director" class="w-100 h-100" style="object-fit:cover;">
+                    </div>
+                    <h5 class="fw-bold text-dark mb-1">C. M. Patil</h5>
+                    <span class="badge bg-success mb-2">Director - Technical</span>
+                    <p class="small text-muted mb-3">Expert in civil engineering, bridge prestressing systems, and elastomeric bearing manufacturing operations.</p>
+                    <div class="border-top pt-2">
+                        <a href="assets/pp_data/Page 02/Emp Details/Directors/CMP Sir.pdf" target="_blank" class="btn btn-outline-success btn-sm rounded-pill px-3">
+                            <i class="fa-solid fa-award me-1"></i> View Degree / Profile
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Person 3: AMP Madam (Director) -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card h-100 border shadow-sm rounded-4 p-4 text-center">
+                    <div class="rounded-circle overflow-hidden mx-auto mb-3 shadow border" style="width:130px; height:130px;">
+                        <img src="assets/pp_data/Page 02/Emp Details/Directors/AMP Madam.jpg" alt="Director" class="w-100 h-100" style="object-fit:cover;">
+                    </div>
+                    <h5 class="fw-bold text-dark mb-1">A. M. Patil</h5>
+                    <span class="badge bg-info text-white mb-2">Director - Administration & Finance</span>
+                    <p class="small text-muted mb-3">Overseeing corporate finance, statutory compliances, legal registrations, and administrative management.</p>
+                    <div class="border-top pt-2">
+                        <a href="assets/pp_data/Page 02/Emp Details/Directors/AMP MADAM.pdf" target="_blank" class="btn btn-outline-info btn-sm rounded-pill px-3">
+                            <i class="fa-solid fa-award me-1"></i> View Degree / Profile
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Person 4: Pathan Sir (Rubber Technologist) -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card h-100 border shadow-sm rounded-4 p-4 text-center">
+                    <div class="rounded-circle overflow-hidden mx-auto mb-3 shadow border" style="width:130px; height:130px;">
+                        <img src="assets/pp_data/Page 02/Emp Details/Pathan sir/PATHAN.jpg" alt="Rubber Technologist" class="w-100 h-100" style="object-fit:cover;">
+                    </div>
+                    <h5 class="fw-bold text-dark mb-1">Mr. Pathan</h5>
+                    <span class="badge bg-warning text-dark mb-2">Senior Rubber Technologist</span>
+                    <p class="small text-muted mb-3">Plastics & Rubber Institute specialist responsible for rubber formulation, compounding, and IRC:83 polymer vulcanization.</p>
+                    <div class="border-top pt-2">
+                        <a href="assets/pp_data/Page 02/Emp Details/Directors/Plastic Rubber Institute.pdf" target="_blank" class="btn btn-outline-warning text-dark btn-sm rounded-pill px-3">
+                            <i class="fa-solid fa-certificate me-1"></i> Plastic Rubber Inst. Cert.
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Person 5: Labhesh Bawiskar (Chemist / QA) -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card h-100 border shadow-sm rounded-4 p-4 text-center">
+                    <div class="rounded-circle overflow-hidden mx-auto mb-3 shadow border bg-primary-subtle text-primary d-flex align-items-center justify-content-center" style="width:130px; height:130px;">
+                        <i class="fa-solid fa-flask-vial fa-3x"></i>
+                    </div>
+                    <h5 class="fw-bold text-dark mb-1">Labhesh Bawiskar</h5>
+                    <span class="badge bg-danger mb-2">Quality Chemist & Testing Officer</span>
+                    <p class="small text-muted mb-3">M.Sc degree holder supervising physical/chemical polymer analysis, tensile tests, and ageing ovens.</p>
+                    <div class="border-top pt-2">
+                        <a href="assets/pp_data/Page 02/Emp Details/Labhesh/msc degree certificate OF LASBESH BAWISKAR (1).jpg" target="_blank" class="btn btn-outline-danger btn-sm rounded-pill px-3">
+                            <i class="fa-solid fa-graduation-cap me-1"></i> View M.Sc Degree
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Person 6: Nitin Pandey (Production / QC) -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card h-100 border shadow-sm rounded-4 p-4 text-center">
+                    <div class="rounded-circle overflow-hidden mx-auto mb-3 shadow border" style="width:130px; height:130px;">
+                        <img src="assets/pp_data/Page 02/Emp Details/Nitin Pandey/IMG-20260921-WA0011 (1).jpg" alt="Production QC" class="w-100 h-100" style="object-fit:cover;">
+                    </div>
+                    <h5 class="fw-bold text-dark mb-1">Nitin Pandey</h5>
+                    <span class="badge bg-secondary mb-2">Production & Quality Supervisor</span>
+                    <p class="small text-muted mb-3">Managing hydraulic vulcanizing presses, steel plate preparation, mould loading, and daily batch QC logs.</p>
+                    <div class="border-top pt-2">
+                        <a href="assets/pp_data/Page 02/Emp Details/Nitin Pandey/Certificate.pdf" target="_blank" class="btn btn-outline-secondary btn-sm rounded-pill px-3">
+                            <i class="fa-solid fa-file-circle-check me-1"></i> View Certificate
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Person 7: Ancy Madam (Commercial & Accounts) -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card h-100 border shadow-sm rounded-4 p-4 text-center">
+                    <div class="rounded-circle overflow-hidden mx-auto mb-3 shadow border" style="width:130px; height:130px;">
+                        <img src="assets/pp_data/Page 02/Emp Details/Ancy Madam/IMG_20240704_172145.jpg" alt="Commercial Manager" class="w-100 h-100" style="object-fit:cover;">
+                    </div>
+                    <h5 class="fw-bold text-dark mb-1">Ancy Madam</h5>
+                    <span class="badge bg-primary mb-2">Commercial & Accounts Manager</span>
+                    <p class="small text-muted mb-3">B.Com qualification, managing commercial dispatch, billing, GST compliance, and project client coordination.</p>
+                    <div class="border-top pt-2">
+                        <a href="assets/pp_data/Page 02/Emp Details/Ancy Madam/B.ComIII.pdf" target="_blank" class="btn btn-outline-primary btn-sm rounded-pill px-3">
+                            <i class="fa-solid fa-graduation-cap me-1"></i> View B.Com Degree
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Proposed Bearing Types Section with Actual Drawings & Diagrams -->
+<section class="py-5" id="bearing-types" style="background:#f1f5f9;">
+    <div class="container-fluid px-3 px-lg-5 py-3">
+        <div class="section-title text-center mb-5">
+            <span class="badge bg-primary text-white px-3 py-2 mb-2 text-uppercase fw-bold">Bearing Configurations</span>
+            <h2 class="fw-bold text-dark">Proposed Bearing Types & Technical Drawings</h2>
+            <p class="text-muted mx-auto" style="max-width:700px;">Standard configurations manufactured in accordance with IRC:83 (Part II), UIC 772-2R, and RDSO bridge designs.</p>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-3">
+                <div class="p-3 bg-white rounded-3 shadow-sm border h-100 text-center">
+                    <img src="assets/pp_data/Page 02/Bearing types/TYPE A PAD.png" alt="Type A Plain Pad" class="img-fluid rounded mb-3" style="height:170px; width:100%; object-fit:contain; background:#f8fafc; padding:10px;">
+                    <h6 class="fw-bold text-dark">Type A (Plain Elastomeric Pad)</h6>
+                    <p class="small text-muted mb-0">Un-reinforced plain elastomer pad for light load spans & precast seating.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="p-3 bg-white rounded-3 shadow-sm border h-100 text-center">
+                    <img src="assets/pp_data/Page 02/Bearing types/Elastomeric-Bridge TYPE B.jpg" alt="Type B Laminated Bearing" class="img-fluid rounded mb-3" style="height:170px; width:100%; object-fit:contain; background:#f8fafc; padding:10px;">
+                    <h6 class="fw-bold text-dark">Type B (Standard Laminated Bearing)</h6>
+                    <p class="small text-muted mb-0">Standard multi-layer steel reinforced elastomeric bearing for highway & railway bridges.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="p-3 bg-white rounded-3 shadow-sm border h-100 text-center">
+                    <img src="assets/pp_data/Page 02/Bearing types/Type B & C.jpg" alt="Type B & C Laminated" class="img-fluid rounded mb-3" style="height:170px; width:100%; object-fit:contain; background:#f8fafc; padding:10px;">
+                    <h6 class="fw-bold text-dark">Type C (Outer Steel Plate Bearing)</h6>
+                    <p class="small text-muted mb-0">Equipped with thick outer top/bottom steel anchor plates for fixing to structure.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="p-3 bg-white rounded-3 shadow-sm border h-100 text-center">
+                    <img src="assets/pp_data/Page 02/Bearing types/TYPE F.png" alt="Type F Sliding Bearing" class="img-fluid rounded mb-3" style="height:170px; width:100%; object-fit:contain; background:#f8fafc; padding:10px;">
+                    <h6 class="fw-bold text-dark">Type F (PTFE Sliding Bearing)</h6>
+                    <p class="small text-muted mb-0">Dimpled PTFE & stainless steel sliding plate for high horizontal translation.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<?php include './partials/footer.php' ?>
+<?php include './partials/script.php' ?>
+</body>
+</html>

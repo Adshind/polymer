@@ -1,0 +1,245 @@
+.ht-testimonials {
+  &-area-2 {
+    background: $theme-color-5;
+    position: relative;
+    z-index: 1;
+
+    .bg-shape {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: -1;
+    }
+  }
+  &-wrapper {
+    padding: 100px;
+    background: $theme-color-5;
+    border-radius: 20px;
+
+    @include breakpoint(max-lg) {
+      padding: 50px;
+    }
+  }
+  &-item {
+    padding-left: 70px;
+    border-left: 1px solid $border-color;
+
+    @include breakpoint(max-lg) {
+      padding-left: 0;
+      border-color: transparent;
+    }
+
+    &-2 {
+      background: $white;
+      border: 1px solid rgba(6, 50, 49, 0.3);
+      border-radius: 20px;
+      margin-left: 0;
+      padding: 40px 20px;
+      margin-top: 23px;
+    }
+
+    .star {
+      i {
+        color: $theme-color-2;
+      }
+    }
+
+    .desc {
+      margin-top: 2px;
+      font-size: 24px;
+      font-weight: 800;
+      line-height: 150%;
+
+      @media only screen and (min-width: 992px) and (max-width: 1199px) {
+        font-size: 18px;
+      }
+
+      @include breakpoint(max-sm) {
+        font-size: 15px;
+      }
+
+      &-2 {
+        margin-top: 10px;
+        font-size: 16px;
+        font-weight: 500;
+      }
+    }
+  }
+  &-author {
+    margin-top: 50px;
+
+    &-2 {
+      margin-top: 36px;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .author-info {
+      .role {
+        margin-top: -2px;
+      }
+    }
+  }
+}
+
+.testimonial-slides-wrapper {
+  .testimonial-slides-item {
+    text-align: center;
+
+    p {
+      margin-top: 8px;
+      font-size: 40px;
+      font-family: $body-font;
+      line-height: 1.2;
+
+      @include breakpoint(max-xl){
+        font-size: 38px;
+      }
+
+      @include breakpoint(max-lg){
+        font-size: 35px;
+      }
+
+      @include breakpoint(max-xs){
+        font-size: 20px;
+      }
+
+    }
+    .info {
+      margin-top: 25px;
+    }
+  }
+
+  .swiper-testi-btn {
+    .testi-slides {
+      &-prev,
+      &-next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 60px;
+        height: 60px;
+        background: $theme-color;
+        color: $white;
+        @include flex;
+        border-radius: 50%;
+        cursor: pointer;
+        @include breakpoint(max-xs){
+          display: none;
+        }
+      }
+      &-prev {
+        left: 20%;
+        @include transition;
+
+        @media only screen and (min-width:1200px) and (max-width:1600px){
+          left: 12%;
+        }
+
+        @include breakpoint(max-xl){
+          left: 10%;
+        }
+
+        @include breakpoint(max-lg){
+          left: 5%;
+        }
+
+        &:hover {
+          background: $theme-color-3;
+          color: $theme-color;
+        }
+      }
+
+      &-next {
+        right: 20%;
+        background: $theme-color-3;
+        color: $theme-color;
+        @include transition;
+
+         @media only screen and (min-width:1200px) and (max-width:1600px){
+          right: 12%;
+        }
+
+        @include breakpoint(max-xl){
+          right: 10%;
+        }
+
+        @include breakpoint(max-lg){
+          right: 5%;
+        }
+
+        &:hover {
+          background: $theme-color;
+          color: $white;
+        }
+      }
+    }
+  }
+}
+
+// slider button style
+
+.ht-testi-btn {
+  margin-top: 120px;
+  display: flex;
+  gap: 10px;
+
+  @media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    margin-top: 195px;
+  }
+
+  @include breakpoint(max-xl) {
+    margin-top: 155px;
+  }
+
+  @include breakpoint(max-lg) {
+    margin-top: 50px;
+  }
+
+  .ht-testi-prev,
+  .ht-testi-next {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: $white;
+
+    color: $theme-color;
+    @include transition;
+    cursor: pointer;
+  }
+
+  .ht-testi-prev {
+    &:hover {
+      background: $theme-color-2;
+      color: $white;
+    }
+    &-2 {
+      background: $white;
+      color: $theme-color;
+
+      &:hover {
+        background: $theme-color-2;
+      }
+    }
+  }
+  .ht-testi-next {
+    background: $theme-color-2;
+    color: $white;
+    &:hover {
+      background: $white;
+      color: $theme-color;
+    }
+
+    &-2 {
+      background: $white;
+      color: $theme-color;
+
+      &:hover {
+        background: $theme-color-2;
+        color: $white;
+      }
+    }
+  }
+}

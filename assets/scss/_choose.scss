@@ -1,0 +1,71 @@
+.ht-choose {
+  &-area {
+    background: $theme-color;
+  }
+  &-left {
+    .content {
+      h2 {
+        color: $white;
+      }
+      p {
+        margin-top: 7px;
+        color: $white;
+      }
+
+      .ht-btn {
+        margin-top: 30px;
+      }
+    }
+    .thumb {
+      margin-top: 54px;
+
+      img {
+        @include imgw;
+        border-radius: 18px;
+      }
+    }
+  }
+
+  &-right {
+    margin-left: 40px;
+
+    @include breakpoint(max-lg){
+        margin-left: 0;
+    }
+
+    .single-item {
+      display: flex;
+      gap: 20px;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 30px;
+      border-radius: 18px;
+      @include transition;
+
+      @media only screen and (max-width:375px){
+        gap: 10px;
+        padding: 18px;
+      }
+      @media only screen and (max-width:320px){
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 20px;
+      }
+
+      &:not(:last-child){
+        margin-bottom: 24px;
+      }
+
+      .content {
+        h3 {
+          color: $white;
+        }
+        p {
+          color: $white;
+        }
+    }
+    &:hover {
+        background: $theme-color-2;
+    }
+    }
+  }
+}

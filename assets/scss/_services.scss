@@ -1,0 +1,397 @@
+.ht-services {
+  &-items {
+    padding: 40px 30px;
+    border-radius: 20px;
+    background: $theme-color-5;
+
+    @include breakpoint(max-md) {
+      padding: 15px;
+    }
+
+    .icon {
+      background: $theme-color-3;
+      width: 80px;
+      height: 80px;
+      @include flex;
+      border-radius: 12px;
+      @include transition;
+    }
+
+    .title {
+      margin-top: 50px;
+      text-transform: uppercase;
+      position: relative;
+      overflow: hidden;
+      z-index: 9;
+
+      &-2 {
+        @include transition;
+
+        &:hover {
+          color: $theme-color-2;
+        }
+      }
+
+      img {
+        position: absolute;
+        top: 8px;
+        left: 30%;
+        z-index: -1;
+        opacity: 0;
+        transition: opacity 0.5s ease, left 0.5s ease;
+      }
+
+      &:hover {
+        img {
+          opacity: 1;
+        }
+        .one {
+          left: 37%;
+
+          @include breakpoint(max-xl){
+            left: 53%;
+          }
+
+          @include breakpoint(max-lg){
+            left: 76%;
+          }
+
+          @include breakpoint(max-sm){
+            left: 60%;
+          }
+        }
+        .two {
+          left: 39%;
+
+          @include breakpoint(max-xl){
+            left: 57%;
+          }
+
+          @include breakpoint(max-lg){
+            left: 80%;
+          }
+
+          @include breakpoint(max-sm){
+            left: 63%;
+          }
+        }
+        .three {
+          left: 38%;
+
+          @include breakpoint(max-xl){
+            left: 55%;
+          }
+
+          @include breakpoint(max-lg){
+            left: 80%;
+          }
+
+          @include breakpoint(max-sm){
+            left: 62%;
+          }
+        }
+        .four {
+          left: 33.5%;
+
+          @include breakpoint(max-xl){
+            left: 49%;
+          }
+
+          @include breakpoint(max-lg){
+            left: 70%;
+          }
+
+          @include breakpoint(max-sm){
+            left: 55%;
+          }
+        }
+      }
+    }
+    .desc {
+      margin-top: 10px;
+    }
+
+    .link {
+      display: inline-block;
+      margin-top: 7px;
+      font-size: 18px;
+      color: $theme-color-2;
+      text-transform: uppercase;
+      font-family: $heading-font;
+      font-weight: 600;
+      @include transition;
+
+      i {
+        transform: rotate(-45deg);
+      }
+
+      &:hover {
+        color: $theme-color;
+
+        i {
+          transform: rotate(0);
+          @include transition;
+        }
+      }
+    }
+
+    &:hover {
+      .icon {
+        background: $theme-color-2;
+
+        img {
+          filter: brightness(0) invert(1);
+        }
+      }
+    }
+  }
+}
+
+// services two
+
+.ht-services-wrapper-two {
+  margin-top: 20px;
+
+  .ht-services-thumbs {
+    position: relative;
+    img {
+      @include imgw;
+      border-radius: 18px;
+    }
+
+    .content {
+      position: absolute;
+      left: 30px;
+      bottom: 30px;
+
+      h3 {
+        color: $white;
+        margin-bottom: 18px;
+      }
+    }
+  }
+
+  .ht-services-item {
+    margin-left: 50px;
+
+    @include breakpoint(max-lg) {
+      margin-left: 0;
+      margin-top: 40px;
+    }
+
+    .single-item {
+      @include flex-between;
+      border-bottom: 1px solid rgba(6, 50, 49, 0.3);
+      padding-bottom: 35px;
+      position: relative;
+
+      @include breakpoint(max-md) {
+        flex-wrap: wrap;
+        gap: 20px;
+      }
+
+      &:not(:last-child) {
+        margin-bottom: 35px;
+      }
+
+      h3 {
+        max-width: 230px;
+
+        @media only screen and (min-width: 1200px) and (max-width: 1400px) {
+          font-size: 20px;
+          max-width: 180px;
+        }
+
+        @media only screen and (min-width: 992px) and (max-width: 1199px) {
+          max-width: 160px;
+        }
+
+        @include breakpoint(max-lg) {
+          font-size: 24px;
+          max-width: 200px;
+        }
+        @include breakpoint(max-md) {
+          max-width: 100%;
+        }
+      }
+
+      p {
+        font-size: 16px;
+        max-width: 388px;
+
+        @media only screen and (min-width: 992px) and (max-width: 1199px) {
+          max-width: 255px;
+        }
+        @include breakpoint(max-lg) {
+          max-width: 325px;
+        }
+        @include breakpoint(max-md) {
+          max-width: 100%;
+        }
+      }
+
+      a {
+        width: 80px;
+        height: 80px;
+        @include flex;
+        border-radius: 100px;
+        background: $theme-color-5;
+        @include transition;
+
+        i {
+          transform: rotate(-45deg);
+        }
+
+        &:hover {
+          background: $theme-color-2;
+          color: $white;
+        }
+      }
+
+      img {
+        border-radius: 20px;
+        position: absolute;
+        top: -50%;
+        left: 40%;
+        transform: rotate(8deg);
+        z-index: 9;
+        opacity: 0;
+        visibility: hidden;
+        @include transition;
+
+        @include breakpoint(max-md) {
+          top: 0%;
+          left: 30%;
+        }
+      }
+
+      &:hover {
+        img {
+          opacity: 1;
+          visibility: visible;
+        }
+
+        a {
+          background: $theme-color-2;
+          color: $white;
+        }
+      }
+    }
+  }
+}
+
+
+// services details
+
+.ht-service-details-area {
+  .ht-sidebar-area.v2{
+    margin-right: 20px;
+
+    @include breakpoint(max-lg){
+      margin-right: 0;
+    }
+
+    .single-contact {
+      margin-top: 60px;
+      background: $theme-color;
+      border-radius: 20px;
+      text-align: center;
+      padding: 60px 0;
+
+      @include breakpoint(max-lg){
+        margin-bottom: 50px
+      }
+      
+
+      .icon {
+        @include flex;
+        width: 90px;
+        height: 90px;
+        background: $white;
+        border-radius: 10px;
+        margin: auto;
+      }
+      .content {
+        margin-top: 20px;
+
+        h3 {
+          color: $white;
+          max-width: 240px;
+          margin: auto;
+        }
+        p {
+          margin-top: 10px;
+          color: $white;
+          font-size: 16px;
+          max-width: 320px;
+          margin: 10px auto 0;
+          
+        }
+
+        .ct-btn {
+          margin-top: 40px;
+          color: $theme-color;
+          text-transform: uppercase;
+          font-size: 18px;
+          font-family: $heading-font;
+          font-weight: 600;
+          background: $white;
+          border-radius: 6px;
+          width: 150px;
+          height: 60px;
+          line-height: 64px;
+          display: inline-block;
+          @include transition;
+
+          &:hover {
+            background: $theme-color-2;
+            color: $white;
+          }
+        }
+      }
+    }
+  }
+
+  .service-details-thumb {
+    margin-bottom: 30px;
+
+    img {
+      @include imgw;
+      border-radius: 20px;
+    }
+  }
+
+  .service-details-content {
+    
+    h3 {
+      margin-top: 45px;
+      margin-bottom: 15px;
+    }
+    .service-thumbs {
+      margin-top: 30px;
+
+      img {
+        @include imgw;
+        border-radius: 20px;
+      }
+    }
+
+    .service-details-list {
+      margin-top: 16px;
+
+      li {
+        &:not(:last-child){
+          margin-bottom: 10px;
+        }
+
+        @include breakpoint(max-xs){
+          font-size: 15px;
+        }
+
+        i {
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+}

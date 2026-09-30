@@ -1,0 +1,63 @@
+.brand-slider {
+  margin: 80px -100px 0;
+
+  @include breakpoint(max-lg) {
+    margin: 50px -50px 0;
+  }
+
+  @include breakpoint(max-xs){
+    margin: 30px -70px 0;
+  }
+
+  .brand-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    h2 {
+      font-size: 60px;
+      color: transparent;
+      -webkit-text-stroke: 1px rgba(6, 50, 49, 0.3);
+      font-style: normal;
+      font-weight: 600;
+      line-height: 66px;
+      letter-spacing: -1.2px;
+      transition: all 0.3s ease;
+
+      @media (min-width: 1400px) and (max-width: 1600px) {
+        font-size: 55px;
+      }
+
+      @include breakpoint(max-xxl) {
+        font-size: 44px;
+      }
+
+      @include breakpoint(max-xl) {
+        font-size: 40px;
+      }
+
+      @include breakpoint(max-lg) {
+        font-size: 30px;
+      }
+
+      @include breakpoint(max-xs){
+        font-size: 17px;
+      }
+    }
+
+    img {
+      @include breakpoint(max-lg){
+        max-width: 10%;
+      }
+    }
+  }
+}
+
+.ht-brand-slider {
+  .swiper-slide-active {
+    h2 {
+      color: $theme-color;
+      -webkit-text-stroke: 0;
+    }
+  }
+}

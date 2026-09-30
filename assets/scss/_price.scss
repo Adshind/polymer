@@ -1,0 +1,143 @@
+.ht-price {
+  &-content {
+    margin-right: 100px;
+
+    @include breakpoint(max-lg){
+      margin-right: 0;
+    }
+
+    .section-title {
+      p {
+        margin-top: 7px;
+      }
+    }
+
+    .ht-btn {
+      @include breakpoint(max-md) {
+        margin-top: 20px;
+      }
+    }
+  }
+  &-item {
+    @include breakpoint(max-lg) {
+      margin-top: 30px;
+    }
+    .single-item {
+      @include flex-center;
+      padding: 20px;
+      border: 1px solid $border-color;
+      border-radius: 20px;
+      gap: 20px;
+      @include transition;
+
+      @media only screen and (min-width: 992px) and (max-width: 1400px) {
+        flex-wrap: wrap;
+      }
+
+      @include breakpoint(max-md) {
+        flex-wrap: wrap;
+      }
+
+      &.style-2 {
+        background: $theme-color;
+        @include transition;
+
+        .left {
+          span {
+            color: $theme-color-3;
+          }
+          h2 {
+            color: $white;
+            span {
+              color: $white;
+              @include transition;
+            }
+          }
+          .link {
+            &:hover {
+              color: $theme-color-3;
+            }
+          }
+        }
+
+        .right {
+          .price-details {
+            li {
+              color: $white;
+              @include transition;
+            }
+          }
+        }
+      }
+
+      &:not(:last-child) {
+        margin-bottom: 20px;
+      }
+
+      .left {
+        border-right: 1px solid $border-color;
+        padding-right: 20px;
+
+        @media only screen and (min-width: 992px) and (max-width: 1400px) {
+          border: none;
+        }
+
+        @include breakpoint(max-md) {
+          border: none;
+        }
+
+        h2 {
+          span {
+            font-size: 18px;
+            text-transform: lowercase;
+            font-family: $body-font;
+            font-weight: 400;
+            @include transition;
+          }
+        }
+        .link {
+          display: inline-block;
+          margin-top: 14px;
+          color: $theme-color-2;
+          text-transform: uppercase;
+          font-family: $heading-font;
+          font-weight: 600;
+          @include transition;
+
+          i {
+            transform: rotate(-45deg);
+          }
+
+          &:hover {
+            color: $theme-color;
+
+            i {
+              transform: rotate(0);
+              @include transition;
+            }
+          }
+        }
+      }
+
+      .right {
+        .price-details {
+          display: flex;
+          flex-wrap: wrap;
+          row-gap: 15px;
+          li {
+            width: 50%;
+
+            @include breakpoint(max-xs) {
+              width: 100%;
+            }
+
+            i {
+              margin-right: 5px;
+              color: $theme-color-3;
+            }
+          }
+        }
+      }
+    }
+  }
+}

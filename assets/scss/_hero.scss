@@ -1,0 +1,357 @@
+.ht-hero {
+  &-area {
+    padding: 272px 0 152px;
+    position: relative;
+    z-index: 2;
+
+    @include breakpoint(max-lg) {
+      padding-bottom: 0;
+    }
+    @include breakpoint(max-md) {
+      padding-top: 170px;
+    }
+  }
+
+  &-shape {
+    .arrow-shape {
+      position: absolute;
+      top: 23%;
+      right: 36%;
+      z-index: -1;
+
+      @include breakpoint(xxxl) {
+        right: 40%;
+      }
+
+      @media only screen and (min-width: 1200px) and (max-width: 1400px) {
+        top: 33%;
+        right: 40%;
+      }
+
+      @include breakpoint(max-lg) {
+        display: none;
+      }
+    }
+    .arrow-shape-3 {
+      position: absolute;
+      left: 30%;
+      bottom: 12%;
+      transform: rotate(-11deg);
+
+      @include breakpoint(max-lg) {
+        display: none;
+      }
+    }
+  }
+
+  &-content {
+    h1 {
+      color: $white;
+      text-transform: uppercase;
+
+      span {
+        color: $theme-color-3;
+      }
+    }
+
+    .desc {
+      margin: 7px 0 32px;
+      font-size: 20px;
+      color: $white;
+    }
+
+    &.style-2 {
+      h1 {
+        color: $theme-color;
+
+        @include breakpoint(max-xl) {
+          font-size: 70px;
+        }
+
+        @media only screen and (max-width: 350px) {
+          font-size: 55px;
+        }
+      }
+      .desc {
+        color: $theme-color;
+      }
+    }
+  }
+
+  &-img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+
+    @include breakpoint(xxxl) {
+      right: 11%;
+      height: 904px;
+    }
+
+    @media only screen and (min-width: 1200px) and (max-width: 1400px) {
+      max-width: 600px;
+      width: 100%;
+    }
+
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      max-width: 500px;
+      width: 100%;
+    }
+
+    @include breakpoint(max-lg) {
+      position: unset;
+      right: unset;
+      bottom: unset;
+      max-width: 100%;
+    }
+
+    img {
+      @include imgw;
+    }
+  }
+
+  &-counter {
+    .count-card {
+      max-width: 250px;
+      padding: 20px 28px;
+      border-radius: 20px;
+      background: rgba(255, 255, 255, 0.06);
+      box-shadow: 0 30px 90px 0 rgba(4, 31, 31, 0.3);
+      backdrop-filter: blur(30px);
+      position: absolute;
+      right: 38%;
+      bottom: 15%;
+
+      @media only screen and (min-width: 1200px) and (max-width: 1400px) {
+        right: 43%;
+        bottom: 9%;
+      }
+
+      @media only screen and (min-width: 992px) and (max-width: 1199px) {
+        bottom: 6%;
+      }
+
+      @media only screen and (max-width: 768px) {
+        left: 0px;
+        bottom: 9%;
+      }
+
+      @include breakpoint(max-sm) {
+        left: 0;
+        bottom: 13px;
+      }
+
+      &-2 {
+        padding: 20px 28px;
+        border-radius: 20px;
+        background: rgba(255, 255, 255, 0.06);
+        box-shadow: 0 30px 90px 0 rgba(4, 31, 31, 0.3);
+        backdrop-filter: blur(30px);
+        position: absolute;
+        max-width: 280px;
+        right: 12%;
+        bottom: 24%;
+
+        @media only screen and (min-width: 1200px) and (max-width: 1400px) {
+          right: 1%;
+          bottom: 18%;
+        }
+        @media only screen and (min-width: 992px) and (max-width: 1199px) {
+          bottom: 18%;
+          right: 9px;
+        }
+
+        @media only screen and (max-width: 768px) {
+          right: 20px;
+          bottom: 18%;
+        }
+
+        @include breakpoint(max-sm) {
+          right: 0;
+          bottom: 9%;
+        }
+
+        h2 {
+          color: $white;
+        }
+
+        p {
+          font-size: 16px;
+          color: $white;
+        }
+      }
+
+      h2 {
+        color: $white;
+      }
+
+      p {
+        font-size: 16px;
+        color: $white;
+      }
+    }
+  }
+}
+
+// hero two
+
+.hero-2 {
+  background: $theme-color-5;
+  padding: 200px 0 130px;
+  position: relative;
+
+  .shape-two {
+    position: absolute;
+    left: 33%;
+    bottom: 13%;
+    z-index: -1;
+
+    @include breakpoint(max-lg) {
+      display: none;
+    }
+  }
+
+  @include breakpoint(max-xxl) {
+    padding: 120px 0 100px;
+  }
+
+  @include breakpoint(max-xl) {
+    padding: 100px 0 100px;
+  }
+
+  .hero-img {
+    margin-left: 100px;
+    position: relative;
+
+    @include breakpoint(max-xl) {
+      margin-left: 30;
+    }
+    @include breakpoint(max-lg) {
+      margin-left: 0;
+    }
+
+    img {
+      @include imgw;
+      border-radius: 18px;
+    }
+
+    .sm-img {
+      position: absolute;
+      right: 40px;
+      bottom: 40px;
+
+      @include breakpoint(max-md) {
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+  }
+}
+
+// hero 3
+
+.hero-3 {
+  padding: 300px 0 275px;
+
+  @include breakpoint(max-lg) {
+    padding: 150px 0;
+  }
+
+  @include breakpoint(max-md) {
+    padding: 100px 0;
+  }
+
+  .video-card {
+    padding: 15px;
+    border-radius: 20px;
+    background: $white;
+    max-width: 530px;
+    position: absolute;
+    right: 30px;
+    bottom: 60px;
+
+    @include breakpoint(max-xl) {
+      bottom: 20px;
+    }
+
+    @include breakpoint(max-lg) {
+      margin-top: 50px;
+      position: unset;
+    }
+
+    @include breakpoint(max-md) {
+      margin-top: 50px;
+      position: relative;
+      right: unset;
+      bottom: unset;
+    }
+
+    .thumb {
+      position: relative;
+
+      img {
+        @include imgw;
+        border-radius: 12px;
+      }
+    }
+
+    .txt {
+      margin-top: 7px;
+      @include flex-between;
+      align-items: center;
+
+      span {
+        text-transform: uppercase;
+        font-weight: 600;
+      }
+    }
+
+    .play-icon {
+      width: 100px;
+      height: 100px;
+      border-radius: 100px;
+      background: $theme-color-3;
+      @include flex;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 9;
+
+      @include breakpoint(max-lg) {
+        top: 68%;
+        left: 37%;
+      }
+
+      @include breakpoint(max-xs) {
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .icon {
+        position: absolute;
+        border: 1px solid $theme-color;
+        width: 50px;
+        height: 50px;
+        @include flex;
+        border-radius: 100px;
+      }
+
+      img {
+        animation: spin 12s linear infinite;
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+.ht-breadcrumb-area {
+  background: $theme-color;
+
+  .ht-breadcrumb-heading {
+    padding: 250px 0 150px;
+    text-align: center;
+
+    @include breakpoint(max-lg) {
+      padding: 180px 0 100px;
+    }
+
+    @include breakpoint(max-xs) {
+      padding: 180px 0 80px;
+    }
+  }
+  .ht-breadcrumb-title {
+    color: $white;
+    font-size: 80px;
+
+    @include breakpoint(max-xs) {
+      font-size: 50px;
+    }
+  }
+
+  .ht-breadcrumb-list {
+    margin-top: 10px;
+    @include flex;
+    gap: 10px;
+
+    li {
+      a,
+      i {
+        color: $white;
+
+        &:hover {
+          color: $theme-color-2;
+        }
+      }
+
+      &.active {
+        color: $theme-color-3;
+        text-transform: capitalize;
+      }
+    }
+  }
+}

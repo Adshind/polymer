@@ -1,0 +1,280 @@
+.ht-project {
+  &-area {
+    &-2 {
+      .section-title-area {
+        margin-bottom: 30px;
+
+        @include breakpoint(max-md) {
+          margin-bottom: 0;
+        }
+      }
+    }
+    .project-slide-wrapper {
+      margin-right: -670px;
+
+      @media only screen and (min-width: 1400px) and (max-width: 1600px) {
+        margin-right: -300px;
+      }
+
+      @media only screen and (min-width: 1200px) and (max-width: 1400px) {
+        margin-right: -500px;
+      }
+
+      @include breakpoint(max-xl) {
+        margin-right: -700px;
+      }
+
+      @include breakpoint(max-xs) {
+        margin-right: 0;
+      }
+
+      &.inner-two {
+        margin-right: 0;
+      }
+
+      .single-item {
+        &.v2 {
+          &:hover {
+            .thumb {
+              .content {
+                opacity: 1;
+                transform: translateY(0);
+              }
+            }
+          }
+        }
+
+        .thumb {
+          position: relative;
+          overflow: hidden;
+          z-index: 1;
+          border-radius: 20px;
+
+          img {
+            border-radius: 20px;
+            @include imgw;
+          }
+
+          .content {
+            background: $white;
+            padding: 20px;
+            border-radius: 20px;
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            right: 20px;
+            transform: translateY(120%);
+            opacity: 0;
+            transition: transform 0.6s ease, opacity 0.6s ease;
+
+            h3 {
+              &:hover {
+                color: $theme-color-2;
+              }
+            }
+
+            .bottom {
+              @include flex-between;
+
+              p {
+                font-size: 16px;
+              }
+
+              a {
+                img {
+                  border-radius: 0;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      // swiper slide active content show
+      .swiper-slide.swiper-slide-active {
+        .single-item {
+          .thumb {
+            .content {
+              opacity: 1;
+              transform: translateY(0);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &-wrapper {
+    margin-top: 55px;
+    .single-item {
+      .thumb {
+        img {
+          @include imgw;
+          border-radius: 20px;
+        }
+      }
+
+      .content {
+        margin-top: 25px;
+
+        h4 {
+          &:hover {
+            color: $theme-color-2;
+          }
+        }
+
+        span {
+          margin-top: 15px;
+          display: inline-block;
+          font-size: 16px;
+          line-height: 1;
+          width: max-content;
+          height: max-content;
+          background: $white;
+          border: 1px solid rgba(6, 50, 49, 0.1);
+          border-radius: 100px;
+          padding: 5px 16px;
+        }
+      }
+    }
+
+    .project-btn {
+      margin-top: 80px;
+      border: 1px solid rgba(6, 50, 49, 0.3);
+      border-radius: 50%;
+      width: 160px;
+      height: 160px;
+      @include flex;
+      font-size: 18px;
+      line-height: 20px;
+      font-weight: 600;
+      text-align: center;
+      @include transition;
+
+      &:hover {
+        background: $theme-color-2;
+        color: $white;
+        border-color: transparent;
+      }
+
+      @include breakpoint(max-xs) {
+        margin-top: 50px;
+      }
+    }
+  }
+}
+
+// slider button style
+
+.ht-project-btn {
+  @include breakpoint(max-lg) {
+    margin-bottom: 0;
+  }
+
+  .ht-project-prev,
+  .ht-project-next {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: $white;
+    border: 1px solid $border-color;
+    color: $theme-color;
+    @include transition;
+    cursor: pointer;
+  }
+
+  .ht-project-prev {
+    &:hover {
+      background: $theme-color-2;
+      color: $white;
+    }
+  }
+  .ht-project-next {
+    background: $theme-color-2;
+    color: $white;
+    &:hover {
+      background: $white;
+      color: $theme-color;
+    }
+  }
+}
+
+// project details area
+.ht-project-details-area {
+  .project-details-wrapper {
+    .thumbnails {
+      img {
+        @include imgw;
+        border-radius: 20px;
+      }
+    }
+
+    .project-details-content {
+      margin-top: 60px;
+      margin-right: 50px;
+
+      @include breakpoint(max-xl){
+        margin-right: 0;
+      }
+
+      .project-thumbs {
+        margin-top: 40px;
+        img {
+          @include imgw;
+          border-radius: 20px;
+        }
+      }
+
+      h3 {
+        margin-top: 48px;
+        margin-bottom: 10px;
+      }
+    }
+
+    .project-details-sidebar {
+      margin-top: 60px;
+      background: $theme-color-5;
+      border-radius: 20px;
+
+      .widget-title {
+        display: block;
+        font-family: $secondary-font;
+        text-transform: capitalize;
+        background: $theme-color-2;
+        color: $white;
+        padding: 15px 30px;
+        border-radius: 20px 20px 0 0;
+      }
+
+      .widget-item-wrapper {
+        padding: 20px 30px 40px;
+        .single-widget {
+          @include flex-center;
+          gap: 12px;
+
+          &:not(:last-child) {
+            border-bottom: 1px solid $border-color;
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+          }
+
+          .icon {
+            @include flex;
+            width: 50px;
+            height: 50px;
+            background: $theme-color;
+            border-radius: 50%;
+          }
+          .info {
+            span {
+              font-size: 16px;
+            }
+            h6 {
+              margin-top: -3px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

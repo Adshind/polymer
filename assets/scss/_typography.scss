@@ -1,0 +1,156 @@
+/* --------------------------------------------
+    Template Default Fonts & Fonts Styles
+ ---------------------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+$heading-font: 'Oswald', sans-serif;
+$body-font: 'Plus Jakarta Sans', sans-serif;
+$secondary-font: 'Space Grotesk', sans-serif;
+
+
+body {
+  font-family: $body-font;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: $text-color;
+  background-color: $white;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}
+
+input:focus {
+  color: $text-color;
+  outline: none;
+}
+
+input {
+  color: $text-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $heading-font;
+  font-weight: 600;
+  margin: 0px;
+  padding: 0;
+  color: $header-color;
+  text-transform: uppercase;
+  @include transition;
+}
+
+h1 {
+  font-size: 100px;
+  line-height: 106%;
+  letter-spacing: -2px;
+
+  @include breakpoint(max-xxxl) {
+    font-size: 90px;
+  }
+
+  @include breakpoint(max-lg) {
+    font-size: 80px;
+  }
+
+  @include breakpoint(max-md) {
+    font-size: 70px;
+  }
+
+  @include breakpoint(max-sm) {
+    font-size: 60px;
+  }
+
+  @media only screen and (max-width: 380px) {
+    font-size: 55px !important;
+  }
+}
+
+h2 {
+  font-size: 60px;
+  line-height: 110%;
+  font-weight: 600;
+  letter-spacing: -1.2px;
+
+  @include breakpoint(max-xl) {
+    font-size: 50px;
+  }
+
+  @include breakpoint(max-lg) {
+    font-size: 45px;
+  }
+
+  @include breakpoint(max-md) {
+    font-size: 35px;
+  }
+
+  @include breakpoint(max-sm) {
+    font-size: 30px;
+  }
+}
+
+h3 {
+  font-size: 28px;
+  line-height: 121%;
+  letter-spacing: -0.56px;
+
+  @include breakpoint(max-sm) {
+    font-size: 25px;
+  }
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 125%;
+  letter-spacing: -0.48px;
+
+  @include breakpoint(max-xl) {
+    font-size: 20px;
+  }
+}
+
+h5 {
+  font-size: 20px;
+  line-height: 160%;
+}
+
+h6 {
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  outline: none !important;
+  cursor: pointer;
+  color: $header-color;
+  @include transition;
+}
+
+p {
+  margin: 0px;
+  @include transition;
+}
+
+span {
+  margin: 0px;
+  @include transition;
+}

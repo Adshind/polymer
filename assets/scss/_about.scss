@@ -1,0 +1,69 @@
+.ht-about {
+  &-img {
+    img {
+      @include imgw;
+      border-radius: 20px;
+    }
+
+    &-2 {
+      position: relative;
+      .client-review {
+        position: absolute;
+        left: 30px;
+        bottom: 40px;
+        background: $theme-color-3;
+        padding: 20px 50px;
+        display: inline-block;
+        border-radius: 10px;
+        text-align: center;
+
+        @include breakpoint(max-xs) {
+          left: 10px;
+          bottom: 5px;
+        }
+
+        h2 {
+          font-size: 60px;
+        }
+        p {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+  &-content {
+    &.style-2 {
+      margin-left: 100px;
+
+      @include breakpoint(max-lg) {
+        margin-left: 0;
+      }
+
+      .client-reviews {
+        margin-top: 20px;
+      }
+    }
+
+    .section-title {
+      p {
+        margin-top: 10px;
+      }
+    }
+
+    .ht-btn {
+      @include breakpoint(max-md) {
+        margin-top: 30px;
+      }
+    }
+
+    .client-reviews {
+      margin-bottom: 35px;
+      display: flex;
+      gap: 48px;
+
+      @media only screen and (max-width: 320px) {
+        gap: 20px;
+      }
+    }
+  }
+}

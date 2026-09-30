@@ -1,0 +1,128 @@
+.ht-offcanvas {
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  right: 0;
+  width: 400px;
+  height: 100%;
+  background: $white;
+  padding: 50px 40px;
+  transform: translateX(100%);
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+  overflow-y: scroll;
+  overscroll-behavior-y: contain;
+  scrollbar-width: none;
+
+  @media only screen and (max-width: 400px) {
+    width: 100%;
+    padding: 30px;
+  }
+
+  &-open {
+    transform: translateX(0);
+    opacity: 1;
+    visibility: visible;
+  }
+
+  &-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & button i {
+      font-size: 30px;
+      color: $theme-color;
+      transition: 0.3s;
+      &:hover {
+        transform: rotate(180deg);
+      }
+    }
+  }
+
+  &-menu {
+    ul {
+      li {
+        position: relative;
+
+        > a {
+          display: block;
+          padding: 10px 0;
+          font-size: 16px;
+          border-bottom: 1px solid $border-color-2;
+          color: $theme-color;
+          transition: color 0.3s;
+          text-transform: uppercase;
+          font-family: $heading-font;
+          font-weight: 500;
+        }
+
+        &.active > a {
+          color: $theme-color;
+        }
+
+        .sub-menu {
+          display: none;
+          padding-left: 20px;
+
+          li > a {
+           color: $theme-color;
+            &:hover {
+              color: $theme-color-2;
+            }
+          }
+        }
+
+        .ht-menu-close {
+          position: absolute;
+          top: 9px;
+          right: 0;
+          width: 30px;
+          height: 30px;
+          font-size: 14px;
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border: 1px solid $border-color-2;
+          background-color: $theme-color;
+          color: $white;
+          transition: 0.3s;
+
+          & i {
+            transition: 0.3s;
+          }
+        }
+
+        &.active > .ht-menu-close {
+          border-color: $theme-color;
+          background-color: $theme-color;
+          color: #fff;
+
+          & i {
+            transform: rotate(90deg);
+          }
+        }
+      }
+    }
+  }
+
+  &-overlay {
+    position: fixed;
+    z-index: 50;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+
+    &-open {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+}
