@@ -62,7 +62,7 @@
                     <!-- Brand Logo -->
                     <div class="ht-menu-logo me-4 me-xxl-5">
                         <a href="index.html" class="d-flex align-items-center text-decoration-none logo-anim">
-                            <img src="assets/img/img/banner/polymer-logo.png" alt="Polymer Products Logo" style="height: 60px; width: auto; object-fit: contain;">
+                            <img src="assets/img/img/banner/polymer-logo-new.webp" alt="Polymer Products Logo" style="height: 60px; width: auto; object-fit: contain;">
                         </a>
                     </div>
                     <!-- Desktop Navigation Menu -->
@@ -78,7 +78,7 @@
                                     <ul class="sub-menu">
                                         <li class="${isActive('about.html')}"><a href="about.html">Company Overview</a></li>
                                         <li><a href="index.html#certifications">Statutory & Quality Approvals</a></li>
-                                        <li><a href="about.html#sister-concern">Sister Concern (Dynamic Prestress)</a></li>
+                                        <li><a href="about.html#sister-concern">  (Dynamic Prestress)</a></li>
                                         <li><a href="about.html#our-team">Our Technical Team</a></li>
                                         <li><a href="about.html#bearing-types">Bearing Types & Applications</a></li>
                                     </ul>
@@ -135,7 +135,7 @@
         <div class="ht-offcanvas-wrapper">
             <div class="ht-offcanvas-header mb-40 d-flex justify-content-between align-items-center">
                 <a href="index.html" class="d-flex align-items-center text-decoration-none">
-                    <img src="assets/img/img/banner/polymer-logo.png" alt="Polymer Products" style="height: 48px; width: auto; object-fit: contain;">
+                    <img src="assets/img/img/banner/polymer-logo-new.webp" alt="Polymer Products" style="height: 48px; width: auto; object-fit: contain;">
                 </a>
                 <button class="ht-offcanvas-toggle-close btn-close" aria-label="Close menu"></button>
             </div>
@@ -188,7 +188,7 @@
             <div class="d-flex align-items-center">
                 <div class="footer-logo-wrap me-3 p-2 bg-white rounded-3 shadow-sm d-flex align-items-center justify-content-center"
                     style="min-width: 50px;">
-                    <img src="assets/img/img/banner/polymer-logo.png" alt="Polymer Products" style="height: 42px; width: auto; object-fit: contain;">
+                    <img src="assets/img/img/banner/polymer-logo-new.webp" alt="Polymer Products" style="height: 42px; width: auto; object-fit: contain;">
                 </div>
                 <div>
                     <h4 class="text-white mb-0 fw-bold" style="font-family:'Oswald', sans-serif; letter-spacing: 0.5px; font-size: 22px;">POLYMER PRODUCTS</h4>
@@ -199,7 +199,7 @@
             <div class="d-flex align-items-center gap-3 flex-wrap">
                 <span class="badge px-3 py-2 rounded-pill fw-semibold"
                     style="background: var(--theme-subtle); border: 1px solid var(--theme-glow); color: var(--theme-lighter); font-size: 13px;">
-                    <i class="fa-solid fa-building-shield me-2 text-primary"></i>Sister Concern: Dynamic Prestress (I) Pvt. Ltd.
+                    <i class="fa-solid fa-building-shield me-2 text-primary"></i>  Dynamic Prestress (I) Pvt. Ltd.
                 </span>
                 <a href="contact.html" class="btn btn-primary btn-sm rounded-pill px-4 py-2 fw-bold text-uppercase"
                     style="background:var(--theme-primary); border-color:var(--theme-primary); font-size:12px; letter-spacing:0.5px;">
@@ -304,7 +304,7 @@
                         <div style="font-size: 14px; color: #cbd5e1; line-height: 1.6;">
                             <span class="d-block fw-semibold text-white">Technical Inquiries:</span>
                             <a href="mailto:qc@polymerproducts.org" class="text-decoration-none text-light d-block hover-blue">qc@polymerproducts.org</a>
-                            <a href="mailto:polymerproduct@rediffmail.com" class="text-decoration-none text-light d-block hover-blue">polymerproduct@rediffmail.com</a>
+                            <a href="mailto: " class="text-decoration-none text-light d-block hover-blue"> </a>
                         </div>
                     </div>
                 </div>
