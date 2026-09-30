@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -26,6 +26,8 @@
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <!--<< Main.css >>-->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!--<< Theme Switcher CSS >>-->
+    <link rel="stylesheet" href="assets/css/theme-switcher.css">
 </head>
 
 <body class="body-color">
@@ -36,7 +38,7 @@
     <i class="fa-solid fa-arrow-up"></i>
 </button><header class="ht-header-area header-1">
     <!-- ht-top-header area start -->
-    <div class="ht-top-header" style="background:#0b57d0; border-bottom:1px solid rgba(255,255,255,0.15); padding:8px 0;">
+    <div class="ht-top-header" style="background:var(--theme-primary); border-bottom:1px solid rgba(255,255,255,0.15); padding:8px 0;">
         <div class="container-fluid px-3 px-lg-5">
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-7">
@@ -63,7 +65,7 @@
                 <div class="ht-menu-left d-flex align-items-center">
                     <div class="ht-menu-logo me-4 me-xxl-5">
                         <a href="index.html" class="d-flex align-items-center text-decoration-none logo-anim">
-                            <div class="logo-box me-2" style="background:#0b57d0; color:#fff; font-weight:800; font-size:22px; padding:6px 14px; border-radius:8px; letter-spacing:1px; box-shadow:0 3px 8px rgba(11,87,208,0.25);">PP</div>
+                            <div class="logo-box me-2" style="background:var(--theme-primary); color:#fff; font-weight:800; font-size:22px; padding:6px 14px; border-radius:8px; letter-spacing:1px; box-shadow:0 3px 8px var(--theme-glow);">PP</div>
                             <div>
                                 <span style="font-size:19px; font-weight:800; color:#1f1f1f; display:block; line-height:1.1; letter-spacing:-0.5px;">POLYMER PRODUCTS</span>
                                 <small style="font-size:11px; font-weight:600; color:#666; letter-spacing:0.5px; text-transform:uppercase;">Elastomeric Bridge Bearings</small>
@@ -118,7 +120,7 @@
                         <span class="btn-text">Contact Us</span>
                         <i class="fa-solid fa-arrow-right ms-2 btn-icon"></i>
                     </a>
-                    <button class="ht-menu-btn d-xl-none offcanvas-toggle btn border-0 p-2 ms-2" style="border-radius:8px; background:rgba(11,87,208,0.08); color:#0b57d0;" aria-label="Toggle menu">
+                    <button class="ht-menu-btn d-xl-none offcanvas-toggle btn border-0 p-2 ms-2" style="border-radius:8px; background:var(--theme-subtle); color:var(--theme-primary);" aria-label="Toggle menu">
                         <i class="fa-solid fa-bars-staggered fa-lg"></i>
                     </button>
                 </div>
@@ -200,7 +202,7 @@
 }
 
 .ht-header-area .ht-main-header .ht-menu-main ul li:hover > a.nav-link-item {
-    color: #0b57d0;
+    color: var(--theme-primary);
 }
 
 /* Remove default duplicate ::after icon (first icon) */
@@ -220,7 +222,7 @@
 
 .ht-header-area .ht-main-header .ht-menu-main ul li.has-dropdown:hover > a .dropdown-icon {
     transform: rotate(180deg);
-    color: #0b57d0;
+    color: var(--theme-primary);
 }
 
 /* Prozen Animated Submenu */
@@ -234,7 +236,7 @@
     border-radius: 14px !important;
     box-shadow: 0 14px 35px rgba(0, 0, 0, 0.12) !important;
     border: 1px solid rgba(0, 0, 0, 0.06) !important;
-    border-top: 3px solid #0b57d0 !important;
+    border-top: 3px solid var(--theme-primary) !important;
     opacity: 0;
     visibility: hidden;
     transform: translateY(15px);
@@ -269,15 +271,15 @@
 }
 
 .ht-header-area .ht-main-header .ht-menu-main ul li > .sub-menu li a:hover {
-    background: rgba(11, 87, 208, 0.08) !important;
-    color: #0b57d0 !important;
-    border-left: 3px solid #0b57d0 !important;
+    background: var(--theme-subtle) !important;
+    color: var(--theme-primary) !important;
+    border-left: 3px solid var(--theme-primary) !important;
     padding-left: 20px !important;
 }
 
 /* Prozen Animated Wipe Button (Pure White Text) */
 .header-contact-btn {
-    background: #0b57d0 !important;
+    background: var(--theme-primary) !important;
     color: #ffffff !important;
     font-size: 14px !important;
     font-weight: 600 !important;
@@ -290,7 +292,7 @@
     position: relative !important;
     overflow: hidden !important;
     z-index: 1 !important;
-    box-shadow: 0 4px 14px rgba(11, 87, 208, 0.3) !important;
+    box-shadow: 0 4px 14px var(--theme-glow) !important;
     transition: all 0.35s ease-in-out !important;
     border: none !important;
     line-height: 1.2 !important;
@@ -303,7 +305,7 @@
     left: 0 !important;
     width: 0% !important;
     height: 100% !important;
-    background: #083c91 !important;
+    background: var(--theme-hover) !important;
     z-index: -1 !important;
     border-radius: 50px !important;
     transition: width 0.4s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
@@ -324,7 +326,7 @@
 .header-contact-btn:hover {
     color: #ffffff !important;
     transform: translateY(-2px) !important;
-    box-shadow: 0 6px 20px rgba(11, 87, 208, 0.45) !important;
+    box-shadow: 0 6px 20px var(--theme-glow) !important;
 }
 
 .header-contact-btn:hover .btn-icon {
@@ -344,7 +346,7 @@
     <div class="ht-offcanvas-wrapper">
         <div class="ht-offcanvas-header mb-40 d-flex justify-content-between align-items-center">
             <a href="index.html" class="d-flex align-items-center text-decoration-none">
-                <div class="logo-box me-2" style="background:#0b57d0; color:#fff; font-weight:800; font-size:20px; padding:4px 10px; border-radius:8px;">PP</div>
+                <div class="logo-box me-2" style="background:var(--theme-primary); color:#fff; font-weight:800; font-size:20px; padding:4px 10px; border-radius:8px;">PP</div>
                 <div>
                     <span style="font-size:18px; font-weight:800; color:#1f1f1f; display:block; line-height:1.1;">POLYMER PRODUCTS</span>
                     <small style="font-size:10px; font-weight:600; color:#666;">Elastomeric Bearings</small>
@@ -366,7 +368,7 @@
                     <li class="py-2 border-bottom"><a href="experience.html" class="fw-bold text-dark text-decoration-none">Experience & Supplies (NHAI/Metro/Rail)</a></li>
                     <li class="py-2 border-bottom"><a href="storage-handling.html" class="fw-bold text-dark text-decoration-none">Storage, Handling & Installation</a></li>
                     <li class="py-2 border-bottom"><a href="application-codes.html" class="fw-bold text-dark text-decoration-none">Application Codes & Standards</a></li>
-                    <li class="pt-3"><a href="contact.html" class="d-inline-block text-white text-decoration-none fw-bold px-4 py-2" style="background:#0b57d0; border-radius:50px;">Contact Us / Request Quote &rarr;</a></li>
+                    <li class="pt-3"><a href="contact.html" class="d-inline-block text-white text-decoration-none fw-bold px-4 py-2" style="background:var(--theme-primary); border-radius:50px;">Contact Us / Request Quote &rarr;</a></li>
                 </ul>
             </nav>
         </div>
@@ -540,7 +542,7 @@
     <!-- Background Ambient Glow & Shapes -->
     <div class="footer-shape position-absolute" style="top:0; right:0; opacity:0.04; pointer-events:none;">
         <svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="200" cy="200" r="200" fill="#0b57d0"/>
+            <circle cx="200" cy="200" r="200" fill="var(--theme-primary)"/>
         </svg>
     </div>
 
@@ -548,7 +550,7 @@
         <!-- Top Brand & Group Strip -->
         <div class="footer-brand-strip p-4 mb-5 rounded-4 d-flex flex-wrap align-items-center justify-content-between gap-3" style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.08); backdrop-filter: blur(8px);">
             <div class="d-flex align-items-center">
-                <div class="logo-box me-3 d-flex align-items-center justify-content-center" style="background: #0b57d0; color: #fff; font-weight: 800; font-size: 22px; width: 50px; height: 50px; border-radius: 12px; box-shadow: 0 4px 15px rgba(11,87,208,0.4);">
+                <div class="logo-box me-3 d-flex align-items-center justify-content-center" style="background: var(--theme-primary); color: #fff; font-weight: 800; font-size: 22px; width: 50px; height: 50px; border-radius: 12px; box-shadow: 0 4px 15px var(--theme-glow);">
                     PP
                 </div>
                 <div>
@@ -558,10 +560,10 @@
             </div>
             
             <div class="d-flex align-items-center gap-3 flex-wrap">
-                <span class="badge px-3 py-2 rounded-pill fw-semibold" style="background: rgba(11,87,208,0.2); border: 1px solid rgba(11,87,208,0.4); color: #93c5fd; font-size: 13px;">
+                <span class="badge px-3 py-2 rounded-pill fw-semibold" style="background: var(--theme-subtle); border: 1px solid var(--theme-glow); color: var(--theme-lighter); font-size: 13px;">
                     <i class="fa-solid fa-building-shield me-2 text-primary"></i>Sister Concern: Dynamic Prestress (I) Pvt. Ltd.
                 </span>
-                <a href="contact.html" class="btn btn-primary btn-sm rounded-pill px-4 py-2 fw-bold text-uppercase" style="background:#0b57d0; border-color:#0b57d0; font-size:12px; letter-spacing:0.5px;">
+                <a href="contact.html" class="btn btn-primary btn-sm rounded-pill px-4 py-2 fw-bold text-uppercase" style="background:var(--theme-primary); border-color:var(--theme-primary); font-size:12px; letter-spacing:0.5px;">
                     Request Technical RFQ <i class="fa-solid fa-arrow-right ms-1"></i>
                 </a>
             </div>
@@ -587,7 +589,7 @@
                     </div>
 
                     <div class="mt-2">
-                        <a href="http://www.dynamicprestress.org" target="_blank" class="footer-web-link text-decoration-none small d-inline-flex align-items-center" style="color: #60a5fa;">
+                        <a href="http://www.dynamicprestress.org" target="_blank" class="footer-web-link text-decoration-none small d-inline-flex align-items-center" style="color: var(--theme-light);">
                             <i class="fa-solid fa-globe me-2"></i> Group Portal: www.dynamicprestress.org
                         </a>
                     </div>
@@ -627,7 +629,7 @@
                         Plant &amp; Coordinates
                     </h5>
                     <div class="footer-contact-item d-flex align-items-start mb-3">
-                        <div class="contact-icon me-3 mt-1 d-flex align-items-center justify-content-center rounded-circle flex-shrink-0" style="width: 34px; height: 34px; background: rgba(11,87,208,0.15); color: #60a5fa;">
+                        <div class="contact-icon me-3 mt-1 d-flex align-items-center justify-content-center rounded-circle flex-shrink-0" style="width: 34px; height: 34px; background: var(--theme-subtle); color: var(--theme-light);">
                             <i class="fa-solid fa-location-dot" style="font-size: 14px;"></i>
                         </div>
                         <div style="font-size: 14px; color: #cbd5e1; line-height: 1.6;">
@@ -637,7 +639,7 @@
                     </div>
 
                     <div class="footer-contact-item d-flex align-items-start mb-3">
-                        <div class="contact-icon me-3 mt-1 d-flex align-items-center justify-content-center rounded-circle flex-shrink-0" style="width: 34px; height: 34px; background: rgba(11,87,208,0.15); color: #60a5fa;">
+                        <div class="contact-icon me-3 mt-1 d-flex align-items-center justify-content-center rounded-circle flex-shrink-0" style="width: 34px; height: 34px; background: var(--theme-subtle); color: var(--theme-light);">
                             <i class="fa-solid fa-phone" style="font-size: 14px;"></i>
                         </div>
                         <div style="font-size: 14px; color: #cbd5e1; line-height: 1.6;">
@@ -648,7 +650,7 @@
                     </div>
 
                     <div class="footer-contact-item d-flex align-items-start">
-                        <div class="contact-icon me-3 mt-1 d-flex align-items-center justify-content-center rounded-circle flex-shrink-0" style="width: 34px; height: 34px; background: rgba(11,87,208,0.15); color: #60a5fa;">
+                        <div class="contact-icon me-3 mt-1 d-flex align-items-center justify-content-center rounded-circle flex-shrink-0" style="width: 34px; height: 34px; background: var(--theme-subtle); color: var(--theme-light);">
                             <i class="fa-solid fa-envelope" style="font-size: 14px;"></i>
                         </div>
                         <div style="font-size: 14px; color: #cbd5e1; line-height: 1.6;">
@@ -682,11 +684,11 @@
     display: inline-block;
 }
 .footer-link:hover {
-    color: #60a5fa !important;
+    color: var(--theme-light) !important;
     transform: translateX(4px);
 }
 .hover-blue:hover {
-    color: #60a5fa !important;
+    color: var(--theme-light) !important;
 }
 .text-muted-link {
     color: #64748b;
@@ -700,7 +702,7 @@
     display: block;
     width: 28px;
     height: 2px;
-    background: #0b57d0;
+    background: var(--theme-primary);
     margin-top: 6px;
     border-radius: 2px;
 }
@@ -727,5 +729,7 @@
 <!--<< Typed Js >>-->
 <script src="assets/js/typed.min.js"></script>
 <!--<< Main.js >>-->
-<script src="assets/js/main.js"></script></body>
+<script src="assets/js/main.js"></script>    <!--<< Live Theme Switcher JS >>-->
+    <script src="assets/js/theme-switcher.js"></script>
+</body>
 </html>

@@ -11938,4 +11938,70 @@ span {
   font-weight: 600;
 }
 
+/* Global Theme Color #f55f01 System */
+:root {
+  --ht-theme-color-2: #f55f01;
+  --bs-primary: #f55f01;
+  --bs-primary-rgb: 245, 95, 1;
+}
+
+.bg-primary {
+  background-color: #f55f01 !important;
+}
+
+.text-primary {
+  color: #f55f01 !important;
+}
+
+.border-primary {
+  border-color: #f55f01 !important;
+}
+
+.bg-primary-subtle {
+  background-color: rgba(245, 95, 1, 0.12) !important;
+  color: #f55f01 !important;
+}
+
+.btn-primary {
+  background-color: #f55f01 !important;
+  border-color: #f55f01 !important;
+  color: #ffffff !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: #d44e00 !important;
+  border-color: #d44e00 !important;
+  color: #ffffff !important;
+}
+
+.btn-outline-primary {
+  color: #f55f01 !important;
+  border-color: #f55f01 !important;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary:active {
+  background-color: #f55f01 !important;
+  border-color: #f55f01 !important;
+  color: #ffffff !important;
+}
+
+.ht-btn.style-2 {
+  background: #f55f01 !important;
+  border-color: #f55f01 !important;
+}
+
+.ht-btn.style-2:hover {
+  background: #d44e00 !important;
+  border-color: #d44e00 !important;
+}
+
+.hover-blue:hover,
+.hover-orange:hover {
+  color: #f55f01 !important;
+}
+
 /*# sourceMappingURL=style.css.map */
