@@ -36,14 +36,14 @@
                     <span class="badge px-3 py-2 mb-3" style="background: rgba(37,99,235,0.35); border: 1px solid #3b82f6; font-size:14px; letter-spacing:1px; color:#93c5fd; text-transform:uppercase; font-weight:600; backdrop-filter:blur(4px);">
                         <i class="fa-solid fa-shield-halved me-2"></i>ISO, IRC & RDSO Compliant Manufacturer
                     </span>
-                    <h1 class="wow fadeInUp text-white mb-3" data-wow-delay=".2s" style="font-size: 60px; font-weight: 800; line-height: 1.2;">
+                    <h1 class="wow fadeInUp text-white mb-3" data-wow-delay=".2s" style="font-size: 46px; font-weight: 800; line-height: 1.2;">
                         Precision <span style="color: #60a5fa; text-decoration: underline;">Elastomeric Bearings</span> & Bridge Infrastructure Solutions
                     </h1>
                     <p class="desc wow fadeInUp mb-4" data-wow-delay=".4s" style="color: #cbd5e1; font-size: 17px; line-height: 1.7;">
                         Polymer Products is an established manufacturer and supplier of Elastomeric Bearings and Seismic Pads for the civil engineering and infrastructure sector. Engineered at our state-of-the-art facility in Nashik, Maharashtra.
                     </p>
                     <div class="d-flex flex-wrap gap-3 wow fadeInUp" data-wow-delay=".6s">
-                        <!-- <a href="contact.php" class="ht-btn style-2" style="background:#2563eb; color:#fff; padding:14px 30px; border-radius:30px; font-weight:700; box-shadow:0 6px 20px rgba(37,99,235,0.35);">Request Technical RFQ</a> -->
+                        <a href="contact.php" class="ht-btn style-2" style="background:#2563eb; color:#fff; padding:14px 30px; border-radius:30px; font-weight:700; box-shadow:0 6px 20px rgba(37,99,235,0.35);">Request Technical RFQ</a>
                         <a href="about.php" class="btn btn-outline-light px-4 py-3" style="border-radius:30px; font-weight:600; backdrop-filter:blur(4px);">Explore Capabilities</a>
                     </div>
                 </div>
