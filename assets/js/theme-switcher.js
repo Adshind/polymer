@@ -4,7 +4,7 @@
  */
 
 (function () {
-    const DEFAULT_COLOR = '#f55f01';
+    const DEFAULT_COLOR = '#3691bf';
     const STORAGE_KEY = 'pp_theme_color';
 
     const COLOR_PRESETS = [
@@ -65,7 +65,7 @@
 
         try {
             localStorage.setItem(STORAGE_KEY, primaryHex);
-        } catch(e) {}
+        } catch (e) { }
 
         // Update active swatch state in UI if rendered
         document.querySelectorAll('.pp-color-swatch').forEach(btn => {

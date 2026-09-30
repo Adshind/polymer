@@ -46,7 +46,7 @@
     // ===================== Clone Main Menu to Offcanvas =====================
     var htMenuWrap = $('.ht-mobile-menu-active > ul').clone();
     var htSideMenu = $('.ht-offcanvas-menu nav');
-    htSideMenu.append(htMenuWrap);
+    htSideMenu.empty().append(htMenuWrap);
 
     // ===================== Add Close Buttons to Submenus =====================
     htSideMenu
