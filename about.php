@@ -274,12 +274,12 @@ include_once 'partials/header.php';
 
             <div class="row g-4 justify-content-center">
 
-                <!-- Member 1: M. P. Patil (Managing Director) -->
+                <!-- Member 1: M. P. Prabhu (Managing Director) -->
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".1s">
                     <div class="team-card-modern h-100 d-flex flex-column justify-content-between position-relative shadow-sm">
                         <div>
                             <div class="team-photo-wrap large-height position-relative">
-                                <img src="assets/pp_data/Page 02/Emp Details/Directors/MPP Sir.jpg" alt="M. P. Patil - Managing Director" class="team-card-img">
+                                <img src="assets/pp_data/Page 02/Emp Details/Directors/MPP Sir.jpg" alt="M. P. Prabhu - Managing Director" class="team-card-img">
                                 <div class="team-photo-overlay"></div>
                                 <div class="team-badge-icon" title="Managing Director">
                                     <i class="fa-solid fa-crown"></i>
@@ -292,7 +292,7 @@ include_once 'partials/header.php';
                             </div>
                             <div class="p-4">
                                 <div class="d-flex align-items-center justify-content-between mb-2">
-                                    <h4 class="fw-bold text-dark mb-0" style="font-family: 'Oswald', sans-serif; font-size: 22px;">M. P. Patil</h4>
+                                    <h4 class="fw-bold text-dark mb-0" style="font-family: 'Oswald', sans-serif; font-size: 22px;">M. P. Prabhu</h4>
                                     <span class="badge rounded-pill px-2.5 py-1 small" style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 11px;">
                                         Executive Head
                                     </span>
@@ -306,60 +306,19 @@ include_once 'partials/header.php';
                             <a href="assets/pp_data/Page 02/Emp Details/Directors/MD (MPP Sir).pdf" target="_blank"
                                 class="btn btn-outline-primary btn-sm rounded-pill px-3 py-2 fw-bold w-100 open-cert-modal d-flex align-items-center justify-content-center gap-2"
                                 data-doc-url="assets/pp_data/Page 02/Emp Details/Directors/MD (MPP Sir).pdf"
-                                data-doc-title="M. P. Patil - Professional Profile & Credentials"
+                                data-doc-title="M. P. Prabhu - Professional Profile & Credentials"
                                 data-doc-type="pdf">
                                 <i class="fa-solid fa-award"></i> <span>View Profile &amp; Credentials</span>
                             </a>
                         </div>
                     </div>
                 </div>
-
-                <!-- Member 2: C. M. Patil (Technical Director) -->
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
-                    <div class="team-card-modern h-100 d-flex flex-column justify-content-between position-relative shadow-sm">
-                        <div>
-                            <div class="team-photo-wrap large-height position-relative">
-                                <img src="assets/pp_data/Page 02/Emp Details/Directors/CMP Sir.jpg" alt="C. M. Patil - Technical Director" class="team-card-img">
-                                <div class="team-photo-overlay"></div>
-                                <div class="team-badge-icon" title="Technical Director">
-                                    <i class="fa-solid fa-gear"></i>
-                                </div>
-                                <div class="team-role-tag">
-                                    <span class="badge px-3 py-2 rounded-pill">
-                                        <i class="fa-solid fa-screwdriver-wrench me-1"></i> Director &ndash; Technical
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="p-4">
-                                <div class="d-flex align-items-center justify-content-between mb-2">
-                                    <h4 class="fw-bold text-dark mb-0" style="font-family: 'Oswald', sans-serif; font-size: 22px;">C. M. Patil</h4>
-                                    <span class="badge rounded-pill px-2.5 py-1 small" style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 11px;">
-                                        Technical Head
-                                    </span>
-                                </div>
-                                <p class="text-secondary small mb-3" style="line-height: 1.7; font-size: 13.5px;">
-                                    Expert in civil engineering, bridge prestressing systems, and elastomeric bearing manufacturing operations, tooling design, and load proofing standards.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="px-4 pb-4 pt-2 border-top bg-light bg-opacity-25">
-                            <a href="assets/pp_data/Page 02/Emp Details/Directors/CMP Sir.pdf" target="_blank"
-                                class="btn btn-outline-primary btn-sm rounded-pill px-3 py-2 fw-bold w-100 open-cert-modal d-flex align-items-center justify-content-center gap-2"
-                                data-doc-url="assets/pp_data/Page 02/Emp Details/Directors/CMP Sir.pdf"
-                                data-doc-title="C. M. Patil - Technical Director Profile"
-                                data-doc-type="pdf">
-                                <i class="fa-solid fa-award"></i> <span>View Profile &amp; Degree</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Member 3: A. M. Patil (Director - Admin & Finance) -->
+<!-- Member 2: A. M. Prabhu (Director - Admin & Finance) -->
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                     <div class="team-card-modern h-100 d-flex flex-column justify-content-between position-relative shadow-sm">
                         <div>
                             <div class="team-photo-wrap large-height position-relative">
-                                <img src="assets/pp_data/Page 02/Emp Details/Directors/AMP Madam.jpg" alt="A. M. Patil - Director Finance" class="team-card-img">
+                                <img src="assets/pp_data/Page 02/Emp Details/Directors/AMP Madam.jpg" alt="A. M. Prabhu - Director Finance" class="team-card-img">
                                 <div class="team-photo-overlay"></div>
                                 <div class="team-badge-icon" title="Director Finance">
                                     <i class="fa-solid fa-chart-line"></i>
@@ -372,7 +331,7 @@ include_once 'partials/header.php';
                             </div>
                             <div class="p-4">
                                 <div class="d-flex align-items-center justify-content-between mb-2">
-                                    <h4 class="fw-bold text-dark mb-0" style="font-family: 'Oswald', sans-serif; font-size: 22px;">A. M. Patil</h4>
+                                    <h4 class="fw-bold text-dark mb-0" style="font-family: 'Oswald', sans-serif; font-size: 22px;">A. M. Prabhu</h4>
                                     <span class="badge rounded-pill px-2.5 py-1 small" style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 11px;">
                                         Finance &amp; Admin
                                     </span>
@@ -386,13 +345,54 @@ include_once 'partials/header.php';
                             <a href="assets/pp_data/Page 02/Emp Details/Directors/AMP MADAM.pdf" target="_blank"
                                 class="btn btn-outline-primary btn-sm rounded-pill px-3 py-2 fw-bold w-100 open-cert-modal d-flex align-items-center justify-content-center gap-2"
                                 data-doc-url="assets/pp_data/Page 02/Emp Details/Directors/AMP MADAM.pdf"
-                                data-doc-title="A. M. Patil - Professional Credentials"
+                                data-doc-title="A. M. Prabhu - Professional Credentials"
                                 data-doc-type="pdf">
                                 <i class="fa-solid fa-award"></i> <span>View Profile &amp; Credentials</span>
                             </a>
                         </div>
                     </div>
                 </div>
+                <!-- Member 3: C. M. Prabhu (Technical Director) -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                    <div class="team-card-modern h-100 d-flex flex-column justify-content-between position-relative shadow-sm">
+                        <div>
+                            <div class="team-photo-wrap large-height position-relative">
+                                <img src="assets/pp_data/Page 02/Emp Details/Directors/CMP Sir.jpg" alt="C. M. Prabhu - Technical Director" class="team-card-img">
+                                <div class="team-photo-overlay"></div>
+                                <div class="team-badge-icon" title="Technical Director">
+                                    <i class="fa-solid fa-gear"></i>
+                                </div>
+                                <div class="team-role-tag">
+                                    <span class="badge px-3 py-2 rounded-pill">
+                                        <i class="fa-solid fa-screwdriver-wrench me-1"></i> Director &ndash; Technical
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="p-4">
+                                <div class="d-flex align-items-center justify-content-between mb-2">
+                                    <h4 class="fw-bold text-dark mb-0" style="font-family: 'Oswald', sans-serif; font-size: 22px;">C. M. Prabhu</h4>
+                                    <span class="badge rounded-pill px-2.5 py-1 small" style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 11px;">
+                                        Technical Head
+                                    </span>
+                                </div>
+                                <p class="text-secondary small mb-3" style="line-height: 1.7; font-size: 13.5px;">
+                                    Expert in civil engineering, bridge prestressing systems, and elastomeric bearing manufacturing operations, tooling design, and load proofing standards.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="px-4 pb-4 pt-2 border-top bg-light bg-opacity-25">
+                            <a href="assets/pp_data/Page 02/Emp Details/Directors/CMP Sir.pdf" target="_blank"
+                                class="btn btn-outline-primary btn-sm rounded-pill px-3 py-2 fw-bold w-100 open-cert-modal d-flex align-items-center justify-content-center gap-2"
+                                data-doc-url="assets/pp_data/Page 02/Emp Details/Directors/CMP Sir.pdf"
+                                data-doc-title="C. M. Prabhu - Technical Director Profile"
+                                data-doc-type="pdf">
+                                <i class="fa-solid fa-award"></i> <span>View Profile &amp; Degree</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                
 
             </div>
         </div>
@@ -535,12 +535,12 @@ include_once 'partials/header.php';
                     </div>
                 </div>
 
-                <!-- Member 7: Ancy Madam (Commercial & Accounts) -->
+                <!-- Member 7: Ancy Josh (Commercial & Accounts) -->
                 <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".4s">
                     <div class="team-card-modern h-100 d-flex flex-column justify-content-between position-relative shadow-sm">
                         <div>
                             <div class="team-photo-wrap standard-height position-relative">
-                                <img src="assets/pp_data/Page 02/Emp Details/Ancy Madam/IMG_20240704_172145.jpg" alt="Ancy Madam - Commercial & Accounts" class="team-card-img">
+                                <img src="assets/pp_data/Page 02/Emp Details/Ancy Madam/IMG_20240704_172145.jpg" alt="Ancy Josh - Commercial & Accounts" class="team-card-img">
                                 <div class="team-photo-overlay"></div>
                                 <div class="team-badge-icon" title="Commercial & Accounts">
                                     <i class="fa-solid fa-calculator"></i>
@@ -552,7 +552,7 @@ include_once 'partials/header.php';
                                 </div>
                             </div>
                             <div class="p-3.5 p-4">
-                                <h5 class="fw-bold text-dark mb-1" style="font-family: 'Oswald', sans-serif; font-size: 20px;">Ancy Madam</h5>
+                                <h5 class="fw-bold text-dark mb-1" style="font-family: 'Oswald', sans-serif; font-size: 20px;">Ancy Josh</h5>
                                 <span class="text-muted small fw-semibold d-block mb-2" style="font-size: 12px; color: var(--theme-primary) !important;">
                                     B.Com Qualified Officer
                                 </span>
