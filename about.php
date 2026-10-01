@@ -1,48 +1,9 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+<?php 
+$page_title = "About Us - Polymer Products & Dynamic Prestress Group";
+include_once 'partials/header.php'; 
+?>
 
-<head>
-    <!-- ========== Meta Tags ========== -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="hurraytheme">
-    <title>About Us - Polymer Products & Dynamic Prestress Group</title>
-    <!-- Favicon img -->
-    <link rel="shortcut icon" href="assets/img/favicon.svg">
-    <!-- bootstrap -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <!--<< All Min Css >>-->
-    <link rel="stylesheet" href="assets/css/all.min.css">
-    <!--<< Animate.css >>-->
-    <link rel="stylesheet" href="assets/css/animate.css">
-    <!--<< Magnific Popup.css >>-->
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <!--<< MeanMenu.css >>-->
-    <link rel="stylesheet" href="assets/css/meanmenu.css">
-    <!--<< Swiper Bundle.css >>-->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-    <!--<< Nice Select.css >>-->
-    <link rel="stylesheet" href="assets/css/nice-select.css">
-    <!--<< Main.css >>-->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <!--<< Theme Switcher CSS >>-->
-    <link rel="stylesheet" href="assets/css/theme-switcher.css">
-    <!--<< Layout.css >>-->
-    <link rel="stylesheet" href="assets/css/layout.css">
-</head>
-
-<body class="body-color">
-    <div id="preloader">
-        <div class="loader"></div>
-    </div>
-    <div class="mouse-cursor cursor-outer"></div>
-    <div class="mouse-cursor cursor-inner"></div><button id="back-top" class="back-to-top">
-        <i class="fa-solid fa-arrow-up"></i>
-    </button><!-- Centralized Header & Offcanvas Navigation -->
-    <div id="site-header"></div>
-    <!-- Page Header -->
-    <div class="py-5" style="background: linear-gradient(135deg, #0b192c 0%, #1e3e62 100%); color:#fff;">
+<div class="py-5" style="background: linear-gradient(135deg, #0b192c 0%, #1e3e62 100%); color:#fff;">
         <div class="container-fluid px-3 px-lg-5 py-4 text-center">
             <span class="badge bg-primary px-3 py-2 mb-2 text-uppercase fw-bold">Company Profile & Infrastructure</span>
             <h1 class="display-5 fw-bold text-white mb-2">About Polymer Products</h1>
@@ -357,33 +318,4 @@
         </div>
     </section>
 
-    <!-- Centralized Footer -->
-    <div id="site-footer"></div><!--<< All JS Plugins >>-->
-    <script src="assets/js/jquery-3.7.1.min.js"></script>
-    <!--<< Viewport Js >>-->
-    <script src="assets/js/viewport.jquery.js"></script>
-    <!--<< Bootstrap Js >>-->
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <!--<< Nice Select Js >>-->
-    <script src="assets/js/jquery.nice-select.min.js"></script>
-    <!--<< Waypoints Js >>-->
-    <script src="assets/js/jquery.waypoints.js"></script>
-    <!--<< Counterup Js >>-->
-    <script src="assets/js/jquery.counterup.min.js"></script>
-    <!--<< Swiper Slider Js >>-->
-    <script src="assets/js/swiper-bundle.min.js"></script>
-    <!--<< MeanMenu Js >>-->
-    <script src="assets/js/jquery.meanmenu.min.js"></script>
-    <!--<< Magnific Popup Js >>-->
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <!--<< Wow Animation Js >>-->
-    <script src="assets/js/wow.min.js"></script>
-    <!--<< Typed Js >>-->
-    <script src="assets/js/typed.min.js"></script>
-    <!--<< Main.js >>-->
-    <script src="assets/js/layout.js"></script>
-    <script src="assets/js/main.js"></script> <!--<< Live Theme Switcher JS >>-->
-    <script src="assets/js/theme-switcher.js"></script>
-</body>
-
-</html>
+<?php include_once 'partials/footer.php'; ?>

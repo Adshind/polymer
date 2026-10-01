@@ -1,54 +1,7 @@
-﻿<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <!-- ========== Meta Tags ========== -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="hurraytheme">
-    <title>Prozen - Business Consulting PHP Template</title>
-    <!-- Favicon img -->
-    <link rel="shortcut icon" href="assets/img/favicon.svg">
-    <!-- bootstrap -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <!--<< All Min Css >>-->
-    <link rel="stylesheet" href="assets/css/all.min.css">
-    <!--<< Animate.css >>-->
-    <link rel="stylesheet" href="assets/css/animate.css">
-    <!--<< Magnific Popup.css >>-->
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <!--<< MeanMenu.css >>-->
-    <link rel="stylesheet" href="assets/css/meanmenu.css">
-    <!--<< Swiper Bundle.css >>-->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-    <!--<< Nice Select.css >>-->
-    <link rel="stylesheet" href="assets/css/nice-select.css">
-    <!--<< Main.css >>-->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <!--<< Theme Switcher CSS >>-->
-    <link rel="stylesheet" href="assets/css/theme-switcher.css">
-    <!--<< Layout.css >>-->
-    <link rel="stylesheet" href="assets/css/layout.css">
-</head>
-
-<body class="body-color">
-<!-- Preloader area start -->
-<div id="preloader">
-    <div class="loader"></div>
-</div><!-- Preloader area end -->
-
-<!-- Back To Top Start -->
-<div class="mouse-cursor cursor-outer"></div>
-<div class="mouse-cursor cursor-inner"></div>
-<!-- Back To Top Start -->
-<button id="back-top" class="back-to-top">
-    <i class="fa-solid fa-arrow-up"></i>
-</button><!-- Back To Top End -->
-
-<!-- Header Start -->
-<!-- Centralized Header & Offcanvas Navigation -->
-    <div id="site-header"></div><!-- offcanvas for navigation end -->
+<?php 
+$page_title = "Prozen - Business Consulting PHP Template";
+include_once 'partials/header.php'; 
+?>
 
 <!-- ht-hero-3-area-start -->
 <section class="ht-hero-area hero-3" data-bg-src="assets/img/hero/hero-bg-3.jpg">
@@ -65,7 +18,7 @@
                     experience the peace of mind that <br>
                     comes
                     with knowing you're with covered Potenti nullam </p>
-                <a href="contact.html" class="ht-btn style-2 wow fadeInUp" data-wow-delay=".9s">Let's Get in
+                <a href="contact.php" class="ht-btn style-2 wow fadeInUp" data-wow-delay=".9s">Let's Get in
                     Touch</a>
             </div>
             <div class="video-card wow fadeInUp" data-wow-delay=".3s">
@@ -117,12 +70,12 @@
                         <div class="icon">
                             <img src="assets/img/icon/4.svg" alt="icon">
                         </div>
-                        <a href="service-details.html">
+                        <a href="service-details.php">
                             <h3 class="title title-2">Health Insurance</h3>
                         </a>
                         <p class="desc">With our innovative consulting today's breakthroughs become the leadership
                             strategies propelling your</p>
-                        <a href="service-details.html" class="link">Read more <i
+                        <a href="service-details.php" class="link">Read more <i
                                     class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
@@ -131,12 +84,12 @@
                         <div class="icon">
                             <img src="assets/img/icon/4.svg" alt="icon">
                         </div>
-                        <a href="service-details.html">
+                        <a href="service-details.php">
                             <h3 class="title title-2">Home Insurance</h3>
                         </a>
                         <p class="desc">With our innovative consulting today's breakthroughs become the leadership
                             strategies propelling your</p>
-                        <a href="service-details.html" class="link">Read more <i
+                        <a href="service-details.php" class="link">Read more <i
                                     class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
@@ -145,12 +98,12 @@
                         <div class="icon">
                             <img src="assets/img/icon/4.svg" alt="icon">
                         </div>
-                        <a href="service-details.html">
+                        <a href="service-details.php">
                             <h3 class="title title-2">Travel Insurance</h3>
                         </a>
                         <p class="desc">With our innovative consulting today's breakthroughs become the leadership
                             strategies propelling your</p>
-                        <a href="service-details.html" class="link">Read more <i
+                        <a href="service-details.php" class="link">Read more <i
                                     class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
@@ -180,7 +133,7 @@
                                 to our clients. Your success is our shared
                                 triumph, and we're unwavering in our commitment to delivering exceptional,</p>
                         </div>
-                        <a href="about.html" class="ht-btn style-3 wow fadeInUp" data-wow-delay="1.1s">Let's Get in
+                        <a href="about.php" class="ht-btn style-3 wow fadeInUp" data-wow-delay="1.1s">Let's Get in
                             Touch</a>
                     </div>
                 </div>
@@ -268,7 +221,7 @@
                                 flexibility for every individual and organization. Whether you're seeking personal.
                             </p>
                         </div>
-                        <a href="pricing.html" class="ht-btn style-2 wow fadeInUp" data-wow-delay=".8s">get all
+                        <a href="pricing.php" class="ht-btn style-2 wow fadeInUp" data-wow-delay=".8s">get all
                             touch</a>
                     </div>
                 </div>
@@ -278,7 +231,7 @@
                             <div class="left">
                                 <span>Basic Package</span>
                                 <h2>$199<span>/month</span></h2>
-                                <a href="pricing.html" class="link">Read more <i
+                                <a href="pricing.php" class="link">Read more <i
                                             class="fa-solid fa-arrow-right"></i></a>
                             </div>
                             <div class="right">
@@ -296,7 +249,7 @@
                             <div class="left">
                                 <span>Basic Package</span>
                                 <h2>$199<span>/month</span></h2>
-                                <a href="pricing.html" class="link">Read more <i
+                                <a href="pricing.php" class="link">Read more <i
                                             class="fa-solid fa-arrow-right"></i></a>
                             </div>
                             <div class="right">
@@ -314,7 +267,7 @@
                             <div class="left">
                                 <span>Basic Package</span>
                                 <h2>$199<span>/month</span></h2>
-                                <a href="pricing.html" class="link">Read more <i
+                                <a href="pricing.php" class="link">Read more <i
                                             class="fa-solid fa-arrow-right"></i></a>
                             </div>
                             <div class="right">
@@ -467,45 +420,45 @@
                                 consectetur adipiscing elita florai psum
                                 dolor sit amet, amet consecteture.</p>
                         </div>
-                        <a href="blog.html" class="ht-btn style-2">view all blogs</a>
+                        <a href="blog.php" class="ht-btn style-2">view all blogs</a>
                     </div>
                 </div>
                 <div class="col-lg-7">
                     <div class="ht-blog-item-wrapper">
                         <div class="single-item wow fadeInUp" data-wow-delay=".3s">
                             <div class="thumb">
-                                <a href="blog-details.html"><img src="assets/img/blog/10.jpg" alt="blog-thumb"></a>
+                                <a href="blog-details.php"><img src="assets/img/blog/10.jpg" alt="blog-thumb"></a>
                             </div>
                             <div class="content">
                                 <span class="meta">June 16, 2024 | Business</span>
-                                <a href="blog-details.html">
+                                <a href="blog-details.php">
                                     <h3>Travel insurance tips for <br> safety abroad</h3>
                                 </a>
-                                <a href="blog-details.html" class="link">read more</a>
+                                <a href="blog-details.php" class="link">read more</a>
                             </div>
                         </div>
                         <div class="single-item wow fadeInUp" data-wow-delay=".6s">
                             <div class="thumb">
-                                <a href="blog-details.html"><img src="assets/img/blog/11.jpg" alt="blog-thumb"></a>
+                                <a href="blog-details.php"><img src="assets/img/blog/11.jpg" alt="blog-thumb"></a>
                             </div>
                             <div class="content">
                                 <span class="meta">June 16, 2024 | Business</span>
-                                <a href="blog-details.html">
+                                <a href="blog-details.php">
                                     <h3>Back-to-school coverage <br> tips for kids.</h3>
                                 </a>
-                                <a href="blog-details.html" class="link">read more</a>
+                                <a href="blog-details.php" class="link">read more</a>
                             </div>
                         </div>
                         <div class="single-item wow fadeInUp" data-wow-delay=".9s">
                             <div class="thumb">
-                                <a href="blog-details.html"><img src="assets/img/blog/12.jpg" alt="blog-thumb"></a>
+                                <a href="blog-details.php"><img src="assets/img/blog/12.jpg" alt="blog-thumb"></a>
                             </div>
                             <div class="content">
                                 <span class="meta">June 16, 2024 | Business</span>
-                                <a href="blog-details.html">
+                                <a href="blog-details.php">
                                     <h3>Tips for handling a car <br> accident scene.</h3>
                                 </a>
-                                <a href="blog-details.html" class="link">read more</a>
+                                <a href="blog-details.php" class="link">read more</a>
                             </div>
                         </div>
                     </div>
@@ -517,37 +470,5 @@
 <!-- ht blog area 3 end -->
 
 <!-- ht-footer-area-3-start -->
-<!-- Centralized Footer -->
-    <div id="site-footer"></div>
-<!-- ht-footer-area-3-end -->
 
-<!-- all js files -->
-<!--<< All JS Plugins >>-->
-<script src="assets/js/jquery-3.7.1.min.js"></script>
-<!--<< Viewport Js >>-->
-<script src="assets/js/viewport.jquery.js"></script>
-<!--<< Bootstrap Js >>-->
-<script src="assets/js/bootstrap.bundle.min.js"></script>
-<!--<< Nice Select Js >>-->
-<script src="assets/js/jquery.nice-select.min.js"></script>
-<!--<< Waypoints Js >>-->
-<script src="assets/js/jquery.waypoints.js"></script>
-<!--<< Counterup Js >>-->
-<script src="assets/js/jquery.counterup.min.js"></script>
-<!--<< Swiper Slider Js >>-->
-<script src="assets/js/swiper-bundle.min.js"></script>
-<!--<< MeanMenu Js >>-->
-<script src="assets/js/jquery.meanmenu.min.js"></script>
-<!--<< Magnific Popup Js >>-->
-<script src="assets/js/jquery.magnific-popup.min.js"></script>
-<!--<< Wow Animation Js >>-->
-<script src="assets/js/wow.min.js"></script>
-<!--<< Typed Js >>-->
-<script src="assets/js/typed.min.js"></script>
-<!--<< Main.js >>-->
-<script src="assets/js/layout.js"></script>
-    <script src="assets/js/main.js"></script>
-    <!--<< Live Theme Switcher JS >>-->
-    <script src="assets/js/theme-switcher.js"></script>
-</body>
-</html>
+<?php include_once 'partials/footer.php'; ?>

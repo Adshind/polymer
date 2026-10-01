@@ -329,22 +329,26 @@
     // Function to render layout components into target containers
     function initLayout() {
         // Render Header
-        var headerContainer = document.getElementById('site-header');
-        if (headerContainer && headerContainer.innerHTML.trim() === '') {
-            headerContainer.innerHTML = headerHTML;
-            headerContainer.className = 'ht-header-area header-1';
-        }
+        var headerContainers = document.querySelectorAll('#site-header, [include*="header"], [data-include*="header"]');
+        headerContainers.forEach(function (headerContainer) {
+            if (headerContainer && headerContainer.innerHTML.trim() === '') {
+                headerContainer.innerHTML = headerHTML;
+                headerContainer.className = 'ht-header-area header-1';
+            }
+        });
 
         // Render Footer
-        var footerContainer = document.getElementById('site-footer');
-        if (footerContainer && footerContainer.innerHTML.trim() === '') {
-            footerContainer.innerHTML = footerHTML;
-            footerContainer.className = 'ht-footer-area position-relative fix';
-            footerContainer.style.background = 'linear-gradient(180deg, #091a33 0%, #050d1a 100%)';
-            footerContainer.style.color = '#cbd5e1';
-            footerContainer.style.paddingTop = '60px';
-            footerContainer.style.paddingBottom = '25px';
-        }
+        var footerContainers = document.querySelectorAll('#site-footer, [include*="footer"], [data-include*="footer"]');
+        footerContainers.forEach(function (footerContainer) {
+            if (footerContainer && footerContainer.innerHTML.trim() === '') {
+                footerContainer.innerHTML = footerHTML;
+                footerContainer.className = 'ht-footer-area position-relative fix';
+                footerContainer.style.background = 'linear-gradient(180deg, #091a33 0%, #050d1a 100%)';
+                footerContainer.style.color = '#cbd5e1';
+                footerContainer.style.paddingTop = '60px';
+                footerContainer.style.paddingBottom = '25px';
+            }
+        });
 
         // Bind interactive event listeners (offcanvas & sticky header)
         bindLayoutEvents();

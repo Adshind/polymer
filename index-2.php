@@ -1,54 +1,7 @@
-﻿<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <!-- ========== Meta Tags ========== -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="hurraytheme">
-    <title>Prozen - Business Consulting PHP Template</title>
-    <!-- Favicon img -->
-    <link rel="shortcut icon" href="assets/img/favicon.svg">
-    <!-- bootstrap -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <!--<< All Min Css >>-->
-    <link rel="stylesheet" href="assets/css/all.min.css">
-    <!--<< Animate.css >>-->
-    <link rel="stylesheet" href="assets/css/animate.css">
-    <!--<< Magnific Popup.css >>-->
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <!--<< MeanMenu.css >>-->
-    <link rel="stylesheet" href="assets/css/meanmenu.css">
-    <!--<< Swiper Bundle.css >>-->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-    <!--<< Nice Select.css >>-->
-    <link rel="stylesheet" href="assets/css/nice-select.css">
-    <!--<< Main.css >>-->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <!--<< Theme Switcher CSS >>-->
-    <link rel="stylesheet" href="assets/css/theme-switcher.css">
-    <!--<< Layout.css >>-->
-    <link rel="stylesheet" href="assets/css/layout.css">
-</head>
-
-<body class="body-color">
-<!-- Preloader area start -->
-<div id="preloader">
-    <div class="loader"></div>
-</div><!-- Preloader area end -->
-
-<!-- Back To Top Start -->
-<div class="mouse-cursor cursor-outer"></div>
-<div class="mouse-cursor cursor-inner"></div>
-<!-- Back To Top Start -->
-<button id="back-top" class="back-to-top">
-    <i class="fa-solid fa-arrow-up"></i>
-</button><!-- Back To Top End -->
-
-<!-- Header Start -->
-<!-- Centralized Header & Offcanvas Navigation -->
-    <div id="site-header"></div><!-- offcanvas for navigation end -->
+<?php 
+$page_title = "Prozen - Business Consulting PHP Template";
+include_once 'partials/header.php'; 
+?>
 
 <!-- ht-hero-2-area-start -->
 <section class="ht-hero-area hero-2">
@@ -64,7 +17,7 @@
                         <p class="desc wow fadeInUp" data-wow-delay=".4s">Agilos helps you to convert your data into
                             rategic asset emand get top-notch
                             your business insights.</p>
-                        <a href="contact.html" class="ht-btn style-2 wow fadeInUp" data-wow-delay=".6s">Let's Get in
+                        <a href="contact.php" class="ht-btn style-2 wow fadeInUp" data-wow-delay=".6s">Let's Get in
                             Touch</a>
                     </div>
                 </div>
@@ -135,7 +88,7 @@
                         <img src="assets/img/service/1.jpg" alt="img">
                         <div class="content">
                             <h3>Elevate Your Marketing Strategy</h3>
-                            <a href="services.html" class="ht-btn style-4">view all services</a>
+                            <a href="services.php" class="ht-btn style-4">view all services</a>
                         </div>
                     </div>
                 </div>
@@ -145,21 +98,21 @@
                             <h3>Business Planning Solutions</h3>
                             <p>The first thing to remember about success is that it is a process nothing more,
                                 nothing less. There is really no magic to it and it's.</p>
-                            <a href="service-details.html"><i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="service-details.php"><i class="fa-solid fa-arrow-right"></i></a>
                             <img src="assets/img/service/2.jpg" alt="sm-img">
                         </div>
                         <div class="single-item wow fadeInUp" data-wow-delay=".4s">
                             <h3>Performance analysis</h3>
                             <p>The first thing to remember about success is that it is a process nothing more,
                                 nothing less. There is really no magic to it and it's.</p>
-                            <a href="service-details.html"><i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="service-details.php"><i class="fa-solid fa-arrow-right"></i></a>
                             <img src="assets/img/service/2.jpg" alt="sm-img">
                         </div>
                         <div class="single-item wow fadeInUp" data-wow-delay=".6s">
                             <h3>Tax file audit Strategies</h3>
                             <p>The first thing to remember about success is that it is a process nothing more,
                                 nothing less. There is really no magic to it and it's.</p>
-                            <a href="service-details.html"><i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="service-details.php"><i class="fa-solid fa-arrow-right"></i></a>
                             <img src="assets/img/service/2.jpg" alt="sm-img">
                         </div>
                     </div>
@@ -228,7 +181,7 @@
                                 <p>Finished Projects</p>
                             </div>
                         </div>
-                        <a href="about.html" class="ht-btn style-3 wow fadeInUp" data-wow-delay="1s">Let's Get in
+                        <a href="about.php" class="ht-btn style-3 wow fadeInUp" data-wow-delay="1s">Let's Get in
                             Touch</a>
                     </div>
                 </div>
@@ -246,17 +199,17 @@
                 <span class="subtitle wow fadeInUp" data-wow-delay=".2s">Selected Works</span>
                 <h2 class="title wow fadeInUp" data-wow-delay=".4s">Our complete <br> project list</h2>
             </div>
-            <a href="services.html" class="ht-btn style-2 wow fadeInUp" data-wow-delay=".6s">View All services</a>
+            <a href="services.php" class="ht-btn style-2 wow fadeInUp" data-wow-delay=".6s">View All services</a>
         </div>
         <div class="ht-project-wrapper">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay=".2s">
                     <div class="single-item">
                         <div class="thumb">
-                            <a href="project-details.html"><img src="assets/img/project/5.jpg" alt="thumb"></a>
+                            <a href="project-details.php"><img src="assets/img/project/5.jpg" alt="thumb"></a>
                         </div>
                         <div class="content">
-                            <a href="project-details.html">
+                            <a href="project-details.php">
                                 <h4>Business consultancy</h4>
                             </a>
                             <span>UI/UX Design</span>
@@ -266,10 +219,10 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay=".4s">
                     <div class="single-item">
                         <div class="thumb">
-                            <a href="project-details.html"><img src="assets/img/project/6.jpg" alt="thumb"></a>
+                            <a href="project-details.php"><img src="assets/img/project/6.jpg" alt="thumb"></a>
                         </div>
                         <div class="content">
-                            <a href="project-details.html">
+                            <a href="project-details.php">
                                 <h4>Crafting Digital Experiences</h4>
                             </a>
                             <span>Web Design</span>
@@ -279,10 +232,10 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay=".6s">
                     <div class="single-item">
                         <div class="thumb">
-                            <a href="project-details.html"><img src="assets/img/project/7.jpg" alt="thumb"></a>
+                            <a href="project-details.php"><img src="assets/img/project/7.jpg" alt="thumb"></a>
                         </div>
                         <div class="content">
-                            <a href="project-details.html">
+                            <a href="project-details.php">
                                 <h4>Innovation in Every Swipe</h4>
                             </a>
                             <span>Development</span>
@@ -292,17 +245,17 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay=".8s">
                     <div class="single-item">
                         <div class="thumb">
-                            <a href="project-details.html"><img src="assets/img/project/8.jpg" alt="thumb"></a>
+                            <a href="project-details.php"><img src="assets/img/project/8.jpg" alt="thumb"></a>
                         </div>
                         <div class="content">
-                            <a href="project-details.html">
+                            <a href="project-details.php">
                                 <h4>Turning Clicks Into Conversions</h4>
                             </a>
                             <span>Digital Marketing</span>
                         </div>
                     </div>
                 </div>
-                <a href="project.html" class="project-btn mx-auto wow fadeInUp" data-wow-delay="1s">View All <br>
+                <a href="project.php" class="project-btn mx-auto wow fadeInUp" data-wow-delay="1s">View All <br>
                     Works</a>
             </div>
         </div>
@@ -324,7 +277,7 @@
                                 families regain control of their financial
                                 future by repairing and improving their credit scores team of experts is dedicated
                                 to analyzing your credit report.</p>
-                            <a href="contact.html" class="ht-btn style-4 wow fadeInUp" data-wow-delay=".6s">get
+                            <a href="contact.php" class="ht-btn style-4 wow fadeInUp" data-wow-delay=".6s">get
                                 started now</a>
                         </div>
                         <div class="thumb wow fadeInUp" data-wow-delay=".8s">
@@ -391,7 +344,7 @@
                             <p>With over 10 years of experience in business management, John leads our team with
                                 strategic vision and a passion for innovation.</p>
                         </div>
-                        <a href="team.html" class="ht-btn fadeInUp" data-wow-delay=".4s">All Team Members</a>
+                        <a href="team.php" class="ht-btn fadeInUp" data-wow-delay=".4s">All Team Members</a>
                     </div>
                 </div>
                 <div class="col-lg-8">
@@ -401,7 +354,7 @@
                             <div class="col-md-6 wow fadeInUp" data-wow-delay=".2s">
                                 <div class="single-item">
                                     <div class="thumb">
-                                        <a href="team-details.html"><img src="assets/img/team/5.jpg" alt="img"></a>
+                                        <a href="team-details.php"><img src="assets/img/team/5.jpg" alt="img"></a>
                                         <div class="social-wrapper">
                                             <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
                                             <a href="#"><i class="fa-brands fa-twitter"></i></a>
@@ -410,7 +363,7 @@
                                         </div>
                                     </div>
                                     <div class="info">
-                                        <a href="team-details.html">
+                                        <a href="team-details.php">
                                             <h4>Linda F. Collins</h4>
                                         </a>
                                         <p>SR Marketer</p>
@@ -420,7 +373,7 @@
                             <div class="col-md-6 wow fadeInUp" data-wow-delay=".4s">
                                 <div class="single-item">
                                     <div class="thumb">
-                                        <a href="team-details.html"><img src="assets/img/team/6.jpg" alt="img"></a>
+                                        <a href="team-details.php"><img src="assets/img/team/6.jpg" alt="img"></a>
                                         <div class="social-wrapper">
                                             <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
                                             <a href="#"><i class="fa-brands fa-twitter"></i></a>
@@ -429,7 +382,7 @@
                                         </div>
                                     </div>
                                     <div class="info">
-                                        <a href="team-details.html">
+                                        <a href="team-details.php">
                                             <h4>Sandra D. Rainey</h4>
                                         </a>
                                         <p>Executive officer</p>
@@ -439,7 +392,7 @@
                             <div class="col-md-6 wow fadeInUp" data-wow-delay=".6s">
                                 <div class="single-item">
                                     <div class="thumb">
-                                        <a href="team-details.html"><img src="assets/img/team/7.jpg" alt="img"></a>
+                                        <a href="team-details.php"><img src="assets/img/team/7.jpg" alt="img"></a>
                                         <div class="social-wrapper">
                                             <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
                                             <a href="#"><i class="fa-brands fa-twitter"></i></a>
@@ -448,7 +401,7 @@
                                         </div>
                                     </div>
                                     <div class="info">
-                                        <a href="team-details.html">
+                                        <a href="team-details.php">
                                             <h4>Brooklyn simmons</h4>
                                         </a>
                                         <p>CEO & Founder</p>
@@ -458,7 +411,7 @@
                             <div class="col-md-6 wow fadeInUp" data-wow-delay=".8s">
                                 <div class="single-item">
                                     <div class="thumb">
-                                        <a href="team-details.html"><img src="assets/img/team/8.jpg" alt="img"></a>
+                                        <a href="team-details.php"><img src="assets/img/team/8.jpg" alt="img"></a>
                                         <div class="social-wrapper">
                                             <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
                                             <a href="#"><i class="fa-brands fa-twitter"></i></a>
@@ -467,7 +420,7 @@
                                         </div>
                                     </div>
                                     <div class="info">
-                                        <a href="team-details.html">
+                                        <a href="team-details.php">
                                             <h4>Donna L. Aguilar</h4>
                                         </a>
                                         <p>Finance advisor</p>
@@ -592,54 +545,54 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay=".3s">
                     <div class="ht-blog-item mt-20">
                         <div class="ht-blog-thumb">
-                            <a href="blog-details.html"><img src="assets/img/blog/4.jpg" alt="img"></a>
+                            <a href="blog-details.php"><img src="assets/img/blog/4.jpg" alt="img"></a>
                         </div>
                         <div class="ht-blog-content">
                             <ul class="ht-blog-meta ht-blog-meta-2">
                                 <li class="ct">Business solution</li>
                                 <li class="dt">June 16, 2024</li>
                             </ul>
-                            <a href="blog-details.html">
+                            <a href="blog-details.php">
                                 <h3 class="title">Profitable business makes to you
                                     happy and growth</h3>
                             </a>
-                            <a href="blog-details.html" class="ht-link ht-link-2">Read More</a>
+                            <a href="blog-details.php" class="ht-link ht-link-2">Read More</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay=".6s">
                     <div class="ht-blog-item mt-20">
                         <div class="ht-blog-thumb">
-                            <a href="blog-details.html"><img src="assets/img/blog/5.jpg" alt="img"></a>
+                            <a href="blog-details.php"><img src="assets/img/blog/5.jpg" alt="img"></a>
                         </div>
                         <div class="ht-blog-content">
                             <ul class="ht-blog-meta ht-blog-meta-2">
                                 <li class="ct">Marketing solution</li>
                                 <li class="dt">27 May, 2024</li>
                             </ul>
-                            <a href="blog-details.html">
+                            <a href="blog-details.php">
                                 <h3 class="title">Securing Funding for Your
                                     Startup: Expert Tips</h3>
                             </a>
-                            <a href="blog-details.html" class="ht-link ht-link-2">Read More</a>
+                            <a href="blog-details.php" class="ht-link ht-link-2">Read More</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay=".9s">
                     <div class="ht-blog-item mt-20">
                         <div class="ht-blog-thumb">
-                            <a href="blog-details.html"><img src="assets/img/blog/6.jpg" alt="img"></a>
+                            <a href="blog-details.php"><img src="assets/img/blog/6.jpg" alt="img"></a>
                         </div>
                         <div class="ht-blog-content">
                             <ul class="ht-blog-meta ht-blog-meta-2">
                                 <li class="ct">Business solution</li>
                                 <li class="dt">June 16, 2024</li>
                             </ul>
-                            <a href="blog-details.html">
+                            <a href="blog-details.php">
                                 <h3 class="title">Strong Corporate Financial
                                     Model: Best Practices</h3>
                             </a>
-                            <a href="blog-details.html" class="ht-link ht-link-2">Read More</a>
+                            <a href="blog-details.php" class="ht-link ht-link-2">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -650,37 +603,5 @@
 <!-- ht blog area end -->
 
 <!-- ht-footer-area-2-start -->
-<!-- Centralized Footer -->
-    <div id="site-footer"></div>
-<!-- ht-footer-area-2-end -->
 
-<!-- all js files -->
-<!--<< All JS Plugins >>-->
-<script src="assets/js/jquery-3.7.1.min.js"></script>
-<!--<< Viewport Js >>-->
-<script src="assets/js/viewport.jquery.js"></script>
-<!--<< Bootstrap Js >>-->
-<script src="assets/js/bootstrap.bundle.min.js"></script>
-<!--<< Nice Select Js >>-->
-<script src="assets/js/jquery.nice-select.min.js"></script>
-<!--<< Waypoints Js >>-->
-<script src="assets/js/jquery.waypoints.js"></script>
-<!--<< Counterup Js >>-->
-<script src="assets/js/jquery.counterup.min.js"></script>
-<!--<< Swiper Slider Js >>-->
-<script src="assets/js/swiper-bundle.min.js"></script>
-<!--<< MeanMenu Js >>-->
-<script src="assets/js/jquery.meanmenu.min.js"></script>
-<!--<< Magnific Popup Js >>-->
-<script src="assets/js/jquery.magnific-popup.min.js"></script>
-<!--<< Wow Animation Js >>-->
-<script src="assets/js/wow.min.js"></script>
-<!--<< Typed Js >>-->
-<script src="assets/js/typed.min.js"></script>
-<!--<< Main.js >>-->
-<script src="assets/js/layout.js"></script>
-    <script src="assets/js/main.js"></script>
-    <!--<< Live Theme Switcher JS >>-->
-    <script src="assets/js/theme-switcher.js"></script>
-</body>
-</html>
+<?php include_once 'partials/footer.php'; ?>

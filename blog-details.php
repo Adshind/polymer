@@ -1,54 +1,7 @@
-﻿<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <!-- ========== Meta Tags ========== -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="hurraytheme">
-    <title>Prozen - Business Consulting PHP Template</title>
-    <!-- Favicon img -->
-    <link rel="shortcut icon" href="assets/img/favicon.svg">
-    <!-- bootstrap -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <!--<< All Min Css >>-->
-    <link rel="stylesheet" href="assets/css/all.min.css">
-    <!--<< Animate.css >>-->
-    <link rel="stylesheet" href="assets/css/animate.css">
-    <!--<< Magnific Popup.css >>-->
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <!--<< MeanMenu.css >>-->
-    <link rel="stylesheet" href="assets/css/meanmenu.css">
-    <!--<< Swiper Bundle.css >>-->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-    <!--<< Nice Select.css >>-->
-    <link rel="stylesheet" href="assets/css/nice-select.css">
-    <!--<< Main.css >>-->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <!--<< Theme Switcher CSS >>-->
-    <link rel="stylesheet" href="assets/css/theme-switcher.css">
-    <!--<< Layout.css >>-->
-    <link rel="stylesheet" href="assets/css/layout.css">
-</head>
-
-<body class="body-color">
-<!-- Preloader area start -->
-<div id="preloader">
-    <div class="loader"></div>
-</div><!-- Preloader area end -->
-
-<!-- Back To Top Start -->
-<div class="mouse-cursor cursor-outer"></div>
-<div class="mouse-cursor cursor-inner"></div>
-<!-- Back To Top Start -->
-<button id="back-top" class="back-to-top">
-    <i class="fa-solid fa-arrow-up"></i>
-</button><!-- Back To Top End -->
-
-<!-- Header Start -->
-<!-- Centralized Header & Offcanvas Navigation -->
-    <div id="site-header"></div><!-- offcanvas for navigation end -->
+<?php 
+$page_title = "Prozen - Business Consulting PHP Template";
+include_once 'partials/header.php'; 
+?>
 
 <!-- ht breadcrumb area start -->
 <section class="ht-breadcrumb-area">
@@ -56,7 +9,7 @@
         <div class="ht-breadcrumb-heading">
             <h2 class="ht-breadcrumb-title">blog details</h2>
             <ul class="ht-breadcrumb-list">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.php">Home</a></li>
                 <li><i class="fa-solid fa-chevron-right"></i></li>
                 <li class="active">blog details</li>
             </ul>
@@ -73,7 +26,7 @@
                 <div class="ht-blog-details-wrapper">
                     <div class="blog-single-post">
                         <div class="thumb">
-                            <a href="blog-details.html"><img src="assets/img/blog/22.jpg" alt="thumb"></a>
+                            <a href="blog-details.php"><img src="assets/img/blog/22.jpg" alt="thumb"></a>
                         </div>
                         <div class="content">
                             <div class="blog-meta">
@@ -90,7 +43,7 @@
                                     <span>July 3, 2023</span>
                                 </div>
                             </div>
-                            <a href="blog-details.html">
+                            <a href="blog-details.php">
                                 <h2 class="title">What Consultants Need to Know About Nonprofits</h2>
                             </a>
                             <p>The European languag are member of the same family. Their separate existence is a
@@ -265,7 +218,7 @@
                                     <img src="assets/img/blog/25.jpg" alt="post">
                                 </div>
                                 <div class="content">
-                                    <a href="blog-details.html">
+                                    <a href="blog-details.php">
                                         <h5 class="title">Dynamic Solutions for Business Success</h5>
                                     </a>
                                     <span class="date">April 01, 2022</span>
@@ -276,7 +229,7 @@
                                     <img src="assets/img/blog/26.jpg" alt="post">
                                 </div>
                                 <div class="content">
-                                    <a href="blog-details.html">
+                                    <a href="blog-details.php">
                                         <h5 class="title">What Consultants Need to Know About Nonprofits</h5>
                                     </a>
                                     <span class="date">April 01, 2022</span>
@@ -298,7 +251,7 @@
                                     <img src="assets/img/blog/28.jpg" alt="post">
                                 </div>
                                 <div class="content">
-                                    <a href="blog-details.html">
+                                    <a href="blog-details.php">
                                         <h5 class="title">All You Need to Know About Agency</h5>
                                     </a>
                                     <span class="date">April 01, 2022</span>
@@ -341,37 +294,4 @@
 </section>
 <!-- ht blog details area end -->
 
-<!-- footer start -->
-<!-- Centralized Footer -->
-    <div id="site-footer"></div><!-- footer end -->
-
-<!-- all js files -->
-<!--<< All JS Plugins >>-->
-<script src="assets/js/jquery-3.7.1.min.js"></script>
-<!--<< Viewport Js >>-->
-<script src="assets/js/viewport.jquery.js"></script>
-<!--<< Bootstrap Js >>-->
-<script src="assets/js/bootstrap.bundle.min.js"></script>
-<!--<< Nice Select Js >>-->
-<script src="assets/js/jquery.nice-select.min.js"></script>
-<!--<< Waypoints Js >>-->
-<script src="assets/js/jquery.waypoints.js"></script>
-<!--<< Counterup Js >>-->
-<script src="assets/js/jquery.counterup.min.js"></script>
-<!--<< Swiper Slider Js >>-->
-<script src="assets/js/swiper-bundle.min.js"></script>
-<!--<< MeanMenu Js >>-->
-<script src="assets/js/jquery.meanmenu.min.js"></script>
-<!--<< Magnific Popup Js >>-->
-<script src="assets/js/jquery.magnific-popup.min.js"></script>
-<!--<< Wow Animation Js >>-->
-<script src="assets/js/wow.min.js"></script>
-<!--<< Typed Js >>-->
-<script src="assets/js/typed.min.js"></script>
-<!--<< Main.js >>-->
-<script src="assets/js/layout.js"></script>
-    <script src="assets/js/main.js"></script>
-    <!--<< Live Theme Switcher JS >>-->
-    <script src="assets/js/theme-switcher.js"></script>
-</body>
-</html>
+<?php include_once 'partials/footer.php'; ?>
