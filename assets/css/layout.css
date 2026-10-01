@@ -56,6 +56,7 @@
         opacity: 0;
         transform: translateY(-25px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -69,7 +70,7 @@
     margin-right: 22px;
 }
 
-.ht-header-area .ht-main-header .ht-menu-main ul li > a.nav-link-item {
+.ht-header-area .ht-main-header .ht-menu-main ul li>a.nav-link-item {
     color: #1f1f1f;
     font-size: 15px;
     font-weight: 600;
@@ -81,18 +82,18 @@
     text-decoration: none;
 }
 
-.ht-header-area .ht-main-header .ht-menu-main ul li:hover > a.nav-link-item,
-.ht-header-area .ht-main-header .ht-menu-main ul li.active > a.nav-link-item {
+.ht-header-area .ht-main-header .ht-menu-main ul li:hover>a.nav-link-item,
+.ht-header-area .ht-main-header .ht-menu-main ul li.active>a.nav-link-item {
     color: var(--theme-primary) !important;
 }
 
 /* Submenu Styling */
-.ht-header-area .ht-main-header .ht-menu-main ul li.has-dropdown > a::after {
+.ht-header-area .ht-main-header .ht-menu-main ul li.has-dropdown>a::after {
     content: none !important;
     display: none !important;
 }
 
-.ht-header-area .ht-main-header .ht-menu-main ul li.has-dropdown > a .dropdown-icon {
+.ht-header-area .ht-main-header .ht-menu-main ul li.has-dropdown>a .dropdown-icon {
     font-size: 11px;
     margin-left: 6px;
     transition: transform 0.35s ease, color 0.3s ease;
@@ -100,12 +101,12 @@
     color: #64748b;
 }
 
-.ht-header-area .ht-main-header .ht-menu-main ul li.has-dropdown:hover > a .dropdown-icon {
+.ht-header-area .ht-main-header .ht-menu-main ul li.has-dropdown:hover>a .dropdown-icon {
     transform: rotate(180deg);
     color: var(--theme-primary);
 }
 
-.ht-header-area .ht-main-header .ht-menu-main ul li > .sub-menu {
+.ht-header-area .ht-main-header .ht-menu-main ul li>.sub-menu {
     position: absolute;
     top: 100%;
     left: 0;
@@ -125,18 +126,18 @@
     margin: 0;
 }
 
-.ht-header-area .ht-main-header .ht-menu-main ul li:hover > .sub-menu {
+.ht-header-area .ht-main-header .ht-menu-main ul li:hover>.sub-menu {
     opacity: 1 !important;
     visibility: visible !important;
     transform: translateY(0) !important;
 }
 
-.ht-header-area .ht-main-header .ht-menu-main ul li > .sub-menu li {
+.ht-header-area .ht-main-header .ht-menu-main ul li>.sub-menu li {
     display: block;
     margin: 0;
 }
 
-.ht-header-area .ht-main-header .ht-menu-main ul li > .sub-menu li a {
+.ht-header-area .ht-main-header .ht-menu-main ul li>.sub-menu li a {
     display: block;
     padding: 8px 16px !important;
     font-size: 14px !important;
@@ -149,8 +150,8 @@
     background: transparent;
 }
 
-.ht-header-area .ht-main-header .ht-menu-main ul li > .sub-menu li a:hover,
-.ht-header-area .ht-main-header .ht-menu-main ul li > .sub-menu li.active a {
+.ht-header-area .ht-main-header .ht-menu-main ul li>.sub-menu li a:hover,
+.ht-header-area .ht-main-header .ht-menu-main ul li>.sub-menu li.active a {
     background: var(--theme-subtle) !important;
     color: var(--theme-primary) !important;
     border-left: 3px solid var(--theme-primary) !important;
@@ -234,13 +235,17 @@
     .ht-main-header .ht-menu-wrapper {
         padding: 8px 0 !important;
     }
+
     .header-logo-img {
         height: 48px !important;
     }
+
     .ht-menu-btn {
         transition: all 0.25s ease;
     }
-    .ht-menu-btn:hover, .ht-menu-btn:focus {
+
+    .ht-menu-btn:hover,
+    .ht-menu-btn:focus {
         background: var(--theme-primary) !important;
         color: #ffffff !important;
     }
@@ -250,6 +255,7 @@
     .header-logo-img {
         height: 42px !important;
     }
+
     .ht-top-header {
         padding: 6px 0 !important;
     }
@@ -261,7 +267,7 @@
     box-shadow: -10px 0 35px rgba(0, 0, 0, 0.15) !important;
 }
 
-.ht-offcanvas-menu nav ul li > a {
+.ht-offcanvas-menu nav ul li>a {
     font-family: 'Saira-Medium', sans-serif !important;
     font-size: 15px !important;
     color: #1e293b !important;
@@ -272,8 +278,8 @@
     transition: color 0.2s ease, padding 0.2s ease !important;
 }
 
-.ht-offcanvas-menu nav ul li > a:hover,
-.ht-offcanvas-menu nav ul li.active > a {
+.ht-offcanvas-menu nav ul li>a:hover,
+.ht-offcanvas-menu nav ul li.active>a {
     color: var(--theme-primary) !important;
 }
 
@@ -308,14 +314,14 @@
     color: var(--theme-primary) !important;
 }
 
-.ht-offcanvas-menu ul li.active > .ht-menu-close {
+.ht-offcanvas-menu ul li.active>.ht-menu-close {
     background-color: var(--theme-primary) !important;
     color: #ffffff !important;
 }
 
 /* Footer Styles */
 .footer-link {
-    color: #94a3b8;
+    color: #e2e6eb;
     transition: all 0.25s ease-in-out;
     display: inline-block;
 }

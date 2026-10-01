@@ -8,15 +8,15 @@ include_once 'partials/header.php';
      1. Modern Hero & Breadcrumb Banner
      ============================================================ -->
 <section class="ht-about-hero position-relative d-flex align-items-center"
-    style="background: linear-gradient(135deg, rgba(9, 20, 36, 0.94) 0%, rgba(14, 34, 61, 0.88) 50%, rgba(6, 13, 24, 0.96) 100%), url('/assets/img/img/banner/birdge-13.webp') center center / cover no-repeat; padding-top: 175px; padding-bottom: 75px; margin-top: -160px; min-height: 480px;">
+    style="background: linear-gradient(135deg, rgba(9, 20, 36, 0.84) 0%, rgba(14, 34, 61, 0.58) 50%, rgba(6, 13, 24, 0.56) 100%), url('/assets/img/img/banner/birdge-13.webp') center center / cover no-repeat; padding-top: 175px; padding-bottom: 75px; margin-top: -160px; min-height: 480px;">
     
-    <div class="position-absolute top-0 end-0 opacity-10 pointer-events-none">
+    <!-- <div class="position-absolute top-0 end-0 opacity-10 pointer-events-none">
         <svg width="450" height="450" viewBox="0 0 450 450" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="225" cy="225" r="225" fill="var(--theme-primary)"/>
         </svg>
-    </div>
+    </div> -->
 
-    <div class="container-fluid px-3 px-lg-5 position-relative" style="z-index: 2;">
+    <div class="container-fluid px-3 px-lg-5 position-relative" style="z-index: 2; h-screen">
         <div class="row align-items-center">
             <div class="col-lg-8 wow fadeInLeft" data-wow-delay=".2s">
                 <span class="badge px-3 py-2 mb-3 rounded-pill text-uppercase"
@@ -30,7 +30,7 @@ include_once 'partials/header.php';
                 <p class="text-light mb-4" style="font-size: 16px; line-height: 1.8; max-width: 720px; color: #cbd5e1 !important;">
                     Specialized manufacturing and quality testing of Elastomeric Bearings &amp; Seismic Solutions for India's major highway, railway, and urban transit infrastructure projects.
                 </p>
-                <div class="d-flex flex-wrap gap-2 pt-1">
+                <!-- <div class="d-flex flex-wrap gap-2 pt-1">
                     <span class="badge bg-dark bg-opacity-75 border border-secondary text-light px-3 py-2 rounded-pill small">
                         <i class="fa-solid fa-award text-warning me-1"></i> 44+ Years of Engineering Excellence
                     </span>
@@ -40,7 +40,7 @@ include_once 'partials/header.php';
                     <span class="badge bg-dark bg-opacity-75 border border-secondary text-light px-3 py-2 rounded-pill small">
                         <i class="fa-solid fa-shield-halved text-success me-1"></i> RDSO &amp; IRC:83 Compliant
                     </span>
-                </div>
+                </div> -->
             </div>
 
             <div class="col-lg-4 mt-4 mt-lg-0 text-lg-end d-none d-lg-block wow fadeInRight" data-wow-delay=".3s">
@@ -145,7 +145,7 @@ include_once 'partials/header.php';
                     </div>
 
                     <!-- Floating Statistics Card -->
-                    <div class="position-absolute bg-white p-3 p-md-4 rounded-4 shadow-lg border float-bob-y d-none d-sm-block"
+                    <!-- <div class="position-absolute bg-white p-3 p-md-4 rounded-4 shadow-lg border float-bob-y d-none d-sm-block"
                         style="bottom: -20px; left: 20px; z-index: 3; min-width: 270px;">
                         <div class="d-flex align-items-center mb-2">
                             <div class="p-2 rounded-circle me-3 d-flex align-items-center justify-content-center"
@@ -163,7 +163,7 @@ include_once 'partials/header.php';
                                 Bearings Delivered
                             </span>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
 

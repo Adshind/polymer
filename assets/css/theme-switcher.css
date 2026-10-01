@@ -116,8 +116,8 @@
 }
 
 .prozen-accent-frame {
-  background: linear-gradient(135deg, var(--theme-primary) 0%, var(--theme-light) 100%) !important;
-  box-shadow: 0 10px 25px var(--theme-glow) !important;
+  background: #e0f2fe !important;
+  box-shadow: 0 10px 25px rgba(2, 132, 199, 0.18) !important;
 }
 
 .prozen-floating-card h2 {

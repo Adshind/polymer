@@ -15,14 +15,14 @@
             <div class="d-flex align-items-center">
                 <div class="footer-logo-wrap me-3 p-2 bg-white rounded-3 shadow-sm d-flex align-items-center justify-content-center"
                     style="min-width: 50px;">
-                    <img src="assets/img/img/banner/polymer-logo-new.webp" alt="Polymer Products"
-                        style="height: 42px; width: auto; object-fit: contain;">
+                    <img src="assets/img/img/banner/polymer-logo-2.png" alt="Polymer Products"
+                        style="height: 50px; width: auto; object-fit: contain;">
                 </div>
                 <div>
                     <h4 class="text-white mb-0 fw-bold"
                         style="font-family:'Oswald', sans-serif; letter-spacing: 0.5px; font-size: 22px;">POLYMER
                         PRODUCTS</h4>
-                    <p class="mb-0 small" style="color: #94a3b8; font-size: 13px;">Leading Manufacturer of Elastomeric
+                    <p class="mb-0 small" style="color: #c2cad6ff; font-size: 13px;">Leading Manufacturer of Elastomeric
                         Bridge Bearings &amp; Seismic Solutions</p>
                 </div>
             </div>
@@ -49,7 +49,7 @@
                         style="font-family:'Oswald', sans-serif; font-size: 18px; letter-spacing: 0.5px;">
                         About The Company
                     </h5>
-                    <p style="color: #94a3b8; font-size: 14px; line-height: 1.8;">
+                    <p style="color: #ced4ddff; font-size: 14px; line-height: 1.8;">
                         Polymer Products is an established manufacturing division specialising in high-precision
                         <strong>Elastomeric Bearings</strong> and <strong>Seismic Isolation Pads</strong> for
                         National Highways, Indian Railways, Metro systems, and major flyovers.

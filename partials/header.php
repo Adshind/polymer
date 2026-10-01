@@ -99,9 +99,9 @@ $current_page = basename($_SERVER['PHP_SELF']);
                     <div class="ht-menu-left d-flex align-items-center">
                         <div class="ht-menu-logo me-3 me-xl-4 me-xxl-5">
                             <a href="index.php" class="d-flex align-items-center text-decoration-none logo-anim">
-                                <img src="assets/img/img/banner/polymer-logo-new.webp" alt="Polymer Products"
+                                <img src="assets/img/img/banner/polymer-logo-2.png" alt="Polymer Products"
                                     class="header-logo-img"
-                                    style="height: 56px; width: auto; object-fit: contain;">
+                                    style="height: 65px; width: auto; object-fit: contain;">
                             </a>
                         </div>
                         <!-- Desktop Navigation Menu -->

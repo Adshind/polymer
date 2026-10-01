@@ -181,7 +181,7 @@ include_once 'partials/header.php';
                 <div class="prozen-about-img-wrapper position-relative me-lg-4 pb-4">
                     <!-- Prozen Blue Accent Frame -->
                     <div class="prozen-accent-frame position-absolute"
-                        style="top:-18px; left:-18px; width:70%; height:70%; background:linear-gradient(135deg, var(--theme-primary) 0%, var(--theme-primary) 100%); border-top-left-radius:36px; z-index:1; box-shadow:0 10px 25px var(--theme-glow);">
+                        style="top: -18px; left: -18px; width: 70%; height: 70%; background: #e0f2fe !important; border-top-left-radius: 36px; z-index: 1; box-shadow: 0 10px 25px rgba(2, 132, 199, 0.18) !important;">
                     </div>
 
                     <!-- Main Image Card -->
@@ -310,7 +310,7 @@ include_once 'partials/header.php';
                 licenses, and technical quality approvals structured in strict regulatory compliance sequence.</p>
         </div>
 
-        <div class="row g-4">
+        <div class="row g-4 justify-content-center">
             <!-- 1. GST Registration -->
             <div class="col-xl-3 col-lg-4 col-md-6">
                 <div
@@ -349,9 +349,9 @@ include_once 'partials/header.php';
                         <p class="small text-muted mb-3">Permanent Account Number statutory tax registration issued
                             by Income Tax Department, Government of India.</p>
                     </div>
-                    <a href="assets/pp_data/Page 01/Credential_Polymer_Products.pdf"
+                    <a href="assets/pp_data/Page 01/POLYMER DETAILS/PP DETAILS/MPP NEW PAN.pdf"
                         class="btn btn-outline-primary btn-sm rounded-pill fw-bold open-cert-modal"
-                        data-doc-url="assets/pp_data/Page 01/Credential_Polymer_Products.pdf"
+                        data-doc-url="assets/pp_data/Page 01/POLYMER DETAILS/PP DETAILS/MPP NEW PAN.pdf"
                         data-doc-title="PAN & Statutory Tax Registration Record"
                         data-doc-type="pdf">
                         <i class="fa-solid fa-file-shield me-1"></i> Verified PAN Record
@@ -430,9 +430,9 @@ include_once 'partials/header.php';
                         <p class="small text-muted mb-3">Maharashtra Pollution Control Board (MPCB) environmental
                             consent & green emission standard compliance.</p>
                     </div>
-                    <a href="assets/pp_data/Page 01/Credential_Polymer_Products.pdf"
+                    <a href="/assets/pp_data/Page 01/POLYMER DETAILS/PP DETAILS/MPCB POLLUTION CERTIFICATE.pdf"
                         class="btn btn-outline-primary btn-sm rounded-pill fw-bold open-cert-modal"
-                        data-doc-url="assets/pp_data/Page 01/Credential_Polymer_Products.pdf"
+                        data-doc-url="/assets/pp_data/Page 01/POLYMER DETAILS/PP DETAILS/MPCB POLLUTION CERTIFICATE.pdf"
                         data-doc-title="Maharashtra Pollution Control Board (MPCB) Consent"
                         data-doc-type="pdf">
                         <i class="fa-solid fa-file-shield me-1"></i> View Pollution Compliance
@@ -489,7 +489,7 @@ include_once 'partials/header.php';
             </div>
 
             <!-- 8. NHAI & Government Credentials -->
-            <div class="col-xl-3 col-lg-4 col-md-6">
+            <!-- <div class="col-xl-3 col-lg-4 col-md-6">
                 <div
                     class="p-4 bg-white rounded-4 shadow-sm border text-center h-100 d-flex flex-column justify-content-between position-relative">
                     <span
@@ -519,7 +519,7 @@ include_once 'partials/header.php';
                         </a>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>
@@ -671,10 +671,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
         <div class="row g-4">
             <div class="col-lg-4 col-md-6">
-                <div class="card h-100 border shadow-sm rounded-4 overflow-hidden">
-                   <div class="position-relative p-2" style="background-color: #e0f2fe; border-radius: 8px; overflow: hidden;">
+                <div class="card h-100 border shadow-sm rounded-4 overflow-hidden" style="background-color: #e0f2fe !important;">
+                   <div class="position-relative p-2 " style="background-color: #e0f2fe; border-radius: 8px; overflow: hidden;">
                         <img src="/assets/img/img/banner/banner-image.png" class="card-img-top img-fluid rounded"
-                        alt="Elastomeric Bearing" style="height:220px; object-fit:cover; width: 100%; display: block;">
+                        alt="Elastomeric Bearing" style="height:300px; object-fit:cover; width: 100%; display: block;">
                         <span class="badge position-absolute top-0 end-0 m-3" style="background-color: #0284c7; color: #ffffff;">IRC:83 (Part II)</span>
                     </div>
                     <div class="card-body p-4">
@@ -694,10 +694,10 @@ document.addEventListener('DOMContentLoaded', function () {
             </div>
 
             <div class="col-lg-4 col-md-6">
-                <div class="card h-100 border shadow-sm rounded-4 overflow-hidden">
+                <div class="card h-100 border shadow-sm rounded-4 overflow-hidden" style="background-color: #e0f2fe !important;">
                     <div class="position-relative">
                         <img src="/assets/img/img/banner/birdge-5.webp" class="card-img-top" alt="Seismic Pad"
-                            style="height:220px; object-fit:cover;">
+                            style="height:300px; object-fit:cover;">
                         <span class="badge bg-warning text-dark position-absolute top-0 end-0 m-3">Seismic
                             Damping</span>
                     </div>
@@ -718,10 +718,10 @@ document.addEventListener('DOMContentLoaded', function () {
             </div>
 
             <div class="col-lg-4 col-md-6">
-                <div class="card h-100 border shadow-sm rounded-4 overflow-hidden">
+                <div class="card h-100 border shadow-sm rounded-4 overflow-hidden" style="background-color: #e0f2fe !important;">
                     <div class="position-relative">
-                        <img src="assets/pp_data/Machine's Images/IMG20260913162338.jpg" class="card-img-top"
-                            alt="PTFE Sliding Bearing" style="height:220px; object-fit:cover;">
+                        <img src="/assets/img/img/banner/Elastomeric-Bridge.png" class="card-img-top"
+                            alt="PTFE Sliding Bearing" style="height:300px; object-fit:cover;">
                         <span class="badge bg-info text-white position-absolute top-0 end-0 m-3">Low Friction
                             PTFE</span>
                     </div>
@@ -869,7 +869,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 <div class="card h-100 border-0 rounded-4 shadow-sm overflow-hidden bg-white sector-card position-relative"
                     style="transition: all 0.35s ease;">
                     <div class="position-relative overflow-hidden" style="height: 230px;">
-                        <img src="assets/img/img/banner/birdge-4.webp" class="card-img-top w-100 h-100 sector-img"
+                        <img src="assets/img/img/banner/birdge-8.webp" class="card-img-top w-100 h-100 sector-img"
                             alt="NHAI Highway Bridges & Expressways"
                             style="object-fit: cover; transition: transform 0.5s ease;">
                         <span
@@ -932,7 +932,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 <div class="card h-100 border-0 rounded-4 shadow-sm overflow-hidden bg-white sector-card position-relative"
                     style="transition: all 0.35s ease;">
                     <div class="position-relative overflow-hidden" style="height: 230px;">
-                        <img src="/assets/img/img/banner/image-2.png" class="card-img-top w-100 h-100 sector-img"
+                        <img src="/assets/img/img/banner/Monorailmumbai.webp" class="card-img-top w-100 h-100 sector-img"
                             alt="Metro Rail Transit Systems"
                             style="object-fit: cover; transition: transform 0.5s ease;">
                         <span
@@ -1009,7 +1009,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 <div class="col-lg-7 border-start-lg ps-lg-5">
                     <div class="swiper testimonial-slider-prozen overflow-hidden">
                         <div class="swiper-wrapper">
-                            <!-- Review Slide 1 -->
+                            <!-- Review Slide 1: Dhruv Ozal (Rajkamal Builders) -->
                             <div class="swiper-slide">
                                 <div class="review-stars mb-3 text-warning">
                                     <i class="fa-solid fa-star"></i>
@@ -1019,29 +1019,25 @@ document.addEventListener('DOMContentLoaded', function () {
                                     <i class="fa-solid fa-star"></i>
                                 </div>
                                 <blockquote class="blockquote mb-4">
-                                    <p class="mb-0 fw-semibold text-dark" style="font-size: 18px; line-height: 1.8;">
-                                        "Polymer Products delivered high-precision laminated elastomeric bearings
-                                        for our railway viaduct project on strict deadlines. The material compliance
-                                        with IRC:83 (Part II) and RDSO testing witnessed by third-party inspection
-                                        agencies was impeccable. Highly recommended for critical civil
-                                        infrastructure."
+                                    <p class="mb-0 fw-semibold text-dark" style="font-size: 17px; line-height: 1.8;">
+                                        "Elastomeric Bearing Testing for Khan River Bridge has conducted here at Dynamic (Polymer Products) as per code and found satisfactory."
                                     </p>
                                 </blockquote>
                                 <div class="d-flex align-items-center gap-3 pt-2">
-                                    <img src="assets/img/img/team/1.jpg" alt="Er. Rajesh Sharma"
-                                        class="rounded-circle shadow-sm"
-                                        style="width:52px; height:52px; object-fit:cover; border:2px solid var(--theme-primary);">
+                                    <div class="rounded-circle d-flex align-items-center justify-content-center text-white fw-bold shadow-sm"
+                                        style="width:50px; height:50px; min-width:50px; background: var(--theme-primary); font-size: 16px; font-family:'Oswald', sans-serif;">
+                                        DO
+                                    </div>
                                     <div>
                                         <h6 class="fw-bold text-dark text-uppercase mb-0"
                                             style="font-size: 15px; font-family:'Oswald', sans-serif; letter-spacing:0.5px;">
-                                            Er. Rajesh Sharma</h6>
-                                        <small class="text-muted" style="font-size: 13px;">Chief Structural
-                                            Consultant, Rail Infrastructure Division</small>
+                                            Dhruv Ozal</h6>
+                                        <small class="text-muted" style="font-size: 13px;">Rajkamal Builders Infra Pvt. Ltd. &bull; Khan River Bridge, Ahmedabad</small>
                                     </div>
                                 </div>
                             </div>
 
-                            <!-- Review Slide 2 -->
+                            <!-- Review Slide 2: Neeraj Sansiya (MPRRDA) -->
                             <div class="swiper-slide">
                                 <div class="review-stars mb-3 text-warning">
                                     <i class="fa-solid fa-star"></i>
@@ -1051,28 +1047,25 @@ document.addEventListener('DOMContentLoaded', function () {
                                     <i class="fa-solid fa-star"></i>
                                 </div>
                                 <blockquote class="blockquote mb-4">
-                                    <p class="mb-0 fw-semibold text-dark" style="font-size: 18px; line-height: 1.8;">
-                                        "Their Nashik manufacturing facility operates with supreme standard
-                                        operating procedures. The elastomeric bearing pads exhibited outstanding
-                                        shear modulus and compressive strength during proof load testing on our
-                                        major Highway Bridge expansion."
+                                    <p class="mb-0 fw-semibold text-dark" style="font-size: 17px; line-height: 1.8;">
+                                        "We have good experience with Polymer Products team. They have managed work very well and performed all tests with us in proper manner. Quality of Material (Bearing) tested &amp; results are satisfactory."
                                     </p>
                                 </blockquote>
                                 <div class="d-flex align-items-center gap-3 pt-2">
-                                    <img src="assets/img/img/team/2.jpg" alt="Vikramaditya Patil"
-                                        class="rounded-circle shadow-sm"
-                                        style="width:52px; height:52px; object-fit:cover; border:2px solid var(--theme-primary);">
+                                    <div class="rounded-circle d-flex align-items-center justify-content-center text-white fw-bold shadow-sm"
+                                        style="width:50px; height:50px; min-width:50px; background: var(--theme-primary); font-size: 16px; font-family:'Oswald', sans-serif;">
+                                        NS
+                                    </div>
                                     <div>
                                         <h6 class="fw-bold text-dark text-uppercase mb-0"
                                             style="font-size: 15px; font-family:'Oswald', sans-serif; letter-spacing:0.5px;">
-                                            Vikramaditya Patil</h6>
-                                        <small class="text-muted" style="font-size: 13px;">Senior Project Manager,
-                                            National Highway Corridor</small>
+                                            Neeraj Sansiya</h6>
+                                        <small class="text-muted" style="font-size: 13px;">Material Engineer, SQC of MPRRDA Kukshi PIU-2, Dist. Dhar, Madhya Pradesh</small>
                                     </div>
                                 </div>
                             </div>
 
-                            <!-- Review Slide 3 -->
+                            <!-- Review Slide 3: Abhishek Singh (Unique Construction) -->
                             <div class="swiper-slide">
                                 <div class="review-stars mb-3 text-warning">
                                     <i class="fa-solid fa-star"></i>
@@ -1082,22 +1075,76 @@ document.addEventListener('DOMContentLoaded', function () {
                                     <i class="fa-solid fa-star"></i>
                                 </div>
                                 <blockquote class="blockquote mb-4">
-                                    <p class="mb-0 fw-semibold text-dark" style="font-size: 18px; line-height: 1.8;">
-                                        "We procured specialized seismic vibration isolation pads and PTFE sliding
-                                        bearings for an urban elevated metro corridor. Polymer Products' engineering
-                                        team provided robust quality certification and on-time dispatches."
+                                    <p class="mb-0 fw-semibold text-dark" style="font-size: 17px; line-height: 1.8;">
+                                        "Visited PP Polymers for the testing of Elastomeric bearing (72 Nos) for Barrage (FOB) &amp; it was excellent experience and the staff was co-operative, well knowledged and completed the testing procedure overall at the amazing exp."
                                     </p>
                                 </blockquote>
                                 <div class="d-flex align-items-center gap-3 pt-2">
-                                    <img src="assets/img/img/team/3.jpg" alt="Sunil Deshmukh"
-                                        class="rounded-circle shadow-sm"
-                                        style="width:52px; height:52px; object-fit:cover; border:2px solid var(--theme-primary);">
+                                    <div class="rounded-circle d-flex align-items-center justify-content-center text-white fw-bold shadow-sm"
+                                        style="width:50px; height:50px; min-width:50px; background: var(--theme-primary); font-size: 16px; font-family:'Oswald', sans-serif;">
+                                        AS
+                                    </div>
                                     <div>
                                         <h6 class="fw-bold text-dark text-uppercase mb-0"
                                             style="font-size: 15px; font-family:'Oswald', sans-serif; letter-spacing:0.5px;">
-                                            Sunil Deshmukh</h6>
-                                        <small class="text-muted" style="font-size: 13px;">Quality Assurance Lead,
-                                            Metro Rail Projects</small>
+                                            Abhishek Singh</h6>
+                                        <small class="text-muted" style="font-size: 13px;">Sr. Bridge Engineer, Unique Construction Surat (Barrage FOB Project)</small>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Review Slide 4: Praveen Vasant Kadam (Mahad Municipal Council) -->
+                            <div class="swiper-slide">
+                                <div class="review-stars mb-3 text-warning">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <blockquote class="blockquote mb-4">
+                                    <p class="mb-0 fw-semibold text-dark" style="font-size: 17px; line-height: 1.8;">
+                                        "Representative of Mahad Municipal Council &amp; representative of T&amp;T Construction jointly visited the plant. Tests are carried out as per required standards. Co-operated &amp; brief explanation given by the company representative. Thanking you. Best luck for great future."
+                                    </p>
+                                </blockquote>
+                                <div class="d-flex align-items-center gap-3 pt-2">
+                                    <div class="rounded-circle d-flex align-items-center justify-content-center text-white fw-bold shadow-sm"
+                                        style="width:50px; height:50px; min-width:50px; background: var(--theme-primary); font-size: 16px; font-family:'Oswald', sans-serif;">
+                                        PK
+                                    </div>
+                                    <div>
+                                        <h6 class="fw-bold text-dark text-uppercase mb-0"
+                                            style="font-size: 15px; font-family:'Oswald', sans-serif; letter-spacing:0.5px;">
+                                            Praveen Vasant Kadam</h6>
+                                        <small class="text-muted" style="font-size: 13px;">Municipal Engineer, Mahad Municipal Council, Tal-Mahad, Dist-Raigad</small>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Review Slide 5: Er. Khalid Raza (Vishal Construction) -->
+                            <div class="swiper-slide">
+                                <div class="review-stars mb-3 text-warning">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <blockquote class="blockquote mb-4">
+                                    <p class="mb-0 fw-semibold text-dark" style="font-size: 17px; line-height: 1.8;">
+                                        "Today visit the Polymer Products lab for testing the Elastomeric Bearings for our projects. Testing experience is good as per testing staff and testing is passed."
+                                    </p>
+                                </blockquote>
+                                <div class="d-flex align-items-center gap-3 pt-2">
+                                    <div class="rounded-circle d-flex align-items-center justify-content-center text-white fw-bold shadow-sm"
+                                        style="width:50px; height:50px; min-width:50px; background: var(--theme-primary); font-size: 16px; font-family:'Oswald', sans-serif;">
+                                        KR
+                                    </div>
+                                    <div>
+                                        <h6 class="fw-bold text-dark text-uppercase mb-0"
+                                            style="font-size: 15px; font-family:'Oswald', sans-serif; letter-spacing:0.5px;">
+                                            Er. Khalid Raza</h6>
+                                        <small class="text-muted" style="font-size: 13px;">Site Engineer, Vishal Construction Saikheda</small>
                                     </div>
                                 </div>
                             </div>
