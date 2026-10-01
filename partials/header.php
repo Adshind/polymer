@@ -24,7 +24,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
     <title><?php echo htmlspecialchars($page_title); ?></title>
     
     <!-- Favicon img -->
-    <link rel="shortcut icon" href="assets/img/favicon.svg">
+    <link rel="shortcut icon" href="/assets/img/img/banner/favicon.ico">
     <!-- bootstrap -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!--<< All Min Css >>-->

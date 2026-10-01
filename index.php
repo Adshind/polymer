@@ -4,7 +4,7 @@ include_once 'partials/header.php';
 ?>
 
 <section class="ht-hero-area d-flex align-items-center"
-    style="background: linear-gradient(135deg, rgba(27, 18, 18, 0.88) 0%, rgba(14, 34, 61, 0.82) 50%, rgba(243, 243, 243, 0.92) 100%), url('/assets/img/img/banner/birdge-2.webp') center center / cover no-repeat; position: relative; overflow: hidden; min-height: 100vh; padding-top: 175px; padding-bottom: 75px; margin-top: -160px;">
+    style="background: linear-gradient(135deg, rgba(27, 18, 18, 0.88) 0%, rgba(14, 34, 61, 0.82) 50%, rgba(243, 243, 243, 0.52) 100%), url('/assets/img/img/banner/birdge-13.webp') center center / cover no-repeat; position: relative; overflow: hidden; min-height: 100vh; padding-top: 175px; padding-bottom: 75px; margin-top: -160px;">
     <div class="ht-hero-shape" style="position: absolute; top:0; right:0; opacity:0.12;">
         <img src="assets/img/shape/1.svg" alt="shape">
     </div>
@@ -43,7 +43,7 @@ include_once 'partials/header.php';
             <div class="col-lg-5 mt-5 mt-lg-0 text-center">
                 <div class="hero-image-card p-2 bg-transparent rounded position-relative wow zoomIn"
                     data-wow-delay=".3s" style="border: 0px solid rgba(255,255,255,0.2);">
-                    <img src="assets/img/img/banner/banner-image.pg" alt="Elastomeric Bridge Bearing"
+                    <img src="/assets/img/img/banner/banner-image.pg" alt="Elastomeric Bridge Bearing"
                         class="img-fluid rounded"
                         style="width:100%; max-height:420px; object-fit:contain; filter: drop-shadow(0 15px 30px rgba(0,0,0,0.5));">
                 </div>
@@ -177,9 +177,9 @@ include_once 'partials/header.php';
                     <!-- Main Image Card -->
                     <div class="position-relative overflow-hidden shadow-lg"
                         style="border-radius:24px; z-index:2; background:#fff;">
-                        <img src="assets/pp_data/Machine's Images/IMG20260913162027.jpg"
+                        <img src="/assets/img/img/banner/factory-image.webp"
                             alt="Manufacturing Plant Nashik" class="img-fluid w-100"
-                            style="height:440px; object-fit:cover; border-radius:24px;">
+                            style="height:540px; object-fit:cover; border-radius:24px;">
                     </div>
 
                     <!-- Floating Statistics Card (Animated float-bob-y) -->
@@ -224,7 +224,7 @@ include_once 'partials/header.php';
                         Company</span>
                     <h2 class="fw-bold text-dark mb-4"
                         style="font-size:42px; line-height:1.2; font-family:'Oswald', sans-serif; text-transform:uppercase; letter-spacing:-0.5px;">
-                        We Committed To Helping You Achieve Your Structural Goals
+                       Achieving Your Structural Goals
                     </h2>
                     <p class="text-secondary mb-3" style="font-size:16px; line-height:1.8;">
                         <strong>Polymer Products</strong> is an established name in the civil engineering industry,
@@ -259,9 +259,13 @@ include_once 'partials/header.php';
                             <span>Let's Get In Touch</span>
                             <i class="fa-solid fa-arrow-right ms-2" style="font-size:12px;"></i>
                         </a>
-                        <a href="about.php" class="btn btn-outline-primary px-4 py-3 text-uppercase fw-bold rounded-3"
+                        <a href="assets/pp_data/Page 01/Credential_Polymer_Products.pdf" target="_blank"
+                            class="btn btn-outline-primary px-4 py-3 text-uppercase fw-bold rounded-3 d-inline-flex align-items-center open-cert-modal"
+                            data-doc-url="assets/pp_data/Page 01/Credential_Polymer_Products.pdf"
+                            data-doc-title="Polymer Products - Company Brochure & Credentials"
+                            data-doc-type="pdf"
                             style="font-size:13px; letter-spacing:0.5px;">
-                            Explore Capabilities
+                            <i class="fa-solid fa-file-pdf me-2"></i>View Brochure
                         </a>
                     </div>
                 </div>
@@ -311,8 +315,11 @@ include_once 'partials/header.php';
                         <p class="small text-muted mb-3">Fully compliant registered manufacturing entity under
                             Government of India Goods & Services Tax (GST) Act.</p>
                     </div>
-                    <a href="assets/pp_data/Page 01/GST_CERTIFICATE-1.pdf" target="_blank"
-                        class="btn btn-outline-primary btn-sm rounded-pill fw-bold">
+                    <a href="assets/pp_data/Page 01/POLYMER DETAILS/GST_CERTIFICATE-1.pdf"
+                        class="btn btn-outline-primary btn-sm rounded-pill fw-bold open-cert-modal"
+                        data-doc-url="assets/pp_data/Page 01/POLYMER DETAILS/GST_CERTIFICATE-1.pdf"
+                        data-doc-title="GST Registration Certificate"
+                        data-doc-type="pdf">
                         <i class="fa-solid fa-file-pdf me-1"></i> View GST Certificate
                     </a>
                 </div>
@@ -332,8 +339,11 @@ include_once 'partials/header.php';
                         <p class="small text-muted mb-3">Permanent Account Number statutory tax registration issued
                             by Income Tax Department, Government of India.</p>
                     </div>
-                    <a href="assets/pp_data/Page 01/GST_CERTIFICATE-1.pdf" target="_blank"
-                        class="btn btn-outline-primary btn-sm rounded-pill fw-bold">
+                    <a href="assets/pp_data/Page 01/Credential_Polymer_Products.pdf"
+                        class="btn btn-outline-primary btn-sm rounded-pill fw-bold open-cert-modal"
+                        data-doc-url="assets/pp_data/Page 01/Credential_Polymer_Products.pdf"
+                        data-doc-title="PAN & Statutory Tax Registration Record"
+                        data-doc-type="pdf">
                         <i class="fa-solid fa-file-shield me-1"></i> Verified PAN Record
                     </a>
                 </div>
@@ -353,8 +363,11 @@ include_once 'partials/header.php';
                         <p class="small text-muted mb-3">MSME Enterprise registration certificate officially
                             accredited under Ministry of Micro, Small & Medium Enterprises.</p>
                     </div>
-                    <a href="assets/pp_data/Page 01/UDAYAM CERTIFICATE.pdf" target="_blank"
-                        class="btn btn-outline-primary btn-sm rounded-pill fw-bold">
+                    <a href="assets/pp_data/Page 01/POLYMER DETAILS/UDAYAM CERTIFICATE.pdf"
+                        class="btn btn-outline-primary btn-sm rounded-pill fw-bold open-cert-modal"
+                        data-doc-url="assets/pp_data/Page 01/POLYMER DETAILS/UDAYAM CERTIFICATE.pdf"
+                        data-doc-title="UDYAM MSME Enterprise Certificate"
+                        data-doc-type="pdf">
                         <i class="fa-solid fa-file-pdf me-1"></i> View Udyam Certificate
                     </a>
                 </div>
@@ -376,11 +389,17 @@ include_once 'partials/header.php';
                     </div>
                     <div class="d-flex flex-column gap-2">
                         <a href="assets/pp_data/Page 01/POLYMER DETAILS/PP DETAILS/PLAN APPROVAL CERTIFICATE.pdf"
-                            target="_blank" class="btn btn-outline-primary btn-sm rounded-pill fw-bold">
+                            class="btn btn-outline-primary btn-sm rounded-pill fw-bold open-cert-modal"
+                            data-doc-url="assets/pp_data/Page 01/POLYMER DETAILS/PP DETAILS/PLAN APPROVAL CERTIFICATE.pdf"
+                            data-doc-title="Directorate of Safety Factory Plan Approval"
+                            data-doc-type="pdf">
                             <i class="fa-solid fa-file-pdf me-1"></i> Factory Plan Approval
                         </a>
                         <a href="assets/pp_data/Page 01/POLYMER DETAILS/PP DETAILS/STABILITY CERTIFICATE.pdf"
-                            target="_blank" class="btn btn-outline-primary btn-sm rounded-pill fw-bold">
+                            class="btn btn-outline-primary btn-sm rounded-pill fw-bold open-cert-modal"
+                            data-doc-url="assets/pp_data/Page 01/POLYMER DETAILS/PP DETAILS/STABILITY CERTIFICATE.pdf"
+                            data-doc-title="Factory Building Stability Certificate"
+                            data-doc-type="pdf">
                             <i class="fa-solid fa-shield-halved me-1"></i> Stability Certificate
                         </a>
                     </div>
@@ -401,8 +420,11 @@ include_once 'partials/header.php';
                         <p class="small text-muted mb-3">Maharashtra Pollution Control Board (MPCB) environmental
                             consent & green emission standard compliance.</p>
                     </div>
-                    <a href="assets/pp_data/Page 01/Credential_Polymer_Products.pdf" target="_blank"
-                        class="btn btn-outline-primary btn-sm rounded-pill fw-bold">
+                    <a href="assets/pp_data/Page 01/Credential_Polymer_Products.pdf"
+                        class="btn btn-outline-primary btn-sm rounded-pill fw-bold open-cert-modal"
+                        data-doc-url="assets/pp_data/Page 01/Credential_Polymer_Products.pdf"
+                        data-doc-title="Maharashtra Pollution Control Board (MPCB) Consent"
+                        data-doc-type="pdf">
                         <i class="fa-solid fa-file-shield me-1"></i> View Pollution Compliance
                     </a>
                 </div>
@@ -422,8 +444,11 @@ include_once 'partials/header.php';
                         <p class="small text-muted mb-3">International Quality Management System certification for
                             manufacturing elastomeric bridge bearings & seismic pads.</p>
                     </div>
-                    <a href="assets/pp_data/Page 01/ISO CERTIFICATE 2027.png" target="_blank"
-                        class="btn btn-outline-primary btn-sm rounded-pill fw-bold">
+                    <a href="assets/pp_data/Page 01/POLYMER DETAILS/ISO CERTIFICATE 2027.png"
+                        class="btn btn-outline-primary btn-sm rounded-pill fw-bold open-cert-modal"
+                        data-doc-url="assets/pp_data/Page 01/POLYMER DETAILS/ISO CERTIFICATE 2027.png"
+                        data-doc-title="ISO 9001:2027 Quality Management Certification"
+                        data-doc-type="image">
                         <i class="fa-solid fa-image me-1"></i> View ISO Certificate
                     </a>
                 </div>
@@ -443,8 +468,11 @@ include_once 'partials/header.php';
                         <p class="small text-muted mb-3">Research Designs and Standards Organisation (RDSO)
                             technical approval for Indian Railway bridge bearing applications.</p>
                     </div>
-                    <a href="assets/pp_data/Page 01/NEW_RDSO.pdf" target="_blank"
-                        class="btn btn-outline-primary btn-sm rounded-pill fw-bold">
+                    <a href="assets/pp_data/Page 01/POLYMER DETAILS/NEW_RDSO.pdf"
+                        class="btn btn-outline-primary btn-sm rounded-pill fw-bold open-cert-modal"
+                        data-doc-url="assets/pp_data/Page 01/POLYMER DETAILS/NEW_RDSO.pdf"
+                        data-doc-title="RDSO Indian Railways Technical Approval"
+                        data-doc-type="pdf">
                         <i class="fa-solid fa-file-pdf me-1"></i> View RDSO Approval
                     </a>
                 </div>
@@ -465,18 +493,167 @@ include_once 'partials/header.php';
                             approved by NHAI, Metro, and Major Infrastructure clients.</p>
                     </div>
                     <div class="d-flex flex-column gap-2">
-                        <a href="assets/pp_data/Page 01/Credential_Polymer_Products.pdf" target="_blank"
-                            class="btn btn-outline-primary btn-sm rounded-pill fw-bold">
+                        <a href="assets/pp_data/Page 01/Credential_Polymer_Products.pdf"
+                            class="btn btn-outline-primary btn-sm rounded-pill fw-bold open-cert-modal"
+                            data-doc-url="assets/pp_data/Page 01/Credential_Polymer_Products.pdf"
+                            data-doc-title="NHAI Approved Quality Assurance Plan (QAP)"
+                            data-doc-type="pdf">
                             <i class="fa-solid fa-file-pdf me-1"></i> View NHAI QAP
                         </a>
-                        <a href="assets/pp_data/Page 02/sister cons latter - 2026.pdf" target="_blank"
-                            class="btn btn-outline-primary btn-sm rounded-pill fw-bold">
+                        <a href="assets/pp_data/Page 02/sister cons latter - 2026.pdf"
+                            class="btn btn-outline-primary btn-sm rounded-pill fw-bold open-cert-modal"
+                            data-doc-url="assets/pp_data/Page 02/sister cons latter - 2026.pdf"
+                            data-doc-title="Dynamic Prestress Sister Concern Credential Letter"
+                            data-doc-type="pdf">
                             <i class="fa-solid fa-handshake-angle me-1"></i> Letter
                         </a>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+</section>
+
+<!-- Certificate & Document Viewer Modal Popup -->
+<div class="modal fade" id="certificateModal" tabindex="-1" aria-labelledby="certificateModalLabel" aria-hidden="true" style="z-index: 10500;">
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content border-0 shadow-lg rounded-4 overflow-hidden" style="border: 1px solid rgba(255, 255, 255, 0.1);">
+            <!-- Modal Header -->
+            <div class="modal-header text-white px-4 py-3" style="background: var(--theme-primary, #0b57d0);">
+                <div class="d-flex align-items-center">
+                    <div class="modal-icon-wrap me-3 p-2 bg-white bg-opacity-25 rounded-circle d-flex align-items-center justify-content-center" style="width: 42px; height: 42px;">
+                        <i id="certModalIcon" class="fa-solid fa-file-pdf text-white fs-5"></i>
+                    </div>
+                    <div>
+                        <h5 class="modal-title fw-bold text-white mb-0" id="certificateModalLabel">Document Viewer</h5>
+                        <small id="certModalSub" class="text-white-50" style="font-size: 12px;">Verified Statutory &amp; Quality Credential</small>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center gap-2">
+                    <a id="certModalExternalLink" href="#" target="_blank" class="btn btn-sm btn-light rounded-pill px-3 fw-bold" title="Open in New Tab / Download">
+                        <i class="fa-solid fa-arrow-up-right-from-square me-1"></i> <span class="d-none d-sm-inline">Open in New Tab</span>
+                    </a>
+                    <button type="button" class="btn-close btn-close-white ms-2" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+            </div>
+
+            <!-- Modal Body -->
+            <div class="modal-body p-0 position-relative" style="background: #0f172a; min-height: 520px;">
+                <!-- Loading Spinner -->
+                <div id="certModalLoader" class="position-absolute top-50 start-50 translate-middle text-center py-5">
+                    <div class="spinner-border text-primary mb-2" role="status" style="width: 3rem; height: 3rem;">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                    <p class="text-white-50 small mb-0">Loading document preview...</p>
+                </div>
+
+                <!-- PDF Frame -->
+                <iframe id="certModalIframe" src="" style="width: 100%; height: 75vh; border: none; display: none; background: #fff;" allowfullscreen></iframe>
+
+                <!-- Image Preview -->
+                <div id="certModalImgWrap" class="text-center p-3 p-md-4" style="display: none; max-height: 75vh; overflow-y: auto;">
+                    <img id="certModalImage" src="" class="img-fluid rounded shadow-sm" alt="Certificate Image" style="max-height: 70vh; object-fit: contain; background: #fff; padding: 6px;">
+                </div>
+            </div>
+
+            <!-- Modal Footer -->
+            <div class="modal-footer bg-white px-4 py-3 border-top d-flex justify-content-between align-items-center">
+                <span class="text-muted small">
+                    <i class="fa-solid fa-shield-check text-success me-1"></i> Official Certified Document &bull; Polymer Products
+                </span>
+                <div class="d-flex gap-2">
+                    <a id="certModalDownloadBtn" href="#" target="_blank" download class="btn btn-outline-primary btn-sm rounded-pill px-3 fw-bold">
+                        <i class="fa-solid fa-download me-1"></i> Download File
+                    </a>
+                    <button type="button" class="btn btn-dark btn-sm rounded-pill px-4 fw-bold" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const certModalEl = document.getElementById('certificateModal');
+    if (!certModalEl) return;
+
+    const modalTitle = document.getElementById('certificateModalLabel');
+    const modalIcon = document.getElementById('certModalIcon');
+    const modalIframe = document.getElementById('certModalIframe');
+    const modalImgWrap = document.getElementById('certModalImgWrap');
+    const modalImage = document.getElementById('certModalImage');
+    const modalLoader = document.getElementById('certModalLoader');
+    const modalExternalLink = document.getElementById('certModalExternalLink');
+    const modalDownloadBtn = document.getElementById('certModalDownloadBtn');
+
+    let bsModal = null;
+    if (typeof bootstrap !== 'undefined' && bootstrap.Modal) {
+        bsModal = new bootstrap.Modal(certModalEl);
+    }
+
+    document.querySelectorAll('.open-cert-modal').forEach(function (btn) {
+        btn.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            const url = this.getAttribute('data-doc-url') || this.getAttribute('href');
+            const title = this.getAttribute('data-doc-title') || 'Certificate & Approval Document';
+            const type = this.getAttribute('data-doc-type') || (url.toLowerCase().match(/\.(png|jpg|jpeg|webp)$/) ? 'image' : 'pdf');
+
+            if (!url) return;
+
+            // Set Title and Links
+            modalTitle.textContent = title;
+            modalExternalLink.setAttribute('href', url);
+            modalDownloadBtn.setAttribute('href', url);
+
+            // Show Loader and hide old content
+            modalLoader.style.display = 'block';
+            modalIframe.style.display = 'none';
+            modalImgWrap.style.display = 'none';
+            modalIframe.src = '';
+            modalImage.src = '';
+
+            if (type === 'image') {
+                modalIcon.className = 'fa-solid fa-image text-white fs-5';
+                modalImage.onload = function () {
+                    modalLoader.style.display = 'none';
+                    modalImgWrap.style.display = 'block';
+                };
+                modalImage.onerror = function () {
+                    modalLoader.style.display = 'none';
+                    modalImgWrap.innerHTML = '<div class="p-4 text-center text-white"><i class="fa-solid fa-triangle-exclamation fa-2x mb-2 text-warning"></i><p>Unable to preview image directly in frame.</p><a href="' + url + '" target="_blank" class="btn btn-sm btn-primary">Open Image Directly</a></div>';
+                    modalImgWrap.style.display = 'block';
+                };
+                modalImage.src = url;
+            } else {
+                modalIcon.className = 'fa-solid fa-file-pdf text-white fs-5';
+                modalIframe.onload = function () {
+                    modalLoader.style.display = 'none';
+                    modalIframe.style.display = 'block';
+                };
+                modalIframe.src = url;
+                setTimeout(function () {
+                    modalLoader.style.display = 'none';
+                    modalIframe.style.display = 'block';
+                }, 600);
+            }
+
+            if (bsModal) {
+                bsModal.show();
+            } else if (typeof $ !== 'undefined') {
+                $(certModalEl).modal('show');
+            }
+        });
+    });
+
+    // Reset iframe/image when modal closes
+    certModalEl.addEventListener('hidden.bs.modal', function () {
+        modalIframe.src = '';
+        modalImage.src = '';
+        modalLoader.style.display = 'none';
+    });
+});
+</script>
     </div>
 </section>
 
@@ -493,13 +670,13 @@ include_once 'partials/header.php';
         <div class="row g-4">
             <div class="col-lg-4 col-md-6">
                 <div class="card h-100 border shadow-sm rounded-4 overflow-hidden">
-                    <div class="position-relative">
-                        <img src="assets/pp_data/Extra Images/bearing.jpg" class="card-img-top"
-                            alt="Elastomeric Bearing" style="height:220px; object-fit:cover;">
-                        <span class="badge bg-primary position-absolute top-0 end-0 m-3">IRC:83 (Part II)</span>
+                   <div class="position-relative p-2" style="background-color: #e0f2fe; border-radius: 8px; overflow: hidden;">
+                        <img src="/assets/img/img/banner/banner-image.png" class="card-img-top img-fluid rounded"
+                        alt="Elastomeric Bearing" style="height:220px; object-fit:cover; width: 100%; display: block;">
+                        <span class="badge position-absolute top-0 end-0 m-3" style="background-color: #0284c7; color: #ffffff;">IRC:83 (Part II)</span>
                     </div>
                     <div class="card-body p-4">
-                        <h4 class="card-title fw-bold text-dark mb-2">Laminated Elastomeric Bearings</h4>
+                        <h5 class="card-title fw-bold text-dark mb-2">Laminated Elastomeric Bearings</h5>
                         <p class="card-text text-muted small mb-3">Reinforced with multiple internal mild steel
                             laminates (IS: 2062). Accommodates simultaneous high vertical loads, longitudinal
                             translation, and rotational movements.</p>
@@ -517,13 +694,13 @@ include_once 'partials/header.php';
             <div class="col-lg-4 col-md-6">
                 <div class="card h-100 border shadow-sm rounded-4 overflow-hidden">
                     <div class="position-relative">
-                        <img src="assets/pp_data/Extra Images/images (2).jpg" class="card-img-top" alt="Seismic Pad"
+                        <img src="/assets/img/img/banner/birdge-5.webp" class="card-img-top" alt="Seismic Pad"
                             style="height:220px; object-fit:cover;">
                         <span class="badge bg-warning text-dark position-absolute top-0 end-0 m-3">Seismic
                             Damping</span>
                     </div>
                     <div class="card-body p-4">
-                        <h4 class="card-title fw-bold text-dark mb-2">Seismic & Vibration Isolation Pads</h4>
+                        <h5 class="card-title fw-bold text-dark mb-2">Seismic & Vibration Isolation Pads</h5>
                         <p class="card-text text-muted small mb-3">Formulated specifically for shock absorption,
                             seismic energy dissipation, and high structural damping under dynamic seismic
                             excitation.</p>
@@ -547,7 +724,7 @@ include_once 'partials/header.php';
                             PTFE</span>
                     </div>
                     <div class="card-body p-4">
-                        <h4 class="card-title fw-bold text-dark mb-2">PTFE Sliding Elastomeric Bearings</h4>
+                        <h5 class="card-title fw-bold text-dark mb-2">PTFE Sliding Elastomeric Bearings</h5>
                         <p class="card-text text-muted small mb-3">Equipped with dimpled pure virgin PTFE sheets
                             sliding against mirror-finish stainless steel for ultra-low friction high displacement
                             spans.</p>
@@ -567,7 +744,7 @@ include_once 'partials/header.php';
 
 <!-- Manufacturing Process Banner -->
 <section class="py-5 text-white position-relative"
-    style="background: linear-gradient(135deg, rgba(8, 20, 38, 0.92) 0%, rgba(10, 25, 47, 0.44) 40%, rgba(5, 12, 24, 0.81) 100%), url('assets/pp_data/Machine\'s Images/IMG20260913162055.jpg') center center / cover no-repeat; padding: 85px 0;">
+    style="background: linear-gradient(135deg, rgba(8, 20, 38, 0.92) 0%, rgba(10, 25, 47, 0.74) 40%, rgba(5, 12, 24, 0.81) 100%), url('/assets/img/img/banner/birdge-10.webp') center center / cover no-repeat; padding: 85px 0;">
     <div class="container-fluid px-3 px-lg-5 py-3">
         <div class="text-center mb-5">
             <span class="d-inline-block text-uppercase fw-bold mb-2"
@@ -576,7 +753,7 @@ include_once 'partials/header.php';
                 style="font-family: 'Saira-Medium', sans-serif; font-size: 38px; letter-spacing: 0.5px; max-width: 850px; line-height: 1.2;">
                 Comprehensive Manufacturing Process &amp; Quality Control
             </h2>
-            <p class="mx-auto mb-0" style="max-width: 750px; color: #cbd5e1; font-size: 15px; line-height: 1.7;">
+            <p class="mx-auto mb-0" style="max-width: 750px; color: #ffffffff; font-size: 15px; line-height: 1.7;">
                 From raw elastomer compounding (NR/CR) and shot-blasted steel plate preparation to precision
                 hydraulic vulcanization and proof-load testing, every step follows documented standard operating
                 procedures (SOP).
@@ -607,7 +784,7 @@ include_once 'partials/header.php';
                             style="font-size: 19px; letter-spacing: 0.5px; font-family: 'Saira-Medium', sans-serif;">
                             Compounding &amp; Prep
                         </h4>
-                        <p class="small mb-0" style="color: #94a3b8; line-height: 1.7; font-size: 14px;">
+                        <p class="small mb-0" style="color: #ffffffff; line-height: 1.7; font-size: 14px;">
                             Raw elastomer compounding (NR/CR), precision steel grit blasting, and multi-coat
                             adhesive application.
                         </p>
@@ -630,7 +807,7 @@ include_once 'partials/header.php';
                             style="font-size: 19px; letter-spacing: 0.5px; font-family: 'Saira-Medium', sans-serif;">
                             Vulcanization
                         </h4>
-                        <p class="small mb-0" style="color: #94a3b8; line-height: 1.7; font-size: 14px;">
+                        <p class="small mb-0" style="color: #ffffffff; line-height: 1.7; font-size: 14px;">
                             High-tonnage heated hydraulic pressing &amp; precision molding ensuring homogeneous
                             steel-rubber bonding.
                         </p>
@@ -653,7 +830,7 @@ include_once 'partials/header.php';
                             style="font-size: 19px; letter-spacing: 0.5px; font-family: 'Saira-Medium', sans-serif;">
                             Testing &amp; QA
                         </h4>
-                        <p class="small mb-0" style="color: #94a3b8; line-height: 1.7; font-size: 14px;">
+                        <p class="small mb-0" style="color: #ffffffff; line-height: 1.7; font-size: 14px;">
                             Rigid shear modulus, compressive stiffness and proof-load testing strictly conforming to
                             IRC:83 &amp; RDSO.
                         </p>
@@ -690,7 +867,7 @@ include_once 'partials/header.php';
                 <div class="card h-100 border-0 rounded-4 shadow-sm overflow-hidden bg-white sector-card position-relative"
                     style="transition: all 0.35s ease;">
                     <div class="position-relative overflow-hidden" style="height: 230px;">
-                        <img src="assets/img/img/project/nhai_bridge.jpg" class="card-img-top w-100 h-100 sector-img"
+                        <img src="assets/img/img/banner/birdge-4.webp" class="card-img-top w-100 h-100 sector-img"
                             alt="NHAI Highway Bridges & Expressways"
                             style="object-fit: cover; transition: transform 0.5s ease;">
                         <span
