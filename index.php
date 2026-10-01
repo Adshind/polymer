@@ -43,7 +43,7 @@ include_once 'partials/header.php';
             <div class="col-lg-5 mt-5 mt-lg-0 text-center">
                 <div class="hero-image-card p-2 bg-transparent rounded position-relative wow zoomIn"
                     data-wow-delay=".3s" style="border: 0px solid rgba(255,255,255,0.2);">
-                    <img src="/assets/img/img/banner/banner-image.pg" alt="Elastomeric Bridge Bearing"
+                    <img src="/assets/img/img/banner/Elastomeric-Bridge.png" alt="Elastomeric Bridge Bearing"
                         class="img-fluid rounded"
                         style="width:100%; max-height:420px; object-fit:contain; filter: drop-shadow(0 15px 30px rgba(0,0,0,0.5));">
                 </div>
