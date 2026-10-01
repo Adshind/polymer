@@ -256,7 +256,7 @@ include_once 'partials/header.php';
                 Bringing together decades of prestressing expertise, polymer chemistry, precision rubber compounding, and strict quality assurance protocols.
             </p>
         </div>
-
+ 
         <!-- Section 1: Board of Directors & Senior Management -->
         <div class="mb-5">
             <div class="d-flex align-items-center mb-4 pb-2 border-bottom">
