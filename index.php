@@ -51,8 +51,7 @@ include_once 'partials/header.php';
                     <div class="position-absolute start-50 translate-middle-x pointer-events-none"
                         style="bottom: 10px; width: 80%; height: 30px; background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.45) 50%, transparent 75%); filter: blur(10px); z-index: 1;">
                     </div>
-
-                    <!-- Main Bearing Product Image with Multi-layered 3D Shadow -->
+  
                     <img src="/assets/img/img/banner/banner-labber.png" alt="Elastomeric Bridge Bearing"
                         class="img-fluid position-relative float-hero-img"
                         style="width: 100%; max-height: 440px; object-fit: contain; z-index: 2; filter: drop-shadow(0 25px 45px rgba(0, 0, 0, 0.35)) drop-shadow(0 10px 20px rgba(0, 0, 0, 0.15)) drop-shadow(0 0 35px rgba(15, 11, 8, 0.15)); transition: transform 0.4s ease;">
