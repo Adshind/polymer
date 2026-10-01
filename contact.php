@@ -12,15 +12,15 @@ include_once 'partials/header.php';
     <div class="container-fluid px-3 px-lg-5">
         <div class="row align-items-center">
             <div class="col-lg-8">
-                <span class="badge px-3 py-2 mb-3 rounded-pill text-uppercase"
+                <span class="badge px-3 py-2 mb-3 rounded-pill text-uppercase saira-medium"
                     style="background: var(--theme-subtle); border: 1px solid var(--theme-primary); color: var(--theme-lighter); font-size: 13px; letter-spacing: 1px; font-weight: 600;">
                     <i class="fa-solid fa-headset me-2"></i>Technical RFQ &amp; Sales Desk
                 </span>
-                <h1 class="text-white fw-bold mb-3"
-                    style="font-family: 'Oswald', 'Saira-Medium', sans-serif; font-size: clamp(32px, 4vw, 48px); letter-spacing: -0.5px; line-height: 1.2;">
+                <h1 class="text-white fw-bold mb-3 saira-medium"
+                    style="font-family: 'Saira-Medium', sans-serif !important; font-size: clamp(32px, 4vw, 48px); letter-spacing: -0.5px; line-height: 1.2;">
                     Contact Us &amp; Request A Quote
                 </h1>
-                <p class="mb-0 text-white-50" style="font-size: 16px; line-height: 1.8; max-width: 680px;">
+                <p class="mb-0 text-white-50 saira-medium" style="font-size: 16px; line-height: 1.8; max-width: 680px;">
                     Reach out to our engineering and quality control team at Nashik for technical inquiries, custom bearing design calculations, and project pricing.
                 </p>
             </div>
@@ -32,8 +32,8 @@ include_once 'partials/header.php';
                         <i class="fa-solid fa-phone-volume"></i>
                     </div>
                     <div>
-                        <span class="small text-white-50 d-block" style="font-size: 12px;">Direct Hotlines</span>
-                        <a href="tel:8975766459" class="fw-bold text-white text-decoration-none" style="font-size: 17px;">+91 8975766459</a>
+                        <span class="small text-white-50 d-block saira-medium" style="font-size: 12px;">Direct Hotlines</span>
+                        <a href="tel:8975766459" class="fw-bold text-white text-decoration-none saira-medium" style="font-size: 17px;">+91 8975766459</a>
                     </div>
                 </div>
             </div>
@@ -53,14 +53,14 @@ include_once 'partials/header.php';
                 <div class="p-4 p-xl-5 bg-white rounded-4 border shadow-sm h-100 d-flex flex-column justify-content-between">
                     <div>
                         <div class="section-title mb-4">
-                            <span class="badge px-3 py-2 rounded-pill font-monospace fw-bold text-uppercase mb-2"
+                            <span class="badge px-3 py-2 rounded-pill font-monospace fw-bold text-uppercase mb-2 saira-medium"
                                 style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 11px; letter-spacing: 1px;">
                                 PLANT &amp; OFFICES
                             </span>
-                            <h3 class="fw-bold text-dark mb-1" style="font-family: 'Oswald', sans-serif; font-size: 28px;">
+                            <h3 class="fw-bold text-dark mb-1 saira-medium" style="font-family: 'Saira-Medium', sans-serif !important; font-size: 28px;">
                                 Polymer Products
                             </h3>
-                            <p class="text-muted small mb-0">Specialized division of Dynamic Prestress (I) Pvt. Ltd.</p>
+                            <p class="text-muted small mb-0 saira-medium">Specialized division of Dynamic Prestress (I) Pvt. Ltd.</p>
                         </div>
 
                         <!-- Info 1: Address -->
@@ -70,8 +70,8 @@ include_once 'partials/header.php';
                                 <i class="fa-solid fa-location-dot"></i>
                             </div>
                             <div>
-                                <h6 class="fw-bold text-dark mb-1" style="font-size: 14px;">Manufacturing Plant</h6>
-                                <p class="small text-muted mb-0" style="line-height: 1.6;">
+                                <h6 class="fw-bold text-dark mb-1 saira-medium" style="font-family: 'Saira-Medium', sans-serif !important; font-size: 15px;">Manufacturing Plant</h6>
+                                <p class="small text-muted mb-0 saira-medium" style="line-height: 1.6;">
                                     Polymer Products Manufacturing Facility, Nashik, Maharashtra, India.
                                 </p>
                             </div>
@@ -84,10 +84,10 @@ include_once 'partials/header.php';
                                 <i class="fa-solid fa-phone"></i>
                             </div>
                             <div>
-                                <h6 class="fw-bold text-dark mb-1" style="font-size: 14px;">Telephone &amp; Mobile</h6>
-                                <p class="small text-muted mb-0" style="line-height: 1.6;">
-                                    Mobile: <a href="tel:8975766459" class="text-dark fw-bold text-decoration-none">+91 8975766459</a><br>
-                                    Plant / Office: <a href="tel:02532350935" class="text-dark fw-bold text-decoration-none">0253 235 0935</a>
+                                <h6 class="fw-bold text-dark mb-1 saira-medium" style="font-family: 'Saira-Medium', sans-serif !important; font-size: 15px;">Telephone &amp; Mobile</h6>
+                                <p class="small text-muted mb-0 saira-medium" style="line-height: 1.6;">
+                                    Mobile: <a href="tel:8975766459" class="text-dark fw-bold text-decoration-none saira-medium">+91 8975766459</a><br>
+                                    Plant / Office: <a href="tel:02532350935" class="text-dark fw-bold text-decoration-none saira-medium">0253 235 0935</a>
                                 </p>
                             </div>
                         </div>
@@ -99,9 +99,9 @@ include_once 'partials/header.php';
                                 <i class="fa-solid fa-envelope"></i>
                             </div>
                             <div>
-                                <h6 class="fw-bold text-dark mb-1" style="font-size: 14px;">Email Inquiries</h6>
-                                <p class="small text-muted mb-0" style="line-height: 1.6;">
-                                    QA/QC Dept: <a href="mailto:qc@polymerproducts.org" class="text-decoration-none fw-semibold" style="color: var(--theme-primary);">qc@polymerproducts.org</a>
+                                <h6 class="fw-bold text-dark mb-1 saira-medium" style="font-family: 'Saira-Medium', sans-serif !important; font-size: 15px;">Email Inquiries</h6>
+                                <p class="small text-muted mb-0 saira-medium" style="line-height: 1.6;">
+                                    QA/QC Dept: <a href="mailto:qc@polymerproducts.org" class="text-decoration-none fw-semibold saira-medium" style="color: var(--theme-primary);">qc@polymerproducts.org</a>
                                 </p>
                             </div>
                         </div>
@@ -113,19 +113,19 @@ include_once 'partials/header.php';
                                 <i class="fa-solid fa-globe"></i>
                             </div>
                             <div>
-                                <h6 class="fw-bold text-dark mb-1" style="font-size: 14px;">Group Website</h6>
-                                <p class="small text-muted mb-0" style="line-height: 1.6;">
-                                    <a href="http://www.dynamicprestress.org" target="_blank" class="text-decoration-none fw-semibold" style="color: var(--theme-primary);">www.dynamicprestress.org</a>
+                                <h6 class="fw-bold text-dark mb-1 saira-medium" style="font-family: 'Saira-Medium', sans-serif !important; font-size: 15px;">Group Website</h6>
+                                <p class="small text-muted mb-0 saira-medium" style="line-height: 1.6;">
+                                    <a href="http://www.dynamicprestress.org" target="_blank" class="text-decoration-none fw-semibold saira-medium" style="color: var(--theme-primary);">www.dynamicprestress.org</a>
                                 </p>
                             </div>
                         </div>
 
                         <!-- Working Hours Box -->
                         <div class="p-3 rounded-3 mb-4" style="background: #f8fafc; border: 1px solid #e2e8f0;">
-                            <h6 class="fw-bold text-dark mb-1" style="font-size: 13px;">
+                            <h6 class="fw-bold text-dark mb-1 saira-medium" style="font-family: 'Saira-Medium', sans-serif !important; font-size: 14px;">
                                 <i class="fa-solid fa-clock me-2" style="color: var(--theme-primary);"></i>Plant Working Hours
                             </h6>
-                            <p class="small text-muted mb-0">Monday to Saturday: 9:00 AM – 6:30 PM (IST)</p>
+                            <p class="small text-muted mb-0 saira-medium">Monday to Saturday: 9:00 AM – 6:30 PM (IST)</p>
                         </div>
                     </div>
 
@@ -133,13 +133,13 @@ include_once 'partials/header.php';
                     <div class="pt-3 border-top d-flex flex-column gap-2">
                         <a href="https://wa.me/918975766459?text=Hello%20Polymer%20Products%20Team,%20I%20would%20like%20to%20inquire%20about%20Bridge%20Bearings%20RFQ"
                             target="_blank"
-                            class="btn py-2 px-3 rounded-pill fw-bold d-flex align-items-center justify-content-center text-white text-decoration-none"
-                            style="background: var(--theme-primary); transition: all 0.3s ease;">
+                            class="btn py-2 px-3 rounded-pill fw-bold d-flex align-items-center justify-content-center text-white text-decoration-none saira-medium"
+                            style="background: var(--theme-primary); font-family: 'Saira-Medium', sans-serif !important; transition: all 0.3s ease;">
                             <i class="fa-brands fa-whatsapp fs-5 me-2"></i> WhatsApp Inquiry
                         </a>
                         <a href="assets/pp_data/Page 01/Credential_Polymer_Products.pdf" target="_blank"
-                            class="btn btn-outline-primary py-2 px-3 rounded-pill fw-bold d-flex align-items-center justify-content-center"
-                            style="border-color: var(--theme-primary); color: var(--theme-primary);">
+                            class="btn btn-outline-primary py-2 px-3 rounded-pill fw-bold d-flex align-items-center justify-content-center saira-medium"
+                            style="border-color: var(--theme-primary); color: var(--theme-primary); font-family: 'Saira-Medium', sans-serif !important;">
                             <i class="fa-solid fa-file-pdf me-2"></i> Download Credentials Document
                         </a>
                     </div>
@@ -150,25 +150,25 @@ include_once 'partials/header.php';
             <div class="col-lg-7">
                 <div class="p-4 p-xl-5 bg-white rounded-4 border shadow-sm">
                     <div class="mb-4">
-                        <span class="badge px-3 py-2 rounded-pill font-monospace fw-bold text-uppercase mb-2"
+                        <span class="badge px-3 py-2 rounded-pill font-monospace fw-bold text-uppercase mb-2 saira-medium"
                             style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 11px; letter-spacing: 1px;">
                             INQUIRY &amp; RFQ
                         </span>
-                        <h3 class="fw-bold text-dark mb-1" style="font-family: 'Oswald', sans-serif; font-size: 28px;">
+                        <h3 class="fw-bold text-dark mb-1 saira-medium" style="font-family: 'Saira-Medium', sans-serif !important; font-size: 28px;">
                             Request Technical Quotation / Inquiry
                         </h3>
-                        <p class="small text-muted mb-0">
+                        <p class="small text-muted mb-0 saira-medium">
                             Fill out the bearing requirements below, and our engineering team will respond with a formal quotation.
                         </p>
                     </div>
 
                     <!-- Dynamic Success Alert -->
-                    <div id="rfqSuccessAlert" class="alert alert-success border-0 shadow-sm rounded-3 p-3 mb-4" style="display: none; background: var(--theme-subtle); color: #0f172a; border-left: 4px solid var(--theme-primary) !important;">
+                    <div id="rfqSuccessAlert" class="alert alert-success border-0 shadow-sm rounded-3 p-3 mb-4 saira-medium" style="display: none; background: var(--theme-subtle); color: #0f172a; border-left: 4px solid var(--theme-primary) !important;">
                         <div class="d-flex align-items-center">
                             <i class="fa-solid fa-circle-check fs-4 me-3" style="color: var(--theme-primary);"></i>
                             <div>
-                                <h6 class="fw-bold mb-1">Inquiry Submitted Successfully!</h6>
-                                <p class="small mb-0 text-muted">
+                                <h6 class="fw-bold mb-1 saira-medium" style="font-family: 'Saira-Medium', sans-serif !important;">Inquiry Submitted Successfully!</h6>
+                                <p class="small mb-0 text-muted saira-medium">
                                     Thank you for reaching out. Reference: <strong id="rfqRefId">PP-RFQ-2026</strong>. Our team will contact you promptly.
                                 </p>
                             </div>
@@ -178,25 +178,25 @@ include_once 'partials/header.php';
                     <form id="polymerContactForm" method="POST" action="javascript:void(0);">
                         <div class="row g-3">
                             <div class="col-md-6">
-                                <label class="form-label small fw-bold text-dark mb-1">Your Name <span class="text-danger">*</span></label>
-                                <input type="text" id="contactName" class="form-control contact-form-control" placeholder="Enter Full Name" required>
+                                <label class="form-label small fw-bold text-dark mb-1 saira-medium">Your Name <span class="text-danger">*</span></label>
+                                <input type="text" id="contactName" class="form-control contact-form-control saira-medium" placeholder="Enter Full Name" required>
                             </div>
                             <div class="col-md-6">
-                                <label class="form-label small fw-bold text-dark mb-1">Company / Organization <span class="text-danger">*</span></label>
-                                <input type="text" id="contactCompany" class="form-control contact-form-control" placeholder="Contractor / Consultant Name" required>
+                                <label class="form-label small fw-bold text-dark mb-1 saira-medium">Company / Organization <span class="text-danger">*</span></label>
+                                <input type="text" id="contactCompany" class="form-control contact-form-control saira-medium" placeholder="Contractor / Consultant Name" required>
                             </div>
                             <div class="col-md-6">
-                                <label class="form-label small fw-bold text-dark mb-1">Phone / Mobile No. <span class="text-danger">*</span></label>
-                                <input type="tel" id="contactPhone" class="form-control contact-form-control" placeholder="+91 XXXXX XXXXX" required>
+                                <label class="form-label small fw-bold text-dark mb-1 saira-medium">Phone / Mobile No. <span class="text-danger">*</span></label>
+                                <input type="tel" id="contactPhone" class="form-control contact-form-control saira-medium" placeholder="+91 XXXXX XXXXX" required>
                             </div>
                             <div class="col-md-6">
-                                <label class="form-label small fw-bold text-dark mb-1">Email Address <span class="text-danger">*</span></label>
-                                <input type="email" id="contactEmail" class="form-control contact-form-control" placeholder="email@company.com" required>
+                                <label class="form-label small fw-bold text-dark mb-1 saira-medium">Email Address <span class="text-danger">*</span></label>
+                                <input type="email" id="contactEmail" class="form-control contact-form-control saira-medium" placeholder="email@company.com" required>
                             </div>
                             <div class="col-md-6">
-                                <label class="form-label small fw-bold text-dark mb-1">Project Sector</label>
-                                <div class="select-wrapper">
-                                    <select id="contactSector" class="form-select contact-select wide">
+                                <label class="form-label small fw-bold text-dark mb-1 saira-medium">Project Sector</label>
+                                <div class="position-relative">
+                                    <select id="contactSector" class="form-select contact-form-select saira-medium">
                                         <option value="NHAI / Highway Bridge" selected>NHAI / Highway Bridge</option>
                                         <option value="Indian Railways / ROB">Indian Railways / ROB</option>
                                         <option value="Metro Rail Viaduct">Metro Rail Viaduct</option>
@@ -206,9 +206,9 @@ include_once 'partials/header.php';
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <label class="form-label small fw-bold text-dark mb-1">Product Type Needed</label>
-                                <div class="select-wrapper">
-                                    <select id="contactProduct" class="form-select contact-select wide">
+                                <label class="form-label small fw-bold text-dark mb-1 saira-medium">Product Type Needed</label>
+                                <div class="position-relative">
+                                    <select id="contactProduct" class="form-select contact-form-select saira-medium">
                                         <option value="Laminated Elastomeric Bearing (IRC:83)" selected>Laminated Elastomeric Bearing (IRC:83)</option>
                                         <option value="Seismic Isolation Pad">Seismic Isolation Pad</option>
                                         <option value="PTFE Sliding Bearing">PTFE Sliding Bearing</option>
@@ -217,14 +217,14 @@ include_once 'partials/header.php';
                                 </div>
                             </div>
                             <div class="col-12">
-                                <label class="form-label small fw-bold text-dark mb-1">Bearing Size / Design Load / Inquiry Details</label>
-                                <textarea id="contactMessage" class="form-control contact-form-control" rows="4"
+                                <label class="form-label small fw-bold text-dark mb-1 saira-medium">Bearing Size / Design Load / Inquiry Details</label>
+                                <textarea id="contactMessage" class="form-control contact-form-control saira-medium" rows="4"
                                     placeholder="Please specify plan dimensions (LxW), thickness, vertical load (kN), rotation/shear requirements, or quantity..."></textarea>
                             </div>
                             <div class="col-12 mt-4">
                                 <button type="submit" id="contactSubmitBtn"
-                                    class="btn btn-primary btn-lg rounded-pill px-5 fw-bold w-100 shadow-sm text-uppercase"
-                                    style="background: var(--theme-primary); border-color: var(--theme-primary); font-size: 14px; letter-spacing: 0.5px; transition: all 0.3s ease;">
+                                    class="btn btn-primary btn-lg rounded-pill px-5 fw-bold w-100 shadow-sm text-uppercase saira-medium"
+                                    style="background: var(--theme-primary); border-color: var(--theme-primary); font-family: 'Saira-Medium', sans-serif !important; font-size: 14px; letter-spacing: 0.5px; transition: all 0.3s ease;">
                                     <span id="contactBtnText"><i class="fa-solid fa-paper-plane me-2"></i> Submit Inquiry / Request RFQ</span>
                                     <div id="contactBtnSpinner" class="spinner-border spinner-border-sm text-light ms-2" role="status" style="display: none;">
                                         <span class="visually-hidden">Loading...</span>
@@ -248,23 +248,23 @@ include_once 'partials/header.php';
         <div class="row align-items-center g-4">
             <div class="col-lg-4">
                 <div class="pe-lg-3">
-                    <span class="badge px-3 py-2 rounded-pill font-monospace fw-bold text-uppercase mb-2"
+                    <span class="badge px-3 py-2 rounded-pill font-monospace fw-bold text-uppercase mb-2 saira-medium"
                         style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 11px; letter-spacing: 1px;">
                         FACILITY LOCATION
                     </span>
-                    <h3 class="fw-bold text-dark mb-3" style="font-family: 'Oswald', sans-serif; font-size: 28px;">
+                    <h3 class="fw-bold text-dark mb-3 saira-medium" style="font-family: 'Saira-Medium', sans-serif !important; font-size: 28px;">
                         Nashik Manufacturing Plant
                     </h3>
-                    <p class="text-muted small mb-4" style="line-height: 1.7;">
+                    <p class="text-muted small mb-4 saira-medium" style="line-height: 1.7;">
                         Our manufacturing plant is located in the industrial estate of Nashik, Maharashtra, equipped with heated vulcanization presses, steel grit-blasting preparation, and calibrated testing laboratories.
                     </p>
                     <div class="d-flex align-items-center mb-3">
                         <i class="fa-solid fa-map-location-dot me-3 fs-5" style="color: var(--theme-primary);"></i>
-                        <span class="small text-dark fw-semibold">Industrial Estate, Nashik, Maharashtra, India.</span>
+                        <span class="small text-dark fw-semibold saira-medium">Industrial Estate, Nashik, Maharashtra, India.</span>
                     </div>
                     <div class="d-flex align-items-center">
                         <i class="fa-solid fa-phone me-3 fs-5" style="color: var(--theme-primary);"></i>
-                        <a href="tel:8975766459" class="small text-dark fw-bold text-decoration-none">+91 8975766459</a>
+                        <a href="tel:8975766459" class="small text-dark fw-bold text-decoration-none saira-medium">+91 8975766459</a>
                     </div>
                 </div>
             </div>
@@ -285,6 +285,16 @@ include_once 'partials/header.php';
      Unified Styles & Dropdown Scripts
      ============================================================ -->
 <style>
+    /* Global Saira Medium for Contact Page */
+    .saira-medium,
+    h1, h2, h3, h4, h5, h6,
+    .form-label,
+    .btn,
+    .contact-form-control,
+    .contact-form-select {
+        font-family: 'Saira-Medium', sans-serif !important;
+    }
+
     .contact-form-control {
         border: 1.5px solid #cbd5e1;
         border-radius: 8px;
@@ -292,6 +302,7 @@ include_once 'partials/header.php';
         font-size: 14px;
         color: #1e293b;
         background-color: #ffffff;
+        font-family: 'Saira-Medium', sans-serif !important;
         transition: border-color 0.2s ease, box-shadow 0.2s ease;
     }
     .contact-form-control:focus {
@@ -300,54 +311,44 @@ include_once 'partials/header.php';
         outline: none;
     }
 
-    /* Select full width unified styling */
-    .select-wrapper {
-        width: 100%;
-        position: relative;
-    }
-    .select-wrapper .nice-select,
-    .select-wrapper select.contact-select {
+    /* Single Modern Form Select with custom brand arrow */
+    .contact-form-select {
         width: 100% !important;
+        height: 48px !important;
         border: 1.5px solid #cbd5e1 !important;
         border-radius: 8px !important;
-        min-height: 48px !important;
-        line-height: 22px !important;
+        padding: 10px 38px 10px 14px !important;
         font-size: 14px !important;
+        font-family: 'Saira-Medium', sans-serif !important;
         color: #1e293b !important;
         font-weight: 500 !important;
         background-color: #ffffff !important;
-        padding: 12px 36px 12px 14px !important;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23f55f01' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E") !important;
+        background-repeat: no-repeat !important;
+        background-position: right 14px center !important;
+        background-size: 15px 15px !important;
+        appearance: none !important;
+        -webkit-appearance: none !important;
+        -moz-appearance: none !important;
+        cursor: pointer !important;
+        display: block !important;
+        line-height: normal !important;
+        transition: border-color 0.2s ease, box-shadow 0.2s ease !important;
     }
-    .select-wrapper .nice-select:hover {
+    .contact-form-select:hover {
         border-color: var(--theme-primary) !important;
     }
-    .select-wrapper .nice-select:focus,
-    .select-wrapper .nice-select.open {
+    .contact-form-select:focus {
         border-color: var(--theme-primary) !important;
         box-shadow: 0 0 0 3px var(--theme-glow) !important;
+        outline: none !important;
     }
-    .select-wrapper .nice-select .list {
-        width: 100% !important;
-        left: 0 !important;
-        right: 0 !important;
-        border-radius: 8px !important;
-        border: 1px solid #e2e8f0 !important;
-        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1) !important;
-        max-height: 220px !important;
-        overflow-y: auto !important;
-        z-index: 99999 !important;
+    .contact-form-select option {
+        font-family: 'Saira-Medium', sans-serif !important;
+        font-size: 14px !important;
+        color: #1e293b !important;
+        padding: 8px !important;
         background: #ffffff !important;
-    }
-    .select-wrapper .nice-select .option {
-        font-size: 13.5px !important;
-        padding: 10px 14px !important;
-        color: #334155 !important;
-    }
-    .select-wrapper .nice-select .option:hover,
-    .select-wrapper .nice-select .option.selected.focus {
-        background-color: var(--theme-subtle) !important;
-        color: var(--theme-primary) !important;
-        font-weight: 600;
     }
 
     #contactSubmitBtn:hover {
@@ -360,10 +361,6 @@ include_once 'partials/header.php';
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-    if (typeof jQuery !== 'undefined' && jQuery.fn && jQuery.fn.niceSelect) {
-        jQuery('.contact-select').niceSelect();
-    }
-
     const form = document.getElementById('polymerContactForm');
     const submitBtn = document.getElementById('contactSubmitBtn');
     const btnText = document.getElementById('contactBtnText');
@@ -402,10 +399,6 @@ document.addEventListener('DOMContentLoaded', function () {
                 }
 
                 form.reset();
-
-                if (typeof jQuery !== 'undefined' && jQuery.fn && jQuery.fn.niceSelect) {
-                    jQuery('.contact-select').niceSelect('update');
-                }
             }, 800);
         });
     }
@@ -413,3 +406,4 @@ document.addEventListener('DOMContentLoaded', function () {
 </script>
 
 <?php include_once 'partials/footer.php'; ?>
+

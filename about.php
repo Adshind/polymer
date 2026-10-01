@@ -713,9 +713,6 @@ include_once 'partials/header.php';
                     </div>
                 </div>
                 <div class="d-flex align-items-center gap-2">
-                    <a id="certModalExternalLink" href="#" target="_blank" class="btn btn-sm btn-light rounded-pill px-3 fw-bold" title="Open in New Tab">
-                        <i class="fa-solid fa-arrow-up-right-from-square me-1"></i> <span class="d-none d-sm-inline">Open in New Tab</span>
-                    </a>
                     <button type="button" class="btn-close btn-close-white ms-2" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
             </div>
@@ -730,8 +727,9 @@ include_once 'partials/header.php';
 
                 <iframe id="certModalIframe" src="" style="width: 100%; height: 75vh; border: none; display: none; background: #fff;" allowfullscreen></iframe>
 
-                <div id="certModalImgWrap" class="text-center p-3 p-md-4" style="display: none; max-height: 75vh; overflow-y: auto;">
-                    <img id="certModalImage" src="" class="img-fluid rounded shadow-sm" alt="Certificate Image" style="max-height: 70vh; object-fit: contain; background: #fff; padding: 6px;">
+                <!-- Image Preview (Centrally aligned & fully visible) -->
+                <div id="certModalImgWrap" class="p-2 p-md-3" style="display: none; height: 75vh; min-height: 520px; overflow-y: auto; background: #0f172a; align-items: center; justify-content: center;">
+                    <img id="certModalImage" src="" alt="Certificate Image" style="max-height: 72vh; max-width: 95%; width: auto; height: auto; object-fit: contain; box-shadow: 0 10px 30px rgba(0,0,0,0.5); border-radius: 8px; background: #fff; margin: auto; display: block;">
                 </div>
             </div>
 
@@ -739,12 +737,7 @@ include_once 'partials/header.php';
                 <span class="text-muted small">
                     <i class="fa-solid fa-shield-check text-success me-1"></i> Official Certified Document &bull; Polymer Products
                 </span>
-                <div class="d-flex gap-2">
-                    <a id="certModalDownloadBtn" href="#" target="_blank" download class="btn btn-outline-primary btn-sm rounded-pill px-3 fw-bold" style="border-color: var(--theme-primary); color: var(--theme-primary);">
-                        <i class="fa-solid fa-download me-1"></i> Download File
-                    </a>
-                    <button type="button" class="btn btn-dark btn-sm rounded-pill px-4 fw-bold" data-bs-dismiss="modal">Close</button>
-                </div>
+                <button type="button" class="btn btn-dark btn-sm rounded-pill px-4 fw-bold" data-bs-dismiss="modal">Close</button>
             </div>
         </div>
     </div>
@@ -888,8 +881,6 @@ document.addEventListener('DOMContentLoaded', function () {
     const modalImgWrap = document.getElementById('certModalImgWrap');
     const modalImage = document.getElementById('certModalImage');
     const modalLoader = document.getElementById('certModalLoader');
-    const modalExternalLink = document.getElementById('certModalExternalLink');
-    const modalDownloadBtn = document.getElementById('certModalDownloadBtn');
 
     let bsModal = null;
     if (typeof bootstrap !== 'undefined' && bootstrap.Modal) {
@@ -907,8 +898,6 @@ document.addEventListener('DOMContentLoaded', function () {
             if (!url) return;
 
             modalTitle.textContent = title;
-            modalExternalLink.setAttribute('href', url);
-            modalDownloadBtn.setAttribute('href', url);
 
             modalLoader.style.display = 'block';
             modalIframe.style.display = 'none';
@@ -920,21 +909,25 @@ document.addEventListener('DOMContentLoaded', function () {
                 modalIcon.className = 'fa-solid fa-image text-white fs-5';
                 modalImage.onload = function () {
                     modalLoader.style.display = 'none';
-                    modalImgWrap.style.display = 'block';
+                    modalImgWrap.style.display = 'flex';
                 };
                 modalImage.onerror = function () {
                     modalLoader.style.display = 'none';
-                    modalImgWrap.innerHTML = '<div class="p-4 text-center text-white"><i class="fa-solid fa-triangle-exclamation fa-2x mb-2 text-warning"></i><p>Unable to preview image directly.</p><a href="' + url + '" target="_blank" class="btn btn-sm btn-primary">Open Image</a></div>';
-                    modalImgWrap.style.display = 'block';
+                    modalImgWrap.innerHTML = '<div class="p-4 text-center text-white"><i class="fa-solid fa-triangle-exclamation fa-2x mb-2 text-warning"></i><p>Unable to preview image directly.</p></div>';
+                    modalImgWrap.style.display = 'flex';
                 };
                 modalImage.src = url;
             } else {
                 modalIcon.className = 'fa-solid fa-file-pdf text-white fs-5';
+                // Append params to hide browser PDF viewer toolbar and download buttons
+                const cleanUrl = url.split('#')[0];
+                const pdfViewerUrl = cleanUrl + '#toolbar=0&navpanes=0&scrollbar=0';
+
                 modalIframe.onload = function () {
                     modalLoader.style.display = 'none';
                     modalIframe.style.display = 'block';
                 };
-                modalIframe.src = url;
+                modalIframe.src = pdfViewerUrl;
                 setTimeout(function () {
                     modalLoader.style.display = 'none';
                     modalIframe.style.display = 'block';
