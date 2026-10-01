@@ -68,26 +68,22 @@ $current_page = basename($_SERVER['PHP_SELF']);
         <div class="ht-top-header"
             style="background:var(--theme-primary); border-bottom:1px solid rgba(255,255,255,0.15); padding:8px 0;">
             <div class="container-fluid px-3 px-lg-5">
-                <div class="row align-items-center">
-                    <div class="col-lg-6 col-md-7">
-                        <div class="left text-center text-md-start">
-                            <p class="mb-0 text-white" style="font-size:13px;">
-                                <i class="fa-solid fa-location-dot text-white me-2"></i> Nashik Manufacturing Facility,
-                                Maharashtra, India
-                            </p>
-                        </div>
+                <div class="row align-items-center g-2">
+                    <div class="col-lg-6 col-md-6 text-center text-md-start">
+                        <p class="mb-0 text-white small" style="font-size:13px;">
+                            <i class="fa-solid fa-location-dot text-white me-2"></i>Nashik Manufacturing Facility, Maharashtra, India
+                        </p>
                     </div>
-                    <div class="col-lg-6 col-md-5">
-                        <ul class="right list-inline mb-0 text-center text-md-end" style="font-size:13px;">
+                    <div class="col-lg-6 col-md-6 text-center text-md-end">
+                        <ul class="right list-inline mb-0 small" style="font-size:13px;">
                             <li class="list-inline-item me-3">
                                 <i class="fa-solid fa-phone text-white me-1"></i>
-                                <a href="tel:8975766459" class="text-white text-decoration-none">+91 8975766459</a> /
-                                <a href="tel:02532350935" class="text-white text-decoration-none">0253 235 0935</a>
+                                <a href="tel:8975766459" class="text-white text-decoration-none fw-semibold">+91 8975766459</a>
+                                <span class="d-none d-sm-inline"> / <a href="tel:02532350935" class="text-white text-decoration-none">0253 235 0935</a></span>
                             </li>
-                            <li class="list-inline-item">
+                            <li class="list-inline-item d-none d-sm-inline-block">
                                 <i class="fa-solid fa-envelope text-white me-1"></i>
-                                <a href="mailto:qc@polymerproducts.org"
-                                    class="text-white text-decoration-none">qc@polymerproducts.org</a>
+                                <a href="mailto:qc@polymerproducts.org" class="text-white text-decoration-none">qc@polymerproducts.org</a>
                             </li>
                         </ul>
                     </div>
@@ -99,13 +95,16 @@ $current_page = basename($_SERVER['PHP_SELF']);
         <div class="ht-main-header header-1" id="header-sticky">
             <div class="container-fluid px-3 px-lg-5">
                 <div class="ht-menu-wrapper d-flex align-items-center justify-content-between py-2">
+                    <!-- Brand Logo -->
                     <div class="ht-menu-left d-flex align-items-center">
-                        <div class="ht-menu-logo me-4 me-xxl-5">
+                        <div class="ht-menu-logo me-3 me-xl-4 me-xxl-5">
                             <a href="index.php" class="d-flex align-items-center text-decoration-none logo-anim">
                                 <img src="assets/img/img/banner/polymer-logo-new.webp" alt="Polymer Products"
-                                    style="height: 60px; width: auto; object-fit: contain;">
+                                    class="header-logo-img"
+                                    style="height: 56px; width: auto; object-fit: contain;">
                             </a>
                         </div>
+                        <!-- Desktop Navigation Menu -->
                         <div class="ht-menu-main d-none d-xl-block">
                             <nav class="ht-mobile-menu-active">
                                 <ul class="d-flex align-items-center mb-0 list-unstyled" style="gap: 0rem;">
@@ -120,7 +119,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
                                         <ul class="sub-menu">
                                             <li><a href="about.php">Company Overview</a></li>
                                             <li><a href="index.php#certifications">Statutory & Quality Approvals</a></li>
-                                            <li><a href="about.php#sister-concern"> (Dynamic Prestress)</a></li>
+                                            <li><a href="about.php#sister-concern">Sister Concern (Dynamic Prestress)</a></li>
                                             <li><a href="about.php#our-team">Our Technical Team</a></li>
                                             <li><a href="about.php#bearing-types">Bearing Types & Applications</a></li>
                                         </ul>
@@ -160,15 +159,28 @@ $current_page = basename($_SERVER['PHP_SELF']);
                             </nav>
                         </div>
                     </div>
-                    <div class="ht-menu-right d-flex align-items-center">
+
+                    <!-- Right Side: CTA Button & Mobile Hamburger -->
+                    <div class="ht-menu-right d-flex align-items-center gap-2">
+                        <!-- Desktop CTA -->
                         <a href="contact.php"
-                            class="header-contact-btn ht-btn-anim d-none d-xl-inline-flex align-items-center">
+                            class="header-contact-btn ht-btn-anim d-none d-xl-inline-flex align-items-center text-uppercase"
+                            style="font-family: 'Saira-Medium', sans-serif !important; letter-spacing: 0.5px; font-weight: 600;">
                             <span class="btn-text">Contact Us</span>
                             <i class="fa-solid fa-arrow-right ms-2 btn-icon"></i>
                         </a>
-                        <button class="ht-menu-btn d-xl-none offcanvas-toggle btn border-0 p-2 ms-2"
-                            style="border-radius:8px; background:var(--theme-subtle); color:var(--theme-primary);"
-                            aria-label="Toggle menu">
+
+                        <!-- Tablet / Mobile Direct Quick Call Icon Button -->
+                        <a href="tel:8975766459" class="btn btn-sm d-xl-none rounded-circle d-flex align-items-center justify-content-center text-white"
+                            style="width: 40px; height: 40px; background: var(--theme-primary); box-shadow: 0 4px 10px var(--theme-glow);"
+                            title="Call Technical Sales" aria-label="Call Technical Sales">
+                            <i class="fa-solid fa-phone" style="font-size: 14px;"></i>
+                        </a>
+
+                        <!-- Mobile Hamburger Toggle -->
+                        <button class="ht-menu-btn d-xl-none offcanvas-toggle btn border-0 p-2 d-flex align-items-center justify-content-center"
+                            style="width: 42px; height: 42px; border-radius: 10px; background: var(--theme-subtle); color: var(--theme-primary);"
+                            aria-label="Toggle Navigation Menu">
                             <i class="fa-solid fa-bars-staggered fa-lg"></i>
                         </button>
                     </div>
@@ -177,52 +189,87 @@ $current_page = basename($_SERVER['PHP_SELF']);
         </div>
     </header>
 
-    <!-- Offcanvas Navigation -->
+    <!-- Offcanvas Navigation Drawer (Mobile & Tablet) -->
     <div class="ht-offcanvas">
         <div class="ht-offcanvas-wrapper">
-            <div class="ht-offcanvas-header mb-40 d-flex justify-content-between align-items-center">
+            <!-- Offcanvas Header -->
+            <div class="ht-offcanvas-header mb-4 pb-3 border-bottom d-flex justify-content-between align-items-center">
                 <a href="index.php" class="d-flex align-items-center text-decoration-none">
                     <img src="assets/img/img/banner/polymer-logo-new.webp" alt="Polymer Products"
-                        style="height: 48px; width: auto; object-fit: contain;">
+                        style="height: 46px; width: auto; object-fit: contain;">
                 </a>
-                <button class="ht-offcanvas-toggle-close btn-close"></button>
+                <button type="button" class="ht-offcanvas-toggle-close btn btn-light rounded-circle p-2 d-flex align-items-center justify-content-center"
+                    style="width: 36px; height: 36px;" aria-label="Close Navigation">
+                    <i class="fa-solid fa-xmark text-dark fs-5"></i>
+                </button>
             </div>
-            <div class="ht-offcanvas-menu mb-40">
+
+            <!-- Offcanvas Navigation Links (Cloned dynamically by main.js with fallback) -->
+            <div class="ht-offcanvas-menu mb-4">
                 <nav class="mobile-nav">
-                    <ul class="list-unstyled">
-                        <li class="py-2 border-bottom"><a href="index.php"
-                                class="fw-bold text-dark text-decoration-none">Home</a></li>
-                        <li class="py-2 border-bottom"><a href="about.php"
-                                class="fw-bold text-dark text-decoration-none">About Us & Team</a></li>
-                        <li class="py-2 border-bottom"><a href="services.php"
-                                class="fw-bold text-dark text-decoration-none">Proposed Bearing Types</a></li>
-                        <li class="py-2 border-bottom"><a href="material-used.php"
-                                class="fw-bold text-dark text-decoration-none">Raw Materials Used</a></li>
-                        <li class="py-2 border-bottom"><a href="process.php"
-                                class="fw-bold text-dark text-decoration-none">Manufacturing Process & Machinery</a></li>
-                        <li class="py-2 border-bottom"><a href="testing.php"
-                                class="fw-bold text-dark text-decoration-none">Testing & QA/QC System</a></li>
-                        <li class="py-2 border-bottom"><a href="identification.php"
-                                class="fw-bold text-dark text-decoration-none">Product Identification System</a></li>
-                        <li class="py-2 border-bottom"><a href="experience.php"
-                                class="fw-bold text-dark text-decoration-none">Experience & Supplies (NHAI/Metro/Rail)</a></li>
-                        <li class="py-2 border-bottom"><a href="storage-handling.php"
-                                class="fw-bold text-dark text-decoration-none">Storage, Handling & Installation</a></li>
-                        <li class="py-2 border-bottom"><a href="application-codes.php"
-                                class="fw-bold text-dark text-decoration-none">Application Codes & Standards</a></li>
-                        <li class="pt-3"><a href="contact.php"
-                                class="d-inline-block text-white text-decoration-none fw-bold px-4 py-2"
-                                style="background:var(--theme-primary); border-radius:50px;">Contact Us / Request Quote &rarr;</a></li>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="index.php">Home</a></li>
+                        <li class="has-dropdown">
+                            <a href="about.php">About Us</a>
+                            <ul class="sub-menu">
+                                <li><a href="about.php">Company Overview</a></li>
+                                <li><a href="index.php#certifications">Statutory & Quality Approvals</a></li>
+                                <li><a href="about.php#sister-concern">Sister Concern (Dynamic Prestress)</a></li>
+                                <li><a href="about.php#our-team">Our Technical Team</a></li>
+                                <li><a href="about.php#bearing-types">Bearing Types & Applications</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-dropdown">
+                            <a href="services.php">Products & Specs</a>
+                            <ul class="sub-menu">
+                                <li><a href="services.php">Proposed Bearing Types</a></li>
+                                <li><a href="material-used.php">Raw Materials Used</a></li>
+                                <li><a href="application-codes.php">Application Codes & Standards</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-dropdown">
+                            <a href="process.php">Manufacturing & QC</a>
+                            <ul class="sub-menu">
+                                <li><a href="process.php">Detailed Process Flow</a></li>
+                                <li><a href="process.php#machinery">List of Machinery</a></li>
+                                <li><a href="testing.php">Testing & QA/QC System (NHAI/RDSO)</a></li>
+                                <li><a href="identification.php">Product Identification System</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="experience.php">Experience & Supplies</a></li>
+                        <li><a href="storage-handling.php">Storage & Installation</a></li>
+                        <li><a href="application-codes.php">Application Standards</a></li>
                     </ul>
                 </nav>
             </div>
-            <div class="ht-offcanvas-info mb-40">
-                <h4 class="ht-offcanvas__title mb-2" style="font-size:16px; font-weight:700;">Plant Contact Info</h4>
-                <p class="mb-1" style="font-size:13px;"><i class="fa-solid fa-location-dot me-2 text-danger"></i>Nashik Facility, Maharashtra</p>
-                <p class="mb-1" style="font-size:13px;"><i class="fa-solid fa-phone me-2 text-success"></i><a
-                        href="tel:8975766459" class="text-dark">+91 8975766459</a></p>
-                <p class="mb-1" style="font-size:13px;"><i class="fa-solid fa-envelope me-2 text-primary"></i><a
-                        href="mailto:qc@polymerproducts.org" class="text-dark">qc@polymerproducts.org</a></p>
+
+            <!-- Offcanvas Direct CTA Button -->
+            <div class="mb-4">
+                <a href="contact.php"
+                    class="btn btn-primary w-100 py-3 rounded-pill text-white fw-bold text-uppercase d-flex align-items-center justify-content-center shadow-sm"
+                    style="background: var(--theme-primary); border-color: var(--theme-primary); font-family: 'Saira-Medium', sans-serif !important; font-size: 14px; letter-spacing: 0.5px;">
+                    <i class="fa-solid fa-paper-plane me-2"></i> Request Technical RFQ
+                </a>
+            </div>
+
+            <!-- Offcanvas Plant Quick Contact Info -->
+            <div class="ht-offcanvas-info p-3 rounded-3" style="background: #f8fafc; border: 1px solid #e2e8f0;">
+                <h6 class="fw-bold text-dark mb-2" style="font-family: 'Saira-Medium', sans-serif; font-size: 14px;">
+                    <i class="fa-solid fa-industry text-primary me-2"></i>Nashik Manufacturing Plant
+                </h6>
+                <p class="small text-muted mb-2" style="font-size: 12.5px; line-height: 1.5;">
+                    Industrial Estate, Nashik, Maharashtra, India.
+                </p>
+                <div class="d-flex flex-column gap-1 small" style="font-size: 12.5px;">
+                    <div>
+                        <i class="fa-solid fa-phone text-success me-2"></i>
+                        <a href="tel:8975766459" class="text-dark fw-bold text-decoration-none">+91 8975766459</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-envelope text-primary me-2"></i>
+                        <a href="mailto:qc@polymerproducts.org" class="text-muted text-decoration-none">qc@polymerproducts.org</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

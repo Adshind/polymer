@@ -159,11 +159,14 @@
 
 /* Header Contact Button */
 .header-contact-btn {
+    font-family: 'Saira-Medium', sans-serif !important;
     background: var(--theme-primary) !important;
     color: #ffffff !important;
     font-size: 14px !important;
     font-weight: 600 !important;
-    padding: 10px 24px !important;
+    letter-spacing: 0.5px !important;
+    text-transform: uppercase !important;
+    padding: 11px 26px !important;
     border-radius: 50px !important;
     text-decoration: none !important;
     display: inline-flex !important;
@@ -197,6 +200,7 @@
 
 .header-contact-btn .btn-text,
 .header-contact-btn .btn-icon {
+    font-family: 'Saira-Medium', sans-serif !important;
     color: #ffffff !important;
     position: relative;
     z-index: 2;
@@ -221,6 +225,92 @@
 
 .logo-anim:hover {
     transform: scale(1.02);
+}
+
+/* ============================================================
+   Mobile & Tablet Responsive Header Styles
+   ============================================================ */
+@media (max-width: 1199.98px) {
+    .ht-main-header .ht-menu-wrapper {
+        padding: 8px 0 !important;
+    }
+    .header-logo-img {
+        height: 48px !important;
+    }
+    .ht-menu-btn {
+        transition: all 0.25s ease;
+    }
+    .ht-menu-btn:hover, .ht-menu-btn:focus {
+        background: var(--theme-primary) !important;
+        color: #ffffff !important;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .header-logo-img {
+        height: 42px !important;
+    }
+    .ht-top-header {
+        padding: 6px 0 !important;
+    }
+}
+
+/* Offcanvas Drawer Typography & Styling */
+.ht-offcanvas {
+    background: #ffffff !important;
+    box-shadow: -10px 0 35px rgba(0, 0, 0, 0.15) !important;
+}
+
+.ht-offcanvas-menu nav ul li > a {
+    font-family: 'Saira-Medium', sans-serif !important;
+    font-size: 15px !important;
+    color: #1e293b !important;
+    padding: 12px 0 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.3px !important;
+    border-bottom: 1px solid #f1f5f9 !important;
+    transition: color 0.2s ease, padding 0.2s ease !important;
+}
+
+.ht-offcanvas-menu nav ul li > a:hover,
+.ht-offcanvas-menu nav ul li.active > a {
+    color: var(--theme-primary) !important;
+}
+
+.ht-offcanvas-menu ul li .sub-menu {
+    background: #f8fafc;
+    border-radius: 8px;
+    padding: 6px 12px 6px 18px !important;
+    margin: 4px 0 8px 0;
+}
+
+.ht-offcanvas-menu ul li .sub-menu li a {
+    font-size: 13.5px !important;
+    color: #475569 !important;
+    padding: 8px 0 !important;
+    border-bottom: 1px dashed #e2e8f0 !important;
+    text-transform: none !important;
+}
+
+.ht-offcanvas-menu ul li .sub-menu li:last-child a {
+    border-bottom: none !important;
+}
+
+.ht-offcanvas-menu ul li .sub-menu li a:hover {
+    color: var(--theme-primary) !important;
+    padding-left: 6px !important;
+}
+
+.ht-offcanvas-menu ul li .ht-menu-close {
+    border-radius: 6px !important;
+    border: none !important;
+    background-color: var(--theme-subtle) !important;
+    color: var(--theme-primary) !important;
+}
+
+.ht-offcanvas-menu ul li.active > .ht-menu-close {
+    background-color: var(--theme-primary) !important;
+    color: #ffffff !important;
 }
 
 /* Footer Styles */
