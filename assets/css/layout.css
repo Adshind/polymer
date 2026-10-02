@@ -67,7 +67,17 @@
 .ht-header-area .ht-main-header .ht-menu-main ul li {
     position: relative;
     display: inline-block;
-    margin-right: 12px;
+    margin-right: 14px;
+}
+
+@media (min-width: 1400px) {
+    .ht-header-area .ht-main-header .ht-menu-main ul li {
+        margin-right: 20px;
+    }
+}
+
+.ht-header-area .ht-main-header .ht-menu-main ul li:last-child {
+    margin-right: 0;
 }
 
 .ht-header-area .ht-main-header .ht-menu-main ul li>a.nav-link-item {
@@ -208,13 +218,14 @@
 }
 
 .header-contact-btn .btn-icon,
+.header-contact-btn svg,
 .header-contact-btn i {
-    font-family: "Font Awesome 6 Free", "FontAwesome" !important;
-    font-weight: 900 !important;
     color: #ffffff !important;
+    stroke: #ffffff !important;
     position: relative;
     z-index: 2;
     display: inline-block !important;
+    vertical-align: middle !important;
     transition: transform 0.3s ease-in-out !important;
 }
 
@@ -225,6 +236,7 @@
 }
 
 .header-contact-btn:hover .btn-icon,
+.header-contact-btn:hover svg,
 .header-contact-btn:hover i {
     transform: translateX(4px) !important;
     color: #ffffff !important;
@@ -382,41 +394,112 @@ span,
     }
 }
 
-/* Offcanvas Drawer Typography & Styling */
+/* ============================================================
+   Offcanvas Drawer & Mobile Navigation Fixes
+   ============================================================ */
 .ht-offcanvas {
     background: #ffffff !important;
     box-shadow: -10px 0 35px rgba(0, 0, 0, 0.15) !important;
+    z-index: 99999 !important;
+    width: 380px !important;
+    max-width: 100vw !important;
 }
 
-.ht-offcanvas-menu nav ul li>a {
+@media (max-width: 480px) {
+    .ht-offcanvas {
+        width: 100% !important;
+        padding: 24px 20px !important;
+    }
+}
+
+.ht-offcanvas-menu nav,
+.ht-offcanvas-menu nav > ul,
+.ht-offcanvas-menu ul {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    justify-content: flex-start !important;
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+    gap: 0 !important;
+}
+
+.ht-offcanvas-menu nav ul li,
+.ht-offcanvas-menu ul li {
+    display: block !important;
+    width: 100% !important;
+    position: relative !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    float: none !important;
+}
+
+.ht-offcanvas-menu nav ul li > a,
+.ht-offcanvas-menu ul li > a {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    width: 100% !important;
     font-family: 'Saira-Medium', sans-serif !important;
     font-size: 15px !important;
+    font-weight: 600 !important;
     color: #1e293b !important;
-    padding: 12px 0 !important;
+    padding: 13px 40px 13px 0 !important;
     text-transform: uppercase !important;
     letter-spacing: 0.3px !important;
     border-bottom: 1px solid #f1f5f9 !important;
     transition: color 0.2s ease, padding 0.2s ease !important;
+    text-decoration: none !important;
+    background: transparent !important;
 }
 
-.ht-offcanvas-menu nav ul li>a:hover,
-.ht-offcanvas-menu nav ul li.active>a {
+.ht-offcanvas-menu nav ul li > a:hover,
+.ht-offcanvas-menu nav ul li.active > a {
     color: var(--theme-primary) !important;
 }
 
+.ht-offcanvas-menu nav ul li > a .dropdown-icon {
+    display: none !important;
+}
+
 .ht-offcanvas-menu ul li .sub-menu {
-    background: #f8fafc;
-    border-radius: 8px;
-    padding: 6px 12px 6px 18px !important;
-    margin: 4px 0 8px 0;
+    display: none;
+    position: static !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: none !important;
+    box-shadow: none !important;
+    border: none !important;
+    border-left: 3px solid var(--theme-primary) !important;
+    background: #f8fafc !important;
+    border-radius: 8px !important;
+    padding: 6px 12px 6px 16px !important;
+    margin: 6px 0 10px 0 !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    list-style: none !important;
+}
+
+.ht-offcanvas-menu ul li .sub-menu li {
+    display: block !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 .ht-offcanvas-menu ul li .sub-menu li a {
+    display: block !important;
     font-size: 13.5px !important;
+    font-weight: 500 !important;
     color: #475569 !important;
     padding: 8px 0 !important;
     border-bottom: 1px dashed #e2e8f0 !important;
     text-transform: none !important;
+    text-decoration: none !important;
+    transition: all 0.2s ease !important;
+    background: transparent !important;
 }
 
 .ht-offcanvas-menu ul li .sub-menu li:last-child a {
@@ -429,15 +512,35 @@ span,
 }
 
 .ht-offcanvas-menu ul li .ht-menu-close {
-    border-radius: 6px !important;
+    position: absolute !important;
+    top: 8px !important;
+    right: 0 !important;
+    width: 32px !important;
+    height: 32px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border-radius: 8px !important;
     border: none !important;
     background-color: var(--theme-subtle) !important;
     color: var(--theme-primary) !important;
+    cursor: pointer !important;
+    transition: all 0.25s ease !important;
+    z-index: 5 !important;
 }
 
-.ht-offcanvas-menu ul li.active>.ht-menu-close {
+.ht-offcanvas-menu ul li .ht-menu-close i {
+    font-size: 13px !important;
+    transition: transform 0.25s ease !important;
+}
+
+.ht-offcanvas-menu ul li.active > .ht-menu-close {
     background-color: var(--theme-primary) !important;
     color: #ffffff !important;
+}
+
+.ht-offcanvas-menu ul li.active > .ht-menu-close i {
+    transform: rotate(90deg) !important;
 }
 
 /* Footer Styles */

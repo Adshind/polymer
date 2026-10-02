@@ -32,7 +32,9 @@ include_once 'partials/header.php';
                         <a href="contact.php" class="header-contact-btn ht-btn-anim d-inline-flex align-items-center"
                             style="padding: 12px 28px !important; font-size: 15px !important;">
                             <span class="btn-text">Request Technical RFQ</span>
-                            <i class="fa-solid fa-arrow-right ms-2 btn-icon"></i>
+                            <svg class="btn-icon ms-2" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="display: inline-block; vertical-align: middle;">
+                                <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
                         </a>
                         <a href="about.php" class="btn btn-outline-light px-4 py-3"
                             style="border-radius:50px; font-weight:600; backdrop-filter:blur(4px);">Explore

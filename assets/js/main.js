@@ -45,6 +45,9 @@
 
     // ===================== Clone Main Menu to Offcanvas =====================
     var htMenuWrap = $('.ht-mobile-menu-active > ul').clone();
+    htMenuWrap.removeClass('d-flex align-items-center mb-0 list-unstyled').addClass('mobile-nav-list list-unstyled mb-0');
+    htMenuWrap.removeAttr('style');
+    htMenuWrap.find('.dropdown-icon').remove();
     var htSideMenu = $('.ht-offcanvas-menu nav');
     htSideMenu.empty().append(htMenuWrap);
 
@@ -52,7 +55,7 @@
     htSideMenu
       .find('.sub-menu')
       .parent()
-      .append('<button class="ht-menu-close"><i class="fas fa-chevron-right"></i></button>');
+      .append('<button class="ht-menu-close" type="button" aria-label="Toggle Submenu"><i class="fa-solid fa-chevron-right"></i></button>');
 
     // ===================== Handle Submenu Toggle =====================
     var sideMenuList = $(
@@ -62,16 +65,19 @@
     sideMenuList.on('click', function (e) {
       e.preventDefault();
 
-      var submenu = $(this).siblings('.sub-menu');
+      var parentLi = $(this).closest('li.has-dropdown');
+      var submenu = parentLi.children('.sub-menu');
 
-      if (!$(this).parent().hasClass('active')) {
-        // Open submenu
-        $(this).parent().addClass('active');
-        submenu.slideDown(300);
+      if (!parentLi.hasClass('active')) {
+        // Close other open submenus if desired
+        parentLi.siblings('.has-dropdown.active').removeClass('active').children('.sub-menu').slideUp(250);
+        // Open this submenu
+        parentLi.addClass('active');
+        submenu.slideDown(250);
       } else {
         // Close submenu
-        submenu.slideUp(300);
-        $(this).parent().removeClass('active');
+        submenu.slideUp(250);
+        parentLi.removeClass('active');
       }
     });
 

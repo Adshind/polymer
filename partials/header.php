@@ -102,13 +102,17 @@ $current_page = basename($_SERVER['PHP_SELF']);
                 <div class="ht-menu-wrapper d-flex align-items-center justify-content-between py-2">
                     <!-- Brand Logo -->
                     <div class="ht-menu-left d-flex align-items-center">
-                        <div class="ht-menu-logo   me-xxl-5">
+                        <div class="ht-menu-logo">
                             <a href="index.php" class="d-flex align-items-center text-decoration-none logo-anim">
                                 <img src="assets/img/img/banner/polymer-logo-3.png" alt="Polymer Products"
                                     class="header-logo-img"
                                     style="height: 65px; width: auto; object-fit: contain;">
                             </a>
                         </div>
+                    </div>
+
+                    <!-- Right Side: Navigation Menu + CTA Button & Mobile Hamburger -->
+                    <div class="ht-menu-right d-flex align-items-center gap-3 gap-xxl-4 ms-auto">
                         <!-- Desktop Navigation Menu -->
                         <div class="ht-menu-main d-none d-xl-block">
                             <nav class="ht-mobile-menu-active">
@@ -163,24 +167,18 @@ $current_page = basename($_SERVER['PHP_SELF']);
                                 </ul>
                             </nav>
                         </div>
-                    </div>
 
-                    <!-- Right Side: CTA Button & Mobile Hamburger -->
-                    <div class="ht-menu-right d-flex align-items-center gap-2">
                         <!-- Desktop CTA -->
                         <a href="contact.php"
                             class="header-contact-btn ht-btn-anim d-none d-xl-inline-flex align-items-center text-uppercase"
                             style="font-family: 'Saira-Medium', sans-serif !important; letter-spacing: 0.5px; font-weight: 600;">
                             <span class="btn-text">Contact Us</span>
-                            <i class="fa-solid fa-arrow-right ms-2 btn-icon"></i>
+                            <svg class="btn-icon ms-2" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="display: inline-block; vertical-align: middle;">
+                                <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
                         </a>
 
-                        <!-- Tablet / Mobile Direct Quick Call Icon Button -->
-                        <a href="tel:8975766459" class="btn btn-sm d-xl-none rounded-circle d-flex align-items-center justify-content-center text-white"
-                            style="width: 40px; height: 40px; background: var(--theme-primary); box-shadow: 0 4px 10px var(--theme-glow);"
-                            title="Call Technical Sales" aria-label="Call Technical Sales">
-                            <i class="fa-solid fa-phone" style="font-size: 14px;"></i>
-                        </a>
+                        
 
                         <!-- Mobile Hamburger Toggle -->
                         <button class="ht-menu-btn d-xl-none offcanvas-toggle btn border-0 p-2 d-flex align-items-center justify-content-center"

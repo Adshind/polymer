@@ -60,11 +60,15 @@
             <div class="ht-menu-wrapper d-flex align-items-center justify-content-between py-2">
                 <div class="ht-menu-left d-flex align-items-center">
                     <!-- Brand Logo -->
-                    <div class="ht-menu-logo me-4 me-xxl-5">
+                    <div class="ht-menu-logo">
                         <a href="index.html" class="d-flex align-items-center text-decoration-none logo-anim">
                             <img src="assets/img/img/banner/polymer-logo-new.webp" alt="Polymer Products Logo" style="height: 60px; width: auto; object-fit: contain;">
                         </a>
                     </div>
+                </div>
+                
+                <!-- Action Button & Mobile Toggle -->
+                <div class="ht-menu-right d-flex align-items-center gap-3 gap-xxl-4 ms-auto">
                     <!-- Desktop Navigation Menu -->
                     <div class="ht-menu-main d-none d-xl-block">
                         <nav class="ht-mobile-menu-active">
@@ -112,10 +116,7 @@
                             </ul>
                         </nav>
                     </div>
-                </div>
-                
-                <!-- Action Button & Mobile Toggle -->
-                <div class="ht-menu-right d-flex align-items-center">
+
                     <a href="contact.html" class="header-contact-btn ht-btn-anim d-none d-xl-inline-flex align-items-center">
                         <span class="btn-text">Contact Us</span>
                         <i class="fa-solid fa-arrow-right ms-2 btn-icon"></i>
