@@ -8,7 +8,7 @@ include_once 'partials/header.php';
      1. Modern Hero & Breadcrumb Banner
      ============================================================ -->
 <section class="ht-about-hero position-relative d-flex align-items-center"
-    style="background: linear-gradient(135deg, rgba(9, 20, 36, 0.84) 0%, rgba(14, 34, 61, 0.58) 50%, rgba(6, 13, 24, 0.56) 100%), url('assets/img/img/banner/birdge-13.webp') center center / cover no-repeat; padding-top: 175px; padding-bottom: 75px; margin-top: -160px; min-height: 480px;">
+    style="background: linear-gradient(135deg, rgba(9, 20, 36, 0.84) 0%, rgba(14, 34, 61, 0.58) 50%, rgba(6, 13, 24, 0.56) 100%), url('assets/img/img/banner/birdge-11.webp') center center / cover no-repeat; padding-top: 175px; padding-bottom: 75px; margin-top: -160px; min-height: 480px;">
     
     <!-- <div class="position-absolute top-0 end-0 opacity-10 pointer-events-none">
         <svg width="450" height="450" viewBox="0 0 450 450" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -138,7 +138,7 @@ include_once 'partials/header.php';
 
                     <!-- Main Factory Image -->
                     <div class="position-relative overflow-hidden shadow-lg rounded-4 border bg-white" style="z-index: 2;">
-                        <img src="assets/img/img/banner/factory-image.webp"
+                        <img src="assets/img/img/banner/factory-image-1.webp"
                             alt="Polymer Products Nashik Facility"
                             class="img-fluid w-100"
                             style="height: 480px; object-fit: cover; transition: transform 0.6s ease;">

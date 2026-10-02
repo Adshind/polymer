@@ -315,7 +315,7 @@ include_once 'partials/header.php';
             <div class="col-lg-4 col-md-6">
                 <div class="card h-100 border shadow-sm rounded-4 overflow-hidden" style="background-color: #e0f2fe !important;">
                    <div class="position-relative p-2 " style="background-color: #e0f2fe; border-radius: 8px; overflow: hidden;">
-                        <img src="assets/img/img/banner/banner-image.png" class="card-img-top img-fluid rounded"
+                        <img src="assets/img/img/banner/banner-labber-2.png" class="card-img-top img-fluid rounded"
                         alt="Elastomeric Bearing" style="height:300px; object-fit:cover; width: 100%; display: block;">
                         <span class="badge position-absolute top-0 end-0 m-3" style="background-color: #0284c7; color: #ffffff;">IRC:83 (Part II)</span>
                     </div>
@@ -338,9 +338,9 @@ include_once 'partials/header.php';
             <div class="col-lg-4 col-md-6">
                 <div class="card h-100 border shadow-sm rounded-4 overflow-hidden" style="background-color: #e0f2fe !important;">
                     <div class="position-relative">
-                        <img src="assets/img/img/banner/birdge-5.webp" class="card-img-top" alt="Seismic Pad"
+                        <img src="/assets/pp_data/Page 02/Bearing types/TYPE-A-PAD.png" class="card-img-top" alt="Seismic Pad"
                             style="height:300px; object-fit:cover;">
-                        <span class="badge bg-warning text-dark position-absolute top-0 end-0 m-3">Seismic
+                        <span class="badge bg-primary text-white position-absolute top-0 end-0 m-3">Seismic
                             Damping</span>
                     </div>
                     <div class="card-body p-4">
@@ -364,7 +364,7 @@ include_once 'partials/header.php';
                     <div class="position-relative">
                         <img src="assets/img/img/banner/Elastomeric-Bridge.png" class="card-img-top"
                             alt="PTFE Sliding Bearing" style="height:300px; object-fit:cover;">
-                        <span class="badge bg-info text-white position-absolute top-0 end-0 m-3">Low Friction
+                        <span class="badge bg-primary text-white position-absolute top-0 end-0 m-3">Low Friction
                             PTFE</span>
                     </div>
                     <div class="card-body p-4">
@@ -388,16 +388,16 @@ include_once 'partials/header.php';
 
 <!-- Manufacturing Process Banner -->
 <section class="py-5 text-white position-relative"
-    style="background: linear-gradient(135deg, rgba(8, 20, 38, 0.92) 0%, rgba(10, 25, 47, 0.74) 40%, rgba(5, 12, 24, 0.81) 100%), url('assets/img/img/banner/birdge-10.webp') center center / cover no-repeat; padding: 85px 0;">
+    style="background: linear-gradient(135deg, rgba(8, 20, 38, 0.58) 0%, rgba(10, 25, 47, 0.48) 45%, rgba(5, 12, 24, 0.60) 60%), url('assets/img/img/banner/birdge-10.webp') center center / cover no-repeat; padding: 85px 0;">
     <div class="container-fluid px-3 px-lg-5 py-3">
         <div class="text-center mb-5">
             <span class="d-inline-block text-uppercase fw-bold mb-2"
                 style="color: var(--theme-light); font-size: 13px; letter-spacing: 2px;">Working Process</span>
             <h2 class="fw-bold text-white text-uppercase mx-auto mb-3"
-                style="font-family: 'Saira-Medium', sans-serif; font-size: 38px; letter-spacing: 0.5px; max-width: 850px; line-height: 1.2;">
+                style="font-family: 'Saira-Medium', sans-serif; font-size: 38px; letter-spacing: 0.5px; max-width: 850px; line-height: 1.2; text-shadow: 0 3px 12px rgba(0,0,0,0.6);">
                 Comprehensive Manufacturing Process &amp; Quality Control
             </h2>
-            <p class="mx-auto mb-0" style="max-width: 750px; color: #ffffffff; font-size: 15px; line-height: 1.7;">
+            <p class="mx-auto mb-0" style="max-width: 750px; color: #f1f5f9; font-size: 15px; line-height: 1.7; text-shadow: 0 2px 8px rgba(0,0,0,0.5);">
                 From raw elastomer compounding (NR/CR) and shot-blasted steel plate preparation to precision
                 hydraulic vulcanization and proof-load testing, every step follows documented standard operating
                 procedures (SOP).
@@ -406,11 +406,6 @@ include_once 'partials/header.php';
 
         <!-- Process Timeline Steps matching layout -->
         <div class="process-timeline-wrapper position-relative mt-5 pt-2">
-            <!-- Continuous Horizontal Connecting Line (visible on md and up) -->
-            <div class="process-line d-none d-md-block position-absolute"
-                style="top: 15px; left: 12%; right: 12%; height: 1px; background: rgba(255, 255, 255, 0.2); z-index: 1;">
-            </div>
-
             <div class="row g-4 text-center position-relative" style="z-index: 2;">
                 <!-- Step 01 -->
                 <div class="col-md-4 wow fadeInUp" data-wow-delay=".1s">
@@ -428,7 +423,7 @@ include_once 'partials/header.php';
                             style="font-size: 19px; letter-spacing: 0.5px; font-family: 'Saira-Medium', sans-serif;">
                             Compounding &amp; Prep
                         </h4>
-                        <p class="small mb-0" style="color: #ffffffff; line-height: 1.7; font-size: 14px;">
+                        <p class="small mb-0" style="color: #e2e8f0; line-height: 1.7; font-size: 14px;">
                             Raw elastomer compounding (NR/CR), precision steel grit blasting, and multi-coat
                             adhesive application.
                         </p>
@@ -451,7 +446,7 @@ include_once 'partials/header.php';
                             style="font-size: 19px; letter-spacing: 0.5px; font-family: 'Saira-Medium', sans-serif;">
                             Vulcanization
                         </h4>
-                        <p class="small mb-0" style="color: #ffffffff; line-height: 1.7; font-size: 14px;">
+                        <p class="small mb-0" style="color: #e2e8f0; line-height: 1.7; font-size: 14px;">
                             High-tonnage heated hydraulic pressing &amp; precision molding ensuring homogeneous
                             steel-rubber bonding.
                         </p>
@@ -474,7 +469,7 @@ include_once 'partials/header.php';
                             style="font-size: 19px; letter-spacing: 0.5px; font-family: 'Saira-Medium', sans-serif;">
                             Testing &amp; QA
                         </h4>
-                        <p class="small mb-0" style="color: #ffffffff; line-height: 1.7; font-size: 14px;">
+                        <p class="small mb-0" style="color: #e2e8f0; line-height: 1.7; font-size: 14px;">
                             Rigid shear modulus, compressive stiffness and proof-load testing strictly conforming to
                             IRC:83 &amp; RDSO.
                         </p>
@@ -491,6 +486,27 @@ include_once 'partials/header.php';
         </div>
     </div>
 </section>
+
+<style>
+    .process-step-item {
+        background: rgba(10, 24, 45, 0.52) !important;
+        backdrop-filter: blur(1px);
+        -webkit-backdrop-filter: blur(1px);
+        border: 1px solid rgba(255, 255, 255, 0.16) !important;
+        border-radius: 20px !important;
+        padding: 32px 24px !important;
+        box-shadow: 0 16px 36px rgba(0, 0, 0, 0.4), 0 2px 10px rgba(0, 0, 0, 0.2) !important;
+        transition: all 0.35s ease !important;
+        height: 100%;
+    }
+
+    .process-step-item:hover {
+        transform: translateY(-6px) !important;
+        background: rgba(14, 32, 60, 0.65) !important;
+        border-color: var(--theme-primary) !important;
+        box-shadow: 0 22px 45px rgba(0, 0, 0, 0.5), 0 0 25px var(--theme-glow) !important; 
+    }
+</style>
 
 <!-- Major Experience / Client Sectors -->
 <section class="py-5" style="background:#f8fafc;">

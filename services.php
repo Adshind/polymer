@@ -7,7 +7,7 @@ include_once 'partials/header.php';
      1. Modern Hero & Breadcrumb Banner
      ============================================================ -->
 <section class="ht-services-hero position-relative d-flex align-items-center"
-    style="background: linear-gradient(135deg, rgba(9, 20, 36, 0.88) 0%, rgba(14, 34, 61, 0.72) 50%, rgba(6, 13, 24, 0.78) 100%), url('assets/img/img/banner/birdge-13.webp') center center / cover no-repeat; padding-top: 175px; padding-bottom: 75px; margin-top: -160px; min-height: 460px;">
+    style="background: linear-gradient(135deg, rgba(9, 20, 36, 0.88) 0%, rgba(14, 34, 61, 0.72) 50%, rgba(6, 13, 24, 0.78) 100%), url('assets/img/img/banner/birdge-8.webp') center center / cover no-repeat; padding-top: 175px; padding-bottom: 75px; margin-top: -160px; min-height: 460px;">
     
     <div class="container-fluid px-3 px-lg-5 position-relative" style="z-index: 2;">
         <div class="row align-items-center">
