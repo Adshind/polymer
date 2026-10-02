@@ -24,7 +24,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
     <title><?php echo htmlspecialchars($page_title); ?></title>
     
     <!-- Favicon img -->
-    <link rel="shortcut icon" href="/assets/img/img/banner/favicon.ico">
+    <link rel="shortcut icon" href="assets/img/img/banner/favicon.ico">
     <!-- bootstrap -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!--<< All Min Css >>-->
@@ -99,7 +99,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
                     <div class="ht-menu-left d-flex align-items-center">
                         <div class="ht-menu-logo me-3 me-xl-4 me-xxl-5">
                             <a href="index.php" class="d-flex align-items-center text-decoration-none logo-anim">
-                                <img src="assets/img/img/banner/polymer-logo-2.png" alt="Polymer Products"
+                                <img src="assets/img/img/banner/polymer-logo-3.png" alt="Polymer Products"
                                     class="header-logo-img"
                                     style="height: 65px; width: auto; object-fit: contain;">
                             </a>

@@ -8,7 +8,7 @@ include_once 'partials/header.php';
      1. Page Hero Banner
      ============================================================ -->
 <section class="contact-hero d-flex align-items-center position-relative"
-    style="background: linear-gradient(135deg, rgba(11, 25, 44, 0.84) 0%, rgba(15, 34, 61, 0.78) 100%), url('/assets/img/img/banner/birdge-6.webp') center center / cover no-repeat; padding-top: 175px; padding-bottom: 70px; margin-top: -160px;">
+    style="background: linear-gradient(135deg, rgba(11, 25, 44, 0.84) 0%, rgba(15, 34, 61, 0.78) 100%), url('assets/img/img/banner/birdge-6.webp') center center / cover no-repeat; padding-top: 175px; padding-bottom: 70px; margin-top: -160px;">
     <div class="container-fluid px-3 px-lg-5">
         <div class="row align-items-center">
             <div class="col-lg-8">

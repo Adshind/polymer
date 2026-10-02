@@ -8,7 +8,7 @@ include_once 'partials/header.php';
      1. Modern Hero & Breadcrumb Banner
      ============================================================ -->
 <section class="ht-about-hero position-relative d-flex align-items-center"
-    style="background: linear-gradient(135deg, rgba(9, 20, 36, 0.84) 0%, rgba(14, 34, 61, 0.58) 50%, rgba(6, 13, 24, 0.56) 100%), url('/assets/img/img/banner/birdge-13.webp') center center / cover no-repeat; padding-top: 175px; padding-bottom: 75px; margin-top: -160px; min-height: 480px;">
+    style="background: linear-gradient(135deg, rgba(9, 20, 36, 0.84) 0%, rgba(14, 34, 61, 0.58) 50%, rgba(6, 13, 24, 0.56) 100%), url('assets/img/img/banner/birdge-13.webp') center center / cover no-repeat; padding-top: 175px; padding-bottom: 75px; margin-top: -160px; min-height: 480px;">
     
     <!-- <div class="position-absolute top-0 end-0 opacity-10 pointer-events-none">
         <svg width="450" height="450" viewBox="0 0 450 450" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -138,7 +138,7 @@ include_once 'partials/header.php';
 
                     <!-- Main Factory Image -->
                     <div class="position-relative overflow-hidden shadow-lg rounded-4 border bg-white" style="z-index: 2;">
-                        <img src="/assets/img/img/banner/factory-image.webp"
+                        <img src="assets/img/img/banner/factory-image.webp"
                             alt="Polymer Products Nashik Facility"
                             class="img-fluid w-100"
                             style="height: 480px; object-fit: cover; transition: transform 0.6s ease;">
@@ -239,66 +239,152 @@ include_once 'partials/header.php';
 </section>
 
 <!-- ============================================================
-     4. Animated Key Leadership & Technical Team Section
+     4. Official Organization Chart & Leadership Structure
      ============================================================ -->
-<section class="py-5 position-relative" id="our-team" style="background: #ffffff;">
+<section class="py-5 position-relative" id="organization-chart" style="background: #ffffff;">
     <div class="container-fluid px-3 px-lg-5 py-4">
         
+        <!-- Header -->
         <div class="text-center mb-5 wow fadeInUp" data-wow-delay=".1s">
             <span class="badge px-3 py-2 rounded-pill font-monospace fw-bold text-uppercase mb-2"
-                style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 11px; letter-spacing: 1px;">
-                TECHNICAL &amp; EXECUTIVE LEADERSHIP
+                style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 11px; letter-spacing: 1.5px;">
+                ORGANIZATION CHART &bull; POLYMER PRODUCTS
             </span>
-            <h2 class="fw-bold text-dark text-uppercase" style="font-family: 'Oswald', sans-serif; font-size: 36px;">
-                Meet Our Key Leadership &amp; Engineering Team
+            <h2 class="fw-bold text-dark text-uppercase" style="font-family: 'Oswald', sans-serif; font-size: 38px; letter-spacing: -0.5px;">
+                Organizational Hierarchy &amp; Technical Personnel
             </h2>
-            <p class="text-muted mx-auto" style="max-width: 720px; font-size: 15px; line-height: 1.7;">
-                Bringing together decades of prestressing expertise, polymer chemistry, precision rubber compounding, and strict quality assurance protocols.
+            <p class="text-muted mx-auto" style="max-width: 780px; font-size: 15px; line-height: 1.8;">
+                Our multidisciplinary team of Polymer Scientists, Rubber Technologists, Structural Engineers, Quality Chemists, and dedicated manufacturing technicians driving technical excellence.
             </p>
         </div>
- 
-        <!-- Section 1: Board of Directors & Senior Management -->
+
+        <!-- ============================================================
+             Interactive Visual Org Chart Flow (Tree View)
+             ============================================================ -->
+        <div class="org-chart-tree-wrapper p-4 p-lg-5 mb-5 rounded-4 border shadow-sm wow fadeInUp" data-wow-delay=".2s"
+            style="background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%); border-color: #e2e8f0;">
+            <div class="text-center mb-4">
+                <span class="badge bg-dark text-white px-3 py-1.5 rounded-pill small fw-bold text-uppercase" style="letter-spacing: 1px;">
+                    <i class="fa-solid fa-sitemap me-1.5 text-warning"></i> Hierarchy Flow Diagram
+                </span>
+            </div>
+
+            <!-- Level 1: Proprietor / Executive Head -->
+            <div class="d-flex justify-content-center mb-4">
+                <div class="org-tree-node primary-node p-3 rounded-4 shadow text-center" style="max-width: 360px; width: 100%; background: var(--theme-primary); color: #fff;">
+                    <div class="badge bg-white text-primary rounded-pill px-3 py-1 fw-bold text-uppercase mb-1" style="font-size: 11px; letter-spacing: 0.5px;">
+                        Proprietor &bull; Founder
+                    </div>
+                    <h5 class="fw-bold text-white mb-0" style="font-family: 'Oswald', sans-serif; font-size: 20px;">Maruti Pandurang Prabhu</h5>
+                    <small class="text-white-50 d-block" style="font-size: 12px;">B.Sc. L.P.R.I. (London) &bull; 48 Yrs Experience</small>
+                </div>
+            </div>
+
+            <!-- Connecting Stem -->
+            <div class="org-stem-down mx-auto" style="width: 2px; height: 28px; background: var(--theme-primary); margin-top: -15px; margin-bottom: 0;"></div>
+            <div class="org-horizontal-branch mx-auto d-none d-md-block" style="width: 60%; height: 2px; background: var(--theme-primary);"></div>
+
+            <!-- Level 2: Core Department Incharges -->
+            <div class="row g-3 justify-content-center mt-2 mb-4">
+                <!-- Lab Incharge -->
+                <div class="col-md-5 col-lg-4">
+                    <div class="org-tree-node sub-node p-3 rounded-4 bg-white border shadow-sm text-center h-100">
+                        <span class="badge rounded-pill px-2.5 py-1 text-uppercase fw-bold mb-1" style="background: #e0f2fe; color: #0284c7; font-size: 11px;">
+                            Lab Incharge
+                        </span>
+                        <h6 class="fw-bold text-dark mb-0" style="font-size: 16px;">Mrs. Anita Maruti Prabhu</h6>
+                        <small class="text-muted d-block" style="font-size: 12px;">M.Sc. (Chemistry) &bull; 39 Yrs Testing Experience</small>
+                    </div>
+                </div>
+                <!-- Production Incharge -->
+                <div class="col-md-5 col-lg-4">
+                    <div class="org-tree-node sub-node p-3 rounded-4 bg-white border shadow-sm text-center h-100">
+                        <span class="badge rounded-pill px-2.5 py-1 text-uppercase fw-bold mb-1" style="background: #fef3c7; color: #b45309; font-size: 11px;">
+                            Production Incharge
+                        </span>
+                        <h6 class="fw-bold text-dark mb-0" style="font-size: 16px;">Chetan Maruti Prabhu</h6>
+                        <small class="text-muted d-block" style="font-size: 12px;">B.E. (Mech.) &bull; 16 Yrs Design &amp; Production</small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Level 3: Department Heads & Functional Managers -->
+            <div class="row g-3 justify-content-center pt-2">
+                <div class="col-6 col-md-3">
+                    <div class="p-2.5 bg-white rounded-3 border text-center shadow-2xs h-100">
+                        <small class="fw-bold text-primary d-block text-uppercase" style="font-size: 10.5px;">Asst. General Manager</small>
+                        <span class="fw-bold text-dark d-block" style="font-size: 13.5px;">Sunil Kotagi</span>
+                        <small class="text-muted" style="font-size: 11px;">B.Com</small>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="p-2.5 bg-white rounded-3 border text-center shadow-2xs h-100">
+                        <small class="fw-bold text-primary d-block text-uppercase" style="font-size: 10.5px;">Dy. Manager Design &amp; Testing</small>
+                        <span class="fw-bold text-dark d-block" style="font-size: 13.5px;">Tausifkhan Pathan</span>
+                        <small class="text-muted" style="font-size: 11px;">B.E. (Mech.) &bull; 12 Yrs Exp.</small>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="p-2.5 bg-white rounded-3 border text-center shadow-2xs h-100">
+                        <small class="fw-bold text-primary d-block text-uppercase" style="font-size: 10.5px;">R&amp;D Head &amp; Quality Mgr</small>
+                        <span class="fw-bold text-dark d-block" style="font-size: 13.5px;">Nitin Pandey</span>
+                        <small class="text-muted" style="font-size: 11px;">Rubber Technology</small>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="p-2.5 bg-white rounded-3 border text-center shadow-2xs h-100">
+                        <small class="fw-bold text-primary d-block text-uppercase" style="font-size: 10.5px;">Lab Manager</small>
+                        <span class="fw-bold text-dark d-block" style="font-size: 13.5px;">Labhesh Bawiskar</span>
+                        <small class="text-muted" style="font-size: 11px;">M.Sc. Industrial Chemistry</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ============================================================
+             1. Executive Leadership & Department Incharges (Detailed Cards)
+             ============================================================ -->
         <div class="mb-5">
             <div class="d-flex align-items-center mb-4 pb-2 border-bottom">
                 <div class="p-2 rounded-circle me-3 d-flex align-items-center justify-content-center"
                     style="width: 38px; height: 38px; background: var(--theme-subtle); color: var(--theme-primary);">
-                    <i class="fa-solid fa-chess-king fs-6"></i>
+                    <i class="fa-solid fa-crown fs-6"></i>
                 </div>
                 <div>
-                    <h4 class="fw-bold text-dark mb-0" style="font-family: 'Oswald', sans-serif; font-size: 22px;">
-                        Board of Directors &amp; Executive Leadership
+                    <h4 class="fw-bold text-dark mb-0" style="font-family: 'Oswald', sans-serif; font-size: 24px;">
+                        Proprietor &amp; Department Incharges
                     </h4>
-                    <span class="text-muted small" style="font-size: 12.5px;">Strategic Governance, Structural Design &amp; Corporate Oversight</span>
+                    <span class="text-muted small" style="font-size: 13px;">Executive Leadership, Chemical Research &amp; Core Manufacturing Governance</span>
                 </div>
             </div>
 
             <div class="row g-4 justify-content-center">
 
-                <!-- Member 1: M. P. Prabhu (Managing Director) -->
+                <!-- 1. Maruti Pandurang Prabhu - PROPRIETOR -->
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".1s">
                     <div class="team-card-modern h-100 d-flex flex-column justify-content-between position-relative shadow-sm">
                         <div>
                             <div class="team-photo-wrap large-height position-relative">
-                                <img src="assets/pp_data/Page 02/Emp Details/Directors/MPP Sir.jpg" alt="M. P. Prabhu - Managing Director" class="team-card-img">
+                                <img src="assets/pp_data/Page 02/Emp Details/Directors/MPP Sir.jpg" alt="Maruti Pandurang Prabhu - Proprietor" class="team-card-img">
                                 <div class="team-photo-overlay"></div>
-                                <div class="team-badge-icon" title="Managing Director">
+                                <div class="team-badge-icon" title="Proprietor">
                                     <i class="fa-solid fa-crown"></i>
                                 </div>
                                 <div class="team-role-tag">
-                                    <span class="badge px-3 py-2 rounded-pill">
-                                        <i class="fa-solid fa-shield-halved me-1"></i> Managing Director
+                                    <span class="badge px-3 py-1.5 rounded-pill">
+                                        <i class="fa-solid fa-shield-halved me-1"></i> Proprietor
                                     </span>
                                 </div>
                             </div>
                             <div class="p-4">
-                                <div class="d-flex align-items-center justify-content-between mb-2">
-                                    <h4 class="fw-bold text-dark mb-0" style="font-family: 'Oswald', sans-serif; font-size: 22px;">M. P. Prabhu</h4>
-                                    <span class="badge rounded-pill px-2.5 py-1 small" style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 11px;">
-                                        Executive Head
-                                    </span>
+                                <div class="d-flex align-items-baseline justify-content-between mb-1">
+                                    <h4 class="fw-bold text-dark mb-0" style="font-family: 'Oswald', sans-serif; font-size: 21px;">Maruti Pandurang Prabhu</h4>
                                 </div>
-                                <p class="text-secondary small mb-3" style="line-height: 1.7; font-size: 13.5px;">
-                                    Visionary leadership with decades of industry experience heading Dynamic Prestress (I) Pvt. Ltd. &amp; Polymer Products. Pioneer in elastomeric bridge bearing innovations.
+                                <span class="badge bg-light text-primary border rounded-pill px-2.5 py-1 small fw-bold mb-3 d-inline-block" style="font-size: 11.5px;">
+                                    <i class="fa-solid fa-graduation-cap me-1"></i> B.Sc. L.P.R.I. (London)
+                                </span>
+                                <p class="text-secondary small mb-2" style="line-height: 1.7; font-size: 13.5px;">
+                                    Has <strong>48 years of extensive experience</strong> in conducting chemical composition tests of Elastomer &amp; testing of finished bearings &amp; raw materials. Actively overseeing day-to-day precision production and quality compliance.
                                 </p>
                             </div>
                         </div>
@@ -306,38 +392,39 @@ include_once 'partials/header.php';
                             <a href="assets/pp_data/Page 02/Emp Details/Directors/MD (MPP Sir).pdf" target="_blank"
                                 class="btn btn-outline-primary btn-sm rounded-pill px-3 py-2 fw-bold w-100 open-cert-modal d-flex align-items-center justify-content-center gap-2"
                                 data-doc-url="assets/pp_data/Page 02/Emp Details/Directors/MD (MPP Sir).pdf"
-                                data-doc-title="M. P. Prabhu - Professional Profile & Credentials"
+                                data-doc-title="Maruti Pandurang Prabhu - Proprietor Profile & Credentials"
                                 data-doc-type="pdf">
                                 <i class="fa-solid fa-award"></i> <span>View Profile &amp; Credentials</span>
                             </a>
                         </div>
                     </div>
                 </div>
-<!-- Member 2: A. M. Prabhu (Director - Admin & Finance) -->
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+
+                <!-- 2. Mrs. Anita Maruti Prabhu - LAB INCHARGE -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
                     <div class="team-card-modern h-100 d-flex flex-column justify-content-between position-relative shadow-sm">
                         <div>
                             <div class="team-photo-wrap large-height position-relative">
-                                <img src="assets/pp_data/Page 02/Emp Details/Directors/AMP Madam.jpg" alt="A. M. Prabhu - Director Finance" class="team-card-img">
+                                <img src="assets/pp_data/Page 02/Emp Details/Directors/AMP Madam.jpg" alt="Mrs. Anita Maruti Prabhu - Lab Incharge" class="team-card-img">
                                 <div class="team-photo-overlay"></div>
-                                <div class="team-badge-icon" title="Director Finance">
-                                    <i class="fa-solid fa-chart-line"></i>
+                                <div class="team-badge-icon" title="Lab Incharge">
+                                    <i class="fa-solid fa-flask-vial"></i>
                                 </div>
                                 <div class="team-role-tag">
-                                    <span class="badge px-3 py-2 rounded-pill">
-                                        <i class="fa-solid fa-building-columns me-1"></i> Director &ndash; Finance
+                                    <span class="badge px-3 py-1.5 rounded-pill">
+                                        <i class="fa-solid fa-microscope me-1"></i> Lab Incharge
                                     </span>
                                 </div>
                             </div>
                             <div class="p-4">
-                                <div class="d-flex align-items-center justify-content-between mb-2">
-                                    <h4 class="fw-bold text-dark mb-0" style="font-family: 'Oswald', sans-serif; font-size: 22px;">A. M. Prabhu</h4>
-                                    <span class="badge rounded-pill px-2.5 py-1 small" style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 11px;">
-                                        Finance &amp; Admin
-                                    </span>
+                                <div class="d-flex align-items-baseline justify-content-between mb-1">
+                                    <h4 class="fw-bold text-dark mb-0" style="font-family: 'Oswald', sans-serif; font-size: 21px;">Mrs. Anita Maruti Prabhu</h4>
                                 </div>
-                                <p class="text-secondary small mb-3" style="line-height: 1.7; font-size: 13.5px;">
-                                    Overseeing corporate finance, statutory compliances, legal registrations, financial audits, and corporate governance for nationwide infrastructure projects.
+                                <span class="badge bg-light text-primary border rounded-pill px-2.5 py-1 small fw-bold mb-3 d-inline-block" style="font-size: 11.5px;">
+                                    <i class="fa-solid fa-graduation-cap me-1"></i> M.Sc. (Chemistry)
+                                </span>
+                                <p class="text-secondary small mb-2" style="line-height: 1.7; font-size: 13.5px;">
+                                    Brings <strong>39 years of specialized experience</strong> in rigorous testing of physical properties of elastomeric compounds, chemical composition analysis, and polymer batch certification.
                                 </p>
                             </div>
                         </div>
@@ -345,38 +432,39 @@ include_once 'partials/header.php';
                             <a href="assets/pp_data/Page 02/Emp Details/Directors/AMP MADAM.pdf" target="_blank"
                                 class="btn btn-outline-primary btn-sm rounded-pill px-3 py-2 fw-bold w-100 open-cert-modal d-flex align-items-center justify-content-center gap-2"
                                 data-doc-url="assets/pp_data/Page 02/Emp Details/Directors/AMP MADAM.pdf"
-                                data-doc-title="A. M. Prabhu - Professional Credentials"
+                                data-doc-title="Mrs. Anita Maruti Prabhu - Lab Incharge Credentials"
                                 data-doc-type="pdf">
                                 <i class="fa-solid fa-award"></i> <span>View Profile &amp; Credentials</span>
                             </a>
                         </div>
                     </div>
                 </div>
-                <!-- Member 3: C. M. Prabhu (Technical Director) -->
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+
+                <!-- 3. Chetan Maruti Prabhu - PRODUCTION INCHARGE -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                     <div class="team-card-modern h-100 d-flex flex-column justify-content-between position-relative shadow-sm">
                         <div>
                             <div class="team-photo-wrap large-height position-relative">
-                                <img src="assets/pp_data/Page 02/Emp Details/Directors/CMP Sir.jpg" alt="C. M. Prabhu - Technical Director" class="team-card-img">
+                                <img src="assets/pp_data/Page 02/Emp Details/Directors/CMP Sir.jpg" alt="Chetan Maruti Prabhu - Production Incharge" class="team-card-img">
                                 <div class="team-photo-overlay"></div>
-                                <div class="team-badge-icon" title="Technical Director">
-                                    <i class="fa-solid fa-gear"></i>
+                                <div class="team-badge-icon" title="Production Incharge">
+                                    <i class="fa-solid fa-gears"></i>
                                 </div>
                                 <div class="team-role-tag">
-                                    <span class="badge px-3 py-2 rounded-pill">
-                                        <i class="fa-solid fa-screwdriver-wrench me-1"></i> Director &ndash; Technical
+                                    <span class="badge px-3 py-1.5 rounded-pill">
+                                        <i class="fa-solid fa-industry me-1"></i> Production Incharge
                                     </span>
                                 </div>
                             </div>
                             <div class="p-4">
-                                <div class="d-flex align-items-center justify-content-between mb-2">
-                                    <h4 class="fw-bold text-dark mb-0" style="font-family: 'Oswald', sans-serif; font-size: 22px;">C. M. Prabhu</h4>
-                                    <span class="badge rounded-pill px-2.5 py-1 small" style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 11px;">
-                                        Technical Head
-                                    </span>
+                                <div class="d-flex align-items-baseline justify-content-between mb-1">
+                                    <h4 class="fw-bold text-dark mb-0" style="font-family: 'Oswald', sans-serif; font-size: 21px;">Chetan Maruti Prabhu</h4>
                                 </div>
-                                <p class="text-secondary small mb-3" style="line-height: 1.7; font-size: 13.5px;">
-                                    Expert in civil engineering, bridge prestressing systems, and elastomeric bearing manufacturing operations, tooling design, and load proofing standards.
+                                <span class="badge bg-light text-primary border rounded-pill px-2.5 py-1 small fw-bold mb-3 d-inline-block" style="font-size: 11.5px;">
+                                    <i class="fa-solid fa-graduation-cap me-1"></i> B.E. (Mechanical)
+                                </span>
+                                <p class="text-secondary small mb-2" style="line-height: 1.7; font-size: 13.5px;">
+                                    Has <strong>16 years of hands-on experience</strong> in structural design engineering, quality control (QC), vulcanization tooling, and plant production management for mega projects.
                                 </p>
                             </div>
                         </div>
@@ -384,7 +472,7 @@ include_once 'partials/header.php';
                             <a href="assets/pp_data/Page 02/Emp Details/Directors/CMP Sir.pdf" target="_blank"
                                 class="btn btn-outline-primary btn-sm rounded-pill px-3 py-2 fw-bold w-100 open-cert-modal d-flex align-items-center justify-content-center gap-2"
                                 data-doc-url="assets/pp_data/Page 02/Emp Details/Directors/CMP Sir.pdf"
-                                data-doc-title="C. M. Prabhu - Technical Director Profile"
+                                data-doc-title="Chetan Maruti Prabhu - Degree & Professional Credentials"
                                 data-doc-type="pdf">
                                 <i class="fa-solid fa-award"></i> <span>View Profile &amp; Degree</span>
                             </a>
@@ -392,51 +480,92 @@ include_once 'partials/header.php';
                     </div>
                 </div>
 
-                
-
             </div>
         </div>
 
-        <!-- Section 2: Technical, Quality Control & Plant Operations -->
-        <div>
+        <!-- ============================================================
+             2. Department Managers, Quality & Engineering Team (Cards 4 - 9)
+             ============================================================ -->
+        <div class="mb-5">
             <div class="d-flex align-items-center mb-4 pb-2 border-bottom">
                 <div class="p-2 rounded-circle me-3 d-flex align-items-center justify-content-center"
                     style="width: 38px; height: 38px; background: var(--theme-subtle); color: var(--theme-primary);">
-                    <i class="fa-solid fa-microscope fs-6"></i>
+                    <i class="fa-solid fa-users-gear fs-6"></i>
                 </div>
                 <div>
-                    <h4 class="fw-bold text-dark mb-0" style="font-family: 'Oswald', sans-serif; font-size: 22px;">
-                        Engineering, Quality Assurance &amp; Operations Team
+                    <h4 class="fw-bold text-dark mb-0" style="font-family: 'Oswald', sans-serif; font-size: 24px;">
+                        Engineering, Quality Control &amp; Operations Personnel
                     </h4>
-                    <span class="text-muted small" style="font-size: 12.5px;">Polymer Science, Production QC, Laboratory Testing &amp; Commercial Operations</span>
+                    <span class="text-muted small" style="font-size: 13px;">Design Verification, Laboratory Testing, Polymer Technology &amp; Commercial Operations</span>
                 </div>
             </div>
 
             <div class="row g-4">
 
-                <!-- Member 4: Mr. Pathan (Rubber Technologist) -->
-                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".1s">
+                <!-- 4. Sunil Kotagi - ASST GENERAL MANAGER -->
+                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".1s">
                     <div class="team-card-modern h-100 d-flex flex-column justify-content-between position-relative shadow-sm">
                         <div>
-                            <div class="team-photo-wrap standard-height position-relative">
-                                <img src="assets/pp_data/Page 02/Emp Details/Pathan sir/PATHAN.jpg" alt="Mr. Pathan - Rubber Technologist" class="team-card-img">
-                                <div class="team-photo-overlay"></div>
-                                <div class="team-badge-icon" title="Rubber Technologist">
-                                    <i class="fa-solid fa-vial"></i>
+                            <div class="team-photo-wrap standard-height position-relative d-flex align-items-center justify-content-center"
+                                style="background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);">
+                                <div class="text-center text-white p-3">
+                                    <div class="p-3 rounded-circle d-inline-flex align-items-center justify-content-center mb-2 shadow"
+                                        style="width: 72px; height: 72px; background: rgba(255,255,255,0.1); border: 2px solid rgba(255,255,255,0.25);">
+                                        <i class="fa-solid fa-briefcase fs-2 text-warning"></i>
+                                    </div>
+                                    <h6 class="text-white fw-bold mb-0 text-uppercase" style="font-family:'Oswald',sans-serif; letter-spacing: 0.5px;">Management Executive</h6>
+                                    <small class="text-white-50" style="font-size: 11px;">Corporate Administration &amp; Operations</small>
+                                </div>
+                                <div class="team-badge-icon" title="Asst. General Manager">
+                                    <i class="fa-solid fa-user-tie"></i>
                                 </div>
                                 <div class="team-role-tag">
                                     <span class="badge px-3 py-1.5 rounded-pill">
-                                        Rubber Technologist
+                                        Asst. General Manager
                                     </span>
                                 </div>
                             </div>
-                            <div class="p-3.5 p-4">
-                                <h5 class="fw-bold text-dark mb-1" style="font-family: 'Oswald', sans-serif; font-size: 20px;">Mr. Pathan</h5>
-                                <span class="text-muted small fw-semibold d-block mb-2" style="font-size: 12px; color: var(--theme-primary) !important;">
-                                    Plastics &amp; Rubber Institute Certified
+                            <div class="p-4">
+                                <h5 class="fw-bold text-dark mb-1" style="font-family: 'Oswald', sans-serif; font-size: 20px;">Sunil Kotagi</h5>
+                                <span class="badge bg-light text-primary border rounded-pill px-2.5 py-1 small fw-bold mb-3 d-inline-block" style="font-size: 11px;">
+                                    <i class="fa-solid fa-graduation-cap me-1"></i> B.Com
                                 </span>
-                                <p class="text-secondary small mb-3" style="line-height: 1.6; font-size: 13px;">
-                                    Specialist managing polymer compounding, elastomer formulation, accelerated aging analysis, and IRC:83 vulcanization standards.
+                                <p class="text-secondary small mb-0" style="line-height: 1.6; font-size: 13px;">
+                                    Assistant General Manager overseeing corporate operations, material procurement, supply chain coordination, client liaison, and general commercial administration.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="p-3 border-top bg-light bg-opacity-25 text-center">
+                            <span class="badge bg-primary-subtle text-primary px-3 py-1.5 rounded-pill small fw-semibold" style="font-size: 11px;">
+                                <i class="fa-solid fa-circle-check me-1"></i> Senior Administrative Management
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 5. Tausifkhan Pathan - DY. MANAGER DESIGN & TESTING -->
+                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                    <div class="team-card-modern h-100 d-flex flex-column justify-content-between position-relative shadow-sm">
+                        <div>
+                            <div class="team-photo-wrap standard-height position-relative">
+                                <img src="assets/pp_data/Page 02/Emp Details/Pathan sir/PATHAN.jpg" alt="Tausifkhan Pathan - Dy. Manager Design & Testing" class="team-card-img">
+                                <div class="team-photo-overlay"></div>
+                                <div class="team-badge-icon" title="Design & Testing">
+                                    <i class="fa-solid fa-compass-drafting"></i>
+                                </div>
+                                <div class="team-role-tag">
+                                    <span class="badge px-3 py-1.5 rounded-pill">
+                                        Dy. Manager Design &amp; Testing
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="p-4">
+                                <h5 class="fw-bold text-dark mb-1" style="font-family: 'Oswald', sans-serif; font-size: 20px;">Tausifkhan Pathan</h5>
+                                <span class="badge bg-light text-primary border rounded-pill px-2.5 py-1 small fw-bold mb-3 d-inline-block" style="font-size: 11px;">
+                                    <i class="fa-solid fa-graduation-cap me-1"></i> B.E. (Mechanical)
+                                </span>
+                                <p class="text-secondary small mb-0" style="line-height: 1.6; font-size: 13px;">
+                                    Has <strong>12 years of experience</strong> in structural design calculations, finite element modeling, and proof-load testing of finished bridge bearings as per IRC:83 / RDSO.
                                 </p>
                             </div>
                         </div>
@@ -444,44 +573,161 @@ include_once 'partials/header.php';
                             <a href="assets/pp_data/Page 02/Emp Details/Directors/Plastic Rubber Institute.pdf" target="_blank"
                                 class="btn btn-outline-primary btn-sm rounded-pill px-3 py-2 fw-bold w-100 open-cert-modal d-flex align-items-center justify-content-center gap-2"
                                 data-doc-url="assets/pp_data/Page 02/Emp Details/Directors/Plastic Rubber Institute.pdf"
-                                data-doc-title="Mr. Pathan - Plastic & Rubber Institute Certificate"
+                                data-doc-title="Tausifkhan Pathan - Technical Credentials"
                                 data-doc-type="pdf">
-                                <i class="fa-solid fa-certificate"></i> <span>Rubber Inst. Certificate</span>
+                                <i class="fa-solid fa-certificate"></i> <span>View Institute Certificate</span>
                             </a>
                         </div>
                     </div>
                 </div>
 
-                <!-- Member 5: Labhesh Bawiskar (Chemist / QA) -->
-                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                <!-- 6. Narendra Khairnar - LAB TECHNICIAN -->
+                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                    <div class="team-card-modern h-100 d-flex flex-column justify-content-between position-relative shadow-sm">
+                        <div>
+                            <div class="team-photo-wrap standard-height position-relative d-flex align-items-center justify-content-center"
+                                style="background: linear-gradient(135deg, #0e7490 0%, #155e75 100%);">
+                                <div class="text-center text-white p-3">
+                                    <div class="p-3 rounded-circle d-inline-flex align-items-center justify-content-center mb-2 shadow"
+                                        style="width: 72px; height: 72px; background: rgba(255,255,255,0.15); border: 2px solid rgba(255,255,255,0.3);">
+                                        <i class="fa-solid fa-vial-circle-check fs-2 text-warning"></i>
+                                    </div>
+                                    <h6 class="text-white fw-bold mb-0 text-uppercase" style="font-family:'Oswald',sans-serif; letter-spacing: 0.5px;">Rubber Lab Tech</h6>
+                                    <small class="text-white-50" style="font-size: 11px;">Testing Apparatus &amp; Specimen Prep</small>
+                                </div>
+                                <div class="team-badge-icon" title="Lab Technician">
+                                    <i class="fa-solid fa-flask"></i>
+                                </div>
+                                <div class="team-role-tag">
+                                    <span class="badge px-3 py-1.5 rounded-pill">
+                                        Lab Technician
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="p-4">
+                                <h5 class="fw-bold text-dark mb-1" style="font-family: 'Oswald', sans-serif; font-size: 20px;">Narendra Khairnar</h5>
+                                <span class="badge bg-light text-primary border rounded-pill px-2.5 py-1 small fw-bold mb-3 d-inline-block" style="font-size: 11px;">
+                                    <i class="fa-solid fa-graduation-cap me-1"></i> ITI (Rubber Technician)
+                                </span>
+                                <p class="text-secondary small mb-0" style="line-height: 1.6; font-size: 13px;">
+                                    Skilled technical specialist operating tensile testing machines, rheometers, hardness durometers, aging ovens, and specimen preparations for batch testing.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="p-3 border-top bg-light bg-opacity-25 text-center">
+                            <span class="badge bg-primary-subtle text-primary px-3 py-1.5 rounded-pill small fw-semibold" style="font-size: 11px;">
+                                <i class="fa-solid fa-circle-check me-1"></i> Certified Rubber Technician
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 7. Ancy Madhyasth - EXECUTIVE -->
+                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".4s">
+                    <div class="team-card-modern h-100 d-flex flex-column justify-content-between position-relative shadow-sm">
+                        <div>
+                            <div class="team-photo-wrap standard-height position-relative">
+                                <img src="assets/pp_data/Page 02/Emp Details/Ancy Madam/IMG_20240704_172145.jpg" alt="Ancy Madhyasth - Executive" class="team-card-img">
+                                <div class="team-photo-overlay"></div>
+                                <div class="team-badge-icon" title="Executive">
+                                    <i class="fa-solid fa-file-invoice"></i>
+                                </div>
+                                <div class="team-role-tag">
+                                    <span class="badge px-3 py-1.5 rounded-pill">
+                                        Commercial Executive
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="p-4">
+                                <h5 class="fw-bold text-dark mb-1" style="font-family: 'Oswald', sans-serif; font-size: 20px;">Ancy Madhyasth</h5>
+                                <span class="badge bg-light text-primary border rounded-pill px-2.5 py-1 small fw-bold mb-3 d-inline-block" style="font-size: 11px;">
+                                    <i class="fa-solid fa-graduation-cap me-1"></i> B.Com
+                                </span>
+                                <p class="text-secondary small mb-0" style="line-height: 1.6; font-size: 13px;">
+                                    Executive in charge of commercial billing, tax invoices, GST documentation, client order processing, dispatch compliance, and accounting records.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="p-3 border-top bg-light bg-opacity-25">
+                            <a href="assets/pp_data/Page 02/Emp Details/Ancy Madam/B.ComIII.pdf" target="_blank"
+                                class="btn btn-outline-primary btn-sm rounded-pill px-3 py-2 fw-bold w-100 open-cert-modal d-flex align-items-center justify-content-center gap-2"
+                                data-doc-url="assets/pp_data/Page 02/Emp Details/Ancy Madam/B.ComIII.pdf"
+                                data-doc-title="Ancy Madhyasth - B.Com Degree Certificate"
+                                data-doc-type="pdf">
+                                <i class="fa-solid fa-graduation-cap"></i> <span>View B.Com Degree</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 8. Nitin Pandey - R&D HEAD & QUALITY MANAGER -->
+                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
+                    <div class="team-card-modern h-100 d-flex flex-column justify-content-between position-relative shadow-sm">
+                        <div>
+                            <div class="team-photo-wrap standard-height position-relative">
+                                <img src="assets/pp_data/Page 02/Emp Details/Nitin Pandey/IMG-20260921-WA0011 (1).jpg" alt="Nitin Pandey - R&D Head & Quality Manager" class="team-card-img">
+                                <div class="team-photo-overlay"></div>
+                                <div class="team-badge-icon" title="R&D Head & Quality Manager">
+                                    <i class="fa-solid fa-microchip"></i>
+                                </div>
+                                <div class="team-role-tag">
+                                    <span class="badge px-3 py-1.5 rounded-pill">
+                                        R&amp;D Head &amp; Quality Manager
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="p-4">
+                                <h5 class="fw-bold text-dark mb-1" style="font-family: 'Oswald', sans-serif; font-size: 20px;">Nitin Pandey</h5>
+                                <span class="badge bg-light text-primary border rounded-pill px-2.5 py-1 small fw-bold mb-3 d-inline-block" style="font-size: 11px;">
+                                    <i class="fa-solid fa-flask-vial me-1"></i> Rubber Technology
+                                </span>
+                                <p class="text-secondary small mb-0" style="line-height: 1.6; font-size: 13px;">
+                                    Directing research &amp; development, advanced polymer compounding, vulcanization optimization, internal quality audits, and adherence to IRC:83 / RDSO norms.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="p-3 border-top bg-light bg-opacity-25">
+                            <a href="assets/pp_data/Page 02/Emp Details/Nitin Pandey/Certificate.pdf" target="_blank"
+                                class="btn btn-outline-primary btn-sm rounded-pill px-3 py-2 fw-bold w-100 open-cert-modal d-flex align-items-center justify-content-center gap-2"
+                                data-doc-url="assets/pp_data/Page 02/Emp Details/Nitin Pandey/Certificate.pdf"
+                                data-doc-title="Nitin Pandey - Quality Management Certificate"
+                                data-doc-type="pdf">
+                                <i class="fa-solid fa-file-circle-check"></i> <span>View QC Certificate</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 9. Labhesh Bawiskar - LAB MANAGER -->
+                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".6s">
                     <div class="team-card-modern h-100 d-flex flex-column justify-content-between position-relative shadow-sm">
                         <div>
                             <div class="team-photo-wrap standard-height position-relative overflow-hidden" style="background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);">
-                                <img src="assets/pp_data/Page 02/Emp Details/Labhesh/msc degree certificate OF LASBESH BAWISKAR (1).jpg" alt="Labhesh Bawiskar - Chemist" class="team-card-img" style="opacity: 0.38; object-fit: cover;">
+                                <img src="assets/pp_data/Page 02/Emp Details/Labhesh/msc degree certificate OF LASBESH BAWISKAR (1).jpg" alt="Labhesh Bawiskar - Lab Manager" class="team-card-img" style="opacity: 0.38; object-fit: cover;">
                                 <div class="position-absolute top-50 start-50 translate-middle text-center text-white p-3 w-100" style="z-index: 1;">
                                     <div class="p-3 rounded-circle d-inline-flex align-items-center justify-content-center mb-2 shadow"
                                         style="width: 64px; height: 64px; background: rgba(255,255,255,0.15); border: 2px solid rgba(255,255,255,0.3); backdrop-filter: blur(8px);">
                                         <i class="fa-solid fa-flask-vial fs-3 text-warning"></i>
                                     </div>
-                                    <span class="d-block fw-bold small text-uppercase" style="letter-spacing: 1px; font-size: 11px;">M.Sc Chemistry QA</span>
+                                    <span class="d-block fw-bold small text-uppercase" style="letter-spacing: 1px; font-size: 11px;">M.Sc Industrial Chemistry</span>
                                 </div>
                                 <div class="team-photo-overlay"></div>
-                                <div class="team-badge-icon" title="Quality Chemist">
+                                <div class="team-badge-icon" title="Lab Manager">
                                     <i class="fa-solid fa-flask"></i>
                                 </div>
                                 <div class="team-role-tag">
                                     <span class="badge px-3 py-1.5 rounded-pill">
-                                        Quality Chemist &amp; QA
+                                        Lab Manager
                                     </span>
                                 </div>
                             </div>
-                            <div class="p-3.5 p-4">
+                            <div class="p-4">
                                 <h5 class="fw-bold text-dark mb-1" style="font-family: 'Oswald', sans-serif; font-size: 20px;">Labhesh Bawiskar</h5>
-                                <span class="text-muted small fw-semibold d-block mb-2" style="font-size: 12px; color: var(--theme-primary) !important;">
-                                    M.Sc Chemist &amp; Laboratory Head
+                                <span class="badge bg-light text-primary border rounded-pill px-2.5 py-1 small fw-bold mb-3 d-inline-block" style="font-size: 11px;">
+                                    <i class="fa-solid fa-graduation-cap me-1"></i> M.Sc. in Industrial Chemistry
                                 </span>
-                                <p class="text-secondary small mb-3" style="line-height: 1.6; font-size: 13px;">
-                                    Supervising physical &amp; chemical polymer testing, tensile strength, elongation at break, ozone resistance, and ash content verification.
+                                <p class="text-secondary small mb-0" style="line-height: 1.6; font-size: 13px;">
+                                    Managing full-scale laboratory operations, chemical testing, polymer identification, tensile testing, ash content analysis, and raw material batch inspection.
                                 </p>
                             </div>
                         </div>
@@ -497,82 +743,73 @@ include_once 'partials/header.php';
                     </div>
                 </div>
 
-                <!-- Member 6: Nitin Pandey (Production / QC) -->
-                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                    <div class="team-card-modern h-100 d-flex flex-column justify-content-between position-relative shadow-sm">
-                        <div>
-                            <div class="team-photo-wrap standard-height position-relative">
-                                <img src="assets/pp_data/Page 02/Emp Details/Nitin Pandey/IMG-20260921-WA0011 (1).jpg" alt="Nitin Pandey - Production Lead" class="team-card-img">
-                                <div class="team-photo-overlay"></div>
-                                <div class="team-badge-icon" title="Production & QC Lead">
-                                    <i class="fa-solid fa-industry"></i>
+            </div>
+        </div>
+
+        <!-- ============================================================
+             3. Manufacturing Floor Workforce Capacity (Total 70+ Strength)
+             ============================================================ -->
+        <div class="plant-workforce-section p-4 p-lg-5 rounded-4 border shadow-sm wow fadeInUp" data-wow-delay=".2s"
+            style="background: linear-gradient(135deg, #0b1f3a 0%, #081426 100%); color: #fff;">
+            <div class="row align-items-center g-4">
+                <div class="col-lg-4 text-center text-lg-start">
+                    <span class="badge px-3 py-1.5 rounded-pill text-uppercase fw-bold mb-2"
+                        style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 11px; letter-spacing: 1.5px;">
+                        ON-FLOOR TECHNICAL CAPACITY
+                    </span>
+                    <h3 class="fw-bold text-white text-uppercase mb-2" style="font-family: 'Oswald', sans-serif; font-size: 30px;">
+                        Manufacturing Workforce Strength
+                    </h3>
+                    <p class="text-white-50 small mb-0" style="line-height: 1.7; font-size: 13.5px;">
+                        Backed by dedicated factory operators, technicians, and floor assistants ensuring high-volume capacity and uninterrupted project delivery.
+                    </p>
+                </div>
+
+                <div class="col-lg-8">
+                    <div class="row g-3">
+                        <!-- Stat 1: Skilled Labours -->
+                        <div class="col-md-4">
+                            <div class="p-3.5 p-4 rounded-4 text-center h-100 border"
+                                style="background: rgba(255, 255, 255, 0.06); border-color: rgba(255, 255, 255, 0.12) !important; backdrop-filter: blur(10px);">
+                                <div class="p-2.5 rounded-circle d-inline-flex align-items-center justify-content-center mb-2"
+                                    style="width: 48px; height: 48px; background: rgba(2, 132, 199, 0.25); color: #38bdf8;">
+                                    <i class="fa-solid fa-user-gear fs-5"></i>
                                 </div>
-                                <div class="team-role-tag">
-                                    <span class="badge px-3 py-1.5 rounded-pill">
-                                        Production &amp; QC Lead
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="p-3.5 p-4">
-                                <h5 class="fw-bold text-dark mb-1" style="font-family: 'Oswald', sans-serif; font-size: 20px;">Nitin Pandey</h5>
-                                <span class="text-muted small fw-semibold d-block mb-2" style="font-size: 12px; color: var(--theme-primary) !important;">
-                                    Plant Operations &amp; QC Supervisor
-                                </span>
-                                <p class="text-secondary small mb-3" style="line-height: 1.6; font-size: 13px;">
-                                    Managing hydraulic vulcanizing presses, steel plate shot blasting, chemlok adhesive application, and daily batch production logs.
-                                </p>
+                                <h2 class="fw-bold mb-0 text-white" style="font-family: 'Oswald', sans-serif; font-size: 36px; line-height: 1;">25</h2>
+                                <h6 class="fw-bold text-white mt-1 mb-1" style="font-size: 14px;">Skilled Labours</h6>
+                                <small class="text-white-50 d-block" style="font-size: 11.5px;">Hydraulic press vulcanizing, grit blasting &amp; mold operators</small>
                             </div>
                         </div>
-                        <div class="p-3 border-top bg-light bg-opacity-25">
-                            <a href="assets/pp_data/Page 02/Emp Details/Nitin Pandey/Certificate.pdf" target="_blank"
-                                class="btn btn-outline-primary btn-sm rounded-pill px-3 py-2 fw-bold w-100 open-cert-modal d-flex align-items-center justify-content-center gap-2"
-                                data-doc-url="assets/pp_data/Page 02/Emp Details/Nitin Pandey/Certificate.pdf"
-                                data-doc-title="Nitin Pandey - Production QC Certificate"
-                                data-doc-type="pdf">
-                                <i class="fa-solid fa-file-circle-check"></i> <span>View QC Certificate</span>
-                            </a>
+
+                        <!-- Stat 2: Semi Skilled Labours -->
+                        <div class="col-md-4">
+                            <div class="p-3.5 p-4 rounded-4 text-center h-100 border"
+                                style="background: rgba(255, 255, 255, 0.06); border-color: rgba(255, 255, 255, 0.12) !important; backdrop-filter: blur(10px);">
+                                <div class="p-2.5 rounded-circle d-inline-flex align-items-center justify-content-center mb-2"
+                                    style="width: 48px; height: 48px; background: rgba(234, 179, 8, 0.25); color: #facc15;">
+                                    <i class="fa-solid fa-users-line fs-5"></i>
+                                </div>
+                                <h2 class="fw-bold mb-0 text-white" style="font-family: 'Oswald', sans-serif; font-size: 36px; line-height: 1;">25</h2>
+                                <h6 class="fw-bold text-white mt-1 mb-1" style="font-size: 14px;">Semi-Skilled Labours</h6>
+                                <small class="text-white-50 d-block" style="font-size: 11.5px;">Elastomer compounding prep, cutting &amp; edge trimming</small>
+                            </div>
+                        </div>
+
+                        <!-- Stat 3: Helpers -->
+                        <div class="col-md-4">
+                            <div class="p-3.5 p-4 rounded-4 text-center h-100 border"
+                                style="background: rgba(255, 255, 255, 0.06); border-color: rgba(255, 255, 255, 0.12) !important; backdrop-filter: blur(10px);">
+                                <div class="p-2.5 rounded-circle d-inline-flex align-items-center justify-content-center mb-2"
+                                    style="width: 48px; height: 48px; background: rgba(34, 197, 94, 0.25); color: #4ade80;">
+                                    <i class="fa-solid fa-hand-holding-hand fs-5"></i>
+                                </div>
+                                <h2 class="fw-bold mb-0 text-white" style="font-family: 'Oswald', sans-serif; font-size: 36px; line-height: 1;">20</h2>
+                                <h6 class="fw-bold text-white mt-1 mb-1" style="font-size: 14px;">Helpers</h6>
+                                <small class="text-white-50 d-block" style="font-size: 11.5px;">Material handling, test-rig movement &amp; dispatch packing</small>
+                            </div>
                         </div>
                     </div>
                 </div>
-
-                <!-- Member 7: Ancy Josh (Commercial & Accounts) -->
-                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".4s">
-                    <div class="team-card-modern h-100 d-flex flex-column justify-content-between position-relative shadow-sm">
-                        <div>
-                            <div class="team-photo-wrap standard-height position-relative">
-                                <img src="assets/pp_data/Page 02/Emp Details/Ancy Madam/IMG_20240704_172145.jpg" alt="Ancy Josh - Commercial & Accounts" class="team-card-img">
-                                <div class="team-photo-overlay"></div>
-                                <div class="team-badge-icon" title="Commercial & Accounts">
-                                    <i class="fa-solid fa-calculator"></i>
-                                </div>
-                                <div class="team-role-tag">
-                                    <span class="badge px-3 py-1.5 rounded-pill">
-                                        Commercial &amp; Accounts
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="p-3.5 p-4">
-                                <h5 class="fw-bold text-dark mb-1" style="font-family: 'Oswald', sans-serif; font-size: 20px;">Ancy Josh</h5>
-                                <span class="text-muted small fw-semibold d-block mb-2" style="font-size: 12px; color: var(--theme-primary) !important;">
-                                    B.Com Qualified Officer
-                                </span>
-                                <p class="text-secondary small mb-3" style="line-height: 1.6; font-size: 13px;">
-                                    Handling commercial dispatch, tax invoicing, GST compliance, banking, tender billing, and client liaison for major road and rail projects.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="p-3 border-top bg-light bg-opacity-25">
-                            <a href="assets/pp_data/Page 02/Emp Details/Ancy Madam/B.ComIII.pdf" target="_blank"
-                                class="btn btn-outline-primary btn-sm rounded-pill px-3 py-2 fw-bold w-100 open-cert-modal d-flex align-items-center justify-content-center gap-2"
-                                data-doc-url="assets/pp_data/Page 02/Emp Details/Ancy Madam/B.ComIII.pdf"
-                                data-doc-title="Ancy Madam - B.Com Degree Certificate"
-                                data-doc-type="pdf">
-                                <i class="fa-solid fa-graduation-cap"></i> <span>View B.Com Degree</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </div>
 
@@ -858,6 +1095,29 @@ include_once 'partials/header.php';
     }
     .bearing-type-card:hover img {
         transform: scale(1.06);
+    }
+
+    /* Org Chart Hierarchy Styling */
+    .org-chart-tree-wrapper {
+        position: relative;
+    }
+    .org-tree-node {
+        transition: all 0.3s ease;
+    }
+    .org-tree-node:hover {
+        transform: translateY(-3px);
+    }
+    .shadow-2xs {
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+        transition: all 0.3s ease;
+    }
+    .shadow-2xs:hover {
+        border-color: var(--theme-primary) !important;
+        transform: translateY(-2px);
+        box-shadow: 0 6px 16px var(--theme-subtle);
+    }
+    .plant-workforce-section {
+        border: 1px solid rgba(255, 255, 255, 0.1) !important;
     }
 
     /* Floating bob animation */

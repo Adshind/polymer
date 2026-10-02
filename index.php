@@ -4,9 +4,9 @@ include_once 'partials/header.php';
 ?>
 
 <section class="ht-hero-area d-flex align-items-center"
-    style="background: linear-gradient(135deg, rgba(27, 18, 18, 0.68) 0%, rgba(12, 26, 44, 0.50) 50%, rgba(141, 141, 141, 0.22) 100%), url('/assets/img/img/banner/birdge-13.webp') center center / cover no-repeat; position: relative; overflow: hidden; min-height: 100vh; padding-top: 175px; padding-bottom: 75px; margin-top: -160px;">
+    style="background: linear-gradient(135deg, rgba(27, 18, 18, 0.68) 0%, rgba(12, 26, 44, 0.50) 50%, rgba(141, 141, 141, 0.22) 100%), url('assets/img/img/banner/birdge-13.webp') center center / cover no-repeat; position: relative; overflow: hidden; min-height: 100vh; padding-top: 175px; padding-bottom: 75px; margin-top: -160px;">
     <div class="ht-hero-shape" style="position: absolute; top:0; right:0; opacity:0.12;">
-        <img src="assets/img/shape/1.svg" alt="shape">
+        <img src="assets/img/img/shape/1.svg" alt="shape">
     </div>
     <div class="container-fluid px-3 px-lg-5 w-100">
         <div class="row align-items-center">
@@ -52,7 +52,7 @@ include_once 'partials/header.php';
                         style="bottom: 10px; width: 80%; height: 30px; background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.45) 50%, transparent 75%); filter: blur(10px); z-index: 1;">
                     </div>
   
-                    <img src="/assets/img/img/banner/banner-labber.png" alt="Elastomeric Bridge Bearing"
+                    <img src="assets/img/img/banner/banner-labber.png" alt="Elastomeric Bridge Bearing"
                         class="img-fluid position-relative float-hero-img"
                         style="width: 100%; max-height: 440px; object-fit: contain; z-index: 2; filter: drop-shadow(0 25px 45px rgba(0, 0, 0, 0.35)) drop-shadow(0 10px 20px rgba(0, 0, 0, 0.15)) drop-shadow(0 0 35px rgba(15, 11, 8, 0.15)); transition: transform 0.4s ease;">
                 </div>
@@ -186,7 +186,7 @@ include_once 'partials/header.php';
                     <!-- Main Image Card -->
                     <div class="position-relative overflow-hidden shadow-lg"
                         style="border-radius:24px; z-index:2; background:#fff;">
-                        <img src="/assets/img/img/banner/factory-image.webp"
+                        <img src="assets/img/img/banner/factory-image-1.webp"
                             alt="Manufacturing Plant Nashik" class="img-fluid w-100"
                             style="height:540px; object-fit:cover; border-radius:24px;">
                     </div>
@@ -429,9 +429,9 @@ include_once 'partials/header.php';
                         <p class="small text-muted mb-3">Maharashtra Pollution Control Board (MPCB) environmental
                             consent & green emission standard compliance.</p>
                     </div>
-                    <a href="/assets/pp_data/Page 01/POLYMER DETAILS/PP DETAILS/MPCB POLLUTION CERTIFICATE.pdf"
+                    <a href="assets/pp_data/Page 01/POLYMER DETAILS/PP DETAILS/MPCB POLLUTION CERTIFICATE.pdf"
                         class="btn btn-outline-primary btn-sm rounded-pill fw-bold open-cert-modal"
-                        data-doc-url="/assets/pp_data/Page 01/POLYMER DETAILS/PP DETAILS/MPCB POLLUTION CERTIFICATE.pdf"
+                        data-doc-url="assets/pp_data/Page 01/POLYMER DETAILS/PP DETAILS/MPCB POLLUTION CERTIFICATE.pdf"
                         data-doc-title="Maharashtra Pollution Control Board (MPCB) Consent"
                         data-doc-type="pdf">
                         <i class="fa-solid fa-file-shield me-1"></i> View Pollution Compliance
@@ -672,7 +672,7 @@ document.addEventListener('DOMContentLoaded', function () {
             <div class="col-lg-4 col-md-6">
                 <div class="card h-100 border shadow-sm rounded-4 overflow-hidden" style="background-color: #e0f2fe !important;">
                    <div class="position-relative p-2 " style="background-color: #e0f2fe; border-radius: 8px; overflow: hidden;">
-                        <img src="/assets/img/img/banner/banner-image.png" class="card-img-top img-fluid rounded"
+                        <img src="assets/img/img/banner/banner-image.png" class="card-img-top img-fluid rounded"
                         alt="Elastomeric Bearing" style="height:300px; object-fit:cover; width: 100%; display: block;">
                         <span class="badge position-absolute top-0 end-0 m-3" style="background-color: #0284c7; color: #ffffff;">IRC:83 (Part II)</span>
                     </div>
@@ -695,7 +695,7 @@ document.addEventListener('DOMContentLoaded', function () {
             <div class="col-lg-4 col-md-6">
                 <div class="card h-100 border shadow-sm rounded-4 overflow-hidden" style="background-color: #e0f2fe !important;">
                     <div class="position-relative">
-                        <img src="/assets/img/img/banner/birdge-5.webp" class="card-img-top" alt="Seismic Pad"
+                        <img src="assets/img/img/banner/birdge-5.webp" class="card-img-top" alt="Seismic Pad"
                             style="height:300px; object-fit:cover;">
                         <span class="badge bg-warning text-dark position-absolute top-0 end-0 m-3">Seismic
                             Damping</span>
@@ -719,7 +719,7 @@ document.addEventListener('DOMContentLoaded', function () {
             <div class="col-lg-4 col-md-6">
                 <div class="card h-100 border shadow-sm rounded-4 overflow-hidden" style="background-color: #e0f2fe !important;">
                     <div class="position-relative">
-                        <img src="/assets/img/img/banner/Elastomeric-Bridge.png" class="card-img-top"
+                        <img src="assets/img/img/banner/Elastomeric-Bridge.png" class="card-img-top"
                             alt="PTFE Sliding Bearing" style="height:300px; object-fit:cover;">
                         <span class="badge bg-info text-white position-absolute top-0 end-0 m-3">Low Friction
                             PTFE</span>
@@ -745,7 +745,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 <!-- Manufacturing Process Banner -->
 <section class="py-5 text-white position-relative"
-    style="background: linear-gradient(135deg, rgba(8, 20, 38, 0.92) 0%, rgba(10, 25, 47, 0.74) 40%, rgba(5, 12, 24, 0.81) 100%), url('/assets/img/img/banner/birdge-10.webp') center center / cover no-repeat; padding: 85px 0;">
+    style="background: linear-gradient(135deg, rgba(8, 20, 38, 0.92) 0%, rgba(10, 25, 47, 0.74) 40%, rgba(5, 12, 24, 0.81) 100%), url('assets/img/img/banner/birdge-10.webp') center center / cover no-repeat; padding: 85px 0;">
     <div class="container-fluid px-3 px-lg-5 py-3">
         <div class="text-center mb-5">
             <span class="d-inline-block text-uppercase fw-bold mb-2"
@@ -900,7 +900,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 <div class="card h-100 border-0 rounded-4 shadow-sm overflow-hidden bg-white sector-card position-relative"
                     style="transition: all 0.35s ease;">
                     <div class="position-relative overflow-hidden" style="height: 230px;">
-                        <img src="/assets/img/img/banner/image-1.png" class="card-img-top w-100 h-100 sector-img"
+                        <img src="assets/img/img/banner/image-1.png" class="card-img-top w-100 h-100 sector-img"
                             alt="Indian Railways & ROBs" style="object-fit: cover; transition: transform 0.5s ease;">
                         <span
                             class="badge bg-primary position-absolute top-0 end-0 m-3 px-3 py-2 rounded-pill fw-bold shadow">
@@ -931,7 +931,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 <div class="card h-100 border-0 rounded-4 shadow-sm overflow-hidden bg-white sector-card position-relative"
                     style="transition: all 0.35s ease;">
                     <div class="position-relative overflow-hidden" style="height: 230px;">
-                        <img src="/assets/img/img/banner/Monorailmumbai.webp" class="card-img-top w-100 h-100 sector-img"
+                        <img src="assets/img/img/banner/Monorailmumbai.webp" class="card-img-top w-100 h-100 sector-img"
                             alt="Metro Rail Transit Systems"
                             style="object-fit: cover; transition: transform 0.5s ease;">
                         <span

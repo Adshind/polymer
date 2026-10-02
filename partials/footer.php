@@ -15,7 +15,7 @@
             <div class="d-flex align-items-center">
                 <div class="footer-logo-wrap me-3 p-2 bg-white rounded-3 shadow-sm d-flex align-items-center justify-content-center"
                     style="min-width: 50px;">
-                    <img src="assets/img/img/banner/polymer-logo-2.png" alt="Polymer Products"
+                    <img src="assets/img/img/banner/polymer-logo-4.png" alt="Polymer Products"
                         style="height: 50px; width: auto; object-fit: contain;">
                 </div>
                 <div>

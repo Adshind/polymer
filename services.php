@@ -7,7 +7,7 @@ include_once 'partials/header.php';
      1. Modern Hero & Breadcrumb Banner
      ============================================================ -->
 <section class="ht-services-hero position-relative d-flex align-items-center"
-    style="background: linear-gradient(135deg, rgba(9, 20, 36, 0.88) 0%, rgba(14, 34, 61, 0.72) 50%, rgba(6, 13, 24, 0.78) 100%), url('/assets/img/img/banner/birdge-13.webp') center center / cover no-repeat; padding-top: 175px; padding-bottom: 75px; margin-top: -160px; min-height: 460px;">
+    style="background: linear-gradient(135deg, rgba(9, 20, 36, 0.88) 0%, rgba(14, 34, 61, 0.72) 50%, rgba(6, 13, 24, 0.78) 100%), url('assets/img/img/banner/birdge-13.webp') center center / cover no-repeat; padding-top: 175px; padding-bottom: 75px; margin-top: -160px; min-height: 460px;">
     
     <div class="container-fluid px-3 px-lg-5 position-relative" style="z-index: 2;">
         <div class="row align-items-center">
@@ -131,7 +131,7 @@ include_once 'partials/header.php';
                 <div class="col-lg-6 p-4 p-lg-5">
                     <div class="product-img-wrapper position-relative rounded-4 overflow-hidden border shadow-sm"
                         style="background: #e0f2fe; padding: 12px;">
-                        <img src="/assets/img/img/banner/banner-image.png" alt="Laminated Elastomeric Bearing"
+                        <img src="assets/img/img/banner/banner-image.png" alt="Laminated Elastomeric Bearing"
                             class="img-fluid rounded-3 w-100 product-img-zoom"
                             style="height: 380px; object-fit: contain; background: #ffffff;">
                     </div>
@@ -214,7 +214,7 @@ include_once 'partials/header.php';
                 <div class="col-lg-6 p-4 p-lg-5">
                     <div class="product-img-wrapper position-relative rounded-4 overflow-hidden border shadow-sm"
                         style="background: #e0f2fe; padding: 12px;">
-                        <img src="/assets/img/img/banner/birdge-5.webp" alt="Seismic Isolation Pad"
+                        <img src="assets/img/img/banner/birdge-5.webp" alt="Seismic Isolation Pad"
                             class="img-fluid rounded-3 w-100 product-img-zoom"
                             style="height: 380px; object-fit: cover;">
                     </div>
@@ -297,7 +297,7 @@ include_once 'partials/header.php';
                 <div class="col-lg-6 p-4 p-lg-5">
                     <div class="product-img-wrapper position-relative rounded-4 overflow-hidden border shadow-sm"
                         style="background: #e0f2fe; padding: 12px;">
-                        <img src="/assets/img/img/banner/Elastomeric-Bridge.png" alt="PTFE Sliding Bearing"
+                        <img src="assets/img/img/banner/Elastomeric-Bridge.png" alt="PTFE Sliding Bearing"
                             class="img-fluid rounded-3 w-100 product-img-zoom"
                             style="height: 380px; object-fit: cover; background: #ffffff;">
                     </div>
@@ -312,7 +312,7 @@ include_once 'partials/header.php';
      3. Call to Action Banner
      ============================================================ -->
 <section class="py-5 text-white position-relative"
-    style="background: linear-gradient(135deg, rgba(8, 20, 38, 0.94) 0%, rgba(10, 25, 47, 0.82) 50%, rgba(5, 12, 24, 0.92) 100%), url('/assets/img/img/banner/birdge-10.webp') center center / cover no-repeat; padding: 75px 0;">
+    style="background: linear-gradient(135deg, rgba(8, 20, 38, 0.94) 0%, rgba(10, 25, 47, 0.82) 50%, rgba(5, 12, 24, 0.92) 100%), url('assets/img/img/banner/birdge-10.webp') center center / cover no-repeat; padding: 75px 0;">
     <div class="container-fluid px-3 px-lg-5 py-3 text-center">
         <span class="badge px-3 py-2 mb-3 rounded-pill text-uppercase fw-bold"
             style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 12px; letter-spacing: 1.5px;">
