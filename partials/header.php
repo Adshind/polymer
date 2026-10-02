@@ -178,11 +178,11 @@ $current_page = basename($_SERVER['PHP_SELF']);
                         </a>
 
                         <!-- Mobile Hamburger Toggle -->
-                        <button class="ht-menu-btn d-xl-none offcanvas-toggle btn border-0 p-2 d-flex align-items-center justify-content-center"
+                        <!-- <button class="ht-menu-btn d-xl-none offcanvas-toggle btn border-0 p-2 d-flex align-items-center justify-content-center"
                             style="width: 42px; height: 42px; border-radius: 10px; background: var(--theme-subtle); color: var(--theme-primary);"
                             aria-label="Toggle Navigation Menu">
                             <i class="fa-solid fa-bars-staggered fa-lg"></i>
-                        </button>
+                        </button> -->
                     </div>
                 </div>
             </div>
