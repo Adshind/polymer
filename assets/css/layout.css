@@ -577,3 +577,14 @@ span,
     margin-top: 6px;
     border-radius: 2px;
 }
+
+/* Modal and Page Scroll Safety */
+body.modal-open {
+    overflow: hidden !important;
+}
+
+body:not(.modal-open):not(.ht-offcanvas-open) {
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+    padding-right: 0 !important;
+}

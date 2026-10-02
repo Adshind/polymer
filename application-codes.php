@@ -526,9 +526,32 @@ document.addEventListener('DOMContentLoaded', function () {
     const modalImage = document.getElementById('certModalImage');
     const modalLoader = document.getElementById('certModalLoader');
 
-    let bsModal = null;
-    if (typeof bootstrap !== 'undefined' && bootstrap.Modal) {
-        bsModal = new bootstrap.Modal(certModalEl);
+    function getModalInstance() {
+        if (typeof bootstrap !== 'undefined' && bootstrap.Modal) {
+            return bootstrap.Modal.getOrCreateInstance(certModalEl);
+        }
+        return null;
+    }
+
+    function unlockPageScroll() {
+        modalIframe.src = '';
+        modalImage.src = '';
+        modalLoader.style.display = 'none';
+        modalIframe.style.display = 'none';
+        modalImgWrap.style.display = 'none';
+
+        // Forcibly clear body & html lock styles
+        document.body.classList.remove('modal-open');
+        document.body.style.removeProperty('overflow');
+        document.body.style.removeProperty('overflow-y');
+        document.body.style.removeProperty('padding-right');
+        document.documentElement.style.removeProperty('overflow');
+        document.documentElement.style.removeProperty('overflow-y');
+
+        // Remove any orphaned backdrops
+        document.querySelectorAll('.modal-backdrop').forEach(function (backdrop) {
+            backdrop.remove();
+        });
     }
 
     document.querySelectorAll('.open-cert-modal').forEach(function (btn) {
@@ -542,7 +565,6 @@ document.addEventListener('DOMContentLoaded', function () {
             if (!url) return;
 
             modalTitle.textContent = title;
-
             modalLoader.style.display = 'block';
             modalIframe.style.display = 'none';
             modalImgWrap.style.display = 'none';
@@ -577,6 +599,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 }, 600);
             }
 
+            const bsModal = getModalInstance();
             if (bsModal) {
                 bsModal.show();
             } else if (typeof $ !== 'undefined') {
@@ -585,10 +608,22 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
-    certModalEl.addEventListener('hidden.bs.modal', function () {
-        modalIframe.src = '';
-        modalImage.src = '';
-        modalLoader.style.display = 'none';
+    // Close buttons directly
+    certModalEl.querySelectorAll('[data-bs-dismiss="modal"], [data-dismiss="modal"], .btn-close').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+            const bsModal = getModalInstance();
+            if (bsModal) {
+                bsModal.hide();
+            } else if (typeof $ !== 'undefined') {
+                $(certModalEl).modal('hide');
+            }
+            setTimeout(unlockPageScroll, 100);
+        });
+    });
+
+    certModalEl.addEventListener('hidden.bs.modal', unlockPageScroll);
+    certModalEl.addEventListener('hide.bs.modal', function () {
+        setTimeout(unlockPageScroll, 150);
     });
 });
 </script>
