@@ -117,26 +117,7 @@ include_once 'partials/header.php';
                 </div>
             </div>
 
-            <div class="col-lg-4 mt-4 mt-lg-0 text-lg-end d-none d-lg-block wow fadeInRight" data-wow-delay=".3s">
-                <div class="p-4 rounded-4 text-start text-white shadow-lg border"
-                    style="background: rgba(255, 255, 255, 0.06); border-color: rgba(255, 255, 255, 0.15) !important; backdrop-filter: blur(12px);">
-                    <div class="d-flex align-items-center mb-3">
-                        <div class="p-2 rounded-circle me-3 d-flex align-items-center justify-content-center"
-                            style="width: 44px; height: 44px; background: var(--theme-primary); color: #fff;">
-                            <i class="fa-solid fa-clipboard-check"></i>
-                        </div>
-                        <div>
-                            <span class="small text-white-50 d-block" style="font-size: 12px;">Installation Standard</span>
-                            <h6 class="fw-bold text-white mb-0" style="font-size: 15px;">IRC:83 (Part II)</h6>
-                        </div>
-                    </div>
-                    <ul class="list-unstyled small text-light mb-0" style="line-height:1.8; color:#cbd5e1 !important;">
-                        <li><i class="fa-solid fa-check text-success me-2"></i>Flat Wooden Pallet Stacking</li>
-                        <li><i class="fa-solid fa-check text-success me-2"></i>Fabric Webbing Slings Only</li>
-                        <li><i class="fa-solid fa-check text-success me-2"></i>High-Strength Epoxy Bedding</li>
-                    </ul>
-                </div>
-            </div>
+        
         </div>
     </div>
 </section>
