@@ -54,9 +54,9 @@
                             Permanent Account Number statutory tax registration issued by Income Tax Department, Government of India.
                         </p>
                     </div>
-                    <a href="assets/pp_data/Page 01/POLYMER DETAILS/PP DETAILS/MPP NEW PAN.pdf"
+                    <a href="/assets/pp_data/Page 01/POLYMER DETAILS/pan-card.pdf"
                         class="btn btn-outline-primary btn-sm rounded-pill fw-bold open-cert-modal d-inline-flex align-items-center justify-content-center gap-1.5"
-                        data-doc-url="assets/pp_data/Page 01/POLYMER DETAILS/PP DETAILS/MPP NEW PAN.pdf"
+                        data-doc-url="/assets/pp_data/Page 01/POLYMER DETAILS/pan-card.pdf"
                         data-doc-title="PAN &amp; Statutory Tax Registration Record"
                         data-doc-type="pdf">
                         <i class="fa-solid fa-file-shield"></i> <span>Verified PAN Record</span>
@@ -155,11 +155,11 @@
                             International Quality Management System certification for manufacturing elastomeric bridge bearings &amp; seismic pads.
                         </p>
                     </div>
-                    <a href="assets/pp_data/Page 01/POLYMER DETAILS/ISO CERTIFICATE 2027.png"
+                    <a href="/assets/pp_data/Page 01/POLYMER DETAILS/iso-certificate.pdf"
                         class="btn btn-outline-primary btn-sm rounded-pill fw-bold open-cert-modal d-inline-flex align-items-center justify-content-center gap-1.5"
-                        data-doc-url="assets/pp_data/Page 01/POLYMER DETAILS/ISO CERTIFICATE 2027.png"
+                        data-doc-url="/assets/pp_data/Page 01/POLYMER DETAILS/iso-certificate.pdf"
                         data-doc-title="ISO 9001:2027 Quality Management Certification"
-                        data-doc-type="image">
+                        data-doc-type="pdf">
                         <i class="fa-solid fa-image"></i> <span>View ISO Certificate</span>
                     </a>
                 </div>

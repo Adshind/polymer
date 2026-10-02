@@ -5,9 +5,9 @@ include_once 'partials/header.php';
 
 <section class="ht-hero-area d-flex align-items-center"
     style="background: linear-gradient(135deg, rgba(27, 18, 18, 0.68) 0%, rgba(12, 26, 44, 0.50) 50%, rgba(141, 141, 141, 0.22) 100%), url('assets/img/img/banner/birdge-13.webp') center center / cover no-repeat; position: relative; overflow: hidden; min-height: 100vh; padding-top: 175px; padding-bottom: 75px; margin-top: -160px;">
-    <div class="ht-hero-shape" style="position: absolute; top:0; right:0; opacity:0.12;">
+    <!-- <div class="ht-hero-shape" style="position: absolute; top:0; right:0; opacity:0.12;">
         <img src="assets/img/img/shape/1.svg" alt="shape">
-    </div>
+    </div> -->
     <div class="container-fluid px-3 px-lg-5 w-100">
         <div class="row align-items-center">
             <div class="col-lg-7">
@@ -188,7 +188,7 @@ include_once 'partials/header.php';
                     <!-- Main Image Card -->
                     <div class="position-relative overflow-hidden shadow-lg"
                         style="border-radius:24px; z-index:2; background:#fff;">
-                        <img src="assets/img/img/banner/factory-image-1.webp"
+                        <img src="assets/img/img/banner/dron-shoot.webp"
                             alt="Manufacturing Plant Nashik" class="img-fluid w-100"
                             style="height:540px; object-fit:cover; border-radius:24px;">
                     </div>
@@ -304,7 +304,7 @@ include_once 'partials/header.php';
 <?php include_once 'partials/certifications.php'; ?>
 
 <!-- Proposed Bearing Types Section -->
-<section class="py-5" style="background:#fff;">
+<!-- <section class="py-5" style="background:#fff;">
     <div class="container-fluid px-3 px-lg-5 py-4">
         <div class="section-title text-center mb-5">
             <span class="badge bg-primary text-white px-3 py-2 mb-2 text-uppercase fw-bold">Core Products</span>
@@ -386,7 +386,7 @@ include_once 'partials/header.php';
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- Manufacturing Process Banner -->
 <section class="py-5 text-white position-relative"
@@ -672,11 +672,11 @@ include_once 'partials/header.php';
                             <!-- Review Slide 1: Dhruv Ozal (Rajkamal Builders) -->
                             <div class="swiper-slide">
                                 <div class="review-stars mb-3 text-warning">
+                                    <!-- <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i> -->
                                 </div>
                                 <blockquote class="blockquote mb-4">
                                     <p class="mb-0 fw-semibold text-dark" style="font-size: 17px; line-height: 1.8;">
@@ -700,11 +700,11 @@ include_once 'partials/header.php';
                             <!-- Review Slide 2: Neeraj Sansiya (MPRRDA) -->
                             <div class="swiper-slide">
                                 <div class="review-stars mb-3 text-warning">
+                                    <!-- <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i> -->
                                 </div>
                                 <blockquote class="blockquote mb-4">
                                     <p class="mb-0 fw-semibold text-dark" style="font-size: 17px; line-height: 1.8;">
@@ -728,11 +728,11 @@ include_once 'partials/header.php';
                             <!-- Review Slide 3: Abhishek Singh (Unique Construction) -->
                             <div class="swiper-slide">
                                 <div class="review-stars mb-3 text-warning">
+                                    <!-- <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i> -->
                                 </div>
                                 <blockquote class="blockquote mb-4">
                                     <p class="mb-0 fw-semibold text-dark" style="font-size: 17px; line-height: 1.8;">
@@ -756,11 +756,11 @@ include_once 'partials/header.php';
                             <!-- Review Slide 4: Praveen Vasant Kadam (Mahad Municipal Council) -->
                             <div class="swiper-slide">
                                 <div class="review-stars mb-3 text-warning">
+                                    <!-- <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i> -->
                                 </div>
                                 <blockquote class="blockquote mb-4">
                                     <p class="mb-0 fw-semibold text-dark" style="font-size: 17px; line-height: 1.8;">
@@ -784,11 +784,11 @@ include_once 'partials/header.php';
                             <!-- Review Slide 5: Er. Khalid Raza (Vishal Construction) -->
                             <div class="swiper-slide">
                                 <div class="review-stars mb-3 text-warning">
+                                    <!-- <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i> -->
                                 </div>
                                 <blockquote class="blockquote mb-4">
                                     <p class="mb-0 fw-semibold text-dark" style="font-size: 17px; line-height: 1.8;">
