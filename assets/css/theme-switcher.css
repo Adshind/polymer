@@ -511,3 +511,28 @@ section[style*="color:#fff"][style*="py-5"] .btn-light {
   background: #e2e8f0;
   color: #0f172a;
 }
+
+/* ============================================================
+   Universal High-Contrast Accordion & FAQ Support
+   ============================================================ */
+.accordion .accordion-button:not(.collapsed) {
+  background: linear-gradient(135deg, #091a33 0%, #152e52 100%) !important;
+  color: #ffffff !important;
+  box-shadow: none !important;
+}
+
+.accordion .accordion-button:not(.collapsed)::after {
+  color: var(--theme-light) !important;
+  filter: brightness(0) invert(1) !important;
+}
+
+.accordion .accordion-button.collapsed {
+  background: #f8fafc !important;
+  color: #0f172a !important;
+}
+
+.accordion .accordion-button.collapsed:hover {
+  background: #f1f5f9 !important;
+  color: var(--theme-primary) !important;
+}
+

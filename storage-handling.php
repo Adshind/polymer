@@ -235,40 +235,40 @@ include_once 'partials/header.php';
                     Follow IRC:83 (Part II) recommended practices for bridge seat preparation and bearing positioning:
                 </p>
                 <div class="accordion" id="installAccordion">
-                    <div class="accordion-item border rounded-3 mb-2 shadow-sm">
+                    <div class="accordion-item shadow-sm">
                         <h2 class="accordion-header" id="headingOne">
-                            <button class="accordion-button fw-bold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
-                                1. Pedestal Levelling &amp; Bedding Mortar
+                            <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                                <span class="acc-num me-2"><i class="fa-solid fa-layer-group me-1"></i> 1.</span> Pedestal Levelling &amp; Bedding Mortar
                             </button>
                         </h2>
                         <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#installAccordion">
-                            <div class="accordion-body small text-muted" style="line-height:1.7;">
+                            <div class="accordion-body">
                                 The concrete pedestal top must be perfectly horizontal, cured, and cleaned. Apply a 5mm to 10mm high-strength epoxy or non-shrink cementitious mortar bed ensuring 100% full contact surface without voids.
                             </div>
                         </div>
                     </div>
 
-                    <div class="accordion-item border rounded-3 mb-2 shadow-sm">
+                    <div class="accordion-item shadow-sm">
                         <h2 class="accordion-header" id="headingTwo">
-                            <button class="accordion-button collapsed fw-bold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
-                                2. Alignment &amp; Axis Orientation
+                            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                                <span class="acc-num me-2"><i class="fa-solid fa-compass-drafting me-1"></i> 2.</span> Alignment &amp; Axis Orientation
                             </button>
                         </h2>
                         <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#installAccordion">
-                            <div class="accordion-body small text-muted" style="line-height:1.7;">
+                            <div class="accordion-body">
                                 Align the bearing centerlines accurately with the pier axis and girder longitudinal axis. Check tilt tolerances (&le; 0.2% slope deviation).
                             </div>
                         </div>
                     </div>
 
-                    <div class="accordion-item border rounded-3 shadow-sm">
+                    <div class="accordion-item shadow-sm">
                         <h2 class="accordion-header" id="headingThree">
-                            <button class="accordion-button collapsed fw-bold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
-                                3. Girder Lowering &amp; Jacking Precautions
+                            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                                <span class="acc-num me-2"><i class="fa-solid fa-arrows-down-to-line me-1"></i> 3.</span> Girder Lowering &amp; Jacking Precautions
                             </button>
                         </h2>
                         <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#installAccordion">
-                            <div class="accordion-body small text-muted" style="line-height:1.7;">
+                            <div class="accordion-body">
                                 Lower precast girders uniformly and smoothly using synchronized jacks to prevent eccentric edge pinch loading. Verify uniform initial seating deflection.
                             </div>
                         </div>
