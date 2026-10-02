@@ -239,7 +239,12 @@ include_once 'partials/header.php';
 </section>
 
 <!-- ============================================================
-     4. Official Organization Chart & Leadership Structure
+     4. Statutory & Quality Approvals Sequence
+     ============================================================ -->
+<?php include_once 'partials/certifications.php'; ?>
+
+<!-- ============================================================
+     5. Official Organization Chart & Leadership Structure
      ============================================================ -->
 <section class="py-5 position-relative" id="organization-chart" style="background: #ffffff;">
     <div class="container-fluid px-3 px-lg-5 py-4">

@@ -23,6 +23,11 @@ $current_page = basename($_SERVER['PHP_SELF']);
     <meta name="description" content="<?php echo htmlspecialchars($meta_description); ?>">
     <title><?php echo htmlspecialchars($page_title); ?></title>
     
+    <!-- Google Fonts: Saira, Saira Semi Condensed & Oswald -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Saira+Semi+Condensed:wght@400;500;600;700&family=Saira:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
     <!-- Favicon img -->
     <link rel="shortcut icon" href="assets/img/img/banner/favicon.ico">
     <!-- bootstrap -->
@@ -67,15 +72,15 @@ $current_page = basename($_SERVER['PHP_SELF']);
         <!-- ht-top-header area start -->
         <div class="ht-top-header"
             style="background:var(--theme-primary); border-bottom:1px solid rgba(255,255,255,0.15); padding:8px 0;">
-            <div class="container-fluid px-3 px-lg-5">
+            <div class="container-fluid px-3 ">
                 <div class="row align-items-center g-2">
                     <div class="col-lg-6 col-md-6 text-center text-md-start">
-                        <p class="mb-0 text-white small" style="font-size:13px;">
+                        <p class="mb-0 text-white small" style="font-size:13px; font-family:'Saira-Medium', sans-serif;">
                             <i class="fa-solid fa-location-dot text-white me-2"></i>Nashik Manufacturing Facility, Maharashtra, India
                         </p>
                     </div>
                     <div class="col-lg-6 col-md-6 text-center text-md-end">
-                        <ul class="right list-inline mb-0 small" style="font-size:13px;">
+                        <ul class="right list-inline mb-0 small" style="font-size:13px; font-family:'Saira-Medium', sans-serif;">
                             <li class="list-inline-item me-3">
                                 <i class="fa-solid fa-phone text-white me-1"></i>
                                 <a href="tel:8975766459" class="text-white text-decoration-none fw-semibold">+91 8975766459</a>
@@ -93,11 +98,11 @@ $current_page = basename($_SERVER['PHP_SELF']);
 
         <!-- ht-main-header area start -->
         <div class="ht-main-header header-1" id="header-sticky">
-            <div class="container-fluid px-3 px-lg-5">
+            <div class="container-fluid px-3 ">
                 <div class="ht-menu-wrapper d-flex align-items-center justify-content-between py-2">
                     <!-- Brand Logo -->
                     <div class="ht-menu-left d-flex align-items-center">
-                        <div class="ht-menu-logo me-3 me-xl-4 me-xxl-5">
+                        <div class="ht-menu-logo   me-xxl-5">
                             <a href="index.php" class="d-flex align-items-center text-decoration-none logo-anim">
                                 <img src="assets/img/img/banner/polymer-logo-3.png" alt="Polymer Products"
                                     class="header-logo-img"
@@ -118,9 +123,9 @@ $current_page = basename($_SERVER['PHP_SELF']);
                                         </a>
                                         <ul class="sub-menu">
                                             <li><a href="about.php">Company Overview</a></li>
-                                            <li><a href="index.php#certifications">Statutory & Quality Approvals</a></li>
-                                            <li><a href="about.php#sister-concern">Sister Concern (Dynamic Prestress)</a></li>
-                                            <li><a href="about.php#our-team">Our Technical Team</a></li>
+                                            <li><a href="certifications.php">Statutory & Quality Approvals</a></li>
+                                             
+                                            <li><a href="team.php">Our Technical Team</a></li>
                                             <li><a href="about.php#bearing-types">Bearing Types & Applications</a></li>
                                         </ul>
                                     </li>
@@ -178,11 +183,11 @@ $current_page = basename($_SERVER['PHP_SELF']);
                         </a>
 
                         <!-- Mobile Hamburger Toggle -->
-                        <!-- <button class="ht-menu-btn d-xl-none offcanvas-toggle btn border-0 p-2 d-flex align-items-center justify-content-center"
+                        <button class="ht-menu-btn d-xl-none offcanvas-toggle btn border-0 p-2 d-flex align-items-center justify-content-center"
                             style="width: 42px; height: 42px; border-radius: 10px; background: var(--theme-subtle); color: var(--theme-primary);"
                             aria-label="Toggle Navigation Menu">
                             <i class="fa-solid fa-bars-staggered fa-lg"></i>
-                        </button> -->
+                        </button>
                     </div>
                 </div>
             </div>
@@ -213,10 +218,10 @@ $current_page = basename($_SERVER['PHP_SELF']);
                             <a href="about.php">About Us</a>
                             <ul class="sub-menu">
                                 <li><a href="about.php">Company Overview</a></li>
-                                <li><a href="index.php#certifications">Statutory & Quality Approvals</a></li>
+                                <li><a href="certifications.php">Statutory &amp; Quality Approvals</a></li>
                                 <li><a href="about.php#sister-concern">Sister Concern (Dynamic Prestress)</a></li>
-                                <li><a href="about.php#our-team">Our Technical Team</a></li>
-                                <li><a href="about.php#bearing-types">Bearing Types & Applications</a></li>
+                                <li><a href="team.php">Our Technical Team</a></li>
+                                <li><a href="about.php#bearing-types">Bearing Types &amp; Applications</a></li>
                             </ul>
                         </li>
                         <li class="has-dropdown">

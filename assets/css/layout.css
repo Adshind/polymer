@@ -67,7 +67,7 @@
 .ht-header-area .ht-main-header .ht-menu-main ul li {
     position: relative;
     display: inline-block;
-    margin-right: 22px;
+    margin-right: 12px;
 }
 
 .ht-header-area .ht-main-header .ht-menu-main ul li>a.nav-link-item {
@@ -229,11 +229,51 @@
 }
 
 /* ============================================================
-   Mobile & Tablet Responsive Header Styles
+   Global Typography: Saira-Medium Across Headings, Spans & Navigation
+   ============================================================ */
+body,
+p,
+a,
+button,
+input,
+select,
+textarea {
+    font-family: 'Saira-Medium', 'Saira', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.section-title h2,
+.section-title h3,
+.section-title h4,
+.ht-offcanvas__title,
+.footer-title,
+.nav-link-item,
+.sub-menu li a,
+.mobile-nav ul li a,
+span,
+.badge,
+.btn,
+.btn-text {
+    font-family: 'Saira-Medium', 'Saira', sans-serif !important;
+}
+
+/* ============================================================
+   Mobile & Tablet Responsive Header & Hero Styles
    ============================================================ */
 @media (max-width: 1199.98px) {
     .ht-main-header .ht-menu-wrapper {
-        padding: 8px 0 !important;
+        padding: 6px 0 !important;
     }
 
     .header-logo-img {
@@ -251,13 +291,83 @@
     }
 }
 
+@media (max-width: 991.98px) {
+    .ht-header-area.header-1 {
+        position: relative !important;
+        background: #ffffff !important;
+    }
+
+    .ht-header-area.header-1 .ht-main-header {
+        background: #ffffff !important;
+    }
+
+    .ht-header-area.header-1 .ht-main-header .ht-menu-wrapper {
+        margin: 4px 0 !important;
+        padding: 6px 12px !important;
+        border-radius: 0 !important;
+        box-shadow: none !important;
+        background: transparent !important;
+    }
+
+    .header-logo-img {
+        height: 44px !important;
+        width: auto !important;
+        max-height: 44px !important;
+    }
+
+    /* Neutralize desktop negative margin on mobile so hero is never cut off or misaligned */
+    .ht-about-hero,
+    .ht-services-hero,
+    .hero-section,
+    .ht-breadcrumb-area {
+        margin-top: 0 !important;
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
+        min-height: auto !important;
+    }
+
+    .ht-about-hero h1,
+    .ht-services-hero h1,
+    .hero-section h1 {
+        font-size: 28px !important;
+        line-height: 1.25 !important;
+    }
+}
+
 @media (max-width: 767.98px) {
     .header-logo-img {
-        height: 42px !important;
+        height: 40px !important;
     }
 
     .ht-top-header {
         padding: 6px 0 !important;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .ht-top-header {
+        padding: 4px 0 !important;
+    }
+
+    .ht-top-header p,
+    .ht-top-header ul {
+        font-size: 11.5px !important;
+    }
+
+    .header-logo-img {
+        height: 36px !important;
+        max-height: 36px !important;
+    }
+
+    .ht-about-hero,
+    .ht-services-hero {
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+    }
+
+    .ht-about-hero h1,
+    .ht-services-hero h1 {
+        font-size: 24px !important;
     }
 }
 
