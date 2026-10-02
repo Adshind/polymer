@@ -199,12 +199,22 @@
     width: 100% !important;
 }
 
-.header-contact-btn .btn-text,
-.header-contact-btn .btn-icon {
+.header-contact-btn .btn-text {
     font-family: 'Saira-Medium', sans-serif !important;
     color: #ffffff !important;
     position: relative;
     z-index: 2;
+    transition: transform 0.3s ease-in-out !important;
+}
+
+.header-contact-btn .btn-icon,
+.header-contact-btn i {
+    font-family: "Font Awesome 6 Free", "FontAwesome" !important;
+    font-weight: 900 !important;
+    color: #ffffff !important;
+    position: relative;
+    z-index: 2;
+    display: inline-block !important;
     transition: transform 0.3s ease-in-out !important;
 }
 
@@ -214,8 +224,9 @@
     box-shadow: 0 6px 20px var(--theme-glow) !important;
 }
 
-.header-contact-btn:hover .btn-icon {
-    transform: translateX(3px) !important;
+.header-contact-btn:hover .btn-icon,
+.header-contact-btn:hover i {
+    transform: translateX(4px) !important;
     color: #ffffff !important;
 }
 
