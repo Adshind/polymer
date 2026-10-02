@@ -938,52 +938,7 @@ include_once 'partials/header.php';
     </div>
 </section>
 
-<!-- ============================================================
-     6. Certificate & Document Viewer Modal Popup
-     ============================================================ -->
-<div class="modal fade" id="certificateModal" tabindex="-1" aria-labelledby="certificateModalLabel" aria-hidden="true" style="z-index: 10500;">
-    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
-        <div class="modal-content border-0 shadow-lg rounded-4 overflow-hidden">
-            <div class="modal-header text-white px-4 py-3" style="background: var(--theme-primary);">
-                <div class="d-flex align-items-center">
-                    <div class="modal-icon-wrap me-3 p-2 bg-white bg-opacity-25 rounded-circle d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">
-                        <i id="certModalIcon" class="fa-solid fa-file-pdf text-white fs-5"></i>
-                    </div>
-                    <div>
-                        <h5 class="modal-title fw-bold text-white mb-0" id="certificateModalLabel">Document Viewer</h5>
-                        <small id="certModalSub" class="text-white-50" style="font-size: 12px;">Verified Statutory &amp; Engineering Credential</small>
-                    </div>
-                </div>
-                <div class="d-flex align-items-center gap-2">
-                    <button type="button" class="btn-close btn-close-white ms-2" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-            </div>
 
-            <div class="modal-body p-0 position-relative" style="background: #0f172a; min-height: 520px;">
-                <div id="certModalLoader" class="position-absolute top-50 start-50 translate-middle text-center py-5">
-                    <div class="spinner-border text-primary mb-2" role="status" style="width: 3rem; height: 3rem;">
-                        <span class="visually-hidden">Loading...</span>
-                    </div>
-                    <p class="text-white-50 small mb-0">Loading document preview...</p>
-                </div>
-
-                <iframe id="certModalIframe" src="" style="width: 100%; height: 75vh; border: none; display: none; background: #fff;" allowfullscreen></iframe>
-
-                <!-- Image Preview (Centrally aligned & fully visible) -->
-                <div id="certModalImgWrap" class="p-2 p-md-3" style="display: none; height: 75vh; min-height: 520px; overflow-y: auto; background: #0f172a; align-items: center; justify-content: center;">
-                    <img id="certModalImage" src="" alt="Certificate Image" style="max-height: 72vh; max-width: 95%; width: auto; height: auto; object-fit: contain; box-shadow: 0 10px 30px rgba(0,0,0,0.5); border-radius: 8px; background: #fff; margin: auto; display: block;">
-                </div>
-            </div>
-
-            <div class="modal-footer bg-white px-4 py-3 border-top d-flex justify-content-between align-items-center">
-                <span class="text-muted small">
-                    <i class="fa-solid fa-shield-check text-success me-1"></i> Official Certified Document &bull; Polymer Products
-                </span>
-                <button type="button" class="btn btn-dark btn-sm rounded-pill px-4 fw-bold" data-bs-dismiss="modal">Close</button>
-            </div>
-        </div>
-    </div>
-</div>
 
 <!-- ============================================================
      Styles & Animation Micro-Interactions
@@ -1135,84 +1090,6 @@ include_once 'partials/header.php';
     }
 </style>
 
-<script>
-document.addEventListener('DOMContentLoaded', function () {
-    const certModalEl = document.getElementById('certificateModal');
-    if (!certModalEl) return;
 
-    const modalTitle = document.getElementById('certificateModalLabel');
-    const modalIcon = document.getElementById('certModalIcon');
-    const modalIframe = document.getElementById('certModalIframe');
-    const modalImgWrap = document.getElementById('certModalImgWrap');
-    const modalImage = document.getElementById('certModalImage');
-    const modalLoader = document.getElementById('certModalLoader');
-
-    let bsModal = null;
-    if (typeof bootstrap !== 'undefined' && bootstrap.Modal) {
-        bsModal = new bootstrap.Modal(certModalEl);
-    }
-
-    document.querySelectorAll('.open-cert-modal').forEach(function (btn) {
-        btn.addEventListener('click', function (e) {
-            e.preventDefault();
-
-            const url = this.getAttribute('data-doc-url') || this.getAttribute('href');
-            const title = this.getAttribute('data-doc-title') || 'Certificate & Approval Document';
-            const type = this.getAttribute('data-doc-type') || (url.toLowerCase().match(/\.(png|jpg|jpeg|webp)$/) ? 'image' : 'pdf');
-
-            if (!url) return;
-
-            modalTitle.textContent = title;
-
-            modalLoader.style.display = 'block';
-            modalIframe.style.display = 'none';
-            modalImgWrap.style.display = 'none';
-            modalIframe.src = '';
-            modalImage.src = '';
-
-            if (type === 'image') {
-                modalIcon.className = 'fa-solid fa-image text-white fs-5';
-                modalImage.onload = function () {
-                    modalLoader.style.display = 'none';
-                    modalImgWrap.style.display = 'flex';
-                };
-                modalImage.onerror = function () {
-                    modalLoader.style.display = 'none';
-                    modalImgWrap.innerHTML = '<div class="p-4 text-center text-white"><i class="fa-solid fa-triangle-exclamation fa-2x mb-2 text-warning"></i><p>Unable to preview image directly.</p></div>';
-                    modalImgWrap.style.display = 'flex';
-                };
-                modalImage.src = url;
-            } else {
-                modalIcon.className = 'fa-solid fa-file-pdf text-white fs-5';
-                // Append params to hide browser PDF viewer toolbar and download buttons
-                const cleanUrl = url.split('#')[0];
-                const pdfViewerUrl = cleanUrl + '#toolbar=0&navpanes=0&scrollbar=0';
-
-                modalIframe.onload = function () {
-                    modalLoader.style.display = 'none';
-                    modalIframe.style.display = 'block';
-                };
-                modalIframe.src = pdfViewerUrl;
-                setTimeout(function () {
-                    modalLoader.style.display = 'none';
-                    modalIframe.style.display = 'block';
-                }, 600);
-            }
-
-            if (bsModal) {
-                bsModal.show();
-            } else if (typeof $ !== 'undefined') {
-                $(certModalEl).modal('show');
-            }
-        });
-    });
-
-    certModalEl.addEventListener('hidden.bs.modal', function () {
-        modalIframe.src = '';
-        modalImage.src = '';
-        modalLoader.style.display = 'none';
-    });
-});
-</script>
 
 <?php include_once 'partials/footer.php'; ?>
