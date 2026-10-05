@@ -3,51 +3,13 @@ $page_title = "Testing & QA/QC System (NHAI & RDSO) - Polymer Products";
 $meta_description = "Quality Assurance Plan (QAP), material testing protocols, 1.5x proof-load verification, and third-party inspection for elastomeric bridge bearings.";
 include_once 'partials/header.php'; 
 
-// Testing & Laboratory Showcase Images Array (Easily add or replace images here)
+// Testing & Laboratory Showcase Images Array (High-Resolution Factory Testing Photos)
 $testing_slider_images = [
-    [
-        "file" => "assets/img/img/banner/2.webp",
-        "title" => "Compressive Proof Load Testing (1.5x)",
-        "tag" => "1.5x Proof Load",
-        "badge_color" => "danger",
-        "desc" => "100% finished bearings subjected to 1.5 times the maximum design compressive vertical load verifying zero cracking or bond failure."
-    ],
-    [
-        "file" => "assets/img/img/banner/3.webp",
-        "title" => "Universal Tensile Testing (UTM)",
-        "tag" => "IS:3400 / ASTM D412",
-        "badge_color" => "primary",
-        "desc" => "Computerized UTM verifying elastomer tensile strength (≥17 MPa) and elongation at break (≥400%) for every compounded batch."
-    ],
-    [
-        "file" => "assets/img/img/banner/4.webp",
-        "title" => "Shore-A Hardness Verification",
-        "tag" => "Hardness & IRHD",
-        "badge_color" => "success",
-        "desc" => "Calibrated digital Shore-A durometer checks across top, bottom, and side faces strictly within 60 ± 5 IRHD / Shore A tolerance."
-    ],
-    [
-        "file" => "assets/img/img/banner/5.webp",
-        "title" => "Accelerated Thermal Ageing Oven",
-        "tag" => "70°C / 72 Hours",
-        "badge_color" => "warning",
-        "desc" => "Digital air-circulated ageing chamber testing elastomer durability under elevated temperature per IS:3400 (Pt 4) & ASTM D573."
-    ],
-    [
-        "file" => "assets/img/img/banner/6.webp",
-        "title" => "Compressive Load Verification Frame",
-        "tag" => "Hydraulic Rig",
-        "badge_color" => "info",
-        "desc" => "High-tonnage hydraulic test rig verifying uniform compression, elastomer-steel bonding, and zero edge splitting under heavy loading."
-    ],
-    [
-        "file" => "assets/img/img/banner/6.webp",
-        "title" => "Computerized QC Test Console",
-        "tag" => "Digital DAQ Console",
-        "badge_color" => "primary",
-        "desc" => "Real-time load vs deflection data acquisition generating automated inspection test reports and load compliance curves."
-    ],
-     
+    ["file" => "assets/img/img/banner/2.webp"],
+    ["file" => "assets/img/img/banner/3.webp"],
+    ["file" => "assets/img/img/banner/4.webp"],
+    ["file" => "assets/img/img/banner/5.webp"],
+    ["file" => "assets/img/img/banner/6.webp"]
 ];
 ?>
 
@@ -103,20 +65,23 @@ $testing_slider_images = [
 .testing-slider-card {
     background: #ffffff;
     border: 1px solid #e2e8f0;
-    border-radius: 18px;
+    border-radius: 16px;
     overflow: hidden;
     transition: all 0.35s ease;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.04);
 }
 .testing-slider-card:hover {
     transform: translateY(-6px);
     border-color: var(--theme-primary);
-    box-shadow: 0 16px 32px rgba(2, 132, 199, 0.12) !important;
+    box-shadow: 0 16px 32px rgba(2, 132, 199, 0.16) !important;
 }
 .testing-slider-img-wrap {
-    height: 220px;
+    height: 260px;
     position: relative;
     overflow: hidden;
     background: #0f172a;
+    border-radius: 15px;
 }
 .testing-slider-img-wrap img {
     width: 100%;
@@ -130,7 +95,8 @@ $testing_slider_images = [
 .testing-slider-overlay {
     position: absolute;
     inset: 0;
-    background: linear-gradient(180deg, rgba(0,0,0,0.1) 0%, rgba(15,23,42,0.7) 100%);
+    background: rgba(15, 23, 42, 0.45);
+    backdrop-filter: blur(1.5px);
     opacity: 0;
     transition: opacity 0.3s ease;
     display: flex;
@@ -160,6 +126,12 @@ $testing_slider_images = [
     border-color: var(--theme-primary);
     box-shadow: 0 6px 16px var(--theme-glow);
     transform: scale(1.06);
+}
+.testing-nav-btn.swiper-button-disabled {
+    opacity: 0.35;
+    cursor: not-allowed;
+    pointer-events: none;
+    transform: none !important;
 }
 </style>
 
@@ -225,7 +197,7 @@ $testing_slider_images = [
                     Laboratory Testing &amp; Inspection Showcase
                 </h2>
                 <p class="text-muted small mt-1 mb-0" style="max-width: 680px;">
-                    Stage-wise testing rigs, proof load frames, UTM tensile setups, and digital measurement instrumentation in action.
+                    Stage-wise testing rigs, proof load frames, UTM tensile setups, and factory quality verification photos.
                 </p>
             </div>
 
@@ -245,43 +217,19 @@ $testing_slider_images = [
             <div class="swiper-wrapper">
                 <?php foreach ($testing_slider_images as $idx => $tImg): ?>
                 <div class="swiper-slide h-auto">
-                    <div class="testing-slider-card h-100 d-flex flex-column justify-content-between">
-                        <div>
-                            <div class="testing-slider-img-wrap">
-                                <img src="<?php echo htmlspecialchars($tImg['file']); ?>" alt="<?php echo htmlspecialchars($tImg['title']); ?>" loading="lazy">
-                                <!-- <span class="badge bg-<?php echo $tImg['badge_color']; ?> position-absolute top-0 start-0 m-3 px-2.5 py-1.5 rounded-pill fw-semibold shadow-sm" style="font-size: 11px; z-index: 2;">
-                                    <?php echo htmlspecialchars($tImg['tag']); ?>
-                                </span> -->
-                                <div class="testing-slider-overlay">
-                                    <button type="button" class="btn btn-light btn-sm rounded-pill fw-bold open-testing-doc-modal px-3 py-1.5 shadow"
-                                        data-doc-url="<?php echo htmlspecialchars($tImg['file']); ?>"
-                                        data-doc-title="<?php echo htmlspecialchars($tImg['title']); ?>"
-                                        data-doc-type="image">
-                                        <i class="fa-solid fa-magnifying-glass-plus me-1 text-primary"></i> Zoom Photo
-                                    </button>
-                                </div>
+                    <div class="testing-slider-card open-testing-doc-modal h-100"
+                        data-doc-url="<?php echo htmlspecialchars($tImg['file']); ?>"
+                        data-doc-title="Factory Testing &amp; Inspection Photo"
+                        data-doc-type="image"
+                        role="button"
+                        tabindex="0">
+                        <div class="testing-slider-img-wrap">
+                            <img src="<?php echo htmlspecialchars($tImg['file']); ?>" alt="Factory Testing Photo <?php echo ($idx + 1); ?>" loading="lazy">
+                            <div class="testing-slider-overlay">
+                                <span class="btn btn-light btn-sm rounded-pill fw-bold px-3 py-1.5 shadow">
+                                    <i class="fa-solid fa-magnifying-glass-plus me-1 text-primary"></i> Click to View
+                                </span>
                             </div>
-
-                                <div class="p-4">
-
-
-                                <!-- <h5 class="fw-bold text-dark mb-2" style="font-family: 'Oswald', sans-serif; font-size: 18px; line-height: 1.3;">
-                                    <?php echo htmlspecialchars($tImg['title']); ?>
-                                </h5>
-                                <p class="small text-muted mb-0" style="line-height: 1.6; font-size: 13px;">
-                                    <?php echo htmlspecialchars($tImg['desc']); ?>
-                                </p>-->
-                            </div> 
-                        </div>
-
-                        <div class="px-4 pb-4 pt-0">
-                            <button type="button" class="btn btn-outline-primary btn-sm rounded-pill w-100 fw-bold open-testing-doc-modal d-flex align-items-center justify-content-center gap-1.5"
-                                data-doc-url="<?php echo htmlspecialchars($tImg['file']); ?>"
-                                data-doc-title="<?php echo htmlspecialchars($tImg['title']); ?>"
-                                data-doc-type="image"
-                                style="font-size: 12px;">
-                                <i class="fa-solid fa-image"></i> <span>View High-Res Photo</span>
-                            </button>
                         </div>
                     </div>
                 </div>
@@ -644,17 +592,14 @@ $testing_slider_images = [
 <!-- Modal & Swiper Slider Scripts with Smooth Scroll Unlock -->
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-    // 1. Initialize Testing Images Swiper Carousel
+    // 1. Initialize Testing Images Swiper Carousel (No duplicate clones or infinite loop repeat)
     if (typeof Swiper !== 'undefined') {
         new Swiper('.testing-swiper-container', {
             slidesPerView: 1,
             spaceBetween: 24,
-            loop: true,
-            autoplay: {
-                delay: 4500,
-                disableOnInteraction: false,
-                pauseOnMouseEnter: true,
-            },
+            loop: false,
+            rewind: false,
+            autoplay: false,
             pagination: {
                 el: '.testing-slider-pagination',
                 clickable: true,
@@ -737,16 +682,22 @@ document.addEventListener('DOMContentLoaded', function () {
 
             if (type === 'image') {
                 modalIcon.className = 'fa-solid fa-image text-white fs-5';
-                modalImage.onload = function () {
+                
+                function revealImage() {
                     modalLoader.style.display = 'none';
                     modalImgWrap.style.display = 'flex';
-                };
+                }
+
+                modalImage.onload = revealImage;
                 modalImage.onerror = function () {
                     modalLoader.style.display = 'none';
-                    modalImgWrap.innerHTML = '<div class="p-4 text-center text-white"><i class="fa-solid fa-triangle-exclamation fa-2x mb-2 text-warning"></i><p>Unable to preview image.</p></div>';
                     modalImgWrap.style.display = 'flex';
                 };
+                
                 modalImage.src = url;
+                if (modalImage.complete && modalImage.naturalWidth > 0) {
+                    revealImage();
+                }
             } else {
                 modalIcon.className = 'fa-solid fa-file-pdf text-white fs-5';
                 const cleanUrl = url.split('#')[0];

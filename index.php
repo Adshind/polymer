@@ -4,7 +4,7 @@ include_once 'partials/header.php';
 ?>
 
 <section class="ht-hero-area d-flex align-items-center"
-    style="background: linear-gradient(135deg, rgba(27, 18, 18, 0.68) 0%, rgba(12, 26, 44, 0.50) 50%, rgba(141, 141, 141, 0.22) 100%), url('assets/img/img/banner/birdge-11.webp') center center / cover no-repeat; position: relative; overflow: hidden; min-height: 100vh; padding-top: 175px; padding-bottom: 75px; margin-top: -160px;">
+    style="background: linear-gradient(135deg, rgba(27, 18, 18, 0.68) 0%, rgba(12, 26, 44, 0.50) 50%, rgba(141, 141, 141, 0.22) 100%), url('assets/img/img/banner/bridge-11-1.webp') center center / cover no-repeat; position: relative; overflow: hidden; min-height: 100vh; padding-top: 175px; padding-bottom: 75px; margin-top: -160px;">
     <!-- <div class="ht-hero-shape" style="position: absolute; top:0; right:0; opacity:0.12;">
         <img src="assets/img/img/shape/1.svg" alt="shape">
     </div> -->
