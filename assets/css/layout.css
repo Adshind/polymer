@@ -303,14 +303,81 @@ span,
         height: 48px !important;
     }
 
-    .ht-menu-btn {
-        transition: all 0.25s ease;
+    /* Modern Mobile & Tablet Nav Toggle */
+    .custom-mobile-nav-toggle {
+        height: 42px;
+        padding: 0 14px !important;
+        border-radius: 12px !important;
+        background: var(--theme-subtle) !important;
+        border: 1.5px solid rgba(2, 132, 199, 0.25) !important;
+        color: var(--theme-primary) !important;
+        transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+        display: inline-flex !important;
+        align-items: center !important;
+        gap: 8px;
     }
 
-    .ht-menu-btn:hover,
-    .ht-menu-btn:focus {
+    .custom-mobile-nav-toggle:hover,
+    .custom-mobile-nav-toggle:focus {
         background: var(--theme-primary) !important;
+        border-color: var(--theme-primary) !important;
         color: #ffffff !important;
+        box-shadow: 0 6px 18px var(--theme-glow) !important;
+        transform: translateY(-1px);
+    }
+
+    .custom-mobile-nav-toggle .nav-toggle-bars {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 4px;
+        width: 19px;
+        height: 15px;
+    }
+
+    .custom-mobile-nav-toggle .nav-toggle-bars .bar {
+        display: block;
+        height: 2.2px;
+        background: currentColor;
+        border-radius: 4px;
+        transition: all 0.3s ease;
+    }
+
+    .custom-mobile-nav-toggle .nav-toggle-bars .bar-top {
+        width: 100%;
+    }
+
+    .custom-mobile-nav-toggle .nav-toggle-bars .bar-mid {
+        width: 60%;
+        margin-left: auto;
+    }
+
+    .custom-mobile-nav-toggle .nav-toggle-bars .bar-bot {
+        width: 85%;
+    }
+
+    .custom-mobile-nav-toggle:hover .nav-toggle-bars .bar-mid,
+    .custom-mobile-nav-toggle:hover .nav-toggle-bars .bar-bot {
+        width: 100%;
+    }
+
+    .custom-mobile-nav-toggle .nav-toggle-text {
+        font-family: 'Saira-Medium', sans-serif !important;
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 0.8px;
+        text-transform: uppercase;
+        color: currentColor;
+        line-height: 1;
+    }
+
+    @media (max-width: 575.98px) {
+        .custom-mobile-nav-toggle {
+            padding: 0 10px !important;
+            width: 42px !important;
+            justify-content: center !important;
+        }
     }
 }
 

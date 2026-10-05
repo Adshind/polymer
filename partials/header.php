@@ -178,11 +178,16 @@ $current_page = basename($_SERVER['PHP_SELF']);
 
                         
 
-                        <!-- Mobile Hamburger Toggle -->
-                        <button class="ht-menu-btn d-xl-none offcanvas-toggle btn border-0 p-2 d-flex align-items-center justify-content-center"
-                            style="width: 42px; height: 42px; border-radius: 10px; background: var(--theme-subtle); color: var(--theme-primary);"
-                            aria-label="Toggle Navigation Menu">
-                            <i class="fa-solid fa-bars-staggered fa-lg"></i>
+                        <!-- Mobile & Tablet Navigation Toggle -->
+                        <button class="ht-menu-btn d-xl-none offcanvas-toggle custom-mobile-nav-toggle btn border-0 d-flex align-items-center gap-2"
+                            aria-label="Toggle Navigation Menu"
+                            type="button">
+                            <span class="nav-toggle-bars">
+                                <span class="bar bar-top"></span>
+                                <span class="bar bar-mid"></span>
+                                <span class="bar bar-bot"></span>
+                            </span>
+                            <span class="nav-toggle-text d-none d-sm-inline-block">Menu</span>
                         </button>
                     </div>
                 </div>
@@ -244,7 +249,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
                 </nav>
             </div>
 
-            <!-- Offcanvas Direct CTA Button -->
+            <!-- Offcanvas Direct Action Button -->
             <div class="mb-4">
                 <a href="contact.php"
                     class="btn btn-primary w-100 py-3 rounded-pill text-white fw-bold text-uppercase d-flex align-items-center justify-content-center shadow-sm"

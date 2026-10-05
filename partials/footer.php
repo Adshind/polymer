@@ -225,8 +225,6 @@
 <script src="assets/js/typed.min.js"></script>
 <!--<< Main.js >>-->
 <script src="assets/js/main.js"></script>
-<!--<< Live Theme Switcher JS >>-->
-<script src="assets/js/theme-switcher.js"></script>
 </body>
 
 </html>

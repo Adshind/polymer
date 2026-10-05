@@ -121,10 +121,15 @@
                         <span class="btn-text">Contact Us</span>
                         <i class="fa-solid fa-arrow-right ms-2 btn-icon"></i>
                     </a>
-                    <button class="ht-menu-btn d-xl-none offcanvas-toggle btn border-0 p-2 ms-2"
-                        style="border-radius:8px; background:var(--theme-subtle); color:var(--theme-primary);"
-                        aria-label="Toggle menu">
-                        <i class="fa-solid fa-bars-staggered fa-lg"></i>
+                    <button class="ht-menu-btn d-xl-none offcanvas-toggle custom-mobile-nav-toggle btn border-0 d-flex align-items-center gap-2"
+                        aria-label="Toggle menu"
+                        type="button">
+                        <span class="nav-toggle-bars">
+                            <span class="bar bar-top"></span>
+                            <span class="bar bar-mid"></span>
+                            <span class="bar bar-bot"></span>
+                        </span>
+                        <span class="nav-toggle-text d-none d-sm-inline-block">Menu</span>
                     </button>
                 </div>
             </div>
@@ -154,10 +159,6 @@
                         <li class="py-2 border-bottom"><a href="experience.html" class="fw-bold text-dark text-decoration-none">Experience & Supplies (NHAI/Metro/Rail)</a></li>
                         <li class="py-2 border-bottom"><a href="storage-handling.html" class="fw-bold text-dark text-decoration-none">Storage, Handling & Installation</a></li>
                         <li class="py-2 border-bottom"><a href="application-codes.html" class="fw-bold text-dark text-decoration-none">Application Codes & Standards</a></li>
-                        <li class="pt-3">
-                            <a href="contact.html" class="d-inline-block text-white text-decoration-none fw-bold px-4 py-2"
-                                style="background:var(--theme-primary); border-radius:50px;">Contact Us / Request Quote &rarr;</a>
-                        </li>
                     </ul>
                 </nav>
             </div>
