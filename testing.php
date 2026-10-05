@@ -139,7 +139,7 @@ $testing_slider_images = [
      1. Modern Hero Banner
      ============================================================ -->
 <section class="ht-about-hero position-relative d-flex align-items-center"
-    style="background: linear-gradient(135deg, rgba(9, 20, 36, 0.90) 0%, rgba(14, 34, 61, 0.72) 50%, rgba(6, 13, 24, 0.86) 100%), url('assets/img/img/banner/birdge-5.webp') center center / cover no-repeat; padding-top: 175px; padding-bottom: 75px; margin-top: -160px; min-height: 440px;">
+    style="background: linear-gradient(135deg, rgba(9, 20, 36, 0.60) 0%, rgba(14, 34, 61, 0.62) 50%, rgba(6, 13, 24, 0.86) 100%), url('assets/img/img/banner/birdge-5.webp') center center / cover no-repeat; padding-top: 175px; padding-bottom: 75px; margin-top: -160px; min-height: 440px;">
     
     <div class="container-fluid px-3 px-lg-5 position-relative" style="z-index: 2;">
         <div class="row align-items-center">
@@ -151,7 +151,7 @@ $testing_slider_images = [
                     style="font-family: 'Oswald', 'Saira-Medium', sans-serif; font-size: clamp(32px, 4.5vw, 50px); letter-spacing: -0.5px; line-height: 1.2;">
                     Testing &amp; QA/QC System <span style="color: #93c5fd;">(NHAI &amp; RDSO)</span>
                 </h1>
-                <p class="text-light mb-4" style="font-size: 16px; line-height: 1.8; max-width: 740px; color: #cbd5e1 !important;">
+                <p class="text-light mb-4" style="font-size: 16px; line-height: 1.8; max-width: 740px; color: #ebedf0ff !important;">
                     Comprehensive Quality Assurance Plans (QAP), raw compound laboratory testing, 1.5x proof-load verification, and stage-wise third-party inspection support.
                 </p>
                 <div class="d-flex flex-wrap gap-2 pt-1">

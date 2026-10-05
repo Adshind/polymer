@@ -23,7 +23,7 @@ include_once 'partials/header.php';
 
                     </h1>
                     <p class="desc wow fadeInUp mb-4" data-wow-delay=".4s"
-                        style="color: #cbd5e1; font-size: 17px; line-height: 1.7; max-width: 680px;">
+                        style="color: #d6e1ecff; font-size: 17px; line-height: 1.7; max-width: 680px;">
                         Polymer Products (Estd. 1978) is an established manufacturer and supplier of Elastomeric Bearings and
                         Seismic Pads for the civil engineering and infrastructure sector. Engineered at our
                         manufacturing unit at H-32, M.I.D.C. SATPUR, NASHIK-422007 Maharashtra, India.
