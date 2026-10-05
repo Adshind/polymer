@@ -81,9 +81,9 @@ $current_page = basename($_SERVER['PHP_SELF']);
                     </div>
                     <div class="col-lg-6 col-md-6 text-center text-md-end">
                         <ul class="right list-inline mb-0 small" style="font-size:13px; font-family:'Saira-Medium', sans-serif;">
-                            <li class="list-inline-item me-3 d-none d-sm-inline-block text-white">
+                            <!-- <li class="list-inline-item me-3 d-none d-sm-inline-block text-white">
                                 <i class="fa-solid fa-clock text-white me-1"></i>Sunday to Friday: 10:00 AM to 6:30 PM
-                            </li>
+                            </li> -->
                             <li class="list-inline-item d-none d-sm-inline-block">
                                 <i class="fa-solid fa-envelope text-white me-1"></i>
                                 <a href="mailto:sales@polymerproducts.org" class="text-white text-decoration-none">sales@polymerproducts.org</a>
