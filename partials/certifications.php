@@ -54,9 +54,9 @@
                             Permanent Account Number statutory tax registration issued by Income Tax Department, Government of India.
                         </p>
                     </div>
-                    <a href="/assets/pp_data/Page 01/POLYMER DETAILS/pan-card.pdf"
+                    <a href="assets/pp_data/Page 01/POLYMER DETAILS/pan-card.pdf"
                         class="btn btn-outline-primary btn-sm rounded-pill fw-bold open-cert-modal d-inline-flex align-items-center justify-content-center gap-1.5"
-                        data-doc-url="/assets/pp_data/Page 01/POLYMER DETAILS/pan-card.pdf"
+                        data-doc-url="assets/pp_data/Page 01/POLYMER DETAILS/pan-card.pdf"
                         data-doc-title="PAN &amp; Statutory Tax Registration Record"
                         data-doc-type="pdf">
                         <i class="fa-solid fa-file-shield"></i> <span>Verified PAN Record</span>
@@ -87,7 +87,7 @@
                 </div>
             </div>
 
-            <!-- 4. Factory Plan Approval & Stability -->
+            <!-- 4. Factory Plan Approval (DISH) -->
             <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".25s">
                 <div class="cert-modern-card p-4 bg-white rounded-4 shadow-sm border text-center h-100 d-flex flex-column justify-content-between position-relative">
                     <span class="position-absolute top-0 end-0 m-3 badge rounded-pill fw-bold" style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 11px;">04</span>
@@ -95,34 +95,48 @@
                         <div class="cert-icon-circle d-inline-flex p-3 rounded-circle mb-3" style="background: var(--theme-subtle); color: var(--theme-primary); width: 64px; height: 64px; align-items: center; justify-content: center;">
                             <i class="fa-solid fa-industry fa-2x"></i>
                         </div>
-                        <h5 class="fw-bold text-dark mb-2" style="font-family: 'Saira-Medium', sans-serif; font-size: 17px;">Factory License &amp; Plan</h5>
+                        <h5 class="fw-bold text-dark mb-2" style="font-family: 'Saira-Medium', sans-serif; font-size: 17px;">Factory Plan Approval</h5>
                         <p class="small text-muted mb-3" style="font-size: 13px; line-height: 1.6;">
-                            Directorate of Industrial Safety &amp; Health (DISH) approved factory layout, machinery setup &amp; stability certification.
+                            Directorate of Industrial Safety &amp; Health (DISH) approved manufacturing plant layout &amp; safety compliance.
                         </p>
                     </div>
-                    <div class="d-flex flex-column gap-2">
-                        <a href="assets/pp_data/Page 01/POLYMER DETAILS/PP DETAILS/PLAN APPROVAL CERTIFICATE.pdf"
-                            class="btn btn-outline-primary btn-sm rounded-pill fw-bold open-cert-modal d-inline-flex align-items-center justify-content-center gap-1.5"
-                            data-doc-url="assets/pp_data/Page 01/POLYMER DETAILS/PP DETAILS/PLAN APPROVAL CERTIFICATE.pdf"
-                            data-doc-title="Directorate of Safety Factory Plan Approval"
-                            data-doc-type="pdf">
-                            <i class="fa-solid fa-file-pdf"></i> <span>Factory Plan Approval</span>
-                        </a>
-                        <a href="assets/pp_data/Page 01/POLYMER DETAILS/PP DETAILS/STABILITY CERTIFICATE.pdf"
-                            class="btn btn-outline-primary btn-sm rounded-pill fw-bold open-cert-modal d-inline-flex align-items-center justify-content-center gap-1.5"
-                            data-doc-url="assets/pp_data/Page 01/POLYMER DETAILS/PP DETAILS/STABILITY CERTIFICATE.pdf"
-                            data-doc-title="Factory Building Stability Certificate"
-                            data-doc-type="pdf">
-                            <i class="fa-solid fa-shield-halved"></i> <span>Stability Certificate</span>
-                        </a>
-                    </div>
+                    <a href="assets/pp_data/Page 01/POLYMER DETAILS/PP DETAILS/PLAN APPROVAL CERTIFICATE.pdf"
+                        class="btn btn-outline-primary btn-sm rounded-pill fw-bold open-cert-modal d-inline-flex align-items-center justify-content-center gap-1.5"
+                        data-doc-url="assets/pp_data/Page 01/POLYMER DETAILS/PP DETAILS/PLAN APPROVAL CERTIFICATE.pdf"
+                        data-doc-title="Directorate of Safety Factory Plan Approval"
+                        data-doc-type="pdf">
+                        <i class="fa-solid fa-file-pdf"></i> <span>Factory Plan Approval</span>
+                    </a>
                 </div>
             </div>
 
-            <!-- 5. Pollution Control Compliance (MPCB) -->
+            <!-- 5. Factory Building Stability Certificate -->
             <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                 <div class="cert-modern-card p-4 bg-white rounded-4 shadow-sm border text-center h-100 d-flex flex-column justify-content-between position-relative">
                     <span class="position-absolute top-0 end-0 m-3 badge rounded-pill fw-bold" style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 11px;">05</span>
+                    <div>
+                        <div class="cert-icon-circle d-inline-flex p-3 rounded-circle mb-3" style="background: var(--theme-subtle); color: var(--theme-primary); width: 64px; height: 64px; align-items: center; justify-content: center;">
+                            <i class="fa-solid fa-shield-halved fa-2x"></i>
+                        </div>
+                        <h5 class="fw-bold text-dark mb-2" style="font-family: 'Saira-Medium', sans-serif; font-size: 17px;">Plant Stability Certificate</h5>
+                        <p class="small text-muted mb-3" style="font-size: 13px; line-height: 1.6;">
+                            Chartered Structural Engineer certified factory building stability for heavy hydraulic vulcanizing press lines.
+                        </p>
+                    </div>
+                    <a href="assets/pp_data/Page 01/POLYMER DETAILS/PP DETAILS/STABILITY CERTIFICATE.pdf"
+                        class="btn btn-outline-primary btn-sm rounded-pill fw-bold open-cert-modal d-inline-flex align-items-center justify-content-center gap-1.5"
+                        data-doc-url="assets/pp_data/Page 01/POLYMER DETAILS/PP DETAILS/STABILITY CERTIFICATE.pdf"
+                        data-doc-title="Factory Building Stability Certificate"
+                        data-doc-type="pdf">
+                        <i class="fa-solid fa-file-pdf"></i> <span>View Stability Certificate</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- 6. Pollution Control Compliance (MPCB) -->
+            <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".35s">
+                <div class="cert-modern-card p-4 bg-white rounded-4 shadow-sm border text-center h-100 d-flex flex-column justify-content-between position-relative">
+                    <span class="position-absolute top-0 end-0 m-3 badge rounded-pill fw-bold" style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 11px;">06</span>
                     <div>
                         <div class="cert-icon-circle d-inline-flex p-3 rounded-circle mb-3" style="background: var(--theme-subtle); color: var(--theme-primary); width: 64px; height: 64px; align-items: center; justify-content: center;">
                             <i class="fa-solid fa-leaf fa-2x"></i>
@@ -142,10 +156,10 @@
                 </div>
             </div>
 
-            <!-- 6. ISO 9001:2027 Quality Certification -->
-            <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".35s">
+            <!-- 7. ISO 9001:2027 Quality Certification -->
+            <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
                 <div class="cert-modern-card p-4 bg-white rounded-4 shadow-sm border text-center h-100 d-flex flex-column justify-content-between position-relative">
-                    <span class="position-absolute top-0 end-0 m-3 badge rounded-pill fw-bold" style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 11px;">06</span>
+                    <span class="position-absolute top-0 end-0 m-3 badge rounded-pill fw-bold" style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 11px;">07</span>
                     <div>
                         <div class="cert-icon-circle d-inline-flex p-3 rounded-circle mb-3" style="background: var(--theme-subtle); color: var(--theme-primary); width: 64px; height: 64px; align-items: center; justify-content: center;">
                             <i class="fa-solid fa-award fa-2x"></i>
@@ -155,20 +169,20 @@
                             International Quality Management System certification for manufacturing elastomeric bridge bearings &amp; seismic pads.
                         </p>
                     </div>
-                    <a href="/assets/pp_data/Page 01/POLYMER DETAILS/iso-certificate.pdf"
+                    <a href="assets/pp_data/Page 01/POLYMER DETAILS/ISO CERTIFICATE 2027.png"
                         class="btn btn-outline-primary btn-sm rounded-pill fw-bold open-cert-modal d-inline-flex align-items-center justify-content-center gap-1.5"
-                        data-doc-url="/assets/pp_data/Page 01/POLYMER DETAILS/iso-certificate.pdf"
+                        data-doc-url="assets/pp_data/Page 01/POLYMER DETAILS/ISO CERTIFICATE 2027.png"
                         data-doc-title="ISO 9001:2027 Quality Management Certification"
-                        data-doc-type="pdf">
+                        data-doc-type="image">
                         <i class="fa-solid fa-image"></i> <span>View ISO Certificate</span>
                     </a>
                 </div>
             </div>
 
-            <!-- 7. RDSO Indian Railways Approval -->
-            <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
+            <!-- 8. RDSO Indian Railways Approval -->
+            <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".45s">
                 <div class="cert-modern-card p-4 bg-white rounded-4 shadow-sm border text-center h-100 d-flex flex-column justify-content-between position-relative">
-                    <span class="position-absolute top-0 end-0 m-3 badge rounded-pill fw-bold" style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 11px;">07</span>
+                    <span class="position-absolute top-0 end-0 m-3 badge rounded-pill fw-bold" style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 11px;">08</span>
                     <div>
                         <div class="cert-icon-circle d-inline-flex p-3 rounded-circle mb-3" style="background: var(--theme-subtle); color: var(--theme-primary); width: 64px; height: 64px; align-items: center; justify-content: center;">
                             <i class="fa-solid fa-train fa-2x"></i>
@@ -184,29 +198,6 @@
                         data-doc-title="RDSO Indian Railways Technical Approval"
                         data-doc-type="pdf">
                         <i class="fa-solid fa-file-pdf"></i> <span>View RDSO Approval</span>
-                    </a>
-                </div>
-            </div>
-
-            <!-- 8. Sister Concern Credential Letter -->
-            <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".45s">
-                <div class="cert-modern-card p-4 bg-white rounded-4 shadow-sm border text-center h-100 d-flex flex-column justify-content-between position-relative">
-                    <span class="position-absolute top-0 end-0 m-3 badge rounded-pill fw-bold" style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 11px;">08</span>
-                    <div>
-                        <div class="cert-icon-circle d-inline-flex p-3 rounded-circle mb-3" style="background: var(--theme-subtle); color: var(--theme-primary); width: 64px; height: 64px; align-items: center; justify-content: center;">
-                            <i class="fa-solid fa-handshake-angle fa-2x"></i>
-                        </div>
-                        <h5 class="fw-bold text-dark mb-2" style="font-family: 'Saira-Medium', sans-serif; font-size: 17px;">Sister Concern Credential</h5>
-                        <p class="small text-muted mb-3" style="font-size: 13px; line-height: 1.6;">
-                            Official Dynamic Prestress group sister concern certification letter with unified technical consultancy.
-                        </p>
-                    </div>
-                    <a href="assets/pp_data/Page 02/sister cons latter - 2026.pdf"
-                        class="btn btn-outline-primary btn-sm rounded-pill fw-bold open-cert-modal d-inline-flex align-items-center justify-content-center gap-1.5"
-                        data-doc-url="assets/pp_data/Page 02/sister cons latter - 2026.pdf"
-                        data-doc-title="Dynamic Prestress Sister Concern Credential Letter"
-                        data-doc-type="pdf">
-                        <i class="fa-solid fa-file-pdf"></i> <span>View Sister Concern Letter</span>
                     </a>
                 </div>
             </div>

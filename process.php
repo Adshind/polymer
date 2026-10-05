@@ -10,12 +10,12 @@ $process_images = [
     ["file" => "IMG20260913162127.jpg", "title" => "Two-Roll Rubber Mixing Mill", "cat" => "compounding", "desc" => "Water-cooled open mixing mill for precision polymer compounding."],
     ["file" => "IMG20260913162252.jpg", "title" => "Masterbatch Compounding & Sheeting", "cat" => "compounding", "desc" => "Homogeneous dispersion of carbon black, zinc oxide, and curing agents."],
     ["file" => "IMG20260913162306.jpg", "title" => "Hydraulic Pressure Control Panel", "cat" => "presses", "desc" => "Digital pressure and cycle timer instrumentation on main press line."],
-    ["file" => "IMG20260913162317.jpg", "title" => "Steel Plate Shearing Station", "cat" => "steel", "desc" => "Precision guillotine shearing of IS:2062 internal steel laminates."],
+    // ["file" => "IMG20260913162317.jpg", "title" => "Steel Plate Shearing Station", "cat" => "steel", "desc" => "Precision guillotine shearing of IS:2062 internal steel laminates."],
     // ["file" => "IMG20260913162338.jpg", "title" => "Grit Shot-Blasting Chamber", "cat" => "steel", "desc" => "Enclosed grit blasting achieving Sa 2.5 profile for maximum bond."],
     // ["file" => "IMG20260913162350.jpg", "title" => "Chemlok Primer Adhesive Coating", "cat" => "steel", "desc" => "Uniform double-coat application of high-strength elastomer bonding agents."],
     // ["file" => "IMG20260913162353.jpg", "title" => "Mould Assembly & Stacking", "cat" => "assembly", "desc" => "Alternating stacking of primed steel laminates and rubber pre-forms."],
     ["file" => "IMG20260913162357.jpg", "title" => "Multi-Layer Stacking Alignment", "cat" => "assembly", "desc" => "Precise registration spacers ensuring uniform internal elastomer layers."],
-    ["file" => "IMG20260913162405.jpg", "title" => "Mould Cavity Preparation", "cat" => "assembly", "desc" => "CNC-machined heavy steel moulds checked for dimensional accuracy."],
+    // ["file" => "IMG20260913162405.jpg", "title" => "Mould Cavity Preparation", "cat" => "assembly", "desc" => "CNC-machined heavy steel moulds checked for dimensional accuracy."],
     ["file" => "IMG20260913162430.jpg", "title" => "Hydraulic Curing Temperature Log", "cat" => "presses", "desc" => "Multi-zone platen heating maintained at 150°C ± 5°C throughout cure."],
     ["file" => "IMG20260913162505.jpg", "title" => "Finished Bearings Quality Inspection", "cat" => "qa", "desc" => "Visual examination of outer protective rubber layer and edge geometry."],
     ["file" => "IMG20260913162534.jpg", "title" => "Side Rubber Thickness Verification", "cat" => "qa", "desc" => "Verification of ≥4mm side cover and ≥2.5mm outer cover thickness."],
@@ -27,12 +27,12 @@ $process_images = [
     ["file" => "IMG20260913162739.jpg", "title" => "Computerized QC Test Console", "cat" => "qa", "desc" => "Real-time load vs deflection data acquisition for MTC test records."],
     ["file" => "IMG20260913162811.jpg", "title" => "Heavy-Duty Compression Platen", "cat" => "qa", "desc" => "Precision-ground hardened steel platen for uniform vertical load distribution."],
     ["file" => "IMG20260913163037.jpg", "title" => "Raw Polymer Material Bay", "cat" => "compounding", "desc" => "Certified natural rubber (RSS-1) and chloroprene polymer storage."],
-    ["file" => "IMG20260913163042.jpg", "title" => "Chemical Additives Compounding", "cat" => "compounding", "desc" => "Micro-ingredient weighing and anti-ozonant formulation station."],
-    ["file" => "IMG20260913163049.jpg", "title" => "Compound Mastication & Blending", "cat" => "compounding", "desc" => "Two-roll mastication ensuring high elasticity and zero batch variance."],
-    ["file" => "IMG20260913163136.jpg", "title" => "Heavy Two-Roll Calendering", "cat" => "compounding", "desc" => "Conversion of raw masterbatch into dense, porosity-free rubber sheets."],
-    ["file" => "IMG20260913163227.jpg", "title" => "Continuous Rubber Sheeting", "cat" => "compounding", "desc" => "Controlled cooling and release liner application on calendered sheets."],
-    ["file" => "IMG20260913163232.jpg", "title" => "Sheet Thickness Gauge Monitoring", "cat" => "compounding", "desc" => "Continuous micrometer checks on pre-form elastomer sheet thickness."],
-    ["file" => "IMG20260913163238.jpg", "title" => "Pre-Form Cutting & Sizing Table", "cat" => "assembly", "desc" => "Accurate cutting of elastomer sheets matched to mould cavity dimensions."],
+    // ["file" => "IMG20260913163042.jpg", "title" => "Chemical Additives Compounding", "cat" => "compounding", "desc" => "Micro-ingredient weighing and anti-ozonant formulation station."],
+    // ["file" => "IMG20260913163049.jpg", "title" => "Compound Mastication & Blending", "cat" => "compounding", "desc" => "Two-roll mastication ensuring high elasticity and zero batch variance."],
+    // ["file" => "IMG20260913163136.jpg", "title" => "Heavy Two-Roll Calendering", "cat" => "compounding", "desc" => "Conversion of raw masterbatch into dense, porosity-free rubber sheets."],
+    // ["file" => "IMG20260913163227.jpg", "title" => "Continuous Rubber Sheeting", "cat" => "compounding", "desc" => "Controlled cooling and release liner application on calendered sheets."],
+    // ["file" => "IMG20260913163232.jpg", "title" => "Sheet Thickness Gauge Monitoring", "cat" => "compounding", "desc" => "Continuous micrometer checks on pre-form elastomer sheet thickness."],
+    // ["file" => "IMG20260913163238.jpg", "title" => "Pre-Form Cutting & Sizing Table", "cat" => "assembly", "desc" => "Accurate cutting of elastomer sheets matched to mould cavity dimensions."],
     ["file" => "IMG20260913163313.jpg", "title" => "Steel Plate Inward Storage (IS:2062)", "cat" => "steel", "desc" => "Structural mild steel plate stock with test certificate verification."],
     ["file" => "IMG20260913163333.jpg", "title" => "Plate Shearing & Edge Radiusing", "cat" => "steel", "desc" => "Edge rounding (R ≥ 2mm) to prevent stress concentration and rubber cutting."],
     ["file" => "IMG20260913163346.jpg", "title" => "Shot-Blasted Steel Laminates (Sa 2.5)", "cat" => "steel", "desc" => "Clean, rust-free steel laminates with rough anchor profile for bonding."],
@@ -433,7 +433,7 @@ $process_images = [
 <!-- ============================================================
      4. Comprehensive 49-Photo Plant & Process Gallery Grid
      ============================================================ -->
-<section class="py-5" id="full-gallery" style="background:#f8fafc; border-top:1px solid #e2e8f0; border-bottom:1px solid #e2e8f0;">
+<!-- <section class="py-5" id="full-gallery" style="background:#f8fafc; border-top:1px solid #e2e8f0; border-bottom:1px solid #e2e8f0;">
     <div class="container py-4">
         <div class="section-title text-center mb-4">
             <span class="badge px-3 py-2 mb-2 rounded-pill text-uppercase" style="background: var(--theme-subtle); color: var(--theme-primary); font-weight:700; font-size:12px; letter-spacing:1px;">
@@ -447,7 +447,7 @@ $process_images = [
             </p>
         </div>
 
-        <!-- Filter Buttons -->
+        
         <div class="d-flex flex-wrap justify-content-center gap-2 mb-4 pb-2" id="gallery-filters">
             <button class="gallery-filter-btn active" data-filter="all">All Photos (49)</button>
             <button class="gallery-filter-btn" data-filter="presses">Hydraulic Presses</button>
@@ -458,7 +458,7 @@ $process_images = [
             <button class="gallery-filter-btn" data-filter="finished">Finished Stock &amp; Dispatch</button>
         </div>
 
-        <!-- 49 Images Grid Container -->
+   
         <div class="row g-3" id="gallery-grid">
             <?php foreach ($process_images as $i => $img): ?>
             <div class="col-xl-3 col-lg-4 col-md-6 gallery-item" data-category="<?php echo $img['cat']; ?>">
@@ -479,7 +479,7 @@ $process_images = [
             <?php endforeach; ?>
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- ============================================================
      5. Plant Machinery List & Technical Specifications Table

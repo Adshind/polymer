@@ -140,7 +140,7 @@ include_once 'partials/header.php';
                             <h6 class="fw-bold text-dark mb-1 saira-medium" style="font-family: 'Saira-Medium', sans-serif !important; font-size: 14px;">
                                 <i class="fa-solid fa-clock me-2" style="color: var(--theme-primary);"></i>Plant Working Hours
                             </h6>
-                            <p class="small text-muted mb-0 saira-medium">Monday to Saturday: 9:00 AM – 6:30 PM (IST)</p>
+                            <p class="small text-muted mb-0 saira-medium">Sunday to Friday: 10:00 AM – 6:30 PM (IST)</p>
                         </div>
                     </div>
 

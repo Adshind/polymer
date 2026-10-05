@@ -1,5 +1,5 @@
 <?php 
-$page_title = "Applications of Bearings & Standards (IRC:83 Part-II) - Polymer Products";
+$page_title = "Application Codes & Standards & Standards (IRC:83 Part-II) - Polymer Products";
 $meta_description = "Complete classification of Elastomeric Bearings (Type A, Type B, Type C, Type F) under IRC:83-2018 (Part-II) and verified engineering standards by Polymer Products.";
 include_once 'partials/header.php'; 
 ?>
@@ -18,7 +18,7 @@ include_once 'partials/header.php';
                     <i class="fa-solid fa-book-bookmark me-2"></i>Engineering Standards &amp; Applications
                 </span>
                 <h1 class="text-white fw-bold mb-3" style="font-family: 'Saira-Medium', sans-serif; font-size: clamp(32px, 4.2vw, 52px); line-height: 1.2;">
-                    Applications of Bearings <span style="color: #93c5fd;">&amp; Technical Standards</span>
+                    Application Codes  <span style="color: #93c5fd;">&amp; Technical Standards</span>
                 </h1>
                 <p class="text-light mb-4" style="font-size: 16px; line-height: 1.8; max-width: 760px; color: #cbd5e1 !important;">
                     Detailed classification of Elastomeric Bearings under <strong>IRC:83-2018 (Part-II)</strong> along with direct access to national and international engineering codes of practice.
@@ -49,7 +49,7 @@ include_once 'partials/header.php';
 </section>
 
 <!-- ============================================================
-     2. Applications of Bearings (IRC:83-2018 Part-II) Section
+     2. Application Codes & Standards (IRC:83-2018 Part-II) Section
      Side-by-Side Image + Technical Content Structure (Unified Theme Color)
      ============================================================ -->
 <section class="py-5" style="background: #ffffff; border-bottom: 1px solid #e2e8f0;">
@@ -62,7 +62,7 @@ include_once 'partials/header.php';
                 <i class="fa-solid fa-stamp"></i> Governing Code: IRC:83-2018 (Part-II)
             </div>
             <h2 class="fw-bold text-dark text-uppercase mt-2" style="font-family: 'Oswald', sans-serif; font-size: clamp(28px, 3.5vw, 42px); letter-spacing: 0.5px;">
-                Applications of Bearings
+                Application Codes & Standards
             </h2>
             <p class="text-muted mx-auto mb-0" style="max-width: 800px; font-size: 15.5px; line-height: 1.8;">
                 Comprehensive classification and practical engineering applications of Elastomeric Bearing types governed by <strong>IRC:83-2018 (Part-II)</strong> for Highway, Railway, Metro, and Structural infrastructure.
@@ -489,44 +489,45 @@ include_once 'partials/header.php';
         <div class="row g-4 justify-content-center">
             
             <!-- Code 1: IRC 83 Part 2 -->
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay=".1s">
-                <div class="card h-100 border-0 rounded-4 shadow-sm p-4 p-md-5 d-flex flex-column justify-content-between standard-code-card position-relative"
+            <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".1s">
+                <div class="card h-100 border-0 rounded-4 shadow-sm p-4 d-flex flex-column justify-content-between standard-code-card position-relative"
                     style="background: #ffffff; border: 1px solid #e2e8f0 !important;">
-                    <span class="position-absolute top-0 end-0 m-3 m-md-4 badge rounded-pill fw-bold"
-                        style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 13px;">01</span>
+                    <span class="position-absolute top-0 end-0 m-3 badge rounded-pill fw-bold"
+                        style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 12px;">01</span>
                     <div>
                         <div class="d-flex align-items-center gap-2 mb-3">
-                            <span class="badge rounded-pill px-3 py-1.5 fw-bold text-uppercase"
-                                style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 12px; letter-spacing: 1px;">
+                            <span class="badge rounded-pill px-2.5 py-1 fw-bold text-uppercase"
+                                style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 11px; letter-spacing: 0.5px;">
                                 Standard 01
                             </span>
-                            <span class="badge bg-light text-secondary rounded-pill px-3 py-1.5 border small fw-semibold">
-                                <i class="fa-solid fa-road text-primary me-1"></i> IRC (Indian Roads Congress)
+                            <span class="badge bg-light text-secondary rounded-pill px-2.5 py-1 border small fw-semibold" style="font-size: 11px;">
+                                <i class="fa-solid fa-road text-primary me-1"></i> IRC Standard
                             </span>
                         </div>
                         
-                        <h4 class="fw-bold text-dark mb-3" style="font-family: 'Oswald', sans-serif; font-size: 24px; letter-spacing: 0.5px;">
+                        <h4 class="fw-bold text-dark mb-2" style="font-family: 'Oswald', sans-serif; font-size: 21px; letter-spacing: 0.5px; line-height: 1.3;">
                             IRC:83 (Part II) - 2018
                         </h4>
                         
-                        <p class="text-muted small mb-3" style="font-size: 14px; line-height: 1.7;">
-                            <strong class="text-dark">Title:</strong> Standard Specifications and Code of Practice for Road Bridges - Section IX: Bearings (Part II: Elastomeric Bearings).
+                        <p class="text-muted small mb-2" style="font-size: 13px; line-height: 1.6;">
+                            <strong class="text-dark">Title:</strong> Standard Specifications &amp; Code of Practice for Road Bridges - Section IX: Elastomeric Bearings.
                         </p>
                         
-                        <p class="text-secondary small mb-4" style="font-size: 14px; line-height: 1.8;">
+                        <p class="text-secondary small mb-4" style="font-size: 13px; line-height: 1.7;">
                             Comprehensive Indian Roads Congress standard for design, raw polymer properties, steel laminate thickness, permissible compressive stresses, and shear strain limits.
                         </p>
                     </div>
 
                     <div class="border-top pt-3 d-flex justify-content-between align-items-center flex-wrap gap-2">
-                        <span class="small text-muted" style="font-size: 13px;">
+                        <span class="small text-muted" style="font-size: 12.5px;">
                             <i class="fa-solid fa-file-pdf text-danger me-1"></i> Official IRC PDF
                         </span>
                         <a href="assets/pp_data/Page 03/Application codes/irc.gov.in.083-2.2018.pdf"
-                            class="btn btn-outline-primary btn-sm rounded-pill px-3.5 py-2 fw-bold open-cert-modal d-inline-flex align-items-center gap-1.5"
+                            class="btn btn-outline-primary btn-sm rounded-pill px-3 py-1.5 fw-bold open-cert-modal d-inline-flex align-items-center gap-1.5"
                             data-doc-url="assets/pp_data/Page 03/Application codes/irc.gov.in.083-2.2018.pdf"
                             data-doc-title="IRC:83 (Part II) - 2018 Standard Specifications"
-                            data-doc-type="pdf">
+                            data-doc-type="pdf"
+                            style="font-size: 12px;">
                             <i class="fa-solid fa-file-pdf"></i> <span>View Code PDF</span>
                         </a>
                     </div>
@@ -534,44 +535,45 @@ include_once 'partials/header.php';
             </div>
 
             <!-- Code 2: IS 3400 (Part 22) -->
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay=".2s">
-                <div class="card h-100 border-0 rounded-4 shadow-sm p-4 p-md-5 d-flex flex-column justify-content-between standard-code-card position-relative"
+            <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".15s">
+                <div class="card h-100 border-0 rounded-4 shadow-sm p-4 d-flex flex-column justify-content-between standard-code-card position-relative"
                     style="background: #ffffff; border: 1px solid #e2e8f0 !important;">
-                    <span class="position-absolute top-0 end-0 m-3 m-md-4 badge rounded-pill fw-bold"
-                        style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 13px;">02</span>
+                    <span class="position-absolute top-0 end-0 m-3 badge rounded-pill fw-bold"
+                        style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 12px;">02</span>
                     <div>
                         <div class="d-flex align-items-center gap-2 mb-3">
-                            <span class="badge rounded-pill px-3 py-1.5 fw-bold text-uppercase"
-                                style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 12px; letter-spacing: 1px;">
+                            <span class="badge rounded-pill px-2.5 py-1 fw-bold text-uppercase"
+                                style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 11px; letter-spacing: 0.5px;">
                                 Standard 02
                             </span>
-                            <span class="badge bg-light text-secondary rounded-pill px-3 py-1.5 border small fw-semibold">
-                                <i class="fa-solid fa-building-flag text-primary me-1"></i> Bureau of Indian Standards (BIS)
+                            <span class="badge bg-light text-secondary rounded-pill px-2.5 py-1 border small fw-semibold" style="font-size: 11px;">
+                                <i class="fa-solid fa-building-flag text-primary me-1"></i> BIS Standard
                             </span>
                         </div>
                         
-                        <h4 class="fw-bold text-dark mb-3" style="font-family: 'Oswald', sans-serif; font-size: 24px; letter-spacing: 0.5px;">
+                        <h4 class="fw-bold text-dark mb-2" style="font-family: 'Oswald', sans-serif; font-size: 21px; letter-spacing: 0.5px; line-height: 1.3;">
                             IS: 3400 (Part 22) - 1984
                         </h4>
                         
-                        <p class="text-muted small mb-3" style="font-size: 14px; line-height: 1.7;">
-                            <strong class="text-dark">Title:</strong> Methods of Test for Vulcanized Rubber - Chemical and Physical Testing.
+                        <p class="text-muted small mb-2" style="font-size: 13px; line-height: 1.6;">
+                            <strong class="text-dark">Title:</strong> Methods of Test for Vulcanized Rubber - Chemical &amp; Physical Testing.
                         </p>
                         
-                        <p class="text-secondary small mb-4" style="font-size: 14px; line-height: 1.8;">
+                        <p class="text-secondary small mb-4" style="font-size: 13px; line-height: 1.7;">
                             Indian Standard defining mandatory laboratory testing procedures for elastomer compounding, chemical ash content, polymer identification, and cure parameters.
                         </p>
                     </div>
 
                     <div class="border-top pt-3 d-flex justify-content-between align-items-center flex-wrap gap-2">
-                        <span class="small text-muted" style="font-size: 13px;">
+                        <span class="small text-muted" style="font-size: 12.5px;">
                             <i class="fa-solid fa-file-pdf text-danger me-1"></i> BIS Test Standard
                         </span>
                         <a href="assets/pp_data/Page 03/Application codes/is.3400.22.1984.pdf"
-                            class="btn btn-outline-primary btn-sm rounded-pill px-3.5 py-2 fw-bold open-cert-modal d-inline-flex align-items-center gap-1.5"
+                            class="btn btn-outline-primary btn-sm rounded-pill px-3 py-1.5 fw-bold open-cert-modal d-inline-flex align-items-center gap-1.5"
                             data-doc-url="assets/pp_data/Page 03/Application codes/is.3400.22.1984.pdf"
                             data-doc-title="IS: 3400 (Part 22) - Methods of Test for Vulcanized Rubber"
-                            data-doc-type="pdf">
+                            data-doc-type="pdf"
+                            style="font-size: 12px;">
                             <i class="fa-solid fa-file-pdf"></i> <span>View Code PDF</span>
                         </a>
                     </div>
@@ -579,44 +581,45 @@ include_once 'partials/header.php';
             </div>
 
             <!-- Code 3: ISO 37 (Tensile Properties) -->
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay=".1s">
-                <div class="card h-100 border-0 rounded-4 shadow-sm p-4 p-md-5 d-flex flex-column justify-content-between standard-code-card position-relative"
+            <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                <div class="card h-100 border-0 rounded-4 shadow-sm p-4 d-flex flex-column justify-content-between standard-code-card position-relative"
                     style="background: #ffffff; border: 1px solid #e2e8f0 !important;">
-                    <span class="position-absolute top-0 end-0 m-3 m-md-4 badge rounded-pill fw-bold"
-                        style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 13px;">03</span>
+                    <span class="position-absolute top-0 end-0 m-3 badge rounded-pill fw-bold"
+                        style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 12px;">03</span>
                     <div>
                         <div class="d-flex align-items-center gap-2 mb-3">
-                            <span class="badge rounded-pill px-3 py-1.5 fw-bold text-uppercase"
-                                style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 12px; letter-spacing: 1px;">
+                            <span class="badge rounded-pill px-2.5 py-1 fw-bold text-uppercase"
+                                style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 11px; letter-spacing: 0.5px;">
                                 Standard 03
                             </span>
-                            <span class="badge bg-light text-secondary rounded-pill px-3 py-1.5 border small fw-semibold">
+                            <span class="badge bg-light text-secondary rounded-pill px-2.5 py-1 border small fw-semibold" style="font-size: 11px;">
                                 <i class="fa-solid fa-globe text-primary me-1"></i> ISO International
                             </span>
                         </div>
                         
-                        <h4 class="fw-bold text-dark mb-3" style="font-family: 'Oswald', sans-serif; font-size: 24px; letter-spacing: 0.5px;">
+                        <h4 class="fw-bold text-dark mb-2" style="font-family: 'Oswald', sans-serif; font-size: 21px; letter-spacing: 0.5px; line-height: 1.3;">
                             ISO 37 - 2017(E)
                         </h4>
                         
-                        <p class="text-muted small mb-3" style="font-size: 14px; line-height: 1.7;">
-                            <strong class="text-dark">Title:</strong> Rubber, Vulcanized or Thermoplastic - Determination of Tensile Stress-Strain Properties.
+                        <p class="text-muted small mb-2" style="font-size: 13px; line-height: 1.6;">
+                            <strong class="text-dark">Title:</strong> Rubber, Vulcanized - Tensile Stress-Strain Properties Determination.
                         </p>
                         
-                        <p class="text-secondary small mb-4" style="font-size: 14px; line-height: 1.8;">
+                        <p class="text-secondary small mb-4" style="font-size: 13px; line-height: 1.7;">
                             International test method governing dumbbell test pieces, tensile strength (&ge; 17 MPa), elongation at break (&ge; 400%), and modulus at 100% and 300% elongation.
                         </p>
                     </div>
 
                     <div class="border-top pt-3 d-flex justify-content-between align-items-center flex-wrap gap-2">
-                        <span class="small text-muted" style="font-size: 13px;">
+                        <span class="small text-muted" style="font-size: 12.5px;">
                             <i class="fa-solid fa-file-pdf text-danger me-1"></i> ISO Standard
                         </span>
                         <a href="assets/pp_data/Page 03/Application codes/ISO 37-2017(E) RUBBER,VULCANIZED OR THERMOPLASTIC-DETERMINATION OF TENSILE STRESS-STRAIN PROPERTIES.pdf"
-                            class="btn btn-outline-primary btn-sm rounded-pill px-3.5 py-2 fw-bold open-cert-modal d-inline-flex align-items-center gap-1.5"
+                            class="btn btn-outline-primary btn-sm rounded-pill px-3 py-1.5 fw-bold open-cert-modal d-inline-flex align-items-center gap-1.5"
                             data-doc-url="assets/pp_data/Page 03/Application codes/ISO 37-2017(E) RUBBER,VULCANIZED OR THERMOPLASTIC-DETERMINATION OF TENSILE STRESS-STRAIN PROPERTIES.pdf"
                             data-doc-title="ISO 37 - Tensile Stress-Strain Properties"
-                            data-doc-type="pdf">
+                            data-doc-type="pdf"
+                            style="font-size: 12px;">
                             <i class="fa-solid fa-file-pdf"></i> <span>View Code PDF</span>
                         </a>
                     </div>
@@ -624,44 +627,45 @@ include_once 'partials/header.php';
             </div>
 
             <!-- Code 4: ISO 1431-1 (Ozone Resistance) -->
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay=".2s">
-                <div class="card h-100 border-0 rounded-4 shadow-sm p-4 p-md-5 d-flex flex-column justify-content-between standard-code-card position-relative"
+            <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".25s">
+                <div class="card h-100 border-0 rounded-4 shadow-sm p-4 d-flex flex-column justify-content-between standard-code-card position-relative"
                     style="background: #ffffff; border: 1px solid #e2e8f0 !important;">
-                    <span class="position-absolute top-0 end-0 m-3 m-md-4 badge rounded-pill fw-bold"
-                        style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 13px;">04</span>
+                    <span class="position-absolute top-0 end-0 m-3 badge rounded-pill fw-bold"
+                        style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 12px;">04</span>
                     <div>
                         <div class="d-flex align-items-center gap-2 mb-3">
-                            <span class="badge rounded-pill px-3 py-1.5 fw-bold text-uppercase"
-                                style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 12px; letter-spacing: 1px;">
+                            <span class="badge rounded-pill px-2.5 py-1 fw-bold text-uppercase"
+                                style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 11px; letter-spacing: 0.5px;">
                                 Standard 04
                             </span>
-                            <span class="badge bg-light text-secondary rounded-pill px-3 py-1.5 border small fw-semibold">
+                            <span class="badge bg-light text-secondary rounded-pill px-2.5 py-1 border small fw-semibold" style="font-size: 11px;">
                                 <i class="fa-solid fa-globe text-primary me-1"></i> ISO International
                             </span>
                         </div>
                         
-                        <h4 class="fw-bold text-dark mb-3" style="font-family: 'Oswald', sans-serif; font-size: 24px; letter-spacing: 0.5px;">
+                        <h4 class="fw-bold text-dark mb-2" style="font-family: 'Oswald', sans-serif; font-size: 21px; letter-spacing: 0.5px; line-height: 1.3;">
                             ISO 1431-1 - 2024
                         </h4>
                         
-                        <p class="text-muted small mb-3" style="font-size: 14px; line-height: 1.7;">
-                            <strong class="text-dark">Title:</strong> Rubber, Vulcanized - Resistance to Ozone Cracking - Static and Dynamic Strain Testing.
+                        <p class="text-muted small mb-2" style="font-size: 13px; line-height: 1.6;">
+                            <strong class="text-dark">Title:</strong> Rubber, Vulcanized - Resistance to Ozone Cracking (Static &amp; Dynamic).
                         </p>
                         
-                        <p class="text-secondary small mb-4" style="font-size: 14px; line-height: 1.8;">
+                        <p class="text-secondary small mb-4" style="font-size: 13px; line-height: 1.7;">
                             Prescribes the ozone chamber test parameters ensuring elastomeric bearings exhibit zero micro-cracking when exposed to high ozone concentrations over 72 hours under static strain.
                         </p>
                     </div>
 
                     <div class="border-top pt-3 d-flex justify-content-between align-items-center flex-wrap gap-2">
-                        <span class="small text-muted" style="font-size: 13px;">
-                            <i class="fa-solid fa-file-pdf text-danger me-1"></i> Ozone Resistance Spec
+                        <span class="small text-muted" style="font-size: 12.5px;">
+                            <i class="fa-solid fa-file-pdf text-danger me-1"></i> Ozone Spec
                         </span>
                         <a href="assets/pp_data/Page 03/Application codes/ISO-1431-1-2024.pdf"
-                            class="btn btn-outline-primary btn-sm rounded-pill px-3.5 py-2 fw-bold open-cert-modal d-inline-flex align-items-center gap-1.5"
+                            class="btn btn-outline-primary btn-sm rounded-pill px-3 py-1.5 fw-bold open-cert-modal d-inline-flex align-items-center gap-1.5"
                             data-doc-url="assets/pp_data/Page 03/Application codes/ISO-1431-1-2024.pdf"
                             data-doc-title="ISO 1431-1 - Resistance to Ozone Cracking"
-                            data-doc-type="pdf">
+                            data-doc-type="pdf"
+                            style="font-size: 12px;">
                             <i class="fa-solid fa-file-pdf"></i> <span>View Code PDF</span>
                         </a>
                     </div>
@@ -669,44 +673,45 @@ include_once 'partials/header.php';
             </div>
 
             <!-- Code 5: ISO 188 (Accelerated Ageing) -->
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay=".1s">
-                <div class="card h-100 border-0 rounded-4 shadow-sm p-4 p-md-5 d-flex flex-column justify-content-between standard-code-card position-relative"
+            <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                <div class="card h-100 border-0 rounded-4 shadow-sm p-4 d-flex flex-column justify-content-between standard-code-card position-relative"
                     style="background: #ffffff; border: 1px solid #e2e8f0 !important;">
-                    <span class="position-absolute top-0 end-0 m-3 m-md-4 badge rounded-pill fw-bold"
-                        style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 13px;">05</span>
+                    <span class="position-absolute top-0 end-0 m-3 badge rounded-pill fw-bold"
+                        style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 12px;">05</span>
                     <div>
                         <div class="d-flex align-items-center gap-2 mb-3">
-                            <span class="badge rounded-pill px-3 py-1.5 fw-bold text-uppercase"
-                                style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 12px; letter-spacing: 1px;">
+                            <span class="badge rounded-pill px-2.5 py-1 fw-bold text-uppercase"
+                                style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 11px; letter-spacing: 0.5px;">
                                 Standard 05
                             </span>
-                            <span class="badge bg-light text-secondary rounded-pill px-3 py-1.5 border small fw-semibold">
+                            <span class="badge bg-light text-secondary rounded-pill px-2.5 py-1 border small fw-semibold" style="font-size: 11px;">
                                 <i class="fa-solid fa-globe text-primary me-1"></i> ISO International
                             </span>
                         </div>
                         
-                        <h4 class="fw-bold text-dark mb-3" style="font-family: 'Oswald', sans-serif; font-size: 24px; letter-spacing: 0.5px;">
+                        <h4 class="fw-bold text-dark mb-2" style="font-family: 'Oswald', sans-serif; font-size: 21px; letter-spacing: 0.5px; line-height: 1.3;">
                             ISO 188 - 2011
                         </h4>
                         
-                        <p class="text-muted small mb-3" style="font-size: 14px; line-height: 1.7;">
-                            <strong class="text-dark">Title:</strong> Rubber, Vulcanized - Accelerated Ageing and Heat Resistance Tests.
+                        <p class="text-muted small mb-2" style="font-size: 13px; line-height: 1.6;">
+                            <strong class="text-dark">Title:</strong> Rubber, Vulcanized - Accelerated Ageing &amp; Heat Resistance Tests.
                         </p>
                         
-                        <p class="text-secondary small mb-4" style="font-size: 14px; line-height: 1.8;">
+                        <p class="text-secondary small mb-4" style="font-size: 13px; line-height: 1.7;">
                             Standardizes hot-air circulating oven exposure at 70&deg;C / 100&deg;C to evaluate polymer degradation resistance, ensuring long-term 50+ year service life in bridges.
                         </p>
                     </div>
 
                     <div class="border-top pt-3 d-flex justify-content-between align-items-center flex-wrap gap-2">
-                        <span class="small text-muted" style="font-size: 13px;">
+                        <span class="small text-muted" style="font-size: 12.5px;">
                             <i class="fa-solid fa-file-pdf text-danger me-1"></i> Ageing Test Code
                         </span>
                         <a href="assets/pp_data/Page 03/Application codes/ISO-188-2011.pdf"
-                            class="btn btn-outline-primary btn-sm rounded-pill px-3.5 py-2 fw-bold open-cert-modal d-inline-flex align-items-center gap-1.5"
+                            class="btn btn-outline-primary btn-sm rounded-pill px-3 py-1.5 fw-bold open-cert-modal d-inline-flex align-items-center gap-1.5"
                             data-doc-url="assets/pp_data/Page 03/Application codes/ISO-188-2011.pdf"
                             data-doc-title="ISO 188 - Accelerated Ageing & Heat Resistance Tests"
-                            data-doc-type="pdf">
+                            data-doc-type="pdf"
+                            style="font-size: 12px;">
                             <i class="fa-solid fa-file-pdf"></i> <span>View Code PDF</span>
                         </a>
                     </div>
@@ -714,44 +719,45 @@ include_once 'partials/header.php';
             </div>
 
             <!-- Code 6: ISO 34-1 (Tear Strength) -->
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay=".2s">
-                <div class="card h-100 border-0 rounded-4 shadow-sm p-4 p-md-5 d-flex flex-column justify-content-between standard-code-card position-relative"
+            <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".35s">
+                <div class="card h-100 border-0 rounded-4 shadow-sm p-4 d-flex flex-column justify-content-between standard-code-card position-relative"
                     style="background: #ffffff; border: 1px solid #e2e8f0 !important;">
-                    <span class="position-absolute top-0 end-0 m-3 m-md-4 badge rounded-pill fw-bold"
-                        style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 13px;">06</span>
+                    <span class="position-absolute top-0 end-0 m-3 badge rounded-pill fw-bold"
+                        style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 12px;">06</span>
                     <div>
                         <div class="d-flex align-items-center gap-2 mb-3">
-                            <span class="badge rounded-pill px-3 py-1.5 fw-bold text-uppercase"
-                                style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 12px; letter-spacing: 1px;">
+                            <span class="badge rounded-pill px-2.5 py-1 fw-bold text-uppercase"
+                                style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 11px; letter-spacing: 0.5px;">
                                 Standard 06
                             </span>
-                            <span class="badge bg-light text-secondary rounded-pill px-3 py-1.5 border small fw-semibold">
+                            <span class="badge bg-light text-secondary rounded-pill px-2.5 py-1 border small fw-semibold" style="font-size: 11px;">
                                 <i class="fa-solid fa-globe text-primary me-1"></i> ISO International
                             </span>
                         </div>
                         
-                        <h4 class="fw-bold text-dark mb-3" style="font-family: 'Oswald', sans-serif; font-size: 24px; letter-spacing: 0.5px;">
+                        <h4 class="fw-bold text-dark mb-2" style="font-family: 'Oswald', sans-serif; font-size: 21px; letter-spacing: 0.5px; line-height: 1.3;">
                             ISO 34-1 - 2015
                         </h4>
                         
-                        <p class="text-muted small mb-3" style="font-size: 14px; line-height: 1.7;">
-                            <strong class="text-dark">Title:</strong> Rubber, Vulcanized - Determination of Tear Strength (Trouser, Angle and Crescent Test Pieces).
+                        <p class="text-muted small mb-2" style="font-size: 13px; line-height: 1.6;">
+                            <strong class="text-dark">Title:</strong> Rubber, Vulcanized - Determination of Tear Strength (Trouser, Angle &amp; Crescent).
                         </p>
                         
-                        <p class="text-secondary small mb-4" style="font-size: 14px; line-height: 1.8;">
+                        <p class="text-secondary small mb-4" style="font-size: 13px; line-height: 1.7;">
                             Governs tear resistance limits to prevent crack propagation under extreme bridge deck live load rotations and lateral seismic shears.
                         </p>
                     </div>
 
                     <div class="border-top pt-3 d-flex justify-content-between align-items-center flex-wrap gap-2">
-                        <span class="small text-muted" style="font-size: 13px;">
+                        <span class="small text-muted" style="font-size: 12.5px;">
                             <i class="fa-solid fa-file-pdf text-danger me-1"></i> Tear Strength Spec
                         </span>
                         <a href="assets/pp_data/Page 03/Application codes/ISO-34-1-2015.pdf"
-                            class="btn btn-outline-primary btn-sm rounded-pill px-3.5 py-2 fw-bold open-cert-modal d-inline-flex align-items-center gap-1.5"
+                            class="btn btn-outline-primary btn-sm rounded-pill px-3 py-1.5 fw-bold open-cert-modal d-inline-flex align-items-center gap-1.5"
                             data-doc-url="assets/pp_data/Page 03/Application codes/ISO-34-1-2015.pdf"
                             data-doc-title="ISO 34-1 - Determination of Tear Strength"
-                            data-doc-type="pdf">
+                            data-doc-type="pdf"
+                            style="font-size: 12px;">
                             <i class="fa-solid fa-file-pdf"></i> <span>View Code PDF</span>
                         </a>
                     </div>
@@ -759,44 +765,45 @@ include_once 'partials/header.php';
             </div>
 
             <!-- Code 7: ISO 815 (Compression Set) -->
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay=".1s">
-                <div class="card h-100 border-0 rounded-4 shadow-sm p-4 p-md-5 d-flex flex-column justify-content-between standard-code-card position-relative"
+            <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
+                <div class="card h-100 border-0 rounded-4 shadow-sm p-4 d-flex flex-column justify-content-between standard-code-card position-relative"
                     style="background: #ffffff; border: 1px solid #e2e8f0 !important;">
-                    <span class="position-absolute top-0 end-0 m-3 m-md-4 badge rounded-pill fw-bold"
-                        style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 13px;">07</span>
+                    <span class="position-absolute top-0 end-0 m-3 badge rounded-pill fw-bold"
+                        style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 12px;">07</span>
                     <div>
                         <div class="d-flex align-items-center gap-2 mb-3">
-                            <span class="badge rounded-pill px-3 py-1.5 fw-bold text-uppercase"
-                                style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 12px; letter-spacing: 1px;">
+                            <span class="badge rounded-pill px-2.5 py-1 fw-bold text-uppercase"
+                                style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 11px; letter-spacing: 0.5px;">
                                 Standard 07
                             </span>
-                            <span class="badge bg-light text-secondary rounded-pill px-3 py-1.5 border small fw-semibold">
+                            <span class="badge bg-light text-secondary rounded-pill px-2.5 py-1 border small fw-semibold" style="font-size: 11px;">
                                 <i class="fa-solid fa-globe text-primary me-1"></i> ISO International
                             </span>
                         </div>
                         
-                        <h4 class="fw-bold text-dark mb-3" style="font-family: 'Oswald', sans-serif; font-size: 24px; letter-spacing: 0.5px;">
+                        <h4 class="fw-bold text-dark mb-2" style="font-family: 'Oswald', sans-serif; font-size: 21px; letter-spacing: 0.5px; line-height: 1.3;">
                             ISO 815 - 1972
                         </h4>
                         
-                        <p class="text-muted small mb-3" style="font-size: 14px; line-height: 1.7;">
-                            <strong class="text-dark">Title:</strong> Vulcanized Rubbers - Determination of Compression Set at Normal and High Temperatures.
+                        <p class="text-muted small mb-2" style="font-size: 13px; line-height: 1.6;">
+                            <strong class="text-dark">Title:</strong> Vulcanized Rubbers - Compression Set at Normal &amp; High Temperatures.
                         </p>
                         
-                        <p class="text-secondary small mb-4" style="font-size: 14px; line-height: 1.8;">
+                        <p class="text-secondary small mb-4" style="font-size: 13px; line-height: 1.7;">
                             Tests permanent deformation of rubber under continuous compressive strain (25% deflection for 24h at 70&deg;C) ensuring high elastic recovery (&le; 35% compression set).
                         </p>
                     </div>
 
                     <div class="border-top pt-3 d-flex justify-content-between align-items-center flex-wrap gap-2">
-                        <span class="small text-muted" style="font-size: 13px;">
-                            <i class="fa-solid fa-file-pdf text-danger me-1"></i> Compression Set Spec
+                        <span class="small text-muted" style="font-size: 12.5px;">
+                            <i class="fa-solid fa-file-pdf text-danger me-1"></i> Compression Set
                         </span>
                         <a href="assets/pp_data/Page 03/Application codes/ISO-815-1972.pdf"
-                            class="btn btn-outline-primary btn-sm rounded-pill px-3.5 py-2 fw-bold open-cert-modal d-inline-flex align-items-center gap-1.5"
+                            class="btn btn-outline-primary btn-sm rounded-pill px-3 py-1.5 fw-bold open-cert-modal d-inline-flex align-items-center gap-1.5"
                             data-doc-url="assets/pp_data/Page 03/Application codes/ISO-815-1972.pdf"
                             data-doc-title="ISO 815 - Determination of Compression Set"
-                            data-doc-type="pdf">
+                            data-doc-type="pdf"
+                            style="font-size: 12px;">
                             <i class="fa-solid fa-file-pdf"></i> <span>View Code PDF</span>
                         </a>
                     </div>
@@ -804,44 +811,45 @@ include_once 'partials/header.php';
             </div>
 
             <!-- Code 8: ISO 48 (Hardness Testing) -->
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay=".2s">
-                <div class="card h-100 border-0 rounded-4 shadow-sm p-4 p-md-5 d-flex flex-column justify-content-between standard-code-card position-relative"
+            <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".45s">
+                <div class="card h-100 border-0 rounded-4 shadow-sm p-4 d-flex flex-column justify-content-between standard-code-card position-relative"
                     style="background: #ffffff; border: 1px solid #e2e8f0 !important;">
-                    <span class="position-absolute top-0 end-0 m-3 m-md-4 badge rounded-pill fw-bold"
-                        style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 13px;">08</span>
+                    <span class="position-absolute top-0 end-0 m-3 badge rounded-pill fw-bold"
+                        style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 12px;">08</span>
                     <div>
                         <div class="d-flex align-items-center gap-2 mb-3">
-                            <span class="badge rounded-pill px-3 py-1.5 fw-bold text-uppercase"
-                                style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 12px; letter-spacing: 1px;">
+                            <span class="badge rounded-pill px-2.5 py-1 fw-bold text-uppercase"
+                                style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 11px; letter-spacing: 0.5px;">
                                 Standard 08
                             </span>
-                            <span class="badge bg-light text-secondary rounded-pill px-3 py-1.5 border small fw-semibold">
+                            <span class="badge bg-light text-secondary rounded-pill px-2.5 py-1 border small fw-semibold" style="font-size: 11px;">
                                 <i class="fa-solid fa-globe text-primary me-1"></i> ISO International
                             </span>
                         </div>
                         
-                        <h4 class="fw-bold text-dark mb-3" style="font-family: 'Oswald', sans-serif; font-size: 24px; letter-spacing: 0.5px;">
+                        <h4 class="fw-bold text-dark mb-2" style="font-family: 'Oswald', sans-serif; font-size: 21px; letter-spacing: 0.5px; line-height: 1.3;">
                             ISO 48 - 2010
                         </h4>
                         
-                        <p class="text-muted small mb-3" style="font-size: 14px; line-height: 1.7;">
-                            <strong class="text-dark">Title:</strong> Rubber, Vulcanized - Determination of Hardness (Hardness between 10 IRHD and 100 IRHD).
+                        <p class="text-muted small mb-2" style="font-size: 13px; line-height: 1.6;">
+                            <strong class="text-dark">Title:</strong> Rubber, Vulcanized - Determination of Hardness (10 to 100 IRHD).
                         </p>
                         
-                        <p class="text-secondary small mb-4" style="font-size: 14px; line-height: 1.8;">
+                        <p class="text-secondary small mb-4" style="font-size: 13px; line-height: 1.7;">
                             International standard defining IRHD micro and macro indentation hardness measurements for bridge bearing elastomeric compounds (specified 60 &plusmn; 5 IRHD).
                         </p>
                     </div>
 
                     <div class="border-top pt-3 d-flex justify-content-between align-items-center flex-wrap gap-2">
-                        <span class="small text-muted" style="font-size: 13px;">
+                        <span class="small text-muted" style="font-size: 12.5px;">
                             <i class="fa-solid fa-file-pdf text-danger me-1"></i> Hardness Test Code
                         </span>
                         <a href="assets/pp_data/Page 03/Application codes/ISO_48_2010_EN.pdf.pdf"
-                            class="btn btn-outline-primary btn-sm rounded-pill px-3.5 py-2 fw-bold open-cert-modal d-inline-flex align-items-center gap-1.5"
+                            class="btn btn-outline-primary btn-sm rounded-pill px-3 py-1.5 fw-bold open-cert-modal d-inline-flex align-items-center gap-1.5"
                             data-doc-url="assets/pp_data/Page 03/Application codes/ISO_48_2010_EN.pdf.pdf"
                             data-doc-title="ISO 48 - Determination of Hardness (IRHD)"
-                            data-doc-type="pdf">
+                            data-doc-type="pdf"
+                            style="font-size: 12px;">
                             <i class="fa-solid fa-file-pdf"></i> <span>View Code PDF</span>
                         </a>
                     </div>

@@ -81,11 +81,9 @@ $current_page = basename($_SERVER['PHP_SELF']);
                     </div>
                     <div class="col-lg-6 col-md-6 text-center text-md-end">
                         <ul class="right list-inline mb-0 small" style="font-size:13px; font-family:'Saira-Medium', sans-serif;">
-                            <!-- <li class="list-inline-item me-3">
-                                <i class="fa-solid fa-phone text-white me-1"></i>
-                                <a href="tel:8975766459" class="text-white text-decoration-none fw-semibold">+91 8975766459</a>
-                                <span class="d-none d-sm-inline"> / <a href="tel:02532350935" class="text-white text-decoration-none">0253 235 0935</a></span>
-                            </li> -->
+                            <li class="list-inline-item me-3 d-none d-sm-inline-block text-white">
+                                <i class="fa-solid fa-clock text-white me-1"></i>Sunday to Friday: 10:00 AM to 6:30 PM
+                            </li>
                             <li class="list-inline-item d-none d-sm-inline-block">
                                 <i class="fa-solid fa-envelope text-white me-1"></i>
                                 <a href="mailto:sales@polymerproducts.org" class="text-white text-decoration-none">sales@polymerproducts.org</a>
@@ -266,6 +264,10 @@ $current_page = basename($_SERVER['PHP_SELF']);
                     <span class="text-dark fw-semibold">Year of Establishment: 1978</span>
                 </p>
                 <div class="d-flex flex-column gap-1 small" style="font-size: 12.5px;">
+                    <div>
+                        <i class="fa-solid fa-clock text-warning me-2"></i>
+                        <span class="text-secondary fw-semibold">Sunday to Friday: 10:00 AM to 6:30 PM</span>
+                    </div>
                     <div>
                         <i class="fa-solid fa-phone text-success me-2"></i>
                         <a href="tel:8975766459" class="text-dark fw-bold text-decoration-none">+91 8975766459</a>

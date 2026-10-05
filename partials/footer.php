@@ -159,7 +159,7 @@
                         </div>
                     </div>
 
-                    <div class="footer-contact-item d-flex align-items-start">
+                    <div class="footer-contact-item d-flex align-items-start mb-3">
                         <div class="contact-icon me-3 mt-1 d-flex align-items-center justify-content-center rounded-circle flex-shrink-0"
                             style="width: 34px; height: 34px; background: var(--theme-subtle); color: var(--theme-light);">
                             <i class="fa-solid fa-envelope" style="font-size: 14px;"></i>
@@ -168,6 +168,17 @@
                             <span class="d-block fw-semibold text-white">Technical &amp; Sales Inquiries:</span>
                             <a href="mailto:sales@polymerproducts.org"
                                 class="text-decoration-none text-light d-block hover-blue">sales@polymerproducts.org</a>
+                        </div>
+                    </div>
+
+                    <div class="footer-contact-item d-flex align-items-start">
+                        <div class="contact-icon me-3 mt-1 d-flex align-items-center justify-content-center rounded-circle flex-shrink-0"
+                            style="width: 34px; height: 34px; background: var(--theme-subtle); color: var(--theme-light);">
+                            <i class="fa-solid fa-clock" style="font-size: 14px;"></i>
+                        </div>
+                        <div style="font-size: 14px; color: #cbd5e1; line-height: 1.6;">
+                            <span class="d-block fw-semibold text-white">Plant Working Hours:</span>
+                            <span>Sunday to Friday: 10:00 AM to 6:30 PM</span>
                         </div>
                     </div>
                 </div>

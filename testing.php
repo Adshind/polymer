@@ -2,6 +2,66 @@
 $page_title = "Testing & QA/QC System (NHAI & RDSO) - Polymer Products";
 $meta_description = "Quality Assurance Plan (QAP), material testing protocols, 1.5x proof-load verification, and third-party inspection for elastomeric bridge bearings.";
 include_once 'partials/header.php'; 
+
+// Testing & Laboratory Showcase Images Array (Easily add or replace images here)
+$testing_slider_images = [
+    [
+        "file" => "assets/pp_data/Machine_Images/IMG20260913162712.jpg",
+        "title" => "Compressive Proof Load Testing (1.5x)",
+        "tag" => "1.5x Proof Load",
+        "badge_color" => "danger",
+        "desc" => "100% finished bearings subjected to 1.5 times the maximum design compressive vertical load verifying zero cracking or bond failure."
+    ],
+    [
+        "file" => "assets/pp_data/Machine_Images/IMG20260913164426.jpg",
+        "title" => "Universal Tensile Testing (UTM)",
+        "tag" => "IS:3400 / ASTM D412",
+        "badge_color" => "primary",
+        "desc" => "Computerized UTM verifying elastomer tensile strength (≥17 MPa) and elongation at break (≥400%) for every compounded batch."
+    ],
+    [
+        "file" => "assets/pp_data/Machine_Images/IMG20260913162650.jpg",
+        "title" => "Shore-A Hardness Verification",
+        "tag" => "Hardness & IRHD",
+        "badge_color" => "success",
+        "desc" => "Calibrated digital Shore-A durometer checks across top, bottom, and side faces strictly within 60 ± 5 IRHD / Shore A tolerance."
+    ],
+    [
+        "file" => "assets/pp_data/Machine_Images/IMG20260913164437.jpg",
+        "title" => "Accelerated Thermal Ageing Oven",
+        "tag" => "70°C / 72 Hours",
+        "badge_color" => "warning",
+        "desc" => "Digital air-circulated ageing chamber testing elastomer durability under elevated temperature per IS:3400 (Pt 4) & ASTM D573."
+    ],
+    [
+        "file" => "assets/pp_data/Machine_Images/IMG20260913162728.jpg",
+        "title" => "Compressive Load Verification Frame",
+        "tag" => "Hydraulic Rig",
+        "badge_color" => "info",
+        "desc" => "High-tonnage hydraulic test rig verifying uniform compression, elastomer-steel bonding, and zero edge splitting under heavy loading."
+    ],
+    [
+        "file" => "assets/pp_data/Machine_Images/IMG20260913162739.jpg",
+        "title" => "Computerized QC Test Console",
+        "tag" => "Digital DAQ Console",
+        "badge_color" => "primary",
+        "desc" => "Real-time load vs deflection data acquisition generating automated inspection test reports and load compliance curves."
+    ],
+    [
+        "file" => "assets/pp_data/Machine_Images/IMG20260913162657.jpg",
+        "title" => "Dimensional & Parallelism Inspection",
+        "tag" => "Tolerance QC",
+        "badge_color" => "secondary",
+        "desc" => "Precision vernier calliper and height gauge inspection verifying length, width, thickness, and flatness tolerances per IRC:83."
+    ],
+    [
+        "file" => "assets/pp_data/Machine_Images/IMG20260913164454.jpg",
+        "title" => "Compression Set & Lab Apparatus",
+        "tag" => "IS:3400 (Pt 10)",
+        "badge_color" => "dark",
+        "desc" => "Precision compression fixtures verifying permanent deflection limit (≤35% max) after 24 hours constant deflection at 70°C."
+    ]
+];
 ?>
 
 <style>
@@ -51,6 +111,69 @@ include_once 'partials/header.php';
     object-fit: cover;
     background: #f1f5f9;
 }
+
+/* Slider Section Styling */
+.testing-slider-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 18px;
+    overflow: hidden;
+    transition: all 0.35s ease;
+}
+.testing-slider-card:hover {
+    transform: translateY(-6px);
+    border-color: var(--theme-primary);
+    box-shadow: 0 16px 32px rgba(2, 132, 199, 0.12) !important;
+}
+.testing-slider-img-wrap {
+    height: 220px;
+    position: relative;
+    overflow: hidden;
+    background: #0f172a;
+}
+.testing-slider-img-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+.testing-slider-card:hover .testing-slider-img-wrap img {
+    transform: scale(1.08);
+}
+.testing-slider-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(0,0,0,0.1) 0%, rgba(15,23,42,0.7) 100%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.testing-slider-card:hover .testing-slider-overlay {
+    opacity: 1;
+}
+.testing-nav-btn {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 1px solid #e2e8f0;
+    background: #ffffff;
+    color: var(--theme-primary);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+.testing-nav-btn:hover {
+    background: var(--theme-primary);
+    color: #ffffff;
+    border-color: var(--theme-primary);
+    box-shadow: 0 6px 16px var(--theme-glow);
+    transform: scale(1.06);
+}
 </style>
 
 <!-- ============================================================
@@ -73,7 +196,10 @@ include_once 'partials/header.php';
                     Comprehensive Quality Assurance Plans (QAP), raw compound laboratory testing, 1.5x proof-load verification, and stage-wise third-party inspection support.
                 </p>
                 <div class="d-flex flex-wrap gap-2 pt-1">
-                    <a href="#qap-plans" class="btn btn-primary rounded-pill px-4 py-2.5 fw-bold text-uppercase" style="background:var(--theme-primary); border-color:var(--theme-primary); font-size:13px; letter-spacing:0.5px;">
+                    <a href="#testing-gallery-slider" class="btn btn-primary rounded-pill px-4 py-2.5 fw-bold text-uppercase" style="background:var(--theme-primary); border-color:var(--theme-primary); font-size:13px; letter-spacing:0.5px;">
+                        <i class="fa-solid fa-images me-2"></i>Testing Photos
+                    </a>
+                    <a href="#qap-plans" class="btn btn-outline-light rounded-pill px-4 py-2.5 fw-bold text-uppercase" style="font-size:13px; letter-spacing:0.5px;">
                         <i class="fa-solid fa-clipboard-check me-2"></i>Approved QAP Plans
                     </a>
                     <a href="#test-parameters" class="btn btn-outline-light rounded-pill px-4 py-2.5 fw-bold text-uppercase" style="font-size:13px; letter-spacing:0.5px;">
@@ -98,7 +224,89 @@ include_once 'partials/header.php';
 </section>
 
 <!-- ============================================================
-     2. Core Quality Assurance Plans (NHAI & RDSO)
+     2. Testing & Inspection Gallery Slider (Interactive Carousel)
+     ============================================================ -->
+<section class="py-5" id="testing-gallery-slider" style="background: #f8fafc; border-bottom: 1px solid #e2e8f0;">
+    <div class="container-fluid px-3 px-lg-5 py-2">
+        <div class="d-flex flex-wrap align-items-end justify-content-between mb-4 gap-3">
+            <div>
+                <span class="badge px-3 py-1.5 rounded-pill font-monospace fw-bold text-uppercase mb-2"
+                    style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 12px; letter-spacing: 1px;">
+                    Visual Verification
+                </span>
+                <h2 class="fw-bold text-dark text-uppercase mb-0" style="font-family:'Oswald', sans-serif; font-size: clamp(24px, 3vw, 34px);">
+                    Laboratory Testing &amp; Inspection Showcase
+                </h2>
+                <p class="text-muted small mt-1 mb-0" style="max-width: 680px;">
+                    Stage-wise testing rigs, proof load frames, UTM tensile setups, and digital measurement instrumentation in action.
+                </p>
+            </div>
+
+            <!-- Slider Controls -->
+            <div class="d-flex align-items-center gap-2">
+                <button type="button" class="testing-nav-btn testing-slider-prev" aria-label="Previous Slide">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </button>
+                <button type="button" class="testing-nav-btn testing-slider-next" aria-label="Next Slide">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Swiper Container -->
+        <div class="swiper testing-swiper-container overflow-hidden pb-4">
+            <div class="swiper-wrapper">
+                <?php foreach ($testing_slider_images as $idx => $tImg): ?>
+                <div class="swiper-slide h-auto">
+                    <div class="testing-slider-card h-100 d-flex flex-column justify-content-between">
+                        <div>
+                            <div class="testing-slider-img-wrap">
+                                <img src="<?php echo htmlspecialchars($tImg['file']); ?>" alt="<?php echo htmlspecialchars($tImg['title']); ?>" loading="lazy">
+                                <span class="badge bg-<?php echo $tImg['badge_color']; ?> position-absolute top-0 start-0 m-3 px-2.5 py-1.5 rounded-pill fw-semibold shadow-sm" style="font-size: 11px; z-index: 2;">
+                                    <?php echo htmlspecialchars($tImg['tag']); ?>
+                                </span>
+                                <div class="testing-slider-overlay">
+                                    <button type="button" class="btn btn-light btn-sm rounded-pill fw-bold open-testing-doc-modal px-3 py-1.5 shadow"
+                                        data-doc-url="<?php echo htmlspecialchars($tImg['file']); ?>"
+                                        data-doc-title="<?php echo htmlspecialchars($tImg['title']); ?>"
+                                        data-doc-type="image">
+                                        <i class="fa-solid fa-magnifying-glass-plus me-1 text-primary"></i> Zoom Photo
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="p-4">
+                                <h5 class="fw-bold text-dark mb-2" style="font-family: 'Oswald', sans-serif; font-size: 18px; line-height: 1.3;">
+                                    <?php echo htmlspecialchars($tImg['title']); ?>
+                                </h5>
+                                <p class="small text-muted mb-0" style="line-height: 1.6; font-size: 13px;">
+                                    <?php echo htmlspecialchars($tImg['desc']); ?>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="px-4 pb-4 pt-0">
+                            <button type="button" class="btn btn-outline-primary btn-sm rounded-pill w-100 fw-bold open-testing-doc-modal d-flex align-items-center justify-content-center gap-1.5"
+                                data-doc-url="<?php echo htmlspecialchars($tImg['file']); ?>"
+                                data-doc-title="<?php echo htmlspecialchars($tImg['title']); ?>"
+                                data-doc-type="image"
+                                style="font-size: 12px;">
+                                <i class="fa-solid fa-image"></i> <span>View High-Res Photo</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <?php endforeach; ?>
+            </div>
+            
+            <!-- Swiper Pagination -->
+            <div class="swiper-pagination testing-slider-pagination position-relative mt-3 text-center"></div>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================================
+     3. Core Quality Assurance Plans (NHAI & RDSO)
      ============================================================ -->
 <section class="py-5" id="qap-plans" style="background:#ffffff;">
     <div class="container-fluid px-3 px-lg-5 py-3">
@@ -220,7 +428,7 @@ include_once 'partials/header.php';
 </section>
 
 <!-- ============================================================
-     3. Routine & Acceptance Test Parameters Table
+     4. Routine & Acceptance Test Parameters Table
      ============================================================ -->
 <section class="py-5" id="test-parameters" style="background:#f8fafc; border-top:1px solid #e2e8f0; border-bottom:1px solid #e2e8f0;">
     <div class="container-fluid px-3 px-lg-5 py-3">
@@ -313,7 +521,7 @@ include_once 'partials/header.php';
 </section>
 
 <!-- ============================================================
-     4. In-House Testing Laboratory & Equipment
+     5. In-House Testing Laboratory & Equipment
      ============================================================ -->
 <section class="py-5" id="lab-facilities" style="background:#ffffff;">
     <div class="container-fluid px-3 px-lg-5 py-3">
@@ -396,20 +604,20 @@ include_once 'partials/header.php';
 </section>
 
 <!-- ============================================================
-     5. Document Viewer Modal
+     6. Universal Testing Document & Image Lightbox Modal Viewer
      ============================================================ -->
-<div class="modal fade" id="testingDocModal" tabindex="-1" aria-labelledby="testingDocModalLabel" aria-hidden="true" style="z-index: 99999;">
+<div class="modal fade" id="testingDocModal" tabindex="-1" aria-labelledby="testingDocModalLabel" aria-hidden="true" style="z-index: 10500;">
     <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
-        <div class="modal-content border-0 shadow-lg overflow-hidden" style="border-radius: 16px;">
+        <div class="modal-content border-0 shadow-lg rounded-4 overflow-hidden">
             
-            <div class="modal-header px-4 py-3" style="background: linear-gradient(135deg, #091424 0%, #152744 100%); border-bottom: 2px solid var(--theme-primary);">
-                <div class="d-flex align-items-center gap-3">
-                    <div class="rounded-circle p-2 d-flex align-items-center justify-content-center" style="background: rgba(2, 132, 199, 0.2); width: 42px; height: 42px;">
+            <div class="modal-header text-white px-4 py-3" style="background: var(--theme-primary);">
+                <div class="d-flex align-items-center">
+                    <div class="modal-icon-wrap me-3 p-2 bg-white bg-opacity-25 rounded-circle d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">
                         <i id="testingDocModalIcon" class="fa-solid fa-file-pdf text-white fs-5"></i>
                     </div>
                     <div>
-                        <h5 class="modal-title fw-bold text-white mb-0" id="testingDocModalLabel">Quality Assurance Plan</h5>
-                        <small class="text-white-50" style="font-size: 12px;">Verified Quality &amp; Testing Plan &bull; Polymer Products</small>
+                        <h5 class="modal-title fw-bold text-white mb-0" id="testingDocModalLabel">Testing &amp; QA Document</h5>
+                        <small id="testingDocModalSub" class="text-white-50" style="font-size: 12px;">Verified Quality &amp; Laboratory Inspection &bull; Polymer Products</small>
                     </div>
                 </div>
                 <div class="d-flex align-items-center gap-2">
@@ -417,20 +625,26 @@ include_once 'partials/header.php';
                 </div>
             </div>
 
-            <div class="modal-body p-0 position-relative" style="background: #0f172a; min-height: 540px;">
+            <div class="modal-body p-0 position-relative" style="background: #0f172a; min-height: 520px;">
                 <div id="testingDocModalLoader" class="position-absolute top-50 start-50 translate-middle text-center py-5">
                     <div class="spinner-border text-primary mb-2" role="status" style="width: 3rem; height: 3rem;">
                         <span class="visually-hidden">Loading...</span>
                     </div>
-                    <p class="text-white-50 small mb-0">Loading QAP document preview...</p>
+                    <p class="text-white-50 small mb-0">Loading preview...</p>
                 </div>
 
+                <!-- PDF Frame -->
                 <iframe id="testingDocModalIframe" src="" style="width: 100%; height: 75vh; border: none; display: none; background: #fff;" allowfullscreen></iframe>
+
+                <!-- Image Preview -->
+                <div id="testingDocModalImgWrap" class="p-2 p-md-3" style="display: none; height: 75vh; min-height: 520px; overflow-y: auto; background: #0f172a; align-items: center; justify-content: center;">
+                    <img id="testingDocModalImage" src="" alt="Testing Preview" style="max-height: 72vh; max-width: 95%; width: auto; height: auto; object-fit: contain; box-shadow: 0 10px 30px rgba(0,0,0,0.5); border-radius: 8px; background: #fff; margin: auto; display: block;">
+                </div>
             </div>
 
             <div class="modal-footer bg-white px-4 py-3 border-top d-flex justify-content-between align-items-center">
                 <span class="text-muted small">
-                    <i class="fa-solid fa-shield-check text-success me-1"></i> Official Approved QAP Document &bull; Polymer Products (Estd. 1978)
+                    <i class="fa-solid fa-shield-check text-success me-1"></i> Quality &amp; Laboratory Inspection &bull; Polymer Products (Estd. 1978)
                 </span>
                 <button type="button" class="btn btn-dark btn-sm rounded-pill px-4 fw-bold" data-bs-dismiss="modal">Close</button>
             </div>
@@ -438,14 +652,55 @@ include_once 'partials/header.php';
     </div>
 </div>
 
-<!-- Modal Script with Smooth Scroll Unlock -->
+<!-- Modal & Swiper Slider Scripts with Smooth Scroll Unlock -->
 <script>
 document.addEventListener('DOMContentLoaded', function () {
+    // 1. Initialize Testing Images Swiper Carousel
+    if (typeof Swiper !== 'undefined') {
+        new Swiper('.testing-swiper-container', {
+            slidesPerView: 1,
+            spaceBetween: 24,
+            loop: true,
+            autoplay: {
+                delay: 4500,
+                disableOnInteraction: false,
+                pauseOnMouseEnter: true,
+            },
+            pagination: {
+                el: '.testing-slider-pagination',
+                clickable: true,
+                dynamicBullets: true,
+            },
+            navigation: {
+                nextEl: '.testing-slider-next',
+                prevEl: '.testing-slider-prev',
+            },
+            breakpoints: {
+                576: {
+                    slidesPerView: 2,
+                    spaceBetween: 20
+                },
+                992: {
+                    slidesPerView: 3,
+                    spaceBetween: 24
+                },
+                1200: {
+                    slidesPerView: 4,
+                    spaceBetween: 24
+                }
+            }
+        });
+    }
+
+    // 2. Testing Document & Image Lightbox Modal Handler
     const docModalEl = document.getElementById('testingDocModal');
     if (!docModalEl) return;
 
     const modalTitle = document.getElementById('testingDocModalLabel');
+    const modalIcon = document.getElementById('testingDocModalIcon');
     const modalIframe = document.getElementById('testingDocModalIframe');
+    const modalImgWrap = document.getElementById('testingDocModalImgWrap');
+    const modalImage = document.getElementById('testingDocModalImage');
     const modalLoader = document.getElementById('testingDocModalLoader');
 
     function getModalInstance() {
@@ -457,8 +712,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function unlockPageScroll() {
         modalIframe.src = '';
+        modalImage.src = '';
         modalLoader.style.display = 'none';
         modalIframe.style.display = 'none';
+        modalImgWrap.style.display = 'none';
 
         document.body.classList.remove('modal-open');
         document.body.style.removeProperty('overflow');
@@ -477,28 +734,46 @@ document.addEventListener('DOMContentLoaded', function () {
             e.preventDefault();
 
             const url = this.getAttribute('data-doc-url');
-            const title = this.getAttribute('data-doc-title') || 'Quality Assurance Plan';
+            const title = this.getAttribute('data-doc-title') || 'Testing & QA Inspection';
+            const type = this.getAttribute('data-doc-type') || (url.toLowerCase().match(/\.(png|jpg|jpeg|webp)$/) ? 'image' : 'pdf');
 
             if (!url) return;
 
             modalTitle.textContent = title;
             modalLoader.style.display = 'block';
             modalIframe.style.display = 'none';
+            modalImgWrap.style.display = 'none';
             modalIframe.src = '';
+            modalImage.src = '';
 
-            const cleanUrl = url.split('#')[0];
-            const pdfViewerUrl = cleanUrl + '#toolbar=0&navpanes=0&scrollbar=0';
+            if (type === 'image') {
+                modalIcon.className = 'fa-solid fa-image text-white fs-5';
+                modalImage.onload = function () {
+                    modalLoader.style.display = 'none';
+                    modalImgWrap.style.display = 'flex';
+                };
+                modalImage.onerror = function () {
+                    modalLoader.style.display = 'none';
+                    modalImgWrap.innerHTML = '<div class="p-4 text-center text-white"><i class="fa-solid fa-triangle-exclamation fa-2x mb-2 text-warning"></i><p>Unable to preview image.</p></div>';
+                    modalImgWrap.style.display = 'flex';
+                };
+                modalImage.src = url;
+            } else {
+                modalIcon.className = 'fa-solid fa-file-pdf text-white fs-5';
+                const cleanUrl = url.split('#')[0];
+                const pdfViewerUrl = cleanUrl + '#toolbar=0&navpanes=0&scrollbar=0';
 
-            modalIframe.onload = function () {
-                modalLoader.style.display = 'none';
-                modalIframe.style.display = 'block';
-            };
-            modalIframe.src = pdfViewerUrl;
-            
-            setTimeout(function () {
-                modalLoader.style.display = 'none';
-                modalIframe.style.display = 'block';
-            }, 600);
+                modalIframe.onload = function () {
+                    modalLoader.style.display = 'none';
+                    modalIframe.style.display = 'block';
+                };
+                modalIframe.src = pdfViewerUrl;
+                
+                setTimeout(function () {
+                    modalLoader.style.display = 'none';
+                    modalIframe.style.display = 'block';
+                }, 600);
+            }
 
             const bsModal = getModalInstance();
             if (bsModal) {

@@ -903,8 +903,8 @@ include_once 'partials/header.php';
         <div class="d-flex justify-content-center gap-3 flex-wrap">
             <a href="contact.php" class="btn btn-light text-primary btn-lg rounded-pill px-4 fw-bold shadow">Submit
                 Inquiry / RFQ</a>
-            <a href="tel:8975766459" class="btn btn-outline-light btn-lg rounded-pill px-4 fw-bold"><i
-                    class="fa-solid fa-phone me-2"></i>Call: 8975766459</a>
+            <!-- <a href="tel:8975766459" class="btn btn-outline-light btn-lg rounded-pill px-4 fw-bold"><i
+                    class="fa-solid fa-phone me-2"></i>Call: 8975766459</a> -->
         </div>
     </div>
 </section>

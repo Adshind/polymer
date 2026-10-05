@@ -238,7 +238,7 @@ include_once 'partials/header.php';
                             data-doc-title="Dynamic Prestress - Sister Concern Credential Letter (2026)"
                             data-doc-type="pdf"
                             style="background: var(--theme-primary);">
-                            <i class="fa-solid fa-eye me-1"></i> View Credential Letter
+                            <i class="fa-solid fa-eye me-1"></i> View Sister Concern Certificate
                         </a>
                     </div>
                 </div>
@@ -395,7 +395,7 @@ include_once 'partials/header.php';
                                     <i class="fa-solid fa-graduation-cap me-1"></i> B.Sc. L.P.R.I. (London)
                                 </span>
                                 <p class="text-secondary small mb-2" style="line-height: 1.7; font-size: 13.5px;">
-                                    Has <strong>48 years of extensive experience</strong> in conducting chemical composition tests of Elastomer &amp; testing of finished bearings &amp; raw materials. Actively overseeing day-to-day precision production and quality compliance.
+                                    With 48 years of extensive experience, he brings deep expertise in elastomer chemical composition testing, finished bearing and raw material testing, and day-to-day production management. His strong technical knowledge, practical industry experience, and hands-on leadership contribute to maintaining quality, consistency, and efficient manufacturing operations.
                                 </p>
                             </div>
                         </div>
@@ -435,7 +435,7 @@ include_once 'partials/header.php';
                                     <i class="fa-solid fa-graduation-cap me-1"></i> M.Sc. (Chemistry)
                                 </span>
                                 <p class="text-secondary small mb-2" style="line-height: 1.7; font-size: 13.5px;">
-                                    Brings <strong>39 years of specialized experience</strong> in rigorous testing of physical properties of elastomeric compounds, chemical composition analysis, and polymer batch certification.
+                                    With 39 years of extensive experience, she brings strong expertise in testing the physical properties and chemical composition of elastomeric compounds. Her deep technical knowledge and meticulous approach to material testing contribute significantly to quality assurance, product reliability, and consistent manufacturing standards.
                                 </p>
                             </div>
                         </div>
@@ -475,7 +475,7 @@ include_once 'partials/header.php';
                                     <i class="fa-solid fa-graduation-cap me-1"></i> B.E. (Mechanical)
                                 </span>
                                 <p class="text-secondary small mb-2" style="line-height: 1.7; font-size: 13.5px;">
-                                    Has <strong>16 years of hands-on experience</strong> in structural design engineering, quality control (QC), vulcanization tooling, and plant production management for mega projects.
+                                    With 16 years of experience, he brings strong expertise in bearing design, quality control, and production management. His technical knowledge and hands-on approach contribute to maintaining high standards of quality, efficient production, and continuous improvement. He also plays an active role in technical coordination and operational decision-making, supporting the smooth execution of projects and overall manufacturing performance.
                                 </p>
                             </div>
                         </div>
@@ -514,7 +514,7 @@ include_once 'partials/header.php';
             <div class="row g-4">
 
                 <!-- 4. Sunil Kotagi - ASST GENERAL MANAGER -->
-                <!-- <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".1s">
+                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".1s">
                     <div class="team-card-modern h-100 d-flex flex-column justify-content-between position-relative shadow-sm">
                         <div>
                             <div class="team-photo-wrap standard-height position-relative d-flex align-items-center justify-content-center"
@@ -552,14 +552,14 @@ include_once 'partials/header.php';
                             </span>
                         </div>
                     </div>
-                </div> -->
+                </div>
 
                 <!-- 5. Tausifkhan Pathan - DY. MANAGER DESIGN & TESTING -->
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".2s">
                     <div class="team-card-modern h-100 d-flex flex-column justify-content-between position-relative shadow-sm">
                         <div>
                             <div class="team-photo-wrap standard-height position-relative">
-                                <img src="/assets/pp_data/Page 02/Emp Details/Pathan sir/Tausifkhan-Pathan.png" alt="Tausifkhan Pathan - Dy. Manager Design & Testing" class="team-card-img">
+                                <img src="assets/pp_data/Page 02/Emp Details/Pathan sir/Tausifkhan-Pathan.png" alt="Tausifkhan Pathan - Dy. Manager Design & Testing" class="team-card-img">
                                 <div class="team-photo-overlay"></div>
                                 <div class="team-badge-icon" title="Design & Testing">
                                     <i class="fa-solid fa-compass-drafting"></i>
@@ -576,14 +576,14 @@ include_once 'partials/header.php';
                                     <i class="fa-solid fa-graduation-cap me-1"></i> B.E. (Mechanical)
                                 </span>
                                 <p class="text-secondary small mb-0" style="line-height: 1.6; font-size: 13px;">
-                                    Has <strong>12 years of experience</strong> in structural design calculations, finite element modeling, and proof-load testing of finished bridge bearings as per IRC:83 / RDSO.
+                                    With 13 years of professional experience, including 8 years at Dynamic Prestress, he specializes in elastomeric and pot bearing design, engineering drawings, testing, QA/QC, and production coordination. His expertise includes client and consultant coordination, technical problem-solving, and project-site support, ensuring effective solutions throughout the bearing lifecycle.
                                 </p>
                             </div>
                         </div>
                         <div class="p-3 border-top bg-light bg-opacity-25">
-                            <a href="assets/pp_data/Page 02/Emp Details/Pathan sir/PATHAN.pdf"  target="_blank"
-                                class="btn btn-outline-primary btn-sm rounded-pill px-3 py-2 fw-bold w-80 open-cert-modal d-flex align-items-center justify-content-center gap-2"
-                                data-doc-url="/assets/pp_data/Page 02/Emp Details/Pathan sir/PATHAN.pdf"
+                            <a href="assets/pp_data/Page 02/Emp Details/Pathan sir/PATHAN.pdf" target="_blank"
+                                class="btn btn-outline-primary btn-sm rounded-pill px-3 py-2 fw-bold w-100 open-cert-modal d-flex align-items-center justify-content-center gap-2"
+                                data-doc-url="assets/pp_data/Page 02/Emp Details/Pathan sir/PATHAN.pdf"
                                 data-doc-title="Tausifkhan Pathan - Technical Credentials"
                                 data-doc-type="pdf">
                                 <i class="fa-solid fa-certificate"></i> <span>View Institute Certificate</span>
@@ -614,7 +614,7 @@ include_once 'partials/header.php';
                                     <i class="fa-solid fa-graduation-cap me-1"></i> ITI (Rubber Technician)
                                 </span>
                                 <p class="text-secondary small mb-0" style="line-height: 1.6; font-size: 13px;">
-                                    Skilled technical specialist operating tensile testing machines, rheometers, hardness durometers, aging ovens, and specimen preparations for batch testing.
+                                    As a Rubber Technologist at Polymer Products, he specializes in polymer science, elastomer technology, and advanced material compounding. His expertise includes the formulation, processing, and development of high-performance polymer products, with a focus on achieving durability, reliability, and consistent product performance.
                                 </p>
                             </div>
                         </div>
@@ -652,7 +652,7 @@ include_once 'partials/header.php';
                                     <i class="fa-solid fa-graduation-cap me-1"></i> B.Com
                                 </span>
                                 <p class="text-secondary small mb-0" style="line-height: 1.6; font-size: 13px;">
-                                    Executive in charge of commercial billing, tax invoices, GST documentation, client order processing, dispatch compliance, and accounting records.
+                                    Experienced in Accounts, Purchase, and Sales operations, with expertise in maintaining financial records, managing transactions, coordinating with vendors, and supporting day-to-day departmental activities. Focused on ensuring accuracy, timely execution, and smooth operational functioning. Contributes to effective coordination across departments and supports the organization’s overall business and operational efficiency.
                                 </p>
                             </div>
                         </div>
@@ -690,12 +690,12 @@ include_once 'partials/header.php';
                                     <i class="fa-solid fa-flask-vial me-1"></i> Rubber Technology
                                 </span>
                                 <p class="text-secondary small mb-0" style="line-height: 1.6; font-size: 13px;">
-                                    Directing research &amp; development, advanced polymer compounding, vulcanization optimization, internal quality audits, and adherence to IRC:83 / RDSO norms.
+                                    With 2+ years of experience as a Rubber Technologist at Polymer Products, he specializes in the manufacturing and production of Elastomeric Bridge Bearings, including Type A, B, C, F, and RDSO bearings. His expertise covers bearing testing, inspection, dimensional quality control, material quality assurance, and production monitoring, ensuring compliance with approved specifications and maintaining consistent product quality.
                                 </p>
                             </div>
                         </div>
                         <div class="p-3 border-top bg-light bg-opacity-25">
-                            <a href="assets/pp_data/Page 02/Emp Details/Nitin Pandey/Certificate.pdf" target="_blank"
+                            <a href="assets/pp_data/Page 02/Emp Details/Nitin Pandey/Nitin-pandey-Rubber-Technology-Certificate.pdf" target="_blank"
                                 class="btn btn-outline-primary btn-sm rounded-pill px-3 py-2 fw-bold w-100 open-cert-modal d-flex align-items-center justify-content-center gap-2"
                                 data-doc-url="assets/pp_data/Page 02/Emp Details/Nitin Pandey/Nitin-pandey-Rubber-Technology-Certificate.pdf"
                                 data-doc-title="Nitin Pandey - Rubber Technology Certificate"
@@ -711,13 +711,8 @@ include_once 'partials/header.php';
                     <div class="team-card-modern h-100 d-flex flex-column justify-content-between position-relative shadow-sm">
                         <div>
                             <div class="team-photo-wrap standard-height position-relative overflow-hidden" style="">
-                                <img src="/assets/pp_data/Page 02/Emp Details/Labhesh/Labhesh-Bawiskar.webp" alt="Labhesh Bawiskar - Lab Manager" class="team-card-img" style="opacity: 1; object-fit: cover;">
+                                <img src="assets/pp_data/Page 02/Emp Details/Labhesh/Labhesh-Bawiskar.webp" alt="Labhesh Bawiskar - Lab Manager" class="team-card-img" style="opacity: 1; object-fit: cover;">
                                 <div class="position-absolute top-50 start-50 translate-middle text-center text-white p-3 w-100" style="z-index: 1;">
-                                    <!-- <div class="p-3 rounded-circle d-inline-flex align-items-center justify-content-center mb-2 shadow"
-                                        style="width: 64px; height: 64px; background: rgba(255,255,255,0.15); border: 2px solid rgba(255,255,255,0.3); backdrop-filter: blur(8px);">
-                                        <i class="fa-solid fa-flask-vial fs-3 text-warning"></i>
-                                    </div> -->
-                                    <!-- <span class="d-block fw-bold small text-uppercase" style="letter-spacing: 1px; font-size: 11px;">M.Sc Industrial Chemistry</span> -->
                                 </div>
                                 <div class="team-photo-overlay"></div>
                                 <div class="team-badge-icon" title="Lab Manager">
@@ -735,16 +730,16 @@ include_once 'partials/header.php';
                                     <i class="fa-solid fa-graduation-cap me-1"></i> M.Sc. in Industrial Chemistry
                                 </span>
                                 <p class="text-secondary small mb-0" style="line-height: 1.6; font-size: 13px;">
-                                    Managing full-scale laboratory operations, chemical testing, polymer identification, tensile testing, ash content analysis, and raw material batch inspection.
+                                    With 2 years of experience in the QC &amp; R&amp;D Department at Polymer Products, he is involved in quality control, laboratory testing, and research activities related to elastomeric materials. With a Master’s degree in Industrial Chemistry, he contributes to systematic testing, material analysis, and maintaining consistent quality standards.
                                 </p>
                             </div>
                         </div>
                         <div class="p-3 border-top bg-light bg-opacity-25">
-                            <a href="assets/pp_data/Page 02/Emp Details/Labhesh/msc degree certificate OF LASBESH BAWISKAR (1).jpg" target="_blank"
+                            <a href="assets/pp_data/Page 02/Emp Details/Labhesh/Labhesh Bawiskar.pdf" target="_blank"
                                 class="btn btn-outline-primary btn-sm rounded-pill px-3 py-2 fw-bold w-100 open-cert-modal d-flex align-items-center justify-content-center gap-2"
-                                data-doc-url="assets/pp_data/Page 02/Emp Details/Labhesh/msc degree certificate OF LASBESH BAWISKAR (1).jpg"
+                                data-doc-url="assets/pp_data/Page 02/Emp Details/Labhesh/Labhesh Bawiskar.pdf"
                                 data-doc-title="Labhesh Bawiskar - M.Sc Degree Certificate"
-                                data-doc-type="image">
+                                data-doc-type="pdf">
                                 <i class="fa-solid fa-graduation-cap"></i> <span>View M.Sc Degree</span>
                             </a>
                         </div>
@@ -860,11 +855,6 @@ include_once 'partials/header.php';
                             Un-reinforced plain elastomer pad for light load spans, culverts, and precast beam seating.
                         </p>
                     </div>
-                    <div class="mt-3 pt-2 border-top">
-                        <a href="services.php" class="btn btn-sm btn-outline-primary rounded-pill w-100 fw-semibold" style="font-size: 12px;">
-                            Technical Specs <i class="fa-solid fa-arrow-right ms-1"></i>
-                        </a>
-                    </div>
                 </div>
             </div>
 
@@ -882,11 +872,6 @@ include_once 'partials/header.php';
                         <p class="small text-muted mb-0" style="font-size: 12.5px; line-height: 1.6;">
                             Standard multi-layer steel reinforced elastomeric bearing for highway, flyover &amp; railway bridges.
                         </p>
-                    </div>
-                    <div class="mt-3 pt-2 border-top">
-                        <a href="services.php" class="btn btn-sm btn-outline-primary rounded-pill w-100 fw-semibold" style="font-size: 12px;">
-                            Technical Specs <i class="fa-solid fa-arrow-right ms-1"></i>
-                        </a>
                     </div>
                 </div>
             </div>
@@ -906,11 +891,6 @@ include_once 'partials/header.php';
                             Equipped with heavy external top &amp; bottom steel plates for anchoring and shear key attachments.
                         </p>
                     </div>
-                    <div class="mt-3 pt-2 border-top">
-                        <a href="services.php" class="btn btn-sm btn-outline-primary rounded-pill w-100 fw-semibold" style="font-size: 12px;">
-                            Technical Specs <i class="fa-solid fa-arrow-right ms-1"></i>
-                        </a>
-                    </div>
                 </div>
             </div>
 
@@ -929,14 +909,18 @@ include_once 'partials/header.php';
                             Dimpled virgin PTFE sliding surface against mirror-finish stainless steel for high horizontal displacements.
                         </p>
                     </div>
-                    <div class="mt-3 pt-2 border-top">
-                        <a href="services.php" class="btn btn-sm btn-outline-primary rounded-pill w-100 fw-semibold" style="font-size: 12px;">
-                            Technical Specs <i class="fa-solid fa-arrow-right ms-1"></i>
-                        </a>
-                    </div>
                 </div>
             </div>
 
+        </div>
+
+        <!-- View More / Technical Specifications Button -->
+        <div class="text-center mt-5 wow fadeInUp" data-wow-delay=".3s">
+            <a href="services.php" class="btn px-4 py-3 rounded-pill fw-bold text-white text-uppercase shadow-sm d-inline-flex align-items-center gap-2"
+                style="background: var(--theme-primary); font-size: 13.5px; letter-spacing: 0.6px; transition: all 0.3s ease;">
+                <span>View More Bearing Types &amp; Specifications</span>
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
         </div>
     </div>
 </section>
@@ -1093,6 +1077,163 @@ include_once 'partials/header.php';
     }
 </style>
 
+<!-- ============================================================
+     Certificate & Credential Modal Viewer
+     ============================================================ -->
+<div class="modal fade" id="certificateModal" tabindex="-1" aria-labelledby="certificateModalLabel" aria-hidden="true" style="z-index: 10500;">
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content border-0 shadow-lg rounded-4 overflow-hidden">
+            <div class="modal-header text-white px-4 py-3" style="background: var(--theme-primary);">
+                <div class="d-flex align-items-center">
+                    <div class="modal-icon-wrap me-3 p-2 bg-white bg-opacity-25 rounded-circle d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">
+                        <i id="certModalIcon" class="fa-solid fa-file-pdf text-white fs-5"></i>
+                    </div>
+                    <div>
+                        <h5 class="modal-title fw-bold text-white mb-0" id="certificateModalLabel">Document Viewer</h5>
+                        <small id="certModalSub" class="text-white-50" style="font-size: 12px;">Verified Statutory &amp; Engineering Credential</small>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center gap-2">
+                    <button type="button" class="btn-close btn-close-white ms-2" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+            </div>
 
+            <div class="modal-body p-0 position-relative" style="background: #0f172a; min-height: 520px;">
+                <div id="certModalLoader" class="position-absolute top-50 start-50 translate-middle text-center py-5">
+                    <div class="spinner-border text-primary mb-2" role="status" style="width: 3rem; height: 3rem;">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                    <p class="text-white-50 small mb-0">Loading document preview...</p>
+                </div>
+
+                <iframe id="certModalIframe" src="" style="width: 100%; height: 75vh; border: none; display: none; background: #fff;" allowfullscreen></iframe>
+
+                <div id="certModalImgWrap" class="p-2 p-md-3" style="display: none; height: 75vh; min-height: 520px; overflow-y: auto; background: #0f172a; align-items: center; justify-content: center;">
+                    <img id="certModalImage" src="" alt="Certificate Image" style="max-height: 72vh; max-width: 95%; width: auto; height: auto; object-fit: contain; box-shadow: 0 10px 30px rgba(0,0,0,0.5); border-radius: 8px; background: #fff; margin: auto; display: block;">
+                </div>
+            </div>
+
+            <div class="modal-footer bg-white px-4 py-3 border-top d-flex justify-content-between align-items-center">
+                <span class="text-muted small">
+                    <i class="fa-solid fa-shield-check text-success me-1"></i> Official Certified Document &bull; Polymer Products
+                </span>
+                <button type="button" class="btn btn-dark btn-sm rounded-pill px-4 fw-bold" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Certificate Modal Script -->
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const certModalEl = document.getElementById('certificateModal');
+    if (!certModalEl) return;
+
+    const modalTitle = document.getElementById('certificateModalLabel');
+    const modalIcon = document.getElementById('certModalIcon');
+    const modalIframe = document.getElementById('certModalIframe');
+    const modalImgWrap = document.getElementById('certModalImgWrap');
+    const modalImage = document.getElementById('certModalImage');
+    const modalLoader = document.getElementById('certModalLoader');
+
+    function getModalInstance() {
+        if (typeof bootstrap !== 'undefined' && bootstrap.Modal) {
+            return bootstrap.Modal.getOrCreateInstance(certModalEl);
+        }
+        return null;
+    }
+
+    function unlockPageScroll() {
+        modalIframe.src = '';
+        modalImage.src = '';
+        modalLoader.style.display = 'none';
+        modalIframe.style.display = 'none';
+        modalImgWrap.style.display = 'none';
+
+        // Clear body & html lock styles
+        document.body.classList.remove('modal-open');
+        document.body.style.removeProperty('overflow');
+        document.body.style.removeProperty('overflow-y');
+        document.body.style.removeProperty('padding-right');
+        document.documentElement.style.removeProperty('overflow');
+        document.documentElement.style.removeProperty('overflow-y');
+
+        // Clean any orphaned backdrops
+        document.querySelectorAll('.modal-backdrop').forEach(function (backdrop) {
+            backdrop.remove();
+        });
+    }
+
+    document.querySelectorAll('.open-cert-modal').forEach(function (btn) {
+        btn.addEventListener('click', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            const url = this.getAttribute('data-doc-url') || this.getAttribute('href');
+            const title = this.getAttribute('data-doc-title') || 'Certificate & Approval Document';
+            const type = this.getAttribute('data-doc-type') || (url.toLowerCase().match(/\.(png|jpg|jpeg|webp)$/) ? 'image' : 'pdf');
+
+            if (!url) return;
+
+            modalTitle.textContent = title;
+            modalLoader.style.display = 'block';
+            modalIframe.style.display = 'none';
+            modalImgWrap.style.display = 'none';
+            modalIframe.src = '';
+            modalImage.src = '';
+
+            if (type === 'image') {
+                modalIcon.className = 'fa-solid fa-image text-white fs-5';
+                modalImage.onload = function () {
+                    modalLoader.style.display = 'none';
+                    modalImgWrap.style.display = 'flex';
+                };
+                modalImage.onerror = function () {
+                    modalLoader.style.display = 'none';
+                    modalImgWrap.innerHTML = '<div class="p-4 text-center text-white"><i class="fa-solid fa-triangle-exclamation fa-2x mb-2 text-warning"></i><p>Unable to preview image directly.</p></div>';
+                    modalImgWrap.style.display = 'flex';
+                };
+                modalImage.src = url;
+            } else {
+                modalIcon.className = 'fa-solid fa-file-pdf text-white fs-5';
+                const cleanUrl = url.split('#')[0];
+                const pdfViewerUrl = cleanUrl + '#toolbar=0&navpanes=0&scrollbar=0';
+
+                modalIframe.onload = function () {
+                    modalLoader.style.display = 'none';
+                    modalIframe.style.display = 'block';
+                };
+                modalIframe.src = pdfViewerUrl;
+                setTimeout(function () {
+                    modalLoader.style.display = 'none';
+                    modalIframe.style.display = 'block';
+                }, 500);
+            }
+
+            const bsModal = getModalInstance();
+            if (bsModal) {
+                bsModal.show();
+            } else if (typeof $ !== 'undefined') {
+                $(certModalEl).modal('show');
+            }
+        });
+    });
+
+    certModalEl.addEventListener('hidden.bs.modal', function () {
+        unlockPageScroll();
+    });
+
+    certModalEl.querySelectorAll('[data-bs-dismiss="modal"]').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+            const bsModal = getModalInstance();
+            if (bsModal) {
+                bsModal.hide();
+            } else {
+                unlockPageScroll();
+            }
+        });
+    });
+});
+</script>
 
 <?php include_once 'partials/footer.php'; ?>
