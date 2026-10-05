@@ -6,61 +6,48 @@ include_once 'partials/header.php';
 // Testing & Laboratory Showcase Images Array (Easily add or replace images here)
 $testing_slider_images = [
     [
-        "file" => "assets/pp_data/Machine_Images/IMG20260913162712.jpg",
+        "file" => "assets/img/img/banner/2.webp",
         "title" => "Compressive Proof Load Testing (1.5x)",
         "tag" => "1.5x Proof Load",
         "badge_color" => "danger",
         "desc" => "100% finished bearings subjected to 1.5 times the maximum design compressive vertical load verifying zero cracking or bond failure."
     ],
     [
-        "file" => "assets/pp_data/Machine_Images/IMG20260913164426.jpg",
+        "file" => "assets/img/img/banner/3.webp",
         "title" => "Universal Tensile Testing (UTM)",
         "tag" => "IS:3400 / ASTM D412",
         "badge_color" => "primary",
         "desc" => "Computerized UTM verifying elastomer tensile strength (≥17 MPa) and elongation at break (≥400%) for every compounded batch."
     ],
     [
-        "file" => "assets/pp_data/Machine_Images/IMG20260913162650.jpg",
+        "file" => "assets/img/img/banner/4.webp",
         "title" => "Shore-A Hardness Verification",
         "tag" => "Hardness & IRHD",
         "badge_color" => "success",
         "desc" => "Calibrated digital Shore-A durometer checks across top, bottom, and side faces strictly within 60 ± 5 IRHD / Shore A tolerance."
     ],
     [
-        "file" => "assets/pp_data/Machine_Images/IMG20260913164437.jpg",
+        "file" => "assets/img/img/banner/5.webp",
         "title" => "Accelerated Thermal Ageing Oven",
         "tag" => "70°C / 72 Hours",
         "badge_color" => "warning",
         "desc" => "Digital air-circulated ageing chamber testing elastomer durability under elevated temperature per IS:3400 (Pt 4) & ASTM D573."
     ],
     [
-        "file" => "assets/pp_data/Machine_Images/IMG20260913162728.jpg",
+        "file" => "assets/img/img/banner/6.webp",
         "title" => "Compressive Load Verification Frame",
         "tag" => "Hydraulic Rig",
         "badge_color" => "info",
         "desc" => "High-tonnage hydraulic test rig verifying uniform compression, elastomer-steel bonding, and zero edge splitting under heavy loading."
     ],
     [
-        "file" => "assets/pp_data/Machine_Images/IMG20260913162739.jpg",
+        "file" => "assets/img/img/banner/6.webp",
         "title" => "Computerized QC Test Console",
         "tag" => "Digital DAQ Console",
         "badge_color" => "primary",
         "desc" => "Real-time load vs deflection data acquisition generating automated inspection test reports and load compliance curves."
     ],
-    [
-        "file" => "assets/pp_data/Machine_Images/IMG20260913162657.jpg",
-        "title" => "Dimensional & Parallelism Inspection",
-        "tag" => "Tolerance QC",
-        "badge_color" => "secondary",
-        "desc" => "Precision vernier calliper and height gauge inspection verifying length, width, thickness, and flatness tolerances per IRC:83."
-    ],
-    [
-        "file" => "assets/pp_data/Machine_Images/IMG20260913164454.jpg",
-        "title" => "Compression Set & Lab Apparatus",
-        "tag" => "IS:3400 (Pt 10)",
-        "badge_color" => "dark",
-        "desc" => "Precision compression fixtures verifying permanent deflection limit (≤35% max) after 24 hours constant deflection at 70°C."
-    ]
+     
 ];
 ?>
 
@@ -262,9 +249,9 @@ $testing_slider_images = [
                         <div>
                             <div class="testing-slider-img-wrap">
                                 <img src="<?php echo htmlspecialchars($tImg['file']); ?>" alt="<?php echo htmlspecialchars($tImg['title']); ?>" loading="lazy">
-                                <span class="badge bg-<?php echo $tImg['badge_color']; ?> position-absolute top-0 start-0 m-3 px-2.5 py-1.5 rounded-pill fw-semibold shadow-sm" style="font-size: 11px; z-index: 2;">
+                                <!-- <span class="badge bg-<?php echo $tImg['badge_color']; ?> position-absolute top-0 start-0 m-3 px-2.5 py-1.5 rounded-pill fw-semibold shadow-sm" style="font-size: 11px; z-index: 2;">
                                     <?php echo htmlspecialchars($tImg['tag']); ?>
-                                </span>
+                                </span> -->
                                 <div class="testing-slider-overlay">
                                     <button type="button" class="btn btn-light btn-sm rounded-pill fw-bold open-testing-doc-modal px-3 py-1.5 shadow"
                                         data-doc-url="<?php echo htmlspecialchars($tImg['file']); ?>"
@@ -275,14 +262,16 @@ $testing_slider_images = [
                                 </div>
                             </div>
 
-                            <div class="p-4">
-                                <h5 class="fw-bold text-dark mb-2" style="font-family: 'Oswald', sans-serif; font-size: 18px; line-height: 1.3;">
+                                <div class="p-4">
+
+
+                                <!-- <h5 class="fw-bold text-dark mb-2" style="font-family: 'Oswald', sans-serif; font-size: 18px; line-height: 1.3;">
                                     <?php echo htmlspecialchars($tImg['title']); ?>
                                 </h5>
                                 <p class="small text-muted mb-0" style="line-height: 1.6; font-size: 13px;">
                                     <?php echo htmlspecialchars($tImg['desc']); ?>
-                                </p>
-                            </div>
+                                </p>-->
+                            </div> 
                         </div>
 
                         <div class="px-4 pb-4 pt-0">

@@ -1,4 +1,4 @@
-<?php 
+﻿<?php 
 $page_title = "Raw Materials & Machinery Infrastructure - Polymer Products";
 $meta_description = "Complete specifications of raw materials (NR, CR, IS:2062 Steel, PTFE) and 42+ manufacturing & testing machineries installed at Polymer Products, Nashik.";
 include_once 'partials/header.php'; 
@@ -17,7 +17,7 @@ include_once 'partials/header.php';
     transition: all 0.35s ease;
     border: 1px solid #e2e8f0;
     background: #ffffff;
-    border-radius: 16px;
+    border-radius: 20px;
 }
 .mat-spec-card:hover {
     transform: translateY(-5px);
@@ -53,6 +53,17 @@ include_once 'partials/header.php';
     color: #15803d;
     font-weight: 700;
 }
+.doc-download-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    transition: all 0.3s ease;
+}
+.doc-download-card:hover {
+    transform: translateY(-4px);
+    border-color: var(--theme-primary);
+    box-shadow: 0 12px 25px rgba(2, 132, 199, 0.10);
+}
 </style>
 
 <!-- ============================================================
@@ -80,6 +91,9 @@ include_once 'partials/header.php';
                     <a href="#machinery-list" class="btn btn-outline-light rounded-pill px-4 py-2 fw-bold text-uppercase" style="font-size:13px; letter-spacing:0.5px;">
                         <i class="fa-solid fa-gears me-2"></i>42+ Machinery List
                     </a>
+                    <a href="#official-docs" class="btn btn-outline-light rounded-pill px-4 py-2 fw-bold text-uppercase" style="font-size:13px; letter-spacing:0.5px;">
+                        <i class="fa-solid fa-file-lines me-2"></i>View Documents
+                    </a>
                 </div>
             </div>
 
@@ -96,15 +110,60 @@ include_once 'partials/header.php';
 </section>
 
 <!-- ============================================================
-     2. RAW MATERIALS SECTION (From Raw Material.odt)
+     2. Official Page 05 Documents Access Hub
      ============================================================ -->
-<section class="py-5" id="raw-materials" style="background: #f8fafc;">
+<section class="py-4" id="official-docs" style="background: #ffffff; border-bottom: 1px solid #e2e8f0;">
+    <div class="container-fluid px-3 px-lg-5">
+        <div class="row g-3 align-items-center">
+            <div class="col-lg-6">
+                <div class="p-3.5 p-md-4 doc-download-card d-flex align-items-center justify-content-between flex-wrap gap-3">
+                    <div class="d-flex align-items-center gap-3">
+                        <div class="rounded-circle p-3 d-flex align-items-center justify-content-center text-primary"
+                            style="background: var(--theme-subtle); width: 48px; height: 48px;">
+                            <i class="fa-solid fa-file-lines fs-5"></i>
+                        </div>
+                        <div>
+                            <h6 class="fw-bold text-dark mb-0" style="font-size: 15px;">Raw Material Technical Specification</h6>
+                            <small class="text-muted" style="font-size: 12.5px;">Official Specification &bull; Polymer (NR/CR), Steel &amp; PTFE Limits</small>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-sm btn-primary rounded-pill fw-bold px-3.5 py-2 d-inline-flex align-items-center gap-2 shadow-sm" data-bs-toggle="modal" data-bs-target="#rawMaterialModal" style="background: var(--theme-primary); border-color: var(--theme-primary); font-size: 13px;">
+                        <i class="fa-solid fa-eye"></i> <span>View Document</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="p-3.5 p-md-4 doc-download-card d-flex align-items-center justify-content-between flex-wrap gap-3">
+                    <div class="d-flex align-items-center gap-3">
+                        <div class="rounded-circle p-3 d-flex align-items-center justify-content-center text-primary"
+                            style="background: var(--theme-subtle); width: 48px; height: 48px;">
+                            <i class="fa-solid fa-file-word fs-5"></i>
+                        </div>
+                        <div>
+                            <h6 class="fw-bold text-dark mb-0" style="font-size: 15px;">List of Machineries &amp; Equipment</h6>
+                            <small class="text-muted" style="font-size: 12.5px;">Official Plant Inventory &bull; 42+ Calibrated Machines &amp; Lab Rigs</small>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-sm btn-primary rounded-pill fw-bold px-3.5 py-2 d-inline-flex align-items-center gap-2 shadow-sm" data-bs-toggle="modal" data-bs-target="#machineryModal" style="background: var(--theme-primary); border-color: var(--theme-primary); font-size: 13px;">
+                        <i class="fa-solid fa-eye"></i> <span>View Document</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================================
+     3. RAW MATERIALS SECTION (From Raw Material.odt)
+     ============================================================ -->
+<!-- <section class="py-5" id="raw-materials" style="background: #f8fafc;">
     <div class="container-fluid px-3 px-lg-5 py-4">
 
-        <!-- Section Title -->
-        <div class="text-center mb-5 wow fadeInUp" data-wow-delay=".1s">
-            <span class="badge px-3 py-2 mb-2 text-uppercase fw-bold rounded-pill"
-                style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 13px; letter-spacing: 1.5px;">
+        
+   <div class="text-center mb-5 wow fadeInUp" data-wow-delay=".1s">
+            <span class="badge px-3 py-1.5 rounded-pill font-monospace fw-bold text-uppercase mb-2"
+                style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 12px; letter-spacing: 1px;">
                 Section 4: Materials Specifications
             </span>
             <h2 class="fw-bold text-dark text-uppercase mt-2" style="font-family: 'Oswald', sans-serif; font-size: 36px; letter-spacing: 0.5px;">
@@ -113,10 +172,10 @@ include_once 'partials/header.php';
             <p class="text-muted mx-auto mb-0" style="max-width: 740px; font-size: 15px; line-height: 1.7;">
                 In accordance with <strong>IRC:83 (Part II) Clause 4</strong>, <strong>RDSO</strong>, <strong>IS:2062</strong>, and <strong>UIC 772-2R</strong> standards.
             </p>
-        </div>
+        </div> -->
 
         <!-- 4.1 Elastomer Raw Polymer -->
-        <div class="card border-0 shadow-sm mb-5 overflow-hidden mat-spec-card">
+        <!-- <div class="card border-0 shadow-sm mb-5 overflow-hidden mat-spec-card">
             <div class="card-body p-4 p-md-5">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-7">
@@ -200,10 +259,10 @@ include_once 'partials/header.php';
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <!-- 4.2.5 Mild Steel Laminates -->
-        <div class="card border-0 shadow-sm mb-5 overflow-hidden mat-spec-card">
+        <!-- <div class="card border-0 shadow-sm mb-5 overflow-hidden mat-spec-card">
             <div class="card-body p-4 p-md-5">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-7">
@@ -246,10 +305,10 @@ include_once 'partials/header.php';
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <!-- 4.3 PTFE & Sliding Design Criteria -->
-        <div class="card border-0 shadow-sm mb-4 overflow-hidden mat-spec-card">
+        <!-- <div class="card border-0 shadow-sm mb-4 overflow-hidden mat-spec-card">
             <div class="card-body p-4 p-md-5">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-7">
@@ -301,22 +360,23 @@ include_once 'partials/header.php';
                     </div>
                 </div>
             </div>
-        </div>
+        </div>  
 
     </div>
-</section>
+</section> -->
 
 <!-- ============================================================
-     3. COMPLETE LIST OF MACHINERY (From LIST OF MACHINERY.doc)
+     4. COMPLETE LIST OF MACHINERY (From LIST OF MACHINERY.doc)
      ============================================================ -->
 <section class="py-5" id="machinery-list" style="background: #ffffff; border-top: 1px solid #e2e8f0;">
     <div class="container-fluid px-3 px-lg-5 py-4">
         
         <div class="section-title text-center mb-5">
-            <span class="badge px-3 py-2 mb-2 rounded-pill text-uppercase" style="background: var(--theme-subtle); color: var(--theme-primary); font-weight:700; font-size:12px; letter-spacing:1px;">
+            <span class="badge px-3 py-1.5 rounded-pill font-monospace fw-bold text-uppercase mb-2"
+                style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 12px; letter-spacing: 1px;">
                 Plant &amp; Testing Capabilities
             </span>
-            <h2 class="fw-bold text-dark" style="font-family:'Oswald', sans-serif; font-size:36px; letter-spacing:0.5px;">
+            <h2 class="fw-bold text-dark text-uppercase" style="font-family:'Oswald', sans-serif; font-size: clamp(26px, 3.2vw, 38px); letter-spacing:0.5px;">
                 LIST OF TESTING MACHINERIES &amp; EQUIPMENT
             </h2>
             <p class="text-muted mx-auto" style="max-width:760px; font-size:15px; line-height:1.7;">
@@ -829,7 +889,7 @@ include_once 'partials/header.php';
 </section>
 
 <!-- ============================================================
-     4. Call to Action Banner
+     5. Call to Action Banner
      ============================================================ -->
 <section class="py-5 text-white position-relative"
     style="background: linear-gradient(135deg, rgba(8, 20, 38, 0.94) 0%, rgba(10, 25, 47, 0.82) 50%, rgba(5, 12, 24, 0.92) 100%), url('assets/img/img/banner/birdge-10.webp') center center / cover no-repeat; padding: 75px 0;">
@@ -857,5 +917,584 @@ include_once 'partials/header.php';
         </div>
     </div>
 </section>
+
+<!-- ============================================================
+     6. DOCUMENT VIEW POPUP MODALS
+     ============================================================ -->
+
+<!-- Modal 1: Raw Material Specification Document Viewer -->
+<div class="modal fade" id="rawMaterialModal" tabindex="-1" aria-labelledby="rawMaterialModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content border-0 shadow-lg rounded-4 overflow-hidden">
+            <div class="modal-header bg-dark text-white border-0 py-3 px-4 d-flex justify-content-between align-items-center">
+                <div class="d-flex align-items-center gap-3">
+                    <div class="rounded-circle p-2 d-flex align-items-center justify-content-center text-white" style="background: var(--theme-primary); width: 40px; height: 40px;">
+                        <i class="fa-solid fa-file-lines fs-6"></i>
+                    </div>
+                    <div>
+                        <h5 class="modal-title fw-bold text-white mb-0" id="rawMaterialModalLabel" style="font-family: 'Oswald', sans-serif; letter-spacing: 0.5px;">
+                            Raw Material Technical Specification Document
+                        </h5>
+                        <small class="text-light text-opacity-75" style="font-size: 12px;">IRC:83 (Part II) &bull; RDSO &bull; IS:2062 &bull; UIC 772-2R Standard</small>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center gap-2">
+                    <button type="button" class="btn btn-sm btn-outline-light rounded-pill px-3 py-1" onclick="window.print();">
+                        <i class="fa-solid fa-print me-1"></i> Print
+                    </button>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+            </div>
+            
+            <div class="modal-body p-4 p-md-5" style="background: #f8fafc;">
+                <!-- Letterhead Document Container -->
+                <div class="bg-white p-4 p-md-5 rounded-4 shadow-sm border mx-auto" style="max-width: 900px;">
+                    <!-- Company Letterhead Header -->
+                    <div class="text-center border-bottom pb-4 mb-4">
+                        <h3 class="fw-bold text-dark mb-1" style="font-family: 'Oswald', sans-serif; letter-spacing: 1px; color: var(--theme-primary);">
+                            POLYMER PRODUCTS
+                        </h3>
+                        <p class="text-muted small mb-1">
+                            E-6, M.I.D.C., Ambad, Nashik - 422 010 (Maharashtra, India)
+                        </p>
+                        <span class="badge px-3 py-1 rounded-pill fw-bold text-uppercase" style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 11px; letter-spacing: 1px;">
+                            Technical Specification Sheet &bull; Ref: Section 4.0 Raw Materials
+                        </span>
+                    </div>
+
+                    <!-- 4.1 Elastomer Polymer -->
+                    <div class="mb-4">
+                        <h5 class="fw-bold text-dark mb-2" style="font-family: 'Oswald', sans-serif; color: #0f172a;">
+                            4.1 Elastomeric Raw Polymer (NR / CR)
+                        </h5>
+                        <p class="text-secondary" style="font-size: 14.5px; line-height: 1.7;">
+                            The elastomer used in the manufacture of Elastomeric Bearings is specified in the project documentation as either <strong>Natural Rubber (NR)</strong> or <strong>Chloroprene Rubber (CR)</strong> as the raw polymer base:
+                        </p>
+
+                        <div class="row g-3 mb-3">
+                            <div class="col-md-6">
+                                <div class="p-3 rounded-3 border bg-light h-100" style="border-left: 4px solid var(--theme-primary) !important;">
+                                    <h6 class="fw-bold mb-1" style="color: var(--theme-primary); font-size: 14px;">
+                                        <i class="fa-solid fa-leaf me-1.5"></i> Natural Rubber (NR):
+                                    </h6>
+                                    <p class="small text-muted mb-0" style="line-height: 1.6;">
+                                        High elasticity, low hysteresis loss, superior low-temperature performance, high tensile strength, and exceptional fatigue resistance under continuous cyclic dynamic bridge loading.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="p-3 rounded-3 border bg-light h-100" style="border-left: 4px solid var(--theme-primary) !important;">
+                                    <h6 class="fw-bold mb-1" style="color: var(--theme-primary); font-size: 14px;">
+                                        <i class="fa-solid fa-shield-halved me-1.5"></i> Chloroprene Rubber (CR - Neoprene):
+                                    </h6>
+                                    <p class="small text-muted mb-0" style="line-height: 1.6;">
+                                        Excellent resistance to ozone degradation (tested in parts per hundred million pphm by volume), atmospheric weathering, chemical exposure, mineral oils, and ultraviolet radiation.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Physical Property Limits Table -->
+                        <h6 class="fw-bold text-dark mt-4 mb-2" style="font-size: 14px;">IRC:83 Physical Property Acceptance Limits:</h6>
+                        <div class="table-responsive">
+                            <table class="table table-bordered table-sm align-middle text-secondary" style="font-size: 13.5px;">
+                                <thead class="table-light">
+                                    <tr>
+                                        <th>Physical Property Test Parameter</th>
+                                        <th class="text-center">IRC:83 Specified Limit</th>
+                                        <th class="text-center">Standard Test Method</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><strong>Hardness (Shore A)</strong></td>
+                                        <td class="text-center"><span class="badge bg-light text-dark border fw-bold">60 &plusmn; 5 IRHD</span></td>
+                                        <td class="text-center">IS: 3400 (Part 2)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Min. Tensile Strength</strong></td>
+                                        <td class="text-center"><span class="badge bg-light text-dark border fw-bold">&ge; 17.0 MPa</span></td>
+                                        <td class="text-center">IS: 3400 (Part 1)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Min. Elongation at Break</strong></td>
+                                        <td class="text-center"><span class="badge bg-light text-dark border fw-bold">&ge; 400%</span></td>
+                                        <td class="text-center">IS: 3400 (Part 1)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Max Compression Set (24h at 70°C)</strong></td>
+                                        <td class="text-center"><span class="badge bg-light text-dark border fw-bold">&le; 35%</span></td>
+                                        <td class="text-center">IS: 3400 (Part 10)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Accelerated Ageing Drop (72h at 100°C)</strong></td>
+                                        <td class="text-center"><span class="badge bg-light text-dark border fw-bold">&le; 15% Max Drop</span></td>
+                                        <td class="text-center">IS: 3400 (Part 4)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Ozone Resistance (20% Strain)</strong></td>
+                                        <td class="text-center"><span class="badge bg-light text-dark border fw-bold">No Cracks</span></td>
+                                        <td class="text-center">IS: 3400 (Part 20)</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- 4.2.5 Internal Reinforcement -->
+                    <div class="mb-4 pt-3 border-top">
+                        <h5 class="fw-bold text-dark mb-2" style="font-family: 'Oswald', sans-serif; color: #0f172a;">
+                            Clause 4.2.5 Internal Reinforcement - Mild Steel Laminates (IS: 2062 / IS: 1079)
+                        </h5>
+                        <p class="text-secondary" style="font-size: 14.5px; line-height: 1.7;">
+                            Laminates of mild steel conforming to <strong>IS: 2062</strong> or <strong>IS: 1079</strong> or equivalent international grade shall be used as internal reinforcement plates:
+                        </p>
+
+                        <div class="p-3 rounded-3 border mb-3" style="background: #fffbeb; border-color: #fde68a !important;">
+                            <div class="d-flex align-items-center mb-1">
+                                <i class="fa-solid fa-triangle-exclamation me-2 text-warning"></i>
+                                <strong class="text-dark" style="font-size: 14px;">Mandatory Code Requirement:</strong>
+                            </div>
+                            <p class="small text-secondary mb-0" style="line-height: 1.6;">
+                                The yield stress of the steel material shall not be lesser than <strong>250 MPa</strong>. Uses of any other materials like fibreglass or similar fabric as laminates are strictly not permitted for the purpose of this Code.
+                            </p>
+                        </div>
+
+                        <p class="small text-muted mb-0" style="line-height: 1.7;">
+                            All steel plates are precision deburred, edge-radiused, grit shot-blasted to Sa 2.5 cleanliness profile, degreased, and chemically primed with Chemlok elastomer-to-metal bonding systems ensuring peel adhesion exceeding <strong>7 kN/m</strong>.
+                        </p>
+                    </div>
+
+                    <!-- 4.3 PTFE Sliding Media & Limit States -->
+                    <div class="pt-3 border-top">
+                        <h5 class="fw-bold text-dark mb-2" style="font-family: 'Oswald', sans-serif; color: #0f172a;">
+                            Sliding Media &amp; Design Limit States (PTFE / Stainless Steel)
+                        </h5>
+                        <p class="text-secondary" style="font-size: 14.5px; line-height: 1.7;">
+                            For free-sliding and guided elastomeric bearings, virgin dimpled <strong>Polytetrafluoroethylene (PTFE)</strong> sheets are bonded to elastomer pads and lubricated with silicone grease, sliding against mirror-finish austenitic stainless steel:
+                        </p>
+
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="p-3 rounded-3 border bg-light h-100">
+                                    <h6 class="fw-bold text-dark mb-1" style="font-size: 13.5px;">
+                                        <i class="fa-solid fa-arrows-spin me-1.5 text-primary"></i> Serviceability Limit State (SLS)
+                                    </h6>
+                                    <p class="small text-muted mb-0" style="line-height: 1.6;">
+                                        Ensures no permanent deformation, maintainable friction (&mu; &le; 0.03), and full elastic recovery under maximum operational load combinations.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="p-3 rounded-3 border bg-light h-100">
+                                    <h6 class="fw-bold text-dark mb-1" style="font-size: 13.5px;">
+                                        <i class="fa-solid fa-shield-halved me-1.5 text-primary"></i> Ultimate Limit State (ULS)
+                                    </h6>
+                                    <p class="small text-muted mb-0" style="line-height: 1.6;">
+                                        Adequate safety factors against elastomer rupture, steel plate yield, internal de-bonding, and seismic sliding displacement.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Footer Stamp -->
+                    <div class="mt-5 pt-3 border-top d-flex justify-content-between align-items-center flex-wrap gap-2 text-muted small">
+                        <div>
+                            <strong>Quality Control Laboratory</strong> &bull; Polymer Products, Nashik
+                        </div>
+                        <div class="badge bg-success-subtle text-success border border-success-subtle px-3 py-1.5 rounded-pill fw-bold">
+                            <i class="fa-solid fa-check-circle me-1"></i> Verified &amp; Compliant
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            
+            <div class="modal-footer bg-light border-0 py-2.5 px-4">
+                <button type="button" class="btn btn-secondary rounded-pill px-4" data-bs-dismiss="modal">Close Document</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 2: Machinery & Testing Equipment List Document Viewer -->
+<div class="modal fade" id="machineryModal" tabindex="-1" aria-labelledby="machineryModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content border-0 shadow-lg rounded-4 overflow-hidden">
+            <div class="modal-header bg-dark text-white border-0 py-3 px-4 d-flex justify-content-between align-items-center">
+                <div class="d-flex align-items-center gap-3">
+                    <div class="rounded-circle p-2 d-flex align-items-center justify-content-center text-white" style="background: var(--theme-primary); width: 40px; height: 40px;">
+                        <i class="fa-solid fa-gears fs-6"></i>
+                    </div>
+                    <div>
+                        <h5 class="modal-title fw-bold text-white mb-0" id="machineryModalLabel" style="font-family: 'Oswald', sans-serif; letter-spacing: 0.5px;">
+                            List of Testing Machineries &amp; Equipment
+                        </h5>
+                        <small class="text-light text-opacity-75" style="font-size: 12px;">Official Plant Inventory &bull; Polymer Products, Nashik</small>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center gap-2">
+                    <button type="button" class="btn btn-sm btn-outline-light rounded-pill px-3 py-1" onclick="window.print();">
+                        <i class="fa-solid fa-print me-1"></i> Print
+                    </button>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+            </div>
+            
+            <div class="modal-body p-4 p-md-5" style="background: #f8fafc;">
+                <!-- Letterhead Document Container -->
+                <div class="bg-white p-4 p-md-5 rounded-4 shadow-sm border mx-auto" style="max-width: 1050px;">
+                    
+                    <!-- Company Letterhead Header -->
+                    <div class="text-center border-bottom pb-4 mb-4">
+                        <h3 class="fw-bold text-dark mb-1" style="font-family: 'Oswald', sans-serif; letter-spacing: 1px; color: var(--theme-primary);">
+                            POLYMER PRODUCTS
+                        </h3>
+                        <p class="text-muted small mb-1">
+                            E-6, M.I.D.C., Ambad, Nashik - 422 010 (Maharashtra, India)
+                        </p>
+                        <h6 class="fw-bold text-dark text-uppercase mt-2 mb-0" style="font-family: 'Oswald', sans-serif; font-size: 15px;">
+                            LIST OF TESTING MACHINERIES &amp; EQUIPMENT INSTALLED IN OUR WORKS FOR CARRYING OUT VARIOUS PROCESSES &amp; TESTS ON ELASTOMERIC BEARINGS AND ELASTOMERIC COMPOUNDS
+                        </h6>
+                    </div>
+
+                    <!-- Declaration Notice -->
+                    <div class="p-3.5 p-3 rounded-3 border bg-light mb-4" style="border-left: 4px solid var(--theme-primary) !important;">
+                        <p class="small text-muted mb-0" style="line-height: 1.6;">
+                            <strong>Statutory Declaration:</strong> All testing Machineries/Equipment stated below are maintained in calibrated, certified working condition. Testing of elastomeric bridge bearings and rubber compounds is regularly witnessed by <strong>DGS&amp;D</strong>, <strong>RITES</strong>, and authorized client quality representatives.
+                        </p>
+                    </div>
+
+                    <!-- Table of 42 items in Document View -->
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-sm align-middle text-secondary" style="font-size: 13px;">
+                            <thead class="table-dark">
+                                <tr>
+                                    <th class="py-2 text-center" style="width: 50px;">Sr.</th>
+                                    <th class="py-2">Testing Machine / Equipment Details</th>
+                                    <th class="py-2" style="width: 150px;">Manufacturer</th>
+                                    <th class="py-2 text-center" style="width: 110px;">Make / Year</th>
+                                    <th class="py-2">Type of Test / Operation</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="text-center fw-bold">01</td>
+                                    <td><strong>Hydraulic Press (750 Tons)</strong><br><small class="text-muted">Glycerine gauge 0.5% acc. Bed: 1050 &times; 1060 &times; 770 mm, Ram: 556mm</small></td>
+                                    <td>INDIMECH</td>
+                                    <td class="text-center">1992</td>
+                                    <td>Elastic Modulus, Shear Modulus, Ultimate Compression Test</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center fw-bold">02</td>
+                                    <td><strong>Hydraulic Press (300 Tons)</strong><br><small class="text-muted">Size: 1000 &times; 950 &times; 420 mm, Ram: 448.94mm</small></td>
+                                    <td>UNIMECH</td>
+                                    <td class="text-center">1997</td>
+                                    <td>Manufacturing of Bearings</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center fw-bold">03</td>
+                                    <td><strong>Hydraulic Press (260 Tons)</strong><br><small class="text-muted">Size: 815 &times; 810 &times; 420 mm, Ram: 400.00mm</small></td>
+                                    <td>UNIMECH</td>
+                                    <td class="text-center">1997</td>
+                                    <td>Manufacturing of Bearings</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center fw-bold">04</td>
+                                    <td><strong>Hydraulic Press (132 Tons)</strong><br><small class="text-muted">Size: 755 &times; 610 &times; 300 mm, Ram: 289.80mm</small></td>
+                                    <td>UNIMECH</td>
+                                    <td class="text-center">1997</td>
+                                    <td>Manufacturing of Bearings</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center fw-bold">05</td>
+                                    <td><strong>Hydraulic Press (100 Tons)</strong><br><small class="text-muted">Size: 560 &times; 510 &times; 410 mm, Ram: 250.00mm</small></td>
+                                    <td>UNIMECH</td>
+                                    <td class="text-center">1999</td>
+                                    <td>Manufacturing of Bearings</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center fw-bold">06</td>
+                                    <td><strong>Hydraulic Press (200 Tons)</strong><br><small class="text-muted">Size: 660 &times; 530 &times; 380 mm, Ram: 200.00mm</small></td>
+                                    <td>UNIMECH</td>
+                                    <td class="text-center">1988</td>
+                                    <td>Manufacturing of Bearings</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center fw-bold">07</td>
+                                    <td><strong>Hydraulic Press (200 Tons)</strong><br><small class="text-muted">Size: 460 &times; 480 &times; 370 mm, Pillar Type</small></td>
+                                    <td>UNIMECH</td>
+                                    <td class="text-center">2008</td>
+                                    <td>Manufacturing of Bearings</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center fw-bold">08</td>
+                                    <td><strong>Hydraulic Press (200 Tons)</strong><br><small class="text-muted">Size: 810 &times; 710 &times; 420 mm, Ram: 350.00mm</small></td>
+                                    <td>UNIMECH</td>
+                                    <td class="text-center">2008</td>
+                                    <td>Manufacturing of Bearings</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center fw-bold">09</td>
+                                    <td><strong>Hydraulic Press (200 Tons)</strong><br><small class="text-muted">Size: 810 &times; 720 &times; 420 mm, Frame Type</small></td>
+                                    <td>SARAS</td>
+                                    <td class="text-center">2008</td>
+                                    <td>Manufacturing of Bearings</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center fw-bold">10</td>
+                                    <td><strong>Hydraulic Press (30 Tons)</strong><br><small class="text-muted">Size: 300 &times; 320 &times; 125 mm, Pillar Type</small></td>
+                                    <td>INDIMECH</td>
+                                    <td class="text-center">2008</td>
+                                    <td>Manufacturing of Bearings</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center fw-bold">11</td>
+                                    <td><strong>Hydraulic Press (175 Tons)</strong><br><small class="text-muted">Size: 510 &times; 510 &times; 410 mm, Frame Type</small></td>
+                                    <td>SARAS</td>
+                                    <td class="text-center">2008</td>
+                                    <td>Manufacturing of Bearings</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center fw-bold">12</td>
+                                    <td><strong>Hydraulic Press (200 Tons)</strong><br><small class="text-muted">Size: 810 &times; 720 &times; 400 mm, Frame Type</small></td>
+                                    <td>SARAS</td>
+                                    <td class="text-center">2008</td>
+                                    <td>Manufacturing of Bearings</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center fw-bold">13</td>
+                                    <td><strong>Hydraulic Press (200 Tons)</strong><br><small class="text-muted">Size: 800 &times; 810 &times; 400 mm, Frame Type</small></td>
+                                    <td>SARAS</td>
+                                    <td class="text-center">2008</td>
+                                    <td>Manufacturing of Bearings</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center fw-bold">14</td>
+                                    <td><strong>Hydraulic Press (50 Tons)</strong><br><small class="text-muted">Size: 500 &times; 480 &times; 385 mm, Pillar Type</small></td>
+                                    <td>DYNAMIC</td>
+                                    <td class="text-center">2008</td>
+                                    <td>Manufacturing of Bearings</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center fw-bold">15</td>
+                                    <td><strong>Hydraulic Press (150 Tons)</strong><br><small class="text-muted">Size: 650 &times; 660 &times; 500 mm, Pillar Type</small></td>
+                                    <td>DYNAMIC</td>
+                                    <td class="text-center">2022</td>
+                                    <td>Manufacturing of Bearings</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center fw-bold">16</td>
+                                    <td><strong>Hydraulic Press (200 Tons)</strong><br><small class="text-muted">Size: 750 &times; 740 &times; 500 mm, Pillar Type</small></td>
+                                    <td>DYNAMIC</td>
+                                    <td class="text-center">2022</td>
+                                    <td>Manufacturing of Bearings</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center fw-bold">17</td>
+                                    <td><strong>Hydraulic Press (200 Tons)</strong><br><small class="text-muted">Size: 850 &times; 830 &times; 550 mm, Pillar Type</small></td>
+                                    <td>DYNAMIC</td>
+                                    <td class="text-center">2024</td>
+                                    <td>Manufacturing of Bearings</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center fw-bold">18</td>
+                                    <td><strong>Hydraulic Press (200 Tons)</strong><br><small class="text-muted">Size: 850 &times; 830 &times; 550 mm, Pillar Type</small></td>
+                                    <td>DYNAMIC</td>
+                                    <td class="text-center">2024</td>
+                                    <td>Manufacturing of Bearings</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center fw-bold">19</td>
+                                    <td><strong>Hydraulic Press (170 Tons)</strong><br><small class="text-muted">Size: 700 &times; 690 &times; 420 mm, Frame Type</small></td>
+                                    <td>DYNAMIC</td>
+                                    <td class="text-center">2024</td>
+                                    <td>Manufacturing of Bearings</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center fw-bold">20</td>
+                                    <td><strong>Hydraulic Press (120 Tons)</strong><br><small class="text-muted">Size: 600 &times; 590 &times; 420 mm, Frame Type</small></td>
+                                    <td>DYNAMIC</td>
+                                    <td class="text-center">2024</td>
+                                    <td>Manufacturing of Bearings</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center fw-bold">21</td>
+                                    <td><strong>Hydraulic Jack with Glycerine Pressure Gauges</strong></td>
+                                    <td>INDIMECH</td>
+                                    <td class="text-center">1992</td>
+                                    <td>Shear Modulus testing on large size bearings</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center fw-bold">22</td>
+                                    <td><strong>Hydraulic Jack with Glycerine Gauges (80 Tons)</strong></td>
+                                    <td>DYNAMIC</td>
+                                    <td class="text-center">1992</td>
+                                    <td>Elastomer to Steel Bond Test</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center fw-bold">23</td>
+                                    <td><strong>Tensile Tester (Capacity: 5000 N)</strong><br><small class="text-muted">Load Cell Amplifier with Peak Detector</small></td>
+                                    <td>Kamal Metal / Systems</td>
+                                    <td class="text-center">1988/2002</td>
+                                    <td>Tensile Strength, Elongation, Tear Strength, Peel Adhesion</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center fw-bold">24</td>
+                                    <td><strong>Oscillating Disc Rheometer (MV-ODR)</strong></td>
+                                    <td>Micro Vision Ind.</td>
+                                    <td class="text-center">2004</td>
+                                    <td>Determination of curing characteristics &amp; rubber quality</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center fw-bold">25</td>
+                                    <td><strong>Laboratory Air Ageing Oven</strong></td>
+                                    <td>Tempo Instruments</td>
+                                    <td class="text-center">1988</td>
+                                    <td>Accelerated Ageing, Compression Set Test</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center fw-bold">26</td>
+                                    <td><strong>Shore A Hardness Tester</strong></td>
+                                    <td>JSE</td>
+                                    <td class="text-center">1988</td>
+                                    <td>Hardness Determination (Shore A / IRHD)</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center fw-bold">27</td>
+                                    <td><strong>Electronic Single Pan Digital Balance (0.001 mg)</strong></td>
+                                    <td>Contech Instruments</td>
+                                    <td class="text-center">2002</td>
+                                    <td>Ash Content, Specific Gravity, Chemical analysis</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center fw-bold">28</td>
+                                    <td><strong>Muffle Furnace (High-Temp)</strong></td>
+                                    <td>Lab Hosp Corp.</td>
+                                    <td class="text-center">Standard</td>
+                                    <td>Ash Content &amp; Elastomer Content Verification</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center fw-bold">29</td>
+                                    <td><strong>Soxhlet Extraction Apparatus with Condenser</strong></td>
+                                    <td>Lab Standard</td>
+                                    <td class="text-center">-</td>
+                                    <td>Polymer &amp; Elastomer Content Chemical Determination</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center fw-bold">30</td>
+                                    <td><strong>Shot Blasting Equipment with Compressor</strong></td>
+                                    <td>Abrasive Blasting</td>
+                                    <td class="text-center">PB-150120</td>
+                                    <td>Sa 2.5 profiling of M.S. Plate surface for Chemlok bonding</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center fw-bold">31</td>
+                                    <td><strong>Thickness Gauge (Digital Micrometer)</strong></td>
+                                    <td>Mitutoyo Mfg. Co.</td>
+                                    <td class="text-center">7305</td>
+                                    <td>Measuring thickness of Dumbbells &amp; Compression buttons</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center fw-bold">32</td>
+                                    <td><strong>Rubber Mixing Mill (16" &times; 42")</strong></td>
+                                    <td>Modern Hydraulics</td>
+                                    <td class="text-center">Heavy Duty</td>
+                                    <td>Rubber Compound Mastication &amp; Mixing</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center fw-bold">33</td>
+                                    <td><strong>Rubber Mixing Mill (14" &times; 36")</strong></td>
+                                    <td>G. G. Engineering</td>
+                                    <td class="text-center">2024</td>
+                                    <td>Rubber Compound Masterbatch Preparation</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center fw-bold">34</td>
+                                    <td><strong>Precision Surface Grinder</strong></td>
+                                    <td>Magnum Eng. / Kulkarni</td>
+                                    <td class="text-center">1997</td>
+                                    <td>Tooling &amp; Mould Surface Finishing</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center fw-bold">35</td>
+                                    <td><strong>IRHD Hardness Tester (Micro/Macro)</strong></td>
+                                    <td>Apex Enterprises</td>
+                                    <td class="text-center">2003</td>
+                                    <td>International Rubber Hardness Degrees (IRHD) Tester</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center fw-bold">36</td>
+                                    <td><strong>Industrial Bandsaw Machine</strong></td>
+                                    <td>Local / Plant Custom</td>
+                                    <td class="text-center">Heavy Duty</td>
+                                    <td>Finished Bearing Sectional Cutting for Inspection</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center fw-bold">37</td>
+                                    <td><strong>Electric Arc &amp; TIG Welding Machine</strong></td>
+                                    <td>Electro Weld</td>
+                                    <td class="text-center">Standard</td>
+                                    <td>General Fabrication &amp; Fixture Maintenance</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center fw-bold">38</td>
+                                    <td><strong>Hydraulic Plate Shearing Machine</strong></td>
+                                    <td>Swastik Machine Tools</td>
+                                    <td class="text-center">2009</td>
+                                    <td>Mild Steel Internal Plate Sizing &amp; Shearing</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center fw-bold">39</td>
+                                    <td><strong>Dumbbell Shaped Specimen Cutting Die</strong></td>
+                                    <td>Stech Engineers</td>
+                                    <td class="text-center">2024</td>
+                                    <td>ASTM D412 / IS:3400 Dumbbell Specimen Punching</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center fw-bold">40</td>
+                                    <td><strong>De Mattia Flex Testing Machine</strong></td>
+                                    <td>Stech Engineers</td>
+                                    <td class="text-center">2023</td>
+                                    <td>Dynamic Flex Cracking &amp; Cut Growth Resistance</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center fw-bold">41</td>
+                                    <td><strong>Induced Draft Cooling Tower</strong></td>
+                                    <td>Innovative</td>
+                                    <td class="text-center">2019</td>
+                                    <td>Industrial Water Cooling for Two-Roll Mills &amp; Presses</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center fw-bold">42</td>
+                                    <td><strong>Trouser Type Tear Specimen Cutting Die</strong></td>
+                                    <td>Stech Engineers</td>
+                                    <td class="text-center">2020</td>
+                                    <td>ASTM D624 Trouser Tear Resistance Specimen Preparation</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- Footer Stamp -->
+                    <div class="mt-4 pt-3 border-top d-flex justify-content-between align-items-center flex-wrap gap-2 text-muted small">
+                        <div>
+                            <strong>Works &amp; Plant Administration</strong> &bull; Polymer Products, Nashik
+                        </div>
+                        <div class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-1.5 rounded-pill fw-bold">
+                            <i class="fa-solid fa-stamp me-1"></i> Official Machinery Record
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            
+            <div class="modal-footer bg-light border-0 py-2.5 px-4">
+                <button type="button" class="btn btn-secondary rounded-pill px-4" data-bs-dismiss="modal">Close Document</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 <?php include_once 'partials/footer.php'; ?>

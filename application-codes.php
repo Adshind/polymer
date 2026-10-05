@@ -932,10 +932,10 @@ include_once 'partials/header.php';
                 style="font-size: 13px; letter-spacing: 0.5px; background: var(--theme-primary); border-color: var(--theme-primary);">
                 Request Technical RFQ <i class="fa-solid fa-arrow-right ms-2"></i>
             </a>
-            <a href="tel:8975766459" class="btn btn-outline-light rounded-pill px-4 py-3 fw-bold"
+            <!-- <a href="tel:8975766459" class="btn btn-outline-light rounded-pill px-4 py-3 fw-bold"
                 style="font-size: 13px; letter-spacing: 0.5px; backdrop-filter: blur(4px);">
                 <i class="fa-solid fa-phone me-2"></i> Call: 8975766459
-            </a>
+            </a> -->
         </div>
     </div>
 </section>
