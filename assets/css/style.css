@@ -12819,70 +12819,76 @@ span {
   font-weight: 600;
 }
 
-/* Global Theme Color #f55f01 System */
+/* Global Theme Color #3691bf System */
 :root {
-  --ht-theme-color-2: #f55f01;
-  --bs-primary: #f55f01;
-  --bs-primary-rgb: 245, 95, 1;
+  --theme-primary: #3691bf;
+  --theme-hover: #297ca6;
+  --theme-light: #5ba7cd;
+  --theme-lighter: #8bc3dc;
+  --theme-subtle: rgba(54, 145, 191, 0.12);
+  --theme-glow: rgba(54, 145, 191, 0.35);
+  --ht-theme-color-2: #3691bf;
+  --bs-primary: #3691bf;
+  --bs-primary-rgb: 54, 145, 191;
 }
 
 .bg-primary {
-  background-color: #f55f01 !important;
+  background-color: var(--theme-primary, #3691bf) !important;
 }
 
 .text-primary {
-  color: #f55f01 !important;
+  color: var(--theme-primary, #3691bf) !important;
 }
 
 .border-primary {
-  border-color: #f55f01 !important;
+  border-color: var(--theme-primary, #3691bf) !important;
 }
 
 .bg-primary-subtle {
-  background-color: rgba(245, 95, 1, 0.12) !important;
-  color: #f55f01 !important;
+  background-color: rgba(54, 145, 191, 0.12) !important;
+  color: var(--theme-primary, #3691bf) !important;
 }
 
 .btn-primary {
-  background-color: #f55f01 !important;
-  border-color: #f55f01 !important;
+  background-color: var(--theme-primary, #3691bf) !important;
+  border-color: var(--theme-primary, #3691bf) !important;
   color: #ffffff !important;
 }
 
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
-  background-color: #d44e00 !important;
-  border-color: #d44e00 !important;
+  background-color: var(--theme-hover, #297ca6) !important;
+  border-color: var(--theme-hover, #297ca6) !important;
   color: #ffffff !important;
 }
 
 .btn-outline-primary {
-  color: #f55f01 !important;
-  border-color: #f55f01 !important;
+  color: var(--theme-primary, #3691bf) !important;
+  border-color: var(--theme-primary, #3691bf) !important;
 }
 
 .btn-outline-primary:hover,
 .btn-outline-primary:focus,
 .btn-outline-primary:active {
-  background-color: #f55f01 !important;
-  border-color: #f55f01 !important;
+  background-color: var(--theme-primary, #3691bf) !important;
+  border-color: var(--theme-primary, #3691bf) !important;
   color: #ffffff !important;
 }
 
 .ht-btn.style-2 {
-  background: #f55f01 !important;
-  border-color: #f55f01 !important;
+  background: var(--theme-primary, #3691bf) !important;
+  border-color: var(--theme-primary, #3691bf) !important;
 }
 
 .ht-btn.style-2:hover {
-  background: #d44e00 !important;
-  border-color: #d44e00 !important;
+  background: var(--theme-hover, #297ca6) !important;
+  border-color: var(--theme-hover, #297ca6) !important;
 }
 
 .hover-blue:hover,
 .hover-orange:hover {
-  color: #f55f01 !important;
+  color: var(--theme-primary, #3691bf) !important;
 }
 
 /* Global Headings & Saira-Medium Font Standard */
