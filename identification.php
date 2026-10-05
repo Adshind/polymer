@@ -27,7 +27,7 @@ include_once 'partials/header.php';
 }
 .flow-step-card.highlight-step {
     border: 2px solid var(--theme-primary);
-    background: linear-gradient(180deg, #ffffff 0%, #f0fdf4 100%);
+    background: linear-gradient(180deg, #ffffff 0%, #f0f7ff 100%);
 }
 .step-number-badge {
     position: absolute;
@@ -44,11 +44,38 @@ include_once 'partials/header.php';
     font-weight: 800;
     font-size: 13px;
     border: 1px solid #cbd5e1;
+    transition: all 0.3s ease;
 }
 .flow-step-card:hover .step-number-badge {
     background: var(--theme-primary);
     color: #ffffff;
     border-color: var(--theme-primary);
+}
+.flow-step-icon-box {
+    width: 54px;
+    height: 54px;
+    border-radius: 14px;
+    background: var(--theme-subtle);
+    color: var(--theme-primary);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.25rem;
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    border: 1px solid rgba(10, 88, 202, 0.14);
+}
+.flow-step-card:hover .flow-step-icon-box {
+    background: linear-gradient(135deg, var(--theme-primary) 0%, var(--theme-hover) 100%);
+    color: #ffffff;
+    border-color: var(--theme-primary);
+    transform: scale(1.08) translateY(-2px);
+    box-shadow: 0 8px 18px var(--theme-glow);
+}
+.flow-step-card.highlight-step .flow-step-icon-box {
+    background: linear-gradient(135deg, var(--theme-primary) 0%, var(--theme-hover) 100%);
+    color: #ffffff;
+    border-color: var(--theme-primary);
+    box-shadow: 0 6px 16px var(--theme-glow);
 }
 .marking-box {
     background: #0f172a;
@@ -229,8 +256,8 @@ include_once 'partials/header.php';
             <div class="col-md-6 col-lg-4">
                 <div class="p-4 shadow-sm h-100 flow-step-card">
                     <span class="step-number-badge">01</span>
-                    <div class="d-inline-flex p-3 text-white rounded-circle mb-3" style="background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%); box-shadow: 0 4px 12px rgba(2, 132, 199, 0.3);">
-                        <i class="fa-solid fa-boxes-packing fa-xl"></i>
+                    <div class="flow-step-icon-box">
+                        <i class="fa-solid fa-boxes-stacked fa-xl"></i>
                     </div>
                     <h5 class="fw-bold text-dark mb-2" style="font-size:18px;">Raw Material Identification</h5>
                     <p class="small text-muted mb-3" style="line-height:1.6;">
@@ -246,7 +273,7 @@ include_once 'partials/header.php';
             <div class="col-md-6 col-lg-4">
                 <div class="p-4 shadow-sm h-100 flow-step-card">
                     <span class="step-number-badge">02</span>
-                    <div class="d-inline-flex p-3 text-white rounded-circle mb-3" style="background: linear-gradient(135deg, #0d9488 0%, #0f766e 100%); box-shadow: 0 4px 12px rgba(13, 148, 136, 0.3);">
+                    <div class="flow-step-icon-box">
                         <i class="fa-solid fa-barcode fa-xl"></i>
                     </div>
                     <h5 class="fw-bold text-dark mb-2" style="font-size:18px;">Batch Number Assignment</h5>
@@ -263,8 +290,8 @@ include_once 'partials/header.php';
             <div class="col-md-6 col-lg-4">
                 <div class="p-4 shadow-sm h-100 flow-step-card">
                     <span class="step-number-badge">03</span>
-                    <div class="d-inline-flex p-3 text-white rounded-circle mb-3" style="background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%); box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);">
-                        <i class="fa-solid fa-clipboard-list fa-xl"></i>
+                    <div class="flow-step-icon-box">
+                        <i class="fa-solid fa-diagram-project fa-xl"></i>
                     </div>
                     <h5 class="fw-bold text-dark mb-2" style="font-size:18px;">Production Process Identification</h5>
                     <p class="small text-muted mb-3" style="line-height:1.6;">
@@ -280,8 +307,8 @@ include_once 'partials/header.php';
             <div class="col-md-6 col-lg-4">
                 <div class="p-4 shadow-sm h-100 flow-step-card">
                     <span class="step-number-badge">04</span>
-                    <div class="d-inline-flex p-3 text-white rounded-circle mb-3" style="background: linear-gradient(135deg, #7c3aed 0%, #6d28d9 100%); box-shadow: 0 4px 12px rgba(124, 58, 237, 0.3);">
-                        <i class="fa-solid fa-gears fa-xl"></i>
+                    <div class="flow-step-icon-box">
+                        <i class="fa-solid fa-industry fa-xl"></i>
                     </div>
                     <h5 class="fw-bold text-dark mb-2" style="font-size:18px;">Shaping &amp; Moulding</h5>
                     <p class="small text-muted mb-3" style="line-height:1.6;">
@@ -297,10 +324,10 @@ include_once 'partials/header.php';
             <div class="col-md-6 col-lg-4">
                 <div class="p-4 shadow-sm h-100 flow-step-card highlight-step">
                     <span class="step-number-badge" style="background:var(--theme-primary); color:#fff; border-color:var(--theme-primary);">05</span>
-                    <div class="d-inline-flex p-3 text-white rounded-circle mb-3" style="background: linear-gradient(135deg, var(--theme-primary) 0%, var(--theme-hover) 100%); box-shadow: 0 4px 12px var(--theme-glow);">
+                    <div class="flow-step-icon-box">
                         <i class="fa-solid fa-stamp fa-xl"></i>
                     </div>
-                    <span class="badge bg-success text-white px-2 py-1 mb-1 rounded-pill small float-end">CORE STAMP</span>
+                    <span class="badge bg-primary text-white px-2 py-1 mb-1 rounded-pill small float-end">CORE STAMP</span>
                     <h5 class="fw-bold text-dark mb-2" style="font-size:18px;">PRODUCT IDENTIFICATION</h5>
                     <p class="small text-muted mb-3" style="line-height:1.6;">
                         <strong>LOT NO., BEARING SIZE &amp; UNIQUE IDENTIFICATION NO.</strong><br>
@@ -316,7 +343,7 @@ include_once 'partials/header.php';
             <div class="col-md-6 col-lg-4">
                 <div class="p-4 shadow-sm h-100 flow-step-card">
                     <span class="step-number-badge">06</span>
-                    <div class="d-inline-flex p-3 text-white rounded-circle mb-3" style="background: linear-gradient(135deg, #059669 0%, #047857 100%); box-shadow: 0 4px 12px rgba(5, 150, 105, 0.3);">
+                    <div class="flow-step-icon-box">
                         <i class="fa-solid fa-vial-circle-check fa-xl"></i>
                     </div>
                     <h5 class="fw-bold text-dark mb-2" style="font-size:18px;">Quality Control &amp; Testing</h5>
@@ -333,8 +360,8 @@ include_once 'partials/header.php';
             <div class="col-md-6 col-lg-4">
                 <div class="p-4 shadow-sm h-100 flow-step-card">
                     <span class="step-number-badge">07</span>
-                    <div class="d-inline-flex p-3 text-white rounded-circle mb-3" style="background: linear-gradient(135deg, #ea580c 0%, #c2410c 100%); box-shadow: 0 4px 12px rgba(234, 88, 12, 0.3);">
-                        <i class="fa-solid fa-tags fa-xl"></i>
+                    <div class="flow-step-icon-box">
+                        <i class="fa-solid fa-box-open fa-xl"></i>
                     </div>
                     <h5 class="fw-bold text-dark mb-2" style="font-size:18px;">Packaging &amp; Labelling</h5>
                     <p class="small text-muted mb-3" style="line-height:1.6;">
@@ -350,7 +377,7 @@ include_once 'partials/header.php';
             <div class="col-md-6 col-lg-4">
                 <div class="p-4 shadow-sm h-100 flow-step-card">
                     <span class="step-number-badge">08</span>
-                    <div class="d-inline-flex p-3 text-white rounded-circle mb-3" style="background: linear-gradient(135deg, #475569 0%, #334155 100%); box-shadow: 0 4px 12px rgba(71, 85, 105, 0.3);">
+                    <div class="flow-step-icon-box">
                         <i class="fa-solid fa-warehouse fa-xl"></i>
                     </div>
                     <h5 class="fw-bold text-dark mb-2" style="font-size:18px;">Inventory Tracking &amp; Storage</h5>
@@ -367,7 +394,7 @@ include_once 'partials/header.php';
             <div class="col-md-6 col-lg-4">
                 <div class="p-4 shadow-sm h-100 flow-step-card">
                     <span class="step-number-badge">09</span>
-                    <div class="d-inline-flex p-3 text-white rounded-circle mb-3" style="background: linear-gradient(135deg, #16a34a 0%, #15803d 100%); box-shadow: 0 4px 12px rgba(22, 163, 74, 0.3);">
+                    <div class="flow-step-icon-box">
                         <i class="fa-solid fa-truck-fast fa-xl"></i>
                     </div>
                     <h5 class="fw-bold text-dark mb-2" style="font-size:18px;">Shipping &amp; Distribution</h5>
