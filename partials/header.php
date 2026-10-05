@@ -45,11 +45,11 @@ $current_page = basename($_SERVER['PHP_SELF']);
     <!--<< Nice Select.css >>-->
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <!--<< Main.css >>-->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css?v=<?= time() ?>">
     <!--<< Theme Switcher CSS >>-->
-    <link rel="stylesheet" href="assets/css/theme-switcher.css">
+    <link rel="stylesheet" href="assets/css/theme-switcher.css?v=<?= time() ?>">
     <!--<< Layout.css >>-->
-    <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/layout.css?v=<?= time() ?>">
 </head>
 
 <body class="body-color">

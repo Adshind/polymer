@@ -628,7 +628,7 @@ include_once 'partials/header.php';
 
     .sector-card:hover {
         transform: translateY(-5px);
-        box-shadow: 0 16px 35px rgba(245, 95, 1, 0.1) !important;
+        box-shadow: 0 16px 35px var(--theme-glow, rgba(54, 145, 191, 0.15)) !important;
     }
 
     .sector-card:hover .sector-img {
@@ -820,7 +820,7 @@ include_once 'partials/header.php';
     .testimonial-card-prozen {
         border-radius: 28px !important;
         border: 1px solid #e2e8f0;
-        box-shadow: 0 15px 45px rgba(245, 95, 1, 0.06);
+        box-shadow: 0 15px 45px var(--theme-subtle, rgba(54, 145, 191, 0.08));
     }
 
     @media (min-width: 992px) {
