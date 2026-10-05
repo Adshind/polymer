@@ -33,8 +33,8 @@ include_once 'partials/header.php';
     position: absolute;
     top: 14px;
     right: 14px;
-    width: 32px;
-    height: 32px;
+    width: 34px;
+    height: 34px;
     background: #f1f5f9;
     color: #475569;
     border-radius: 50%;
@@ -68,6 +68,43 @@ include_once 'partials/header.php';
     font-size: 13px;
     letter-spacing: 0.5px;
     text-transform: uppercase;
+}
+.flow-stepper-item {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 10px 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #1e293b;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+    transition: all 0.25s ease;
+}
+.flow-stepper-item:hover {
+    border-color: var(--theme-primary);
+    background: var(--theme-subtle);
+    color: var(--theme-primary);
+}
+.flow-stepper-item.active-step {
+    border-color: var(--theme-primary);
+    background: var(--theme-subtle);
+    color: var(--theme-primary);
+}
+.flow-stepper-num {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: var(--theme-primary);
+    color: #ffffff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    font-weight: 800;
+    flex-shrink: 0;
 }
 </style>
 
@@ -150,7 +187,7 @@ include_once 'partials/header.php';
 <section class="py-5" id="traceability-flow" style="background:#ffffff;">
     <div class="container py-4">
         
-        <div class="section-title text-center mb-5">
+        <div class="section-title text-center mb-4">
             <span class="badge px-3 py-2 mb-2 rounded-pill text-uppercase" style="background: var(--theme-subtle); color: var(--theme-primary); font-weight:700; font-size:12px; letter-spacing:1px;">
                 Official Quality Protocol
             </span>
@@ -160,6 +197,29 @@ include_once 'partials/header.php';
             <p class="text-muted mx-auto" style="max-width:720px; font-size:15px; line-height:1.7;">
                 Step-by-step product tracking workflow compliant with <strong>IRC:83 (Part II)</strong>, <strong>RDSO</strong>, and <strong>ISO 9001:2027</strong> quality control standards.
             </p>
+        </div>
+
+        <!-- Visual Sequential Stepper Summary -->
+        <div class="p-3 rounded-4 bg-light border mb-5 shadow-sm">
+            <div class="d-flex flex-wrap align-items-center justify-content-center gap-2">
+                <div class="flow-stepper-item"><span class="flow-stepper-num">01</span> Raw Material ID</div>
+                <i class="fa-solid fa-chevron-right text-muted d-none d-md-inline small"></i>
+                <div class="flow-stepper-item"><span class="flow-stepper-num">02</span> Batch Assignment</div>
+                <i class="fa-solid fa-chevron-right text-muted d-none d-md-inline small"></i>
+                <div class="flow-stepper-item"><span class="flow-stepper-num">03</span> Process Routing</div>
+                <i class="fa-solid fa-chevron-right text-muted d-none d-md-inline small"></i>
+                <div class="flow-stepper-item"><span class="flow-stepper-num">04</span> Shaping &amp; Moulding</div>
+                <i class="fa-solid fa-chevron-right text-muted d-none d-md-inline small"></i>
+                <div class="flow-stepper-item active-step"><span class="flow-stepper-num">05</span> Product ID (Lot / Size / UID)</div>
+                <i class="fa-solid fa-chevron-right text-muted d-none d-md-inline small"></i>
+                <div class="flow-stepper-item"><span class="flow-stepper-num">06</span> QC &amp; Testing</div>
+                <i class="fa-solid fa-chevron-right text-muted d-none d-md-inline small"></i>
+                <div class="flow-stepper-item"><span class="flow-stepper-num">07</span> Packaging &amp; Labelling</div>
+                <i class="fa-solid fa-chevron-right text-muted d-none d-md-inline small"></i>
+                <div class="flow-stepper-item"><span class="flow-stepper-num">08</span> Inventory &amp; Storage</div>
+                <i class="fa-solid fa-chevron-right text-muted d-none d-md-inline small"></i>
+                <div class="flow-stepper-item"><span class="flow-stepper-num">09</span> Shipping &amp; Distribution</div>
+            </div>
         </div>
 
         <!-- 9 Flow Steps Grid -->

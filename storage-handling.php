@@ -92,11 +92,11 @@ include_once 'partials/header.php';
                     A rigorous 16-step standard operating procedure governing elastomeric bridge bearings across their entire supply chain lifecycle: from post-production handling, preliminary inspection, climate-controlled storage, to order verification, protective packaging, live-tracked transit, on-site customer inspection, and lifetime after-sales support.
                 </p>
                 <div class="d-flex flex-wrap gap-3">
-                    <a href="#flowchart-section" class="btn btn-primary rounded-pill px-4 py-2 fw-bold text-uppercase" style="background:var(--theme-primary); border-color:var(--theme-primary); font-size:13px; letter-spacing:0.5px;">
-                        <i class="fa-solid fa-route me-2"></i>Explore 16-Step Flow Chart
+                    <a href="#installation-methodology" class="btn btn-primary rounded-pill px-4 py-2 fw-bold text-uppercase" style="background:var(--theme-primary); border-color:var(--theme-primary); font-size:13px; letter-spacing:0.5px;">
+                        <i class="fa-solid fa-file-pdf me-2"></i>Installation Manual
                     </a>
-                    <a href="contact.php" class="btn btn-outline-light rounded-pill px-4 py-2 fw-bold text-uppercase" style="font-size:13px; letter-spacing:0.5px;">
-                        <i class="fa-solid fa-paper-plane me-2"></i>Inquire For Logistics
+                    <a href="#flowchart-section" class="btn btn-outline-light rounded-pill px-4 py-2 fw-bold text-uppercase" style="font-size:13px; letter-spacing:0.5px;">
+                        <i class="fa-solid fa-route me-2"></i>16-Step Flow Chart
                     </a>
                 </div>
             </div>
@@ -105,7 +105,81 @@ include_once 'partials/header.php';
 </section>
 
 <!-- ============================================================
-     MASTER FLOW CHART SECTION: 16-STEP PROCESS PIPELINE
+     2. Installation & Maintenance Methodology (Page 09 Document)
+     ============================================================ -->
+<section class="py-5 bg-white border-bottom" id="installation-methodology">
+    <div class="container py-3">
+        <div class="p-4 p-lg-5 rounded-4 border shadow-sm" style="background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);">
+            <!-- Header & Action Row -->
+            <div class="row align-items-center justify-content-between g-4 mb-4 pb-3 border-bottom">
+                <div class="col-lg-8">
+                    <span class="badge px-3 py-1.5 mb-2 rounded-pill text-uppercase" style="background: var(--theme-subtle); color: var(--theme-primary); font-weight:700; font-size:12px; letter-spacing:1px;">
+                        <i class="fa-solid fa-file-pdf me-1"></i> Technical Manual &bull; Page 09
+                    </span>
+                    <h2 class="fw-bold text-dark mb-2" style="font-family:'Oswald', sans-serif; font-size:clamp(24px, 3vw, 34px); letter-spacing:-0.5px;">
+                        Elastomeric Bearing Installation and Maintenance Methodology
+                    </h2>
+                    <p class="text-secondary mb-0" style="font-size: 15px; line-height: 1.8;">
+                        Comprehensive field technical guidelines covering bridge pedestal preparation, epoxy bedding mortar leveling, jacking procedures, permissible installation tolerances, annual maintenance routines, and in-service health monitoring compliant with <strong>IRC:83 (Part II)</strong>, <strong>RDSO</strong>, and <strong>MoRTH Clause 2005</strong>.
+                    </p>
+                </div>
+                <div class="col-lg-4 text-lg-end">
+                    <div class="d-flex flex-wrap gap-2 justify-content-lg-end">
+                        <button type="button" class="btn btn-primary rounded-pill px-4 py-2.5 fw-bold shadow-sm open-storage-doc-modal d-inline-flex align-items-center gap-2"
+                            style="background: var(--theme-primary); border-color: var(--theme-primary); font-size: 13.5px;"
+                            data-doc-url="assets/pp_data/Page 09/ELASTOMERIC BEARING INSTALLATION AND MAINTENANCE METHODOLOGY.pdf"
+                            data-doc-title="Elastomeric Bearing Installation and Maintenance Methodology">
+                            <i class="fa-solid fa-file-pdf"></i> <span>View Methodology Manual</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4 Key Technical Highlights in 4 columns -->
+            <div class="row g-3">
+                <div class="col-md-6 col-lg-3">
+                    <div class="p-3 bg-white rounded-3 border h-100 shadow-xs">
+                        <div class="d-flex align-items-center mb-1">
+                            <i class="fa-solid fa-ruler-combined text-primary me-2"></i>
+                            <strong class="text-dark small">Pedestal Leveling</strong>
+                        </div>
+                        <small class="text-muted d-block" style="line-height: 1.5;">Leveling tolerance within &plusmn;1mm with non-shrink epoxy bedding mortar.</small>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="p-3 bg-white rounded-3 border h-100 shadow-xs">
+                        <div class="d-flex align-items-center mb-1">
+                            <i class="fa-solid fa-arrows-up-down text-primary me-2"></i>
+                            <strong class="text-dark small">Synchronized Jacking</strong>
+                        </div>
+                        <small class="text-muted d-block" style="line-height: 1.5;">Even girder load transfer preventing edge crushing and eccentric rotation.</small>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="p-3 bg-white rounded-3 border h-100 shadow-xs">
+                        <div class="d-flex align-items-center mb-1">
+                            <i class="fa-solid fa-magnifying-glass-chart text-primary me-2"></i>
+                            <strong class="text-dark small">Annual In-Service Inspection</strong>
+                        </div>
+                        <small class="text-muted d-block" style="line-height: 1.5;">Checklist for elastomer shear strain, bulging, weathering, and grease condition.</small>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="p-3 bg-white rounded-3 border h-100 shadow-xs">
+                        <div class="d-flex align-items-center mb-1">
+                            <i class="fa-solid fa-file-circle-check text-primary me-2"></i>
+                            <strong class="text-dark small">Authority Approval</strong>
+                        </div>
+                        <small class="text-muted d-block" style="line-height: 1.5;">Standard methodology accepted across NHAI, Rail, Metro, and State PWD projects.</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================================
+     3. MASTER FLOW CHART SECTION: 16-STEP PROCESS PIPELINE
      ============================================================ -->
 <section class="py-5 bg-light position-relative" id="flowchart-section" style="background-color: #f8fafc !important;">
     <div class="container py-3">
@@ -1259,6 +1333,132 @@ function showStepModal(stepNumber) {
     const myModal = new bootstrap.Modal(document.getElementById('flowStepModal'));
     myModal.show();
 }
+
+// Storage / Installation PDF Document Viewer Modal Logic
+document.addEventListener('DOMContentLoaded', function () {
+    const docModalEl = document.getElementById('storageDocModal');
+    if (!docModalEl) return;
+
+    const modalTitle = document.getElementById('storageDocModalLabel');
+    const modalIframe = document.getElementById('storageDocModalIframe');
+    const modalLoader = document.getElementById('storageDocModalLoader');
+
+    function getModalInstance() {
+        if (typeof bootstrap !== 'undefined' && bootstrap.Modal) {
+            return bootstrap.Modal.getOrCreateInstance(docModalEl);
+        }
+        return null;
+    }
+
+    function unlockPageScroll() {
+        if (modalIframe) {
+            modalIframe.src = '';
+            modalIframe.style.display = 'none';
+        }
+        if (modalLoader) modalLoader.style.display = 'none';
+
+        document.body.classList.remove('modal-open');
+        document.body.style.removeProperty('overflow');
+        document.body.style.removeProperty('overflow-y');
+        document.body.style.removeProperty('padding-right');
+        document.documentElement.style.removeProperty('overflow');
+        document.documentElement.style.removeProperty('overflow-y');
+
+        document.querySelectorAll('.modal-backdrop').forEach(function (backdrop) {
+            backdrop.remove();
+        });
+    }
+
+    docModalEl.addEventListener('hidden.bs.modal', unlockPageScroll);
+
+    document.querySelectorAll('.open-storage-doc-modal').forEach(function (btn) {
+        btn.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            const url = this.getAttribute('data-doc-url');
+            const title = this.getAttribute('data-doc-title') || 'Installation & Maintenance Methodology';
+
+            if (!url) return;
+
+            if (modalTitle) modalTitle.textContent = title;
+            if (modalLoader) modalLoader.style.display = 'block';
+            if (modalIframe) {
+                modalIframe.style.display = 'none';
+                modalIframe.src = '';
+            }
+
+            const cleanUrl = url.split('#')[0];
+            const pdfViewerUrl = cleanUrl + '#toolbar=0&navpanes=0&scrollbar=0';
+
+            if (modalIframe) {
+                modalIframe.onload = function () {
+                    if (modalLoader) modalLoader.style.display = 'none';
+                    modalIframe.style.display = 'block';
+                };
+                modalIframe.src = pdfViewerUrl;
+            }
+
+            setTimeout(function () {
+                if (modalLoader) modalLoader.style.display = 'none';
+                if (modalIframe) modalIframe.style.display = 'block';
+            }, 600);
+
+            const bsModal = getModalInstance();
+            if (bsModal) {
+                bsModal.show();
+            } else if (typeof $ !== 'undefined') {
+                $(docModalEl).modal('show');
+            }
+        });
+    });
+});
 </script>
+
+<!-- ============================================================
+     STORAGE / INSTALLATION PDF DOCUMENT VIEWER MODAL
+     ============================================================ -->
+<div class="modal fade" id="storageDocModal" tabindex="-1" aria-labelledby="storageDocModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content border-0 shadow-lg rounded-4 overflow-hidden">
+            <div class="modal-header bg-dark text-white border-0 py-3 px-4 d-flex justify-content-between align-items-center">
+                <div class="d-flex align-items-center gap-3">
+                    <div class="rounded-circle p-2 d-flex align-items-center justify-content-center text-white" style="background: var(--theme-primary); width: 40px; height: 40px;">
+                        <i class="fa-solid fa-file-pdf fs-6"></i>
+                    </div>
+                    <div>
+                        <h5 class="modal-title fw-bold text-white mb-0" id="storageDocModalLabel" style="font-family: 'Oswald', sans-serif; letter-spacing: 0.5px;">
+                            Installation and Maintenance Methodology
+                        </h5>
+                        <small class="text-light text-opacity-75" style="font-size: 12px;">Official Technical Manual &bull; IRC:83 (Part II) &bull; RDSO &bull; MoRTH Clause 2005</small>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center gap-2">
+                    <a href="assets/pp_data/Page 09/ELASTOMERIC BEARING INSTALLATION AND MAINTENANCE METHODOLOGY.pdf" target="_blank" class="btn btn-sm btn-outline-light rounded-pill px-3 py-1">
+                        <i class="fa-solid fa-arrow-up-right-from-square me-1"></i> Fullscreen
+                    </a>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+            </div>
+            
+            <div class="modal-body p-0 position-relative" style="background: #0f172a; min-height: 540px;">
+                <div id="storageDocModalLoader" class="position-absolute top-50 start-50 translate-middle text-center py-5">
+                    <div class="spinner-border text-primary mb-2" role="status" style="width: 3rem; height: 3rem;">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                    <p class="text-white-50 small mb-0">Loading document preview...</p>
+                </div>
+
+                <iframe id="storageDocModalIframe" src="" style="width: 100%; height: 75vh; border: none; display: none; background: #fff;" allowfullscreen></iframe>
+            </div>
+
+            <div class="modal-footer bg-light px-4 py-2.5 border-top d-flex justify-content-between align-items-center">
+                <span class="text-muted small">
+                    <i class="fa-solid fa-shield-check text-success me-1"></i> Verified Technical SOP &bull; Polymer Products, Nashik
+                </span>
+                <button type="button" class="btn btn-secondary btn-sm rounded-pill px-4" data-bs-dismiss="modal">Close Document</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 <?php include_once 'partials/footer.php'; ?>
