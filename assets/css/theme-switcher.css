@@ -4,15 +4,15 @@
 
 :root {
   --theme-primary: #3691bf;
-  --theme-hover: #3691bf;
-  --theme-light: #3691bf;
-  --theme-lighter: #3691bf;
+  --theme-hover: #297ca6;
+  --theme-light: #5ba7cd;
+  --theme-lighter: #8bc3dc;
   --theme-subtle: rgba(54, 145, 191, 0.12);
   --theme-glow: rgba(54, 145, 191, 0.35);
 
-  --bs-primary: var(--theme-primary) !important;
-  --bs-primary-rgb: 245, 95, 1 !important;
-  --ht-theme-color-2: var(--theme-primary) !important;
+  --bs-primary: #3691bf !important;
+  --bs-primary-rgb: 54, 145, 191 !important;
+  --ht-theme-color-2: #3691bf !important;
 }
 
 /* ============================================================

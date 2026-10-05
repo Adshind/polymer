@@ -2,6 +2,18 @@
    POLYMER PRODUCTS - CENTRALIZED HEADER & FOOTER STYLES
    =================================================== */
 
+:root {
+    --theme-primary: #3691bf;
+    --theme-hover: #297ca6;
+    --theme-light: #5ba7cd;
+    --theme-lighter: #8bc3dc;
+    --theme-subtle: rgba(54, 145, 191, 0.12);
+    --theme-glow: rgba(54, 145, 191, 0.35);
+    --bs-primary: #3691bf !important;
+    --bs-primary-rgb: 54, 145, 191 !important;
+    --ht-theme-color-2: #3691bf !important;
+}
+
 /* Top Bar */
 .ht-top-header {
     background: var(--theme-primary);
