@@ -176,9 +176,9 @@
 
         <!-- Footer Bottom Copyright & Compliance -->
         <div class="footer-bottom-bar pt-4 pb-2 border-top d-flex flex-wrap align-items-center justify-content-between gap-3"
-            style="border-color: rgba(255, 255, 255, 0.08) !important; font-size: 13px; color: #64748b;">
+            style="border-color: rgba(255, 255, 255, 0.08) !important; font-size: 15px; color: #64748b;">
             <p class="mb-0">
-                &copy; <?php echo date('Y'); ?> <strong class="text-secondary">Polymer Products</strong> (Dynamic Prestress Group). Estd. 1978 &bull; H-32, M.I.D.C. SATPUR, NASHIK-422007 Maharashtra, India
+                &copy; <?php echo date('Y'); ?> <strong class="text-white"> PolymerProducts</strong> (DynamicGroup).EngineeredinNashik,Maharashtra
             </p> 
             <div class="d-flex align-items-center gap-4"> 
                 <a href="experience.php" class="text-decoration-none text-muted-link">Track Record</a>

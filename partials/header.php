@@ -81,11 +81,11 @@ $current_page = basename($_SERVER['PHP_SELF']);
                     </div>
                     <div class="col-lg-6 col-md-6 text-center text-md-end">
                         <ul class="right list-inline mb-0 small" style="font-size:13px; font-family:'Saira-Medium', sans-serif;">
-                            <li class="list-inline-item me-3">
+                            <!-- <li class="list-inline-item me-3">
                                 <i class="fa-solid fa-phone text-white me-1"></i>
                                 <a href="tel:8975766459" class="text-white text-decoration-none fw-semibold">+91 8975766459</a>
                                 <span class="d-none d-sm-inline"> / <a href="tel:02532350935" class="text-white text-decoration-none">0253 235 0935</a></span>
-                            </li>
+                            </li> -->
                             <li class="list-inline-item d-none d-sm-inline-block">
                                 <i class="fa-solid fa-envelope text-white me-1"></i>
                                 <a href="mailto:sales@polymerproducts.org" class="text-white text-decoration-none">sales@polymerproducts.org</a>
