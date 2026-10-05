@@ -1,195 +1,120 @@
 <?php 
-$page_title = "Statutory Registrations, Quality Certifications & Approvals - Polymer Products";
-$meta_description = "Official statutory certificates, GST, PAN, UDYAM MSME, Factory License, MPCB Pollution Consent, ISO 9001:2027, RDSO Approval, and NHAI Client Approval Letters.";
+$page_title = "NHAI Client Approvals & Technical Certifications - Polymer Products";
+$meta_description = "Official NHAI client approval letters, RDSO Indian Railways technical approval, IRC:83 Quality Assurance Plan, and EPC contractor credentials.";
 include_once 'partials/header.php'; 
 
-// Array of all Statutory & Quality Certificates
-$certifications = [
-    // 1. Statutory & Industrial Registrations
+// Specialized Technical & Quality Accreditations (Non-duplicate, distinct from the 8 Home page statutory certs)
+$quality_approvals = [
     [
         "num" => "01",
-        "title" => "GST Registration Certificate",
-        "cat" => "statutory",
-        "cat_label" => "Statutory Tax Registration",
-        "desc" => "Registered manufacturing enterprise under Government of India Goods & Services Tax (GST) Act with verified GSTIN.",
-        "icon" => "fa-file-invoice-dollar",
-        "doc" => "assets/pp_data/Page 01/POLYMER DETAILS/GST_CERTIFICATE-1.pdf",
-        "type" => "pdf",
-        "badge" => "Govt. of India",
-        "color" => "#0284c7"
-    ],
-    [
-        "num" => "02",
-        "title" => "PAN & Tax Registration Record",
-        "cat" => "statutory",
-        "cat_label" => "Income Tax Department",
-        "desc" => "Permanent Account Number statutory tax registration issued by Income Tax Department, Government of India.",
-        "icon" => "fa-id-card",
-        "doc" => "assets/pp_data/Page 01/POLYMER DETAILS/PP DETAILS/MPP NEW PAN.pdf",
-        "type" => "pdf",
-        "badge" => "Statutory Record",
-        "color" => "#0284c7"
-    ],
-    [
-        "num" => "03",
-        "title" => "UDYAM MSME Enterprise Certificate",
-        "cat" => "statutory",
-        "cat_label" => "Ministry of MSME",
-        "desc" => "Official Udyam Registration accredited under Ministry of Micro, Small and Medium Enterprises, Government of India.",
-        "icon" => "fa-building-flag",
-        "doc" => "assets/pp_data/Page 01/POLYMER DETAILS/UDAYAM CERTIFICATE.pdf",
-        "type" => "pdf",
-        "badge" => "MSME Certified",
-        "color" => "#0284c7"
-    ],
-    [
-        "num" => "04",
-        "title" => "Directorate of Safety Factory Plan",
-        "cat" => "factory",
-        "cat_label" => "Industrial Safety & Health",
-        "desc" => "Directorate of Industrial Safety & Health approved factory layout, machinery setup & manufacturing plant safety compliance.",
-        "icon" => "fa-industry",
-        "doc" => "assets/pp_data/Page 01/POLYMER DETAILS/PP DETAILS/PLAN APPROVAL CERTIFICATE.pdf",
-        "type" => "pdf",
-        "badge" => "DISH Approved",
-        "color" => "#0d9488"
-    ],
-    [
-        "num" => "05",
-        "title" => "Plant Model & Infrastructure Plan",
-        "cat" => "factory",
-        "cat_label" => "Manufacturing Architecture",
-        "desc" => "Detailed civil and structural model layout of Nashik manufacturing floor, press bays, laboratory, and dispatch zones.",
-        "icon" => "fa-compass-drafting",
-        "doc" => "assets/pp_data/Page 01/POLYMER DETAILS/PP DETAILS/POLYMER MODEL PLAN.pdf",
-        "type" => "pdf",
-        "badge" => "Plant Layout",
-        "color" => "#0d9488"
-    ],
-    [
-        "num" => "06",
-        "title" => "Factory Building Stability Certificate",
-        "cat" => "factory",
-        "cat_label" => "Structural Safety",
-        "desc" => "Chartered Structural Engineer certified factory building structural stability for heavy hydraulic vulcanizing press lines.",
-        "icon" => "fa-shield-halved",
-        "doc" => "assets/pp_data/Page 01/POLYMER DETAILS/PP DETAILS/STABILITY CERTIFICATE.pdf",
-        "type" => "pdf",
-        "badge" => "Stability Certified",
-        "color" => "#0d9488"
-    ],
-    [
-        "num" => "07",
-        "title" => "Pollution Control Consent (MPCB)",
-        "cat" => "factory",
-        "cat_label" => "Environmental Board",
-        "desc" => "Maharashtra Pollution Control Board (MPCB) environmental consent & green manufacturing standards compliance.",
-        "icon" => "fa-leaf",
-        "doc" => "assets/pp_data/Page 01/POLYMER DETAILS/PP DETAILS/MPCB POLLUTION CERTIFICATE.pdf",
-        "type" => "pdf",
-        "badge" => "MPCB Approved",
-        "color" => "#16a34a"
-    ],
-    [
-        "num" => "08",
-        "title" => "ISO 9001:2027 Quality Certificate",
-        "cat" => "quality",
-        "cat_label" => "Quality Management System",
-        "desc" => "International Quality Management System certification for precision manufacture and testing of elastomeric bridge bearings.",
-        "icon" => "fa-award",
-        "doc" => "assets/pp_data/Page 01/POLYMER DETAILS/ISO CERTIFICATE 2027.png",
-        "type" => "image",
-        "badge" => "ISO 9001:2027",
-        "color" => "#ea580c"
-    ],
-    [
-        "num" => "09",
         "title" => "RDSO Indian Railways Technical Approval",
-        "cat" => "quality",
         "cat_label" => "Indian Railways Standards",
         "desc" => "Research Designs and Standards Organisation (RDSO) technical approval conforming to RDSO BS-131 standard for railway bridges.",
         "icon" => "fa-train",
         "doc" => "assets/pp_data/Page 01/POLYMER DETAILS/NEW_RDSO.pdf",
         "type" => "pdf",
-        "badge" => "RDSO BS-131",
+        "badge" => "RDSO BS-131 Approved",
         "color" => "#dc2626"
     ],
     [
-        "num" => "10",
+        "num" => "02",
         "title" => "Company Credential & NHAI QAP",
-        "cat" => "quality",
         "cat_label" => "Highway & Bridge QAP",
         "desc" => "Comprehensive Quality Assurance Plan (QAP) conforming to IRC:83 (Part II) approved by NHAI, Metro, and Major Infrastructure clients.",
         "icon" => "fa-file-shield",
         "doc" => "assets/pp_data/Page 01/Credential_Polymer_Products.pdf",
         "type" => "pdf",
-        "badge" => "IRC:83 (Pt II)",
+        "badge" => "IRC:83 (Pt II) Compliant",
         "color" => "#2563eb"
     ],
     [
-        "num" => "11",
+        "num" => "03",
         "title" => "Dynamic Prestress Sister Concern Letter",
-        "cat" => "quality",
-        "cat_label" => "Corporate Synergy",
+        "cat_label" => "Corporate Synergy & Credential",
         "desc" => "Official corporate relationship and manufacturing division credential letter backed by Dynamic Prestress (I) Pvt. Ltd.",
         "icon" => "fa-handshake",
         "doc" => "assets/pp_data/Page 02/sister cons latter - 2026.pdf",
         "type" => "pdf",
-        "badge" => "Group Credential",
+        "badge" => "Group Synergy Credential",
         "color" => "#4f46e5"
+    ],
+    [
+        "num" => "04",
+        "title" => "Plant Model & Infrastructure Plan",
+        "cat_label" => "Manufacturing Architecture",
+        "desc" => "Detailed civil and structural model layout of Nashik manufacturing floor, press bays, testing laboratory, and dispatch zones.",
+        "icon" => "fa-compass-drafting",
+        "doc" => "assets/pp_data/Page 01/POLYMER DETAILS/PP DETAILS/POLYMER MODEL PLAN.pdf",
+        "type" => "pdf",
+        "badge" => "DISH Plant Architecture",
+        "color" => "#0d9488"
     ]
 ];
 
-// Client Approval Letters
+// NHAI & Major Infrastructure Client Approval Letters
 $client_approvals = [
     [
+        "num" => "01",
         "client" => "Ashoka Buildcon Ltd.",
         "project" => "4/6 Lane National Highway Bridge Expansion & ROB Packages",
         "doc" => "assets/pp_data/Page 01/POLYMER DETAILS/NH APPROVED LETTERS/LETTER/ashoka-3.pdf",
         "icon" => "fa-road",
-        "badge" => "NHAI EPC Project"
+        "badge" => "NHAI EPC Project",
+        "summary" => "Official acceptance and technical approval letter for high-tonnage elastomeric bridge bearings supplied for national expressway bridge packages."
     ],
     [
+        "num" => "02",
         "client" => "GHV (India) Pvt. Ltd.",
         "project" => "National Highway Expressway Bridge Packages with Consultant QC",
         "doc" => "assets/pp_data/Page 01/POLYMER DETAILS/NH APPROVED LETTERS/LETTERS/GHV  3.10.23.pdf",
         "icon" => "fa-bridge-water",
-        "badge" => "Expressway Package"
+        "badge" => "Expressway Corridor",
+        "summary" => "Approved bridge bearing supplier clearance letter conforming to IRC:83 (Part II) with rigorous third-party quality control inspections."
     ],
     [
+        "num" => "03",
         "client" => "HG Infra Engineering Ltd.",
         "project" => "Major Expressways, Elevated Corridors & River Bridge Bearing Supplies",
         "doc" => "assets/pp_data/Page 01/POLYMER DETAILS/NH APPROVED LETTERS/LETTERS/HG INFRA - AP.pdf",
         "icon" => "fa-road",
-        "badge" => "Highway Viaduct"
+        "badge" => "Highway Viaduct",
+        "summary" => "Official project authorization letter for design, compounding, and delivery of multi-laminated elastomeric bearings for elevated corridors."
     ],
     [
+        "num" => "04",
         "client" => "Mumbai Metro Line 4 (MML4)",
         "project" => "Elevated Transit Viaduct Pier Bearings & Station Corridor Vibration Pads",
         "doc" => "assets/pp_data/Page 01/POLYMER DETAILS/NH APPROVED LETTERS/LETTERS/MILAN MML4-MUMBAI METRO.pdf",
         "icon" => "fa-train-subway",
-        "badge" => "Metro Rail Transit"
+        "badge" => "Metro Rail Transit",
+        "summary" => "Official Metro authority bearing approval for elevated guide-way pier caps and seismic vibration isolation pads."
     ],
     [
+        "num" => "05",
         "client" => "Rajnandini Infrastructure",
         "project" => "State Highway Bridges, River Crossings & PWD Flyover Contracts",
         "doc" => "assets/pp_data/Page 01/POLYMER DETAILS/NH APPROVED LETTERS/LETTERS/RAJNANDINI.pdf",
         "icon" => "fa-bridge",
-        "badge" => "PWD Highway"
+        "badge" => "PWD Highway",
+        "summary" => "State Highway project engineer acceptance letter verifying compliance with proof-load (1.5x) and shear modulus acceptance parameters."
     ],
     [
+        "num" => "06",
         "client" => "Shivalaya Construction Co.",
         "project" => "Highway Grade Separators, Vehicular Underpasses (VUP) & Major Flyovers",
         "doc" => "assets/pp_data/Page 01/POLYMER DETAILS/NH APPROVED LETTERS/LETTERS/SHIVALAYA LETTER.pdf",
         "icon" => "fa-city",
-        "badge" => "Flyover Corridor"
+        "badge" => "Flyover Corridor",
+        "summary" => "Official contractor approval for supply of standard and custom sized IRC:83 Type B and Type C elastomeric bearings."
     ],
     [
+        "num" => "07",
         "client" => "Bharat Construction",
         "project" => "Highway Bridges, River Overpass Superstructures & Bearing Approvals",
         "doc" => "assets/pp_data/Page 01/POLYMER DETAILS/NH APPROVED LETTERS/BHARAT CONST.pdf",
         "icon" => "fa-building",
-        "badge" => "Bridge Infrastructure"
+        "badge" => "Bridge Infrastructure",
+        "summary" => "Quality compliance and site acceptance letter for railway overbridge (ROB) and river crossing bridge bearing installations."
     ]
 ];
 ?>
@@ -202,59 +127,46 @@ $client_approvals = [
     font-size: 13px;
     letter-spacing: 1px;
 }
-.cert-card {
-    transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
-    border: 1px solid #e2e8f0;
+.approval-card-modern {
     background: #ffffff;
-    border-radius: 18px;
+    border: 1px solid #e2e8f0;
+    border-radius: 20px;
+    transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+    position: relative;
     overflow: hidden;
 }
-.cert-card:hover {
+.approval-card-modern:hover {
     transform: translateY(-6px);
-    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.08) !important;
+    box-shadow: 0 16px 36px rgba(2, 132, 199, 0.12) !important;
     border-color: var(--theme-primary) !important;
 }
-.cert-icon-wrap {
-    width: 62px;
-    height: 62px;
-    border-radius: 16px;
+.approval-icon-box {
+    width: 54px;
+    height: 54px;
+    border-radius: 14px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    font-size: 26px;
+    font-size: 22px;
+    background: var(--theme-subtle);
+    color: var(--theme-primary);
     transition: transform 0.3s ease;
 }
-.cert-card:hover .cert-icon-wrap {
-    transform: scale(1.1) rotate(5deg);
-}
-.cert-filter-btn {
-    padding: 8px 18px;
-    font-size: 13px;
-    font-weight: 600;
-    border-radius: 50rem;
-    border: 1px solid #e2e8f0;
-    background: #ffffff;
-    color: #475569;
-    transition: all 0.25s ease;
-    cursor: pointer;
-}
-.cert-filter-btn:hover,
-.cert-filter-btn.active {
+.approval-card-modern:hover .approval-icon-box {
     background: var(--theme-primary);
-    border-color: var(--theme-primary);
     color: #ffffff;
-    box-shadow: 0 4px 12px var(--theme-glow);
+    transform: scale(1.08) rotate(4deg);
 }
-.approval-card {
-    border-radius: 16px;
+.quality-card-modern {
     background: #ffffff;
     border: 1px solid #e2e8f0;
-    transition: all 0.3s ease;
+    border-radius: 18px;
+    transition: all 0.35s ease;
 }
-.approval-card:hover {
-    transform: translateY(-4px);
+.quality-card-modern:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.06);
     border-color: var(--theme-primary) !important;
-    box-shadow: 0 12px 24px rgba(0,0,0,0.06);
 }
 </style>
 
@@ -268,90 +180,119 @@ $client_approvals = [
         <div class="row align-items-center">
             <div class="col-lg-8 wow fadeInLeft" data-wow-delay=".2s">
                 <span class="badge px-3 py-2 mb-3 rounded-pill text-uppercase cert-hero-badge">
-                    <i class="fa-solid fa-shield-halved me-2"></i>Statutory Compliance &amp; Quality Approvals
+                    <i class="fa-solid fa-shield-halved me-2"></i>Infrastructure Approvals &amp; Client Letters
                 </span>
                 <h1 class="text-white fw-bold mb-3"
                     style="font-family: 'Saira-Medium', sans-serif; font-size: clamp(32px, 4.5vw, 50px); letter-spacing: -0.5px; line-height: 1.2;">
-                    Statutory Registrations <span style="color: var(--theme-light);">&amp; Technical Certifications</span>
+                    NHAI &amp; Client Approval Letters <span style="color: var(--theme-light);">&amp; Technical Credentials</span>
                 </h1>
                 <p class="text-light mb-4" style="font-size: 16px; line-height: 1.8; max-width: 740px; color: #cbd5e1 !important;">
-                    Our comprehensive statutory registrations, industrial licenses, ISO 9001:2027 accreditation, RDSO railway approval, and certified client letters for national infrastructure bidding.
+                    Official verified acceptance and approval letters issued by leading EPC national highway contractors, metro transit authorities, RDSO Indian Railways, and major civil infrastructure clients.
                 </p>
                 <div class="d-flex flex-wrap gap-3">
-                    <a href="#statutory-certs" class="btn btn-primary rounded-pill px-4 py-2 fw-bold text-uppercase" style="background:var(--theme-primary); border-color:var(--theme-primary); font-size:13px; letter-spacing:0.5px;">
-                        <i class="fa-solid fa-certificate me-2"></i>Statutory Certificates
+                    <a href="#client-approvals" class="btn btn-primary rounded-pill px-4 py-2 fw-bold text-uppercase" style="background:var(--theme-primary); border-color:var(--theme-primary); font-size:13px; letter-spacing:0.5px;">
+                        <i class="fa-solid fa-handshake me-2"></i>NHAI Client Approvals (7)
                     </a>
-                    <a href="#client-approvals" class="btn btn-outline-light rounded-pill px-4 py-2 fw-bold text-uppercase" style="font-size:13px; letter-spacing:0.5px;">
-                        <i class="fa-solid fa-handshake me-2"></i>NHAI Client Approvals
+                    <a href="#technical-approvals" class="btn btn-outline-light rounded-pill px-4 py-2 fw-bold text-uppercase" style="font-size:13px; letter-spacing:0.5px;">
+                        <i class="fa-solid fa-train me-2"></i>Railway &amp; Technical QAP
                     </a>
                 </div>
             </div>
 
-          
+            <div class="col-lg-4 mt-4 mt-lg-0 text-lg-end d-none d-lg-block wow fadeInRight" data-wow-delay=".3s">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb justify-content-lg-end mb-0 bg-transparent p-0">
+                        <li class="breadcrumb-item"><a href="index.php" class="text-white-50 text-decoration-none"><i class="fa-solid fa-house me-1"></i>Home</a></li>
+                        <li class="breadcrumb-item active text-white fw-semibold" aria-current="page">Client Approvals</li>
+                    </ol>
+                </nav>
+            </div>
         </div>
     </div>
 </section>
 
 <!-- ============================================================
-     2. Statutory & Quality Certifications Grid
+     2. Statutory Notice Callout Banner
      ============================================================ -->
-<section class="py-5" id="statutory-certs" style="background:#ffffff;">
-    <div class="container-fluid px-3 px-lg-5 py-4">
+<!-- <section class="py-3" style="background: #ffffff; border-bottom: 1px solid #e2e8f0;">
+    <div class="container-fluid px-3 px-lg-5">
+        <div class="p-3.5 p-md-4 rounded-4 d-flex flex-wrap align-items-center justify-content-between gap-3"
+            style="background: #f8fafc; border: 1.5px dashed #cbd5e1;">
+            <div class="d-flex align-items-center gap-3">
+                <div class="rounded-circle d-flex align-items-center justify-content-center p-3 text-primary flex-shrink-0"
+                    style="width: 48px; height: 48px; background: var(--theme-subtle);">
+                    <i class="fa-solid fa-building-circle-check fs-5"></i>
+                </div>
+                <div>
+                    <h6 class="fw-bold text-dark mb-0" style="font-size: 15px;">Primary Statutory &amp; Factory Registrations (8 Documents)</h6>
+                    <small class="text-muted" style="font-size: 13px;">GST, PAN, UDYAM MSME, DISH Factory Plan, Stability, MPCB Pollution Consent, ISO 9001:2027, and V-Chem Bond are showcased directly on our Home page.</small>
+                </div>
+            </div>
+            <a href="index.php#statutory-certs" class="btn btn-sm btn-outline-primary rounded-pill fw-bold px-4 py-2">
+                <i class="fa-solid fa-arrow-up-right-from-square me-1"></i> View 8 Statutory Registrations
+            </a>
+        </div>
+    </div>
+</section> -->
+
+<!-- ============================================================
+     3. NHAI & Major Infrastructure Client Approval Letters (3-Column Desktop Grid)
+     ============================================================ -->
+<section class="py-5" id="client-approvals" style="background: #ffffff;">
+    <div class="container-fluid px-3 px-lg-5 py-3">
         
-        <div class="section-title text-center mb-4">
-            <span class="badge px-3 py-2 mb-2 rounded-pill text-uppercase" style="background: var(--theme-subtle); color: var(--theme-primary); font-weight:700; font-size:12px; letter-spacing:1px;">
-                Regulatory Hierarchy
+        <div class="section-title text-center mb-5 wow fadeInUp" data-wow-delay=".1s">
+            <span class="badge px-3 py-1.5 rounded-pill font-monospace fw-bold text-uppercase mb-2"
+                style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 12px; letter-spacing: 1px;">
+                Proven Track Record
             </span>
-            <h2 class="fw-bold text-dark" style="font-family:'Saira-Medium', sans-serif; font-size:32px; letter-spacing:0.5px;">
-                Certifications, Registrations &amp; Approvals Sequence
+            <h2 class="fw-bold text-dark text-uppercase" style="font-family:'Oswald', sans-serif; font-size: clamp(26px, 3.2vw, 38px); letter-spacing: 0.5px;">
+                NHAI &amp; Major Project Client Approval Letters
             </h2>
-            <p class="text-muted mx-auto" style="max-width:750px; font-size:15px;">
-                Click any certificate to view or verify the official PDF/Image document directly in high resolution.
+            <p class="text-muted mx-auto mb-0" style="max-width:760px; font-size:15px; line-height: 1.8;">
+                Verified client approval and official acceptance certificates issued by leading EPC highway contractors, metro authorities, and infrastructure engineers.
             </p>
         </div>
 
-        <!-- Filter Tabs -->
-        <div class="d-flex flex-wrap justify-content-center gap-2 mb-5" id="cert-filters">
-            <button class="cert-filter-btn active" data-filter="all">All Certificates (11)</button>
-            <button class="cert-filter-btn" data-filter="statutory">Statutory &amp; Tax</button>
-            <button class="cert-filter-btn" data-filter="factory">Factory &amp; Safety</button>
-            <button class="cert-filter-btn" data-filter="quality">Quality &amp; Standards</button>
-        </div>
-
-        <!-- Certificate Cards -->
-        <div class="row g-4" id="cert-grid">
-            <?php foreach ($certifications as $cert): ?>
-            <div class="col-xl-3 col-lg-4 col-md-6 cert-item" data-category="<?php echo $cert['cat']; ?>">
-                <div class="cert-card p-4 shadow-sm h-100 d-flex flex-column justify-content-between position-relative">
-                    <span class="position-absolute top-0 end-0 m-3 badge rounded-pill fw-bold" style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 11px;">
-                        #<?php echo $cert['num']; ?>
+        <div class="row g-4 justify-content-center">
+            <?php foreach ($client_approvals as $idx => $app): ?>
+            <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="<?php echo (0.1 + ($idx * 0.05)); ?>s">
+                <div class="approval-card-modern p-4 shadow-sm h-100 d-flex flex-column justify-content-between position-relative">
+                    <span class="position-absolute top-0 end-0 m-3 badge rounded-pill fw-bold"
+                        style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 11px;">
+                        #<?php echo $app['num']; ?>
                     </span>
 
                     <div>
-                        <div class="cert-icon-wrap mb-3" style="background: var(--theme-subtle); color: var(--theme-primary);">
-                            <i class="fa-solid <?php echo $cert['icon']; ?>"></i>
+                        <div class="d-flex align-items-center justify-content-between mb-3">
+                            <div class="approval-icon-box">
+                                <i class="fa-solid <?php echo $app['icon']; ?>"></i>
+                            </div>
+                            <span class="badge bg-primary-subtle text-primary rounded-pill px-3 py-1.5 small fw-semibold me-4" style="font-size: 11.5px;">
+                                <i class="fa-solid fa-circle-check text-success me-1"></i> <?php echo $app['badge']; ?>
+                            </span>
                         </div>
-                        <span class="badge bg-light text-muted border px-2 py-1 small mb-2 d-inline-block" style="font-size: 10.5px;">
-                            <?php echo $cert['cat_label']; ?>
-                        </span>
-                        <h5 class="fw-bold text-dark mb-2" style="font-family:'Saira-Medium', sans-serif; font-size: 17px; line-height: 1.3;">
-                            <?php echo htmlspecialchars($cert['title']); ?>
-                        </h5>
-                        <p class="small text-muted mb-4" style="line-height: 1.6; font-size: 12.5px;">
-                            <?php echo htmlspecialchars($cert['desc']); ?>
+
+                        <h4 class="fw-bold text-dark mb-2" style="font-family: 'Oswald', sans-serif; font-size: 21px; letter-spacing: 0.5px; line-height: 1.3;">
+                            <?php echo htmlspecialchars($app['client']); ?>
+                        </h4>
+
+                        <p class="small text-muted mb-2 fw-semibold" style="font-size: 13px; line-height: 1.5; color: #475569 !important;">
+                            <i class="fa-solid fa-location-dot text-primary me-1"></i> <?php echo htmlspecialchars($app['project']); ?>
+                        </p>
+
+                        <p class="small text-secondary mb-4" style="line-height: 1.7; font-size: 13px;">
+                            <?php echo htmlspecialchars($app['summary']); ?>
                         </p>
                     </div>
 
-                    <div class="pt-3 border-top d-flex align-items-center justify-content-between">
-                        <span class="badge bg-secondary-subtle text-secondary small" style="font-size: 10.5px;">
-                            <?php echo $cert['badge']; ?>
-                        </span>
-                        <a href="<?php echo $cert['doc']; ?>" class="btn btn-outline-primary btn-sm rounded-pill fw-bold px-3 open-cert-modal"
-                            data-doc-url="<?php echo $cert['doc']; ?>"
-                            data-doc-title="<?php echo htmlspecialchars($cert['title']); ?>"
-                            data-doc-type="<?php echo $cert['type']; ?>"
-                            style="font-size: 12px;">
-                            <i class="fa-solid <?php echo ($cert['type'] === 'image' ? 'fa-image' : 'fa-file-pdf'); ?> me-1"></i> View Document
+                    <div class="pt-3 border-top">
+                        <a href="<?php echo $app['doc']; ?>" class="btn btn-outline-primary btn-sm rounded-pill w-100 fw-bold open-cert-modal d-flex align-items-center justify-content-center gap-1.5"
+                            data-doc-url="<?php echo $app['doc']; ?>"
+                            data-doc-title="<?php echo htmlspecialchars($app['client']) . ' - Client Approval Letter'; ?>"
+                            data-doc-type="pdf"
+                            style="font-size: 12.5px; padding: 8px 16px;">
+                            <i class="fa-solid fa-file-pdf"></i> <span>View Approval Letter</span>
                         </a>
                     </div>
                 </div>
@@ -363,48 +304,58 @@ $client_approvals = [
 </section>
 
 <!-- ============================================================
-     3. NHAI & Client Approval Letters
+     4. Specialized Technical & Quality Accreditations (RDSO, QAP, Sister Concern)
      ============================================================ -->
-<section class="py-5" id="client-approvals" style="background:#f8fafc; border-top:1px solid #e2e8f0; border-bottom:1px solid #e2e8f0;">
-    <div class="container-fluid px-3 px-lg-5 py-4">
+<section class="py-5" id="technical-approvals" style="background: #f8fafc; border-top: 1px solid #e2e8f0; border-bottom: 1px solid #e2e8f0;">
+    <div class="container-fluid px-3 px-lg-5 py-3">
         
-        <div class="section-title text-center mb-5">
-            <span class="badge px-3 py-2 mb-2 rounded-pill text-uppercase" style="background: var(--theme-subtle); color: var(--theme-primary); font-weight:700; font-size:12px; letter-spacing:1px;">
-                Proven Credentials
+        <div class="section-title text-center mb-5 wow fadeInUp" data-wow-delay=".1s">
+            <span class="badge px-3 py-1.5 rounded-pill font-monospace fw-bold text-uppercase mb-2"
+                style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 12px; letter-spacing: 1px;">
+                Technical Standards &amp; Corporate Synergy
             </span>
-            <h2 class="fw-bold text-dark" style="font-family:'Saira-Medium', sans-serif; font-size:32px; letter-spacing:0.5px;">
-                NHAI &amp; Major Project Client Approval Letters
+            <h2 class="fw-bold text-dark text-uppercase" style="font-family:'Oswald', sans-serif; font-size: clamp(26px, 3.2vw, 38px); letter-spacing: 0.5px;">
+                Technical Approvals &amp; Corporate Credentials
             </h2>
-            <p class="text-muted mx-auto" style="max-width:700px; font-size:15px;">
-                Verified acceptance and approval letters issued by leading EPC infrastructure contractors, Metro authorities, and National Highway project engineers.
+            <p class="text-muted mx-auto mb-0" style="max-width:760px; font-size:15px; line-height: 1.8;">
+                Railway standard approvals, Quality Assurance Plans (QAP), and corporate affiliation letters.
             </p>
         </div>
 
-        <div class="row g-3">
-            <?php foreach ($client_approvals as $app): ?>
-            <div class="col-lg-4 col-md-6">
-                <div class="p-4 approval-card shadow-sm h-100 d-flex flex-column justify-content-between">
+        <div class="row g-4 justify-content-center">
+            <?php foreach ($quality_approvals as $idx => $q): ?>
+            <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="<?php echo (0.1 + ($idx * 0.05)); ?>s">
+                <div class="quality-card-modern p-4 shadow-sm h-100 d-flex flex-column justify-content-between position-relative">
+                    <span class="position-absolute top-0 end-0 m-3 badge rounded-pill fw-bold"
+                        style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 11px;">
+                        #0<?php echo $q['num']; ?>
+                    </span>
+
                     <div>
-                        <div class="d-flex align-items-center justify-content-between mb-2">
-                            <span class="badge bg-primary-subtle text-primary rounded-pill px-2.5 py-1 small fw-semibold" style="font-size: 11px;">
-                                <i class="fa-solid <?php echo $app['icon']; ?> me-1"></i> <?php echo $app['badge']; ?>
-                            </span>
-                            <i class="fa-solid fa-circle-check text-success"></i>
+                        <div class="approval-icon-box mb-3">
+                            <i class="fa-solid <?php echo $q['icon']; ?>"></i>
                         </div>
-                        <h5 class="fw-bold text-dark mb-1" style="font-family:'Saira-Medium', sans-serif; font-size: 16.5px;">
-                            <?php echo htmlspecialchars($app['client']); ?>
+                        <span class="badge bg-light text-muted border px-2.5 py-1 small mb-2 d-inline-block" style="font-size: 11px;">
+                            <?php echo $q['cat_label']; ?>
+                        </span>
+                        <h5 class="fw-bold text-dark mb-2" style="font-family: 'Oswald', sans-serif; font-size: 19px; line-height: 1.3;">
+                            <?php echo htmlspecialchars($q['title']); ?>
                         </h5>
-                        <p class="small text-muted mb-3" style="line-height: 1.6; font-size: 12.5px;">
-                            <?php echo htmlspecialchars($app['project']); ?>
+                        <p class="small text-muted mb-4" style="line-height: 1.7; font-size: 13px;">
+                            <?php echo htmlspecialchars($q['desc']); ?>
                         </p>
                     </div>
-                    <div class="pt-2 border-top">
-                        <a href="<?php echo $app['doc']; ?>" class="btn btn-outline-primary btn-sm rounded-pill w-100 fw-bold open-cert-modal"
-                            data-doc-url="<?php echo $app['doc']; ?>"
-                            data-doc-title="<?php echo htmlspecialchars($app['client']) . ' - Approval Letter'; ?>"
-                            data-doc-type="pdf"
+
+                    <div class="pt-3 border-top d-flex align-items-center justify-content-between flex-wrap gap-2">
+                        <span class="badge bg-secondary-subtle text-secondary small" style="font-size: 11px;">
+                            <?php echo $q['badge']; ?>
+                        </span>
+                        <a href="<?php echo $q['doc']; ?>" class="btn btn-outline-primary btn-sm rounded-pill fw-bold px-3 open-cert-modal d-inline-flex align-items-center gap-1.5"
+                            data-doc-url="<?php echo $q['doc']; ?>"
+                            data-doc-title="<?php echo htmlspecialchars($q['title']); ?>"
+                            data-doc-type="<?php echo $q['type']; ?>"
                             style="font-size: 12px;">
-                            <i class="fa-solid fa-file-pdf me-1"></i> View Approval Letter
+                            <i class="fa-solid <?php echo ($q['type'] === 'image' ? 'fa-image' : 'fa-file-pdf'); ?>"></i> <span>View Document</span>
                         </a>
                     </div>
                 </div>
@@ -416,7 +367,7 @@ $client_approvals = [
 </section>
 
 <!-- ============================================================
-     4. Certificate Modal Viewer
+     5. Universal Document & Image Lightbox Modal Viewer
      ============================================================ -->
 <div class="modal fade" id="certificateModal" tabindex="-1" aria-labelledby="certificateModalLabel" aria-hidden="true" style="z-index: 10500;">
     <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
@@ -428,7 +379,7 @@ $client_approvals = [
                     </div>
                     <div>
                         <h5 class="modal-title fw-bold text-white mb-0" id="certificateModalLabel">Document Viewer</h5>
-                        <small id="certModalSub" class="text-white-50" style="font-size: 12px;">Verified Statutory &amp; Quality Credential</small>
+                        <small id="certModalSub" class="text-white-50" style="font-size: 12px;">Verified NHAI Client Approval &amp; Quality Credential</small>
                     </div>
                 </div>
                 <div class="d-flex align-items-center gap-2">
@@ -461,31 +412,9 @@ $client_approvals = [
     </div>
 </div>
 
-<!-- Page Specific JS for Filters & Modal -->
+<!-- Modal Script with Smooth Scroll Unlock -->
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-    // 1. Filter tabs
-    const filterButtons = document.querySelectorAll('.cert-filter-btn');
-    const certItems = document.querySelectorAll('.cert-item');
-
-    filterButtons.forEach(btn => {
-        btn.addEventListener('click', function() {
-            filterButtons.forEach(b => b.classList.remove('active'));
-            this.classList.add('active');
-
-            const filterValue = this.getAttribute('data-filter');
-
-            certItems.forEach(item => {
-                if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
-                    item.style.display = 'block';
-                } else {
-                    item.style.display = 'none';
-                }
-            });
-        });
-    });
-
-    // 2. Modal Handler
     const certModalEl = document.getElementById('certificateModal');
     if (!certModalEl) return;
 
@@ -510,7 +439,6 @@ document.addEventListener('DOMContentLoaded', function () {
         modalIframe.style.display = 'none';
         modalImgWrap.style.display = 'none';
 
-        // Forcibly clear body & html lock styles
         document.body.classList.remove('modal-open');
         document.body.style.removeProperty('overflow');
         document.body.style.removeProperty('overflow-y');
@@ -518,7 +446,6 @@ document.addEventListener('DOMContentLoaded', function () {
         document.documentElement.style.removeProperty('overflow');
         document.documentElement.style.removeProperty('overflow-y');
 
-        // Remove any orphaned backdrops
         document.querySelectorAll('.modal-backdrop').forEach(function (backdrop) {
             backdrop.remove();
         });

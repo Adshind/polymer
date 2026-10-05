@@ -179,25 +179,25 @@
                 </div>
             </div>
 
-            <!-- 8. RDSO Indian Railways Approval -->
+            <!-- 8. V-Chem & Polymer Products Bond -->
             <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".45s">
                 <div class="cert-modern-card p-4 bg-white rounded-4 shadow-sm border text-center h-100 d-flex flex-column justify-content-between position-relative">
                     <span class="position-absolute top-0 end-0 m-3 badge rounded-pill fw-bold" style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 11px;">08</span>
                     <div>
                         <div class="cert-icon-circle d-inline-flex p-3 rounded-circle mb-3" style="background: var(--theme-subtle); color: var(--theme-primary); width: 64px; height: 64px; align-items: center; justify-content: center;">
-                            <i class="fa-solid fa-train fa-2x"></i>
+                            <i class="fa-solid fa-file-contract fa-2x"></i>
                         </div>
-                        <h5 class="fw-bold text-dark mb-2" style="font-family: 'Saira-Medium', sans-serif; font-size: 17px;">RDSO Technical Approval</h5>
+                        <h5 class="fw-bold text-dark mb-2" style="font-family: 'Saira-Medium', sans-serif; font-size: 17px;">V-Chem &amp; Polymer Bond</h5>
                         <p class="small text-muted mb-3" style="font-size: 13px; line-height: 1.6;">
-                            Research Designs and Standards Organisation (RDSO) technical approval for Indian Railway bridge bearing applications.
+                            Official statutory technical collaboration and indemnity bond document between V-Chem and Polymer Products.
                         </p>
                     </div>
-                    <a href="assets/pp_data/Page 01/POLYMER DETAILS/NEW_RDSO.pdf"
+                    <a href="assets/pp_data/Page 01/POLYMER DETAILS/BOND OF V CHEM AND POLYMER (1).pdf"
                         class="btn btn-outline-primary btn-sm rounded-pill fw-bold open-cert-modal d-inline-flex align-items-center justify-content-center gap-1.5"
-                        data-doc-url="assets/pp_data/Page 01/POLYMER DETAILS/NEW_RDSO.pdf"
-                        data-doc-title="RDSO Indian Railways Technical Approval"
+                        data-doc-url="assets/pp_data/Page 01/POLYMER DETAILS/BOND OF V CHEM AND POLYMER (1).pdf"
+                        data-doc-title="V-Chem &amp; Polymer Products Bond Agreement"
                         data-doc-type="pdf">
-                        <i class="fa-solid fa-file-pdf"></i> <span>View RDSO Approval</span>
+                        <i class="fa-solid fa-file-pdf"></i> <span>View Bond Document</span>
                     </a>
                 </div>
             </div>
