@@ -3,9 +3,17 @@
     - Margin & Padding
 -----------------------------------------*/
 /*--- Margin Top ---*/
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@400;500;600;700&family=Saira:wght@400;500;600;700;800&family=Oswald:wght@200..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Space+Grotesk:wght@300..700&display=swap");
+
+@font-face {
+  font-family: 'Saira-Medium';
+  src: url('../webfonts/Saira_SemiCondensed-Medium.ttf') format('truetype'),
+       local('Saira SemiCondensed Medium'),
+       local('SairaSemiCondensed-Medium');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
 
 .mt-1 {
   margin-top: 1px;
@@ -12877,15 +12885,23 @@ span {
   color: #f55f01 !important;
 }
 
-@font-face {
-  font-family: 'Saira-Medium';
-  src: url('../assets/webfonts/Saira_SemiCondensed-Medium.ttf') format('truetype');
-}
-
-.saira-medium {
-  font-family: 'Saira-Medium', sans-serif;
-  font-weight: 400;
-  font-style: normal;
+/* Global Headings & Saira-Medium Font Standard */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.saira-medium,
+.heading-font,
+.section-title .title,
+.section-title .subtitle,
+.ht-about-hero h1,
+.ht-breadcrumb-title,
+.cert-modal-title,
+.flow-card h4,
+.tech-spec-title {
+  font-family: 'Saira-Medium', 'Saira', sans-serif !important;
 }
 
 /*# sourceMappingURL=style.css.map */
