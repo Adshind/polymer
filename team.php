@@ -481,16 +481,9 @@ include_once 'partials/header.php';
             <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                 <div class="team-card-modern h-100 d-flex flex-column justify-content-between position-relative shadow-sm">
                     <div>
-                        <div class="team-photo-wrap standard-height position-relative d-flex align-items-center justify-content-center"
-                            style="background: linear-gradient(135deg, #0e7490 0%, #155e75 100%);">
-                            <div class="text-center text-white p-3">
-                                <div class="p-3 rounded-circle d-inline-flex align-items-center justify-content-center mb-2 shadow"
-                                    style="width: 72px; height: 72px; background: rgba(255,255,255,0.15); border: 2px solid rgba(255,255,255,0.3);">
-                                    <i class="fa-solid fa-vial-circle-check fs-2 text-warning"></i>
-                                </div>
-                                <h6 class="text-white fw-bold mb-0 text-uppercase" style="font-family:'Saira-Medium',sans-serif; letter-spacing: 0.5px;">Rubber Lab Tech</h6>
-                                <small class="text-white-50" style="font-size: 11px;">Testing Apparatus &amp; Specimen Prep</small>
-                            </div>
+                        <div class="team-photo-wrap standard-height position-relative">
+                            <img src="assets/pp_data/Page 02/Emp Details/Narendra Khairnar/Narendra-Khairnar.png" alt="Narendra Khairnar - Lab Technician" class="team-card-img">
+                            <div class="team-photo-overlay"></div>
                             <div class="team-badge-icon" title="Lab Technician">
                                 <i class="fa-solid fa-flask"></i>
                             </div>
@@ -510,10 +503,14 @@ include_once 'partials/header.php';
                             </p>
                         </div>
                     </div>
-                    <div class="p-3 border-top bg-light bg-opacity-25 text-center">
-                        <span class="badge bg-primary-subtle text-primary px-3 py-1.5 rounded-pill small fw-semibold" style="font-size: 11px;">
-                            <i class="fa-solid fa-circle-check me-1"></i> Certified Rubber Technician
-                        </span>
+                    <div class="p-3 border-top bg-light bg-opacity-25">
+                        <a href="assets/pp_data/Page 02/Emp Details/Narendra Khairnar/Narendra-Khairnar-certificate.pdf" target="_blank"
+                            class="btn btn-outline-primary btn-sm rounded-pill px-3 py-2 fw-bold w-100 open-cert-modal d-flex align-items-center justify-content-center gap-2"
+                            data-doc-url="assets/pp_data/Page 02/Emp Details/Narendra Khairnar/Narendra-Khairnar-certificate.pdf"
+                            data-doc-title="Narendra Khairnar - ITI Rubber Technician Certificate"
+                            data-doc-type="pdf">
+                            <i class="fa-solid fa-certificate"></i> <span>View ITI Certificate</span>
+                        </a>
                     </div>
                 </div>
             </div>

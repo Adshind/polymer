@@ -33,7 +33,7 @@
                 <div class="col-lg-6 col-md-7">
                     <div class="left text-center text-md-start">
                         <p class="mb-0 text-white" style="font-size:13px;">
-                            <i class="fa-solid fa-location-dot text-white me-2"></i> Nashik Manufacturing Facility, Maharashtra, India
+                            <i class="fa-solid fa-location-dot text-white me-2"></i> H-32, M.I.D.C. SATPUR, NASHIK-422007 Maharashtra, India
                         </p>
                     </div>
                 </div>
@@ -46,7 +46,7 @@
                         </li>
                         <li class="list-inline-item">
                             <i class="fa-solid fa-envelope text-white me-1"></i>
-                            <a href="mailto:qc@polymerproducts.org" class="text-white text-decoration-none">qc@polymerproducts.org</a>
+                            <a href="mailto:sales@polymerproducts.org" class="text-white text-decoration-none">sales@polymerproducts.org</a>
                         </li>
                     </ul>
                 </div>
@@ -164,9 +164,10 @@
             
             <div class="ht-offcanvas-info mb-40">
                 <h4 class="ht-offcanvas__title mb-2" style="font-size:16px; font-weight:700;">Plant Contact Info</h4>
-                <p class="mb-1" style="font-size:13px;"><i class="fa-solid fa-location-dot me-2 text-danger"></i>Nashik Facility, Maharashtra</p>
+                <p class="mb-1" style="font-size:13px;"><i class="fa-solid fa-industry me-2 text-primary"></i>H-32, M.I.D.C. SATPUR, NASHIK-422007</p>
+                <p class="mb-1" style="font-size:13px;"><i class="fa-solid fa-award me-2 text-warning"></i>Year of Establishment: 1978</p>
                 <p class="mb-1" style="font-size:13px;"><i class="fa-solid fa-phone me-2 text-success"></i><a href="tel:8975766459" class="text-dark">+91 8975766459</a></p>
-                <p class="mb-1" style="font-size:13px;"><i class="fa-solid fa-envelope me-2 text-primary"></i><a href="mailto:qc@polymerproducts.org" class="text-dark">qc@polymerproducts.org</a></p>
+                <p class="mb-1" style="font-size:13px;"><i class="fa-solid fa-envelope me-2 text-primary"></i><a href="mailto:sales@polymerproducts.org" class="text-dark">sales@polymerproducts.org</a></p>
             </div>
         </div>
     </div>
@@ -225,6 +226,7 @@
                     </p>
 
                     <div class="d-flex flex-wrap gap-2 mt-3 mb-3">
+                        <span class="badge bg-dark border border-secondary text-light px-2 py-1" style="font-size: 11px;">Estd. 1978</span>
                         <span class="badge bg-dark border border-secondary text-light px-2 py-1" style="font-size: 11px;">ISO 9001:2027</span>
                         <span class="badge bg-dark border border-secondary text-light px-2 py-1" style="font-size: 11px;">RDSO Approved</span>
                         <span class="badge bg-dark border border-secondary text-light px-2 py-1" style="font-size: 11px;">IRC:83 (Part II)</span>
@@ -280,8 +282,9 @@
                             <i class="fa-solid fa-location-dot" style="font-size: 14px;"></i>
                         </div>
                         <div style="font-size: 14px; color: #cbd5e1; line-height: 1.6;">
-                            <span class="d-block fw-semibold text-white">Manufacturing Plant:</span>
-                            Nashik Facility, Maharashtra, India
+                            <span class="d-block fw-semibold text-white">Manufacturing Unit:</span>
+                            H-32, M.I.D.C. SATPUR<br>
+                            NASHIK-422007 Maharashtra, India
                         </div>
                     </div>
 
@@ -303,9 +306,8 @@
                             <i class="fa-solid fa-envelope" style="font-size: 14px;"></i>
                         </div>
                         <div style="font-size: 14px; color: #cbd5e1; line-height: 1.6;">
-                            <span class="d-block fw-semibold text-white">Technical Inquiries:</span>
-                            <a href="mailto:qc@polymerproducts.org" class="text-decoration-none text-light d-block hover-blue">qc@polymerproducts.org</a>
-                            <a href="mailto: " class="text-decoration-none text-light d-block hover-blue"> </a>
+                            <span class="d-block fw-semibold text-white">Technical &amp; Sales Inquiries:</span>
+                            <a href="mailto:sales@polymerproducts.org" class="text-decoration-none text-light d-block hover-blue">sales@polymerproducts.org</a>
                         </div>
                     </div>
                 </div>
@@ -316,7 +318,7 @@
         <div class="footer-bottom-bar pt-4 pb-2 border-top d-flex flex-wrap align-items-center justify-content-between gap-3"
             style="border-color: rgba(255, 255, 255, 0.08) !important; font-size: 13px; color: #64748b;">
             <p class="mb-0">
-                &copy; 2026 <strong class="text-light">Polymer Products</strong> (Dynamic Prestress Group). Engineered in Nashik, Maharashtra.
+                &copy; 2026 <strong class="text-light">Polymer Products</strong> (Dynamic Prestress Group). Estd. 1978 &bull; H-32, M.I.D.C. SATPUR, NASHIK-422007 Maharashtra, India
             </p>
             <div class="d-flex align-items-center gap-4">
                 <a href="experience.html" class="text-decoration-none text-muted-link">Track Record</a>

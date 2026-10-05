@@ -1,5 +1,6 @@
 <?php 
-$page_title = "Application Codes & Standards - Polymer Products";
+$page_title = "Applications of Bearings & Standards (IRC:83 Part-II) - Polymer Products";
+$meta_description = "Complete classification of Elastomeric Bearings (Type A, Type B, Type C, Type F) under IRC:83-2018 (Part-II) and verified engineering standards by Polymer Products.";
 include_once 'partials/header.php'; 
 ?>
 
@@ -7,28 +8,39 @@ include_once 'partials/header.php';
      1. Modern Hero & Breadcrumb Banner
      ============================================================ -->
 <section class="ht-codes-hero position-relative d-flex align-items-center"
-    style="background: linear-gradient(135deg, rgba(9, 20, 36, 0.88) 0%, rgba(14, 34, 61, 0.72) 50%, rgba(6, 13, 24, 0.78) 100%), url('assets/img/img/banner/birdge-6.webp') center center / cover no-repeat; padding-top: 175px; padding-bottom: 75px; margin-top: -160px; min-height: 460px;">
+    style="background: linear-gradient(135deg, rgba(9, 20, 36, 0.90) 0%, rgba(14, 34, 61, 0.78) 50%, rgba(6, 13, 24, 0.85) 100%), url('assets/img/img/banner/birdge-6.webp') center center / cover no-repeat; padding-top: 175px; padding-bottom: 75px; margin-top: -160px; min-height: 440px;">
     
     <div class="container-fluid px-3 px-lg-5 position-relative" style="z-index: 2;">
         <div class="row align-items-center">
             <div class="col-lg-8 wow fadeInLeft" data-wow-delay=".2s">
                 <span class="badge px-3 py-2 mb-3 rounded-pill text-uppercase"
                     style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 13px; letter-spacing: 1.5px; font-weight: 700; border: 1px solid var(--theme-primary);">
-                    <i class="fa-solid fa-book-bookmark me-2"></i>Engineering Standards
+                    <i class="fa-solid fa-book-bookmark me-2"></i>Engineering Standards &amp; Applications
                 </span>
-                <h1 class="text-white fw-bold mb-3" style="font-family: 'Saira-Medium', sans-serif; font-size: clamp(34px, 4.5vw, 54px); line-height: 1.2;">
-                    Application Codes <span style="color: #93c5fd;">&amp; Technical Standards</span>
+                <h1 class="text-white fw-bold mb-3" style="font-family: 'Saira-Medium', sans-serif; font-size: clamp(32px, 4.2vw, 52px); line-height: 1.2;">
+                    Applications of Bearings <span style="color: #93c5fd;">&amp; Technical Standards</span>
                 </h1>
-                <p class="text-light mb-4" style="font-size: 16px; line-height: 1.8; max-width: 750px; color: #cbd5e1 !important;">
-                    Direct access to national and international codes of practice for road, railway, and metro bridge bearing design and testing.
+                <p class="text-light mb-4" style="font-size: 16px; line-height: 1.8; max-width: 760px; color: #cbd5e1 !important;">
+                    Detailed classification of Elastomeric Bearings under <strong>IRC:83-2018 (Part-II)</strong> along with direct access to national and international engineering codes of practice.
                 </p>
+                <div class="d-flex flex-wrap gap-2 pt-1">
+                    <span class="badge bg-dark bg-opacity-75 border border-secondary text-light px-3 py-2 rounded-pill small">
+                        <i class="fa-solid fa-code-branch text-info me-1"></i> IRC:83-2018 (Part-II) Compliant
+                    </span>
+                    <span class="badge bg-dark bg-opacity-75 border border-secondary text-light px-3 py-2 rounded-pill small">
+                        <i class="fa-solid fa-shield-halved text-primary me-1"></i> Type A, B, C &amp; F Bearings
+                    </span>
+                    <span class="badge bg-dark bg-opacity-75 border border-secondary text-light px-3 py-2 rounded-pill small">
+                        <i class="fa-solid fa-award text-warning me-1"></i> Estd. 1978 &bull; Nashik Unit
+                    </span>
+                </div>
             </div>
 
             <div class="col-lg-4 mt-4 mt-lg-0 text-lg-end d-none d-lg-block wow fadeInRight" data-wow-delay=".3s">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb justify-content-lg-end mb-0 bg-transparent p-0">
                         <li class="breadcrumb-item"><a href="index.php" class="text-white-50 text-decoration-none"><i class="fa-solid fa-house me-1"></i>Home</a></li>
-                        <li class="breadcrumb-item active text-white fw-semibold" aria-current="page">Standards &amp; Codes</li>
+                        <li class="breadcrumb-item active text-white fw-semibold" aria-current="page">Standards &amp; Applications</li>
                     </ol>
                 </nav>
             </div>
@@ -37,7 +49,425 @@ include_once 'partials/header.php';
 </section>
 
 <!-- ============================================================
-     2. Standards & Codes Grid Section
+     2. Applications of Bearings (IRC:83-2018 Part-II) Section
+     Side-by-Side Image + Technical Content Structure (Unified Theme Color)
+     ============================================================ -->
+<section class="py-5" style="background: #ffffff; border-bottom: 1px solid #e2e8f0;">
+    <div class="container-fluid px-3 px-lg-5 py-4">
+
+        <!-- Section Header -->
+        <div class="text-center mb-5 wow fadeInUp" data-wow-delay=".1s">
+            <div class="d-inline-flex align-items-center gap-2 px-3.5 py-1.5 rounded-pill mb-2"
+                style="background: var(--theme-subtle); border: 1.5px solid var(--theme-primary); color: var(--theme-primary); font-weight: 700; font-size: 13px; letter-spacing: 0.5px;">
+                <i class="fa-solid fa-stamp"></i> Governing Code: IRC:83-2018 (Part-II)
+            </div>
+            <h2 class="fw-bold text-dark text-uppercase mt-2" style="font-family: 'Oswald', sans-serif; font-size: clamp(28px, 3.5vw, 42px); letter-spacing: 0.5px;">
+                Applications of Bearings
+            </h2>
+            <p class="text-muted mx-auto mb-0" style="max-width: 800px; font-size: 15.5px; line-height: 1.8;">
+                Comprehensive classification and practical engineering applications of Elastomeric Bearing types governed by <strong>IRC:83-2018 (Part-II)</strong> for Highway, Railway, Metro, and Structural infrastructure.
+            </p>
+        </div>
+
+        <!-- Vertical Stack of Side-by-Side Products -->
+        <div class="d-flex flex-column gap-5">
+
+            <!-- Item 1: Type A -->
+            <div class="card border-0 rounded-4 shadow-sm overflow-hidden bearing-side-card wow fadeInUp" data-wow-delay=".1s"
+                style="background: #ffffff; border: 1px solid #e2e8f0 !important;">
+                <div class="row g-0 align-items-stretch">
+                    <!-- Left: Product Image Side -->
+                    <div class="col-lg-5 col-xl-4 p-4 p-lg-5 d-flex flex-column justify-content-center align-items-center text-center position-relative product-img-col"
+                        style="background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%); border-right: 1px solid #e2e8f0;">
+                        <span class="position-absolute top-0 start-0 m-3 badge rounded-pill fw-bold text-uppercase"
+                            style="background: var(--theme-subtle); color: var(--theme-primary); border: 1px solid var(--theme-primary); font-size: 12px; letter-spacing: 1px;">
+                            IRC:83 Type A
+                        </span>
+                        
+                        <div class="product-image-box my-auto p-3 w-100 d-flex align-items-center justify-content-center">
+                            <img src="assets/pp_data/Page 02/Bearing types/TYPE A PAD.png" alt="Type A: Plain Pad / Strip Bearings"
+                                class="img-fluid rounded-3 product-preview-img" style="max-height: 220px; width: auto; object-fit: contain; transition: transform 0.35s ease;">
+                        </div>
+
+                        <div class="mt-3 w-100 pt-3 border-top border-light-subtle d-flex justify-content-around text-muted small">
+                            <span><i class="fa-solid fa-layer-group text-primary me-1"></i> Solid Pad</span>
+                            <span><i class="fa-solid fa-shield-halved text-primary me-1"></i> Non-Reinforced</span>
+                        </div>
+                    </div>
+
+                    <!-- Right: Technical Data Side -->
+                    <div class="col-lg-7 col-xl-8 p-4 p-lg-5 d-flex flex-column justify-content-between">
+                        <div>
+                            <div class="d-flex align-items-center justify-content-between flex-wrap gap-2 mb-2">
+                                <span class="badge rounded-pill px-3 py-1.5 fw-bold text-uppercase"
+                                    style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 12px; letter-spacing: 1px;">
+                                    Standard Classification
+                                </span>
+                                <span class="badge bg-light text-secondary rounded-pill px-3 py-1.5 border small fw-semibold">
+                                    <i class="fa-solid fa-circle-check text-primary me-1"></i> IRC:83-2018 (Part-II)
+                                </span>
+                            </div>
+
+                            <h3 class="fw-bold text-dark mb-3" style="font-family: 'Oswald', sans-serif; font-size: 26px; letter-spacing: 0.5px;">
+                                Type A: Plain Pad / Strip Bearings
+                            </h3>
+
+                            <p class="text-secondary mb-4" style="font-size: 15px; line-height: 1.8;">
+                                Plain pad and strip bearings are solid elastomeric bearings without internal reinforcing plates. They are used for simple support conditions where vertical loads, rotation and limited translational movement need to be accommodated. For seismic applications, the bearing and its associated structural connections are designed according to the required seismic force-transfer arrangement.
+                            </p>
+
+                            <div class="p-3.5 p-md-4 rounded-3 mb-4" style="background: #f8fafc; border: 1px solid #e2e8f0;">
+                                <h6 class="fw-bold text-dark mb-3 d-flex align-items-center" style="font-size: 14.5px; font-family: 'Saira-Medium', sans-serif;">
+                                    <i class="fa-solid fa-circle-check text-primary me-2"></i>Typical Applications:
+                                </h6>
+                                <div class="row g-2">
+                                    <div class="col-md-6">
+                                        <div class="d-flex align-items-start gap-2 text-secondary" style="font-size: 14px; line-height: 1.6;">
+                                            <i class="fa-solid fa-chevron-right text-primary mt-1" style="font-size: 11px;"></i>
+                                            <span>Bridge and flyover supports</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="d-flex align-items-start gap-2 text-secondary" style="font-size: 14px; line-height: 1.6;">
+                                            <i class="fa-solid fa-chevron-right text-primary mt-1" style="font-size: 11px;"></i>
+                                            <span>Simple structural support arrangements</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="d-flex align-items-start gap-2 text-secondary" style="font-size: 14px; line-height: 1.6;">
+                                            <i class="fa-solid fa-chevron-right text-primary mt-1" style="font-size: 11px;"></i>
+                                            <span>Strip bearing applications over continuous support lines</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="d-flex align-items-start gap-2 text-secondary" style="font-size: 14px; line-height: 1.6;">
+                                            <i class="fa-solid fa-chevron-right text-primary mt-1" style="font-size: 11px;"></i>
+                                            <span>Locations requiring accommodation of rotation and limited movement</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="d-flex align-items-start gap-2 text-secondary" style="font-size: 14px; line-height: 1.6;">
+                                            <i class="fa-solid fa-chevron-right text-primary mt-1" style="font-size: 11px;"></i>
+                                            <span>Structures where separate structural connections are provided for seismic force transfer, where applicable</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="border-top pt-3 d-flex justify-content-between align-items-center flex-wrap gap-3">
+                            <span class="small text-muted" style="font-size: 13.5px;">
+                                <i class="fa-solid fa-certificate text-primary me-1"></i> IRC Compliant Production &bull; Polymer Products
+                            </span>
+                            <a href="contact.php" class="btn btn-primary btn-sm rounded-pill px-4 py-2 fw-bold text-uppercase d-inline-flex align-items-center gap-2"
+                                style="background: var(--theme-primary); border-color: var(--theme-primary); font-size: 12.5px; letter-spacing: 0.5px;">
+                                <span>Inquire Type A Bearings</span> <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 2: Type B -->
+            <div class="card border-0 rounded-4 shadow-sm overflow-hidden bearing-side-card wow fadeInUp" data-wow-delay=".1s"
+                style="background: #ffffff; border: 1px solid #e2e8f0 !important;">
+                <div class="row g-0 align-items-stretch">
+                    <!-- Left: Product Image Side -->
+                    <div class="col-lg-5 col-xl-4 p-4 p-lg-5 d-flex flex-column justify-content-center align-items-center text-center position-relative product-img-col"
+                        style="background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%); border-right: 1px solid #e2e8f0;">
+                        <span class="position-absolute top-0 start-0 m-3 badge rounded-pill fw-bold text-uppercase"
+                            style="background: var(--theme-subtle); color: var(--theme-primary); border: 1px solid var(--theme-primary); font-size: 12px; letter-spacing: 1px;">
+                            IRC:83 Type B
+                        </span>
+                        
+                        <div class="product-image-box my-auto p-3 w-100 d-flex align-items-center justify-content-center">
+                            <img src="assets/pp_data/Page 02/Bearing types/Elastomeric-Bridge TYPE B.jpg" alt="Type B: Laminated Bearings"
+                                class="img-fluid rounded-3 product-preview-img" style="max-height: 220px; width: auto; object-fit: contain; transition: transform 0.35s ease;">
+                        </div>
+
+                        <div class="mt-3 w-100 pt-3 border-top border-light-subtle d-flex justify-content-around text-muted small">
+                            <span><i class="fa-solid fa-layer-group text-primary me-1"></i> Multi-Laminated</span>
+                            <span><i class="fa-solid fa-shield-halved text-primary me-1"></i> Steel Reinforced</span>
+                        </div>
+                    </div>
+
+                    <!-- Right: Technical Data Side -->
+                    <div class="col-lg-7 col-xl-8 p-4 p-lg-5 d-flex flex-column justify-content-between">
+                        <div>
+                            <div class="d-flex align-items-center justify-content-between flex-wrap gap-2 mb-2">
+                                <span class="badge rounded-pill px-3 py-1.5 fw-bold text-uppercase"
+                                    style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 12px; letter-spacing: 1px;">
+                                    Standard Classification
+                                </span>
+                                <span class="badge bg-light text-secondary rounded-pill px-3 py-1.5 border small fw-semibold">
+                                    <i class="fa-solid fa-circle-check text-primary me-1"></i> IRC:83-2018 (Part-II)
+                                </span>
+                            </div>
+
+                            <h3 class="fw-bold text-dark mb-3" style="font-family: 'Oswald', sans-serif; font-size: 26px; letter-spacing: 0.5px;">
+                                Type B: Laminated Bearings
+                            </h3>
+
+                            <p class="text-secondary mb-3" style="font-size: 15px; line-height: 1.8;">
+                                Laminated bearings consist of alternating layers of elastomer and steel reinforcement bonded together during vulcanisation. The internal steel laminates restrain the lateral expansion of the elastomer, allowing the bearing to support vertical loads while accommodating rotation and movement.
+                            </p>
+
+                            <div class="p-3 rounded-3 mb-3 border-0 small d-flex align-items-center gap-2"
+                                style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 13.5px; border-left: 3px solid var(--theme-primary) !important;">
+                                <i class="fa-solid fa-circle-info fs-6"></i>
+                                <span><strong>Standard Arrangement:</strong> This is the standard laminated bearing arrangement and is suitable for a wide range of bridge and infrastructure support applications.</span>
+                            </div>
+
+                            <div class="p-3.5 p-md-4 rounded-3 mb-4" style="background: #f8fafc; border: 1px solid #e2e8f0;">
+                                <h6 class="fw-bold text-dark mb-3 d-flex align-items-center" style="font-size: 14.5px; font-family: 'Saira-Medium', sans-serif;">
+                                    <i class="fa-solid fa-circle-check text-primary me-2"></i>Typical Applications:
+                                </h6>
+                                <div class="row g-2">
+                                    <div class="col-md-6">
+                                        <div class="d-flex align-items-start gap-2 text-secondary" style="font-size: 14px; line-height: 1.6;">
+                                            <i class="fa-solid fa-chevron-right text-primary mt-1" style="font-size: 11px;"></i>
+                                            <span>Highway and road bridges</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="d-flex align-items-start gap-2 text-secondary" style="font-size: 14px; line-height: 1.6;">
+                                            <i class="fa-solid fa-chevron-right text-primary mt-1" style="font-size: 11px;"></i>
+                                            <span>Railway bridges</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="d-flex align-items-start gap-2 text-secondary" style="font-size: 14px; line-height: 1.6;">
+                                            <i class="fa-solid fa-chevron-right text-primary mt-1" style="font-size: 11px;"></i>
+                                            <span>Flyovers and viaducts</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="d-flex align-items-start gap-2 text-secondary" style="font-size: 14px; line-height: 1.6;">
+                                            <i class="fa-solid fa-chevron-right text-primary mt-1" style="font-size: 11px;"></i>
+                                            <span>Metro and other elevated infrastructure</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="d-flex align-items-start gap-2 text-secondary" style="font-size: 14px; line-height: 1.6;">
+                                            <i class="fa-solid fa-chevron-right text-primary mt-1" style="font-size: 11px;"></i>
+                                            <span>Bridge supports subjected to vertical loads, rotation and horizontal movement</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="border-top pt-3 d-flex justify-content-between align-items-center flex-wrap gap-3">
+                            <span class="small text-muted" style="font-size: 13.5px;">
+                                <i class="fa-solid fa-certificate text-primary me-1"></i> High Vertical Load Rating &bull; Polymer Products
+                            </span>
+                            <a href="contact.php" class="btn btn-primary btn-sm rounded-pill px-4 py-2 fw-bold text-uppercase d-inline-flex align-items-center gap-2"
+                                style="background: var(--theme-primary); border-color: var(--theme-primary); font-size: 12.5px; letter-spacing: 0.5px;">
+                                <span>Inquire Type B Bearings</span> <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 3: Type C -->
+            <div class="card border-0 rounded-4 shadow-sm overflow-hidden bearing-side-card wow fadeInUp" data-wow-delay=".1s"
+                style="background: #ffffff; border: 1px solid #e2e8f0 !important;">
+                <div class="row g-0 align-items-stretch">
+                    <!-- Left: Product Image Side -->
+                    <div class="col-lg-5 col-xl-4 p-4 p-lg-5 d-flex flex-column justify-content-center align-items-center text-center position-relative product-img-col"
+                        style="background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%); border-right: 1px solid #e2e8f0;">
+                        <span class="position-absolute top-0 start-0 m-3 badge rounded-pill fw-bold text-uppercase"
+                            style="background: var(--theme-subtle); color: var(--theme-primary); border: 1px solid var(--theme-primary); font-size: 12px; letter-spacing: 1px;">
+                            IRC:83 Type C
+                        </span>
+                        
+                        <div class="product-image-box my-auto p-3 w-100 d-flex align-items-center justify-content-center">
+                            <img src="assets/pp_data/Page 02/Bearing types/Type B & C.jpg" alt="Type C: Laminated Bearings with Thicker End Laminates"
+                                class="img-fluid rounded-3 product-preview-img" style="max-height: 220px; width: auto; object-fit: contain; transition: transform 0.35s ease;">
+                        </div>
+
+                        <div class="mt-3 w-100 pt-3 border-top border-light-subtle d-flex justify-content-around text-muted small">
+                            <span><i class="fa-solid fa-layer-group text-primary me-1"></i> Heavy End Plates</span>
+                            <span><i class="fa-solid fa-shield-halved text-primary me-1"></i> Anti-Backlifting</span>
+                        </div>
+                    </div>
+
+                    <!-- Right: Technical Data Side -->
+                    <div class="col-lg-7 col-xl-8 p-4 p-lg-5 d-flex flex-column justify-content-between">
+                        <div>
+                            <div class="d-flex align-items-center justify-content-between flex-wrap gap-2 mb-2">
+                                <span class="badge rounded-pill px-3 py-1.5 fw-bold text-uppercase"
+                                    style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 12px; letter-spacing: 1px;">
+                                    Standard Classification
+                                </span>
+                                <span class="badge bg-light text-secondary rounded-pill px-3 py-1.5 border small fw-semibold">
+                                    <i class="fa-solid fa-circle-check text-primary me-1"></i> IRC:83-2018 (Part-II)
+                                </span>
+                            </div>
+
+                            <h3 class="fw-bold text-dark mb-3" style="font-family: 'Oswald', sans-serif; font-size: 26px; letter-spacing: 0.5px;">
+                                Type C: Laminated Bearings with Thicker End Laminates
+                            </h3>
+
+                            <p class="text-secondary mb-4" style="font-size: 15px; line-height: 1.8;">
+                                Type C bearings incorporate thicker end laminates on one side or both sides of the bearing. This arrangement provides improved load distribution and rotation characteristics and can help avoid back lifting of the bearing under shear.
+                            </p>
+
+                            <div class="p-3.5 p-md-4 rounded-3 mb-4" style="background: #f8fafc; border: 1px solid #e2e8f0;">
+                                <h6 class="fw-bold text-dark mb-3 d-flex align-items-center" style="font-size: 14.5px; font-family: 'Saira-Medium', sans-serif;">
+                                    <i class="fa-solid fa-circle-check text-primary me-2"></i>Typical Applications:
+                                </h6>
+                                <div class="row g-2">
+                                    <div class="col-md-6">
+                                        <div class="d-flex align-items-start gap-2 text-secondary" style="font-size: 14px; line-height: 1.6;">
+                                            <i class="fa-solid fa-chevron-right text-primary mt-1" style="font-size: 11px;"></i>
+                                            <span>Bridge supports requiring improved load distribution</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="d-flex align-items-start gap-2 text-secondary" style="font-size: 14px; line-height: 1.6;">
+                                            <i class="fa-solid fa-chevron-right text-primary mt-1" style="font-size: 11px;"></i>
+                                            <span>Applications where better rotation characteristics are required</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="d-flex align-items-start gap-2 text-secondary" style="font-size: 14px; line-height: 1.6;">
+                                            <i class="fa-solid fa-chevron-right text-primary mt-1" style="font-size: 11px;"></i>
+                                            <span>Support conditions where bearing stability under shear is an important consideration</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="d-flex align-items-start gap-2 text-secondary" style="font-size: 14px; line-height: 1.6;">
+                                            <i class="fa-solid fa-chevron-right text-primary mt-1" style="font-size: 11px;"></i>
+                                            <span>Structures where thicker end laminates are required as part of the bearing design</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="d-flex align-items-start gap-2 text-secondary" style="font-size: 14px; line-height: 1.6;">
+                                            <i class="fa-solid fa-chevron-right text-primary mt-1" style="font-size: 11px;"></i>
+                                            <span>Bridge and infrastructure applications where back lifting under shear needs to be avoided</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="border-top pt-3 d-flex justify-content-between align-items-center flex-wrap gap-3">
+                            <span class="small text-muted" style="font-size: 13.5px;">
+                                <i class="fa-solid fa-certificate text-primary me-1"></i> Enhanced Shear Stability &bull; Polymer Products
+                            </span>
+                            <a href="contact.php" class="btn btn-primary btn-sm rounded-pill px-4 py-2 fw-bold text-uppercase d-inline-flex align-items-center gap-2"
+                                style="background: var(--theme-primary); border-color: var(--theme-primary); font-size: 12.5px; letter-spacing: 0.5px;">
+                                <span>Inquire Type C Bearings</span> <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 4: Type F -->
+            <div class="card border-0 rounded-4 shadow-sm overflow-hidden bearing-side-card wow fadeInUp" data-wow-delay=".1s"
+                style="background: #ffffff; border: 1px solid #e2e8f0 !important;">
+                <div class="row g-0 align-items-stretch">
+                    <!-- Left: Product Image Side -->
+                    <div class="col-lg-5 col-xl-4 p-4 p-lg-5 d-flex flex-column justify-content-center align-items-center text-center position-relative product-img-col"
+                        style="background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%); border-right: 1px solid #e2e8f0;">
+                        <span class="position-absolute top-0 start-0 m-3 badge rounded-pill fw-bold text-uppercase"
+                            style="background: var(--theme-subtle); color: var(--theme-primary); border: 1px solid var(--theme-primary); font-size: 12px; letter-spacing: 1px;">
+                            IRC:83 Type F
+                        </span>
+                        
+                        <div class="product-image-box my-auto p-3 w-100 d-flex align-items-center justify-content-center">
+                            <img src="assets/pp_data/Page 02/Bearing types/TYPE F.png" alt="Type F: Bearings with Positive Anchorage"
+                                class="img-fluid rounded-3 product-preview-img" style="max-height: 220px; width: auto; object-fit: contain; transition: transform 0.35s ease;">
+                        </div>
+
+                        <div class="mt-3 w-100 pt-3 border-top border-light-subtle d-flex justify-content-around text-muted small">
+                            <span><i class="fa-solid fa-layer-group text-primary me-1"></i> Positive Anchorage</span>
+                            <span><i class="fa-solid fa-shield-halved text-primary me-1"></i> Replaceable System</span>
+                        </div>
+                    </div>
+
+                    <!-- Right: Technical Data Side -->
+                    <div class="col-lg-7 col-xl-8 p-4 p-lg-5 d-flex flex-column justify-content-between">
+                        <div>
+                            <div class="d-flex align-items-center justify-content-between flex-wrap gap-2 mb-2">
+                                <span class="badge rounded-pill px-3 py-1.5 fw-bold text-uppercase"
+                                    style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 12px; letter-spacing: 1px;">
+                                    Standard Classification
+                                </span>
+                                <span class="badge bg-light text-secondary rounded-pill px-3 py-1.5 border small fw-semibold">
+                                    <i class="fa-solid fa-circle-check text-primary me-1"></i> IRC:83-2018 (Part-II)
+                                </span>
+                            </div>
+
+                            <h3 class="fw-bold text-dark mb-3" style="font-family: 'Oswald', sans-serif; font-size: 26px; letter-spacing: 0.5px;">
+                                Type F: Bearings with Positive Anchorage
+                            </h3>
+
+                            <p class="text-secondary mb-4" style="font-size: 15px; line-height: 1.8;">
+                                Type F bearings incorporate positive anchorage through separate plates and suitable internal fastening arrangements. This provides positive location and restraint of the bearing, while the separate plate arrangement can also facilitate bearing replacement. The anchorage and fastening arrangement are designed to provide adequate positive location.
+                            </p>
+
+                            <div class="p-3.5 p-md-4 rounded-3 mb-4" style="background: #f8fafc; border: 1px solid #e2e8f0;">
+                                <h6 class="fw-bold text-dark mb-3 d-flex align-items-center" style="font-size: 14.5px; font-family: 'Saira-Medium', sans-serif;">
+                                    <i class="fa-solid fa-circle-check text-primary me-2"></i>Typical Applications:
+                                </h6>
+                                <div class="row g-2">
+                                    <div class="col-md-6">
+                                        <div class="d-flex align-items-start gap-2 text-secondary" style="font-size: 14px; line-height: 1.6;">
+                                            <i class="fa-solid fa-chevron-right text-primary mt-1" style="font-size: 11px;"></i>
+                                            <span>Bridge and viaduct supports requiring positive anchorage</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="d-flex align-items-start gap-2 text-secondary" style="font-size: 14px; line-height: 1.6;">
+                                            <i class="fa-solid fa-chevron-right text-primary mt-1" style="font-size: 11px;"></i>
+                                            <span>Locations where positive positioning and restraint of the bearing are required</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="d-flex align-items-start gap-2 text-secondary" style="font-size: 14px; line-height: 1.6;">
+                                            <i class="fa-solid fa-chevron-right text-primary mt-1" style="font-size: 11px;"></i>
+                                            <span>Structures requiring a secure mechanical connection between the bearing and support</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="d-flex align-items-start gap-2 text-secondary" style="font-size: 14px; line-height: 1.6;">
+                                            <i class="fa-solid fa-chevron-right text-primary mt-1" style="font-size: 11px;"></i>
+                                            <span>Applications where bearing replacement needs to be facilitated</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="d-flex align-items-start gap-2 text-secondary" style="font-size: 14px; line-height: 1.6;">
+                                            <i class="fa-solid fa-chevron-right text-primary mt-1" style="font-size: 11px;"></i>
+                                            <span>Special support conditions requiring a defined anchorage arrangement</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="border-top pt-3 d-flex justify-content-between align-items-center flex-wrap gap-3">
+                            <span class="small text-muted" style="font-size: 13.5px;">
+                                <i class="fa-solid fa-certificate text-primary me-1"></i> Mechanical Locking &bull; Polymer Products
+                            </span>
+                            <a href="contact.php" class="btn btn-primary btn-sm rounded-pill px-4 py-2 fw-bold text-uppercase d-inline-flex align-items-center gap-2"
+                                style="background: var(--theme-primary); border-color: var(--theme-primary); font-size: 12.5px; letter-spacing: 0.5px;">
+                                <span>Inquire Type F Bearings</span> <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ============================================================
+     3. Standards & Codes Grid Section (8 Verified PDFs)
      ============================================================ -->
 <section class="py-5" style="background: #f8fafc;">
     <div class="container-fluid px-3 px-lg-5 py-4">
@@ -46,9 +476,9 @@ include_once 'partials/header.php';
         <div class="text-center mb-5 wow fadeInUp" data-wow-delay=".1s">
             <span class="badge px-3 py-2 mb-2 text-uppercase fw-bold rounded-pill"
                 style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 13px; letter-spacing: 1.5px;">
-                Verified Specifications
+                Verified PDF Specifications
             </span>
-            <h2 class="fw-bold text-dark text-uppercase mt-2" style="font-family: 'Oswald', sans-serif; font-size: 38px; letter-spacing: 0.5px;">
+            <h2 class="fw-bold text-dark text-uppercase mt-2" style="font-family: 'Oswald', sans-serif; font-size: clamp(26px, 3.2vw, 38px); letter-spacing: 0.5px;">
                 List of 8 Applicable Standards &amp; Technical PDFs
             </h2>
             <p class="text-muted mx-auto mb-0" style="max-width: 720px; font-size: 15px; line-height: 1.7;">
@@ -473,7 +903,7 @@ include_once 'partials/header.php';
 </div>
 
 <!-- ============================================================
-     3. Call to Action Banner
+     4. Call to Action Banner
      ============================================================ -->
 <section class="py-5 text-white position-relative"
     style="background: linear-gradient(135deg, rgba(8, 20, 38, 0.94) 0%, rgba(10, 25, 47, 0.82) 50%, rgba(5, 12, 24, 0.92) 100%), url('assets/img/img/banner/birdge-10.webp') center center / cover no-repeat; padding: 75px 0;">
@@ -484,10 +914,10 @@ include_once 'partials/header.php';
         </span>
         <h2 class="fw-bold text-white text-uppercase mx-auto mb-3"
             style="font-family: 'Saira-Medium', sans-serif; font-size: clamp(26px, 3.5vw, 38px); letter-spacing: 0.5px; max-width: 780px;">
-            Need Design Calculations as per IRC or RDSO?
+            Need Design Calculations as per IRC:83 or RDSO?
         </h2>
         <p class="mx-auto mb-4" style="max-width: 680px; color: #e2e8f0; font-size: 15px; line-height: 1.8;">
-            Our engineering team assists civil consultants with bearing size determination, load capacity calculations, and material testing verification.
+            Our engineering team assists civil consultants with bearing size determination, load capacity calculations, and material testing verification as per IRC:83 (Part-II).
         </p>
         <div class="d-flex justify-content-center gap-3 flex-wrap">
             <a href="contact.php" class="btn btn-primary rounded-pill px-5 py-3 fw-bold shadow text-uppercase"
@@ -504,6 +934,17 @@ include_once 'partials/header.php';
 
 <!-- Page Specific Styles & Modal JS -->
 <style>
+    .bearing-side-card {
+        transition: transform 0.35s ease, box-shadow 0.35s ease, border-color 0.35s ease;
+    }
+    .bearing-side-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 20px 40px rgba(2, 132, 199, 0.12) !important;
+        border-color: var(--theme-primary) !important;
+    }
+    .bearing-side-card:hover .product-preview-img {
+        transform: scale(1.05);
+    }
     .standard-code-card {
         transition: all 0.35s ease;
     }

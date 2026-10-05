@@ -24,7 +24,7 @@ include_once 'partials/header.php';
                     Reach out to our engineering and quality control team at Nashik for technical inquiries, custom bearing design calculations, and project pricing.
                 </p>
             </div>
-            <div class="col-lg-4 mt-4 mt-lg-0 text-lg-end">
+            <!-- <div class="col-lg-4 mt-4 mt-lg-0 text-lg-end">
                 <div class="d-inline-flex align-items-center p-3 px-4 rounded-4 text-start text-white border"
                     style="background: rgba(255, 255, 255, 0.06); border-color: rgba(255, 255, 255, 0.12) !important; backdrop-filter: blur(10px);">
                     <div class="p-2 rounded-circle me-3 d-flex align-items-center justify-content-center"
@@ -36,7 +36,7 @@ include_once 'partials/header.php';
                         <a href="tel:8975766459" class="fw-bold text-white text-decoration-none saira-medium" style="font-size: 17px;">+91 8975766459</a>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>
@@ -63,16 +63,17 @@ include_once 'partials/header.php';
                             <p class="text-muted small mb-0 saira-medium">Specialized division of Dynamic Prestress (I) Pvt. Ltd.</p>
                         </div>
 
-                        <!-- Info 1: Address -->
+                        <!-- Info 1: Manufacturing Unit & Address -->
                         <div class="d-flex align-items-start mb-4">
                             <div class="contact-icon-box me-3 flex-shrink-0 d-flex align-items-center justify-content-center rounded-circle"
                                 style="width: 46px; height: 46px; background: var(--theme-subtle); color: var(--theme-primary); font-size: 18px;">
-                                <i class="fa-solid fa-location-dot"></i>
+                                <i class="fa-solid fa-industry"></i>
                             </div>
                             <div>
-                                <h6 class="fw-bold text-dark mb-1 saira-medium" style="font-family: 'Saira-Medium', sans-serif !important; font-size: 15px;">Manufacturing Plant</h6>
+                                <h6 class="fw-bold text-dark mb-1 saira-medium" style="font-family: 'Saira-Medium', sans-serif !important; font-size: 15px;">Manufacturing Unit &amp; Address</h6>
                                 <p class="small text-muted mb-0 saira-medium" style="line-height: 1.6;">
-                                    Polymer Products Manufacturing Facility, Nashik, Maharashtra, India.
+                                    <strong>H-32, M.I.D.C. SATPUR</strong><br>
+                                    NASHIK-422007 Maharashtra, India
                                 </p>
                             </div>
                         </div>
@@ -99,14 +100,28 @@ include_once 'partials/header.php';
                                 <i class="fa-solid fa-envelope"></i>
                             </div>
                             <div>
-                                <h6 class="fw-bold text-dark mb-1 saira-medium" style="font-family: 'Saira-Medium', sans-serif !important; font-size: 15px;">Email Inquiries</h6>
+                                <h6 class="fw-bold text-dark mb-1 saira-medium" style="font-family: 'Saira-Medium', sans-serif !important; font-size: 15px;">Email ID</h6>
                                 <p class="small text-muted mb-0 saira-medium" style="line-height: 1.6;">
-                                    QA/QC Dept: <a href="mailto:qc@polymerproducts.org" class="text-decoration-none fw-semibold saira-medium" style="color: var(--theme-primary);">qc@polymerproducts.org</a>
+                                    <a href="mailto:sales@polymerproducts.org" class="text-decoration-none fw-semibold saira-medium" style="color: var(--theme-primary);">sales@polymerproducts.org</a>
                                 </p>
                             </div>
                         </div>
 
-                        <!-- Info 4: Group Website -->
+                        <!-- Info 4: Year of Establishment & Group Website -->
+                        <div class="d-flex align-items-start mb-4">
+                            <div class="contact-icon-box me-3 flex-shrink-0 d-flex align-items-center justify-content-center rounded-circle"
+                                style="width: 46px; height: 46px; background: var(--theme-subtle); color: var(--theme-primary); font-size: 18px;">
+                                <i class="fa-solid fa-award"></i>
+                            </div>
+                            <div>
+                                <h6 class="fw-bold text-dark mb-1 saira-medium" style="font-family: 'Saira-Medium', sans-serif !important; font-size: 15px;">Year of Establishment</h6>
+                                <p class="small text-muted mb-0 saira-medium" style="line-height: 1.6;">
+                                    <strong class="text-dark">1978</strong> &bull; Over 48 Years of Manufacturing Heritage
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Info 5: Group Website -->
                         <div class="d-flex align-items-start mb-4">
                             <div class="contact-icon-box me-3 flex-shrink-0 d-flex align-items-center justify-content-center rounded-circle"
                                 style="width: 46px; height: 46px; background: var(--theme-subtle); color: var(--theme-primary); font-size: 18px;">
@@ -253,14 +268,14 @@ include_once 'partials/header.php';
                         FACILITY LOCATION
                     </span>
                     <h3 class="fw-bold text-dark mb-3 saira-medium" style="font-family: 'Saira-Medium', sans-serif !important; font-size: 28px;">
-                        Nashik Manufacturing Plant
+                        Manufacturing Unit: H-32, M.I.D.C. SATPUR
                     </h3>
                     <p class="text-muted small mb-4 saira-medium" style="line-height: 1.7;">
-                        Our manufacturing plant is located in the industrial estate of Nashik, Maharashtra, equipped with heated vulcanization presses, steel grit-blasting preparation, and calibrated testing laboratories.
+                        Our manufacturing facility is located at H-32, M.I.D.C. SATPUR, NASHIK-422007 Maharashtra, India, fully equipped with heavy heated vulcanization presses, steel grit-blasting preparation bays, and calibrated testing laboratories.
                     </p>
                     <div class="d-flex align-items-center mb-3">
                         <i class="fa-solid fa-map-location-dot me-3 fs-5" style="color: var(--theme-primary);"></i>
-                        <span class="small text-dark fw-semibold saira-medium">Industrial Estate, Nashik, Maharashtra, India.</span>
+                        <span class="small text-dark fw-semibold saira-medium">H-32, M.I.D.C. SATPUR, NASHIK-422007 Maharashtra, India</span>
                     </div>
                     <div class="d-flex align-items-center">
                         <i class="fa-solid fa-phone me-3 fs-5" style="color: var(--theme-primary);"></i>
@@ -270,10 +285,8 @@ include_once 'partials/header.php';
             </div>
             <div class="col-lg-8">
                 <div class="rounded-4 overflow-hidden shadow-sm border" style="height: 380px;">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119981.26415053227!2d73.72488817294572!3d19.991105342410385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bddee02e604f35b%3A0xb36316dfa8cb885b!2sNashik%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
-                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7498.202642440463!2d73.70241522789!3d20.004261806799736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bddec7d00000001%3A0x91b0fb70668f61cd!2sPolymer%20Products!5e0!3m2!1sen!2sin!4v1791176044366!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"  
+                    referrerpolicy="no-referrer-when-downgrade">
                     </iframe>
                 </div>
             </div>

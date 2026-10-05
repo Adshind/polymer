@@ -1,6 +1,6 @@
 <?php 
 $page_title = "About Us - Polymer Products & Dynamic Prestress Group";
-$meta_description = "Learn about Polymer Products, a specialized manufacturing division of Dynamic Prestress (I) Pvt. Ltd. in Nashik, producing elastomeric bridge bearings and seismic solutions.";
+$meta_description = "Learn about Polymer Products (Estd. 1978), a specialized manufacturing division of Dynamic Prestress (I) Pvt. Ltd. at H-32, M.I.D.C. SATPUR, NASHIK-422007 Maharashtra, India, producing elastomeric bridge bearings and seismic solutions.";
 include_once 'partials/header.php'; 
 ?>
 
@@ -28,19 +28,19 @@ include_once 'partials/header.php';
                     Engineered For <span style="color: var(--theme-light);">Structural Permanence</span>
                 </h1>
                 <p class="text-light mb-4" style="font-size: 16px; line-height: 1.8; max-width: 720px; color: #cbd5e1 !important;">
-                    Specialized manufacturing and quality testing of Elastomeric Bearings &amp; Seismic Solutions for India's major highway, railway, and urban transit infrastructure projects.
+                    Specialized manufacturing and quality testing of Elastomeric Bearings &amp; Seismic Solutions for India's major highway, railway, and urban transit infrastructure projects since 1978.
                 </p>
-                <!-- <div class="d-flex flex-wrap gap-2 pt-1">
+                <div class="d-flex flex-wrap gap-2 pt-1">
                     <span class="badge bg-dark bg-opacity-75 border border-secondary text-light px-3 py-2 rounded-pill small">
-                        <i class="fa-solid fa-award text-warning me-1"></i> 44+ Years of Engineering Excellence
+                        <i class="fa-solid fa-award text-warning me-1"></i> Year of Establishment: 1978
                     </span>
                     <span class="badge bg-dark bg-opacity-75 border border-secondary text-light px-3 py-2 rounded-pill small">
-                        <i class="fa-solid fa-industry text-info me-1"></i> Dedicated Nashik Manufacturing Plant
+                        <i class="fa-solid fa-industry text-info me-1"></i> Unit: H-32, M.I.D.C. SATPUR, NASHIK
                     </span>
                     <span class="badge bg-dark bg-opacity-75 border border-secondary text-light px-3 py-2 rounded-pill small">
                         <i class="fa-solid fa-shield-halved text-success me-1"></i> RDSO &amp; IRC:83 Compliant
                     </span>
-                </div> -->
+                </div>
             </div>
 
             <div class="col-lg-4 mt-4 mt-lg-0 text-lg-end d-none d-lg-block wow fadeInRight" data-wow-delay=".3s">
@@ -57,7 +57,7 @@ include_once 'partials/header.php';
                         </div>
                     </div>
                     <p class="small text-white-50 mb-0 pt-2 border-top border-secondary border-opacity-25" style="line-height: 1.5;">
-                        Specialized elastomeric division providing unified post-tensioning and bearing solutions.
+                        Specialized elastomeric division providing unified post-tensioning and bearing solutions. Established in 1978.
                     </p>
                 </div>
             </div>
@@ -77,16 +77,16 @@ include_once 'partials/header.php';
                 <div class="pe-lg-3">
                     <span class="badge px-3 py-2 rounded-pill font-monospace fw-bold text-uppercase mb-2"
                         style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 11px; letter-spacing: 1px;">
-                        OUR HERITAGE &amp; EXPERTISE
+                        OUR HERITAGE &amp; EXPERTISE &bull; ESTD. 1978
                     </span>
                     <h2 class="fw-bold text-dark mb-3" style="font-family: 'Oswald', sans-serif; font-size: clamp(28px, 3vw, 40px); line-height: 1.2;">
                         Decades of Prestressing &amp; Polymer Engineering Excellence
                     </h2>
                     <p class="text-secondary mb-3" style="font-size: 15.5px; line-height: 1.8;">
-                        <strong>Dynamic Prestress (I) Pvt. Ltd.</strong> is an established Indian engineering enterprise with extensive experience in prestressing technology and civil infrastructure. Over decades of dedicated leadership, the company has played a pivotal role in the design, manufacturing, supply, and installation of specialized structural components for bridges, flyovers, metro networks, and railway viaducts across India.
+                        <strong>Dynamic Prestress (I) Pvt. Ltd.</strong> is an established Indian engineering enterprise with extensive experience in prestressing technology and civil infrastructure since its establishment in <strong>1978</strong>. Over decades of dedicated leadership, the company has played a pivotal role in the design, manufacturing, supply, and installation of specialized structural components for bridges, flyovers, metro networks, and railway viaducts across India.
                     </p>
                     <p class="text-secondary mb-4" style="font-size: 15.5px; line-height: 1.8;">
-                        As a specialized manufacturing division within the Dynamic group, <strong>Polymer Products</strong> focuses on the precision fabrication and physical testing of <strong>Elastomeric Bearings</strong> and <strong>Seismic Vibration Isolation Pads</strong>. Our facility in <strong>Nashik, Maharashtra</strong> operates under strict technical oversight by experienced Rubber Technologists, Structural Engineers, and Polymer Chemists.
+                        As a specialized manufacturing division within the Dynamic group, <strong>Polymer Products</strong> focuses on the precision fabrication and physical testing of <strong>Elastomeric Bearings</strong> and <strong>Seismic Vibration Isolation Pads</strong>. Our dedicated manufacturing unit at <strong>H-32, M.I.D.C. SATPUR, NASHIK-422007 Maharashtra, India</strong> operates under strict technical oversight by experienced Rubber Technologists, Structural Engineers, and Polymer Chemists.
                     </p>
 
                     <!-- Feature Cards Grid -->
@@ -116,56 +116,65 @@ include_once 'partials/header.php';
                             style="background: var(--theme-primary); font-size: 13px; letter-spacing: 0.5px; transition: all 0.3s ease;">
                             <span>Request Technical RFQ</span> <i class="fa-solid fa-arrow-right ms-2"></i>
                         </a>
-                        <a href="assets/pp_data/Page 01/Credential_Polymer_Products.pdf" target="_blank"
+                        <!-- <a href="assets/pp_data/Page 01/Credential_Polymer_Products.pdf" target="_blank"
                             class="btn btn-outline-primary px-4 py-3 rounded-pill fw-bold text-uppercase open-cert-modal"
                             data-doc-url="assets/pp_data/Page 01/Credential_Polymer_Products.pdf"
                             data-doc-title="Polymer Products - Company Credentials & Profile"
                             data-doc-type="pdf"
                             style="font-size: 13px; letter-spacing: 0.5px; border-color: var(--theme-primary); color: var(--theme-primary);">
                             <i class="fa-solid fa-file-pdf me-2"></i>View Brochure
-                        </a>
+                        </a> -->
                     </div>
                 </div>
             </div>
 
             <!-- Right Side: Updated Plant Image with Accent Frame & Floating Badge -->
             <div class="col-lg-6 wow fadeInRight" data-wow-delay=".3s">
-                <div class="about-image-wrapper position-relative ps-lg-4">
-                    <!-- Brand Accent Border Frame -->
-                    <div class="position-absolute"
-                        style="top: -15px; right: -15px; width: 65%; height: 65%; background: var(--theme-subtle); border: 2px solid var(--theme-primary); border-top-right-radius: 32px; z-index: 1;">
-                    </div>
+    <div class="about-image-wrapper position-relative ps-lg-4">
+        <!-- Brand Accent Border Frame -->
+        <div class="position-absolute"
+            style="top: -15px; right: -15px; width: 65%; height: 65%; background: var(--theme-subtle); border: 2px solid var(--theme-primary); border-top-right-radius: 32px; z-index: 1;">
+        </div>
 
-                    <!-- Main Factory Image -->
-                    <div class="position-relative overflow-hidden shadow-lg rounded-4 border bg-white" style="z-index: 2;">
-                        <img src="assets/img/img/banner/factory-image-1.webp"
-                            alt="Polymer Products Nashik Facility"
-                            class="img-fluid w-100"
-                            style="height: 480px; object-fit: cover; transition: transform 0.6s ease;">
-                    </div>
+        <!-- Main Factory Video Wrapper -->
+        <div class="position-relative overflow-hidden shadow-lg rounded-4 border bg-white" style="z-index: 2;">
+            <video 
+                autoplay 
+                muted 
+                loop 
+                playsinline 
+                poster="assets/img/img/banner/factory-image-1.webp"
+                class="w-100 d-block"
+                style="height: 480px; object-fit: cover; transition: transform 0.6s ease;">
+                <!-- Replace with your actual video source path -->
+                <source src="https://polymer.b-cdn.net/about-polymer-video.mp4" type="video/mp4">
+                <source src="assets/video/factory-video.webm" type="video/webm">
+                Your browser does not support the video tag.
+            </video>
+        </div>
 
-                    <!-- Floating Statistics Card -->
-                    <!-- <div class="position-absolute bg-white p-3 p-md-4 rounded-4 shadow-lg border float-bob-y d-none d-sm-block"
-                        style="bottom: -20px; left: 20px; z-index: 3; min-width: 270px;">
-                        <div class="d-flex align-items-center mb-2">
-                            <div class="p-2 rounded-circle me-3 d-flex align-items-center justify-content-center"
-                                style="width: 40px; height: 40px; background: var(--theme-subtle); color: var(--theme-primary);">
-                                <i class="fa-solid fa-award fs-5"></i>
-                            </div>
-                            <div>
-                                <h6 class="fw-bold text-dark mb-0" style="font-size: 14px;">Nashik Plant Capacity</h6>
-                                <small class="text-muted" style="font-size: 11px;">ISO 9001:2027 Certified</small>
-                            </div>
-                        </div>
-                        <div class="d-flex align-items-baseline justify-content-between pt-1 border-top">
-                            <h3 class="fw-bold mb-0" style="color: var(--theme-primary); font-family: 'Oswald', sans-serif;">50,000+</h3>
-                            <span class="badge px-2 py-1 rounded-pill small" style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 11px;">
-                                Bearings Delivered
-                            </span>
-                        </div>
-                    </div> -->
+        <!-- Floating Statistics Card (Uncomment if needed) -->
+        <!-- <div class="position-absolute bg-white p-3 p-md-4 rounded-4 shadow-lg border float-bob-y d-none d-sm-block"
+            style="bottom: -20px; left: 20px; z-index: 3; min-width: 270px;">
+            <div class="d-flex align-items-center mb-2">
+                <div class="p-2 rounded-circle me-3 d-flex align-items-center justify-content-center"
+                    style="width: 40px; height: 40px; background: var(--theme-subtle); color: var(--theme-primary);">
+                    <i class="fa-solid fa-award fs-5"></i>
+                </div>
+                <div>
+                    <h6 class="fw-bold text-dark mb-0" style="font-size: 14px;">Nashik Plant Capacity</h6>
+                    <small class="text-muted" style="font-size: 11px;">ISO 9001:2027 Certified</small>
                 </div>
             </div>
+            <div class="d-flex align-items-baseline justify-content-between pt-1 border-top">
+                <h3 class="fw-bold mb-0" style="color: var(--theme-primary); font-family: 'Oswald', sans-serif;">50,000+</h3>
+                <span class="badge px-2 py-1 rounded-pill small" style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 11px;">
+                    Bearings Delivered
+                </span>
+            </div>
+        </div> -->
+    </div>
+</div>
 
         </div>
     </div>
@@ -238,11 +247,7 @@ include_once 'partials/header.php';
     </div>
 </section>
 
-<!-- ============================================================
-     4. Statutory & Quality Approvals Sequence
-     ============================================================ -->
-<?php include_once 'partials/certifications.php'; ?>
-
+ 
 <!-- ============================================================
      5. Official Organization Chart & Leadership Structure
      ============================================================ -->
@@ -266,7 +271,7 @@ include_once 'partials/header.php';
         <!-- ============================================================
              Interactive Visual Org Chart Flow (Tree View)
              ============================================================ -->
-        <div class="org-chart-tree-wrapper p-4 p-lg-5 mb-5 rounded-4 border shadow-sm wow fadeInUp" data-wow-delay=".2s"
+        <!-- <div class="org-chart-tree-wrapper p-4 p-lg-5 mb-5 rounded-4 border shadow-sm wow fadeInUp" data-wow-delay=".2s"
             style="background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%); border-color: #e2e8f0;">
             <div class="text-center mb-4">
                 <span class="badge bg-dark text-white px-3 py-1.5 rounded-pill small fw-bold text-uppercase" style="letter-spacing: 1px;">
@@ -274,7 +279,7 @@ include_once 'partials/header.php';
                 </span>
             </div>
 
-            <!-- Level 1: Proprietor / Executive Head -->
+           
             <div class="d-flex justify-content-center mb-4">
                 <div class="org-tree-node primary-node p-3 rounded-4 shadow text-center" style="max-width: 360px; width: 100%; background: var(--theme-primary); color: #fff;">
                     <div class="badge bg-white text-primary rounded-pill px-3 py-1 fw-bold text-uppercase mb-1" style="font-size: 11px; letter-spacing: 0.5px;">
@@ -285,13 +290,13 @@ include_once 'partials/header.php';
                 </div>
             </div>
 
-            <!-- Connecting Stem -->
+    
             <div class="org-stem-down mx-auto" style="width: 2px; height: 28px; background: var(--theme-primary); margin-top: -15px; margin-bottom: 0;"></div>
             <div class="org-horizontal-branch mx-auto d-none d-md-block" style="width: 60%; height: 2px; background: var(--theme-primary);"></div>
 
-            <!-- Level 2: Core Department Incharges -->
+            
             <div class="row g-3 justify-content-center mt-2 mb-4">
-                <!-- Lab Incharge -->
+                
                 <div class="col-md-5 col-lg-4">
                     <div class="org-tree-node sub-node p-3 rounded-4 bg-white border shadow-sm text-center h-100">
                         <span class="badge rounded-pill px-2.5 py-1 text-uppercase fw-bold mb-1" style="background: #e0f2fe; color: #0284c7; font-size: 11px;">
@@ -301,7 +306,7 @@ include_once 'partials/header.php';
                         <small class="text-muted d-block" style="font-size: 12px;">M.Sc. (Chemistry) &bull; 39 Yrs Testing Experience</small>
                     </div>
                 </div>
-                <!-- Production Incharge -->
+             
                 <div class="col-md-5 col-lg-4">
                     <div class="org-tree-node sub-node p-3 rounded-4 bg-white border shadow-sm text-center h-100">
                         <span class="badge rounded-pill px-2.5 py-1 text-uppercase fw-bold mb-1" style="background: #fef3c7; color: #b45309; font-size: 11px;">
@@ -313,15 +318,15 @@ include_once 'partials/header.php';
                 </div>
             </div>
 
-            <!-- Level 3: Department Heads & Functional Managers -->
+            
             <div class="row g-3 justify-content-center pt-2">
-                <div class="col-6 col-md-3">
+               <div class="col-6 col-md-3">
                     <div class="p-2.5 bg-white rounded-3 border text-center shadow-2xs h-100">
                         <small class="fw-bold text-primary d-block text-uppercase" style="font-size: 10.5px;">Asst. General Manager</small>
                         <span class="fw-bold text-dark d-block" style="font-size: 13.5px;">Sunil Kotagi</span>
                         <small class="text-muted" style="font-size: 11px;">B.Com</small>
                     </div>
-                </div>
+                </div>  
                 <div class="col-6 col-md-3">
                     <div class="p-2.5 bg-white rounded-3 border text-center shadow-2xs h-100">
                         <small class="fw-bold text-primary d-block text-uppercase" style="font-size: 10.5px;">Dy. Manager Design &amp; Testing</small>
@@ -343,8 +348,9 @@ include_once 'partials/header.php';
                         <small class="text-muted" style="font-size: 11px;">M.Sc. Industrial Chemistry</small>
                     </div>
                 </div>
+                
             </div>
-        </div>
+        </div> -->
 
         <!-- ============================================================
              1. Executive Leadership & Department Incharges (Detailed Cards)
@@ -508,7 +514,7 @@ include_once 'partials/header.php';
             <div class="row g-4">
 
                 <!-- 4. Sunil Kotagi - ASST GENERAL MANAGER -->
-                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".1s">
+                <!-- <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".1s">
                     <div class="team-card-modern h-100 d-flex flex-column justify-content-between position-relative shadow-sm">
                         <div>
                             <div class="team-photo-wrap standard-height position-relative d-flex align-items-center justify-content-center"
@@ -546,14 +552,14 @@ include_once 'partials/header.php';
                             </span>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
                 <!-- 5. Tausifkhan Pathan - DY. MANAGER DESIGN & TESTING -->
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".2s">
                     <div class="team-card-modern h-100 d-flex flex-column justify-content-between position-relative shadow-sm">
                         <div>
                             <div class="team-photo-wrap standard-height position-relative">
-                                <img src="assets/pp_data/Page 02/Emp Details/Pathan sir/PATHAN.jpg" alt="Tausifkhan Pathan - Dy. Manager Design & Testing" class="team-card-img">
+                                <img src="/assets/pp_data/Page 02/Emp Details/Pathan sir/Tausifkhan-Pathan.png" alt="Tausifkhan Pathan - Dy. Manager Design & Testing" class="team-card-img">
                                 <div class="team-photo-overlay"></div>
                                 <div class="team-badge-icon" title="Design & Testing">
                                     <i class="fa-solid fa-compass-drafting"></i>
@@ -575,9 +581,9 @@ include_once 'partials/header.php';
                             </div>
                         </div>
                         <div class="p-3 border-top bg-light bg-opacity-25">
-                            <a href="assets/pp_data/Page 02/Emp Details/Directors/Plastic Rubber Institute.pdf" target="_blank"
-                                class="btn btn-outline-primary btn-sm rounded-pill px-3 py-2 fw-bold w-100 open-cert-modal d-flex align-items-center justify-content-center gap-2"
-                                data-doc-url="assets/pp_data/Page 02/Emp Details/Directors/Plastic Rubber Institute.pdf"
+                            <a href="assets/pp_data/Page 02/Emp Details/Pathan sir/PATHAN.pdf"  target="_blank"
+                                class="btn btn-outline-primary btn-sm rounded-pill px-3 py-2 fw-bold w-80 open-cert-modal d-flex align-items-center justify-content-center gap-2"
+                                data-doc-url="/assets/pp_data/Page 02/Emp Details/Pathan sir/PATHAN.pdf"
                                 data-doc-title="Tausifkhan Pathan - Technical Credentials"
                                 data-doc-type="pdf">
                                 <i class="fa-solid fa-certificate"></i> <span>View Institute Certificate</span>
@@ -590,16 +596,9 @@ include_once 'partials/header.php';
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                     <div class="team-card-modern h-100 d-flex flex-column justify-content-between position-relative shadow-sm">
                         <div>
-                            <div class="team-photo-wrap standard-height position-relative d-flex align-items-center justify-content-center"
-                                style="background: linear-gradient(135deg, #0e7490 0%, #155e75 100%);">
-                                <div class="text-center text-white p-3">
-                                    <div class="p-3 rounded-circle d-inline-flex align-items-center justify-content-center mb-2 shadow"
-                                        style="width: 72px; height: 72px; background: rgba(255,255,255,0.15); border: 2px solid rgba(255,255,255,0.3);">
-                                        <i class="fa-solid fa-vial-circle-check fs-2 text-warning"></i>
-                                    </div>
-                                    <h6 class="text-white fw-bold mb-0 text-uppercase" style="font-family:'Oswald',sans-serif; letter-spacing: 0.5px;">Rubber Lab Tech</h6>
-                                    <small class="text-white-50" style="font-size: 11px;">Testing Apparatus &amp; Specimen Prep</small>
-                                </div>
+                            <div class="team-photo-wrap standard-height position-relative">
+                                <img src="assets/pp_data/Page 02/Emp Details/Narendra Khairnar/Narendra-Khairnar.png" alt="Narendra Khairnar - Lab Technician" class="team-card-img">
+                                <div class="team-photo-overlay"></div>
                                 <div class="team-badge-icon" title="Lab Technician">
                                     <i class="fa-solid fa-flask"></i>
                                 </div>
@@ -619,10 +618,14 @@ include_once 'partials/header.php';
                                 </p>
                             </div>
                         </div>
-                        <div class="p-3 border-top bg-light bg-opacity-25 text-center">
-                            <span class="badge bg-primary-subtle text-primary px-3 py-1.5 rounded-pill small fw-semibold" style="font-size: 11px;">
-                                <i class="fa-solid fa-circle-check me-1"></i> Certified Rubber Technician
-                            </span>
+                        <div class="p-3 border-top bg-light bg-opacity-25">
+                            <a href="assets/pp_data/Page 02/Emp Details/Narendra Khairnar/Narendra-Khairnar-certificate.pdf" target="_blank"
+                                class="btn btn-outline-primary btn-sm rounded-pill px-3 py-2 fw-bold w-100 open-cert-modal d-flex align-items-center justify-content-center gap-2"
+                                data-doc-url="assets/pp_data/Page 02/Emp Details/Narendra Khairnar/Narendra-Khairnar-certificate.pdf"
+                                data-doc-title="Narendra Khairnar - ITI Rubber Technician Certificate"
+                                data-doc-type="pdf">
+                                <i class="fa-solid fa-certificate"></i> <span>View ITI Certificate</span>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -694,10 +697,10 @@ include_once 'partials/header.php';
                         <div class="p-3 border-top bg-light bg-opacity-25">
                             <a href="assets/pp_data/Page 02/Emp Details/Nitin Pandey/Certificate.pdf" target="_blank"
                                 class="btn btn-outline-primary btn-sm rounded-pill px-3 py-2 fw-bold w-100 open-cert-modal d-flex align-items-center justify-content-center gap-2"
-                                data-doc-url="assets/pp_data/Page 02/Emp Details/Nitin Pandey/Certificate.pdf"
-                                data-doc-title="Nitin Pandey - Quality Management Certificate"
+                                data-doc-url="assets/pp_data/Page 02/Emp Details/Nitin Pandey/Nitin-pandey-Rubber-Technology-Certificate.pdf"
+                                data-doc-title="Nitin Pandey - Rubber Technology Certificate"
                                 data-doc-type="pdf">
-                                <i class="fa-solid fa-file-circle-check"></i> <span>View QC Certificate</span>
+                                <i class="fa-solid fa-file-circle-check"></i> <span>View Rubber Tech Certificate</span>
                             </a>
                         </div>
                     </div>
@@ -707,14 +710,14 @@ include_once 'partials/header.php';
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".6s">
                     <div class="team-card-modern h-100 d-flex flex-column justify-content-between position-relative shadow-sm">
                         <div>
-                            <div class="team-photo-wrap standard-height position-relative overflow-hidden" style="background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);">
-                                <img src="assets/pp_data/Page 02/Emp Details/Labhesh/msc degree certificate OF LASBESH BAWISKAR (1).jpg" alt="Labhesh Bawiskar - Lab Manager" class="team-card-img" style="opacity: 0.38; object-fit: cover;">
+                            <div class="team-photo-wrap standard-height position-relative overflow-hidden" style="">
+                                <img src="/assets/pp_data/Page 02/Emp Details/Labhesh/Labhesh-Bawiskar.webp" alt="Labhesh Bawiskar - Lab Manager" class="team-card-img" style="opacity: 1; object-fit: cover;">
                                 <div class="position-absolute top-50 start-50 translate-middle text-center text-white p-3 w-100" style="z-index: 1;">
-                                    <div class="p-3 rounded-circle d-inline-flex align-items-center justify-content-center mb-2 shadow"
+                                    <!-- <div class="p-3 rounded-circle d-inline-flex align-items-center justify-content-center mb-2 shadow"
                                         style="width: 64px; height: 64px; background: rgba(255,255,255,0.15); border: 2px solid rgba(255,255,255,0.3); backdrop-filter: blur(8px);">
                                         <i class="fa-solid fa-flask-vial fs-3 text-warning"></i>
-                                    </div>
-                                    <span class="d-block fw-bold small text-uppercase" style="letter-spacing: 1px; font-size: 11px;">M.Sc Industrial Chemistry</span>
+                                    </div> -->
+                                    <!-- <span class="d-block fw-bold small text-uppercase" style="letter-spacing: 1px; font-size: 11px;">M.Sc Industrial Chemistry</span> -->
                                 </div>
                                 <div class="team-photo-overlay"></div>
                                 <div class="team-badge-icon" title="Lab Manager">

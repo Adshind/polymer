@@ -4,7 +4,7 @@ include_once 'partials/header.php';
 ?>
 
 <section class="ht-hero-area d-flex align-items-center"
-    style="background: linear-gradient(135deg, rgba(27, 18, 18, 0.68) 0%, rgba(12, 26, 44, 0.50) 50%, rgba(141, 141, 141, 0.22) 100%), url('assets/img/img/banner/birdge-13.webp') center center / cover no-repeat; position: relative; overflow: hidden; min-height: 100vh; padding-top: 175px; padding-bottom: 75px; margin-top: -160px;">
+    style="background: linear-gradient(135deg, rgba(27, 18, 18, 0.68) 0%, rgba(12, 26, 44, 0.50) 50%, rgba(141, 141, 141, 0.22) 100%), url('assets/img/img/banner/birdge-11.webp') center center / cover no-repeat; position: relative; overflow: hidden; min-height: 100vh; padding-top: 175px; padding-bottom: 75px; margin-top: -160px;">
     <!-- <div class="ht-hero-shape" style="position: absolute; top:0; right:0; opacity:0.12;">
         <img src="assets/img/img/shape/1.svg" alt="shape">
     </div> -->
@@ -24,9 +24,9 @@ include_once 'partials/header.php';
                     </h1>
                     <p class="desc wow fadeInUp mb-4" data-wow-delay=".4s"
                         style="color: #cbd5e1; font-size: 17px; line-height: 1.7; max-width: 680px;">
-                        Polymer Products is an established manufacturer and supplier of Elastomeric Bearings and
+                        Polymer Products (Estd. 1978) is an established manufacturer and supplier of Elastomeric Bearings and
                         Seismic Pads for the civil engineering and infrastructure sector. Engineered at our
-                        state-of-the-art facility in Nashik, Maharashtra.
+                        manufacturing unit at H-32, M.I.D.C. SATPUR, NASHIK-422007 Maharashtra, India.
                     </p>
                     <div class="d-flex flex-wrap gap-3 wow fadeInUp" data-wow-delay=".6s">
                         <a href="contact.php" class="header-contact-btn ht-btn-anim d-inline-flex align-items-center"
@@ -245,9 +245,9 @@ include_once 'partials/header.php';
                         major infrastructure requirements.
                     </p>
                     <p class="text-muted mb-4" style="font-size:15px; line-height:1.8;">
-                        Our Elastomeric Bearings are manufactured at our dedicated facility in <strong>Nashik,
-                            Maharashtra</strong>, supported by experienced Rubber Technologists, Structural
-                        Engineers, Chemists, and supervisory personnel. Over the years, Polymer Products has
+                        Our Elastomeric Bearings are manufactured at our dedicated manufacturing unit located at <strong>H-32,
+                            M.I.D.C. SATPUR, NASHIK-422007 Maharashtra, India</strong>, supported by experienced Rubber Technologists, Structural
+                        Engineers, Chemists, and supervisory personnel. Established in <strong>1978</strong>, Polymer Products has
                         supplied bearings for prestigious railway, highway, bridge, and flyover projects across
                         India.
                     </p>
@@ -548,7 +548,7 @@ include_once 'partials/header.php';
                                 grade separators.
                             </p>
                         </div>
-                        <a href="experience.php#nhai"
+                        <a href="application-codes.php"
                             class="btn btn-outline-primary btn-sm rounded-pill fw-bold py-2 px-3 align-self-start">
                             View NHAI Credentials <i class="fa-solid fa-arrow-right ms-1"></i>
                         </a>
@@ -579,7 +579,7 @@ include_once 'partials/header.php';
                                 quality guidelines.
                             </p>
                         </div>
-                        <a href="experience.php#railway"
+                        <a href="experience.php"
                             class="btn btn-outline-primary btn-sm rounded-pill fw-bold py-2 px-3 align-self-start">
                             View Railway Approvals <i class="fa-solid fa-arrow-right ms-1"></i>
                         </a>
@@ -592,7 +592,7 @@ include_once 'partials/header.php';
                 <div class="card h-100 border-0 rounded-4 shadow-sm overflow-hidden bg-white sector-card position-relative"
                     style="transition: all 0.35s ease;">
                     <div class="position-relative overflow-hidden" style="height: 230px;">
-                        <img src="assets/img/img/banner/Monorailmumbai.webp" class="card-img-top w-100 h-100 sector-img"
+                        <img src="assets/img/img/banner/delhi-metro-1.png" class="card-img-top w-100 h-100 sector-img"
                             alt="Metro Rail Transit Systems"
                             style="object-fit: cover; transition: transform 0.5s ease;">
                         <span
@@ -610,7 +610,7 @@ include_once 'partials/header.php';
                                 corridors.
                             </p>
                         </div>
-                        <a href="experience.php#metro"
+                        <a href="experience.php"
                             class="btn btn-outline-primary btn-sm rounded-pill fw-bold py-2 px-3 align-self-start">
                             View Metro Projects <i class="fa-solid fa-arrow-right ms-1"></i>
                         </a>
@@ -896,7 +896,7 @@ include_once 'partials/header.php';
         <h2 class="display-6 fw-bold mb-3" style="color: #fff !important">Need Technical Consulting or Project
             Quotation?</h2>
         <p class="lead mx-auto mb-4" style="max-width:750px; color:#e0e7ff;">
-            Contact our engineering and quality control team at the Nashik facility. We assist with bearing design
+            Contact our engineering and sales team at our H-32, M.I.D.C. SATPUR, Nashik manufacturing unit. We assist with bearing design
             calculations, material verification, testing witnessed by third-party inspection agencies, and on-time
             project supply.
         </p>

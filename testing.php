@@ -13,13 +13,15 @@ include_once 'partials/header.php';
     letter-spacing: 1px;
 }
 .qap-card {
-    transition: all 0.35s ease;
+    transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
     border: 1px solid #e2e8f0;
     background: #ffffff;
+    border-radius: 20px;
 }
 .qap-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.08) !important;
+    box-shadow: 0 16px 36px rgba(2, 132, 199, 0.10) !important;
+    border-color: var(--theme-primary) !important;
 }
 .test-spec-table th {
     background: #0f172a;
@@ -44,9 +46,10 @@ include_once 'partials/header.php';
     border-color: var(--theme-primary);
 }
 .lab-card img {
-    height: 180px;
+    height: 185px;
     width: 100%;
     object-fit: cover;
+    background: #f1f5f9;
 }
 </style>
 
@@ -54,35 +57,42 @@ include_once 'partials/header.php';
      1. Modern Hero Banner
      ============================================================ -->
 <section class="ht-about-hero position-relative d-flex align-items-center"
-    style="background: linear-gradient(135deg, rgba(9, 20, 36, 0.88) 0%, rgba(14, 34, 61, 0.65) 50%, rgba(6, 13, 24, 0.65) 100%), url('assets/img/img/banner/birdge-5.webp') center center / cover no-repeat; padding-top: 175px; padding-bottom: 75px; margin-top: -160px; min-height: 440px;">
+    style="background: linear-gradient(135deg, rgba(9, 20, 36, 0.90) 0%, rgba(14, 34, 61, 0.72) 50%, rgba(6, 13, 24, 0.86) 100%), url('assets/img/img/banner/birdge-5.webp') center center / cover no-repeat; padding-top: 175px; padding-bottom: 75px; margin-top: -160px; min-height: 440px;">
     
     <div class="container-fluid px-3 px-lg-5 position-relative" style="z-index: 2;">
         <div class="row align-items-center">
             <div class="col-lg-8 wow fadeInLeft" data-wow-delay=".2s">
                 <span class="badge px-3 py-2 mb-3 rounded-pill text-uppercase testing-hero-badge">
-                    <i class="fa-solid fa-vial-circle-check me-2"></i>Quality Assurance &amp; Verification
+                    <i class="fa-solid fa-vial-circle-check me-2"></i>Quality Assurance &amp; Verification &bull; Estd. 1978
                 </span>
                 <h1 class="text-white fw-bold mb-3"
                     style="font-family: 'Oswald', 'Saira-Medium', sans-serif; font-size: clamp(32px, 4.5vw, 50px); letter-spacing: -0.5px; line-height: 1.2;">
-                    Testing &amp; QA/QC System <span style="color: var(--theme-light);">(NHAI &amp; RDSO)</span>
+                    Testing &amp; QA/QC System <span style="color: #93c5fd;">(NHAI &amp; RDSO)</span>
                 </h1>
                 <p class="text-light mb-4" style="font-size: 16px; line-height: 1.8; max-width: 740px; color: #cbd5e1 !important;">
                     Comprehensive Quality Assurance Plans (QAP), raw compound laboratory testing, 1.5x proof-load verification, and stage-wise third-party inspection support.
                 </p>
-                <div class="d-flex flex-wrap gap-3">
-                    <a href="#qap-plans" class="btn btn-primary rounded-pill px-4 py-2 fw-bold text-uppercase" style="background:var(--theme-primary); border-color:var(--theme-primary); font-size:13px; letter-spacing:0.5px;">
+                <div class="d-flex flex-wrap gap-2 pt-1">
+                    <a href="#qap-plans" class="btn btn-primary rounded-pill px-4 py-2.5 fw-bold text-uppercase" style="background:var(--theme-primary); border-color:var(--theme-primary); font-size:13px; letter-spacing:0.5px;">
                         <i class="fa-solid fa-clipboard-check me-2"></i>Approved QAP Plans
                     </a>
-                    <a href="#test-parameters" class="btn btn-outline-light rounded-pill px-4 py-2 fw-bold text-uppercase" style="font-size:13px; letter-spacing:0.5px;">
+                    <a href="#test-parameters" class="btn btn-outline-light rounded-pill px-4 py-2.5 fw-bold text-uppercase" style="font-size:13px; letter-spacing:0.5px;">
                         <i class="fa-solid fa-table-list me-2"></i>Test Parameters
                     </a>
-                    <a href="#lab-facilities" class="btn btn-outline-light rounded-pill px-4 py-2 fw-bold text-uppercase" style="font-size:13px; letter-spacing:0.5px;">
+                    <a href="#lab-facilities" class="btn btn-outline-light rounded-pill px-4 py-2.5 fw-bold text-uppercase" style="font-size:13px; letter-spacing:0.5px;">
                         <i class="fa-solid fa-flask me-2"></i>In-House Lab
                     </a>
                 </div>
             </div>
 
-           
+            <div class="col-lg-4 mt-4 mt-lg-0 text-lg-end d-none d-lg-block wow fadeInRight" data-wow-delay=".3s">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb justify-content-lg-end mb-0 bg-transparent p-0">
+                        <li class="breadcrumb-item"><a href="index.php" class="text-white-50 text-decoration-none"><i class="fa-solid fa-house me-1"></i>Home</a></li>
+                        <li class="breadcrumb-item active text-white fw-semibold" aria-current="page">Testing &amp; QA/QC</li>
+                    </ol>
+                </nav>
+            </div>
         </div>
     </div>
 </section>
@@ -91,84 +101,119 @@ include_once 'partials/header.php';
      2. Core Quality Assurance Plans (NHAI & RDSO)
      ============================================================ -->
 <section class="py-5" id="qap-plans" style="background:#ffffff;">
-    <div class="container py-4">
+    <div class="container-fluid px-3 px-lg-5 py-3">
         
-        <div class="section-title text-center mb-5">
-            <span class="badge px-3 py-2 mb-2 rounded-pill text-uppercase" style="background: var(--theme-subtle); color: var(--theme-primary); font-weight:700; font-size:12px; letter-spacing:1px;">
+        <div class="section-title text-center mb-5 wow fadeInUp" data-wow-delay=".1s">
+            <span class="badge px-3 py-1.5 rounded-pill font-monospace fw-bold text-uppercase mb-2"
+                style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 12px; letter-spacing: 1px;">
                 Quality Assurance Framework
             </span>
-            <h2 class="fw-bold text-dark" style="font-family:'Oswald', sans-serif; font-size:32px; letter-spacing:0.5px;">
+            <h2 class="fw-bold text-dark text-uppercase" style="font-family:'Oswald', sans-serif; font-size: clamp(26px, 3.2vw, 36px);">
                 Standardized Stage-Wise Quality Control Plans
             </h2>
-            <p class="text-muted mx-auto" style="max-width:700px; font-size:15px;">
-                Structured quality assurance protocols approved by National Highway authorities and Indian Railways for landmark infrastructure projects.
+            <p class="text-muted mx-auto mb-0" style="max-width:720px; font-size:15px; line-height: 1.7;">
+                Click on the documents below to view the official Quality Assurance Plans (QAP) approved by National Highway authorities and Indian Railways.
             </p>
         </div>
 
-        <div class="row g-4 mb-5">
-            <!-- NHAI QAP Card -->
-            <div class="col-lg-6">
-                <div class="p-4 rounded-4 shadow-sm h-100 qap-card position-relative">
-                    <div class="d-flex justify-content-between align-items-center mb-3">
-                        <span class="badge px-3 py-2 fw-bold text-uppercase" style="background: var(--theme-subtle); color: var(--theme-primary); border: 1px solid var(--theme-primary);">
-                            <i class="fa-solid fa-road me-1"></i> Road &amp; Highway Bridges
-                        </span>
-                        <span class="badge bg-secondary px-2 py-1">IRC:83 (Part II)</span>
-                    </div>
-                    <h3 class="fw-bold text-dark mb-2" style="font-family:'Oswald', sans-serif; font-size:24px;">NHAI Quality Assurance Plan (QAP)</h3>
-                    <p class="text-secondary small mb-3" style="line-height:1.7;">
-                        Structured quality control plan approved for National Highway and State PWD bridge projects, detailing stage-wise control points:
-                    </p>
-                    <ul class="list-unstyled text-muted small mb-4" style="line-height:2.0;">
-                        <li><i class="fa-solid fa-circle-check text-primary me-2"></i><strong>Stage 1:</strong> Raw polymer &amp; chemical compounding verification</li>
-                        <li><i class="fa-solid fa-circle-check text-primary me-2"></i><strong>Stage 2:</strong> Steel plate tensile test, grit blasting &amp; primer bonding check</li>
-                        <li><i class="fa-solid fa-circle-check text-primary me-2"></i><strong>Stage 3:</strong> Curing temperature and pressure recording log</li>
-                        <li><i class="fa-solid fa-circle-check text-primary me-2"></i><strong>Stage 4:</strong> Finished bearing dimensional tolerance check</li>
-                        <li><i class="fa-solid fa-circle-check text-primary me-2"></i><strong>Stage 5:</strong> Shear modulus test (G-value = 0.8 to 1.2 MPa) &amp; Proof Load test</li>
-                    </ul>
-                    <div class="p-3 bg-light rounded-3 border d-flex flex-wrap align-items-center justify-content-between gap-2 mt-auto">
-                        <div>
-                            <h6 class="fw-bold text-dark mb-0" style="font-size:14px;">IRC QAP Document Reference</h6>
-                            <small class="text-muted">Standard IRC:83 Format</small>
+        <div class="row g-4 mb-4 justify-content-center">
+            
+            <!-- NHAI QAP Card (Page 06) -->
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay=".15s">
+                <div class="p-4 p-md-5 rounded-4 shadow-sm h-100 qap-card position-relative d-flex flex-column justify-content-between">
+                    <div>
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <span class="badge px-3 py-2 fw-bold text-uppercase rounded-pill"
+                                style="background: var(--theme-subtle); color: var(--theme-primary); border: 1px solid var(--theme-primary); font-size: 12.5px;">
+                                <i class="fa-solid fa-road me-1.5"></i> Road &amp; Highway Bridges
+                            </span>
+                            <span class="badge bg-light text-secondary border px-3 py-1.5 rounded-pill small fw-semibold">
+                                IRC:83 (Part II) 2018
+                            </span>
                         </div>
-                        <a href="assets/pp_data/Page 01/Credential_Polymer_Products.pdf" target="_blank" class="btn btn-outline-primary btn-sm rounded-pill fw-bold px-3">
-                            <i class="fa-solid fa-file-pdf me-1"></i> View QAP Format
-                        </a>
+
+                        <h3 class="fw-bold text-dark mb-2" style="font-family:'Oswald', sans-serif; font-size:24px;">
+                            NHAI Quality Assurance Plan (QAP)
+                        </h3>
+                        <p class="text-secondary small mb-3" style="line-height:1.7; font-size: 14px;">
+                            Structured quality control plan approved for National Highway (NHAI) and State PWD bridge projects, detailing stage-wise control points:
+                        </p>
+                        
+                        <ul class="list-unstyled text-muted small mb-4" style="line-height:2.0; font-size: 13.5px;">
+                            <li><i class="fa-solid fa-circle-check text-primary me-2"></i><strong>Stage 1:</strong> Raw polymer &amp; chemical compounding verification</li>
+                            <li><i class="fa-solid fa-circle-check text-primary me-2"></i><strong>Stage 2:</strong> Steel plate tensile test, grit blasting &amp; primer bonding check</li>
+                            <li><i class="fa-solid fa-circle-check text-primary me-2"></i><strong>Stage 3:</strong> Curing temperature and pressure recording log</li>
+                            <li><i class="fa-solid fa-circle-check text-primary me-2"></i><strong>Stage 4:</strong> Finished bearing dimensional tolerance check</li>
+                            <li><i class="fa-solid fa-circle-check text-primary me-2"></i><strong>Stage 5:</strong> Shear modulus test (G-value = 0.8 to 1.2 MPa) &amp; Proof Load test</li>
+                        </ul>
+                    </div>
+
+                    <div class="p-3 bg-light rounded-3 border d-flex flex-wrap align-items-center justify-content-between gap-3 mt-auto">
+                        <div>
+                            <h6 class="fw-bold text-dark mb-0" style="font-size:14px;">
+                                <i class="fa-solid fa-file-pdf text-danger me-1.5"></i> QAP-IRC-_2018 (R).pdf
+                            </h6>
+                            <small class="text-muted" style="font-size: 12px;">Standard IRC:83 Stage-Wise Format</small>
+                        </div>
+                        <button type="button" class="btn btn-primary btn-sm rounded-pill fw-bold px-4 py-2 open-testing-doc-modal shadow-sm d-flex align-items-center gap-1.5"
+                            data-doc-url="assets/pp_data/Page 06/QAP-IRC-_2018 (R).pdf"
+                            data-doc-title="NHAI & Highway Bridges Quality Assurance Plan (IRC:83-2018)"
+                            data-doc-type="pdf"
+                            style="background: var(--theme-primary); border-color: var(--theme-primary);">
+                            <i class="fa-solid fa-eye"></i> <span>View QAP Format</span>
+                        </button>
                     </div>
                 </div>
             </div>
 
-            <!-- RDSO QAP Card -->
-            <div class="col-lg-6">
-                <div class="p-4 rounded-4 shadow-sm h-100 qap-card position-relative" style="border-top: 4px solid #dc2626 !important;">
-                    <div class="d-flex justify-content-between align-items-center mb-3">
-                        <span class="badge bg-danger-subtle text-danger px-3 py-2 fw-bold text-uppercase border border-danger">
-                            <i class="fa-solid fa-train me-1"></i> Railway Bridges &amp; ROBs
-                        </span>
-                        <span class="badge bg-secondary px-2 py-1">RDSO BS-131</span>
-                    </div>
-                    <h3 class="fw-bold text-dark mb-2" style="font-family:'Oswald', sans-serif; font-size:24px;">RDSO Railway Quality Plan</h3>
-                    <p class="text-secondary small mb-3" style="line-height:1.7;">
-                        High-precision testing regime complying with Indian Railways Research Designs and Standards Organisation (RDSO) specifications:
-                    </p>
-                    <ul class="list-unstyled text-muted small mb-4" style="line-height:2.0;">
-                        <li><i class="fa-solid fa-circle-check text-danger me-2"></i><strong>Axle Load Verification:</strong> Designed for 25T &amp; 32.5T heavy freight loads</li>
-                        <li><i class="fa-solid fa-circle-check text-danger me-2"></i><strong>Proof Load Test:</strong> 100% bearings subjected to 1.5x design vertical load</li>
-                        <li><i class="fa-solid fa-circle-check text-danger me-2"></i><strong>Shear Modulus Test:</strong> Dual-bearing compression-shear test rig</li>
-                        <li><i class="fa-solid fa-circle-check text-danger me-2"></i><strong>Adhesion Bond Strength:</strong> Elastomer-to-steel laminate peel test</li>
-                        <li><i class="fa-solid fa-circle-check text-danger me-2"></i><strong>Witness Inspection:</strong> Stage-wise inspection by RITES / RDSO officials</li>
-                    </ul>
-                    <div class="p-3 bg-light rounded-3 border d-flex flex-wrap align-items-center justify-content-between gap-2 mt-auto">
-                        <div>
-                            <h6 class="fw-bold text-dark mb-0" style="font-size:14px;">RDSO QAP Document Reference</h6>
-                            <small class="text-muted">Indian Railways Format</small>
+            <!-- RDSO QAP Card (Page 06) -->
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay=".25s">
+                <div class="p-4 p-md-5 rounded-4 shadow-sm h-100 qap-card position-relative d-flex flex-column justify-content-between" style="border-top: 4px solid var(--theme-primary) !important;">
+                    <div>
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <span class="badge px-3 py-2 fw-bold text-uppercase rounded-pill"
+                                style="background: rgba(2, 132, 199, 0.12); color: var(--theme-primary); border: 1px solid var(--theme-primary); font-size: 12.5px;">
+                                <i class="fa-solid fa-train me-1.5"></i> Railway Bridges &amp; ROBs
+                            </span>
+                            <span class="badge bg-light text-secondary border px-3 py-1.5 rounded-pill small fw-semibold">
+                                RDSO BS-131
+                            </span>
                         </div>
-                        <a href="assets/pp_data/Page 01/Credential_Polymer_Products.pdf" target="_blank" class="btn btn-outline-danger btn-sm rounded-pill fw-bold px-3">
-                            <i class="fa-solid fa-file-pdf me-1"></i> View Railway QAP
-                        </a>
+
+                        <h3 class="fw-bold text-dark mb-2" style="font-family:'Oswald', sans-serif; font-size:24px;">
+                            RDSO Railway Quality Plan
+                        </h3>
+                        <p class="text-secondary small mb-3" style="line-height:1.7; font-size: 14px;">
+                            High-precision testing regime complying with Indian Railways Research Designs and Standards Organisation (RDSO) specifications:
+                        </p>
+                        
+                        <ul class="list-unstyled text-muted small mb-4" style="line-height:2.0; font-size: 13.5px;">
+                            <li><i class="fa-solid fa-circle-check text-primary me-2"></i><strong>Axle Load Verification:</strong> Designed for 25T &amp; 32.5T heavy freight loads</li>
+                            <li><i class="fa-solid fa-circle-check text-primary me-2"></i><strong>Proof Load Test:</strong> 100% bearings subjected to 1.5x design vertical load</li>
+                            <li><i class="fa-solid fa-circle-check text-primary me-2"></i><strong>Shear Modulus Test:</strong> Dual-bearing compression-shear test rig</li>
+                            <li><i class="fa-solid fa-circle-check text-primary me-2"></i><strong>Adhesion Bond Strength:</strong> Elastomer-to-steel laminate peel test</li>
+                            <li><i class="fa-solid fa-circle-check text-primary me-2"></i><strong>Witness Inspection:</strong> Stage-wise inspection by RITES / RDSO officials</li>
+                        </ul>
+                    </div>
+
+                    <div class="p-3 bg-light rounded-3 border d-flex flex-wrap align-items-center justify-content-between gap-3 mt-auto">
+                        <div>
+                            <h6 class="fw-bold text-dark mb-0" style="font-size:14px;">
+                                <i class="fa-solid fa-file-pdf text-danger me-1.5"></i> Elastomeric QAP 2018 RDSO NEW.pdf
+                            </h6>
+                            <small class="text-muted" style="font-size: 12px;">Indian Railways RDSO Format</small>
+                        </div>
+                        <button type="button" class="btn btn-primary btn-sm rounded-pill fw-bold px-4 py-2 open-testing-doc-modal shadow-sm d-flex align-items-center gap-1.5"
+                            data-doc-url="assets/pp_data/Page 06/Elastomeric QAP 2018 RDSO NEW - blank format.pdf"
+                            data-doc-title="RDSO Indian Railways Quality Assurance Plan (Elastomeric Bearings)"
+                            data-doc-type="pdf"
+                            style="background: var(--theme-primary); border-color: var(--theme-primary);">
+                            <i class="fa-solid fa-eye"></i> <span>View Railway QAP</span>
+                        </button>
                     </div>
                 </div>
             </div>
+
         </div>
 
     </div>
@@ -178,15 +223,16 @@ include_once 'partials/header.php';
      3. Routine & Acceptance Test Parameters Table
      ============================================================ -->
 <section class="py-5" id="test-parameters" style="background:#f8fafc; border-top:1px solid #e2e8f0; border-bottom:1px solid #e2e8f0;">
-    <div class="container py-4">
-        <div class="section-title text-center mb-4">
-            <span class="badge px-3 py-2 mb-2 rounded-pill text-uppercase" style="background: var(--theme-subtle); color: var(--theme-primary); font-weight:700; font-size:12px; letter-spacing:1px;">
+    <div class="container-fluid px-3 px-lg-5 py-3">
+        <div class="section-title text-center mb-4 wow fadeInUp" data-wow-delay=".1s">
+            <span class="badge px-3 py-1.5 rounded-pill font-monospace fw-bold text-uppercase mb-2"
+                style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 12px; letter-spacing: 1px;">
                 Standard Parameters
             </span>
-            <h2 class="fw-bold text-dark" style="font-family:'Oswald', sans-serif; font-size:32px; letter-spacing:0.5px;">
+            <h2 class="fw-bold text-dark text-uppercase" style="font-family:'Oswald', sans-serif; font-size: clamp(26px, 3.2vw, 36px);">
                 Routine &amp; Acceptance Test Parameters
             </h2>
-            <p class="text-muted mx-auto" style="max-width:700px; font-size:15px;">
+            <p class="text-muted mx-auto mb-0" style="max-width:720px; font-size:15px; line-height: 1.7;">
                 Physical, mechanical, and thermal aging parameters tested according to IS:3400, ASTM, and IRC:83 specifications.
             </p>
         </div>
@@ -270,55 +316,56 @@ include_once 'partials/header.php';
      4. In-House Testing Laboratory & Equipment
      ============================================================ -->
 <section class="py-5" id="lab-facilities" style="background:#ffffff;">
-    <div class="container py-4">
-        <div class="section-title text-center mb-5">
-            <span class="badge px-3 py-2 mb-2 rounded-pill text-uppercase" style="background: var(--theme-subtle); color: var(--theme-primary); font-weight:700; font-size:12px; letter-spacing:1px;">
+    <div class="container-fluid px-3 px-lg-5 py-3">
+        <div class="section-title text-center mb-5 wow fadeInUp" data-wow-delay=".1s">
+            <span class="badge px-3 py-1.5 rounded-pill font-monospace fw-bold text-uppercase mb-2"
+                style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 12px; letter-spacing: 1px;">
                 Laboratory Infrastructure
             </span>
-            <h2 class="fw-bold text-dark" style="font-family:'Oswald', sans-serif; font-size:32px; letter-spacing:0.5px;">
+            <h2 class="fw-bold text-dark text-uppercase" style="font-family:'Oswald', sans-serif; font-size: clamp(26px, 3.2vw, 36px);">
                 In-House Testing Equipment &amp; Facilities
             </h2>
-            <p class="text-muted mx-auto" style="max-width:700px; font-size:15px;">
+            <p class="text-muted mx-auto mb-0" style="max-width:720px; font-size:15px; line-height: 1.7;">
                 Our plant houses calibrated computerized testing machines ensuring complete verification prior to dispatch.
             </p>
         </div>
 
         <div class="row g-4">
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".1s">
                 <div class="lab-card shadow-sm h-100">
-                    <img src="assets/pp_data/Machine_Images/IMG20260913164426.jpg" alt="Tensile Testing Machine">
+                    <img src="assets/pp_data/Machine_Images/IMG20260913164426.jpg" alt="Universal Testing Machine (UTM)">
                     <div class="p-3">
-                        <h6 class="fw-bold text-dark mb-1">Universal Testing Machine (UTM)</h6>
+                        <h6 class="fw-bold text-dark mb-1" style="font-family: 'Oswald', sans-serif; font-size: 17px;">Universal Testing Machine (UTM)</h6>
                         <p class="small text-muted mb-0">Electronic UTM with extensometer for tensile strength and elongation at break testing.</p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".2s">
                 <div class="lab-card shadow-sm h-100">
-                    <img src="assets/pp_data/Machine_Images/IMG20260913164437.jpg" alt="Thermal Ageing Oven">
+                    <img src="assets/pp_data/Machine_Images/IMG20260913164437.jpg" alt="Accelerated Thermal Ageing Oven">
                     <div class="p-3">
-                        <h6 class="fw-bold text-dark mb-1">Accelerated Thermal Ageing Oven</h6>
+                        <h6 class="fw-bold text-dark mb-1" style="font-family: 'Oswald', sans-serif; font-size: 17px;">Accelerated Thermal Ageing Oven</h6>
                         <p class="small text-muted mb-0">Digital temperature-controlled circulating oven for 70°C / 72-hour thermal stability tests.</p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                 <div class="lab-card shadow-sm h-100">
-                    <img src="assets/pp_data/Machine_Images/IMG20260913162728.jpg" alt="Proof Load Rig">
+                    <img src="assets/pp_data/Machine_Images/IMG20260913162728.jpg" alt="Compressive Proof Load Frame">
                     <div class="p-3">
-                        <h6 class="fw-bold text-dark mb-1">Compressive Proof Load Frame</h6>
+                        <h6 class="fw-bold text-dark mb-1" style="font-family: 'Oswald', sans-serif; font-size: 17px;">Compressive Proof Load Frame</h6>
                         <p class="small text-muted mb-0">High-tonnage hydraulic test rig verifying 1.5x design vertical load without bulging failure.</p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".4s">
                 <div class="lab-card shadow-sm h-100">
-                    <img src="assets/pp_data/Machine_Images/IMG20260913162650.jpg" alt="Hardness Durometer">
+                    <img src="assets/pp_data/Machine_Images/IMG20260913162650.jpg" alt="Durometers & Thickness Gauges">
                     <div class="p-3">
-                        <h6 class="fw-bold text-dark mb-1">Durometers &amp; Thickness Gauges</h6>
+                        <h6 class="fw-bold text-dark mb-1" style="font-family: 'Oswald', sans-serif; font-size: 17px;">Durometers &amp; Thickness Gauges</h6>
                         <p class="small text-muted mb-0">Calibrated Shore-A durometers and digital micrometers for stage-wise dimensional control.</p>
                     </div>
                 </div>
@@ -326,7 +373,7 @@ include_once 'partials/header.php';
         </div>
 
         <!-- Third Party Inspection Support -->
-        <div class="mt-5 p-4 rounded-4 border shadow-sm" style="background:#f8fafc;">
+        <div class="mt-5 p-4 rounded-4 border shadow-sm wow fadeInUp" data-wow-delay=".2s" style="background:#f8fafc;">
             <div class="row align-items-center">
                 <div class="col-lg-8">
                     <h5 class="fw-bold text-dark mb-2" style="font-family:'Oswald', sans-serif; font-size:20px;">
@@ -337,8 +384,9 @@ include_once 'partials/header.php';
                     </p>
                 </div>
                 <div class="col-lg-4 text-lg-end mt-3 mt-lg-0">
-                    <a href="assets/pp_data/Page 01/Credential_Polymer_Products.pdf" target="_blank" class="btn btn-primary rounded-pill px-4 py-2 fw-bold text-uppercase" style="background:var(--theme-primary); border-color:var(--theme-primary); font-size:12px; letter-spacing:0.5px;">
-                        <i class="fa-solid fa-file-pdf me-2"></i>Download QA Credentials
+                    <a href="contact.php" class="btn btn-primary rounded-pill px-4 py-2.5 fw-bold text-uppercase shadow-sm"
+                        style="background:var(--theme-primary); border-color:var(--theme-primary); font-size:12.5px; letter-spacing:0.5px;">
+                        <i class="fa-solid fa-phone me-2"></i>Request Test Witness
                     </a>
                 </div>
             </div>
@@ -346,5 +394,139 @@ include_once 'partials/header.php';
 
     </div>
 </section>
+
+<!-- ============================================================
+     5. Document Viewer Modal
+     ============================================================ -->
+<div class="modal fade" id="testingDocModal" tabindex="-1" aria-labelledby="testingDocModalLabel" aria-hidden="true" style="z-index: 99999;">
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content border-0 shadow-lg overflow-hidden" style="border-radius: 16px;">
+            
+            <div class="modal-header px-4 py-3" style="background: linear-gradient(135deg, #091424 0%, #152744 100%); border-bottom: 2px solid var(--theme-primary);">
+                <div class="d-flex align-items-center gap-3">
+                    <div class="rounded-circle p-2 d-flex align-items-center justify-content-center" style="background: rgba(2, 132, 199, 0.2); width: 42px; height: 42px;">
+                        <i id="testingDocModalIcon" class="fa-solid fa-file-pdf text-white fs-5"></i>
+                    </div>
+                    <div>
+                        <h5 class="modal-title fw-bold text-white mb-0" id="testingDocModalLabel">Quality Assurance Plan</h5>
+                        <small class="text-white-50" style="font-size: 12px;">Verified Quality &amp; Testing Plan &bull; Polymer Products</small>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center gap-2">
+                    <button type="button" class="btn-close btn-close-white ms-2" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+            </div>
+
+            <div class="modal-body p-0 position-relative" style="background: #0f172a; min-height: 540px;">
+                <div id="testingDocModalLoader" class="position-absolute top-50 start-50 translate-middle text-center py-5">
+                    <div class="spinner-border text-primary mb-2" role="status" style="width: 3rem; height: 3rem;">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                    <p class="text-white-50 small mb-0">Loading QAP document preview...</p>
+                </div>
+
+                <iframe id="testingDocModalIframe" src="" style="width: 100%; height: 75vh; border: none; display: none; background: #fff;" allowfullscreen></iframe>
+            </div>
+
+            <div class="modal-footer bg-white px-4 py-3 border-top d-flex justify-content-between align-items-center">
+                <span class="text-muted small">
+                    <i class="fa-solid fa-shield-check text-success me-1"></i> Official Approved QAP Document &bull; Polymer Products (Estd. 1978)
+                </span>
+                <button type="button" class="btn btn-dark btn-sm rounded-pill px-4 fw-bold" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Script with Smooth Scroll Unlock -->
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const docModalEl = document.getElementById('testingDocModal');
+    if (!docModalEl) return;
+
+    const modalTitle = document.getElementById('testingDocModalLabel');
+    const modalIframe = document.getElementById('testingDocModalIframe');
+    const modalLoader = document.getElementById('testingDocModalLoader');
+
+    function getModalInstance() {
+        if (typeof bootstrap !== 'undefined' && bootstrap.Modal) {
+            return bootstrap.Modal.getOrCreateInstance(docModalEl);
+        }
+        return null;
+    }
+
+    function unlockPageScroll() {
+        modalIframe.src = '';
+        modalLoader.style.display = 'none';
+        modalIframe.style.display = 'none';
+
+        document.body.classList.remove('modal-open');
+        document.body.style.removeProperty('overflow');
+        document.body.style.removeProperty('overflow-y');
+        document.body.style.removeProperty('padding-right');
+        document.documentElement.style.removeProperty('overflow');
+        document.documentElement.style.removeProperty('overflow-y');
+
+        document.querySelectorAll('.modal-backdrop').forEach(function (backdrop) {
+            backdrop.remove();
+        });
+    }
+
+    document.querySelectorAll('.open-testing-doc-modal').forEach(function (btn) {
+        btn.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            const url = this.getAttribute('data-doc-url');
+            const title = this.getAttribute('data-doc-title') || 'Quality Assurance Plan';
+
+            if (!url) return;
+
+            modalTitle.textContent = title;
+            modalLoader.style.display = 'block';
+            modalIframe.style.display = 'none';
+            modalIframe.src = '';
+
+            const cleanUrl = url.split('#')[0];
+            const pdfViewerUrl = cleanUrl + '#toolbar=0&navpanes=0&scrollbar=0';
+
+            modalIframe.onload = function () {
+                modalLoader.style.display = 'none';
+                modalIframe.style.display = 'block';
+            };
+            modalIframe.src = pdfViewerUrl;
+            
+            setTimeout(function () {
+                modalLoader.style.display = 'none';
+                modalIframe.style.display = 'block';
+            }, 600);
+
+            const bsModal = getModalInstance();
+            if (bsModal) {
+                bsModal.show();
+            } else if (typeof $ !== 'undefined') {
+                $(docModalEl).modal('show');
+            }
+        });
+    });
+
+    // Close buttons directly
+    docModalEl.querySelectorAll('[data-bs-dismiss="modal"], [data-dismiss="modal"], .btn-close').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+            const bsModal = getModalInstance();
+            if (bsModal) {
+                bsModal.hide();
+            } else if (typeof $ !== 'undefined') {
+                $(docModalEl).modal('hide');
+            }
+            setTimeout(unlockPageScroll, 100);
+        });
+    });
+
+    docModalEl.addEventListener('hidden.bs.modal', unlockPageScroll);
+    docModalEl.addEventListener('hide.bs.modal', function () {
+        setTimeout(unlockPageScroll, 150);
+    });
+});
+</script>
 
 <?php include_once 'partials/footer.php'; ?>

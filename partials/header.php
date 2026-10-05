@@ -7,7 +7,7 @@ if (!isset($page_title) || empty($page_title)) {
     $page_title = "Polymer Products - Leading Manufacturer of Elastomeric Bridge Bearings & Seismic Solutions";
 }
 if (!isset($meta_description) || empty($meta_description)) {
-    $meta_description = "Manufacturer and supplier of Elastomeric Bearings and Seismic Pads for bridges, highways, Indian Railways, and Metro infrastructure. ISO 9001:2027 & RDSO Approved in Nashik, Maharashtra.";
+    $meta_description = "Manufacturer and supplier of Elastomeric Bearings and Seismic Pads for bridges, highways, Indian Railways, and Metro infrastructure. ISO 9001:2027 & RDSO Approved. Manufacturing Unit: H-32, M.I.D.C. Satpur, Nashik-422007 Maharashtra, India. Established in 1978.";
 }
 $current_page = basename($_SERVER['PHP_SELF']);
 ?>
@@ -76,7 +76,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
                 <div class="row align-items-center g-2">
                     <div class="col-lg-6 col-md-6 text-center text-md-start">
                         <p class="mb-0 text-white small" style="font-size:13px; font-family:'Saira-Medium', sans-serif;">
-                            <i class="fa-solid fa-location-dot text-white me-2"></i>Nashik Manufacturing Facility, Maharashtra, India
+                            <i class="fa-solid fa-location-dot text-white me-2"></i>H-32, M.I.D.C. SATPUR, NASHIK-422007 Maharashtra, India
                         </p>
                     </div>
                     <div class="col-lg-6 col-md-6 text-center text-md-end">
@@ -88,7 +88,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
                             </li>
                             <li class="list-inline-item d-none d-sm-inline-block">
                                 <i class="fa-solid fa-envelope text-white me-1"></i>
-                                <a href="mailto:qc@polymerproducts.org" class="text-white text-decoration-none">qc@polymerproducts.org</a>
+                                <a href="mailto:sales@polymerproducts.org" class="text-white text-decoration-none">sales@polymerproducts.org</a>
                             </li>
                         </ul>
                     </div>
@@ -129,7 +129,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
                                             <li><a href="about.php">Company Overview</a></li>
                                             <li><a href="certifications.php">Statutory & Quality Approvals</a></li>
                                              
-                                            <li><a href="team.php">Our Technical Team</a></li>
+                                            <!-- <li><a href="team.php">Our Technical Team</a></li> -->
                                             <li><a href="about.php#bearing-types">Bearing Types & Applications</a></li>
                                         </ul>
                                     </li>
@@ -257,11 +257,13 @@ $current_page = basename($_SERVER['PHP_SELF']);
 
             <!-- Offcanvas Plant Quick Contact Info -->
             <div class="ht-offcanvas-info p-3 rounded-3" style="background: #f8fafc; border: 1px solid #e2e8f0;">
-                <h6 class="fw-bold text-dark mb-2" style="font-family: 'Saira-Medium', sans-serif; font-size: 14px;">
-                    <i class="fa-solid fa-industry text-primary me-2"></i>Nashik Manufacturing Plant
+                <h6 class="fw-bold text-dark mb-1" style="font-family: 'Saira-Medium', sans-serif; font-size: 14px;">
+                    <i class="fa-solid fa-industry text-primary me-2"></i>Manufacturing Unit
                 </h6>
                 <p class="small text-muted mb-2" style="font-size: 12.5px; line-height: 1.5;">
-                    Industrial Estate, Nashik, Maharashtra, India.
+                    <strong>H-32, M.I.D.C. SATPUR</strong><br>
+                    NASHIK-422007 Maharashtra, India<br>
+                    <span class="text-dark fw-semibold">Year of Establishment: 1978</span>
                 </p>
                 <div class="d-flex flex-column gap-1 small" style="font-size: 12.5px;">
                     <div>
@@ -270,7 +272,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
                     </div>
                     <div>
                         <i class="fa-solid fa-envelope text-primary me-2"></i>
-                        <a href="mailto:qc@polymerproducts.org" class="text-muted text-decoration-none">qc@polymerproducts.org</a>
+                        <a href="mailto:sales@polymerproducts.org" class="text-muted text-decoration-none">sales@polymerproducts.org</a>
                     </div>
                 </div>
             </div>

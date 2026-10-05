@@ -22,8 +22,8 @@
                     <h4 class="text-white mb-0 fw-bold"
                         style="font-family:'Oswald', sans-serif; letter-spacing: 0.5px; font-size: 22px;">POLYMER
                         PRODUCTS</h4>
-                    <p class="mb-0 small" style="color: #c2cad6ff; font-size: 13px;">Leading Manufacturer of Elastomeric
-                        Bridge Bearings &amp; Seismic Solutions</p>
+                    <p class="mb-0 small" style="color: #c2cad6ff; font-size: 13px;">Leading Manufacturer of  
+                        Bridge Bearings   </p>
                 </div>
             </div>
 
@@ -56,6 +56,8 @@
                     </p>
 
                     <div class="d-flex flex-wrap gap-2 mt-3 mb-3">
+                        <span class="badge bg-dark border border-secondary text-light px-2 py-1"
+                            style="font-size: 11px;">Estd. 1978</span>
                         <span class="badge bg-dark border border-secondary text-light px-2 py-1"
                             style="font-size: 11px;">ISO 9001:2027</span>
                         <span class="badge bg-dark border border-secondary text-light px-2 py-1"
@@ -137,8 +139,9 @@
                             <i class="fa-solid fa-location-dot" style="font-size: 14px;"></i>
                         </div>
                         <div style="font-size: 14px; color: #cbd5e1; line-height: 1.6;">
-                            <span class="d-block fw-semibold text-white">Manufacturing Plant:</span>
-                            Nashik Facility, Maharashtra, India
+                            <span class="d-block fw-semibold text-white">Manufacturing Unit:</span>
+                            H-32, M.I.D.C. SATPUR<br>
+                            NASHIK-422007 Maharashtra, India
                         </div>
                     </div>
 
@@ -162,9 +165,9 @@
                             <i class="fa-solid fa-envelope" style="font-size: 14px;"></i>
                         </div>
                         <div style="font-size: 14px; color: #cbd5e1; line-height: 1.6;">
-                            <span class="d-block fw-semibold text-white">Technical Inquiries:</span>
-                            <a href="mailto:qc@polymerproducts.org"
-                                class="text-decoration-none text-light d-block hover-blue">qc@polymerproducts.org</a>
+                            <span class="d-block fw-semibold text-white">Technical &amp; Sales Inquiries:</span>
+                            <a href="mailto:sales@polymerproducts.org"
+                                class="text-decoration-none text-light d-block hover-blue">sales@polymerproducts.org</a>
                         </div>
                     </div>
                 </div>
@@ -175,10 +178,9 @@
         <div class="footer-bottom-bar pt-4 pb-2 border-top d-flex flex-wrap align-items-center justify-content-between gap-3"
             style="border-color: rgba(255, 255, 255, 0.08) !important; font-size: 13px; color: #64748b;">
             <p class="mb-0">
-                &copy; <?php echo date('Y'); ?> <strong class="text-light">Polymer Products</strong> (Dynamic Prestress Group). Engineered
-                in Nashik, Maharashtra.
-            </p>
-            <div class="d-flex align-items-center gap-4">
+                &copy; <?php echo date('Y'); ?> <strong class="text-secondary">Polymer Products</strong> (Dynamic Prestress Group). Estd. 1978 &bull; H-32, M.I.D.C. SATPUR, NASHIK-422007 Maharashtra, India
+            </p> 
+            <div class="d-flex align-items-center gap-4"> 
                 <a href="experience.php" class="text-decoration-none text-muted-link">Track Record</a>
                 <a href="process.php" class="text-decoration-none text-muted-link">Testing Standards</a>
                 <a href="contact.php" class="text-decoration-none text-muted-link">Contact Desk</a>

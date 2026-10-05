@@ -40,10 +40,10 @@ include_once 'partials/header.php';
                                 effectively.
                             </p>
 
-                            <a class="tl" href="tel:1234565678"><i class="fa-solid fa-phone"></i> 123-456-5678</a>
-                            <a class="tl" href="mailto:lindaf.collins@example.com"><i
+                            <a class="tl" href="tel:8975766459"><i class="fa-solid fa-phone"></i> +91 8975766459</a>
+                            <a class="tl" href="mailto:sales@polymerproducts.org"><i
                                         class="fa-solid fa-envelope"></i>
-                                lindaf.collins@example.com
+                                sales@polymerproducts.org
                             </a>
 
                             <ul class="team-social">
