@@ -181,14 +181,14 @@ include_once 'partials/header.php';
             <div class="col-lg-6 wow fadeInLeft" data-wow-delay=".2s">
                 <div class="prozen-about-img-wrapper position-relative me-lg-4 pb-4">
                     <!-- Prozen Blue Accent Frame -->
-                    <div class="prozen-accent-frame position-absolute"
-                        style="top: -18px; left: -18px; width: 70%; height: 70%; background: #e0f2fe !important; border-top-left-radius: 36px; z-index: 1; box-shadow: 0 10px 25px rgba(2, 132, 199, 0.18) !important;">
-                    </div>
+                   <div class="prozen-accent-frame position-absolute"
+     style="top: -18px; left: -18px; width: 70%; height: 70%;  border: 2px solid var(--theme-primary); background: #e0f2fe !important; border-top-left-radius: 36px; z-index: 1; box-shadow: 0 10px 25px rgba(2, 132, 199, 0.18) !important;">
+</div>
 
                     <!-- Main Image Card -->
                     <div class="position-relative overflow-hidden shadow-lg"
                         style="border-radius:24px; z-index:2; background:#fff;">
-                        <img src="assets/img/img/banner/dron-shoot.webp"
+                        <img src="assets/img/img/banner/about-image.png.webp" 
                             alt="Manufacturing Plant Nashik" class="img-fluid w-100"
                             style="height:540px; object-fit:cover; border-radius:24px;">
                     </div>
@@ -390,11 +390,11 @@ include_once 'partials/header.php';
 
 <!-- Manufacturing Process Banner -->
 <section class="py-5 text-white position-relative"
-    style="background: linear-gradient(135deg, rgba(8, 20, 38, 0.58) 0%, rgba(10, 25, 47, 0.48) 45%, rgba(5, 12, 24, 0.60) 60%), url('assets/img/img/banner/birdge-10.webp') center center / cover no-repeat; padding: 85px 0;">
+    style="background: linear-gradient(135deg, rgba(8, 20, 38, 0.58) 0%, rgba(10, 25, 47, 0.48) 45%, rgba(5, 12, 24, 0.60) 60%), url('assets/img/img/banner/birdge-13.webp') center center / cover no-repeat; padding: 85px 0;">
     <div class="container-fluid px-3 px-lg-5 py-3">
         <div class="text-center mb-5">
             <span class="d-inline-block text-uppercase fw-bold mb-2"
-                style="color: var(--theme-light); font-size: 13px; letter-spacing: 2px;">Working Process</span>
+                style="color: #38b1e0ff; font-size: 13px; letter-spacing: 2px;">Working Process</span>
             <h2 class="fw-bold text-white text-uppercase mx-auto mb-3"
                 style="font-family: 'Saira-Medium', sans-serif; font-size: 38px; letter-spacing: 0.5px; max-width: 850px; line-height: 1.2; text-shadow: 0 3px 12px rgba(0,0,0,0.6);">
                 Comprehensive Manufacturing Process &amp; Quality Control
@@ -537,21 +537,15 @@ include_once 'partials/header.php';
                             <i class="fa-solid fa-road me-1"></i> NHAI & Expressways
                         </span>
                     </div>
-                    <div class="card-body p-4 d-flex flex-column justify-content-between">
-                        <div>
-                            <h4 class="card-title fw-bold text-dark mb-2"
-                                style="font-family:'Oswald', sans-serif; font-size:22px;">NHAI & Highway Bridges
-                            </h4>
-                            <p class="card-text text-muted small mb-4" style="line-height:1.7;">
-                                Certified high-tonnage elastomeric bearing supplies for National Highways Authority
-                                of India expressways, 4/6-lane highway bridge expansions, elevated corridors, and
-                                grade separators.
-                            </p>
-                        </div>
-                        <a href="application-codes.php"
-                            class="btn btn-outline-primary btn-sm rounded-pill fw-bold py-2 px-3 align-self-start">
-                            View NHAI Credentials <i class="fa-solid fa-arrow-right ms-1"></i>
-                        </a>
+                    <div class="card-body p-4">
+                        <h4 class="card-title fw-bold text-dark mb-2"
+                            style="font-family:'Oswald', sans-serif; font-size:22px;">NHAI & Highway Bridges
+                        </h4>
+                        <p class="card-text text-muted small mb-0" style="line-height:1.7;">
+                            Certified high-tonnage elastomeric bearing supplies for National Highways Authority
+                            of India expressways, 4/6-lane highway bridge expansions, elevated corridors, and
+                            grade separators.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -568,21 +562,15 @@ include_once 'partials/header.php';
                             <i class="fa-solid fa-train me-1"></i> RDSO Compliant
                         </span>
                     </div>
-                    <div class="card-body p-4 d-flex flex-column justify-content-between">
-                        <div>
-                            <h4 class="card-title fw-bold text-dark mb-2"
-                                style="font-family:'Oswald', sans-serif; font-size:22px;">Indian Railways & ROBs
-                            </h4>
-                            <p class="card-text text-muted small mb-4" style="line-height:1.7;">
-                                Approved bearing supplies for Konkan Railways, Railway Over Bridges (ROBs), major
-                                river bridge girders, and track slab vibration dampeners adhering to strict RDSO
-                                quality guidelines.
-                            </p>
-                        </div>
-                        <a href="experience.php"
-                            class="btn btn-outline-primary btn-sm rounded-pill fw-bold py-2 px-3 align-self-start">
-                            View Railway Approvals <i class="fa-solid fa-arrow-right ms-1"></i>
-                        </a>
+                    <div class="card-body p-4">
+                        <h4 class="card-title fw-bold text-dark mb-2"
+                            style="font-family:'Oswald', sans-serif; font-size:22px;">Indian Railways & ROBs
+                        </h4>
+                        <p class="card-text text-muted small mb-0" style="line-height:1.7;">
+                            Approved bearing supplies for Konkan Railways, Railway Over Bridges (ROBs), major
+                            river bridge girders, and track slab vibration dampeners adhering to strict RDSO
+                            quality guidelines.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -600,23 +588,26 @@ include_once 'partials/header.php';
                             <i class="fa-solid fa-train-subway me-1"></i> Metro Corridors
                         </span>
                     </div>
-                    <div class="card-body p-4 d-flex flex-column justify-content-between">
-                        <div>
-                            <h4 class="card-title fw-bold text-dark mb-2"
-                                style="font-family:'Oswald', sans-serif; font-size:22px;">Metro Rail Systems</h4>
-                            <p class="card-text text-muted small mb-4" style="line-height:1.7;">
-                                Specialized elastomeric bearings and seismic vibration isolation pads deployed in
-                                Mumbai Metro Line 4 (MML4), Delhi Metro, and major urban elevated mass transit
-                                corridors.
-                            </p>
-                        </div>
-                        <a href="experience.php"
-                            class="btn btn-outline-primary btn-sm rounded-pill fw-bold py-2 px-3 align-self-start">
-                            View Metro Projects <i class="fa-solid fa-arrow-right ms-1"></i>
-                        </a>
+                    <div class="card-body p-4">
+                        <h4 class="card-title fw-bold text-dark mb-2"
+                            style="font-family:'Oswald', sans-serif; font-size:22px;">Metro Rail Systems</h4>
+                        <p class="card-text text-muted small mb-0" style="line-height:1.7;">
+                            Specialized elastomeric bearings and seismic vibration isolation pads deployed in
+                            Mumbai Metro Line 4 (MML4), Delhi Metro, and major urban elevated mass transit
+                            corridors.
+                        </p>
                     </div>
                 </div>
             </div>
+        </div>
+
+        <!-- Single Common Button for All Experience / Projects -->
+        <div class="text-center mt-5 pt-2">
+            <a href="experience.php" class="btn btn-primary btn-lg rounded-pill px-5 py-3 fw-bold shadow text-uppercase saira-medium"
+                style="font-size: 14px; letter-spacing: 0.5px; background: var(--theme-primary); border-color: var(--theme-primary); transition: all 0.3s ease;">
+                <span>View Full Infrastructure Projects &amp; Approvals</span>
+                <i class="fa-solid fa-arrow-right ms-2"></i>
+            </a>
         </div>
     </div>
 </section>

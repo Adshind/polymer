@@ -28,11 +28,11 @@
             </div>
 
             <div class="d-flex align-items-center gap-3 flex-wrap">
-                <span class="badge px-3 py-2 rounded-pill fw-semibold"
+                <!-- <span class="badge px-3 py-2 rounded-pill fw-semibold"
                     style="background: var(--theme-subtle); border: 1px solid var(--theme-glow); color: var(--theme-lighter); font-size: 13px;">
                     <i class="fa-solid fa-building-shield me-2 text-primary"></i> Dynamic Prestress (I)
                     Pvt. Ltd.
-                </span>
+                </span> -->
                 <a href="contact.php" class="btn btn-primary btn-sm rounded-pill px-4 py-2 fw-bold text-uppercase"
                     style="background:var(--theme-primary); border-color:var(--theme-primary); font-size:12px; letter-spacing:0.5px;">
                     Request Technical RFQ <i class="fa-solid fa-arrow-right ms-1"></i>
@@ -189,7 +189,7 @@
         <div class="footer-bottom-bar pt-4 pb-2 border-top d-flex flex-wrap align-items-center justify-content-between gap-3"
             style="border-color: rgba(255, 255, 255, 0.08) !important; font-size: 15px; color: #64748b;">
             <p class="mb-0">
-                &copy; <?php echo date('Y'); ?> <strong class="text-white"> PolymerProducts</strong> (DynamicGroup).EngineeredinNashik,Maharashtra
+                &copy; <?php echo date('Y'); ?> <strong class="text-white"> PolymerProducts</strong> (DynamicGroup).Engineered In Nashik, Maharashtra.
             </p> 
             <div class="d-flex align-items-center gap-4"> 
                 <a href="experience.php" class="text-decoration-none text-muted-link">Track Record</a>

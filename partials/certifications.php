@@ -1,5 +1,6 @@
 <!-- ============================================================
-     Certifications, Registrations & Approvals Sequence Component
+     
+rovals Sequence Component
      ============================================================ -->
 <section class="py-5 certifications-section position-relative" style="background:#f8fafc; border-top:1px solid #e2e8f0; border-bottom:1px solid #e2e8f0;">
     <div class="container-fluid px-3 px-lg-5 py-3">
@@ -9,7 +10,7 @@
                 <i class="fa-solid fa-shield-halved me-1.5"></i> Statutory &amp; Quality Approvals
             </span>
             <h2 class="fw-bold text-dark text-uppercase" style="font-family: 'Saira-Medium', 'Oswald', sans-serif; font-size: clamp(28px, 3.5vw, 42px); letter-spacing: -0.5px;">
-                Certifications, Registrations &amp; Approvals Sequence
+                Certifications, Registrations &amp; Approvals  
             </h2>
             <p class="text-muted mx-auto" style="max-width: 780px; font-size: 15px; line-height: 1.8;">
                 Our complete statutory certifications, industrial licenses, and technical quality approvals structured in strict regulatory compliance sequence for bridge and civil infrastructure applications.
@@ -208,8 +209,7 @@
         <div class="text-center mt-5 pt-2 wow fadeInUp" data-wow-delay=".5s">
             <a href="certifications.php" class="btn px-4 py-3 rounded-pill fw-bold text-white text-uppercase shadow"
                 style="background: var(--theme-primary); font-size: 13px; letter-spacing: 0.8px; transition: all 0.3s ease;">
-                <i class="fa-solid fa-folder-open me-2"></i> View All Statutory &amp; NHAI Client Approval Letters (18+ Documents)
-            </a>
+                <i class="fa-solid fa-folder-open me-2"></i> View All Statutory & NHAI Approvals            </a>
         </div>
     </div>
 </section>

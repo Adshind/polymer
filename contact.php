@@ -152,11 +152,11 @@ include_once 'partials/header.php';
                             style="background: var(--theme-primary); font-family: 'Saira-Medium', sans-serif !important; transition: all 0.3s ease;">
                             <i class="fa-brands fa-whatsapp fs-5 me-2"></i> WhatsApp Inquiry
                         </a>
-                        <a href="assets/pp_data/Page 01/Credential_Polymer_Products.pdf" target="_blank"
+                        <!-- <a href="assets/pp_data/Page 01/Credential_Polymer_Products.pdf" target="_blank"
                             class="btn btn-outline-primary py-2 px-3 rounded-pill fw-bold d-flex align-items-center justify-content-center saira-medium"
                             style="border-color: var(--theme-primary); color: var(--theme-primary); font-family: 'Saira-Medium', sans-serif !important;">
                             <i class="fa-solid fa-file-pdf me-2"></i> Download Credentials Document
-                        </a>
+                        </a> -->
                     </div>
                 </div>
             </div>
@@ -211,7 +211,7 @@ include_once 'partials/header.php';
                             <div class="col-md-6">
                                 <label class="form-label small fw-bold text-dark mb-1 saira-medium">Project Sector</label>
                                 <div class="position-relative">
-                                    <select id="contactSector" class="form-select contact-form-select saira-medium">
+                                    <select id="contactSector" name="contactSector" class="form-select contact-form-select saira-medium no-nice-select">
                                         <option value="NHAI / Highway Bridge" selected>NHAI / Highway Bridge</option>
                                         <option value="Indian Railways / ROB">Indian Railways / ROB</option>
                                         <option value="Metro Rail Viaduct">Metro Rail Viaduct</option>
@@ -223,7 +223,7 @@ include_once 'partials/header.php';
                             <div class="col-md-6">
                                 <label class="form-label small fw-bold text-dark mb-1 saira-medium">Product Type Needed</label>
                                 <div class="position-relative">
-                                    <select id="contactProduct" class="form-select contact-form-select saira-medium">
+                                    <select id="contactProduct" name="contactProduct" class="form-select contact-form-select saira-medium no-nice-select">
                                         <option value="Laminated Elastomeric Bearing (IRC:83)" selected>Laminated Elastomeric Bearing (IRC:83)</option>
                                         <option value="Seismic Isolation Pad">Seismic Isolation Pad</option>
                                         <option value="PTFE Sliding Bearing">PTFE Sliding Bearing</option>
@@ -364,6 +364,14 @@ include_once 'partials/header.php';
         background: #ffffff !important;
     }
 
+    /* Ensure no duplicate nice-select wrapper appears in contact form */
+    .contact-form-select + .nice-select,
+    .position-relative .nice-select,
+    #polymerContactForm .nice-select {
+        display: none !important;
+        visibility: hidden !important;
+    }
+
     #contactSubmitBtn:hover {
         background: var(--theme-hover) !important;
         border-color: var(--theme-hover) !important;
@@ -374,6 +382,10 @@ include_once 'partials/header.php';
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
+    // If nice-select was initialized by any external bundle, destroy it for contact form selects
+    if (window.jQuery && typeof jQuery.fn.niceSelect === 'function') {
+        jQuery('.contact-form-select').niceSelect('destroy');
+    }
     const form = document.getElementById('polymerContactForm');
     const submitBtn = document.getElementById('contactSubmitBtn');
     const btnText = document.getElementById('contactBtnText');

@@ -122,7 +122,7 @@
 
     //>> Nice Select Start <<//
     if ($.fn.niceSelect) {
-      $('select').niceSelect();
+      $('select:not(.no-nice-select):not(.contact-form-select)').niceSelect();
     }
 
     // Brand Slider
