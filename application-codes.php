@@ -52,10 +52,10 @@ include_once 'partials/header.php';
      2. Application Codes & Standards (IRC:83-2018 Part-II) Section
      Side-by-Side Image + Technical Content Structure (Unified Theme Color)
      ============================================================ -->
-<section class="py-5" style="background: #ffffff; border-bottom: 1px solid #e2e8f0;">
+<!-- <section class="py-5" style="background: #ffffff; border-bottom: 1px solid #e2e8f0;">
     <div class="container-fluid px-3 px-lg-5 py-4">
 
-        <!-- Section Header -->
+        
         <div class="text-center mb-5 wow fadeInUp" data-wow-delay=".1s">
             <div class="d-inline-flex align-items-center gap-2 px-3.5 py-1.5 rounded-pill mb-2"
                 style="background: var(--theme-subtle); border: 1.5px solid var(--theme-primary); color: var(--theme-primary); font-weight: 700; font-size: 13px; letter-spacing: 0.5px;">
@@ -69,14 +69,14 @@ include_once 'partials/header.php';
             </p>
         </div>
 
-        <!-- Vertical Stack of Side-by-Side Products -->
+       
         <div class="d-flex flex-column gap-5">
 
-            <!-- Item 1: Type A -->
+             
             <div class="card border-0 rounded-4 shadow-sm overflow-hidden bearing-side-card wow fadeInUp" data-wow-delay=".1s"
                 style="background: #ffffff; border: 1px solid #e2e8f0 !important;">
                 <div class="row g-0 align-items-stretch">
-                    <!-- Left: Product Image Side -->
+                     
                     <div class="col-lg-5 col-xl-4 p-4 p-lg-5 d-flex flex-column justify-content-center align-items-center text-center position-relative product-img-col"
                         style="background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%); border-right: 1px solid #e2e8f0;">
                         <span class="position-absolute top-0 start-0 m-3 badge rounded-pill fw-bold text-uppercase"
@@ -95,7 +95,7 @@ include_once 'partials/header.php';
                         </div>
                     </div>
 
-                    <!-- Right: Technical Data Side -->
+                     
                     <div class="col-lg-7 col-xl-8 p-4 p-lg-5 d-flex flex-column justify-content-between">
                         <div>
                             <div class="d-flex align-items-center justify-content-between flex-wrap gap-2 mb-2">
@@ -168,11 +168,11 @@ include_once 'partials/header.php';
                 </div>
             </div>
 
-            <!-- Item 2: Type B -->
+         
             <div class="card border-0 rounded-4 shadow-sm overflow-hidden bearing-side-card wow fadeInUp" data-wow-delay=".1s"
                 style="background: #ffffff; border: 1px solid #e2e8f0 !important;">
                 <div class="row g-0 align-items-stretch">
-                    <!-- Left: Product Image Side -->
+                
                     <div class="col-lg-5 col-xl-4 p-4 p-lg-5 d-flex flex-column justify-content-center align-items-center text-center position-relative product-img-col"
                         style="background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%); border-right: 1px solid #e2e8f0;">
                         <span class="position-absolute top-0 start-0 m-3 badge rounded-pill fw-bold text-uppercase"
@@ -191,7 +191,7 @@ include_once 'partials/header.php';
                         </div>
                     </div>
 
-                    <!-- Right: Technical Data Side -->
+               
                     <div class="col-lg-7 col-xl-8 p-4 p-lg-5 d-flex flex-column justify-content-between">
                         <div>
                             <div class="d-flex align-items-center justify-content-between flex-wrap gap-2 mb-2">
@@ -270,11 +270,11 @@ include_once 'partials/header.php';
                 </div>
             </div>
 
-            <!-- Item 3: Type C -->
+ 
             <div class="card border-0 rounded-4 shadow-sm overflow-hidden bearing-side-card wow fadeInUp" data-wow-delay=".1s"
                 style="background: #ffffff; border: 1px solid #e2e8f0 !important;">
                 <div class="row g-0 align-items-stretch">
-                    <!-- Left: Product Image Side -->
+                  
                     <div class="col-lg-5 col-xl-4 p-4 p-lg-5 d-flex flex-column justify-content-center align-items-center text-center position-relative product-img-col"
                         style="background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%); border-right: 1px solid #e2e8f0;">
                         <span class="position-absolute top-0 start-0 m-3 badge rounded-pill fw-bold text-uppercase"
@@ -293,7 +293,7 @@ include_once 'partials/header.php';
                         </div>
                     </div>
 
-                    <!-- Right: Technical Data Side -->
+          
                     <div class="col-lg-7 col-xl-8 p-4 p-lg-5 d-flex flex-column justify-content-between">
                         <div>
                             <div class="d-flex align-items-center justify-content-between flex-wrap gap-2 mb-2">
@@ -366,11 +366,11 @@ include_once 'partials/header.php';
                 </div>
             </div>
 
-            <!-- Item 4: Type F -->
+ 
             <div class="card border-0 rounded-4 shadow-sm overflow-hidden bearing-side-card wow fadeInUp" data-wow-delay=".1s"
                 style="background: #ffffff; border: 1px solid #e2e8f0 !important;">
                 <div class="row g-0 align-items-stretch">
-                    <!-- Left: Product Image Side -->
+                     
                     <div class="col-lg-5 col-xl-4 p-4 p-lg-5 d-flex flex-column justify-content-center align-items-center text-center position-relative product-img-col"
                         style="background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%); border-right: 1px solid #e2e8f0;">
                         <span class="position-absolute top-0 start-0 m-3 badge rounded-pill fw-bold text-uppercase"
@@ -389,7 +389,7 @@ include_once 'partials/header.php';
                         </div>
                     </div>
 
-                    <!-- Right: Technical Data Side -->
+                   
                     <div class="col-lg-7 col-xl-8 p-4 p-lg-5 d-flex flex-column justify-content-between">
                         <div>
                             <div class="d-flex align-items-center justify-content-between flex-wrap gap-2 mb-2">
@@ -464,7 +464,7 @@ include_once 'partials/header.php';
 
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- ============================================================
      3. Standards & Codes Grid Section (8 Verified PDFs)
@@ -479,7 +479,7 @@ include_once 'partials/header.php';
                 Verified PDF Specifications
             </span>
             <h2 class="fw-bold text-dark text-uppercase mt-2" style="font-family: 'Oswald', sans-serif; font-size: clamp(26px, 3.2vw, 38px); letter-spacing: 0.5px;">
-                List of 8 Applicable Standards &amp; Technical PDFs
+                 Applicable codes &amp; Standards
             </h2>
             <p class="text-muted mx-auto mb-0" style="max-width: 720px; font-size: 15px; line-height: 1.7;">
                 Click on any standard below to directly open or preview the complete engineering specification PDF document.
