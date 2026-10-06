@@ -1121,10 +1121,7 @@ include_once 'partials/header.php';
                         <small class="text-light text-opacity-75" style="font-size: 12px;">Official Plant Inventory &bull; Polymer Products, Nashik</small>
                     </div>
                 </div>
-                <div class="d-flex align-items-center gap-2">
-                    <button type="button" class="btn btn-sm btn-outline-light rounded-pill px-3 py-1" onclick="window.print();">
-                        <i class="fa-solid fa-print me-1"></i> Print
-                    </button>
+                <div>
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
             </div>
