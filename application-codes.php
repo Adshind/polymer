@@ -283,7 +283,7 @@ include_once 'partials/header.php';
                         </span>
                         
                         <div class="product-image-box my-auto p-3 w-100 d-flex align-items-center justify-content-center">
-                            <img src="assets/img/img/banner/type-c.webp" alt="Type C: Laminated Bearings with Thicker End Laminates"
+                            <img src="assets/img/img/banner/type-c-1.webp" alt="Type C: Laminated Bearings with Thicker End Laminates"
                                 class="img-fluid rounded-3 product-preview-img" style="max-height: 220px; width: auto; object-fit: contain; transition: transform 0.35s ease;">
                         </div>
 

@@ -518,7 +518,7 @@ include_once 'partials/header.php';
                     <div class="team-card-modern h-100 d-flex flex-column justify-content-between position-relative shadow-sm">
                         <div>
                             <div class="team-photo-wrap standard-height position-relative">
-                                <img src="assets/pp_data/Page 02/Emp Details/sunil kotagi/sunil-kotagi.webp" alt="Sunil Kotagi - Asst. General Manager" class="team-card-img">
+                                <img src="assets/img/img/about/12.webp" alt="Sunil Kotagi - Asst. General Manager" class="team-card-img">
                                 <div class="team-photo-overlay"></div>
                                 <div class="team-badge-icon" title="Asst. General Manager">
                                     <i class="fa-solid fa-user-tie"></i>
@@ -552,7 +552,7 @@ include_once 'partials/header.php';
                     <div class="team-card-modern h-100 d-flex flex-column justify-content-between position-relative shadow-sm">
                         <div>
                             <div class="team-photo-wrap standard-height position-relative">
-                                <img src="assets/pp_data/Page 02/Emp Details/Pathan sir/Tausifkhan-Pathan.png" alt="Tausifkhan Pathan - Dy. Manager Design & Testing" class="team-card-img">
+                                <img src="assets/img/img/about/13.webp" alt="Tausifkhan Pathan - Dy. Manager Design & Testing" class="team-card-img">
                                 <div class="team-photo-overlay"></div>
                                 <div class="team-badge-icon" title="Design & Testing">
                                     <i class="fa-solid fa-compass-drafting"></i>
@@ -947,11 +947,30 @@ include_once 'partials/header.php';
         overflow: hidden;
         transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
         box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+        display: flex;
+        flex-direction: column;
+        height: 100%;
     }
     .team-card-modern:hover {
         transform: translateY(-8px);
         border-color: var(--theme-primary) !important;
         box-shadow: 0 20px 40px var(--theme-subtle) !important;
+    }
+    .team-card-body {
+        padding: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+    .team-card-footer {
+        padding: 0.85rem 1rem;
+        border-top: 1px solid #f1f5f9;
+        background: rgba(248, 250, 252, 0.5);
+        margin-top: auto;
+        min-height: 58px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     
     /* Team Photo Wrap & Sizing */
@@ -960,6 +979,7 @@ include_once 'partials/header.php';
         position: relative;
         background: #0f172a;
         overflow: hidden;
+        flex-shrink: 0;
     }
     .team-photo-wrap.large-height {
         height: 290px;

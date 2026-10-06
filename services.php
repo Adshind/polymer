@@ -340,7 +340,7 @@ include_once 'partials/header.php';
 
                 <div class="col-lg-6 p-4 p-lg-5">
                     <div class="product-img-wrapper shadow-sm">
-                        <img src="assets/pp_data/Page%2002/Bearing%20types/Elastomeric-Bridge%20TYPE%20B.jpg" alt="Type B Laminated Elastomeric Bearing - Polymer Products"
+                        <img src="assets/img/img/banner/type-b.webp" alt="Type B Laminated Elastomeric Bearing - Polymer Products"
                             class="img-fluid product-img-zoom">
                     </div>
                 </div>
@@ -425,7 +425,7 @@ include_once 'partials/header.php';
 
                 <div class="col-lg-6 p-4 p-lg-5">
                     <div class="product-img-wrapper shadow-sm">
-                        <img src="assets/img/img/banner/type-c.webp" alt="Type C Laminated Bearing with Thicker End Laminates - Polymer Products"
+                        <img src="assets/img/img/banner/type-c-1.webp" alt="Type C Laminated Bearing with Thicker End Laminates - Polymer Products"
                             class="img-fluid product-img-zoom">
                     </div>
                 </div>

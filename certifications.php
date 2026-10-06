@@ -16,28 +16,28 @@ $quality_approvals = [
         "badge" => "RDSO BS-131 Approved",
         "color" => "#dc2626"
     ],
-    [
-        "num" => "02",
-        "title" => "Company Credential & NHAI QAP",
-        "cat_label" => "Highway & Bridge QAP",
-        "desc" => "Comprehensive Quality Assurance Plan (QAP) conforming to IRC:83 (Part II) approved by NHAI, Metro, and Major Infrastructure clients.",
-        "icon" => "fa-file-shield",
-        "doc" => "assets/pp_data/Page 01/Credential_Polymer_Products.pdf",
-        "type" => "pdf",
-        "badge" => "IRC:83 (Pt II) Compliant",
-        "color" => "#2563eb"
-    ],
-    [
-        "num" => "03",
-        "title" => "Dynamic Prestress Sister Concern Letter",
-        "cat_label" => "Corporate Synergy & Credential",
-        "desc" => "Official corporate relationship and manufacturing division credential letter backed by Dynamic Prestress (I) Pvt. Ltd.",
-        "icon" => "fa-handshake",
-        "doc" => "assets/pp_data/Page 02/sister cons latter - 2026.pdf",
-        "type" => "pdf",
-        "badge" => "Group Synergy Credential",
-        "color" => "#4f46e5"
-    ],
+    // [
+    //     "num" => "02",
+    //     "title" => "Company Credential & NHAI QAP",
+    //     "cat_label" => "Highway & Bridge QAP",
+    //     "desc" => "Comprehensive Quality Assurance Plan (QAP) conforming to IRC:83 (Part II) approved by NHAI, Metro, and Major Infrastructure clients.",
+    //     "icon" => "fa-file-shield",
+    //     "doc" => "assets/pp_data/Page 01/Credential_Polymer_Products.pdf",
+    //     "type" => "pdf",
+    //     "badge" => "IRC:83 (Pt II) Compliant",
+    //     "color" => "#2563eb"
+    // ],
+    // [
+    //     "num" => "03",
+    //     "title" => "Dynamic Prestress Sister Concern Letter",
+    //     "cat_label" => "Corporate Synergy & Credential",
+    //     "desc" => "Official corporate relationship and manufacturing division credential letter backed by Dynamic Prestress (I) Pvt. Ltd.",
+    //     "icon" => "fa-handshake",
+    //     "doc" => "assets/pp_data/Page 02/sister cons latter - 2026.pdf",
+    //     "type" => "pdf",
+    //     "badge" => "Group Synergy Credential",
+    //     "color" => "#4f46e5"
+    // ],
     [
         "num" => "04",
         "title" => "Plant Model & Infrastructure Plan",
