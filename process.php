@@ -372,17 +372,17 @@ $process_images = [
 <!-- ============================================================
      3. Interactive Process & Machinery Swiper Slider
      ============================================================ -->
-<section class="py-5 position-relative" id="plant-slider" style="background:#091424; color:#fff;">
+<section class="py-5 position-relative" id="plant-slider" style="background: rgb(54, 145, 191, 0.80); color:#fff;">
     <div class="container py-4">
         <div class="d-flex flex-wrap justify-content-between align-items-end mb-4 gap-3">
             <div>
-                <span class="badge px-3 py-2 mb-2 rounded-pill text-uppercase" style="background: var(--theme-subtle); border: 1px solid var(--theme-primary); color: var(--theme-lighter); font-size:12px; letter-spacing:1px; font-weight:600;">
+                <span class="badge px-3 py-2 mb-2 rounded-pill text-uppercase" style="background: var(--theme-subtle); border: 1px solid var(--theme-primary); color: #fff !important; font-size:12px; letter-spacing:1px; font-weight:600;">
                     Live Plant Operations
                 </span>
                 <h2 class="text-white fw-bold mb-0" style="font-family:'Oswald', sans-serif; font-size:32px; letter-spacing:0.5px;">
                     Interactive Plant Machinery &amp; Operations Slider
                 </h2>
-                <p class="text-white-50 mb-0 small mt-1" style="max-width:650px;">
+                <p class="text-white mb-0 small mt-1" style="max-width:650px;">
                     Swipe through live high-resolution images of our Nashik manufacturing line, testing frames, and curing presses.
                 </p>
             </div>
@@ -619,19 +619,19 @@ $process_images = [
 <!-- ============================================================
      6. Technical QA & Inquiry CTA
      ============================================================ -->
-<section class="py-5" style="background: linear-gradient(135deg, #091a33 0%, #061122 100%); color:#cbd5e1; border-top:1px solid rgba(255,255,255,0.1);">
+<section class="py-5" style="background: linear-gradient(135deg, #3691bf 0%, #3691bf 100%); color:#cbd5e1; border-top:1px solid rgba(255,255,255,0.1);">
     <div class="container text-center py-3">
-        <span class="badge px-3 py-2 mb-2 rounded-pill text-uppercase" style="background: var(--theme-subtle); border: 1px solid var(--theme-primary); color: var(--theme-lighter); font-size:12px; letter-spacing:1px; font-weight:600;">
+        <span class="badge px-3 py-2 mb-2 rounded-pill text-uppercase" style="background: var(--theme-subtle); border: 1px solid var(--theme-primary); color: #fff; font-size:12px; letter-spacing:1px; font-weight:600;">
             Plant Visit &amp; Witness Inspection
         </span>
         <h3 class="text-white fw-bold mb-2" style="font-family:'Oswald', sans-serif; font-size:28px;">
             Schedule Factory Inspection or Request Detailed QAP Documents
         </h3>
-        <p class="text-white-50 mb-4 mx-auto" style="max-width:650px; font-size:15px;">
+        <p class="text-white mb-4 mx-auto" style="max-width:650px; font-size:15px;">
             We welcome third-party inspection agencies (RITES, DNV, EIL, SGS, TUV) and client engineers for stage-wise witness testing at our Nashik plant.
         </p>
         <div class="d-flex flex-wrap justify-content-center gap-3">
-            <a href="testing.php" class="btn btn-primary rounded-pill px-4 py-2 fw-bold text-uppercase" style="background:var(--theme-primary); border-color:var(--theme-primary); font-size:13px; letter-spacing:0.5px;">
+            <a href="testing.php" class="btn   rounded-pill px-4 py-2 fw-bold text-uppercase" style="background:var(--theme-primary); border-color:var(--theme-primary); color:#3691bf; background-color: white; font-size:13px; letter-spacing:0.5px;">
                 <i class="fa-solid fa-vial-circle-check me-2"></i>Testing &amp; QA/QC System
             </a>
             <a href="contact.php" class="btn btn-outline-light rounded-pill px-4 py-2 fw-bold text-uppercase" style="font-size:13px; letter-spacing:0.5px;">
