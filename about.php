@@ -258,10 +258,10 @@ include_once 'partials/header.php';
         <div class="text-center mb-5 wow fadeInUp" data-wow-delay=".1s">
             <span class="badge px-3 py-2 rounded-pill font-monospace fw-bold text-uppercase mb-2"
                 style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 11px; letter-spacing: 1.5px;">
-                ORGANIZATION CHART &bull; POLYMER PRODUCTS
+                ORGANIZATION  &bull; POLYMER PRODUCTS
             </span>
             <h2 class="fw-bold text-dark text-uppercase" style="font-family: 'Oswald', sans-serif; font-size: 38px; letter-spacing: -0.5px;">
-                Organizational Hierarchy &amp; Technical Personnel
+                Our Team 
             </h2>
             <p class="text-muted mx-auto" style="max-width: 780px; font-size: 15px; line-height: 1.8;">
                 Our multidisciplinary team of Polymer Scientists, Rubber Technologists, Structural Engineers, Quality Chemists, and dedicated manufacturing technicians driving technical excellence.
@@ -753,11 +753,11 @@ include_once 'partials/header.php';
              3. Manufacturing Floor Workforce Capacity (Total 70+ Strength)
              ============================================================ -->
         <div class="plant-workforce-section p-4 p-lg-5 rounded-4 border shadow-sm wow fadeInUp" data-wow-delay=".2s"
-            style="background: linear-gradient(135deg, #0b1f3a 0%, #081426 100%); color: #fff;">
+            style="background: linear-gradient(135deg, #0e4975 0%, #0571a2 100%); color: #fff;">
             <div class="row align-items-center g-4">
                 <div class="col-lg-4 text-center text-lg-start">
                     <span class="badge px-3 py-1.5 rounded-pill text-uppercase fw-bold mb-2"
-                        style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 11px; letter-spacing: 1.5px;">
+                        style="background: var(--theme-subtle); color: var(--theme-lighter); font-size: 11px; letter-spacing: 1.5px;">
                         ON-FLOOR TECHNICAL CAPACITY
                     </span>
                     <h3 class="fw-bold text-white text-uppercase mb-2" style="font-family: 'Oswald', sans-serif; font-size: 30px;">
@@ -881,7 +881,7 @@ include_once 'partials/header.php';
                 <div class="bearing-type-card p-3 bg-white rounded-4 border shadow-sm h-100 d-flex flex-column justify-content-between">
                     <div>
                         <div class="p-2 rounded-3 mb-3 bg-light text-center overflow-hidden position-relative" style="height: 175px;">
-                            <img src="assets/pp_data/Page 02/Bearing types/Type B & C.jpg" alt="Type C Outer Steel Plate"
+                            <img src="assets/img/img\banner/type-c.webp" alt="Type C Outer Steel Plate"
                                 class="img-fluid h-100 w-100" style="object-fit: contain; transition: transform 0.4s ease;">
                             <span class="badge position-absolute top-0 end-0 m-2 px-2 py-1 rounded-pill small"
                                 style="background: var(--theme-primary); color: #fff; font-size: 10px;">Type C</span>

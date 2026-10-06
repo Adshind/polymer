@@ -108,17 +108,6 @@ include_once 'partials/header.php';
     font-weight: 600;
     color: #1e293b;
     box-shadow: 0 2px 8px rgba(0,0,0,0.02);
-    transition: all 0.25s ease;
-}
-.flow-stepper-item:hover {
-    border-color: var(--theme-primary);
-    background: var(--theme-subtle);
-    color: var(--theme-primary);
-}
-.flow-stepper-item.active-step {
-    border-color: var(--theme-primary);
-    background: var(--theme-subtle);
-    color: var(--theme-primary);
 }
 .flow-stepper-num {
     width: 26px;
@@ -237,7 +226,7 @@ include_once 'partials/header.php';
                 <i class="fa-solid fa-chevron-right text-muted d-none d-md-inline small"></i>
                 <div class="flow-stepper-item"><span class="flow-stepper-num">04</span> Shaping &amp; Moulding</div>
                 <i class="fa-solid fa-chevron-right text-muted d-none d-md-inline small"></i>
-                <div class="flow-stepper-item active-step"><span class="flow-stepper-num">05</span> Product ID (Lot / Size / UID)</div>
+                <div class="flow-stepper-item"><span class="flow-stepper-num">05</span> Product ID (Lot / Size / UID)</div>
                 <i class="fa-solid fa-chevron-right text-muted d-none d-md-inline small"></i>
                 <div class="flow-stepper-item"><span class="flow-stepper-num">06</span> QC &amp; Testing</div>
                 <i class="fa-solid fa-chevron-right text-muted d-none d-md-inline small"></i>
@@ -564,11 +553,11 @@ include_once 'partials/header.php';
 <!-- ============================================================
      6. CTA & MTC Verification Support
      ============================================================ -->
-<section class="py-5 bg-dark position-relative text-white" style="background: linear-gradient(135deg, #091424 0%, #0e223d 100%);">
+<section class="py-5 bg-dark position-relative text-white" style="background: linear-gradient(135deg, #3691bf 0%, #3691bf 100%);">
     <div class="container py-3">
         <div class="row align-items-center justify-content-between g-4">
             <div class="col-lg-8">
-                <span class="badge bg-primary text-white px-3 py-2 rounded-pill text-uppercase mb-3">
+                <span class="badge bg-white text-primary px-3 py-2 rounded-pill text-uppercase mb-3">
                     <i class="fa-solid fa-shield-halved me-2"></i>Quality Assurance
                 </span>
                 <h3 class="fw-bold text-white mb-2" style="font-family:'Oswald', sans-serif; font-size:28px;">
@@ -579,7 +568,7 @@ include_once 'partials/header.php';
                 </p>
             </div>
             <div class="col-lg-4 text-lg-end">
-                <a href="contact.php" class="btn btn-primary rounded-pill px-4 py-3 fw-bold text-uppercase" style="background:var(--theme-primary); border-color:var(--theme-primary); font-size:14px; letter-spacing:0.5px;">
+                <a href="contact.php" class="btn  rounded-pill px-4 py-3 fw-bold text-uppercase" style="background: #ffffffff;   font-size:14px; color: #3691bf; letter-spacing:0.5px;">
                     <i class="fa-solid fa-file-signature me-2"></i>Request Test Certificate
                 </a>
             </div>

@@ -1,6 +1,6 @@
 ﻿<?php 
 $page_title = "Raw Materials & Machinery Infrastructure - Polymer Products";
-$meta_description = "Complete specifications of raw materials (NR, CR, IS:2062 Steel, PTFE) and 42+ manufacturing & testing machineries installed at Polymer Products, Nashik.";
+$meta_description = "Complete specifications of raw materials (NR, CR, IS:2062 Steel, PTFE) and 42 manufacturing & testing machineries installed at Polymer Products, Nashik.";
 include_once 'partials/header.php'; 
 ?>
 
@@ -82,18 +82,18 @@ include_once 'partials/header.php';
                     Raw Materials &amp; <span style="color: #93c5fd;">List of Machinery</span>
                 </h1>
                 <p class="text-light mb-4" style="font-size: 16px; line-height: 1.8; max-width: 760px; color: #cbd5e1 !important;">
-                    Official technical specifications for certified raw elastomer polymers (NR/CR), IS:2062 Grade E250 mild steel laminates, virgin PTFE media, and comprehensive list of 42+ manufacturing &amp; testing machineries installed at our Nashik plant.
+                    Official technical specifications for certified raw elastomer polymers (NR/CR), IS:2062 Grade E250 mild steel laminates, virgin PTFE media, and comprehensive list of 42 manufacturing &amp; testing machineries installed at our Nashik plant.
                 </p>
                 <div class="d-flex flex-wrap gap-3">
                     <a href="#raw-materials" class="btn btn-primary rounded-pill px-4 py-2 fw-bold text-uppercase" style="background:var(--theme-primary); border-color:var(--theme-primary); font-size:13px; letter-spacing:0.5px;">
                         <i class="fa-solid fa-layer-group me-2"></i>Raw Material Specs
                     </a>
                     <a href="#machinery-list" class="btn btn-outline-light rounded-pill px-4 py-2 fw-bold text-uppercase" style="font-size:13px; letter-spacing:0.5px;">
-                        <i class="fa-solid fa-gears me-2"></i>42+ Machinery List
+                        <i class="fa-solid fa-gears me-2"></i>42  Machinery List
                     </a>
-                    <a href="#official-docs" class="btn btn-outline-light rounded-pill px-4 py-2 fw-bold text-uppercase" style="font-size:13px; letter-spacing:0.5px;">
+                    <!-- <a href="#official-docs" class="btn btn-outline-light rounded-pill px-4 py-2 fw-bold text-uppercase" style="font-size:13px; letter-spacing:0.5px;">
                         <i class="fa-solid fa-file-lines me-2"></i>View Documents
-                    </a>
+                    </a> -->
                 </div>
             </div>
 
@@ -142,7 +142,7 @@ include_once 'partials/header.php';
                         </div>
                         <div>
                             <h6 class="fw-bold text-dark mb-0" style="font-size: 15px;">List of Machineries &amp; Equipment</h6>
-                            <small class="text-muted" style="font-size: 12.5px;">Official Plant Inventory &bull; 42+ Calibrated Machines &amp; Lab Rigs</small>
+                            <small class="text-muted" style="font-size: 12.5px;">Official Plant Inventory &bull; 42 Calibrated Machines &amp; Lab Rigs</small>
                         </div>
                     </div>
                     <button type="button" class="btn btn-sm btn-primary rounded-pill fw-bold px-3.5 py-2 d-inline-flex align-items-center gap-2 shadow-sm" data-bs-toggle="modal" data-bs-target="#machineryModal" style="background: var(--theme-primary); border-color: var(--theme-primary); font-size: 13px;">
@@ -405,7 +405,7 @@ include_once 'partials/header.php';
             </div>
             <div class="col-6 col-md-3">
                 <div class="p-3 bg-light rounded-3 border">
-                    <h3 class="fw-bold text-primary mb-0" style="font-family:'Oswald', sans-serif;">42+</h3>
+                    <h3 class="fw-bold text-primary mb-0" style="font-family:'Oswald', sans-serif;">42</h3>
                     <small class="text-muted">Total Plant Machines &amp; Lab Rigs</small>
                 </div>
             </div>
@@ -892,10 +892,10 @@ include_once 'partials/header.php';
      5. Call to Action Banner
      ============================================================ -->
 <section class="py-5 text-white position-relative"
-    style="background: linear-gradient(135deg, rgba(8, 20, 38, 0.94) 0%, rgba(10, 25, 47, 0.82) 50%, rgba(5, 12, 24, 0.92) 100%), url('assets/img/img/banner/birdge-10.webp') center center / cover no-repeat; padding: 75px 0;">
+    style="background: linear-gradient(135deg, rgba(45, 145, 191, 0.99) 0%, rgba(12, 140, 214, 0.99) 50%, rgba(45, 145, 191, 0.99) 100%), url('assets/img/img/banner/birdge-10.webp') center center / cover no-repeat; padding: 75px 0;">
     <div class="container-fluid px-3 px-lg-5 py-3 text-center">
         <span class="badge px-3 py-2 mb-3 rounded-pill text-uppercase fw-bold"
-            style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 12px; letter-spacing: 1.5px;">
+            style="background: var(--theme-subtle); color: white; font-size: 12px; letter-spacing: 1.5px;">
             Certified Raw Materials &amp; Testing Facility
         </span>
         <h2 class="fw-bold text-white text-uppercase mx-auto mb-3"
@@ -906,14 +906,14 @@ include_once 'partials/header.php';
             We welcome third-party inspections and client technical audits. Complete chemical, physical, and mechanical test certificates (MTC) are furnished with every batch.
         </p>
         <div class="d-flex justify-content-center gap-3 flex-wrap">
-            <a href="contact.php" class="btn btn-primary rounded-pill px-5 py-3 fw-bold shadow text-uppercase"
-                style="font-size: 13px; letter-spacing: 0.5px; background: var(--theme-primary); border-color: var(--theme-primary);">
-                Schedule Plant Inspection <i class="fa-solid fa-arrow-right ms-2"></i>
+            <a href="contact.php" class="btn  rounded-pill px-5 py-3 fw-bold shadow text-uppercase"
+                style="font-size: 13px; letter-spacing: 0.5px; background: white; color: var(--theme-primary); border-color: white;">
+                Schedule Plant Inspection <i class="fa-solid fa-arrow-right ms-2"></i> 
             </a>
-            <a href="contact.php" class="btn btn-outline-light rounded-pill px-4 py-3 fw-bold"
+            <!-- <a href="contact.php" class="btn btn-outline-light rounded-pill px-4 py-3 fw-bold"
                 style="font-size: 13px; letter-spacing: 0.5px; backdrop-filter: blur(4px);">
                 <i class="fa-solid fa-envelope me-2"></i> Contact Sales
-            </a>
+            </a> -->
         </div>
     </div>
 </section>
@@ -938,17 +938,15 @@ include_once 'partials/header.php';
                         <small class="text-light text-opacity-75" style="font-size: 12px;">IRC:83 (Part II) &bull; RDSO &bull; IS:2062 &bull; UIC 772-2R Standard</small>
                     </div>
                 </div>
-                <div class="d-flex align-items-center gap-2">
-                    <button type="button" class="btn btn-sm btn-outline-light rounded-pill px-3 py-1" onclick="window.print();">
-                        <i class="fa-solid fa-print me-1"></i> Print
-                    </button>
+                <div>
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
             </div>
             
             <div class="modal-body p-4 p-md-5" style="background: #f8fafc;">
                 <!-- Letterhead Document Container -->
-                <div class="bg-white p-4 p-md-5 rounded-4 shadow-sm border mx-auto" style="max-width: 900px;">
+                <div class="bg-white p-4 p-md-5 rounded-4 shadow-sm border mx-auto" style="max-width: 960px;">
+                    
                     <!-- Company Letterhead Header -->
                     <div class="text-center border-bottom pb-4 mb-4">
                         <h3 class="fw-bold text-dark mb-1" style="font-family: 'Oswald', sans-serif; letter-spacing: 1px; color: var(--theme-primary);">
@@ -957,154 +955,143 @@ include_once 'partials/header.php';
                         <p class="text-muted small mb-1">
                             E-6, M.I.D.C., Ambad, Nashik - 422 010 (Maharashtra, India)
                         </p>
-                        <span class="badge px-3 py-1 rounded-pill fw-bold text-uppercase" style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 11px; letter-spacing: 1px;">
-                            Technical Specification Sheet &bull; Ref: Section 4.0 Raw Materials
+                        <span class="badge px-3 py-1.5 rounded-pill fw-bold text-uppercase" style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 11.5px; letter-spacing: 1px;">
+                            Official Specification Sheet &bull; 4 MATERIALS (Raw Material)
                         </span>
                     </div>
 
-                    <!-- 4.1 Elastomer Polymer -->
-                    <div class="mb-4">
-                        <h5 class="fw-bold text-dark mb-2" style="font-family: 'Oswald', sans-serif; color: #0f172a;">
-                            4.1 Elastomeric Raw Polymer (NR / CR)
-                        </h5>
-                        <p class="text-secondary" style="font-size: 14.5px; line-height: 1.7;">
-                            The elastomer used in the manufacture of Elastomeric Bearings is specified in the project documentation as either <strong>Natural Rubber (NR)</strong> or <strong>Chloroprene Rubber (CR)</strong> as the raw polymer base:
-                        </p>
+                    <!-- POINT 1: Clause 4.1 Specification -->
+                    <div class="mb-4 p-4 rounded-4 border bg-white shadow-sm" style="border-left: 4px solid var(--theme-primary) !important;">
+                        <div class="d-flex align-items-center justify-content-between mb-3 flex-wrap gap-2">
+                            <span class="badge rounded-pill px-3 py-1.5 fw-bold text-uppercase" style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 12px; letter-spacing: 0.5px;">
+                                <i class="fa-solid fa-circle-check me-1.5"></i> POINT 1 &bull; 4.1 RAW MATERIAL SPECIFICATION
+                            </span>
+                            <span class="badge bg-light text-secondary border px-2.5 py-1 small">Section 4: Materials</span>
+                        </div>
 
-                        <div class="row g-3 mb-3">
+                        <!-- Complete Verbatim Text from Raw Material.odt -->
+                        <div class="p-3.5 p-4 rounded-3 mb-4" style="background: #f0f9ff; border: 1px solid #bae6fd;">
+                            <div class="d-flex align-items-start gap-3">
+                                <i class="fa-solid fa-file-contract text-primary fs-5 mt-1"></i>
+                                <div>
+                                    <h6 class="fw-bold text-primary text-uppercase mb-2" style="font-size: 12.5px; letter-spacing: 0.5px;">
+                                        Document Original Content (Verbatim):
+                                    </h6>
+                                    <p class="text-dark mb-0 fw-semibold" style="font-size: 15px; line-height: 1.8; color: #0f172a !important;">
+                                        4.1 <span class="text-primary fw-bold">Natural Rubber</span> Parts per hundred million by volume Polytetrafluoroethylene Serviceability Limit State Ultimate Limit State 4 MATERIALS Raw Material The elastomer used in the manufacture of Elastomeric Bearing should be specified in the project documentation as either Natural Rubber (NR) or Chloroprene Rubber (CR) as the raw polymer.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Structured Specification Breakdown -->
+                        <div class="row g-3 mb-4">
                             <div class="col-md-6">
-                                <div class="p-3 rounded-3 border bg-light h-100" style="border-left: 4px solid var(--theme-primary) !important;">
+                                <div class="p-3 rounded-3 border bg-light h-100" style="border-left: 3px solid var(--theme-primary) !important;">
                                     <h6 class="fw-bold mb-1" style="color: var(--theme-primary); font-size: 14px;">
                                         <i class="fa-solid fa-leaf me-1.5"></i> Natural Rubber (NR):
                                     </h6>
                                     <p class="small text-muted mb-0" style="line-height: 1.6;">
-                                        High elasticity, low hysteresis loss, superior low-temperature performance, high tensile strength, and exceptional fatigue resistance under continuous cyclic dynamic bridge loading.
+                                        High tensile strength, exceptional fatigue resistance, and low hysteresis loss under dynamic cyclic loading.
                                     </p>
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <div class="p-3 rounded-3 border bg-light h-100" style="border-left: 4px solid var(--theme-primary) !important;">
+                                <div class="p-3 rounded-3 border bg-light h-100" style="border-left: 3px solid var(--theme-primary) !important;">
                                     <h6 class="fw-bold mb-1" style="color: var(--theme-primary); font-size: 14px;">
                                         <i class="fa-solid fa-shield-halved me-1.5"></i> Chloroprene Rubber (CR - Neoprene):
                                     </h6>
                                     <p class="small text-muted mb-0" style="line-height: 1.6;">
-                                        Excellent resistance to ozone degradation (tested in parts per hundred million pphm by volume), atmospheric weathering, chemical exposure, mineral oils, and ultraviolet radiation.
+                                        Superior resistance against weathering and ozone degradation, tested in <strong>Parts per hundred million (pphm)</strong> by volume.
                                     </p>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- Physical Property Limits Table -->
-                        <h6 class="fw-bold text-dark mt-4 mb-2" style="font-size: 14px;">IRC:83 Physical Property Acceptance Limits:</h6>
-                        <div class="table-responsive">
-                            <table class="table table-bordered table-sm align-middle text-secondary" style="font-size: 13.5px;">
-                                <thead class="table-light">
-                                    <tr>
-                                        <th>Physical Property Test Parameter</th>
-                                        <th class="text-center">IRC:83 Specified Limit</th>
-                                        <th class="text-center">Standard Test Method</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td><strong>Hardness (Shore A)</strong></td>
-                                        <td class="text-center"><span class="badge bg-light text-dark border fw-bold">60 &plusmn; 5 IRHD</span></td>
-                                        <td class="text-center">IS: 3400 (Part 2)</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>Min. Tensile Strength</strong></td>
-                                        <td class="text-center"><span class="badge bg-light text-dark border fw-bold">&ge; 17.0 MPa</span></td>
-                                        <td class="text-center">IS: 3400 (Part 1)</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>Min. Elongation at Break</strong></td>
-                                        <td class="text-center"><span class="badge bg-light text-dark border fw-bold">&ge; 400%</span></td>
-                                        <td class="text-center">IS: 3400 (Part 1)</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>Max Compression Set (24h at 70°C)</strong></td>
-                                        <td class="text-center"><span class="badge bg-light text-dark border fw-bold">&le; 35%</span></td>
-                                        <td class="text-center">IS: 3400 (Part 10)</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>Accelerated Ageing Drop (72h at 100°C)</strong></td>
-                                        <td class="text-center"><span class="badge bg-light text-dark border fw-bold">&le; 15% Max Drop</span></td>
-                                        <td class="text-center">IS: 3400 (Part 4)</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>Ozone Resistance (20% Strain)</strong></td>
-                                        <td class="text-center"><span class="badge bg-light text-dark border fw-bold">No Cracks</span></td>
-                                        <td class="text-center">IS: 3400 (Part 20)</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-
-                    <!-- 4.2.5 Internal Reinforcement -->
-                    <div class="mb-4 pt-3 border-top">
-                        <h5 class="fw-bold text-dark mb-2" style="font-family: 'Oswald', sans-serif; color: #0f172a;">
-                            Clause 4.2.5 Internal Reinforcement - Mild Steel Laminates (IS: 2062 / IS: 1079)
-                        </h5>
-                        <p class="text-secondary" style="font-size: 14.5px; line-height: 1.7;">
-                            Laminates of mild steel conforming to <strong>IS: 2062</strong> or <strong>IS: 1079</strong> or equivalent international grade shall be used as internal reinforcement plates:
-                        </p>
-
-                        <div class="p-3 rounded-3 border mb-3" style="background: #fffbeb; border-color: #fde68a !important;">
-                            <div class="d-flex align-items-center mb-1">
-                                <i class="fa-solid fa-triangle-exclamation me-2 text-warning"></i>
-                                <strong class="text-dark" style="font-size: 14px;">Mandatory Code Requirement:</strong>
+                        <!-- Key Standards referenced in Clause 4.1 -->
+                        <div class="row g-3">
+                            <div class="col-md-4">
+                                <div class="p-3 rounded-3 border bg-light text-center h-100">
+                                    <i class="fa-solid fa-layer-group text-primary mb-1 fs-5"></i>
+                                    <h6 class="fw-bold text-dark mb-1" style="font-size: 13px;">Polytetrafluoroethylene</h6>
+                                    <small class="text-muted d-block" style="font-size: 11.5px; line-height: 1.4;">(PTFE) Virgin dimpled sliding interface for low friction (&mu; &le; 0.03).</small>
+                                </div>
                             </div>
-                            <p class="small text-secondary mb-0" style="line-height: 1.6;">
-                                The yield stress of the steel material shall not be lesser than <strong>250 MPa</strong>. Uses of any other materials like fibreglass or similar fabric as laminates are strictly not permitted for the purpose of this Code.
-                            </p>
+                            <div class="col-md-4">
+                                <div class="p-3 rounded-3 border bg-light text-center h-100">
+                                    <i class="fa-solid fa-arrows-spin text-primary mb-1 fs-5"></i>
+                                    <h6 class="fw-bold text-dark mb-1" style="font-size: 13px;">Serviceability Limit State</h6>
+                                    <small class="text-muted d-block" style="font-size: 11.5px; line-height: 1.4;">(SLS) Zero permanent deformation &amp; full elastic recovery under operational service.</small>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="p-3 rounded-3 border bg-light text-center h-100">
+                                    <i class="fa-solid fa-shield-cat text-primary mb-1 fs-5"></i>
+                                    <h6 class="fw-bold text-dark mb-1" style="font-size: 13px;">Ultimate Limit State</h6>
+                                    <small class="text-muted d-block" style="font-size: 11.5px; line-height: 1.4;">(ULS) High safety factors preventing elastomer rupture, steel yield, &amp; seismic failure.</small>
+                                </div>
+                            </div>
                         </div>
-
-                        <p class="small text-muted mb-0" style="line-height: 1.7;">
-                            All steel plates are precision deburred, edge-radiused, grit shot-blasted to Sa 2.5 cleanliness profile, degreased, and chemically primed with Chemlok elastomer-to-metal bonding systems ensuring peel adhesion exceeding <strong>7 kN/m</strong>.
-                        </p>
                     </div>
 
-                    <!-- 4.3 PTFE Sliding Media & Limit States -->
-                    <div class="pt-3 border-top">
-                        <h5 class="fw-bold text-dark mb-2" style="font-family: 'Oswald', sans-serif; color: #0f172a;">
-                            Sliding Media &amp; Design Limit States (PTFE / Stainless Steel)
-                        </h5>
-                        <p class="text-secondary" style="font-size: 14.5px; line-height: 1.7;">
-                            For free-sliding and guided elastomeric bearings, virgin dimpled <strong>Polytetrafluoroethylene (PTFE)</strong> sheets are bonded to elastomer pads and lubricated with silicone grease, sliding against mirror-finish austenitic stainless steel:
-                        </p>
+                    <!-- POINT 2: Clause 4.2.5 Mild Steel Laminates -->
+                    <div class="mb-4 p-4 rounded-4 border bg-white shadow-sm" style="border-left: 4px solid var(--theme-primary) !important;">
+                        <div class="d-flex align-items-center justify-content-between mb-3 flex-wrap gap-2">
+                            <span class="badge rounded-pill px-3 py-1.5 fw-bold text-uppercase" style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 12px; letter-spacing: 0.5px;">
+                                <i class="fa-solid fa-circle-check me-1.5"></i> POINT 2 &bull; 4.2.5 MILD STEEL LAMINATES
+                            </span>
+                            <span class="badge bg-light text-secondary border px-2.5 py-1 small">IS: 2062 / IS: 1079</span>
+                        </div>
 
+                        <!-- Complete Verbatim Text from Raw Material.odt -->
+                        <div class="p-3.5 p-4 rounded-3 mb-4" style="background: #f0f9ff; border: 1px solid #bae6fd;">
+                            <div class="d-flex align-items-start gap-3">
+                                <i class="fa-solid fa-file-contract text-primary fs-5 mt-1"></i>
+                                <div>
+                                    <h6 class="fw-bold text-primary text-uppercase mb-2" style="font-size: 12.5px; letter-spacing: 0.5px;">
+                                        Document Original Content (Verbatim):
+                                    </h6>
+                                    <p class="text-dark mb-0 fw-semibold" style="font-size: 15px; line-height: 1.8; color: #0f172a !important;">
+                                        4.2.5 <span class="text-primary fw-bold">Laminates</span> of mild steel conforming to IS: 2062/ IS: 1079 or equivalent international grade shall be used. The yield stress of the material shall not be lesser than 250 MPa. Uses of any other materials like fibreglass or similar fabric as laminates are not permitted for the purpose of this Code.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Highlights of Code Compliance in Single Unified Theme -->
                         <div class="row g-3">
                             <div class="col-md-6">
-                                <div class="p-3 rounded-3 border bg-light h-100">
-                                    <h6 class="fw-bold text-dark mb-1" style="font-size: 13.5px;">
-                                        <i class="fa-solid fa-arrows-spin me-1.5 text-primary"></i> Serviceability Limit State (SLS)
-                                    </h6>
+                                <div class="p-3 rounded-3 border bg-light h-100" style="border-left: 3px solid var(--theme-primary) !important;">
+                                    <div class="d-flex align-items-center mb-1 text-primary">
+                                        <i class="fa-solid fa-circle-exclamation me-2"></i>
+                                        <h6 class="fw-bold mb-0" style="font-size: 13.5px; color: var(--theme-primary);">Strict Code Prohibition:</h6>
+                                    </div>
                                     <p class="small text-muted mb-0" style="line-height: 1.6;">
-                                        Ensures no permanent deformation, maintainable friction (&mu; &le; 0.03), and full elastic recovery under maximum operational load combinations.
+                                        Uses of any other materials like <strong>fibreglass</strong> or similar fabric as laminates are <strong>strictly not permitted</strong> for the purpose of this Code.
                                     </p>
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <div class="p-3 rounded-3 border bg-light h-100">
-                                    <h6 class="fw-bold text-dark mb-1" style="font-size: 13.5px;">
-                                        <i class="fa-solid fa-shield-halved me-1.5 text-primary"></i> Ultimate Limit State (ULS)
-                                    </h6>
+                                <div class="p-3 rounded-3 border bg-light h-100" style="border-left: 3px solid var(--theme-primary) !important;">
+                                    <div class="d-flex align-items-center mb-1 text-primary">
+                                        <i class="fa-solid fa-circle-check me-2"></i>
+                                        <h6 class="fw-bold mb-0" style="font-size: 13.5px; color: var(--theme-primary);">Yield Strength Standard:</h6>
+                                    </div>
                                     <p class="small text-muted mb-0" style="line-height: 1.6;">
-                                        Adequate safety factors against elastomer rupture, steel plate yield, internal de-bonding, and seismic sliding displacement.
+                                        The yield stress of the mild steel material shall not be lesser than <strong>250 MPa</strong> (IS: 2062 / IS: 1079 Grade E250).
                                     </p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Footer Stamp -->
-                    <div class="mt-5 pt-3 border-top d-flex justify-content-between align-items-center flex-wrap gap-2 text-muted small">
+                    <!-- Footer Verification Stamp -->
+                    <div class="mt-4 pt-3 border-top d-flex justify-content-between align-items-center flex-wrap gap-2 text-muted small">
                         <div>
                             <strong>Quality Control Laboratory</strong> &bull; Polymer Products, Nashik
                         </div>
-                        <div class="badge bg-success-subtle text-success border border-success-subtle px-3 py-1.5 rounded-pill fw-bold">
-                            <i class="fa-solid fa-check-circle me-1"></i> Verified &amp; Compliant
+                        <div class="badge rounded-pill px-3 py-1.5 fw-bold" style="background: var(--theme-subtle); color: var(--theme-primary); border: 1px solid var(--theme-primary);">
+                            <i class="fa-solid fa-check-circle me-1"></i> IRC:83 &amp; RDSO Compliant
                         </div>
                     </div>
 

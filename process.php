@@ -211,9 +211,9 @@ $process_images = [
                     <a href="#plant-slider" class="btn btn-outline-light rounded-pill px-4 py-2 fw-bold text-uppercase" style="font-size:13px; letter-spacing:0.5px;">
                         <i class="fa-solid fa-images me-2"></i>Interactive Slider
                     </a>
-                    <a href="#full-gallery" class="btn btn-outline-light rounded-pill px-4 py-2 fw-bold text-uppercase" style="font-size:13px; letter-spacing:0.5px;">
+                    <!-- <a href="#full-gallery" class="btn btn-outline-light rounded-pill px-4 py-2 fw-bold text-uppercase" style="font-size:13px; letter-spacing:0.5px;">
                         <i class="fa-solid fa-photo-film me-2"></i>49+ Plant Photos
-                    </a>
+                    </a> -->
                 </div>
             </div>
 
@@ -232,7 +232,7 @@ $process_images = [
                 Standard Operating Procedure (SOP)
             </span>
             <h2 class="fw-bold text-dark" style="font-family:'Oswald', sans-serif; font-size:32px; letter-spacing:0.5px;">
-                Systematic 9-Step Manufacturing Process Flow
+                 Manufacturing Process Flow
             </h2>
             <p class="text-muted mx-auto" style="max-width:700px; font-size:15px;">
                 Every batch is manufactured under strict stage-wise quality inspections to ensure full compliance with IRC:83 (Part II), RDSO BS-131, and MoRTH specifications.

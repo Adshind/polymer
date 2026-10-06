@@ -68,7 +68,24 @@ include_once 'partials/header.php';
 .flow-nav-buttons .btn {
     font-weight: 600;
     font-size: 13px;
-    transition: all 0.2s ease;
+    transition: all 0.25s ease;
+    border: 1px solid #cbd5e1;
+    background: #ffffff;
+    color: #334155;
+}
+.flow-nav-buttons .btn:hover {
+    background: var(--theme-primary) !important;
+    border-color: var(--theme-primary) !important;
+    color: #ffffff !important;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px var(--theme-glow);
+}
+.flow-nav-buttons .btn.active-btn,
+.flow-nav-buttons .btn.btn-primary {
+    background: var(--theme-primary) !important;
+    border-color: var(--theme-primary) !important;
+    color: #ffffff !important;
+    box-shadow: 0 4px 12px var(--theme-glow);
 }
 </style>
 
@@ -127,7 +144,7 @@ include_once 'partials/header.php';
                     <div class="d-flex flex-wrap gap-2 justify-content-lg-end">
                         <button type="button" class="btn btn-primary rounded-pill px-4 py-2.5 fw-bold shadow-sm open-storage-doc-modal d-inline-flex align-items-center gap-2"
                             style="background: var(--theme-primary); border-color: var(--theme-primary); font-size: 13.5px;"
-                            data-doc-url="assets/pp_data/Page 09/ELASTOMERIC BEARING INSTALLATION AND MAINTENANCE METHODOLOGY.pdf"
+                            data-doc-url="assets/pp_data/Page 09/ELASTOMERIC-BEARING-INSTALLATION-AND-MAINTENANCE-METHODOLOGY.pdf"
                             data-doc-title="Elastomeric Bearing Installation and Maintenance Methodology">
                             <i class="fa-solid fa-file-pdf"></i> <span>View Methodology Manual</span>
                         </button>
@@ -279,22 +296,22 @@ include_once 'partials/header.php';
                     <button class="btn btn-sm btn-primary rounded-pill px-3 py-2 active-btn" onclick="filterFlowPhase('all', this)">
                         <i class="fa-solid fa-network-wired me-1"></i> All 16 Steps
                     </button>
-                    <button class="btn btn-sm btn-outline-secondary bg-white rounded-pill px-3 py-2" onclick="filterFlowPhase('phase-1', this)">
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill px-3 py-2" onclick="filterFlowPhase('phase-1', this)">
                         1. Post-Production
                     </button>
-                    <button class="btn btn-sm btn-outline-secondary bg-white rounded-pill px-3 py-2" onclick="filterFlowPhase('phase-2', this)">
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill px-3 py-2" onclick="filterFlowPhase('phase-2', this)">
                         2. Storage &amp; Inventory
                     </button>
-                    <button class="btn btn-sm btn-outline-secondary bg-white rounded-pill px-3 py-2" onclick="filterFlowPhase('phase-3', this)">
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill px-3 py-2" onclick="filterFlowPhase('phase-3', this)">
                         3. Picking &amp; QC
                     </button>
-                    <button class="btn btn-sm btn-outline-secondary bg-white rounded-pill px-3 py-2" onclick="filterFlowPhase('phase-4', this)">
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill px-3 py-2" onclick="filterFlowPhase('phase-4', this)">
                         4. Packing &amp; Docs
                     </button>
-                    <button class="btn btn-sm btn-outline-secondary bg-white rounded-pill px-3 py-2" onclick="filterFlowPhase('phase-5', this)">
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill px-3 py-2" onclick="filterFlowPhase('phase-5', this)">
                         5. Transit &amp; Delivery
                     </button>
-                    <button class="btn btn-sm btn-outline-secondary bg-white rounded-pill px-3 py-2" onclick="filterFlowPhase('phase-6', this)">
+                    <button class="btn btn-sm btn-outline-secondary rounded-pill px-3 py-2" onclick="filterFlowPhase('phase-6', this)">
                         6. Client Handover
                     </button>
                 </div>
@@ -968,24 +985,24 @@ include_once 'partials/header.php';
 <!-- ============================================================
      4. Technical Support & RFQ Banner
      ============================================================ -->
-<section class="py-5" style="background: linear-gradient(135deg, #091a33 0%, #061122 100%); color:#cbd5e1; border-top:1px solid rgba(255,255,255,0.1);">
+<section class="py-5" style="background: linear-gradient(135deg, #3691bf 0%, #3691bf 100%); color:#cbd5e1; border-top:1px solid rgba(255,255,255,0.1);">
     <div class="container text-center py-3">
-        <span class="badge px-3 py-2 mb-2 rounded-pill text-uppercase" style="background: var(--theme-subtle); border: 1px solid var(--theme-primary); color: var(--theme-lighter); font-size:12px; letter-spacing:1px; font-weight:600;">
+        <span class="badge px-3 py-2 mb-2 rounded-pill text-uppercase" style="background: var(--theme-subtle); border: 1px solid var(--theme-primary); color: #fff; font-size:12px; letter-spacing:1px; font-weight:600;">
             Site Installation &amp; Logistics Assistance
         </span>
-        <h3 class="text-white fw-bold mb-2" style="font-family:'Oswald', sans-serif; font-size:28px;">
+        <h3 class="text-light fw-bold mb-2" style="font-family:'Oswald', sans-serif; font-size:28px;">
             Need Assistance with Bearing Delivery or On-Site Handover?
         </h3>
-        <p class="text-white-50 mb-4 mx-auto" style="max-width:650px; font-size:15px;">
+        <p class="text-light mb-4 mx-auto" style="max-width:650px; font-size:15px;">
             Our technical engineers and logistics managers coordinate vehicle dispatch schedules, site unloading protocols, and MTC test documentation for smooth contractor handover.
         </p>
         <div class="d-flex flex-wrap justify-content-center gap-3">
-            <a href="contact.php" class="btn btn-primary rounded-pill px-4 py-2 fw-bold text-uppercase" style="background:var(--theme-primary); border-color:var(--theme-primary); font-size:13px; letter-spacing:0.5px;">
+            <a href="contact.php" class="btn   rounded-pill px-4 py-2 fw-bold text-uppercase" style="background:var(--theme-primary); border-color:var(--theme-primary); font-size:13px; letter-spacing:0.5px; background-color: #ffffffff; color:#3691bf">
                 <i class="fa-solid fa-paper-plane me-2"></i>Contact Technical Support
             </a>
-            <a href="assets/pp_data/Page 01/Credential_Polymer_Products.pdf" target="_blank" class="btn btn-outline-light rounded-pill px-4 py-2 fw-bold text-uppercase" style="font-size:13px; letter-spacing:0.5px;">
+            <!-- <a href="assets/pp_data/Page 01/Credential_Polymer_Products.pdf" target="_blank" class="btn btn-outline-light rounded-pill px-4 py-2 fw-bold text-uppercase" style="font-size:13px; letter-spacing:0.5px;">
                 <i class="fa-solid fa-file-pdf me-2"></i>Download Credentials
-            </a>
+            </a> -->
         </div>
     </div>
 </section>
@@ -1339,9 +1356,12 @@ document.addEventListener('DOMContentLoaded', function () {
     const docModalEl = document.getElementById('storageDocModal');
     if (!docModalEl) return;
 
+    const modalDialog = docModalEl.querySelector('.modal-dialog');
     const modalTitle = document.getElementById('storageDocModalLabel');
     const modalIframe = document.getElementById('storageDocModalIframe');
     const modalLoader = document.getElementById('storageDocModalLoader');
+    const fullscreenBtn = document.getElementById('storageDocModalFullscreenBtn');
+    const fullscreenText = document.getElementById('storageDocModalFullscreenText');
 
     function getModalInstance() {
         if (typeof bootstrap !== 'undefined' && bootstrap.Modal) {
@@ -1350,7 +1370,50 @@ document.addEventListener('DOMContentLoaded', function () {
         return null;
     }
 
+    function resetFullscreen() {
+        if (modalDialog) {
+            modalDialog.classList.remove('modal-fullscreen');
+            modalDialog.classList.add('modal-xl');
+        }
+        if (fullscreenBtn) {
+            fullscreenBtn.innerHTML = '<i class="fa-solid fa-expand"></i> <span id="storageDocModalFullscreenText">Fullscreen</span>';
+        }
+        if (modalIframe) {
+            modalIframe.style.height = '75vh';
+        }
+    }
+
+    function toggleFullscreen() {
+        if (!modalDialog) return;
+        const isFull = modalDialog.classList.toggle('modal-fullscreen');
+        if (isFull) {
+            modalDialog.classList.remove('modal-xl');
+            if (fullscreenBtn) {
+                fullscreenBtn.innerHTML = '<i class="fa-solid fa-compress"></i> <span id="storageDocModalFullscreenText">Exit Fullscreen</span>';
+            }
+            if (modalIframe) {
+                modalIframe.style.height = 'calc(100vh - 130px)';
+            }
+        } else {
+            modalDialog.classList.add('modal-xl');
+            if (fullscreenBtn) {
+                fullscreenBtn.innerHTML = '<i class="fa-solid fa-expand"></i> <span id="storageDocModalFullscreenText">Fullscreen</span>';
+            }
+            if (modalIframe) {
+                modalIframe.style.height = '75vh';
+            }
+        }
+    }
+
+    if (fullscreenBtn) {
+        fullscreenBtn.addEventListener('click', function (e) {
+            e.preventDefault();
+            toggleFullscreen();
+        });
+    }
+
     function unlockPageScroll() {
+        resetFullscreen();
         if (modalIframe) {
             modalIframe.src = '';
             modalIframe.style.display = 'none';
@@ -1380,6 +1443,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
             if (!url) return;
 
+            resetFullscreen();
+
             if (modalTitle) modalTitle.textContent = title;
             if (modalLoader) modalLoader.style.display = 'block';
             if (modalIframe) {
@@ -1388,7 +1453,7 @@ document.addEventListener('DOMContentLoaded', function () {
             }
 
             const cleanUrl = url.split('#')[0];
-            const pdfViewerUrl = cleanUrl + '#toolbar=0&navpanes=0&scrollbar=0';
+            const pdfViewerUrl = cleanUrl + '#toolbar=0&navpanes=0&scrollbar=1&view=FitH';
 
             if (modalIframe) {
                 modalIframe.onload = function () {
@@ -1433,9 +1498,9 @@ document.addEventListener('DOMContentLoaded', function () {
                     </div>
                 </div>
                 <div class="d-flex align-items-center gap-2">
-                    <a href="assets/pp_data/Page 09/ELASTOMERIC BEARING INSTALLATION AND MAINTENANCE METHODOLOGY.pdf" target="_blank" class="btn btn-sm btn-outline-light rounded-pill px-3 py-1">
-                        <i class="fa-solid fa-arrow-up-right-from-square me-1"></i> Fullscreen
-                    </a>
+                    <button type="button" id="storageDocModalFullscreenBtn" class="btn btn-sm btn-outline-light rounded-pill px-3 py-1 d-inline-flex align-items-center gap-1.5" title="Toggle Fullscreen View">
+                        <i class="fa-solid fa-expand"></i> <span id="storageDocModalFullscreenText">Fullscreen</span>
+                    </button>
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
             </div>

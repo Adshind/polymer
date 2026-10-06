@@ -134,7 +134,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
                                     
                                     <li class="has-dropdown <?php echo in_array($current_page, ['services.php', 'services.html', 'material-used.php', 'material-used.html', 'application-codes.php', 'application-codes.html']) ? 'active' : ''; ?>">
                                         <a href="services.php" class="fw-semibold nav-link-item">
-                                            Products & Specs <i class="fa-solid fa-chevron-down dropdown-icon"></i>
+                                            Products   <i class="fa-solid fa-chevron-down dropdown-icon"></i>
                                         </a>
                                         <ul class="sub-menu">
                                             <li><a href="services.php">Proposed Bearing Types</a></li>

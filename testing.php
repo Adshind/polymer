@@ -562,7 +562,7 @@ $testing_slider_images = [
                 </div>
             </div>
 
-            <div class="modal-body p-0 position-relative" style="background: #0f172a; min-height: 520px;">
+            <div class="modal-body p-0 position-relative" style="background: #0b1329; min-height: 480px;">
                 <div id="testingDocModalLoader" class="position-absolute top-50 start-50 translate-middle text-center py-5">
                     <div class="spinner-border text-primary mb-2" role="status" style="width: 3rem; height: 3rem;">
                         <span class="visually-hidden">Loading...</span>
@@ -574,8 +574,8 @@ $testing_slider_images = [
                 <iframe id="testingDocModalIframe" src="" style="width: 100%; height: 75vh; border: none; display: none; background: #fff;" allowfullscreen></iframe>
 
                 <!-- Image Preview -->
-                <div id="testingDocModalImgWrap" class="p-2 p-md-3" style="display: none; height: 75vh; min-height: 520px; overflow-y: auto; background: #0f172a; align-items: center; justify-content: center;">
-                    <img id="testingDocModalImage" src="" alt="Testing Preview" style="max-height: 72vh; max-width: 95%; width: auto; height: auto; object-fit: contain; box-shadow: 0 10px 30px rgba(0,0,0,0.5); border-radius: 8px; background: #fff; margin: auto; display: block;">
+                <div id="testingDocModalImgWrap" class="p-2 p-md-4 text-center" style="display: none; min-height: 480px; max-height: 80vh; overflow: auto; background: #0b1329; align-items: center; justify-content: center;">
+                    <img id="testingDocModalImage" src="" alt="Testing Preview" style="max-height: 76vh; max-width: 100%; width: auto; height: auto; object-fit: contain; image-rendering: -webkit-optimize-contrast; image-rendering: auto; box-shadow: 0 15px 35px rgba(0,0,0,0.6); border-radius: 10px; margin: auto; display: block;">
                 </div>
             </div>
 
@@ -664,12 +664,12 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     document.querySelectorAll('.open-testing-doc-modal').forEach(function (btn) {
-        btn.addEventListener('click', function (e) {
+        function handleOpen(e) {
             e.preventDefault();
 
-            const url = this.getAttribute('data-doc-url');
-            const title = this.getAttribute('data-doc-title') || 'Testing & QA Inspection';
-            const type = this.getAttribute('data-doc-type') || (url.toLowerCase().match(/\.(png|jpg|jpeg|webp)$/) ? 'image' : 'pdf');
+            const url = btn.getAttribute('data-doc-url');
+            const title = btn.getAttribute('data-doc-title') || 'Testing & QA Inspection';
+            const type = btn.getAttribute('data-doc-type') || (url && url.toLowerCase().match(/\.(png|jpg|jpeg|webp)$/) ? 'image' : 'pdf');
 
             if (!url) return;
 
@@ -720,6 +720,13 @@ document.addEventListener('DOMContentLoaded', function () {
                 bsModal.show();
             } else if (typeof $ !== 'undefined') {
                 $(docModalEl).modal('show');
+            }
+        }
+
+        btn.addEventListener('click', handleOpen);
+        btn.addEventListener('keydown', function (e) {
+            if (e.key === 'Enter' || e.key === ' ') {
+                handleOpen(e);
             }
         });
     });

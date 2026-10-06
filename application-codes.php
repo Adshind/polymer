@@ -62,7 +62,7 @@ include_once 'partials/header.php';
                 <i class="fa-solid fa-stamp"></i> Governing Code: IRC:83-2018 (Part-II)
             </div>
             <h2 class="fw-bold text-dark text-uppercase mt-2" style="font-family: 'Oswald', sans-serif; font-size: clamp(28px, 3.5vw, 42px); letter-spacing: 0.5px;">
-                Application Codes & Standards
+                Application Standards Codes  
             </h2>
             <p class="text-muted mx-auto mb-0" style="max-width: 800px; font-size: 15.5px; line-height: 1.8;">
                 Comprehensive classification and practical engineering applications of Elastomeric Bearing types governed by <strong>IRC:83-2018 (Part-II)</strong> for Highway, Railway, Metro, and Structural infrastructure.
@@ -283,7 +283,7 @@ include_once 'partials/header.php';
                         </span>
                         
                         <div class="product-image-box my-auto p-3 w-100 d-flex align-items-center justify-content-center">
-                            <img src="assets/pp_data/Page 02/Bearing types/Type B & C.jpg" alt="Type C: Laminated Bearings with Thicker End Laminates"
+                            <img src="assets/img/img/banner/type-c.webp" alt="Type C: Laminated Bearings with Thicker End Laminates"
                                 class="img-fluid rounded-3 product-preview-img" style="max-height: 220px; width: auto; object-fit: contain; transition: transform 0.35s ease;">
                         </div>
 
@@ -914,7 +914,7 @@ include_once 'partials/header.php';
      4. Call to Action Banner
      ============================================================ -->
 <section class="py-5 text-white position-relative"
-    style="background: linear-gradient(135deg, rgba(8, 20, 38, 0.94) 0%, rgba(10, 25, 47, 0.82) 50%, rgba(5, 12, 24, 0.92) 100%), url('assets/img/img/banner/birdge-10.webp') center center / cover no-repeat; padding: 75px 0;">
+    style="background: linear-gradient(135deg, rgba(54, 145, 191, 0.99) 0%, rgba(54, 145, 191, 0.99) 50%, rgba(54, 145, 191, 0.99) 100%), url('assets/img/img/banner/birdge-10.webp') center center / cover no-repeat; padding: 75px 0;">
     <div class="container-fluid px-3 px-lg-5 py-3 text-center">
         <span class="badge px-3 py-2 mb-3 rounded-pill text-uppercase fw-bold"
             style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 12px; letter-spacing: 1.5px;">
@@ -928,8 +928,8 @@ include_once 'partials/header.php';
             Our engineering team assists civil consultants with bearing size determination, load capacity calculations, and material testing verification as per IRC:83 (Part-II).
         </p>
         <div class="d-flex justify-content-center gap-3 flex-wrap">
-            <a href="contact.php" class="btn btn-primary rounded-pill px-5 py-3 fw-bold shadow text-uppercase"
-                style="font-size: 13px; letter-spacing: 0.5px; background: var(--theme-primary); border-color: var(--theme-primary);">
+            <a href="contact.php" class="btn   rounded-pill px-5 py-3 fw-bold shadow text-uppercase"
+                style="font-size: 13px; letter-spacing: 0.5px; background: white; border-color: white ; color: var(--theme-primary) !important;">
                 Request Technical RFQ <i class="fa-solid fa-arrow-right ms-2"></i>
             </a>
             <!-- <a href="tel:8975766459" class="btn btn-outline-light rounded-pill px-4 py-3 fw-bold"

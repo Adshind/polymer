@@ -319,7 +319,7 @@ include_once 'partials/header.php';
      4. Consultation & Qualification Banner
      ============================================================ -->
 <section class="py-5 text-white position-relative"
-    style="background: linear-gradient(135deg, rgba(8, 20, 38, 0.94) 0%, rgba(10, 25, 47, 0.82) 50%, rgba(5, 12, 24, 0.92) 100%), url('assets/img/img/banner/birdge-10.webp') center center / cover no-repeat; padding: 75px 0;">
+    style="background: linear-gradient(135deg, rgba(54, 145, 191, 0.99) 0%, rgba(54, 145, 191, 0.99) 50%, rgba(54, 145, 191, 0.99) 100%), url('assets/img/img/banner/birdge-10.webp') center center / cover no-repeat; padding: 75px 0;">
     <div class="container-fluid px-3 px-lg-5 py-3 text-center">
         <span class="badge px-3 py-2 mb-3 rounded-pill text-uppercase fw-bold"
             style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 12px; letter-spacing: 1.5px;">
@@ -333,8 +333,8 @@ include_once 'partials/header.php';
             Our engineering sales team provides complete past supply certificates, RITES/RDSO witnessed test reports, and third-party inspection dossiers for EPC tender qualifications.
         </p>
         <div class="d-flex justify-content-center gap-3 flex-wrap">
-            <a href="contact.php" class="btn btn-primary rounded-pill px-5 py-3 fw-bold shadow text-uppercase"
-                style="font-size: 13px; letter-spacing: 0.5px; background: var(--theme-primary); border-color: var(--theme-primary);">
+            <a href="contact.php" class="btn   rounded-pill px-5 py-3 fw-bold shadow text-uppercase"
+                style="font-size: 13px; letter-spacing: 0.5px; background: white; border-color: white; color: var(--theme-primary);">
                 Request Client Reference List <i class="fa-solid fa-arrow-right ms-2"></i>
             </a>
             <!-- <a href="tel:8975766459" class="btn btn-outline-light rounded-pill px-4 py-3 fw-bold"

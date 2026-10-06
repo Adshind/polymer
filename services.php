@@ -96,9 +96,9 @@ include_once 'partials/header.php';
                     <span class="badge bg-dark bg-opacity-75 border border-secondary text-light px-3 py-2 rounded-pill small">
                         <i class="fa-solid fa-check text-info me-1"></i> Type F Positive Anchor
                     </span>
-                    <span class="badge bg-dark bg-opacity-75 border border-secondary text-light px-3 py-2 rounded-pill small">
+                    <!-- <span class="badge bg-dark bg-opacity-75 border border-secondary text-light px-3 py-2 rounded-pill small">
                         <i class="fa-solid fa-check text-info me-1"></i> PTFE Sliding
-                    </span>
+                    </span> -->
                 </div>
             </div>
 
@@ -382,7 +382,7 @@ include_once 'partials/header.php';
 
                 <div class="col-lg-6 p-4 p-lg-5">
                     <div class="product-img-wrapper shadow-sm">
-                        <img src="assets/pp_data/Page%2002/Bearing%20types/Type%20B%20%26%20C.jpg" alt="Type C Laminated Bearing with Thicker End Laminates - Polymer Products"
+                        <img src="assets/img/img/banner/type-c.webp" alt="Type C Laminated Bearing with Thicker End Laminates - Polymer Products"
                             class="img-fluid product-img-zoom">
                     </div>
                 </div>
@@ -477,7 +477,7 @@ include_once 'partials/header.php';
         <!-- ============================================================
              Product 05: PTFE Sliding Elastomeric Bearings
              ============================================================ -->
-        <div class="card border-0 rounded-4 shadow-sm mb-4 overflow-hidden product-item-card wow fadeInUp" data-wow-delay=".35s">
+        <!-- <div class="card border-0 rounded-4 shadow-sm mb-4 overflow-hidden product-item-card wow fadeInUp" data-wow-delay=".35s">
             <div class="row g-0 align-items-center">
                 <div class="col-lg-6 p-4 p-md-5">
                     <div class="d-flex align-items-center gap-2 mb-3">
@@ -498,7 +498,7 @@ include_once 'partials/header.php';
                         Combines the rotational flexibility of a laminated elastomeric bearing with an integrated dimpled virgin Polytetrafluoroethylene (PTFE) sliding surface against a mirror-polished austenitic stainless steel sheet. Accommodates very large longitudinal and transverse thermal expansion movements with minimal frictional resistance (&le; 0.03).
                     </p>
 
-                    <!-- Technical Specs Chips -->
+                     
                     <div class="row g-3 mb-4">
                         <div class="col-sm-6">
                             <div class="spec-box h-100">
@@ -520,7 +520,7 @@ include_once 'partials/header.php';
                         </div>
                     </div>
 
-                    <!-- Applications List -->
+                    
                     <h6 class="fw-bold text-dark mb-2" style="font-size: 13.5px; text-transform: uppercase; letter-spacing: 0.5px;">
                         Typical Applications:
                     </h6>
@@ -557,7 +557,7 @@ include_once 'partials/header.php';
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
     </div>
 </section>
@@ -566,10 +566,10 @@ include_once 'partials/header.php';
      3. Engineering Consultation & Inquiry Banner
      ============================================================ -->
 <section class="py-5 text-white position-relative"
-    style="background: linear-gradient(135deg, rgba(8, 20, 38, 0.94) 0%, rgba(10, 25, 47, 0.82) 50%, rgba(5, 12, 24, 0.92) 100%), url('assets/img/img/banner/birdge-10.webp') center center / cover no-repeat; padding: 75px 0;">
+    style="background: linear-gradient(135deg, rgba(54, 145, 191, 1) 0%, rgba(54, 145, 191, 1) 50%, rgba(54, 145, 191, 0.99) 100%), url('assets/img/img/banner/birdge-10.webp') center center / cover no-repeat; padding: 75px 0;">
     <div class="container-fluid px-3 px-lg-5 py-3 text-center">
         <span class="badge px-3 py-2 mb-3 rounded-pill text-uppercase fw-bold"
-            style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 12px; letter-spacing: 1.5px;">
+            style="background: var(--theme-subtle); color: white; font-size: 12px; letter-spacing: 1.5px;">
             Custom Engineering &amp; Sizing
         </span>
         <h2 class="fw-bold text-white text-uppercase mx-auto mb-3"
@@ -580,8 +580,8 @@ include_once 'partials/header.php';
             We manufacture custom bearing dimensions, vertical load ratings up to 10,000+ kN, and elastomer layer configurations conforming to your project's approved GAD and structural bridge design drawings.
         </p>
         <div class="d-flex justify-content-center gap-3 flex-wrap">
-            <a href="contact.php" class="btn btn-primary rounded-pill px-5 py-3 fw-bold shadow text-uppercase"
-                style="font-size: 13px; letter-spacing: 0.5px; background: var(--theme-primary); border-color: var(--theme-primary);">
+            <a href="contact.php" class="btn  rounded-pill px-5 py-3 fw-bold shadow text-uppercase"
+                style="font-size: 13px; letter-spacing: 0.5px; background: #f7f7f7ff; color: var(--theme-primary); border-color: white;">
                 Send Bearing Schedule / Drawings <i class="fa-solid fa-arrow-right ms-2"></i>
             </a>
             <!-- <a href="tel:8975766459" class="btn btn-outline-light rounded-pill px-4 py-3 fw-bold"
