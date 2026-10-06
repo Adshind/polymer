@@ -8,7 +8,7 @@ include_once 'partials/header.php';
      1. Modern Hero & Breadcrumb Banner
      ============================================================ -->
 <section class="ht-about-hero position-relative d-flex align-items-center"
-    style="background: linear-gradient(135deg, rgba(9, 20, 36, 0.84) 0%, rgba(14, 34, 61, 0.58) 50%, rgba(6, 13, 24, 0.56) 100%), url('assets/img/img/banner/birdge-11.webp') center center / cover no-repeat; padding-top: 175px; padding-bottom: 75px; margin-top: -160px; min-height: 480px;">
+    style="background: linear-gradient(135deg, rgba(9, 20, 36, 0.84) 0%, rgba(14, 34, 61, 0.58) 50%, rgba(6, 13, 24, 0.56) 100%), url('assets/img/img/banner/about.webp') center center / cover no-repeat; padding-top: 175px; padding-bottom: 75px; margin-top: -160px; min-height: 480px;">
     
     <!-- <div class="position-absolute top-0 end-0 opacity-10 pointer-events-none">
         <svg width="450" height="450" viewBox="0 0 450 450" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -517,16 +517,9 @@ include_once 'partials/header.php';
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".1s">
                     <div class="team-card-modern h-100 d-flex flex-column justify-content-between position-relative shadow-sm">
                         <div>
-                            <div class="team-photo-wrap standard-height position-relative d-flex align-items-center justify-content-center"
-                                style="background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);">
-                                <div class="text-center text-white p-3">
-                                    <div class="p-3 rounded-circle d-inline-flex align-items-center justify-content-center mb-2 shadow"
-                                        style="width: 72px; height: 72px; background: rgba(255,255,255,0.1); border: 2px solid rgba(255,255,255,0.25);">
-                                        <i class="fa-solid fa-briefcase fs-2 text-warning"></i>
-                                    </div>
-                                    <h6 class="text-white fw-bold mb-0 text-uppercase" style="font-family:'Oswald',sans-serif; letter-spacing: 0.5px;">Management Executive</h6>
-                                    <small class="text-white-50" style="font-size: 11px;">Corporate Administration &amp; Operations</small>
-                                </div>
+                            <div class="team-photo-wrap standard-height position-relative">
+                                <img src="assets/pp_data/Page 02/Emp Details/sunil kotagi/sunil-kotagi.webp" alt="Sunil Kotagi - Asst. General Manager" class="team-card-img">
+                                <div class="team-photo-overlay"></div>
                                 <div class="team-badge-icon" title="Asst. General Manager">
                                     <i class="fa-solid fa-user-tie"></i>
                                 </div>
@@ -537,7 +530,7 @@ include_once 'partials/header.php';
                                 </div>
                             </div>
                             <div class="p-4">
-                                <h5 class="fw-bold text-dark mb-1" style="font-family: 'Oswald', sans-serif; font-size: 20px;">Sunil Kotagi</h5>
+                                <h5 class="fw-bold text-dark mb-1" style="font-family: 'Oswald', sans-serif; font-size: 20px;">Sunil Kotagi [ Manager ]</h5>
                                 <span class="badge bg-light text-primary border rounded-pill px-2.5 py-1 small fw-bold mb-3 d-inline-block" style="font-size: 11px;">
                                     <i class="fa-solid fa-graduation-cap me-1"></i> B.Com
                                 </span>
@@ -597,7 +590,7 @@ include_once 'partials/header.php';
                     <div class="team-card-modern h-100 d-flex flex-column justify-content-between position-relative shadow-sm">
                         <div>
                             <div class="team-photo-wrap standard-height position-relative">
-                                <img src="assets/pp_data/Page 02/Emp Details/Narendra Khairnar/Narendra-Khairnar.png" alt="Narendra Khairnar - Lab Technician" class="team-card-img">
+                                <img src="assets/pp_data/Page 02/Emp Details/Narendra Khairnar/narendra-khairnar.webp" alt="Narendra Khairnar - Lab Technician" class="team-card-img">
                                 <div class="team-photo-overlay"></div>
                                 <div class="team-badge-icon" title="Lab Technician">
                                     <i class="fa-solid fa-flask"></i>
@@ -635,7 +628,7 @@ include_once 'partials/header.php';
                     <div class="team-card-modern h-100 d-flex flex-column justify-content-between position-relative shadow-sm">
                         <div>
                             <div class="team-photo-wrap standard-height position-relative">
-                                <img src="assets/pp_data/Page 02/Emp Details/Ancy Madam/IMG_20240704_172145.jpg" alt="Ancy Madhyasth - Executive" class="team-card-img">
+                                <img src="assets/pp_data/Page 02/Emp Details/Ancy Madam/ancy.webp" alt="Ancy Madhyasth - Executive" class="team-card-img">
                                 <div class="team-photo-overlay"></div>
                                 <div class="team-badge-icon" title="Executive">
                                     <i class="fa-solid fa-file-invoice"></i>
@@ -673,7 +666,7 @@ include_once 'partials/header.php';
                     <div class="team-card-modern h-100 d-flex flex-column justify-content-between position-relative shadow-sm">
                         <div>
                             <div class="team-photo-wrap standard-height position-relative">
-                                <img src="assets/pp_data/Page 02/Emp Details/Nitin Pandey/IMG-20260921-WA0011 (1).jpg" alt="Nitin Pandey - R&D Head & Quality Manager" class="team-card-img">
+                                <img src="assets/pp_data/Page 02/Emp Details/Nitin Pandey/nitin-pandey.webp" alt="Nitin Pandey - R&D Head & Quality Manager" class="team-card-img">
                                 <div class="team-photo-overlay"></div>
                                 <div class="team-badge-icon" title="R&D Head & Quality Manager">
                                     <i class="fa-solid fa-microchip"></i>
@@ -972,7 +965,7 @@ include_once 'partials/header.php';
         height: 290px;
     }
     .team-photo-wrap.standard-height {
-        height: 260px;
+        height: 320px;
     }
     .team-card-img {
         width: 100%;

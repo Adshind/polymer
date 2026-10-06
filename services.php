@@ -62,28 +62,54 @@ include_once 'partials/header.php';
     border-color: var(--theme-primary);
     box-shadow: 0 4px 12px rgba(0,0,0,0.04);
 }
+.services-hero-showcase {
+    max-width: 440px;
+    width: 100%;
+}
+.services-hero-img-box {
+    transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.35);
+}
+.services-hero-img-box:hover {
+    transform: translateY(-5px);
+    border-color: rgba(147, 197, 253, 0.45) !important;
+    box-shadow: 0 25px 55px rgba(2, 132, 199, 0.28) !important;
+}
+.services-hero-img-box img {
+    transition: transform 0.45s ease;
+    filter: drop-shadow(0 15px 25px rgba(0,0,0,0.45));
+}
+.services-hero-img-box:hover img {
+    transform: scale(1.05);
+}
 </style>
 
 <!-- ============================================================
      1. Modern Hero Banner
      ============================================================ -->
 <section class="ht-services-hero position-relative d-flex align-items-center"
-    style="background: linear-gradient(135deg, rgba(9, 20, 36, 0.62) 0%, rgba(14, 34, 61, 0.45) 50%, rgba(6, 13, 24, 0.55) 100%), url('assets/img/img/banner/birdge-8.webp') center center / cover no-repeat; padding-top: 175px; padding-bottom: 75px; margin-top: -160px; min-height: 460px;">
+    style="background: linear-gradient(135deg, rgba(9, 20, 36, 0.70) 0%, rgba(14, 34, 61, 0.52) 50%, rgba(6, 13, 24, 0.65) 100%), url('assets/img/img/banner/birdge-8.webp') center center / cover no-repeat; padding-top: 175px; padding-bottom: 75px; margin-top: -160px; min-height: 480px;">
     
     <div class="container-fluid px-3 px-lg-5 position-relative" style="z-index: 2;">
-        <div class="row align-items-center">
-            <div class="col-lg-8 wow fadeInLeft" data-wow-delay=".2s">
+        <div class="row align-items-center justify-content-between g-4">
+            
+            <!-- Left Column: Content -->
+            <div class="col-lg-7 wow fadeInLeft" data-wow-delay=".2s">
                 <span class="badge px-3 py-2 mb-3 rounded-pill text-uppercase fw-bold services-hero-badge">
                     <i class="fa-solid fa-layer-group me-2"></i>IRC:83-2018 (Part-II) Approved Products
                 </span>
                 <h1 class="text-white fw-bold mb-3"
-                    style="font-family: 'Oswald', 'Saira-Medium', sans-serif; font-size: clamp(34px, 4.5vw, 54px); line-height: 1.2; letter-spacing: -0.5px;">
+                    style="font-family: 'Oswald', 'Saira-Medium', sans-serif; font-size: clamp(32px, 4.2vw, 52px); line-height: 1.2; letter-spacing: -0.5px;">
                     Proposed Bearing Types <span style="color: #93c5fd;">&amp; Applications</span>
                 </h1>
-                <p class="text-light mb-4" style="font-size: 16px; line-height: 1.8; max-width: 740px; color: #cbd5e1 !important;">
+                <p class="text-light mb-4" style="font-size: 16px; line-height: 1.8; max-width: 700px; color: #cbd5e1 !important;">
                     Engineered elastomeric bridge bearings precision-manufactured to transfer high vertical loads, accommodate longitudinal &amp; transverse movements, and permit angular rotations across highway, railway, and metro infrastructure.
                 </p>
-                <div class="d-flex flex-wrap gap-2 pt-1">
+                <div class="d-flex flex-wrap gap-2 pt-1 mb-3 mb-lg-0">
                     <span class="badge bg-dark bg-opacity-75 border border-secondary text-light px-3 py-2 rounded-pill small">
                         <i class="fa-solid fa-check text-info me-1"></i> Type A Plain Pads
                     </span>
@@ -96,20 +122,37 @@ include_once 'partials/header.php';
                     <span class="badge bg-dark bg-opacity-75 border border-secondary text-light px-3 py-2 rounded-pill small">
                         <i class="fa-solid fa-check text-info me-1"></i> Type F Positive Anchor
                     </span>
-                    <!-- <span class="badge bg-dark bg-opacity-75 border border-secondary text-light px-3 py-2 rounded-pill small">
-                        <i class="fa-solid fa-check text-info me-1"></i> PTFE Sliding
-                    </span> -->
                 </div>
             </div>
 
-            <div class="col-lg-4 mt-4 mt-lg-0 text-lg-end d-none d-lg-block wow fadeInRight" data-wow-delay=".3s">
-                <nav aria-label="breadcrumb">
+            <!-- Right Column: Product Showcase Card & Breadcrumb -->
+            <div class="col-lg-5 text-center text-lg-end wow fadeInRight" data-wow-delay=".3s">
+                <nav aria-label="breadcrumb" class="mb-3 d-none d-lg-block">
                     <ol class="breadcrumb justify-content-lg-end mb-0 bg-transparent p-0">
                         <li class="breadcrumb-item"><a href="index.php" class="text-white-50 text-decoration-none"><i class="fa-solid fa-house me-1"></i>Home</a></li>
                         <li class="breadcrumb-item active text-white fw-semibold" aria-current="page">Products &amp; Bearings</li>
                     </ol>
                 </nav>
+
+                <div class="services-hero-showcase d-inline-block text-center">
+                    <div class="services-hero-img-box p-3 p-md-4 rounded-4 position-relative">
+                        <img src="assets/img/img/banner/Elastomeric-Bridge.png" alt="Elastomeric Bridge Bearing Showcase - Polymer Products" class="img-fluid"
+                            style="max-height: 240px; width: auto; object-fit: contain;">
+                        <div class="d-flex align-items-center justify-content-between gap-2 mt-3 pt-2.5 border-top border-white border-opacity-10 text-start">
+                            <div>
+                                <span class="badge bg-primary text-white rounded-pill px-2.5 py-1 small fw-bold mb-1">
+                                    <i class="fa-solid fa-shield-check me-1"></i> IRC:83 &bull; RDSO
+                                </span>
+                                <h6 class="text-white fw-bold mb-0 small" style="font-family: 'Oswald', sans-serif; letter-spacing: 0.3px;">
+                                    Steel-Laminated Elastomeric Bearing
+                                </h6>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
             </div>
+
         </div>
     </div>
 </section>
