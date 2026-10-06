@@ -58,7 +58,7 @@ include_once 'partials/header.php';
      1. Modern Hero Banner
      ============================================================ -->
 <section class="ht-about-hero position-relative d-flex align-items-center"
-    style="background: linear-gradient(135deg, rgba(9, 20, 36, 0.72) 0%, rgba(14, 34, 61, 0.56) 50%, rgba(6, 13, 24, 0.68) 100%), url('assets/img/img/banner/birdge-2.webp') center center / cover no-repeat; padding-top: 175px; padding-bottom: 75px; margin-top: -160px; min-height: 440px;">
+    style="background: linear-gradient(135deg, rgba(9, 20, 36, 0.72) 0%, rgba(14, 34, 61, 0.56) 50%, rgba(6, 13, 24, 0.68) 100%), url('assets/img/img/banner/Experience.webp') center center / cover no-repeat; padding-top: 175px; padding-bottom: 75px; margin-top: -160px; min-height: 440px;">
     
     <div class="container-fluid px-3 px-lg-5 position-relative" style="z-index: 2;">
         <div class="row align-items-center">
