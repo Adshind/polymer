@@ -66,6 +66,29 @@ $process_images = [
     font-size: 13px;
     letter-spacing: 1px;
 }
+.process-hero-showcase {
+    perspective: 1000px;
+}
+.process-hero-img-box {
+    transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.35);
+}
+.process-hero-img-box:hover {
+    transform: translateY(-5px);
+    border-color: rgba(147, 197, 253, 0.45) !important;
+    box-shadow: 0 25px 55px rgba(2, 132, 199, 0.28) !important;
+}
+.process-hero-img-box img {
+    transition: transform 0.45s ease;
+    filter: drop-shadow(0 15px 25px rgba(0,0,0,0.45));
+}
+.process-hero-img-box:hover img {
+    transform: scale(1.04);
+}
 .process-step-card {
     transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
     border: 1px solid #e2e8f0;
@@ -190,11 +213,13 @@ $process_images = [
      1. Modern Hero Banner
      ============================================================ -->
 <section class="ht-about-hero position-relative d-flex align-items-center"
-    style="background: linear-gradient(135deg, rgba(9, 20, 36, 0.88) 0%, rgba(14, 34, 61, 0.65) 50%, rgba(6, 13, 24, 0.65) 100%), url('assets/img/img/banner/process.webp') center center / cover no-repeat; padding-top: 175px; padding-bottom: 75px; margin-top: -160px; min-height: 440px;">
+    style="background: linear-gradient(135deg, rgba(9, 20, 36, 0.88) 0%, rgba(14, 34, 61, 0.65) 50%, rgba(6, 13, 24, 0.65) 100%), url('assets/img/img/banner/process.webp') center center / cover no-repeat; padding-top: 175px; padding-bottom: 75px; margin-top: -160px; min-height: 480px;">
     
     <div class="container-fluid px-3 px-lg-5 position-relative" style="z-index: 2;">
-        <div class="row align-items-center">
-            <div class="col-lg-8 wow fadeInLeft" data-wow-delay=".2s">
+        <div class="row align-items-center justify-content-between g-4">
+            
+            <!-- Left Column: Content -->
+            <div class="col-lg-7 wow fadeInLeft" data-wow-delay=".2s">
                 <span class="badge px-3 py-2 mb-3 rounded-pill text-uppercase process-hero-badge">
                     <i class="fa-solid fa-industry me-2"></i>Nashik Plant Operations &amp; Machinery
                 </span>
@@ -218,7 +243,23 @@ $process_images = [
                 </div>
             </div>
 
-         
+            <!-- Right Column: Process Showcase Image & Breadcrumb -->
+            <div class="col-lg-5 text-center text-lg-end wow fadeInRight" data-wow-delay=".3s">
+                <nav aria-label="breadcrumb" class="mb-3 d-none d-lg-block">
+                    <ol class="breadcrumb justify-content-lg-end mb-0 bg-transparent p-0">
+                        <li class="breadcrumb-item"><a href="index.php" class="text-white-50 text-decoration-none"><i class="fa-solid fa-house me-1"></i>Home</a></li>
+                        <li class="breadcrumb-item active text-white fw-semibold" aria-current="page">Manufacturing Process</li>
+                    </ol>
+                </nav>
+
+                <div class="process-hero-showcase d-inline-block text-center">
+                    <div class="process-hero-img-box p-3 p-md-4 rounded-4 position-relative">
+                        <img src="assets/img/img/banner/process-right.png" alt="Manufacturing Process & Machinery - Polymer Products" class="img-fluid"
+                            style="max-height: 300px; width: auto; object-fit: contain;">
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 </section>

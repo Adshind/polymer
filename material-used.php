@@ -1,4 +1,4 @@
-<?php 
+﻿<?php 
 $page_title = "Raw Materials & Machinery Infrastructure - Polymer Products";
 $meta_description = "Complete specifications of raw materials (NR, CR, IS:2062 Steel, PTFE) and 42 manufacturing & testing machineries installed at Polymer Products, Nashik.";
 include_once 'partials/header.php'; 
@@ -70,7 +70,7 @@ include_once 'partials/header.php';
      1. Hero Banner
      ============================================================ -->
 <section class="ht-material-hero position-relative d-flex align-items-center"
-    style="background: linear-gradient(135deg, rgba(9, 20, 36, 0.60) 0%, rgba(14, 34, 61, 0.58) 50%, rgba(6, 13, 24, 0.45) 100%), url('assets/img/img/banner/birdge-7.webp') center center / cover no-repeat; padding-top: 175px; padding-bottom: 75px; margin-top: -160px; min-height: 460px;">
+    style="background: linear-gradient(135deg, rgba(0, 0, 0, 0.5) 0%, rgba(14, 34, 61, 0.58) 50%, rgba(0, 0, 0, 0.55) 100%), url('assets/img/img/banner/material-image.webp') center center / cover no-repeat; padding-top: 175px; padding-bottom: 75px; margin-top: -160px; min-height: 460px;">
     
     <div class="container-fluid px-3 px-lg-5 position-relative" style="z-index: 2;">
         <div class="row align-items-center">
@@ -81,7 +81,7 @@ include_once 'partials/header.php';
                 <h1 class="text-white fw-bold mb-3" style="font-family: 'Oswald', 'Saira-Medium', sans-serif; font-size: clamp(34px, 4.5vw, 54px); line-height: 1.2;">
                     Raw Materials &amp; <span style="color: #93c5fd;">List of Machinery</span>
                 </h1>
-                <p class="text-light mb-4" style="font-size: 16px; line-height: 1.8; max-width: 760px; color: #cbd5e1 !important;">
+                <p class="text-light mb-4" style="font-size: 16px; line-height: 1.8; max-width: 760px; color: #dfe4ebff !important;">
                     Official technical specifications for certified raw elastomer polymers (NR/CR), IS:2062 Grade E250 mild steel laminates, virgin PTFE media, and comprehensive list of 42 manufacturing &amp; testing machineries installed at our Nashik plant.
                 </p>
                 <div class="d-flex flex-wrap gap-3">

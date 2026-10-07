@@ -52,25 +52,50 @@ include_once 'partials/header.php';
     box-shadow: 0 12px 24px rgba(0,0,0,0.06);
     border-color: var(--theme-primary);
 }
+.exp-hero-showcase {
+    perspective: 1000px;
+}
+.exp-hero-img-box {
+    transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.35);
+}
+.exp-hero-img-box:hover {
+    transform: translateY(-5px);
+    border-color: rgba(147, 197, 253, 0.45) !important;
+    box-shadow: 0 25px 55px rgba(2, 132, 199, 0.28) !important;
+}
+.exp-hero-img-box img {
+    transition: transform 0.45s ease;
+    filter: drop-shadow(0 15px 25px rgba(0,0,0,0.45));
+}
+.exp-hero-img-box:hover img {
+    transform: scale(1.04);
+}
 </style>
 
 <!-- ============================================================
      1. Modern Hero Banner
      ============================================================ -->
 <section class="ht-about-hero position-relative d-flex align-items-center"
-    style="background: linear-gradient(135deg, rgba(9, 20, 36, 0.72) 0%, rgba(14, 34, 61, 0.56) 50%, rgba(6, 13, 24, 0.68) 100%), url('assets/img/img/banner/Experience.webp') center center / cover no-repeat; padding-top: 175px; padding-bottom: 75px; margin-top: -160px; min-height: 440px;">
+    style="background: linear-gradient(135deg, rgba(9, 20, 36, 0.72) 0%, rgba(14, 34, 61, 0.56) 50%, rgba(6, 13, 24, 0.68) 100%), url('assets/img/img/banner/Experience.webp') center center / cover no-repeat; padding-top: 175px; padding-bottom: 75px; margin-top: -160px; min-height: 480px;">
     
     <div class="container-fluid px-3 px-lg-5 position-relative" style="z-index: 2;">
-        <div class="row align-items-center">
-            <div class="col-lg-8 wow fadeInLeft" data-wow-delay=".2s">
+        <div class="row align-items-center justify-content-between g-4">
+            
+            <!-- Left Column: Content -->
+            <div class="col-lg-7 wow fadeInLeft" data-wow-delay=".2s">
                 <span class="badge px-3 py-2 mb-3 rounded-pill text-uppercase exp-hero-badge">
                     <i class="fa-solid fa-award me-2"></i>Proven Supply Track Record &bull; Estd. 1978
                 </span>
                 <h1 class="text-white fw-bold mb-3"
-                    style="font-family: 'Oswald', 'Saira-Medium', sans-serif; font-size: clamp(32px, 4.5vw, 52px); letter-spacing: -0.5px; line-height: 1.2;">
+                    style="font-family: 'Oswald', 'Saira-Medium', sans-serif; font-size: clamp(32px, 4.2vw, 52px); letter-spacing: -0.5px; line-height: 1.2;">
                     Previous Experience <span style="color: #93c5fd;">&amp; Major Project Supplies</span>
                 </h1>
-                <p class="text-light mb-4" style="font-size: 16px; line-height: 1.8; max-width: 760px; color: #cbd5e1 !important;">
+                <p class="text-light mb-4" style="font-size: 16px; line-height: 1.8; max-width: 740px; color: #ecececff !important;">
                     Extensive, verifiable supply track record of certified Elastomeric Bridge Bearings for National Highways (NHAI), Metro Rail Transit networks, and Indian Railways &amp; ROBs across India.
                 </p>
                 <div class="d-flex flex-wrap gap-2 pt-1">
@@ -86,14 +111,23 @@ include_once 'partials/header.php';
                 </div>
             </div>
 
-            <div class="col-lg-4 mt-4 mt-lg-0 text-lg-end d-none d-lg-block wow fadeInRight" data-wow-delay=".3s">
-                <nav aria-label="breadcrumb">
+            <!-- Right Column: Experience Showcase Image & Breadcrumb -->
+            <div class="col-lg-5 text-center text-lg-end wow fadeInRight" data-wow-delay=".3s">
+                <nav aria-label="breadcrumb" class="mb-3 d-none d-lg-block">
                     <ol class="breadcrumb justify-content-lg-end mb-0 bg-transparent p-0">
                         <li class="breadcrumb-item"><a href="index.php" class="text-white-50 text-decoration-none"><i class="fa-solid fa-house me-1"></i>Home</a></li>
                         <li class="breadcrumb-item active text-white fw-semibold" aria-current="page">Experience &amp; Clients</li>
                     </ol>
                 </nav>
+
+                <div class="exp-hero-showcase d-inline-block text-center">
+                    <div class="exp-hero-img-box p-3 p-md-4 rounded-4 position-relative">
+                        <img src="assets/img/img/banner/Experience-right.webp" alt="Major Project Supplies Track Record - Polymer Products" class="img-fluid"
+                            style="max-height: 300px; width: auto; object-fit: contain;">
+                    </div>
+                </div>
             </div>
+
         </div>
     </div>
 </section>
@@ -163,51 +197,7 @@ include_once 'partials/header.php';
                 </div>
             </div>
 
-            <!-- Register 2: Metro Rail Transit -->
-            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay=".25s">
-                <div class="card h-100 p-4 client-register-card shadow-sm d-flex flex-column justify-content-between">
-                    <div>
-                        <div class="d-flex justify-content-between align-items-start mb-4">
-                            <div class="register-icon-wrap">
-                                <i class="fa-solid fa-train-subway"></i>
-                            </div>
-                            <span class="badge rounded-pill fw-bold px-3 py-2"
-                                style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 12.5px;">
-                                23+ Packages
-                            </span>
-                        </div>
-
-                        <h3 class="fw-bold text-dark mb-2" style="font-family: 'Oswald', sans-serif; font-size: 22px;">
-                            Metro Rail Transit Sector
-                        </h3>
-                        <p class="text-muted small mb-4" style="font-size: 14px; line-height: 1.65;">
-                            Verified project supply track record for Mumbai Metro (Line 4 CA-10 &amp; CA-12, CA-07), Pune Metro (Pkg-1 &amp; Pkg-2), Delhi Metro Rail Corporation (DMRC), and Nagpur Metro viaducts.
-                        </p>
-
-                        <div class="bg-light rounded-3 p-3 mb-4 border" style="font-size: 13px;">
-                            <div class="text-dark fw-semibold mb-1">
-                                <i class="fa-solid fa-file-lines text-primary me-2"></i> Document: <span class="text-secondary">NEW METRO CLIENTS.pdf</span>
-                            </div>
-                            <div class="text-muted">
-                                <i class="fa-solid fa-check-double text-success me-2"></i> Coverage: DMRC, Mumbai Metro, Pune &amp; Nagpur Metro
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="border-top pt-3">
-                        <button type="button" class="btn btn-primary w-100 rounded-pill py-2.5 fw-bold shadow-sm open-exp-doc-modal d-flex align-items-center justify-content-center gap-2"
-                            data-doc-url="assets/pp_data/Page 08/NEW METRO CLIENTS.pdf"
-                            data-doc-title="Metro Rail Transit Sector - Client Supply Register (23+ Packages)"
-                            data-doc-type="pdf"
-                            style="background: var(--theme-primary); border-color: var(--theme-primary); font-size: 14px;">
-                            <i class="fa-solid fa-file-pdf"></i>
-                            <span>View Metro Clients Register</span>
-                        </button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Register 3: Indian Railways & ROBs -->
+            <!-- Register 2: Indian Railways & ROBs -->
             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay=".35s">
                 <div class="card h-100 p-4 client-register-card shadow-sm d-flex flex-column justify-content-between">
                     <div>
@@ -246,6 +236,50 @@ include_once 'partials/header.php';
                             style="background: var(--theme-primary); border-color: var(--theme-primary); font-size: 14px;">
                             <i class="fa-solid fa-file-pdf"></i>
                             <span>View Railway Clients Register</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+             <!-- Register 3: Metro Rail Transit -->
+            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay=".25s">
+                <div class="card h-100 p-4 client-register-card shadow-sm d-flex flex-column justify-content-between">
+                    <div>
+                        <div class="d-flex justify-content-between align-items-start mb-4">
+                            <div class="register-icon-wrap">
+                                <i class="fa-solid fa-train-subway"></i>
+                            </div>
+                            <span class="badge rounded-pill fw-bold px-3 py-2"
+                                style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 12.5px;">
+                                23+ Packages
+                            </span>
+                        </div>
+
+                        <h3 class="fw-bold text-dark mb-2" style="font-family: 'Oswald', sans-serif; font-size: 22px;">
+                            Metro Rail Transit Sector
+                        </h3>
+                        <p class="text-muted small mb-4" style="font-size: 14px; line-height: 1.65;">
+                            Verified project supply track record for Mumbai Metro (Line 4 CA-10 &amp; CA-12, CA-07), Pune Metro (Pkg-1 &amp; Pkg-2), Delhi Metro Rail Corporation (DMRC), and Nagpur Metro viaducts.
+                        </p>
+
+                        <div class="bg-light rounded-3 p-3 mb-4 border" style="font-size: 13px;">
+                            <div class="text-dark fw-semibold mb-1">
+                                <i class="fa-solid fa-file-lines text-primary me-2"></i> Document: <span class="text-secondary">NEW METRO CLIENTS.pdf</span>
+                            </div>
+                            <div class="text-muted">
+                                <i class="fa-solid fa-check-double text-success me-2"></i> Coverage: DMRC, Mumbai Metro, Pune &amp; Nagpur Metro
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="border-top pt-3">
+                        <button type="button" class="btn btn-primary w-100 rounded-pill py-2.5 fw-bold shadow-sm open-exp-doc-modal d-flex align-items-center justify-content-center gap-2"
+                            data-doc-url="assets/pp_data/Page 08/NEW METRO CLIENTS.pdf"
+                            data-doc-title="Metro Rail Transit Sector - Client Supply Register (23+ Packages)"
+                            data-doc-type="pdf"
+                            style="background: var(--theme-primary); border-color: var(--theme-primary); font-size: 14px;">
+                            <i class="fa-solid fa-file-pdf"></i>
+                            <span>View Metro Clients Register</span>
                         </button>
                     </div>
                 </div>

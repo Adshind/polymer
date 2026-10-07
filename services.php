@@ -92,7 +92,7 @@ include_once 'partials/header.php';
      1. Modern Hero Banner
      ============================================================ -->
 <section class="ht-services-hero position-relative d-flex align-items-center"
-    style="background: linear-gradient(135deg, rgba(9, 20, 36, 0.70) 0%, rgba(14, 34, 61, 0.52) 50%, rgba(6, 13, 24, 0.65) 100%), url('assets/img/img/banner/birdge-8.webp') center center / cover no-repeat; padding-top: 175px; padding-bottom: 75px; margin-top: -160px; min-height: 480px;">
+    style="background: linear-gradient(135deg, rgba(9, 20, 36, 0.70) 0%, rgba(14, 34, 61, 0.52) 60%, rgba(6, 13, 24, 0.53) 100%), url('assets/img/img/banner/services-banner-1.png') center center / cover no-repeat; padding-top: 175px; padding-bottom: 75px; margin-top: -160px; min-height: 480px;">
     
     <div class="container-fluid px-3 px-lg-5 position-relative" style="z-index: 2;">
         <div class="row align-items-center justify-content-between g-4">
@@ -106,7 +106,7 @@ include_once 'partials/header.php';
                     style="font-family: 'Oswald', 'Saira-Medium', sans-serif; font-size: clamp(32px, 4.2vw, 52px); line-height: 1.2; letter-spacing: -0.5px;">
                     Proposed Bearing Types <span style="color: #93c5fd;">&amp; Applications</span>
                 </h1>
-                <p class="text-light mb-4" style="font-size: 16px; line-height: 1.8; max-width: 700px; color: #cbd5e1 !important;">
+                <p class="text-light mb-4" style="font-size: 16px; line-height: 1.8; max-width: 700px; color: #ffffffff !important;">
                     Engineered elastomeric bridge bearings precision-manufactured to transfer high vertical loads, accommodate longitudinal &amp; transverse movements, and permit angular rotations across highway, railway, and metro infrastructure.
                 </p>
                 <div class="d-flex flex-wrap gap-2 pt-1 mb-3 mb-lg-0">
@@ -136,8 +136,8 @@ include_once 'partials/header.php';
 
                 <div class="services-hero-showcase d-inline-block text-center">
                     <div class="services-hero-img-box p-3 p-md-4 rounded-4 position-relative">
-                        <img src="assets/img/img/banner/Elastomeric-Bridge.png" alt="Elastomeric Bridge Bearing Showcase - Polymer Products" class="img-fluid"
-                            style="max-height: 240px; width: auto; object-fit: contain;">
+                        <img src="assets/img/img/banner/Final-Elastomeric-bearing-banner-right.webp" alt="Elastomeric Bridge Bearing Showcase - Polymer Products" class="img-fluid"
+                            style="max-height: 300px; width: auto; object-fit: contain;">
                         <div class="d-flex align-items-center justify-content-between gap-2 mt-3 pt-2.5 border-top border-white border-opacity-10 text-start">
                             <div>
                                 <span class="badge bg-primary text-white rounded-pill px-2.5 py-1 small fw-bold mb-1">
