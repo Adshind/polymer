@@ -10,10 +10,13 @@ rovals Sequence Component
                 <i class="fa-solid fa-shield-halved me-1.5"></i> Statutory &amp; Quality Approvals
             </span>
             <h2 class="fw-bold text-dark text-uppercase" style="font-family: 'Saira-Medium', 'Oswald', sans-serif; font-size: clamp(28px, 3.5vw, 42px); letter-spacing: -0.5px;">
-                Certifications, Registrations &amp; Approvals  
+                Certifications, Approvals & Credentials
+ 
             </h2>
             <p class="text-muted mx-auto" style="max-width: 780px; font-size: 15px; line-height: 1.8;">
-                Our complete statutory certifications, industrial licenses, and technical quality approvals structured in strict regulatory compliance sequence for bridge and civil infrastructure applications.
+              Our commitment to quality is supported by documented certifications, approvals and compliance with applicable industry requirements.
+Explore the documents below for details of our certifications, approvals and quality credentials.
+
             </p>
         </div>
 

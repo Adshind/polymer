@@ -274,10 +274,11 @@ $process_images = [
                 Standard Operating Procedure (SOP)
             </span>
             <h2 class="fw-bold text-dark" style="font-family:'Oswald', sans-serif; font-size:32px; letter-spacing:0.5px;">
-                 Manufacturing Process Flow
+                 Manufacturing Workflow
             </h2>
             <p class="text-muted mx-auto" style="max-width:700px; font-size:15px;">
-                Every batch is manufactured under strict stage-wise quality inspections to ensure full compliance with IRC:83 (Part II), RDSO BS-131, and MoRTH specifications.
+               Explore the step-by-step manufacturing workflow followed for our bearing products, from material preparation and processing to final inspection. The workflow highlights the key stages involved in maintaining consistent quality, precision, and product reliability. 
+
             </p>
         </div>
 

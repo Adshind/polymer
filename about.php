@@ -77,16 +77,20 @@ include_once 'partials/header.php';
                 <div class="pe-lg-3">
                     <span class="badge px-3 py-2 rounded-pill font-monospace fw-bold text-uppercase mb-2"
                         style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 11px; letter-spacing: 1px;">
-                        OUR HERITAGE &amp; EXPERTISE &bull; ESTD. 1978
+                       COMPANY OVERVIEW
                     </span>
                     <h2 class="fw-bold text-dark mb-3" style="font-family: 'Oswald', sans-serif; font-size: clamp(28px, 3vw, 40px); line-height: 1.2;">
-                        Decades of Prestressing &amp; Polymer Engineering Excellence
+                      OUR HERITAGE & EXPERTISE <br> ESTD. 1978
                     </h2>
                     <p class="text-secondary mb-3" style="font-size: 15.5px; line-height: 1.8;">
-                        <strong>Dynamic Prestress (I) Pvt. Ltd.</strong> is an established Indian engineering enterprise with extensive experience in prestressing technology and civil infrastructure since its establishment in <strong>1978</strong>. Over decades of dedicated leadership, the company has played a pivotal role in the design, manufacturing, supply, and installation of specialized structural components for bridges, flyovers, metro networks, and railway viaducts across India.
+                        Polymer Products marks the beginning of a journey built on engineering knowledge, commitment, and continuous growth. Established in 1978, Polymer Products began its journey with a focus on Elastomer Technology and gradually developed its expertise and capabilities over the decades. This strong foundation later became an integral part of the <strong>Dynamic Prestress Group</strong>,  arrying forward its experience and technical legacy in the field of Elastomeric Bearings.
                     </p>
                     <p class="text-secondary mb-4" style="font-size: 15.5px; line-height: 1.8;">
-                        As a specialized manufacturing division within the Dynamic group, <strong>Polymer Products</strong> focuses on the precision fabrication and physical testing of <strong>Elastomeric Bearings</strong> and <strong>Seismic Vibration Isolation Pads</strong>. Our dedicated manufacturing unit at <strong>H-32, M.I.D.C. SATPUR, NASHIK-422007 Maharashtra, India</strong> operates under strict technical oversight by experienced Rubber Technologists, Structural Engineers, and Polymer Chemists.
+                        Elastomeric Bearings are an important part of Polymer Products’ capabilities, serving as a reliable interface between the bridge superstructure and its supporting elements. Their proper placement and installation are essential for achieving accurate positioning and dependable performance within the bridge structure.
+
+                    </p>
+                    <p class="text-secondary mb-4" style="font-size: 15.5px; line-height: 1.8;">
+                        The video alongside provides a practical view of the installation process, demonstrating the positioning of an Elastomeric Bearing within a bridge structure.
                     </p>
 
                     <!-- Feature Cards Grid -->
@@ -196,7 +200,8 @@ include_once 'partials/header.php';
                         <div>
                             <span class="badge px-3 py-1 rounded-pill text-uppercase fw-bold mb-1"
                                 style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 11px; letter-spacing: 1px;">
-                                Corporate Synergy
+                                A JOURNEY THAT GREW WITH TIME
+
                             </span>
                             <h3 class="fw-bold text-dark mb-0" style="font-family: 'Oswald', sans-serif; font-size: 26px;">
                                 Dynamic Prestress &ndash; Polymer Products Relationship
@@ -204,7 +209,8 @@ include_once 'partials/header.php';
                         </div>
                     </div>
                     <p class="text-secondary small mb-3" style="line-height: 1.8; font-size: 14.5px;">
-                        Polymer Products operates as a specialized manufacturing division within the Dynamic Prestress group. This synergy enables seamless integration of prestressing hardware, structural bridge bearings, expansion joints, and specialized elastomeric components under unified technical governance and rigorous quality audits.
+                      The growth of Polymer Products was followed by the establishment and development of Dynamic Prestress, expanding the group’s presence and capabilities across the infrastructure sector. Today, Polymer Products and <strong>Dynamic Prestress</strong>, continue as sister concerns, each contributing through their respective areas of expertise while remaining connected by a common heritage and shared foundation.
+
                     </p>
                     <div class="row g-2">
                         <div class="col-sm-6 small text-secondary">
@@ -264,7 +270,8 @@ include_once 'partials/header.php';
                 Our Team 
             </h2>
             <p class="text-muted mx-auto" style="max-width: 780px; font-size: 15px; line-height: 1.8;">
-                Our multidisciplinary team of Polymer Scientists, Rubber Technologists, Structural Engineers, Quality Chemists, and dedicated manufacturing technicians driving technical excellence.
+               The strength of Polymer Products lies in the experience, technical expertise, and dedicated efforts of its people, who contribute to the organisation’s capabilities and continued growth.
+
             </p>
         </div>
 
@@ -395,7 +402,7 @@ include_once 'partials/header.php';
                                     <i class="fa-solid fa-graduation-cap me-1"></i> B.Sc. L.P.R.I. (London)
                                 </span>
                                 <p class="text-secondary small mb-2" style="line-height: 1.7; font-size: 13.5px;">
-                                    With 48 years of extensive experience, he brings deep expertise in elastomer chemical composition testing, finished bearing and raw material testing, and day-to-day production management. His strong technical knowledge, practical industry experience, and hands-on leadership contribute to maintaining quality, consistency, and efficient manufacturing operations.
+                                    With 48 years of experience, Mr. Maruti Pandurang Prabhu is the  <strong>founder and driving force behind Polymer Products</strong>, having laid its foundation and shaped its journey from the very beginning. His deep technical knowledge, practical understanding and extensive expertise in elastomer technology have played a defining role in building the organisation’s technical capabilities and manufacturing practices. Through his hands-on leadership and unwavering commitment to quality, he has guided Polymer Products through decades of growth and development. His vision and leadership continue to provide a strong foundation for the organisation’s values, capabilities and future growth.
                                 </p>
                             </div>
                         </div>
@@ -435,7 +442,7 @@ include_once 'partials/header.php';
                                     <i class="fa-solid fa-graduation-cap me-1"></i> M.Sc. (Chemistry)
                                 </span>
                                 <p class="text-secondary small mb-2" style="line-height: 1.7; font-size: 13.5px;">
-                                    With 39 years of extensive experience, she brings strong expertise in testing the physical properties and chemical composition of elastomeric compounds. Her deep technical knowledge and meticulous approach to material testing contribute significantly to quality assurance, product reliability, and consistent manufacturing standards.
+                                    An accomplished professional with an M.Sc. in <strong>Organic Chemistry</strong>, she brings 39 years of rich experience in  <strong>Elastomer Testing</strong> and <strong> Material Evaluation</strong>. Her strong expertise in analysing the physical properties and chemical composition of elastomeric compounds has been instrumental in maintaining material quality and consistency. Her scientific approach, attention to detail and extensive technical knowledge have contributed to strengthening quality practices and ensuring reliable manufacturing standards at Polymer Products. Her experience continues to be a valuable asset in supporting the organisation’s technical and quality-driven approach.
                                 </p>
                             </div>
                         </div>
@@ -475,7 +482,7 @@ include_once 'partials/header.php';
                                     <i class="fa-solid fa-graduation-cap me-1"></i> B.E. (Mechanical)
                                 </span>
                                 <p class="text-secondary small mb-2" style="line-height: 1.7; font-size: 13.5px;">
-                                    With 16 years of experience, he brings strong expertise in bearing design, quality control, and production management. His technical knowledge and hands-on approach contribute to maintaining high standards of quality, efficient production, and continuous improvement. He also plays an active role in technical coordination and operational decision-making, supporting the smooth execution of projects and overall manufacturing performance.
+                                    A Mechanical Engineering professional with 16 years of experience, he has developed extensive expertise in Bearing Design, Quality Assurance, and Production Management. His strong technical understanding, combined with hands-on involvement in manufacturing operations, supports product quality, process efficiency, and continuous improvement. He plays an active role in technical coordination and operational decision-making, contributing to effective project execution and the consistent performance of Polymer Products.
                                 </p>
                             </div>
                         </div>
@@ -513,29 +520,29 @@ include_once 'partials/header.php';
 
             <div class="row g-4">
 
-                <!-- 4. Sunil Kotagi - ASST GENERAL MANAGER -->
+                <!-- 4. Sunil Kotagi - GENERAL MANAGER -->
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".1s">
                     <div class="team-card-modern h-100 d-flex flex-column justify-content-between position-relative shadow-sm">
                         <div>
                             <div class="team-photo-wrap standard-height position-relative">
-                                <img src="assets/img/img/about/12.webp" alt="Sunil Kotagi - Asst. General Manager" class="team-card-img">
+                                <img src="assets/img/img/about/12.webp" alt="Sunil Kotagi - General Manager" class="team-card-img">
                                 <div class="team-photo-overlay"></div>
-                                <div class="team-badge-icon" title="Asst. General Manager">
+                                <div class="team-badge-icon" title="General Manager">
                                     <i class="fa-solid fa-user-tie"></i>
                                 </div>
                                 <div class="team-role-tag">
                                     <span class="badge px-3 py-1.5 rounded-pill">
-                                        Asst. General Manager
+                                        General Manager
                                     </span>
                                 </div>
                             </div>
                             <div class="p-4">
-                                <h5 class="fw-bold text-dark mb-1" style="font-family: 'Oswald', sans-serif; font-size: 20px;">Sunil Kotagi [ Manager ]</h5>
+                                <h5 class="fw-bold text-dark mb-1" style="font-family: 'Oswald', sans-serif; font-size: 20px;">Sunil Kotagi</h5>
                                 <span class="badge bg-light text-primary border rounded-pill px-2.5 py-1 small fw-bold mb-3 d-inline-block" style="font-size: 11px;">
                                     <i class="fa-solid fa-graduation-cap me-1"></i> B.Com
                                 </span>
                                 <p class="text-secondary small mb-0" style="line-height: 1.6; font-size: 13px;">
-                                    Assistant General Manager overseeing corporate operations, material procurement, supply chain coordination, client liaison, and general commercial administration.
+                                    As General Manager, he oversees key commercial and administrative functions including material procurement, supply chain management, client liaison, and commercial activities. His role involves working closely with vendors, clients, and internal departments to ensure timely execution of requirements and smooth business processes. He is also involved in planning, monitoring, and managing day-to-day commercial activities, ensuring that requirements are addressed efficiently and within the required timelines. His experience in handling multiple functions enables him to support effective decision-making, maintain strong business relationships, and facilitate the smooth functioning of various departments. Through his involvement across key business activities, he contributes to operational efficiency and the overall growth and development of the organisation.
                                 </p>
                             </div>
                         </div>
@@ -547,19 +554,19 @@ include_once 'partials/header.php';
                     </div>
                 </div>
 
-                <!-- 5. Tausifkhan Pathan - DY. MANAGER DESIGN & TESTING -->
+                <!-- 5. Tausifkhan Pathan - DESIGN & TESTING -->
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".2s">
                     <div class="team-card-modern h-100 d-flex flex-column justify-content-between position-relative shadow-sm">
                         <div>
                             <div class="team-photo-wrap standard-height position-relative">
-                                <img src="assets/img/img/about/13.webp" alt="Tausifkhan Pathan - Dy. Manager Design & Testing" class="team-card-img">
+                                <img src="assets/img/img/about/13.webp" alt="Tausifkhan Pathan - Design & Testing" class="team-card-img">
                                 <div class="team-photo-overlay"></div>
                                 <div class="team-badge-icon" title="Design & Testing">
                                     <i class="fa-solid fa-compass-drafting"></i>
                                 </div>
                                 <div class="team-role-tag">
                                     <span class="badge px-3 py-1.5 rounded-pill">
-                                        Dy. Manager Design &amp; Testing
+                                        Design &amp; Testing
                                     </span>
                                 </div>
                             </div>
@@ -569,7 +576,7 @@ include_once 'partials/header.php';
                                     <i class="fa-solid fa-graduation-cap me-1"></i> B.E. (Mechanical)
                                 </span>
                                 <p class="text-secondary small mb-0" style="line-height: 1.6; font-size: 13px;">
-                                    With 13 years of professional experience, including 8 years at Dynamic Prestress, he specializes in elastomeric and pot bearing design, engineering drawings, testing, QA/QC, and production coordination. His expertise includes client and consultant coordination, technical problem-solving, and project-site support, ensuring effective solutions throughout the bearing lifecycle.
+                                    Working in the field of design and testing, he has 13 years of professional experience, including 8 years with Dynamic Prestress. His responsibilities cover the design and development of elastomeric and pot bearings, preparation of engineering drawings, testing, QA/QC, and coordination with production teams. He also handles technical coordination with clients and consultants, addresses design and technical requirements, and provides support during project execution and site activities.
                                 </p>
                             </div>
                         </div>
@@ -607,7 +614,7 @@ include_once 'partials/header.php';
                                     <i class="fa-solid fa-graduation-cap me-1"></i> ITI (Rubber Technician)
                                 </span>
                                 <p class="text-secondary small mb-0" style="line-height: 1.6; font-size: 13px;">
-                                    As a Rubber Technologist at Polymer Products, he specializes in polymer science, elastomer technology, and advanced material compounding. His expertise includes the formulation, processing, and development of high-performance polymer products, with a focus on achieving durability, reliability, and consistent product performance.
+                                    As a Lab Technician at Polymer Products, he is involved in polymer material testing, elastomer compounding, and laboratory activities related to material development. His work includes supporting the formulation and processing of elastomeric materials, evaluating material properties, and assisting in the development of compounds for consistent product performance. His technical understanding and laboratory involvement contribute to effective material evaluation, quality consistency, and reliable performance of polymer products.
                                 </p>
                             </div>
                         </div>
@@ -623,14 +630,14 @@ include_once 'partials/header.php';
                     </div>
                 </div>
 
-                <!-- 7. Ancy Madhyasth - EXECUTIVE -->
+                <!-- 7. Ancy Madhyasth - COMMERCIAL EXECUTIVE -->
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".4s">
                     <div class="team-card-modern h-100 d-flex flex-column justify-content-between position-relative shadow-sm">
                         <div>
                             <div class="team-photo-wrap standard-height position-relative">
-                                <img src="assets/img/img/about/15.webp" alt="Ancy Madhyasth - Executive" class="team-card-img">
+                                <img src="assets/img/img/about/15.webp" alt="Ancy Madhyasth - Commercial Executive" class="team-card-img">
                                 <div class="team-photo-overlay"></div>
-                                <div class="team-badge-icon" title="Executive">
+                                <div class="team-badge-icon" title="Commercial Executive">
                                     <i class="fa-solid fa-file-invoice"></i>
                                 </div>
                                 <div class="team-role-tag">
@@ -645,7 +652,7 @@ include_once 'partials/header.php';
                                     <i class="fa-solid fa-graduation-cap me-1"></i> B.Com
                                 </span>
                                 <p class="text-secondary small mb-0" style="line-height: 1.6; font-size: 13px;">
-                                    Experienced in Accounts, Purchase, and Sales operations, with expertise in maintaining financial records, managing transactions, coordinating with vendors, and supporting day-to-day departmental activities. Focused on ensuring accuracy, timely execution, and smooth operational functioning. Contributes to effective coordination across departments and supports the organization’s overall business and operational efficiency.
+                                    As a Commercial Executive, she handles key responsibilities across Accounts, Purchase, and Sales. Her work includes maintaining financial records, processing transactions, coordinating with vendors, and managing day-to-day commercial requirements. She ensures accuracy and timely completion of tasks while supporting the smooth functioning of these functions. Her role also involves maintaining proper documentation, following up on pending requirements, and assisting with the timely completion of routine commercial and administrative tasks.
                                 </p>
                             </div>
                         </div>
@@ -683,7 +690,7 @@ include_once 'partials/header.php';
                                     <i class="fa-solid fa-flask-vial me-1"></i> Rubber Technology
                                 </span>
                                 <p class="text-secondary small mb-0" style="line-height: 1.6; font-size: 13px;">
-                                    With 2+ years of experience as a Rubber Technologist at Polymer Products, he specializes in the manufacturing and production of Elastomeric Bridge Bearings, including Type A, B, C, F, and RDSO bearings. His expertise covers bearing testing, inspection, dimensional quality control, material quality assurance, and production monitoring, ensuring compliance with approved specifications and maintaining consistent product quality.
+                                    As R&D Head &amp; Quality Manager, he is responsible for the development, testing, and quality management of elastomeric bridge bearings, including Type A, B, C, F, and RDSO bearings. His responsibilities include bearing testing and inspection, quality control, material quality assurance, and monitoring of production processes. His technical involvement supports adherence to approved specifications, consistent product quality, and effective quality control throughout the manufacturing process.
                                 </p>
                             </div>
                         </div>
@@ -723,7 +730,7 @@ include_once 'partials/header.php';
                                     <i class="fa-solid fa-graduation-cap me-1"></i> M.Sc. in Industrial Chemistry
                                 </span>
                                 <p class="text-secondary small mb-0" style="line-height: 1.6; font-size: 13px;">
-                                    With 2 years of experience in the QC &amp; R&amp;D Department at Polymer Products, he is involved in quality control, laboratory testing, and research activities related to elastomeric materials. With a Master’s degree in Industrial Chemistry, he contributes to systematic testing, material analysis, and maintaining consistent quality standards.
+                                    As Lab Manager, he is responsible for quality control, laboratory testing, and research activities related to elastomeric materials. With an M.Sc. in Industrial Chemistry, he brings a systematic approach to material analysis, testing, and evaluation, supporting accurate and reliable laboratory results. His work contributes to maintaining consistent material quality, strengthening quality control practices, and ensuring that products meet the required standards and specifications.
                                 </p>
                             </div>
                         </div>
@@ -827,7 +834,8 @@ include_once 'partials/header.php';
                 Proposed Bearing Types &amp; Technical Drawings
             </h2>
             <p class="text-muted mx-auto" style="max-width: 720px; font-size: 15px; line-height: 1.7;">
-                Precision-engineered configurations manufactured in strict accordance with IRC:83 (Part II), UIC 772-2R, and RDSO bridge guidelines.
+               Explore the range of bearing types offered by <strong>Polymer Products</strong>, along with their corresponding technical drawings and key specifications. The section provides a clear reference for understanding bearing configurations, dimensions, and application requirements. 
+
             </p>
         </div>
 

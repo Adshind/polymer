@@ -251,11 +251,13 @@ include_once 'partials/header.php';
                 Official Quality Protocol
             </span>
             <h2 class="fw-bold text-dark" style="font-family:'Oswald', sans-serif; font-size:34px; letter-spacing:0.5px;">
-                PRODUCT IDENTIFICATION FLOW CHART
+                IDENTIFICATION 
             </h2>
             <p class="text-muted mx-auto" style="max-width:720px; font-size:15px; line-height:1.7;">
-                Step-by-step product tracking workflow compliant with <strong>IRC:83 (Part II)</strong>, <strong>RDSO</strong>, and <strong>ISO 9001:2027</strong> quality control standards.
+                A clear identification system helps ensure that each bearing can be traced and verified through its relevant product and manufacturing details.
             </p>
+            <P class="text-muted mx-auto" style="max-width:720px; font-size:15px; line-height:1.7;">The identification format is illustrated in the chart below.
+</p>
         </div>
 
         <!-- Visual Sequential Stepper Summary -->

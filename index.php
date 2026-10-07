@@ -235,21 +235,15 @@ include_once 'partials/header.php';
                         Company</span>
                     <h2 class="fw-bold text-dark mb-4"
                         style="font-size:42px; line-height:1.2; font-family:'Oswald', sans-serif; text-transform:uppercase; letter-spacing:-0.5px;">
-                       Achieving Your Structural Goals
+                       ENGINEERED FOR RELIABLE INFRASTRUCTURE
+
                     </h2>
                     <p class="text-secondary mb-3" style="font-size:16px; line-height:1.8;">
-                        <strong>Polymer Products</strong> is an established name in the civil engineering industry,
-                        specialising in the manufacture and supply of <strong>Elastomeric Bearings</strong> and
-                        <strong>Seismic Pads</strong>. The company has extensive experience in bridge bearing
-                        applications and has developed comprehensive manufacturing and testing capabilities to serve
-                        major infrastructure requirements.
+                        Polymer Products is an established manufacturer and supplier of <strong>Elastomeric Bearings</strong> for bridges and other civil infrastructure applications. With more than three decades of experience in Elastomeric Bearing Applications, we have developed strong expertise in manufacturing and supplying dependable bearing solutions for diverse project requirements. Our bearings are manufactured at our dedicated facility in <strong>Nashik</strong>, supported by in-house testing capabilities and an experienced team of Rubber Technologists, engineers and chemists.
                     </p>
                     <p class="text-muted mb-4" style="font-size:15px; line-height:1.8;">
-                        Our Elastomeric Bearings are manufactured at our dedicated manufacturing unit located at <strong>H-32,
-                            M.I.D.C. SATPUR, NASHIK-422007 Maharashtra, India</strong>, supported by experienced Rubber Technologists, Structural
-                        Engineers, Chemists, and supervisory personnel. Established in <strong>1978</strong>, Polymer Products has
-                        supplied bearings for prestigious railway, highway, bridge, and flyover projects across
-                        India.
+                        Our manufacturing process incorporates controlled raw material selection, rubber compounding, steel plate preparation, bonding, vulcanization, inspection and testing. We follow defined quality procedures and manufacture products in accordance with applicable project specifications, approved drawings and relevant standards. Our experience extends across <strong>railways, highways, bridges, flyovers and metro infrastructure</strong>, reflecting our commitment to consistent quality, technical reliability and dependable performance.
+
                     </p>
 
                     <!--   Notice Card -->
@@ -518,9 +512,9 @@ include_once 'partials/header.php';
                 style="letter-spacing:1px; border-radius:50px;">Proven Track Record</span>
             <h2 class="fw-bold text-dark text-uppercase" style="font-family:'Oswald', sans-serif; font-size:38px;">
                 Experience in Major Infrastructure Projects</h2>
-            <p class="text-muted mx-auto" style="max-width:720px; font-size:15px; line-height:1.7;">Supplying
-                certified elastomeric bearings and seismic pads to national highway networks, railway viaducts,
-                metro transit systems, and state infrastructure corporations.</p>
+            <p class="text-muted mx-auto" style="max-width:720px; font-size:15px; line-height:1.7;">Our Elastomeric Bearings have been supplied for diverse infrastructure projects across highways, railways and metro systems.
+The project credentials below highlight our experience across these sectors, including the projects served and bearing solutions supplied.
+</p>
         </div>
 
         <div class="row g-4">
@@ -542,9 +536,8 @@ include_once 'partials/header.php';
                             style="font-family:'Oswald', sans-serif; font-size:22px;">NHAI & Highway Bridges
                         </h4>
                         <p class="card-text text-muted small mb-0" style="line-height:1.7;">
-                            Certified high-tonnage elastomeric bearing supplies for National Highways Authority
-                            of India expressways, 4/6-lane highway bridge expansions, elevated corridors, and
-                            grade separators.
+                            Our experience in highway infrastructure includes Elastomeric Bearing supplies for <strong>NHAI projects, major bridges and flyover developments</strong> across India. We have supported diverse highway structures through bearings manufactured to meet project-specific requirements. The credentials below present selected projects, clients and bearing sizes supplied. 
+
                         </p>
                     </div>
                 </div>
@@ -567,9 +560,8 @@ include_once 'partials/header.php';
                             style="font-family:'Oswald', sans-serif; font-size:22px;">Indian Railways & ROBs
                         </h4>
                         <p class="card-text text-muted small mb-0" style="line-height:1.7;">
-                            Approved bearing supplies for Konkan Railways, Railway Over Bridges (ROBs), major
-                            river bridge girders, and track slab vibration dampeners adhering to strict RDSO
-                            quality guidelines.
+                        <strong>Polymer Products</strong> has a long-standing association with<strong> Railway Infrastructure</strong>, including Railway Bridges and Railway Over Bridges (ROBs). Our experience covers supplies for projects associated with Indian Railways and various railway infrastructure contractors. The credentials below highlight the projects undertaken and the range of bearing sizes supplied. 
+
                         </p>
                     </div>
                 </div>
@@ -592,9 +584,8 @@ include_once 'partials/header.php';
                         <h4 class="card-title fw-bold text-dark mb-2"
                             style="font-family:'Oswald', sans-serif; font-size:22px;">Metro Rail Systems</h4>
                         <p class="card-text text-muted small mb-0" style="line-height:1.7;">
-                            Specialized elastomeric bearings and seismic vibration isolation pads deployed in
-                            Mumbai Metro Line 4 (MML4), Delhi Metro, and major urban elevated mass transit
-                            corridors.
+                            Our Elastomeric Bearings have also contributed to the development of <strong>Metro Rail Infrastructure</strong>, where reliable bearing solutions are an integral part of bridge and viaduct structures. Our experience includes supplies for metro projects such as <strong>Delhi Metro, Mumbai Metro, Pune Metro</strong> and other metro infrastructure works. The details below showcase the projects, clients and bearing sizes covered in our supplies. 
+
                         </p>
                     </div>
                 </div>

@@ -154,7 +154,7 @@ include_once 'partials/header.php';
 
                 <div class="storage-hero-showcase d-inline-block text-center">
                     <div class="storage-hero-img-box p-3 p-md-4 rounded-4 position-relative">
-                        <img src="assets/img/img/banner/actual-use-bering.png" alt="Bridge Bearing Installation & Storage SOP - Polymer Products" class="img-fluid"
+                        <img src="assets/img/img/banner/Storage-handling-1.webp" alt="Bridge Bearing Installation & Storage SOP - Polymer Products" class="img-fluid"
                             style="max-height: 340px; width: auto; object-fit: contain;">
                     </div>
                 </div>
@@ -174,13 +174,18 @@ include_once 'partials/header.php';
             <div class="row align-items-center justify-content-between g-4 mb-4 pb-3 border-bottom">
                 <div class="col-lg-8">
                     <span class="badge px-3 py-1.5 mb-2 rounded-pill text-uppercase" style="background: var(--theme-subtle); color: var(--theme-primary); font-weight:700; font-size:12px; letter-spacing:1px;">
-                        <i class="fa-solid fa-file-pdf me-1"></i> Technical Manual &bull; Page 09
+                        <i class="fa-solid fa-file-pdf me-1"></i> Technical Manual 
                     </span>
                     <h2 class="fw-bold text-dark mb-2" style="font-family:'Oswald', sans-serif; font-size:clamp(24px, 3vw, 34px); letter-spacing:-0.5px;">
-                        Elastomeric Bearing Installation and Maintenance Methodology
+                      Storage, Handling & Installation 
+
                     </h2>
                     <p class="text-secondary mb-0" style="font-size: 15px; line-height: 1.8;">
-                        Comprehensive field technical guidelines covering bridge pedestal preparation, epoxy bedding mortar leveling, jacking procedures, permissible installation tolerances, annual maintenance routines, and in-service health monitoring compliant with <strong>IRC:83 (Part II)</strong>, <strong>RDSO</strong>, and <strong>MoRTH Clause 2005</strong>.
+                       Proper storage, careful handling and correct installation are essential to maintain the condition and performance of Elastomeric Bearings.
+
+                    </p>
+                    <p class="text-secondary mb-0" style="font-size: 15px; line-height: 1.8;">
+                        The guidelines below cover the recommended practices for storing, handling, transporting and installing the bearings as specified for the product.
                     </p>
                 </div>
                 <div class="col-lg-4 text-lg-end">

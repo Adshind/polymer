@@ -247,10 +247,10 @@ $client_approvals = [
                 Proven Track Record
             </span>
             <h2 class="fw-bold text-dark text-uppercase" style="font-family:'Oswald', sans-serif; font-size: clamp(26px, 3.2vw, 38px); letter-spacing: 0.5px;">
-                NHAI &amp; Major Project Client Approval Letters
+               Quality Approvals 
             </h2>
             <p class="text-muted mx-auto mb-0" style="max-width:760px; font-size:15px; line-height: 1.8;">
-                Verified client approval and official acceptance certificates issued by leading EPC highway contractors, metro authorities, and infrastructure engineers.
+                View quality approval letters and credentials received from <strong>Major Project Clients</strong>, reflecting compliance with required standards and confidence in Polymer Products’ bearing quality and performance.
             </p>
         </div>
 

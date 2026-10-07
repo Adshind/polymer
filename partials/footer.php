@@ -68,11 +68,16 @@
                             style="font-size: 11px;">NHAI QAP</span>
                     </div>
 
-                    <div class="mt-2">
+                    <div class="mt-2 d-flex flex-column gap-1">
                         <a href="http://www.dynamicprestress.org" target="_blank"
                             class="footer-web-link text-decoration-none small d-inline-flex align-items-center"
                             style="color: var(--theme-light);">
                             <i class="fa-solid fa-globe me-2"></i> Group Portal: www.dynamicprestress.org
+                        </a>
+                        <a href="https://www.linkedin.com/company/dynamic-prestress-i-private-limited/" target="_blank" rel="noopener noreferrer"
+                            class="footer-web-link text-decoration-none small d-inline-flex align-items-center"
+                            style="color: var(--theme-light);">
+                            <i class="fa-brands fa-linkedin me-2"></i> LinkedIn: Dynamic Prestress (I) Pvt. Ltd.
                         </a>
                     </div>
                 </div>

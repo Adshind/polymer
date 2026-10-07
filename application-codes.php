@@ -479,10 +479,10 @@ include_once 'partials/header.php';
                 Verified PDF Specifications
             </span>
             <h2 class="fw-bold text-dark text-uppercase mt-2" style="font-family: 'Oswald', sans-serif; font-size: clamp(26px, 3.2vw, 38px); letter-spacing: 0.5px;">
-                 Applicable codes 
+               Application Codes & Standards 
             </h2>
             <p class="text-muted mx-auto mb-0" style="max-width: 720px; font-size: 15px; line-height: 1.7;">
-                Click on any standard below to directly open or preview the complete engineering specification PDF document.
+                Access the applicable codes and standards relevant to bearing design, application, testing, and performance. <strong>Select any document below to open the complete engineering specification PDF. </strong>
             </p>
         </div>
 

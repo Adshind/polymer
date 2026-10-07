@@ -135,6 +135,20 @@ include_once 'partials/header.php';
                             </div>
                         </div>
 
+                        <!-- Info 6: Corporate LinkedIn -->
+                        <div class="d-flex align-items-start mb-4">
+                            <div class="contact-icon-box me-3 flex-shrink-0 d-flex align-items-center justify-content-center rounded-circle"
+                                style="width: 46px; height: 46px; background: var(--theme-subtle); color: var(--theme-primary); font-size: 18px;">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </div>
+                            <div>
+                                <h6 class="fw-bold text-dark mb-1 saira-medium" style="font-family: 'Saira-Medium', sans-serif !important; font-size: 15px;">Corporate LinkedIn</h6>
+                                <p class="small text-muted mb-0 saira-medium" style="line-height: 1.6;">
+                                    <a href="https://www.linkedin.com/company/dynamic-prestress-i-private-limited/" target="_blank" rel="noopener noreferrer" class="text-decoration-none fw-semibold saira-medium" style="color: var(--theme-primary);">Dynamic Prestress (I) Pvt. Ltd.</a>
+                                </p>
+                            </div>
+                        </div>
+
                         <!-- Working Hours Box -->
                         <div class="p-3 rounded-3 mb-4" style="background: #f8fafc; border: 1px solid #e2e8f0;">
                             <h6 class="fw-bold text-dark mb-1 saira-medium" style="font-family: 'Saira-Medium', sans-serif !important; font-size: 14px;">
@@ -151,6 +165,13 @@ include_once 'partials/header.php';
                             class="btn py-2 px-3 rounded-pill fw-bold d-flex align-items-center justify-content-center text-white text-decoration-none saira-medium"
                             style="background: var(--theme-primary); font-family: 'Saira-Medium', sans-serif !important; transition: all 0.3s ease;">
                             <i class="fa-brands fa-whatsapp fs-5 me-2"></i> WhatsApp Inquiry
+                        </a>
+                        <a href="https://www.linkedin.com/company/dynamic-prestress-i-private-limited/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="btn btn-outline-primary py-2 px-3 rounded-pill fw-bold d-flex align-items-center justify-content-center saira-medium"
+                            style="border-color: #0a66c2; color: #0a66c2; font-family: 'Saira-Medium', sans-serif !important; transition: all 0.3s ease;">
+                            <i class="fa-brands fa-linkedin fs-5 me-2"></i> Connect on LinkedIn
                         </a>
                         <!-- <a href="assets/pp_data/Page 01/Credential_Polymer_Products.pdf" target="_blank"
                             class="btn btn-outline-primary py-2 px-3 rounded-pill fw-bold d-flex align-items-center justify-content-center saira-medium"
