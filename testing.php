@@ -36,11 +36,26 @@ $testing_slider_images = [
     background: #0f172a;
     color: #ffffff;
     font-weight: 600;
-    font-size: 13px;
+    font-size: 15px;
     letter-spacing: 0.3px;
+    padding: 14px 16px;
+    vertical-align: middle;
 }
 .test-spec-table td {
-    font-size: 13px;
+    font-size: 15px;
+    color: #1e293b;
+    padding: 14px 16px;
+    vertical-align: middle;
+    line-height: 1.6;
+}
+.test-spec-table .badge {
+    font-size: 13.5px;
+    font-weight: 600;
+    padding: 6px 12px;
+    border-radius: 6px;
+}
+.test-spec-table tbody tr:hover {
+    background-color: #f8fafc;
 }
 .lab-card {
     border-radius: 16px;
@@ -417,7 +432,7 @@ $testing_slider_images = [
         </div>
 
         <div class="table-responsive bg-white rounded-4 border shadow-sm p-3">
-            <table class="table table-hover table-bordered small align-middle mb-0 test-spec-table">
+            <table class="table table-hover table-bordered align-middle mb-0 test-spec-table">
                 <thead>
                     <tr>
                         <th style="min-width: 180px;">Test Property</th>
@@ -512,7 +527,7 @@ $testing_slider_images = [
         <div class="row g-4">
             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".1s">
                 <div class="lab-card shadow-sm h-100">
-                    <img src="assets/pp_data/Machine_Images/IMG20260913164426.jpg" alt="Universal Testing Machine (UTM)">
+                    <img src="assets/pp_data/Machine_Images/webp/IMG20260913164426.webp" alt="Universal Testing Machine (UTM)">
                     <div class="p-3">
                         <h6 class="fw-bold text-dark mb-1" style="font-family: 'Oswald', sans-serif; font-size: 17px;">Universal Testing Machine (UTM)</h6>
                         <p class="small text-muted mb-0">Electronic UTM with extensometer for tensile strength and elongation at break testing.</p>
@@ -522,7 +537,7 @@ $testing_slider_images = [
 
             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".2s">
                 <div class="lab-card shadow-sm h-100">
-                    <img src="assets/pp_data/Machine_Images/IMG20260913164437.jpg" alt="Accelerated Thermal Ageing Oven">
+                    <img src="assets/pp_data/Machine_Images/webp/IMG20260913164437.webp" alt="Accelerated Thermal Ageing Oven">
                     <div class="p-3">
                         <h6 class="fw-bold text-dark mb-1" style="font-family: 'Oswald', sans-serif; font-size: 17px;">Accelerated Thermal Ageing Oven</h6>
                         <p class="small text-muted mb-0">Digital temperature-controlled circulating oven for 70°C / 72-hour thermal stability tests.</p>
@@ -532,7 +547,7 @@ $testing_slider_images = [
 
             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                 <div class="lab-card shadow-sm h-100">
-                    <img src="assets/pp_data/Machine_Images/IMG20260913162728.jpg" alt="Compressive Proof Load Frame">
+                    <img src="assets/pp_data/Machine_Images/webp/IMG20260913162728.webp" alt="Compressive Proof Load Frame">
                     <div class="p-3">
                         <h6 class="fw-bold text-dark mb-1" style="font-family: 'Oswald', sans-serif; font-size: 17px;">Compressive Proof Load Frame</h6>
                         <p class="small text-muted mb-0">High-tonnage hydraulic test rig verifying 1.5x design vertical load without bulging failure.</p>
@@ -542,7 +557,7 @@ $testing_slider_images = [
 
             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".4s">
                 <div class="lab-card shadow-sm h-100">
-                    <img src="assets/pp_data/Machine_Images/IMG20260913162650.jpg" alt="Durometers & Thickness Gauges">
+                    <img src="assets/pp_data/Machine_Images/webp/IMG20260913162650.webp" alt="Durometers & Thickness Gauges">
                     <div class="p-3">
                         <h6 class="fw-bold text-dark mb-1" style="font-family: 'Oswald', sans-serif; font-size: 17px;">Durometers &amp; Thickness Gauges</h6>
                         <p class="small text-muted mb-0">Calibrated Shore-A durometers and digital micrometers for stage-wise dimensional control.</p>

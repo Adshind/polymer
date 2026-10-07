@@ -128,7 +128,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
                                             <li><a href="certifications.php">Statutory & Quality Approvals</a></li>
                                              
                                             <!-- <li><a href="team.php">Our Technical Team</a></li> -->
-                                            <li><a href="about.php#bearing-types">Bearing Types & Applications</a></li>
+                                             <!-- <li><a href="about.php#bearing-types">Bearing Types & Applications</a></li> -->
                                         </ul>
                                     </li>
                                     
@@ -137,7 +137,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
                                             Products   <i class="fa-solid fa-chevron-down dropdown-icon"></i>
                                         </a>
                                         <ul class="sub-menu">
-                                            <li><a href="services.php">Proposed Bearing Types</a></li>
+                                            <li><a href="services.php">Proposed Bearing Types & Applications</a></li>
                                             <li><a href="material-used.php">Raw Materials Used</a></li>
                                             <li><a href="application-codes.php">Application Codes & Standards</a></li>
                                         </ul>

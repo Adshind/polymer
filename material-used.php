@@ -935,7 +935,8 @@ include_once 'partials/header.php';
                             POLYMER PRODUCTS
                         </h3>
                         <p class="text-muted small mb-1">
-                            E-6, M.I.D.C., Ambad, Nashik - 422 010 (Maharashtra, India)
+                            H-32, M.I.D.C. SATPUR
+NASHIK-422007 Maharashtra, India
                         </p>
                         <span class="badge px-3 py-1.5 rounded-pill fw-bold text-uppercase" style="background: var(--theme-subtle); color: var(--theme-primary); font-size: 11.5px; letter-spacing: 1px;">
                             Official Specification Sheet &bull; 4 MATERIALS (Raw Material)

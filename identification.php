@@ -356,12 +356,12 @@ include_once 'partials/header.php';
 
             <!-- Step 5 (CORE HIGHLIGHT) -->
             <div class="col-md-6 col-lg-4">
-                <div class="p-4 shadow-sm h-100 flow-step-card highlight-step">
+                <div class="p-4 shadow-sm h-100 flow-step-card ">
                     <span class="step-number-badge" style="background:var(--theme-primary); color:#fff; border-color:var(--theme-primary);">05</span>
                     <div class="flow-step-icon-box">
                         <i class="fa-solid fa-stamp fa-xl"></i>
                     </div>
-                    <span class="badge bg-primary text-white px-2 py-1 mb-1 rounded-pill small float-end">CORE STAMP</span>
+                    <!-- <span class="badge bg-primary text-white px-2 py-1 mb-1 rounded-pill small float-end">CORE STAMP</span> -->
                     <h5 class="fw-bold text-dark mb-2" style="font-size:18px;">PRODUCT IDENTIFICATION</h5>
                     <p class="small text-muted mb-3" style="line-height:1.6;">
                         <strong>LOT NO., BEARING SIZE &amp; UNIQUE IDENTIFICATION NO.</strong><br>
