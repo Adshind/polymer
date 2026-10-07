@@ -396,7 +396,7 @@ include_once 'partials/header.php';
                             </div>
                             <div class="p-4">
                                 <div class="d-flex align-items-baseline justify-content-between mb-1">
-                                    <h4 class="fw-bold text-dark mb-0" style="font-family: 'Oswald', sans-serif; font-size: 21px;">Maruti Pandurang Prabhu</h4>
+                                    <h4 class="fw-bold text-dark mb-0" style="font-family: 'Oswald', sans-serif; font-size: 21px;">Mr. Maruti Pandurang Prabhu</h4>
                                 </div>
                                 <span class="badge bg-light text-primary border rounded-pill px-2.5 py-1 small fw-bold mb-3 d-inline-block" style="font-size: 11.5px;">
                                     <i class="fa-solid fa-graduation-cap me-1"></i> B.Sc. L.P.R.I. (London)
@@ -476,7 +476,7 @@ include_once 'partials/header.php';
                             </div>
                             <div class="p-4">
                                 <div class="d-flex align-items-baseline justify-content-between mb-1">
-                                    <h4 class="fw-bold text-dark mb-0" style="font-family: 'Oswald', sans-serif; font-size: 21px;">Chetan Maruti Prabhu</h4>
+                                    <h4 class="fw-bold text-dark mb-0" style="font-family: 'Oswald', sans-serif; font-size: 21px;">Mr. Chetan Maruti Prabhu</h4>
                                 </div>
                                 <span class="badge bg-light text-primary border rounded-pill px-2.5 py-1 small fw-bold mb-3 d-inline-block" style="font-size: 11.5px;">
                                     <i class="fa-solid fa-graduation-cap me-1"></i> B.E. (Mechanical)
@@ -537,7 +537,7 @@ include_once 'partials/header.php';
                                 </div>
                             </div>
                             <div class="p-4">
-                                <h5 class="fw-bold text-dark mb-1" style="font-family: 'Oswald', sans-serif; font-size: 20px;">Sunil Kotagi</h5>
+                                <h5 class="fw-bold text-dark mb-1" style="font-family: 'Oswald', sans-serif; font-size: 20px;">Mr. Sunil Kotagi</h5>
                                 <span class="badge bg-light text-primary border rounded-pill px-2.5 py-1 small fw-bold mb-3 d-inline-block" style="font-size: 11px;">
                                     <i class="fa-solid fa-graduation-cap me-1"></i> B.Com
                                 </span>
@@ -571,7 +571,7 @@ include_once 'partials/header.php';
                                 </div>
                             </div>
                             <div class="p-4">
-                                <h5 class="fw-bold text-dark mb-1" style="font-family: 'Oswald', sans-serif; font-size: 20px;">Tausifkhan Pathan</h5>
+                                <h5 class="fw-bold text-dark mb-1" style="font-family: 'Oswald', sans-serif; font-size: 20px;">Mr.  Tausifkhan Pathan</h5>
                                 <span class="badge bg-light text-primary border rounded-pill px-2.5 py-1 small fw-bold mb-3 d-inline-block" style="font-size: 11px;">
                                     <i class="fa-solid fa-graduation-cap me-1"></i> B.E. (Mechanical)
                                 </span>
@@ -609,7 +609,7 @@ include_once 'partials/header.php';
                                 </div>
                             </div>
                             <div class="p-4">
-                                <h5 class="fw-bold text-dark mb-1" style="font-family: 'Oswald', sans-serif; font-size: 20px;">Narendra Khairnar</h5>
+                                <h5 class="fw-bold text-dark mb-1" style="font-family: 'Oswald', sans-serif; font-size: 20px;">Mr. Narendra Khairnar</h5>
                                 <span class="badge bg-light text-primary border rounded-pill px-2.5 py-1 small fw-bold mb-3 d-inline-block" style="font-size: 11px;">
                                     <i class="fa-solid fa-graduation-cap me-1"></i> ITI (Rubber Technician)
                                 </span>
@@ -647,7 +647,7 @@ include_once 'partials/header.php';
                                 </div>
                             </div>
                             <div class="p-4">
-                                <h5 class="fw-bold text-dark mb-1" style="font-family: 'Oswald', sans-serif; font-size: 20px;">Ancy Madhyasth</h5>
+                                <h5 class="fw-bold text-dark mb-1" style="font-family: 'Oswald', sans-serif; font-size: 20px;">Mrs. Ancy Madhyasth</h5>
                                 <span class="badge bg-light text-primary border rounded-pill px-2.5 py-1 small fw-bold mb-3 d-inline-block" style="font-size: 11px;">
                                     <i class="fa-solid fa-graduation-cap me-1"></i> B.Com
                                 </span>
@@ -685,7 +685,7 @@ include_once 'partials/header.php';
                                 </div>
                             </div>
                             <div class="p-4">
-                                <h5 class="fw-bold text-dark mb-1" style="font-family: 'Oswald', sans-serif; font-size: 20px;">Nitin Pandey</h5>
+                                <h5 class="fw-bold text-dark mb-1" style="font-family: 'Oswald', sans-serif; font-size: 20px;">Mr. Nitin Pandey</h5>
                                 <span class="badge bg-light text-primary border rounded-pill px-2.5 py-1 small fw-bold mb-3 d-inline-block" style="font-size: 11px;">
                                     <i class="fa-solid fa-flask-vial me-1"></i> Rubber Technology
                                 </span>
@@ -725,7 +725,7 @@ include_once 'partials/header.php';
                                 </div>
                             </div>
                             <div class="p-4">
-                                <h5 class="fw-bold text-dark mb-1" style="font-family: 'Oswald', sans-serif; font-size: 20px;">Labhesh Bawiskar</h5>
+                                <h5 class="fw-bold text-dark mb-1" style="font-family: 'Oswald', sans-serif; font-size: 20px;">Mr. Labhesh Bawiskar</h5>
                                 <span class="badge bg-light text-primary border rounded-pill px-2.5 py-1 small fw-bold mb-3 d-inline-block" style="font-size: 11px;">
                                     <i class="fa-solid fa-graduation-cap me-1"></i> M.Sc. in Industrial Chemistry
                                 </span>

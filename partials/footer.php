@@ -69,10 +69,10 @@
                     </div>
 
                     <div class="mt-2 d-flex flex-column gap-1">
-                        <a href="http://www.dynamicprestress.org" target="_blank"
+                        <a href="http://www.polymerproducts.org" target="_blank"
                             class="footer-web-link text-decoration-none small d-inline-flex align-items-center"
                             style="color: var(--theme-light);">
-                            <i class="fa-solid fa-globe me-2"></i> Group Portal: www.dynamicprestress.org
+                            <i class="fa-solid fa-globe me-2"></i> Group Portal: www.polymerproducts.org
                         </a>
                         <a href="https://www.linkedin.com/company/dynamic-prestress-i-private-limited/" target="_blank" rel="noopener noreferrer"
                             class="footer-web-link text-decoration-none small d-inline-flex align-items-center"

@@ -96,7 +96,7 @@
   .mfp-preloader a {
     color: #CCC; }
     .mfp-preloader a:hover {
-      color: $white; }
+      color: #ffffff; }
 
 .mfp-s-ready .mfp-preloader {
   display: none; }
@@ -202,7 +202,7 @@ button::-moz-focus-inner {
 .mfp-arrow-left {
   left: 0; }
   .mfp-arrow-left:after {
-    border-right: 17px solid $white;
+    border-right: 17px solid #ffffff;
     margin-left: 31px; }
   .mfp-arrow-left:before {
     margin-left: 25px;
@@ -211,7 +211,7 @@ button::-moz-focus-inner {
 .mfp-arrow-right {
   right: 0; }
   .mfp-arrow-right:after {
-    border-left: 17px solid $white;
+    border-left: 17px solid #ffffff;
     margin-left: 39px; }
   .mfp-arrow-right:before {
     border-left: 27px solid #fff; }
