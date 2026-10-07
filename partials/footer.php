@@ -189,7 +189,7 @@
         <div class="footer-bottom-bar pt-4 pb-2 border-top d-flex flex-wrap align-items-center justify-content-between gap-3"
             style="border-color: rgba(255, 255, 255, 0.08) !important; font-size: 15px; color: #64748b;">
             <p class="mb-0">
-                &copy; <?php echo date('Y'); ?> <strong class="text-white"> PolymerProducts</strong> (DynamicGroup).Engineered In Nashik, Maharashtra.
+                &copy; <?php echo date('Y'); ?> <b class="text-white"> PolymerProducts</b> (DynamicGroup).Engineered In Nashik, Maharashtra. 
             </p> 
             <div class="d-flex align-items-center gap-4"> 
                 <a href="experience.php" class="text-decoration-none text-muted-link">Track Record</a>

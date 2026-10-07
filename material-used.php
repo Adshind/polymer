@@ -1,4 +1,4 @@
-﻿<?php 
+<?php 
 $page_title = "Raw Materials & Machinery Infrastructure - Polymer Products";
 $meta_description = "Complete specifications of raw materials (NR, CR, IS:2062 Steel, PTFE) and 42 manufacturing & testing machineries installed at Polymer Products, Nashik.";
 include_once 'partials/header.php'; 
@@ -114,11 +114,11 @@ include_once 'partials/header.php';
      ============================================================ -->
 <section class="py-4" id="official-docs" style="background: #ffffff; border-bottom: 1px solid #e2e8f0;">
     <div class="container-fluid px-3 px-lg-5">
-        <div class="row g-3 align-items-center">
-            <div class="col-lg-6">
-                <div class="p-3.5 p-md-4 doc-download-card d-flex align-items-center justify-content-between flex-wrap gap-3">
+        <div class="row justify-content-center">
+            <div class="col-xl-7 col-lg-8 col-md-10 col-12">
+                <div class="p-3.5 p-md-4 doc-download-card d-flex align-items-center justify-content-between flex-wrap gap-3 shadow-sm">
                     <div class="d-flex align-items-center gap-3">
-                        <div class="rounded-circle p-3 d-flex align-items-center justify-content-center text-primary"
+                        <div class="rounded-circle p-3 d-flex align-items-center justify-content-center text-primary flex-shrink-0"
                             style="background: var(--theme-subtle); width: 48px; height: 48px;">
                             <i class="fa-solid fa-file-lines fs-5"></i>
                         </div>
@@ -127,25 +127,7 @@ include_once 'partials/header.php';
                             <small class="text-muted" style="font-size: 12.5px;">Official Specification &bull; Polymer (NR/CR), Steel &amp; PTFE Limits</small>
                         </div>
                     </div>
-                    <button type="button" class="btn btn-sm btn-primary rounded-pill fw-bold px-3.5 py-2 d-inline-flex align-items-center gap-2 shadow-sm" data-bs-toggle="modal" data-bs-target="#rawMaterialModal" style="background: var(--theme-primary); border-color: var(--theme-primary); font-size: 13px;">
-                        <i class="fa-solid fa-eye"></i> <span>View Document</span>
-                    </button>
-                </div>
-            </div>
-
-            <div class="col-lg-6">
-                <div class="p-3.5 p-md-4 doc-download-card d-flex align-items-center justify-content-between flex-wrap gap-3">
-                    <div class="d-flex align-items-center gap-3">
-                        <div class="rounded-circle p-3 d-flex align-items-center justify-content-center text-primary"
-                            style="background: var(--theme-subtle); width: 48px; height: 48px;">
-                            <i class="fa-solid fa-file-word fs-5"></i>
-                        </div>
-                        <div>
-                            <h6 class="fw-bold text-dark mb-0" style="font-size: 15px;">List of Machineries &amp; Equipment</h6>
-                            <small class="text-muted" style="font-size: 12.5px;">Official Plant Inventory &bull; 42 Calibrated Machines &amp; Lab Rigs</small>
-                        </div>
-                    </div>
-                    <button type="button" class="btn btn-sm btn-primary rounded-pill fw-bold px-3.5 py-2 d-inline-flex align-items-center gap-2 shadow-sm" data-bs-toggle="modal" data-bs-target="#machineryModal" style="background: var(--theme-primary); border-color: var(--theme-primary); font-size: 13px;">
+                    <button type="button" class="btn btn-sm btn-primary rounded-pill fw-bold px-3.5 py-2 d-inline-flex align-items-center gap-2 shadow-sm flex-shrink-0" data-bs-toggle="modal" data-bs-target="#rawMaterialModal" style="background: var(--theme-primary); border-color: var(--theme-primary); font-size: 13px;">
                         <i class="fa-solid fa-eye"></i> <span>View Document</span>
                     </button>
                 </div>
@@ -377,7 +359,7 @@ include_once 'partials/header.php';
                 Plant &amp; Testing Capabilities
             </span>
             <h2 class="fw-bold text-dark text-uppercase" style="font-family:'Oswald', sans-serif; font-size: clamp(26px, 3.2vw, 38px); letter-spacing:0.5px;">
-                LIST OF TESTING MACHINERIES &amp; EQUIPMENT
+                LIST OF MACHINERIES &amp; EQUIPMENT
             </h2>
             <p class="text-muted mx-auto" style="max-width:760px; font-size:15px; line-height:1.7;">
                 Installed in our works for carrying out various manufacturing processes and standard tests on elastomeric bearings and chemical/physical properties of elastomeric compounds.
@@ -892,10 +874,10 @@ include_once 'partials/header.php';
      5. Call to Action Banner
      ============================================================ -->
 <section class="py-5 text-white position-relative"
-    style="background: linear-gradient(135deg, rgba(45, 145, 191, 0.99) 0%, rgba(12, 140, 214, 0.99) 50%, rgba(45, 145, 191, 0.99) 100%), url('assets/img/img/banner/birdge-10.webp') center center / cover no-repeat; padding: 75px 0;">
+    style="background: var(--theme-primary); padding: 75px 0;">
     <div class="container-fluid px-3 px-lg-5 py-3 text-center">
         <span class="badge px-3 py-2 mb-3 rounded-pill text-uppercase fw-bold"
-            style="background: var(--theme-subtle); color: white; font-size: 12px; letter-spacing: 1.5px;">
+            style="background: #ffffffff; color: var(--theme-primary); font-size: 12px; letter-spacing: 1.5px;">
             Certified Raw Materials &amp; Testing Facility
         </span>
         <h2 class="fw-bold text-white text-uppercase mx-auto mb-3"

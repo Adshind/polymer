@@ -590,7 +590,7 @@ include_once 'partials/header.php';
                     <div class="team-card-modern h-100 d-flex flex-column justify-content-between position-relative shadow-sm">
                         <div>
                             <div class="team-photo-wrap standard-height position-relative">
-                                <img src="assets/pp_data/Page 02/Emp Details/Narendra Khairnar/narendra-khairnar.webp" alt="Narendra Khairnar - Lab Technician" class="team-card-img">
+                                <img src="assets/img/img/about/14.webp" alt="Narendra Khairnar - Lab Technician" class="team-card-img">
                                 <div class="team-photo-overlay"></div>
                                 <div class="team-badge-icon" title="Lab Technician">
                                     <i class="fa-solid fa-flask"></i>
@@ -628,7 +628,7 @@ include_once 'partials/header.php';
                     <div class="team-card-modern h-100 d-flex flex-column justify-content-between position-relative shadow-sm">
                         <div>
                             <div class="team-photo-wrap standard-height position-relative">
-                                <img src="assets/pp_data/Page 02/Emp Details/Ancy Madam/ancy.webp" alt="Ancy Madhyasth - Executive" class="team-card-img">
+                                <img src="assets/img/img/about/15.webp" alt="Ancy Madhyasth - Executive" class="team-card-img">
                                 <div class="team-photo-overlay"></div>
                                 <div class="team-badge-icon" title="Executive">
                                     <i class="fa-solid fa-file-invoice"></i>
@@ -666,7 +666,7 @@ include_once 'partials/header.php';
                     <div class="team-card-modern h-100 d-flex flex-column justify-content-between position-relative shadow-sm">
                         <div>
                             <div class="team-photo-wrap standard-height position-relative">
-                                <img src="assets/pp_data/Page 02/Emp Details/Nitin Pandey/nitin-pandey.webp" alt="Nitin Pandey - R&D Head & Quality Manager" class="team-card-img">
+                                <img src="assets/img/img/about/16.webp" alt="Nitin Pandey - R&D Head & Quality Manager" class="team-card-img">
                                 <div class="team-photo-overlay"></div>
                                 <div class="team-badge-icon" title="R&D Head & Quality Manager">
                                     <i class="fa-solid fa-microchip"></i>
@@ -704,7 +704,7 @@ include_once 'partials/header.php';
                     <div class="team-card-modern h-100 d-flex flex-column justify-content-between position-relative shadow-sm">
                         <div>
                             <div class="team-photo-wrap standard-height position-relative overflow-hidden" style="">
-                                <img src="assets/pp_data/Page 02/Emp Details/Labhesh/Labhesh-Bawiskar.webp" alt="Labhesh Bawiskar - Lab Manager" class="team-card-img" style="opacity: 1; object-fit: cover;">
+                                <img src="assets/img/img/about/17.webp" alt="Labhesh Bawiskar - Lab Manager" class="team-card-img" style="opacity: 1; object-fit: cover;">
                                 <div class="position-absolute top-50 start-50 translate-middle text-center text-white p-3 w-100" style="z-index: 1;">
                                 </div>
                                 <div class="team-photo-overlay"></div>
@@ -746,17 +746,17 @@ include_once 'partials/header.php';
              3. Manufacturing Floor Workforce Capacity (Total 70+ Strength)
              ============================================================ -->
         <div class="plant-workforce-section p-4 p-lg-5 rounded-4 border shadow-sm wow fadeInUp" data-wow-delay=".2s"
-            style="background: linear-gradient(135deg, #0e4975 0%, #0571a2 100%); color: #fff;">
+            style="background: var(--theme-primary); color: #fff;">
             <div class="row align-items-center g-4">
                 <div class="col-lg-4 text-center text-lg-start">
                     <span class="badge px-3 py-1.5 rounded-pill text-uppercase fw-bold mb-2"
-                        style="background: var(--theme-subtle); color: var(--theme-lighter); font-size: 11px; letter-spacing: 1.5px;">
+                        style="background: white ; color: var(--theme-primary); font-size: 11px; letter-spacing: 1.5px;">
                         ON-FLOOR TECHNICAL CAPACITY
                     </span>
                     <h3 class="fw-bold text-white text-uppercase mb-2" style="font-family: 'Oswald', sans-serif; font-size: 30px;">
                         Manufacturing Workforce Strength
                     </h3>
-                    <p class="text-white-50 small mb-0" style="line-height: 1.7; font-size: 13.5px;">
+                    <p class="text-white small mb-0" style="line-height: 1.7; font-size: 13.5px;">
                         Backed by dedicated factory operators, technicians, and floor assistants ensuring high-volume capacity and uninterrupted project delivery.
                     </p>
                 </div>
@@ -766,14 +766,14 @@ include_once 'partials/header.php';
                         <!-- Stat 1: Skilled Labours -->
                         <div class="col-md-4">
                             <div class="p-3.5 p-4 rounded-4 text-center h-100 border"
-                                style="background: rgba(255, 255, 255, 0.06); border-color: rgba(255, 255, 255, 0.12) !important; backdrop-filter: blur(10px);">
+                                style="background: rgba(223, 223, 223, 0.06); border-color: rgba(255, 255, 255, 0.12) !important; backdrop-filter: blur(10px);">
                                 <div class="p-2.5 rounded-circle d-inline-flex align-items-center justify-content-center mb-2"
-                                    style="width: 48px; height: 48px; background: rgba(2, 132, 199, 0.25); color: #38bdf8;">
+                                    style="width: 48px; height: 48px; background: #ffffffff ; color: var(--theme-primary);">
                                     <i class="fa-solid fa-user-gear fs-5"></i>
                                 </div>
                                 <h2 class="fw-bold mb-0 text-white" style="font-family: 'Oswald', sans-serif; font-size: 36px; line-height: 1;">25</h2>
                                 <h6 class="fw-bold text-white mt-1 mb-1" style="font-size: 14px;">Skilled Labours</h6>
-                                <small class="text-white-50 d-block" style="font-size: 11.5px;">Hydraulic press vulcanizing, grit blasting &amp; mold operators</small>
+                                <small class="text-white-100 d-block" style="font-size: 11.5px;">Hydraulic press vulcanizing, grit blasting &amp; mold operators</small>
                             </div>
                         </div>
 
@@ -782,12 +782,12 @@ include_once 'partials/header.php';
                             <div class="p-3.5 p-4 rounded-4 text-center h-100 border"
                                 style="background: rgba(255, 255, 255, 0.06); border-color: rgba(255, 255, 255, 0.12) !important; backdrop-filter: blur(10px);">
                                 <div class="p-2.5 rounded-circle d-inline-flex align-items-center justify-content-center mb-2"
-                                    style="width: 48px; height: 48px; background: rgba(234, 179, 8, 0.25); color: #facc15;">
+                                    style="width: 48px; height: 48px; background: #ffffffff; color: var(--theme-primary);">
                                     <i class="fa-solid fa-users-line fs-5"></i>
                                 </div>
                                 <h2 class="fw-bold mb-0 text-white" style="font-family: 'Oswald', sans-serif; font-size: 36px; line-height: 1;">25</h2>
                                 <h6 class="fw-bold text-white mt-1 mb-1" style="font-size: 14px;">Semi-Skilled Labours</h6>
-                                <small class="text-white-50 d-block" style="font-size: 11.5px;">Elastomer compounding prep, cutting &amp; edge trimming</small>
+                                <small class="text-white-100 d-block" style="font-size: 11.5px;">Elastomer compounding prep, cutting &amp; edge trimming</small>
                             </div>
                         </div>
 
@@ -796,12 +796,12 @@ include_once 'partials/header.php';
                             <div class="p-3.5 p-4 rounded-4 text-center h-100 border"
                                 style="background: rgba(255, 255, 255, 0.06); border-color: rgba(255, 255, 255, 0.12) !important; backdrop-filter: blur(10px);">
                                 <div class="p-2.5 rounded-circle d-inline-flex align-items-center justify-content-center mb-2"
-                                    style="width: 48px; height: 48px; background: rgba(34, 197, 94, 0.25); color: #4ade80;">
+                                    style="width: 48px; height: 48px; background: #ffffffff; color: var(--theme-primary);">
                                     <i class="fa-solid fa-hand-holding-hand fs-5"></i>
                                 </div>
                                 <h2 class="fw-bold mb-0 text-white" style="font-family: 'Oswald', sans-serif; font-size: 36px; line-height: 1;">20</h2>
                                 <h6 class="fw-bold text-white mt-1 mb-1" style="font-size: 14px;">Helpers</h6>
-                                <small class="text-white-50 d-block" style="font-size: 11.5px;">Material handling, test-rig movement &amp; dispatch packing</small>
+                                <small class="text-white-100 d-block" style="font-size: 11.5px;">Material handling, test-rig movement &amp; dispatch packing</small>
                             </div>
                         </div>
                     </div>
@@ -985,7 +985,7 @@ include_once 'partials/header.php';
         height: 290px;
     }
     .team-photo-wrap.standard-height {
-        height: 320px;
+        height: 380px;
     }
     .team-card-img {
         width: 100%;

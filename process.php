@@ -181,6 +181,7 @@ $process_images = [
 .swiper-button-prev-custom:hover {
     background: var(--theme-primary);
     color: #ffffff;
+    border: 1px solid #fff;
     box-shadow: 0 4px 16px var(--theme-glow);
 }
 </style>
@@ -372,11 +373,11 @@ $process_images = [
 <!-- ============================================================
      3. Interactive Process & Machinery Swiper Slider
      ============================================================ -->
-<section class="py-5 position-relative" id="plant-slider" style="background: rgb(54, 145, 191, 0.80); color:#fff;">
+<section class="py-5 position-relative" id="plant-slider" style="background: var(--theme-primary); color:#fff;">
     <div class="container py-4">
         <div class="d-flex flex-wrap justify-content-between align-items-end mb-4 gap-3">
             <div>
-                <span class="badge px-3 py-2 mb-2 rounded-pill text-uppercase" style="background: var(--theme-subtle); border: 1px solid var(--theme-primary); color: #fff !important; font-size:12px; letter-spacing:1px; font-weight:600;">
+                <span class="badge px-3 py-2 mb-2 rounded-pill text-uppercase" style="background: #ffffffff; border: 1px solid var(--theme-primary); color: var(--theme-primary); font-size:12px; letter-spacing:1px; font-weight:600;">
                     Live Plant Operations
                 </span>
                 <h2 class="text-white fw-bold mb-0" style="font-family:'Oswald', sans-serif; font-size:32px; letter-spacing:0.5px;">
@@ -619,10 +620,10 @@ $process_images = [
 <!-- ============================================================
      6. Technical QA & Inquiry CTA
      ============================================================ -->
-<section class="py-5" style="background: linear-gradient(135deg, #3691bf 0%, #3691bf 100%); color:#cbd5e1; border-top:1px solid rgba(255,255,255,0.1);">
+<section class="py-5" style="background: var(--theme-primary); color:#cbd5e1; border-top:1px solid rgba(255,255,255,0.1);">
     <div class="container text-center py-3">
-        <span class="badge px-3 py-2 mb-2 rounded-pill text-uppercase" style="background: var(--theme-subtle); border: 1px solid var(--theme-primary); color: #fff; font-size:12px; letter-spacing:1px; font-weight:600;">
-            Plant Visit &amp; Witness Inspection
+        <span class="badge px-3 py-2 mb-2 rounded-pill text-uppercase" style="background: white; border: 1px solid var(--theme-primary); color: var(--theme-primary); font-size:12px; letter-spacing:1px; font-weight:600;">
+            Plant Visit &amp; Witness Inspection 
         </span>
         <h3 class="text-white fw-bold mb-2" style="font-family:'Oswald', sans-serif; font-size:28px;">
             Schedule Factory Inspection or Request Detailed QAP Documents

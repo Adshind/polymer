@@ -609,17 +609,17 @@ include_once 'partials/header.php';
      3. Engineering Consultation & Inquiry Banner
      ============================================================ -->
 <section class="py-5 text-white position-relative"
-    style="background: linear-gradient(135deg, rgba(54, 145, 191, 1) 0%, rgba(54, 145, 191, 1) 50%, rgba(54, 145, 191, 0.99) 100%), url('assets/img/img/banner/birdge-10.webp') center center / cover no-repeat; padding: 75px 0;">
+    style="background: var(--theme-primary); padding: 75px 0;">
     <div class="container-fluid px-3 px-lg-5 py-3 text-center">
         <span class="badge px-3 py-2 mb-3 rounded-pill text-uppercase fw-bold"
-            style="background: var(--theme-subtle); color: white; font-size: 12px; letter-spacing: 1.5px;">
+            style="background: #ffffffff; color: var(--theme-primary); font-size: 12px; letter-spacing: 1.5px;">
             Custom Engineering &amp; Sizing
         </span>
         <h2 class="fw-bold text-white text-uppercase mx-auto mb-3"
             style="font-family: 'Saira-Medium', sans-serif; font-size: clamp(26px, 3.5vw, 38px); letter-spacing: 0.5px; max-width: 780px;">
             Require Custom Sized Bearings for Your Project?
         </h2>
-        <p class="mx-auto mb-4" style="max-width: 680px; color: #e2e8f0; font-size: 15px; line-height: 1.8;">
+        <p class="mx-auto mb-4" style="max-width: 680px; color: #ecececff; font-size: 15px; line-height: 1.8;">
             We manufacture custom bearing dimensions, vertical load ratings up to 10,000+ kN, and elastomer layer configurations conforming to your project's approved GAD and structural bridge design drawings.
         </p>
         <div class="d-flex justify-content-center gap-3 flex-wrap">

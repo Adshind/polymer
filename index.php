@@ -188,7 +188,7 @@ include_once 'partials/header.php';
                     <!-- Main Image Card -->
                     <div class="position-relative overflow-hidden shadow-lg"
                         style="border-radius:24px; z-index:2; background:#fff;">
-                        <img src="assets/img/img/banner/about-image.png.webp" 
+                        <img src="assets/img/img/banner/improvide-image-quality.webp" 
                             alt="Manufacturing Plant Nashik" class="img-fluid w-100"
                             style="height:540px; object-fit:cover; border-radius:24px;">
                     </div>
@@ -390,7 +390,7 @@ include_once 'partials/header.php';
 
 <!-- Manufacturing Process Banner -->
 <section class="py-5 text-white position-relative"
-    style="background: linear-gradient(135deg, rgba(8, 20, 38, 0.58) 0%, rgba(10, 25, 47, 0.48) 45%, rgba(5, 12, 24, 0.60) 60%), url('assets/img/img/banner/birdge-13.webp') center center / cover no-repeat; padding: 85px 0;">
+    style="background: linear-gradient(135deg, rgba(8, 20, 38, 0.68) 10%, rgba(10, 25, 47, 0.58) 45%, rgba(5, 12, 24, 0.50) 60%), url('assets/img/img/banner/working-process.webp') center center / cover no-repeat; padding: 85px 0;">
     <div class="container-fluid px-3 px-lg-5 py-3">
         <div class="text-center mb-5">
             <span class="d-inline-block text-uppercase fw-bold mb-2"
@@ -398,7 +398,7 @@ include_once 'partials/header.php';
             <h2 class="fw-bold text-white text-uppercase mx-auto mb-3"
                 style="font-family: 'Saira-Medium', sans-serif; font-size: 38px; letter-spacing: 0.5px; max-width: 850px; line-height: 1.2; text-shadow: 0 3px 12px rgba(0,0,0,0.6);">
                 Comprehensive Manufacturing Process &amp; Quality Control
-            </h2>
+            </h2> 
             <p class="mx-auto mb-0" style="max-width: 750px; color: #f1f5f9; font-size: 15px; line-height: 1.7; text-shadow: 0 2px 8px rgba(0,0,0,0.5);">
                 From raw elastomer compounding (NR/CR) and shot-blasted steel plate preparation to precision
                 hydraulic vulcanization and proof-load testing, every step follows documented standard operating
@@ -605,7 +605,7 @@ include_once 'partials/header.php';
         <div class="text-center mt-5 pt-2">
             <a href="experience.php" class="btn btn-primary btn-lg rounded-pill px-5 py-3 fw-bold shadow text-uppercase saira-medium"
                 style="font-size: 14px; letter-spacing: 0.5px; background: var(--theme-primary); border-color: var(--theme-primary); transition: all 0.3s ease;">
-                <span>View Full Infrastructure Projects &amp; Approvals</span>
+                <span>View detailed experience of infrastructure projects</span>
                 <i class="fa-solid fa-arrow-right ms-2"></i>
             </a>
         </div>

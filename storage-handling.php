@@ -939,7 +939,7 @@ include_once 'partials/header.php';
             <div class="row align-items-center">
                 <div class="col-lg-8 mb-3 mb-lg-0">
                     <h5 class="fw-bold text-white mb-2" style="font-family:'Oswald', sans-serif; font-size:20px;">
-                        <i class="fa-solid fa-shield-halved text-warning me-2"></i>100% Quality &amp; Transit Traceability Guarantee
+                        <i class="fa-solid fa-shield-halved text-white  me-2"></i>100% Quality &amp; Transit Traceability Guarantee
                     </h5>
                     <p class="text-light small mb-0" style="line-height:1.7; color:#cbd5e1 !important;">
                         Every single elastomeric bearing shipped from Polymer Products is backed by individual serial-number traceability, accredited raw material MTC test reports, and compliance with IRC:83 (Part II), RDSO, and ISO 9001:2027 standards.
@@ -985,11 +985,11 @@ include_once 'partials/header.php';
 <!-- ============================================================
      4. Technical Support & RFQ Banner
      ============================================================ -->
-<section class="py-5" style="background: linear-gradient(135deg, #3691bf 0%, #3691bf 100%); color:#cbd5e1; border-top:1px solid rgba(255,255,255,0.1);">
+<section class="py-5" style="background: var(--theme-primary); color:#cbd5e1; border-top:1px solid rgba(255,255,255,0.1);">
     <div class="container text-center py-3">
-        <span class="badge px-3 py-2 mb-2 rounded-pill text-uppercase" style="background: var(--theme-subtle); border: 1px solid var(--theme-primary); color: #fff; font-size:12px; letter-spacing:1px; font-weight:600;">
+        <span class="badge px-3 py-2 mb-2 rounded-pill text-uppercase" style="background: white; border: 1px solid var(--theme-primary); color: var(--theme-primary); font-size:12px; letter-spacing:1px; font-weight:600;">
             Site Installation &amp; Logistics Assistance
-        </span>
+        </span> 
         <h3 class="text-light fw-bold mb-2" style="font-family:'Oswald', sans-serif; font-size:28px;">
             Need Assistance with Bearing Delivery or On-Site Handover?
         </h3>

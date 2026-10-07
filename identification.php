@@ -553,7 +553,7 @@ include_once 'partials/header.php';
 <!-- ============================================================
      6. CTA & MTC Verification Support
      ============================================================ -->
-<section class="py-5 bg-dark position-relative text-white" style="background: linear-gradient(135deg, #3691bf 0%, #3691bf 100%);">
+<section class="py-5   position-relative text-white" style="background: var(--theme-primary);">
     <div class="container py-3">
         <div class="row align-items-center justify-content-between g-4">
             <div class="col-lg-8">
@@ -563,7 +563,7 @@ include_once 'partials/header.php';
                 <h3 class="fw-bold text-white mb-2" style="font-family:'Oswald', sans-serif; font-size:28px;">
                     Need MTC Verification or Third-Party Inspection Support?
                 </h3>
-                <p class="text-light mb-0" style="font-size:15px; color:#cbd5e1 !important; line-height:1.7;">
+                <p class="text-light mb-0" style="font-size:15px; color:#ffffffff !important; line-height:1.7;">
                     Our quality assurance team provides instant verification of lot numbers, proof test reports, and third-party inspection (RITES / DNV / BVQI / TUV) documentation for all dispatched bearings.
                 </p>
             </div>
