@@ -136,12 +136,12 @@ include_once 'partials/header.php';
 
                 <div class="services-hero-showcase d-inline-block text-center">
                     <div class="services-hero-img-box p-3 p-md-4 rounded-4 position-relative">
-                        <img src="assets/img/img/banner/services-banner-right-3.webp" alt="Elastomeric Bridge Bearing Showcase - Polymer Products" class="img-fluid"
+                        <img src="assets/img/img/banner/Storage-handling-2.webp" alt="Elastomeric Bridge Bearing Showcase - Polymer Products" class="img-fluid"
                             style="max-height: 300px; width: auto; object-fit: contain;">
                         <div class="d-flex align-items-center justify-content-between gap-2 mt-3 pt-2.5 border-top border-white border-opacity-10 text-start">
                             <div>
                                 <span class="badge bg-primary text-white rounded-pill px-2.5 py-1 small fw-bold mb-1">
-                                    <i class="fa-solid fa-shield-check me-1"></i> IRC:83 &bull; RDSO
+                                    <i class="fa-solid fa-shield-check me-1"></i>IRC:83 &bull; RDSO
                                 </span>
                                 <h6 class="text-white fw-bold mb-0 small" style="font-family: 'Oswald', sans-serif; letter-spacing: 0.3px;">
                                     Steel-Laminated Elastomeric Bearing

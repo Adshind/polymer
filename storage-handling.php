@@ -154,7 +154,7 @@ include_once 'partials/header.php';
 
                 <div class="storage-hero-showcase d-inline-block text-center">
                     <div class="storage-hero-img-box p-3 p-md-4 rounded-4 position-relative">
-                        <img src="assets/img/img/banner/Storage-handling-1.webp" alt="Bridge Bearing Installation & Storage SOP - Polymer Products" class="img-fluid"
+                        <img src="assets/img/img/banner/Storage-handling-2.webp" alt="Bridge Bearing Installation & Storage SOP - Polymer Products" class="img-fluid"
                             style="max-height: 340px; width: auto; object-fit: contain;">
                     </div>
                 </div>
