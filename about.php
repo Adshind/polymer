@@ -695,13 +695,20 @@ include_once 'partials/header.php';
                                 </p>
                             </div>
                         </div>
-                        <div class="p-3 border-top bg-light bg-opacity-25">
+                        <div class="p-3 border-top bg-light bg-opacity-25 d-flex flex-column gap-2">
                             <a href="assets/pp_data/Page 02/Emp Details/Nitin Pandey/Nitin-pandey-Rubber-Technology-Certificate.pdf" target="_blank"
                                 class="btn btn-outline-primary btn-sm rounded-pill px-3 py-2 fw-bold w-100 open-cert-modal d-flex align-items-center justify-content-center gap-2"
                                 data-doc-url="assets/pp_data/Page 02/Emp Details/Nitin Pandey/Nitin-pandey-Rubber-Technology-Certificate.pdf"
                                 data-doc-title="Nitin Pandey - Rubber Technology Certificate"
                                 data-doc-type="pdf">
-                                <i class="fa-solid fa-file-circle-check"></i> <span>View Rubber Tech Certificate</span>
+                                <i class="fa-solid fa-flask-vial"></i> <span>View Rubber Tech Certificate</span>
+                            </a>
+                            <a href="assets/pp_data/Page 02/Emp Details/Nitin Pandey/Certificate.pdf" target="_blank"
+                                class="btn btn-outline-primary btn-sm rounded-pill px-3 py-2 fw-bold w-100 open-cert-modal d-flex align-items-center justify-content-center gap-2"
+                                data-doc-url="assets/pp_data/Page 02/Emp Details/Nitin Pandey/Certificate.pdf"
+                                data-doc-title="Nitin Pandey - Quality Management Certificate"
+                                data-doc-type="pdf">
+                                <i class="fa-solid fa-award"></i> <span>View QC Certificate</span>
                             </a>
                         </div>
                     </div>
