@@ -55,7 +55,7 @@ $testing_slider_images = [
     border-radius: 6px;
 }
 .test-spec-table tbody tr:hover {
-    background-color: #f8fafc;
+    background-color: #f0f7ff;
 }
 .lab-card {
     border-radius: 16px;
@@ -234,7 +234,7 @@ $testing_slider_images = [
 <!-- ============================================================
      2. Testing & Inspection Gallery Slider (Interactive Carousel)
      ============================================================ -->
-<section class="py-5" id="testing-gallery-slider" style="background: #f8fafc; border-bottom: 1px solid #e2e8f0;">
+<section class="py-5" id="testing-gallery-slider" style="background: #f0f7ff; border-bottom: 1px solid #e2e8f0;">
     <div class="container-fluid px-3 px-lg-5 py-2">
         <div class="d-flex flex-wrap align-items-end justify-content-between mb-4 gap-3">
             <div>
@@ -416,7 +416,7 @@ $testing_slider_images = [
 <!-- ============================================================
      4. Routine & Acceptance Test Parameters Table
      ============================================================ -->
-<section class="py-5" id="test-parameters" style="background:#f8fafc; border-top:1px solid #e2e8f0; border-bottom:1px solid #e2e8f0;">
+<section class="py-5" id="test-parameters" style="background:#f0f7ff; border-top:1px solid #e2e8f0; border-bottom:1px solid #e2e8f0;">
     <div class="container-fluid px-3 px-lg-5 py-3">
         <div class="section-title text-center mb-4 wow fadeInUp" data-wow-delay=".1s">
             <span class="badge px-3 py-1.5 rounded-pill font-monospace fw-bold text-uppercase mb-2"
@@ -567,7 +567,7 @@ $testing_slider_images = [
         </div>
 
         <!-- Third Party Inspection Support -->
-        <div class="mt-5 p-4 rounded-4 border shadow-sm wow fadeInUp" data-wow-delay=".2s" style="background:#f8fafc;">
+        <div class="mt-5 p-4 rounded-4 border shadow-sm wow fadeInUp" data-wow-delay=".2s" style="background:#f0f7ff;">
             <div class="row align-items-center">
                 <div class="col-lg-8">
                     <h5 class="fw-bold text-dark mb-2" style="font-family:'Oswald', sans-serif; font-size:20px;">

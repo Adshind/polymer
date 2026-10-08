@@ -217,7 +217,7 @@ $client_approvals = [
 <!-- <section class="py-3" style="background: #ffffff; border-bottom: 1px solid #e2e8f0;">
     <div class="container-fluid px-3 px-lg-5">
         <div class="p-3.5 p-md-4 rounded-4 d-flex flex-wrap align-items-center justify-content-between gap-3"
-            style="background: #f8fafc; border: 1.5px dashed #cbd5e1;">
+            style="background: #f0f7ff; border: 1.5px dashed #cbd5e1;">
             <div class="d-flex align-items-center gap-3">
                 <div class="rounded-circle d-flex align-items-center justify-content-center p-3 text-primary flex-shrink-0"
                     style="width: 48px; height: 48px; background: var(--theme-subtle);">
@@ -306,7 +306,7 @@ $client_approvals = [
 <!-- ============================================================
      4. Specialized Technical & Quality Accreditations (RDSO, QAP, Sister Concern)
      ============================================================ -->
-<section class="py-5" id="technical-approvals" style="background: #f8fafc; border-top: 1px solid #e2e8f0; border-bottom: 1px solid #e2e8f0;">
+<section class="py-5" id="technical-approvals" style="background: #f0f7ff; border-top: 1px solid #e2e8f0; border-bottom: 1px solid #e2e8f0;">
     <div class="container-fluid px-3 px-lg-5 py-3">
         
         <div class="section-title text-center mb-5 wow fadeInUp" data-wow-delay=".1s">

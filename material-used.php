@@ -139,7 +139,7 @@ include_once 'partials/header.php';
 <!-- ============================================================
      3. RAW MATERIALS SECTION (From Raw Material.odt)
      ============================================================ -->
-<!-- <section class="py-5" id="raw-materials" style="background: #f8fafc;">
+<!-- <section class="py-5" id="raw-materials" style="background: #f0f7ff;">
     <div class="container-fluid px-3 px-lg-5 py-4">
 
         
@@ -174,7 +174,7 @@ include_once 'partials/header.php';
                             The elastomer used in the manufacture of Elastomeric Bearings is specified in the project documentation as either <strong>Natural Rubber (NR)</strong> or <strong>Chloroprene Rubber (CR)</strong> as the raw polymer base:
                         </p>
 
-                        <div class="p-3.5 p-4 rounded-3 border mb-3" style="background: #f8fafc; border-left: 4px solid var(--theme-primary) !important;">
+                        <div class="p-3.5 p-4 rounded-3 border mb-3" style="background: #f0f7ff; border-left: 4px solid var(--theme-primary) !important;">
                             <div class="d-flex align-items-center mb-1">
                                 <i class="fa-solid fa-leaf me-2" style="color: var(--theme-primary); font-size:18px;"></i>
                                 <h6 class="fw-bold mb-0" style="font-size: 16px; color: var(--theme-primary);">Natural Rubber (NR):</h6>
@@ -184,7 +184,7 @@ include_once 'partials/header.php';
                             </p>
                         </div>
 
-                        <div class="p-3.5 p-4 rounded-3 border" style="background: #f8fafc; border-left: 4px solid var(--theme-primary) !important;">
+                        <div class="p-3.5 p-4 rounded-3 border" style="background: #f0f7ff; border-left: 4px solid var(--theme-primary) !important;">
                             <div class="d-flex align-items-center mb-1">
                                 <i class="fa-solid fa-shield-halved me-2" style="color: var(--theme-primary); font-size:18px;"></i>
                                 <h6 class="fw-bold mb-0" style="font-size: 16px; color: var(--theme-primary);">Chloroprene Rubber (CR - Neoprene):</h6>
@@ -309,7 +309,7 @@ include_once 'partials/header.php';
 
                         <div class="row g-3">
                             <div class="col-sm-6">
-                                <div class="p-3.5 p-4 rounded-3 border h-100" style="background: #f8fafc; border-left: 4px solid var(--theme-primary) !important;">
+                                <div class="p-3.5 p-4 rounded-3 border h-100" style="background: #f0f7ff; border-left: 4px solid var(--theme-primary) !important;">
                                     <h6 class="fw-bold mb-2" style="font-size: 14.5px; color: var(--theme-primary);">
                                         <i class="fa-solid fa-arrows-spin me-1.5"></i> Serviceability Limit State (SLS)
                                     </h6>
@@ -319,7 +319,7 @@ include_once 'partials/header.php';
                                 </div>
                             </div>
                             <div class="col-sm-6">
-                                <div class="p-3.5 p-4 rounded-3 border h-100" style="background: #f8fafc; border-left: 4px solid var(--theme-primary) !important;">
+                                <div class="p-3.5 p-4 rounded-3 border h-100" style="background: #f0f7ff; border-left: 4px solid var(--theme-primary) !important;">
                                     <h6 class="fw-bold mb-2" style="font-size: 14.5px; color: var(--theme-primary);">
                                         <i class="fa-solid fa-shield-halved me-1.5"></i> Ultimate Limit State (ULS)
                                     </h6>
@@ -367,7 +367,7 @@ include_once 'partials/header.php';
         </div>
 
         <!-- Official Plant Declaration Banner -->
-        <div class="p-4 rounded-4 bg-light border mb-5 d-flex align-items-center gap-3 shadow-sm" style="border-left: 5px solid var(--theme-primary) !important;">
+        <div class="p-4 rounded-4   border mb-5 d-flex align-items-center gap-3 shadow-sm" style="background:#f0f7ff; border-left: 5px solid var(--theme-primary) !important;">
             <i class="fa-solid fa-stamp fa-2x text-primary flex-shrink-0"></i>
             <div>
                 <h6 class="fw-bold text-dark mb-1" style="font-size: 16px;">Third-Party Inspection &amp; Certification Compliance</h6>
@@ -380,25 +380,25 @@ include_once 'partials/header.php';
         <!-- Filter / Summary Row -->
         <div class="row g-3 mb-4 text-center">
             <div class="col-6 col-md-3">
-                <div class="p-3 bg-light rounded-3 border">
+                <div class="p-3 rounded-3 border" style="background:#f0f7ff;">
                     <h3 class="fw-bold text-primary mb-0" style="font-family:'Oswald', sans-serif;">20</h3>
                     <small class="text-muted">Hydraulic Presses (Up to 750T)</small>
                 </div>
             </div>
             <div class="col-6 col-md-3">
-                <div class="p-3 bg-light rounded-3 border">
+                <div class="p-3  rounded-3 border" style="background:#f0f7ff;">
                     <h3 class="fw-bold text-primary mb-0" style="font-family:'Oswald', sans-serif;">42</h3>
                     <small class="text-muted">Total Plant Machines &amp; Lab Rigs</small>
                 </div>
             </div>
             <div class="col-6 col-md-3">
-                <div class="p-3 bg-light rounded-3 border">
+                <div class="p-3   rounded-3 border" style="background:#f0f7ff;">
                     <h3 class="fw-bold text-primary mb-0" style="font-family:'Oswald', sans-serif;">100%</h3>
                     <small class="text-muted">In-House Physical &amp; Chemical Testing</small>
                 </div>
             </div>
             <div class="col-6 col-md-3">
-                <div class="p-3 bg-light rounded-3 border">
+                <div class="p-3   rounded-3 border" style="background:#f0f7ff;">
                     <h3 class="fw-bold text-primary mb-0" style="font-family:'Oswald', sans-serif;">RITES</h3>
                     <small class="text-muted">Witnessed &amp; Approved Setup</small>
                 </div>
@@ -925,7 +925,7 @@ include_once 'partials/header.php';
                 </div>
             </div>
             
-            <div class="modal-body p-4 p-md-5" style="background: #f8fafc;">
+            <div class="modal-body p-4 p-md-5" style="background: #f0f7ff;">
                 <!-- Letterhead Document Container -->
                 <div class="bg-white p-4 p-md-5 rounded-4 shadow-sm border mx-auto" style="max-width: 960px;">
                     
@@ -1109,7 +1109,7 @@ NASHIK-422007 Maharashtra, India
                 </div>
             </div>
             
-            <div class="modal-body p-4 p-md-5" style="background: #f8fafc;">
+            <div class="modal-body p-4 p-md-5" style="background: #f0f7ff;">
                 <!-- Letterhead Document Container -->
                 <div class="bg-white p-4 p-md-5 rounded-4 shadow-sm border mx-auto" style="max-width: 1050px;">
                     

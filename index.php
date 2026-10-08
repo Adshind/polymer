@@ -247,7 +247,7 @@ include_once 'partials/header.php';
                     </p>
 
                     <!--   Notice Card -->
-                    <div class="p-3 mb-4 rounded-3 border-start border-4 border-primary" style="background:#f8fafc;">
+                    <div class="p-3 mb-4 rounded-3 border-start border-4 border-primary" style="background:#f0f7ff;">
                         <h6 class="fw-bold text-dark mb-1" style="font-size:14px;"><i
                                 class="fa-solid fa-network-wired text-primary me-2"></i> Dynamic
                             Prestress (I) Pvt. Ltd.</h6>
@@ -505,7 +505,7 @@ include_once 'partials/header.php';
 </style>
 
 <!-- Major Experience / Client Sectors -->
-<section class="py-5" style="background:#f8fafc;">
+<section class="py-5" style="background:#f0f7ff;">
     <div class="container-fluid px-3 px-lg-5 py-4">
         <div class="section-title text-center mb-5">
             <span class="badge bg-primary text-white px-3 py-2 mb-2 text-uppercase fw-bold"
@@ -619,7 +619,7 @@ The project credentials below highlight our experience across these sectors, inc
 </style>
 
 <!-- Testimonials & Client Reviews Section (Prozen Style) -->
-<section class="py-5 position-relative" style="background:#f8fafc;">
+<section class="py-5 position-relative" style="background:#f0f7ff;">
     <div class="container-fluid px-3 px-lg-5 py-4">
         <div class="testimonial-card-prozen bg-white p-4 p-md-5 rounded-4 border shadow-sm mx-auto"
             style="max-width: 1200px;">

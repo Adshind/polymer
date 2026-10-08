@@ -70,7 +70,7 @@
 .nice-select.disabled {
   border-color: #e2e8f0;
   color: #94a3b8;
-  background-color: #f8fafc;
+  background-color: #f0f7ff;
   pointer-events: none;
 }
 .nice-select.disabled:after {

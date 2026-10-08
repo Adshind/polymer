@@ -96,7 +96,7 @@ include_once 'partials/header.php';
                     <!-- Feature Cards Grid -->
                     <div class="row g-3 mb-4">
                         <div class="col-sm-6">
-                            <div class="p-3 rounded-3 border h-100 feature-hover-card" style="background: #f8fafc;">
+                            <div class="p-3 rounded-3 border h-100 feature-hover-card" style="background: #f0f7ff;">
                                 <div class="d-flex align-items-center mb-2">
                                     <i class="fa-solid fa-flask-vial me-2 fs-5" style="color: var(--theme-primary);"></i>
                                     <h6 class="fw-bold text-dark mb-0" style="font-size: 14px;">In-House Lab &amp; R&amp;D</h6>
@@ -105,7 +105,7 @@ include_once 'partials/header.php';
                             </div>
                         </div>
                         <div class="col-sm-6">
-                            <div class="p-3 rounded-3 border h-100 feature-hover-card" style="background: #f8fafc;">
+                            <div class="p-3 rounded-3 border h-100 feature-hover-card" style="background: #f0f7ff;">
                                 <div class="d-flex align-items-center mb-2">
                                     <i class="fa-solid fa-compress me-2 fs-5" style="color: var(--theme-primary);"></i>
                                     <h6 class="fw-bold text-dark mb-0" style="font-size: 14px;">Proof-Load Test Rigs</h6>
@@ -187,7 +187,7 @@ include_once 'partials/header.php';
 <!-- ============================================================
      3. Corporate Synergy & Sister Concern Credential Section
      ============================================================ -->
-<section class="py-5 position-relative" id="sister-concern" style="background: #f8fafc; border-top: 1px solid #e2e8f0; border-bottom: 1px solid #e2e8f0;">
+<section class="py-5 position-relative" id="sister-concern" style="background: #f0f7ff; border-top: 1px solid #e2e8f0; border-bottom: 1px solid #e2e8f0;">
     <div class="container-fluid px-3 px-lg-5 py-3">
         <div class="card bg-white border shadow-sm rounded-4 p-4 p-lg-5 wow fadeInUp" data-wow-delay=".2s">
             <div class="row align-items-center g-4">
@@ -229,7 +229,7 @@ include_once 'partials/header.php';
                 </div>
 
                 <div class="col-lg-4 text-center">
-                    <div class="p-4 rounded-4 border text-center h-100 d-flex flex-column justify-content-between" style="background: #f8fafc;">
+                    <div class="p-4 rounded-4 border text-center h-100 d-flex flex-column justify-content-between" style="background: #f0f7ff;">
                         <div>
                             <div class="p-3 rounded-circle d-inline-flex align-items-center justify-content-center mb-3"
                                 style="width: 60px; height: 60px; background: var(--theme-subtle); color: var(--theme-primary); font-size: 26px;">
@@ -279,7 +279,7 @@ include_once 'partials/header.php';
              Interactive Visual Org Chart Flow (Tree View)
              ============================================================ -->
         <!-- <div class="org-chart-tree-wrapper p-4 p-lg-5 mb-5 rounded-4 border shadow-sm wow fadeInUp" data-wow-delay=".2s"
-            style="background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%); border-color: #e2e8f0;">
+            style="background: linear-gradient(180deg, #f0f7ff 0%, #ffffff 100%); border-color: #e2e8f0;">
             <div class="text-center mb-4">
                 <span class="badge bg-dark text-white px-3 py-1.5 rounded-pill small fw-bold text-uppercase" style="letter-spacing: 1px;">
                     <i class="fa-solid fa-sitemap me-1.5 text-warning"></i> Hierarchy Flow Diagram
@@ -823,7 +823,7 @@ include_once 'partials/header.php';
 <!-- ============================================================
      5. Proposed Bearing Configurations & Drawings Section
      ============================================================ -->
-<section class="py-5 position-relative" id="bearing-types" style="background: #f8fafc; border-top: 1px solid #e2e8f0;">
+<section class="py-5 position-relative" id="bearing-types" style="background: #f0f7ff; border-top: 1px solid #e2e8f0;">
     <div class="container-fluid px-3 px-lg-5 py-4">
         
         <div class="text-center mb-5 wow fadeInUp" data-wow-delay=".1s">

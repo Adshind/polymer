@@ -372,7 +372,7 @@ $process_images = [
 <!-- ============================================================
      2. Step-by-Step Manufacturing Process Flow
      ============================================================ -->
-<section class="py-5" id="process-sequence" style="background:#ffffff;">
+<section class="py-5" id="process-sequence" style="background:#f0f7ff;">
     <div class="container py-4">
         <div class="section-title text-center mb-5">
             <span class="badge px-3 py-2 mb-2 rounded-pill text-uppercase" style="background: var(--theme-subtle); color: var(--theme-primary); font-weight:700; font-size:12px; letter-spacing:1px;">
@@ -583,7 +583,7 @@ $process_images = [
 <!-- ============================================================
      4. Comprehensive 49-Photo Plant & Process Gallery Grid
      ============================================================ -->
-<!-- <section class="py-5" id="full-gallery" style="background:#f8fafc; border-top:1px solid #e2e8f0; border-bottom:1px solid #e2e8f0;">
+<!-- <section class="py-5" id="full-gallery" style="background:#f0f7ff; border-top:1px solid #e2e8f0; border-bottom:1px solid #e2e8f0;">
     <div class="container py-4">
         <div class="section-title text-center mb-4">
             <span class="badge px-3 py-2 mb-2 rounded-pill text-uppercase" style="background: var(--theme-subtle); color: var(--theme-primary); font-weight:700; font-size:12px; letter-spacing:1px;">

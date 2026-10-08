@@ -78,7 +78,7 @@ include_once 'partials/header.php';
                 <div class="row g-0 align-items-stretch">
                      
                     <div class="col-lg-5 col-xl-4 p-4 p-lg-5 d-flex flex-column justify-content-center align-items-center text-center position-relative product-img-col"
-                        style="background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%); border-right: 1px solid #e2e8f0;">
+                        style="background: linear-gradient(180deg, #f0f7ff 0%, #f1f5f9 100%); border-right: 1px solid #e2e8f0;">
                         <span class="position-absolute top-0 start-0 m-3 badge rounded-pill fw-bold text-uppercase"
                             style="background: var(--theme-subtle); color: var(--theme-primary); border: 1px solid var(--theme-primary); font-size: 12px; letter-spacing: 1px;">
                             IRC:83 Type A
@@ -116,7 +116,7 @@ include_once 'partials/header.php';
                                 Plain pad and strip bearings are solid elastomeric bearings without internal reinforcing plates. They are used for simple support conditions where vertical loads, rotation and limited translational movement need to be accommodated. For seismic applications, the bearing and its associated structural connections are designed according to the required seismic force-transfer arrangement.
                             </p>
 
-                            <div class="p-3.5 p-md-4 rounded-3 mb-4" style="background: #f8fafc; border: 1px solid #e2e8f0;">
+                            <div class="p-3.5 p-md-4 rounded-3 mb-4" style="background: #f0f7ff; border: 1px solid #e2e8f0;">
                                 <h6 class="fw-bold text-dark mb-3 d-flex align-items-center" style="font-size: 14.5px; font-family: 'Saira-Medium', sans-serif;">
                                     <i class="fa-solid fa-circle-check text-primary me-2"></i>Typical Applications:
                                 </h6>
@@ -174,7 +174,7 @@ include_once 'partials/header.php';
                 <div class="row g-0 align-items-stretch">
                 
                     <div class="col-lg-5 col-xl-4 p-4 p-lg-5 d-flex flex-column justify-content-center align-items-center text-center position-relative product-img-col"
-                        style="background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%); border-right: 1px solid #e2e8f0;">
+                        style="background: linear-gradient(180deg, #f0f7ff 0%, #f1f5f9 100%); border-right: 1px solid #e2e8f0;">
                         <span class="position-absolute top-0 start-0 m-3 badge rounded-pill fw-bold text-uppercase"
                             style="background: var(--theme-subtle); color: var(--theme-primary); border: 1px solid var(--theme-primary); font-size: 12px; letter-spacing: 1px;">
                             IRC:83 Type B
@@ -218,7 +218,7 @@ include_once 'partials/header.php';
                                 <span><strong>Standard Arrangement:</strong> This is the standard laminated bearing arrangement and is suitable for a wide range of bridge and infrastructure support applications.</span>
                             </div>
 
-                            <div class="p-3.5 p-md-4 rounded-3 mb-4" style="background: #f8fafc; border: 1px solid #e2e8f0;">
+                            <div class="p-3.5 p-md-4 rounded-3 mb-4" style="background: #f0f7ff; border: 1px solid #e2e8f0;">
                                 <h6 class="fw-bold text-dark mb-3 d-flex align-items-center" style="font-size: 14.5px; font-family: 'Saira-Medium', sans-serif;">
                                     <i class="fa-solid fa-circle-check text-primary me-2"></i>Typical Applications:
                                 </h6>
@@ -276,7 +276,7 @@ include_once 'partials/header.php';
                 <div class="row g-0 align-items-stretch">
                   
                     <div class="col-lg-5 col-xl-4 p-4 p-lg-5 d-flex flex-column justify-content-center align-items-center text-center position-relative product-img-col"
-                        style="background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%); border-right: 1px solid #e2e8f0;">
+                        style="background: linear-gradient(180deg, #f0f7ff 0%, #f1f5f9 100%); border-right: 1px solid #e2e8f0;">
                         <span class="position-absolute top-0 start-0 m-3 badge rounded-pill fw-bold text-uppercase"
                             style="background: var(--theme-subtle); color: var(--theme-primary); border: 1px solid var(--theme-primary); font-size: 12px; letter-spacing: 1px;">
                             IRC:83 Type C
@@ -314,7 +314,7 @@ include_once 'partials/header.php';
                                 Type C bearings incorporate thicker end laminates on one side or both sides of the bearing. This arrangement provides improved load distribution and rotation characteristics and can help avoid back lifting of the bearing under shear.
                             </p>
 
-                            <div class="p-3.5 p-md-4 rounded-3 mb-4" style="background: #f8fafc; border: 1px solid #e2e8f0;">
+                            <div class="p-3.5 p-md-4 rounded-3 mb-4" style="background: #f0f7ff; border: 1px solid #e2e8f0;">
                                 <h6 class="fw-bold text-dark mb-3 d-flex align-items-center" style="font-size: 14.5px; font-family: 'Saira-Medium', sans-serif;">
                                     <i class="fa-solid fa-circle-check text-primary me-2"></i>Typical Applications:
                                 </h6>
@@ -372,7 +372,7 @@ include_once 'partials/header.php';
                 <div class="row g-0 align-items-stretch">
                      
                     <div class="col-lg-5 col-xl-4 p-4 p-lg-5 d-flex flex-column justify-content-center align-items-center text-center position-relative product-img-col"
-                        style="background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%); border-right: 1px solid #e2e8f0;">
+                        style="background: linear-gradient(180deg, #f0f7ff 0%, #f1f5f9 100%); border-right: 1px solid #e2e8f0;">
                         <span class="position-absolute top-0 start-0 m-3 badge rounded-pill fw-bold text-uppercase"
                             style="background: var(--theme-subtle); color: var(--theme-primary); border: 1px solid var(--theme-primary); font-size: 12px; letter-spacing: 1px;">
                             IRC:83 Type F
@@ -410,7 +410,7 @@ include_once 'partials/header.php';
                                 Type F bearings incorporate positive anchorage through separate plates and suitable internal fastening arrangements. This provides positive location and restraint of the bearing, while the separate plate arrangement can also facilitate bearing replacement. The anchorage and fastening arrangement are designed to provide adequate positive location.
                             </p>
 
-                            <div class="p-3.5 p-md-4 rounded-3 mb-4" style="background: #f8fafc; border: 1px solid #e2e8f0;">
+                            <div class="p-3.5 p-md-4 rounded-3 mb-4" style="background: #f0f7ff; border: 1px solid #e2e8f0;">
                                 <h6 class="fw-bold text-dark mb-3 d-flex align-items-center" style="font-size: 14.5px; font-family: 'Saira-Medium', sans-serif;">
                                     <i class="fa-solid fa-circle-check text-primary me-2"></i>Typical Applications:
                                 </h6>
@@ -469,7 +469,7 @@ include_once 'partials/header.php';
 <!-- ============================================================
      3. Standards & Codes Grid Section (8 Verified PDFs)
      ============================================================ -->
-<section class="py-5" style="background: #f8fafc;">
+<section class="py-5" style="background: #f0f7ff;">
     <div class="container-fluid px-3 px-lg-5 py-4">
 
         <!-- Section Title -->

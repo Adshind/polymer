@@ -123,7 +123,7 @@ include_once 'partials/header.php';
             
             <!-- Left Column: Content -->
             <div class="col-lg-7 wow fadeInLeft" data-wow-delay=".2s">
-                <span class="badge px-3 py-2 mb-3 rounded-pill text-uppercase storage-hero-badge text-white">
+                <span class="badge px-3 py-2 mb-3 rounded-pill text-uppercase storage-hero-badge" style="color: var(--theme-lighter);">
                     <i class="fa-solid fa-diagram-project me-2 " ></i>Quality &amp; Logistics Standard Operating Procedure
                 </span>
                 <h1 class="text-white fw-bold mb-3"
@@ -169,7 +169,7 @@ include_once 'partials/header.php';
      ============================================================ -->
 <section class="py-5 bg-white border-bottom" id="installation-methodology">
     <div class="container py-3">
-        <div class="p-4 p-lg-5 rounded-4 border shadow-sm" style="background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);">
+        <div class="p-4 p-lg-5 rounded-4 border shadow-sm" style="background: linear-gradient(135deg, #ffffff 0%, #f0f7ff 100%);">
             <!-- Header & Action Row -->
             <div class="row align-items-center justify-content-between g-4 mb-4 pb-3 border-bottom">
                 <div class="col-lg-8">
@@ -246,7 +246,7 @@ include_once 'partials/header.php';
 <!-- ============================================================
      3. MASTER FLOW CHART SECTION: 16-STEP PROCESS PIPELINE
      ============================================================ -->
-<section class="py-5 bg-light position-relative" id="flowchart-section" style="background-color: #f8fafc !important;">
+<section class="py-5 bg-light position-relative" id="flowchart-section" style="background-color: #f0f7ff !important;">
     <div class="container py-3">
         
         <!-- Section Title & Intro -->

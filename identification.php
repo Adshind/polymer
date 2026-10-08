@@ -86,7 +86,7 @@ include_once 'partials/header.php';
 }
 .qc-tag-card {
     border: 2px dashed #94a3b8;
-    background: #f8fafc;
+    background: #f0f7ff;
 }
 .trace-matrix-table th {
     background: #0f172a;
@@ -449,7 +449,7 @@ include_once 'partials/header.php';
 <!-- ============================================================
      4. Marking Protocol & Inspection Tag Mockup
      ============================================================ -->
-<section class="py-5" id="marking-standard" style="background:#f8fafc; border-top:1px solid #e2e8f0; border-bottom:1px solid #e2e8f0;">
+<section class="py-5" id="marking-standard" style="background:#f0f7ff; border-top:1px solid #e2e8f0; border-bottom:1px solid #e2e8f0;">
     <div class="container py-4">
         
         <div class="row g-5 align-items-center">

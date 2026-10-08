@@ -2,7 +2,7 @@
      
 rovals Sequence Component
      ============================================================ -->
-<section class="py-5 certifications-section position-relative" style="background:#f8fafc; border-top:1px solid #e2e8f0; border-bottom:1px solid #e2e8f0;">
+<section class="py-5 certifications-section position-relative" style="background:#f0f7ff; border-top:1px solid #e2e8f0; border-bottom:1px solid #e2e8f0;">
     <div class="container-fluid px-3 px-lg-5 py-3">
         <div class="section-title text-center mb-5 wow fadeInUp" data-wow-delay=".1s">
             <span class="badge px-3 py-2 mb-2 text-uppercase fw-bold rounded-pill"

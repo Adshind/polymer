@@ -454,7 +454,7 @@ section[style*="color:#fff"][style*="py-5"] .btn-light {
 }
 
 .pp-custom-picker-wrap {
-  background: #f8fafc;
+  background: #f0f7ff;
   border: 1px solid #e2e8f0;
   border-radius: 12px;
   padding: 10px 12px;
@@ -528,7 +528,7 @@ section[style*="color:#fff"][style*="py-5"] .btn-light {
 }
 
 .accordion .accordion-button.collapsed {
-  background: #f8fafc !important;
+  background: #f0f7ff !important;
   color: #0f172a !important;
 }
 

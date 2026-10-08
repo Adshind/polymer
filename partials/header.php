@@ -259,7 +259,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
             </div>
 
             <!-- Offcanvas Plant Quick Contact Info -->
-            <div class="ht-offcanvas-info p-3 rounded-3" style="background: #f8fafc; border: 1px solid #e2e8f0;">
+            <div class="ht-offcanvas-info p-3 rounded-3" style="background: #f0f7ff; border: 1px solid #e2e8f0;">
                 <h6 class="fw-bold text-dark mb-1" style="font-family: 'Saira-Medium', sans-serif; font-size: 14px;">
                     <i class="fa-solid fa-industry text-primary me-2"></i>Manufacturing Unit
                 </h6>

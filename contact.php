@@ -44,7 +44,7 @@ include_once 'partials/header.php';
 <!-- ============================================================
      2. Main Contact Info & Form Section
      ============================================================ -->
-<section class="py-5" style="background: #f8fafc;">
+<section class="py-5" style="background: #f0f7ff;">
     <div class="container-fluid px-3 px-lg-5 py-3">
         <div class="row g-4 g-lg-5">
 
@@ -150,7 +150,7 @@ include_once 'partials/header.php';
                         </div>
 
                         <!-- Working Hours Box -->
-                        <div class="p-3 rounded-3 mb-4" style="background: #f8fafc; border: 1px solid #e2e8f0;">
+                        <div class="p-3 rounded-3 mb-4" style="background: #f0f7ff; border: 1px solid #e2e8f0;">
                             <h6 class="fw-bold text-dark mb-1 saira-medium" style="font-family: 'Saira-Medium', sans-serif !important; font-size: 14px;">
                                 <i class="fa-solid fa-clock me-2" style="color: var(--theme-primary);"></i>Plant Working Hours
                             </h6>

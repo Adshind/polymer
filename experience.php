@@ -135,7 +135,7 @@ include_once 'partials/header.php';
 <!-- ============================================================
      2. Official Client Supply Registers (3 Popup Cards)
      ============================================================ -->
-<section class="py-5" style="background: #f8fafc;">
+<section class="py-5" style="background: #f0f7ff;">
     <div class="container-fluid px-3 px-lg-5 py-3">
         
         <div class="text-center mb-5 wow fadeInUp" data-wow-delay=".1s">

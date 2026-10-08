@@ -25,7 +25,7 @@ include_once 'partials/header.php';
     border-color: var(--theme-primary) !important;
 }
 .product-img-wrapper {
-    background: linear-gradient(145deg, #f8fafc 0%, #edf2f7 100%);
+    background: linear-gradient(145deg, #f0f7ff 0%, #edf2f7 100%);
     border: 1px solid #e2e8f0;
     border-radius: 16px;
     padding: 20px;
@@ -51,7 +51,7 @@ include_once 'partials/header.php';
     transform: scale(1.04);
 }
 .spec-box {
-    background: #f8fafc;
+    background: #f0f7ff;
     border: 1px solid #e2e8f0;
     border-radius: 12px;
     padding: 14px 16px;
@@ -68,7 +68,7 @@ include_once 'partials/header.php';
 }
 .services-hero-img-box {
     transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
-    background: rgba(255, 255, 255, 0.08);
+    background: rgba(24, 70, 107, 0.18);
     backdrop-filter: blur(14px);
     -webkit-backdrop-filter: blur(14px);
     border: 1px solid rgba(255, 255, 255, 0.22);
@@ -136,7 +136,7 @@ include_once 'partials/header.php';
 
                 <div class="services-hero-showcase d-inline-block text-center">
                     <div class="services-hero-img-box p-3 p-md-4 rounded-4 position-relative">
-                        <img src="assets/img/img/banner/Storage-handling-2.webp" alt="Elastomeric Bridge Bearing Showcase - Polymer Products" class="img-fluid"
+                        <img src="assets/img/img/banner/services-banner-right-3.webp" alt="Elastomeric Bridge Bearing Showcase - Polymer Products" class="img-fluid"
                             style="max-height: 300px; width: auto; object-fit: contain;">
                         <div class="d-flex align-items-center justify-content-between gap-2 mt-3 pt-2.5 border-top border-white border-opacity-10 text-start">
                             <div>
@@ -160,7 +160,7 @@ include_once 'partials/header.php';
 <!-- ============================================================
      2. Product Portfolio Range Section
      ============================================================ -->
-<section class="py-5" style="background: #f8fafc;">
+<section class="py-5" style="background: #f0f7ff;">
     <div class="container-fluid px-3 px-lg-5 py-3">
 
         <!-- Section Header -->

@@ -146,7 +146,7 @@ include_once 'partials/header.php';
     <div class="container-fluid px-3 px-lg-5 py-4">
         
         <div class="org-chart-tree-wrapper p-4 p-lg-5 mb-5 rounded-4 border shadow-sm wow fadeInUp" data-wow-delay=".2s"
-            style="background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%); border-color: #e2e8f0;">
+            style="background: linear-gradient(180deg, #f0f7ff 0%, #ffffff 100%); border-color: #e2e8f0;">
             <div class="text-center mb-4">
                 <span class="badge bg-dark text-white px-3 py-1.5 rounded-pill small fw-bold text-uppercase" style="letter-spacing: 1px;">
                     <i class="fa-solid fa-sitemap me-1.5 text-warning"></i> Hierarchy Flow Diagram
@@ -234,7 +234,7 @@ include_once 'partials/header.php';
 <!-- ============================================================
      3. Executive Leadership & Department Incharges
      ============================================================ -->
-<section class="py-5" id="leadership-team" style="background:#f8fafc; border-top:1px solid #e2e8f0; border-bottom:1px solid #e2e8f0;">
+<section class="py-5" id="leadership-team" style="background:#f0f7ff; border-top:1px solid #e2e8f0; border-bottom:1px solid #e2e8f0;">
     <div class="container-fluid px-3 px-lg-5 py-4">
         
         <div class="d-flex align-items-center mb-4 pb-2 border-bottom">
@@ -644,7 +644,7 @@ include_once 'partials/header.php';
 <!-- ============================================================
      5. Manufacturing Floor Workforce Capacity (Total 70+ Strength)
      ============================================================ -->
-<section class="py-5" style="background:#f8fafc; border-top:1px solid #e2e8f0;">
+<section class="py-5" style="background:#f0f7ff; border-top:1px solid #e2e8f0;">
     <div class="container-fluid px-3 px-lg-5 py-3">
         <div class="p-4 p-lg-5 rounded-4 border shadow-sm wow fadeInUp" data-wow-delay=".2s"
             style="background: linear-gradient(135deg, #0b1f3a 0%, #081426 100%); color: #fff;">
