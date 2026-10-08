@@ -57,7 +57,7 @@ include_once 'partials/header.php';
 }
 .exp-hero-img-box {
     transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
-    background: rgba(255, 255, 255, 0.08);
+    background: rgb(71 164 207 / 20%);
     backdrop-filter: blur(14px);
     -webkit-backdrop-filter: blur(14px);
     border: 1px solid rgba(255, 255, 255, 0.22);

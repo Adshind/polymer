@@ -532,7 +532,7 @@ include_once 'partials/header.php';
                                 </div>
                                 <div class="team-role-tag">
                                     <span class="badge px-3 py-1.5 rounded-pill">
-                                        General Manager
+                                       Assistant General Manager
                                     </span>
                                 </div>
                             </div>

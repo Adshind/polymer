@@ -8,19 +8,19 @@ include_once 'partials/header.php';
      1. Page Hero Banner
      ============================================================ -->
 <section class="contact-hero d-flex align-items-center position-relative"
-    style="background: linear-gradient(135deg, rgba(11, 25, 44, 0.54) 0%, rgba(15, 34, 61, 0.48) 100%), url('assets/img/img/banner/birdge-6.webp') center center / cover no-repeat; padding-top: 175px; padding-bottom: 70px; margin-top: -160px;">
+    style="background: linear-gradient(135deg, rgba(11, 25, 44, 0.54) 0%, rgba(15, 34, 61, 0.48) 100%), url('assets/img/img/banner/contact-banner.png') center center / cover no-repeat; padding-top: 175px; padding-bottom: 70px; margin-top: -160px;">
     <div class="container-fluid px-3 px-lg-5">
         <div class="row align-items-center">
             <div class="col-lg-8">
                 <span class="badge px-3 py-2 mb-3 rounded-pill text-uppercase saira-medium"
-                    style="background: var(--theme-subtle); border: 1px solid var(--theme-primary); color: var(--theme-lighter); font-size: 13px; letter-spacing: 1px; font-weight: 600;">
+                    style="background: var(--theme-subtle); border: 1px solid var(--theme-primary); color: #fff; font-size: 13px; letter-spacing: 1px; font-weight: 600;">
                     <i class="fa-solid fa-headset me-2"></i>Technical RFQ &amp; Sales Desk
                 </span>
                 <h1 class="text-white fw-bold mb-3 saira-medium"
                     style="font-family: 'Saira-Medium', sans-serif !important; font-size: clamp(32px, 4vw, 48px); letter-spacing: -0.5px; line-height: 1.2;">
                     Contact Us &amp; Request A Quote
                 </h1>
-                <p class="mb-0 text-white-50 saira-medium" style="font-size: 16px; line-height: 1.8; max-width: 680px;">
+                <p class="mb-0 text-white saira-medium" style="font-size: 16px; line-height: 1.8; max-width: 680px;">
                     Reach out to our engineering and quality control team at Nashik for technical inquiries, custom bearing design calculations, and project pricing.
                 </p>
             </div>

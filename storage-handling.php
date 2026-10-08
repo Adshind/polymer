@@ -116,15 +116,15 @@ include_once 'partials/header.php';
      1. Modern Hero Banner
      ============================================================ -->
 <section class="ht-about-hero position-relative d-flex align-items-center"
-    style="background: linear-gradient(135deg, rgba(9, 20, 36, 0.70) 0%, rgba(14, 34, 61, 0.52) 50%, rgba(6, 13, 24, 0.65) 100%), url('assets/img/img/banner/Storage-handling-banner.webp') center center / cover no-repeat; padding-top: 175px; padding-bottom: 75px; margin-top: -160px; min-height: 480px;">
+    style="background: linear-gradient(135deg, rgba(9, 20, 36, 0.70) 0%, rgba(14, 34, 61, 0.52) 50%, rgba(6, 13, 24, 0.65) 100%), url('assets/img/img/banner/Storage-handling-banner-1.webp') center center / cover no-repeat; padding-top: 175px; padding-bottom: 75px; margin-top: -160px; min-height: 480px;">
     
     <div class="container-fluid px-3 px-lg-5 position-relative" style="z-index: 2;">
         <div class="row align-items-center justify-content-between g-4">
             
             <!-- Left Column: Content -->
             <div class="col-lg-7 wow fadeInLeft" data-wow-delay=".2s">
-                <span class="badge px-3 py-2 mb-3 rounded-pill text-uppercase storage-hero-badge">
-                    <i class="fa-solid fa-diagram-project me-2"></i>Quality &amp; Logistics Standard Operating Procedure
+                <span class="badge px-3 py-2 mb-3 rounded-pill text-uppercase storage-hero-badge text-white">
+                    <i class="fa-solid fa-diagram-project me-2 " ></i>Quality &amp; Logistics Standard Operating Procedure
                 </span>
                 <h1 class="text-white fw-bold mb-3"
                     style="font-family: 'Oswald', 'Saira-Medium', sans-serif; font-size: clamp(30px, 4.2vw, 50px); letter-spacing: -0.5px; line-height: 1.2;">
