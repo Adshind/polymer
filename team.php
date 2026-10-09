@@ -603,7 +603,7 @@ include_once 'partials/header.php';
                 <div class="team-card-modern h-100 d-flex flex-column justify-content-between position-relative shadow-sm">
                     <div>
                         <div class="team-photo-wrap standard-height position-relative overflow-hidden" style="background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);">
-                            <img src="assets/pp_data/Page 02/Emp Details/Labhesh/msc degree certificate OF LASBESH BAWISKAR (1).jpg" alt="Labhesh Bawiskar - Lab Manager" class="team-card-img" style="opacity: 0.38; object-fit: cover;">
+                            <img src="assets/pp_data/Page 02/Emp Details/Labhesh/degree-certificate.webp" alt="Labhesh Bawiskar - Lab Manager" class="team-card-img" style="opacity: 0.38; object-fit: cover;">
                             <div class="position-absolute top-50 start-50 translate-middle text-center text-white p-3 w-100" style="z-index: 1;">
                                 <div class="p-3 rounded-circle d-inline-flex align-items-center justify-content-center mb-2 shadow"
                                     style="width: 64px; height: 64px; background: rgba(255,255,255,0.15); border: 2px solid rgba(255,255,255,0.3); backdrop-filter: blur(8px);">
@@ -632,9 +632,9 @@ include_once 'partials/header.php';
                         </div>
                     </div>
                     <div class="p-3 border-top bg-light bg-opacity-25">
-                        <a href="assets/pp_data/Page 02/Emp Details/Labhesh/msc degree certificate OF LASBESH BAWISKAR (1).jpg" target="_blank"
+                        <a href="assets/pp_data/Page 02/Emp Details/Labhesh/degree-certificate.webp" target="_blank"
                             class="btn btn-outline-primary btn-sm rounded-pill px-3 py-2 fw-bold w-100 open-cert-modal d-flex align-items-center justify-content-center gap-2"
-                            data-doc-url="assets/pp_data/Page 02/Emp Details/Labhesh/msc degree certificate OF LASBESH BAWISKAR (1).jpg"
+                            data-doc-url="assets/pp_data/Page 02/Emp Details/Labhesh/degree-certificate.webp"
                             data-doc-title="Labhesh Bawiskar - M.Sc Degree Certificate"
                             data-doc-type="image">
                             <i class="fa-solid fa-graduation-cap"></i> <span>View M.Sc Degree</span>

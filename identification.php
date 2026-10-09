@@ -507,7 +507,7 @@ include_once 'partials/header.php';
 
                 <!-- Real Image of Marking in Plant -->
                 <div class="mt-4 p-3 bg-white rounded-4 border shadow-sm">
-                    <img src="assets/pp_data/Machine_Images/IMG20260913163947.jpg" alt="Plant Operator applying indelible marking" class="img-fluid rounded-3 w-100" style="height:230px; object-fit:cover;">
+                    <img src="assets/pp_data/Machine_Images/webp/IMG20260913163947.webp" alt="Plant Operator applying indelible marking" class="img-fluid rounded-3 w-100" style="height:230px; object-fit:cover;">
                     <p class="text-center small text-muted mt-2 mb-0">Plant operator applying indelible hot-embossed lot markings on cured bearings</p>
                 </div>
             </div>
