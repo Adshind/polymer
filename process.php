@@ -5,55 +5,27 @@ include_once 'partials/header.php';
 
 // Array of all 49 plant and process images with metadata
 $process_images = [
-    ["file" => "IMG20260913162027.webp", "title" => "Hydraulic Vulcanizing Press", "cat" => "presses", "desc" => "Multi-daylight hydraulic vulcanizing press with digital PLC temperature controls."],
-    ["file" => "IMG20260913162055.webp", "title" => "High-Pressure Compression Moulding", "cat" => "presses", "desc" => "Heavy-duty hydraulic clamping for complete elastomeric cross-linking."],
-    ["file" => "IMG20260913162127.webp", "title" => "Two-Roll Rubber Mixing Mill", "cat" => "compounding", "desc" => "Water-cooled open mixing mill for precision polymer compounding."],
-    // ["file" => "IMG20260913162252.webp", "title" => "Masterbatch Compounding & Sheeting", "cat" => "compounding", "desc" => "Homogeneous dispersion of carbon black, zinc oxide, and curing agents."],
-    ["file" => "IMG20260913162306.webp", "title" => "Hydraulic Pressure Control Panel", "cat" => "presses", "desc" => "Digital pressure and cycle timer instrumentation on main press line."],
-    // ["file" => "IMG20260913162317.webp", "title" => "Steel Plate Shearing Station", "cat" => "steel", "desc" => "Precision guillotine shearing of IS:2062 internal steel laminates."],
-    // ["file" => "IMG20260913162338.webp", "title" => "Grit Shot-Blasting Chamber", "cat" => "steel", "desc" => "Enclosed grit blasting achieving Sa 2.5 profile for maximum bond."],
-    // ["file" => "IMG20260913162350.webp", "title" => "Chemlok Primer Adhesive Coating", "cat" => "steel", "desc" => "Uniform double-coat application of high-strength elastomer bonding agents."],
-    // ["file" => "IMG20260913162353.webp", "title" => "Mould Assembly & Stacking", "cat" => "assembly", "desc" => "Alternating stacking of primed steel laminates and rubber pre-forms."],
-    // ["file" => "IMG20260913162357.webp", "title" => "Multi-Layer Stacking Alignment", "cat" => "assembly", "desc" => "Precise registration spacers ensuring uniform internal elastomer layers."],
-    // ["file" => "IMG20260913162405.webp", "title" => "Mould Cavity Preparation", "cat" => "assembly", "desc" => "CNC-machined heavy steel moulds checked for dimensional accuracy."],
-    ["file" => "IMG20260913162430.webp", "title" => "Hydraulic Curing Temperature Log", "cat" => "presses", "desc" => "Multi-zone platen heating maintained at 150°C ± 5°C throughout cure."],
-    ["file" => "IMG20260913162505.webp", "title" => "Finished Bearings Quality Inspection", "cat" => "qa", "desc" => "Visual examination of outer protective rubber layer and edge geometry."],
-    ["file" => "IMG20260913162534.webp", "title" => "Side Rubber Thickness Verification", "cat" => "qa", "desc" => "Verification of ≥4mm side cover and ≥2.5mm outer cover thickness."],
-    ["file" => "IMG20260913162555.webp", "title" => "De-moulding & Flash Trimming", "cat" => "finished", "desc" => "Careful de-moulding and pneumatic flash trimming of cured bearings."],
-    ["file" => "IMG20260913162650.webp", "title" => "Shore-A Hardness Testing", "cat" => "qa", "desc" => "Calibrated durometer testing ensuring 60 ± 5 Shore A / IRHD compliance."],
-    ["file" => "IMG20260913162657.webp", "title" => "Digital Dimensional Inspection", "cat" => "qa", "desc" => "High-precision digital vernier checks on plan dimensions and overall height."],
-    ["file" => "IMG20260913162712.webp", "title" => "Proof Load Testing Rig (1.5x)", "cat" => "qa", "desc" => "Compressive proof load verification under computerized hydraulic test frame."],
-    ["file" => "IMG20260913162728.webp", "title" => "Compressive Load Verification Frame", "cat" => "qa", "desc" => "In-house compression testing verifying zero de-lamination and crack resistance."],
-    ["file" => "IMG20260913162739.webp", "title" => "Computerized QC Test Console", "cat" => "qa", "desc" => "Real-time load vs deflection data acquisition for MTC test records."],
-    ["file" => "IMG20260913162811.webp", "title" => "Heavy-Duty Compression Platen", "cat" => "qa", "desc" => "Precision-ground hardened steel platen for uniform vertical load distribution."],
-    ["file" => "IMG20260913163037.webp", "title" => "Raw Polymer Material Bay", "cat" => "compounding", "desc" => "Certified natural rubber (RSS-1) and chloroprene polymer storage."],
-    // ["file" => "IMG20260913163042.webp", "title" => "Chemical Additives Compounding", "cat" => "compounding", "desc" => "Micro-ingredient weighing and anti-ozonant formulation station."],
-    // ["file" => "IMG20260913163049.webp", "title" => "Compound Mastication & Blending", "cat" => "compounding", "desc" => "Two-roll mastication ensuring high elasticity and zero batch variance."],
-    // ["file" => "IMG20260913163136.webp", "title" => "Heavy Two-Roll Calendering", "cat" => "compounding", "desc" => "Conversion of raw masterbatch into dense, porosity-free rubber sheets."],
-    // ["file" => "IMG20260913163227.webp", "title" => "Continuous Rubber Sheeting", "cat" => "compounding", "desc" => "Controlled cooling and release liner application on calendered sheets."],
-    // ["file" => "IMG20260913163232.webp", "title" => "Sheet Thickness Gauge Monitoring", "cat" => "compounding", "desc" => "Continuous micrometer checks on pre-form elastomer sheet thickness."],
-    // ["file" => "IMG20260913163238.webp", "title" => "Pre-Form Cutting & Sizing Table", "cat" => "assembly", "desc" => "Accurate cutting of elastomer sheets matched to mould cavity dimensions."],
-    ["file" => "IMG20260913163313.webp", "title" => "Steel Plate Inward Storage (IS:2062)", "cat" => "steel", "desc" => "Structural mild steel plate stock with test certificate verification."],
-    ["file" => "IMG20260913163333.webp", "title" => "Plate Shearing & Edge Radiusing", "cat" => "steel", "desc" => "Edge rounding (R ≥ 2mm) to prevent stress concentration and rubber cutting."],
-    ["file" => "IMG20260913163346.webp", "title" => "Shot-Blasted Steel Laminates (Sa 2.5)", "cat" => "steel", "desc" => "Clean, rust-free steel laminates with rough anchor profile for bonding."],
-    ["file" => "IMG20260913163353.webp", "title" => "Adhesive Primer Application", "cat" => "steel", "desc" => "Environmental humidity-controlled adhesive dipping and oven drying."],
-    ["file" => "IMG20260913163459.webp", "title" => "High-Tonnage Vulcanization Press Line", "cat" => "presses", "desc" => "Main vulcanizing press battery in full production operation."],
-    ["file" => "IMG20260913163801.webp", "title" => "Automated Curing Timer & Temp Control", "cat" => "presses", "desc" => "Automated cycle management ensuring complete core vulcanization."],
-    ["file" => "IMG20260913163838.webp", "title" => "Hydraulic Ram Clamping Cycle", "cat" => "presses", "desc" => "High clamping tonnage eliminating flash and air entrapment."],
-    ["file" => "IMG20260913163917.webp", "title" => "Hot Bearing De-Moulding", "cat" => "finished", "desc" => "Immediate demoulding following verified hydraulic curing cycle."],
-    ["file" => "IMG20260913163937.webp", "title" => "Edge Finishing & Flash Cleaning", "cat" => "finished", "desc" => "Smoothing outer protective surfaces for clean aesthetic finish."],
-    ["file" => "IMG20260913163947.webp", "title" => "Indelible Marking & Lot Stamping", "cat" => "qa", "desc" => "Permanent side stamping of lot number, dimensions, and standard codes."],
-    ["file" => "IMG20260913164115.webp", "title" => "Finished Elastomeric Bearings Stock", "cat" => "finished", "desc" => "Ready-to-dispatch IRC:83 / RDSO bridge bearings with lot labels."],
-    ["file" => "IMG20260913164134.webp", "title" => "QA/QC Final Acceptance Bay", "cat" => "qa", "desc" => "Stage-5 final inspection bay for client witness and third-party QA."],
-    ["file" => "IMG20260913164230.webp", "title" => "Palletized Bearing Stacking", "cat" => "finished", "desc" => "Flat stacking on sturdy wooden pallets preventing edge distortion."],
-    ["file" => "IMG20260913164319.webp", "title" => "Polyethylene Shrink Wrapping", "cat" => "finished", "desc" => "Heavy duty weather-proof wrap protecting against UV and moisture."],
-    ["file" => "IMG20260913164338.webp", "title" => "Finished Goods Dispatch Yard", "cat" => "finished", "desc" => "Strapped consignments organized with MTC document pouches."],
-    ["file" => "IMG20260913164426.webp", "title" => "Tensile Testing Machine (UTM)", "cat" => "qa", "desc" => "Calibrated UTM for tensile strength (≥17 MPa) & elongation (≥400%)."],
-    ["file" => "IMG20260913164437.webp", "title" => "Accelerated Thermal Ageing Oven", "cat" => "qa", "desc" => "Digital air-circulated oven for 70°C / 72h heat resistance verification."],
-    ["file" => "IMG20260913164454.webp", "title" => "Compression Set & Lab Apparatus", "cat" => "qa", "desc" => "Standardized testing fixtures complying with IS:3400 test methods."],
-    ["file" => "IMG20260913164521.webp", "title" => "Chemical Batch Formulation Logs", "cat" => "compounding", "desc" => "Documented batch weighing records ensuring 100% material traceability."],
-    ["file" => "IMG20260913164548.webp", "title" => "Precision CNC Mould Inventory", "cat" => "assembly", "desc" => "50+ sets of CNC steel moulds covering all standard IRC & RDSO sizes."],
-    ["file" => "IMG20260913164602.webp", "title" => "Nashik Manufacturing Facility Floor", "cat" => "presses", "desc" => "Complete panoramic view of the Nashik production and curing shopfloor."]
+    ["file" => "image-1.webp", "title" => "Hydraulic Vulcanizing Press", "cat" => "presses", "desc" => "Multi-daylight hydraulic vulcanizing press with digital PLC temperature controls."],
+    ["file" => "image-2.webp", "title" => "High-Pressure Compression Moulding", "cat" => "presses", "desc" => "Heavy-duty hydraulic clamping for complete elastomeric cross-linking."],
+    ["file" => "image-3.webp", "title" => "Two-Roll Rubber Mixing Mill", "cat" => "compounding", "desc" => "Water-cooled open mixing mill for precision polymer compounding."],    
+    ["file" => "image-4.webp", "title" => "Hydraulic Pressure Control Panel", "cat" => "presses", "desc" => "Digital pressure and cycle timer instrumentation on main press line."],
+    ["file" => "image-5.webp", "title" => "Steel Plate Shearing Station", "cat" => "steel", "desc" => "Precision guillotine shearing of IS:2062 internal steel laminates."],
+    ["file" => "image-6.webp", "title" => "Grit Shot-Blasting Chamber", "cat" => "steel", "desc" => "Enclosed grit blasting achieving Sa 2.5 profile for maximum bond."],
+    ["file" => "image-7.webp", "title" => "Chemlok Primer Adhesive Coating", "cat" => "steel", "desc" => "Uniform double-coat application of high-strength elastomer bonding agents."],
+    ["file" => "image-8.webp", "title" => "Mould Assembly & Stacking", "cat" => "assembly", "desc" => "Alternating stacking of primed steel laminates and rubber pre-forms."],
+    ["file" => "image-9.webp", "title" => "Multi-Layer Stacking Alignment", "cat" => "assembly", "desc" => "Precise registration spacers ensuring uniform internal elastomer layers."],
+    ["file" => "image-10.webp", "title" => "Mould Cavity Preparation", "cat" => "assembly", "desc" => "CNC-machined heavy steel moulds checked for dimensional accuracy."],
+    ["file" => "image-11.webp", "title" => "Hydraulic Curing Temperature Log", "cat" => "presses", "desc" => "Multi-zone platen heating maintained at 150°C ± 5°C throughout cure."],
+    ["file" => "image-12.webp", "title" => "Finished Bearings Quality Inspection", "cat" => "qa", "desc" => "Visual examination of outer protective rubber layer and edge geometry."],
+    ["file" => "image-13.webp", "title" => "Side Rubber Thickness Verification", "cat" => "qa", "desc" => "Verification of ≥4mm side cover and ≥2.5mm outer cover thickness."],
+    ["file" => "image-14.webp", "title" => "De-moulding & Flash Trimming", "cat" => "finished", "desc" => "Careful de-moulding and pneumatic flash trimming of cured bearings."],
+    ["file" => "image-15.webp", "title" => "Shore-A Hardness Testing", "cat" => "qa", "desc" => "Calibrated durometer testing ensuring 60 ± 5 Shore A / IRHD compliance."],
+    ["file" => "image-16.webp", "title" => "Digital Dimensional Inspection", "cat" => "qa", "desc" => "High-precision digital vernier checks on plan dimensions and overall height."],
+    ["file" => "image-17.webp", "title" => "Proof Load Testing Rig (1.5x)", "cat" => "qa", "desc" => "Compressive proof load verification under computerized hydraulic test frame."],
+    ["file" => "image-18.webp", "title" => "Compressive Load Verification Frame", "cat" => "qa", "desc" => "In-house compression testing verifying zero de-lamination and crack resistance."],
+    ["file" => "image-19.webp", "title" => "Computerized QC Test Console", "cat" => "qa", "desc" => "Real-time load vs deflection data acquisition for MTC test records."],
+    ["file" => "image-20.webp", "title" => "Heavy-Duty Compression Platen", "cat" => "qa", "desc" => "Precision-ground hardened steel platen for uniform vertical load distribution."]
+     
 ];
 ?>
 
@@ -175,15 +147,25 @@ $process_images = [
     padding-bottom: 50px;
 }
 .swiper-process-slide {
-    border-radius: 18px;
+    border-radius: 16px;
     overflow: hidden;
     background: #0b192c;
-    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+.swiper-process-slide:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 16px 36px rgba(0, 0, 0, 0.25);
 }
 .swiper-process-slide img {
-    height: 360px;
+    height: 350px;
     width: 100%;
     object-fit: cover;
+    display: block;
+    transition: transform 0.45s ease;
+}
+.swiper-process-slide:hover img {
+    transform: scale(1.06);
 }
 .swiper-button-next-custom,
 .swiper-button-prev-custom {
@@ -210,61 +192,70 @@ $process_images = [
 
 /* Magnific Popup Custom Lightbox & Navigation Arrows */
 .mfp-bg {
-    background: rgba(9, 20, 36, 0.94) !important;
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
+    background: rgba(9, 20, 36, 0.95) !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    z-index: 99990 !important;
+}
+.mfp-wrap {
+    z-index: 99991 !important;
+}
+.mfp-container {
+    padding: 0 60px !important;
 }
 .mfp-arrow {
     width: 54px !important;
     height: 54px !important;
-    background: rgba(255, 255, 255, 0.18) !important;
-    backdrop-filter: blur(10px) !important;
-    -webkit-backdrop-filter: blur(10px) !important;
+    background: #ffffff !important;
     border-radius: 50% !important;
     top: 50% !important;
     transform: translateY(-50%) !important;
-    margin: 0 20px !important;
-    opacity: 0.9 !important;
+    opacity: 0.95 !important;
     transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1) !important;
-    border: 1.5px solid rgba(255, 255, 255, 0.35) !important;
+    border: 2px solid var(--theme-primary, #3691bf) !important;
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
     cursor: pointer !important;
     outline: none !important;
+    z-index: 99999 !important;
+    color: var(--theme-primary, #3691bf) !important;
+    font-size: 20px !important;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4) !important;
+    margin: 0 !important;
+}
+.mfp-arrow:before, .mfp-arrow:after {
+    display: none !important;
+}
+.mfp-arrow i {
+    color: var(--theme-primary, #3691bf) !important;
+    font-size: 20px !important;
+    line-height: 1 !important;
+    transition: color 0.2s ease;
+}
+.mfp-arrow-left {
+    left: 20px !important;
+    right: auto !important;
+}
+.mfp-arrow-right {
+    right: 20px !important;
+    left: auto !important;
 }
 .mfp-arrow:hover {
-    background: var(--theme-primary) !important;
+    background: var(--theme-primary, #3691bf) !important;
     border-color: #ffffff !important;
     opacity: 1 !important;
     transform: translateY(-50%) scale(1.12) !important;
-    box-shadow: 0 8px 24px var(--theme-glow) !important;
+    box-shadow: 0 8px 24px var(--theme-glow, rgba(54, 145, 191, 0.6)) !important;
 }
-.mfp-arrow:before, .mfp-arrow:after {
-    border: none !important;
-    margin: 0 !important;
-    position: static !important;
-    display: inline-block !important;
-}
-.mfp-arrow-left:after {
-    content: '\f053' !important;
-    font-family: 'Font Awesome 6 Free' !important;
-    font-weight: 900 !important;
+.mfp-arrow:hover i {
     color: #ffffff !important;
-    font-size: 18px !important;
-}
-.mfp-arrow-right:after {
-    content: '\f054' !important;
-    font-family: 'Font Awesome 6 Free' !important;
-    font-weight: 900 !important;
-    color: #ffffff !important;
-    font-size: 18px !important;
 }
 .mfp-close {
     width: 44px !important;
     height: 44px !important;
     line-height: 44px !important;
-    background: rgba(255, 255, 255, 0.15) !important;
+    background: rgba(255, 255, 255, 0.2) !important;
     border-radius: 50% !important;
     top: 18px !important;
     right: 20px !important;
@@ -276,23 +267,27 @@ $process_images = [
     align-items: center !important;
     justify-content: center !important;
     padding: 0 !important;
+    z-index: 99999 !important;
+    border: 1.5px solid rgba(255, 255, 255, 0.35) !important;
 }
 .mfp-close:hover {
     background: #ef4444 !important;
+    border-color: #ef4444 !important;
     color: #ffffff !important;
     transform: rotate(90deg) scale(1.1);
 }
 .mfp-counter {
-    color: #e2e8f0 !important;
+    color: #ffffff !important;
     font-size: 13px !important;
     font-weight: 600 !important;
-    padding: 6px 14px !important;
-    background: rgba(0, 0, 0, 0.5) !important;
+    padding: 6px 16px !important;
+    background: rgba(15, 23, 42, 0.85) !important;
     border-radius: 20px !important;
     top: 18px !important;
     left: 20px !important;
     right: auto !important;
-    border: 1px solid rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    z-index: 99999 !important;
 }
 .mfp-title {
     color: #ffffff !important;
@@ -303,6 +298,9 @@ $process_images = [
     border-radius: 8px !important;
     margin-top: 10px !important;
     border: 1px solid rgba(255, 255, 255, 0.12);
+}
+.mfp-title:empty {
+    display: none !important;
 }
 .mfp-figure figure {
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
@@ -549,29 +547,20 @@ $process_images = [
         <div class="swiper processSwiper">
             <div class="swiper-wrapper">
                 <?php 
-                // Featured selection of highlights for slider
-                $featured_slider_indices = [0, 1, 2, 3, 5, 6, 7, 8, 12, 17, 18, 19, 24, 30, 32, 37, 40, 43, 44, 48];
-                foreach ($featured_slider_indices as $idx):
-                    if (isset($process_images[$idx])):
-                        $img = $process_images[$idx];
+                // Display all 20 plant process images in interactive slider
+                foreach ($process_images as $img):
                 ?>
                 <div class="swiper-slide">
-                    <div class="swiper-process-slide position-relative">
-                        <a href="assets/pp_data/Machine_Images/webp/<?php echo $img['file']; ?>" class="popup-image d-block text-decoration-none" title="<?php echo htmlspecialchars($img['title']) . ' - ' . htmlspecialchars($img['desc']); ?>">
-                            <img src="assets/pp_data/Machine_Images/webp/<?php echo $img['file']; ?>" alt="<?php echo htmlspecialchars($img['title']); ?>" loading="lazy" style="cursor: pointer;">
-                            <div class="p-3 position-absolute bottom-0 start-0 end-0" style="background: linear-gradient(180deg, transparent 0%, rgba(9, 20, 36, 0.95) 80%); pointer-events: none;">
-                                <span class="badge bg-primary px-2 py-1 mb-1 small text-uppercase" style="font-size:10px;"><?php echo strtoupper($img['cat']); ?></span>
-                                <h6 class="text-white fw-bold mb-1" style="font-size:15px;"><?php echo htmlspecialchars($img['title']); ?></h6>
-                                <p class="text-white-50 small mb-0" style="font-size:12px; line-height:1.4;"><?php echo htmlspecialchars($img['desc']); ?></p>
-                            </div>
-                            <span class="gallery-zoom-btn" title="View in Popup">
+                    <div class="swiper-process-slide position-relative"> 
+                        <a href="assets/pp_data/Machine_Images/20/<?php echo $img['file']; ?>" class="popup-image d-block text-decoration-none"> 
+                            <img src="assets/pp_data/Machine_Images/20/<?php echo $img['file']; ?>" alt="Plant Machinery & Operations" loading="lazy" style="cursor: pointer;">
+                            <span class="gallery-zoom-btn" title="View Fullscreen">
                                 <i class="fa-solid fa-expand"></i>
                             </span>
                         </a>
                     </div>
                 </div>
                 <?php 
-                    endif;
                 endforeach; 
                 ?>
             </div>
@@ -651,8 +640,8 @@ $process_images = [
         <div class="row g-4 mb-5">
             <div class="col-lg-3 col-md-6">
                 <div class="p-3 bg-light rounded-4 shadow-sm border h-100 text-center">
-                    <a href="assets/pp_data/Machine_Images/webp/IMG20260913162027.webp" class="popup-image d-block mb-3 overflow-hidden rounded-3" title="Hydraulic Vulcanizing Press - High tonnage multi-daylight heated hydraulic presses with PLC digital temperature controls.">
-                        <img src="assets/pp_data/Machine_Images/webp/IMG20260913162027.webp" alt="Hydraulic Press" class="img-fluid" style="height:170px; width:100%; object-fit:cover; transition: transform 0.3s ease; cursor: pointer;">
+                    <a href="assets/pp_data/Machine_Images/20/image-1.webp" class="popup-image d-block mb-3 overflow-hidden rounded-3" title="Hydraulic Vulcanizing Press - High tonnage multi-daylight heated hydraulic presses with PLC digital temperature controls.">
+                        <img src="assets/pp_data/Machine_Images/20/image-1.webp" alt="Hydraulic Press" class="img-fluid" style="height:170px; width:100%; object-fit:cover; transition: transform 0.3s ease; cursor: pointer;">
                     </a>
                     <h6 class="fw-bold text-dark mb-1">Hydraulic Vulcanizing Press</h6>
                     <small class="text-muted">High tonnage multi-daylight heated hydraulic presses with PLC digital temperature controls.</small>
@@ -661,8 +650,8 @@ $process_images = [
 
             <div class="col-lg-3 col-md-6">
                 <div class="p-3 bg-light rounded-4 shadow-sm border h-100 text-center">
-                    <a href="assets/pp_data/Machine_Images/webp/IMG20260913162127.webp" class="popup-image d-block mb-3 overflow-hidden rounded-3" title="Two-Roll Rubber Mixing Mill - Heavy-duty water-cooled open mixing mill for compound mastication.">
-                        <img src="assets/pp_data/Machine_Images/webp/IMG20260913162127.webp" alt="Two-Roll Mixing Mill" class="img-fluid" style="height:170px; width:100%; object-fit:cover; transition: transform 0.3s ease; cursor: pointer;">
+                    <a href="assets/pp_data/Machine_Images/20/image-9.webp" class="popup-image d-block mb-3 overflow-hidden rounded-3" title="Two-Roll Rubber Mixing Mill - Heavy-duty water-cooled open mixing mill for compound mastication.">
+                        <img src="assets/pp_data/Machine_Images/20/image-9.webp" alt="Two-Roll Mixing Mill" class="img-fluid" style="height:170px; width:100%; object-fit:cover; transition: transform 0.3s ease; cursor: pointer;">
                     </a>
                     <h6 class="fw-bold text-dark mb-1">Two-Roll Rubber Mixing Mill</h6>
                     <small class="text-muted">Heavy-duty water-cooled open mixing mill for compound mastication and additive homogenization.</small>
@@ -671,8 +660,8 @@ $process_images = [
 
             <div class="col-lg-3 col-md-6">
                 <div class="p-3 bg-light rounded-4 shadow-sm border h-100 text-center">
-                    <a href="assets/pp_data/Machine_Images/webp/IMG20260913162317.webp" class="popup-image d-block mb-3 overflow-hidden rounded-3" title="Plate Shearing & Shot Blasting - Steel plate guillotine shearing and enclosed grit shot-blasting chamber.">
-                        <img src="assets/pp_data/Machine_Images/webp/IMG20260913162317.webp" alt="Steel Preparation" class="img-fluid" style="height:170px; width:100%; object-fit:cover; transition: transform 0.3s ease; cursor: pointer;">
+                    <a href="assets/pp_data/Machine_Images/20/image-4.webp" class="popup-image d-block mb-3 overflow-hidden rounded-3" title="Plate Shearing & Shot Blasting - Steel plate guillotine shearing and enclosed grit shot-blasting chamber.">
+                        <img src="assets/pp_data/Machine_Images/20/image-4.webp" alt="Steel Preparation" class="img-fluid" style="height:170px; width:100%; object-fit:cover; transition: transform 0.3s ease; cursor: pointer;">
                     </a>
                     <h6 class="fw-bold text-dark mb-1">Plate Shearing &amp; Shot Blasting</h6>
                     <small class="text-muted">Steel plate guillotine shearing, edge radiusing grinders, and enclosed grit shot-blasting chamber.</small>
@@ -681,8 +670,8 @@ $process_images = [
 
             <div class="col-lg-3 col-md-6">
                 <div class="p-3 bg-light rounded-4 shadow-sm border h-100 text-center">
-                    <a href="assets/pp_data/Machine_Images/webp/IMG20260913162728.webp" class="popup-image d-block mb-3 overflow-hidden rounded-3" title="In-House Proof Load Testing Rig - Computerized compressive load test frame calibrated for up to 1.5x design load verification.">
-                        <img src="assets/pp_data/Machine_Images/webp/IMG20260913162728.webp" alt="Testing Equipment" class="img-fluid" style="height:170px; width:100%; object-fit:cover; transition: transform 0.3s ease; cursor: pointer;">
+                    <a href="assets/pp_data/Machine_Images/20/image-16.webp" class="popup-image d-block mb-3 overflow-hidden rounded-3" title="In-House Proof Load Testing Rig - Computerized compressive load test frame calibrated for up to 1.5x design load verification.">
+                        <img src="assets/pp_data/Machine_Images/20/image-16.webp" alt="Testing Equipment" class="img-fluid" style="height:170px; width:100%; object-fit:cover; transition: transform 0.3s ease; cursor: pointer;">
                     </a>
                     <h6 class="fw-bold text-dark mb-1">In-House Proof Load Testing Rig</h6>
                     <small class="text-muted">Computerized compressive load test frame calibrated for up to 1.5x design load verification.</small>
@@ -867,7 +856,7 @@ document.addEventListener("DOMContentLoaded", function() {
             gallery: {
                 enabled: true,
                 navigateByImgClick: true,
-                arrowMarkup: '<button title="%title%" type="button" class="mfp-arrow mfp-arrow-%dir%"></button>',
+                arrowMarkup: '<button title="%title%" type="button" class="mfp-arrow mfp-arrow-%dir%"><i class="fa-solid fa-chevron-%dir%"></i></button>',
                 tPrev: 'Previous Image (Left arrow)',
                 tNext: 'Next Image (Right arrow)',
                 tCounter: '<span class="mfp-counter">%curr% of %total%</span>'
@@ -906,7 +895,7 @@ document.addEventListener("DOMContentLoaded", function() {
             gallery: {
                 enabled: true,
                 navigateByImgClick: true,
-                arrowMarkup: '<button title="%title%" type="button" class="mfp-arrow mfp-arrow-%dir%"></button>',
+                arrowMarkup: '<button title="%title%" type="button" class="mfp-arrow mfp-arrow-%dir%"><i class="fa-solid fa-chevron-%dir%"></i></button>',
                 tPrev: 'Previous Image (Left arrow)',
                 tNext: 'Next Image (Right arrow)',
                 tCounter: '<span class="mfp-counter">%curr% of %total%</span>'
