@@ -57,6 +57,7 @@ include_once 'partials/header.php';
     background: #ffffff;
     border: 1px solid #e2e8f0;
     border-radius: 16px;
+    padding: 10px;
     transition: all 0.3s ease;
 }
 .doc-download-card:hover {

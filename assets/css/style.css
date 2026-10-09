@@ -8,8 +8,8 @@
 @font-face {
   font-family: 'Saira-Medium';
   src: url('../webfonts/Saira_SemiCondensed-Medium.ttf') format('truetype'),
-       local('Saira SemiCondensed Medium'),
-       local('SairaSemiCondensed-Medium');
+    local('Saira SemiCondensed Medium'),
+    local('SairaSemiCondensed-Medium');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -7647,7 +7647,7 @@ h1 {
 
 @media only screen and (max-width: 380px) {
   h1 {
-    font-size: 55px !important;
+    font-size: 46px !important;
   }
 }
 
