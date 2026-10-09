@@ -1,4 +1,4 @@
-﻿<?php 
+<?php 
 $page_title = "Raw Materials & Machinery Infrastructure - Polymer Products";
 $meta_description = "Complete specifications of raw materials (NR, CR, IS:2062 Steel, PTFE) and 42 manufacturing & testing machineries installed at Polymer Products, Nashik.";
 include_once 'partials/header.php'; 
@@ -24,6 +24,38 @@ include_once 'partials/header.php';
     box-shadow: 0 16px 35px rgba(2, 132, 199, 0.08) !important;
     border-color: var(--theme-primary);
 }
+
+/* Machinery Table Mobile Enhancements & Custom Scrollbar */
+.machinery-table-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border-radius: 16px;
+    position: relative;
+    border: 1px solid #e2e8f0;
+    background: #ffffff;
+    scrollbar-width: thin;
+    scrollbar-color: var(--theme-primary, #3691bf) #f1f5f9;
+}
+.machinery-table-wrap::-webkit-scrollbar {
+    height: 8px;
+}
+.machinery-table-wrap::-webkit-scrollbar-track {
+    background: #f1f5f9;
+    border-radius: 10px;
+}
+.machinery-table-wrap::-webkit-scrollbar-thumb {
+    background: var(--theme-primary, #3691bf);
+    border-radius: 10px;
+    border: 2px solid #f1f5f9;
+}
+.machinery-table-wrap::-webkit-scrollbar-thumb:hover {
+    background: #0284c7;
+}
+
+.machinery-table {
+    min-width: 860px;
+    width: 100%;
+}
 .machinery-table th {
     background: #0f172a;
     color: #ffffff;
@@ -31,7 +63,39 @@ include_once 'partials/header.php';
     font-size: 13px;
     letter-spacing: 0.5px;
     text-transform: uppercase;
+    white-space: nowrap;
+    padding: 13px 16px;
 }
+.machinery-table td {
+    padding: 12px 16px;
+    vertical-align: middle;
+}
+.machinery-table tbody tr {
+    transition: background-color 0.2s ease;
+}
+.machinery-table tbody tr:hover {
+    background-color: #f8fafc;
+}
+
+.machinery-scroll-hint {
+    background: linear-gradient(90deg, #f0f7ff 0%, #ffffff 100%);
+    border: 1px dashed #bae6fd !important;
+}
+
+@media (max-width: 767.98px) {
+    .machinery-table {
+        min-width: 780px;
+        font-size: 12.5px;
+    }
+    .machinery-table th {
+        font-size: 12px;
+        padding: 10px 12px;
+    }
+    .machinery-table td {
+        padding: 10px 12px;
+    }
+}
+
 .machinery-card {
     transition: all 0.3s ease;
     border: 1px solid #e2e8f0;
@@ -406,8 +470,19 @@ include_once 'partials/header.php';
             </div>
         </div>
 
+        <!-- Mobile Scroll Indicator Banner -->
+        <div class="d-lg-none d-flex align-items-center justify-content-between p-2.5 mb-3 rounded-3 shadow-sm machinery-scroll-hint">
+            <div class="d-flex align-items-center gap-2 text-dark" style="font-size: 13px;">
+                <i class="fa-solid fa-arrows-left-right text-primary fa-fade"></i>
+                <span class="fw-semibold">Swipe sideways to view all 42 machinery specs</span>
+            </div>
+            <span class="badge bg-primary text-white rounded-pill px-2.5 py-1" style="font-size: 11px;">
+                <i class="fa-solid fa-hand-pointer me-1"></i> Scroll &rarr;
+            </span>
+        </div>
+
         <!-- Complete 42 Item Table -->
-        <div class="table-responsive shadow-sm rounded-4 border overflow-hidden">
+        <div class="machinery-table-wrap shadow-sm mb-4">
             <table class="table table-hover align-middle mb-0 machinery-table">
                 <thead>
                     <tr>
@@ -907,7 +982,7 @@ include_once 'partials/header.php';
 
 <!-- Modal 1: Raw Material Specification Document Viewer -->
 <div class="modal fade" id="rawMaterialModal" tabindex="-1" aria-labelledby="rawMaterialModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-dialog modal-xl modal-fullscreen-lg-down modal-dialog-centered modal-dialog-scrollable">
         <div class="modal-content border-0 shadow-lg rounded-4 overflow-hidden">
             <div class="modal-header bg-dark text-white border-0 py-3 px-4 d-flex justify-content-between align-items-center">
                 <div class="d-flex align-items-center gap-3">
@@ -1091,7 +1166,7 @@ NASHIK-422007 Maharashtra, India
 
 <!-- Modal 2: Machinery & Testing Equipment List Document Viewer -->
 <div class="modal fade" id="machineryModal" tabindex="-1" aria-labelledby="machineryModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-dialog modal-xl modal-fullscreen-lg-down modal-dialog-centered modal-dialog-scrollable">
         <div class="modal-content border-0 shadow-lg rounded-4 overflow-hidden">
             <div class="modal-header bg-dark text-white border-0 py-3 px-4 d-flex justify-content-between align-items-center">
                 <div class="d-flex align-items-center gap-3">
@@ -1134,9 +1209,19 @@ NASHIK-422007 Maharashtra, India
                         </p>
                     </div>
 
+                    <!-- Mobile Scroll Indicator inside modal -->
+                    <div class="d-lg-none d-flex align-items-center justify-content-between p-2 mb-2 rounded-3 text-dark small machinery-scroll-hint">
+                        <span class="d-inline-flex align-items-center gap-1.5 fw-semibold">
+                            <i class="fa-solid fa-arrows-left-right text-primary fa-fade"></i> Swipe table horizontally
+                        </span>
+                        <span class="badge bg-primary text-white rounded-pill px-2 py-0.5" style="font-size: 11px;">
+                            42 Machines
+                        </span>
+                    </div>
+
                     <!-- Table of 42 items in Document View -->
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-sm align-middle text-secondary" style="font-size: 13px;">
+                    <div class="machinery-table-wrap shadow-sm mb-3">
+                        <table class="table table-bordered table-sm align-middle text-secondary machinery-table" style="font-size: 13px;">
                             <thead class="table-dark">
                                 <tr>
                                     <th class="py-2 text-center" style="width: 50px;">Sr.</th>
