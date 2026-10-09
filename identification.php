@@ -5,6 +5,13 @@ include_once 'partials/header.php';
 ?>
 
 <style>
+/* Page Wrapper & Overflow Containment for Mobile */
+.ident-page-wrapper {
+    width: 100%;
+    overflow-x: hidden;
+    position: relative;
+}
+
 .ident-hero-badge {
     background: var(--theme-subtle);
     border: 1px solid var(--theme-primary);
@@ -82,7 +89,9 @@ include_once 'partials/header.php';
     color: #38bdf8;
     border-left: 4px solid var(--theme-primary) !important;
     font-family: 'Courier New', Courier, monospace;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
+    word-break: break-word;
+    overflow-wrap: anywhere;
 }
 .qc-tag-card {
     border: 2px dashed #94a3b8;
@@ -146,20 +155,6 @@ include_once 'partials/header.php';
     border: 1px dashed #bae6fd !important;
 }
 
-@media (max-width: 767.98px) {
-    .trace-matrix-table {
-        min-width: 720px;
-        font-size: 12.5px;
-    }
-    .trace-matrix-table th {
-        font-size: 12px;
-        padding: 11px 14px;
-    }
-    .trace-matrix-table td {
-        padding: 11px 14px;
-    }
-}
-
 .flow-stepper-item {
     background: #ffffff;
     border: 1px solid #e2e8f0;
@@ -209,11 +204,55 @@ include_once 'partials/header.php';
 .ident-hero-img-box:hover img {
     transform: scale(1.04);
 }
+
+@media (max-width: 991.98px) {
+    .ht-about-hero {
+        padding-top: 145px !important;
+        padding-bottom: 50px !important;
+        margin-top: -140px !important;
+        min-height: auto !important;
+    }
+    .flow-stepper-item {
+        font-size: 12px;
+        padding: 8px 11px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .trace-matrix-table {
+        min-width: 720px;
+        font-size: 12.5px;
+    }
+    .trace-matrix-table th {
+        font-size: 12px;
+        padding: 11px 14px;
+    }
+    .trace-matrix-table td {
+        padding: 11px 14px;
+    }
+    .marking-box strong {
+        font-size: 13px !important;
+        line-height: 1.6;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .ht-about-hero {
+        padding-top: 135px !important;
+        padding-bottom: 40px !important;
+        margin-top: -120px !important;
+    }
+    .flow-stepper-item {
+        width: 100%;
+        justify-content: flex-start;
+    }
+}
 </style>
 
 <!-- ============================================================
      1. Modern Hero Banner
      ============================================================ -->
+<div class="ident-page-wrapper">
 <section class="ht-about-hero position-relative d-flex align-items-center"
     style="background: linear-gradient(135deg, rgba(26, 28, 31, 0.64) 0%, rgba(12, 13, 15, 0.55) 50%, rgba(19, 37, 65, 0.75) 100%), url('assets/img/img/banner/identification-banner-1.webp') center center / cover no-repeat; padding-top: 175px; padding-bottom: 75px; margin-top: -160px; min-height: 480px;">
     
@@ -516,7 +555,7 @@ include_once 'partials/header.php';
 <section class="py-5" id="marking-standard" style="background:#f0f7ff; border-top:1px solid #e2e8f0; border-bottom:1px solid #e2e8f0;">
     <div class="container py-4">
         
-        <div class="row g-5 align-items-center">
+        <div class="row g-4 g-lg-5 align-items-center">
             <div class="col-lg-6">
                 <span class="badge px-3 py-2 mb-2 rounded-pill text-uppercase" style="background: var(--theme-subtle); color: var(--theme-primary); font-weight:700; font-size:12px; letter-spacing:1px;">
                     INDELIBLE MARKING SPECIFICATION
@@ -695,5 +734,6 @@ include_once 'partials/header.php';
         </div>
     </div>
 </section>
+</div><!-- /.ident-page-wrapper -->
 
 <?php include_once 'partials/footer.php'; ?>
