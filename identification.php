@@ -88,6 +88,38 @@ include_once 'partials/header.php';
     border: 2px dashed #94a3b8;
     background: #f0f7ff;
 }
+
+/* End-to-End Traceability Matrix Mobile Responsive & Custom Scrollbar */
+.trace-matrix-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border-radius: 16px;
+    position: relative;
+    border: 1px solid #e2e8f0;
+    background: #ffffff;
+    scrollbar-width: thin;
+    scrollbar-color: var(--theme-primary, #3691bf) #f1f5f9;
+}
+.trace-matrix-wrap::-webkit-scrollbar {
+    height: 8px;
+}
+.trace-matrix-wrap::-webkit-scrollbar-track {
+    background: #f1f5f9;
+    border-radius: 10px;
+}
+.trace-matrix-wrap::-webkit-scrollbar-thumb {
+    background: var(--theme-primary, #3691bf);
+    border-radius: 10px;
+    border: 2px solid #f1f5f9;
+}
+.trace-matrix-wrap::-webkit-scrollbar-thumb:hover {
+    background: #0284c7;
+}
+
+.trace-matrix-table {
+    min-width: 780px;
+    width: 100%;
+}
 .trace-matrix-table th {
     background: #0f172a;
     color: #ffffff;
@@ -95,7 +127,39 @@ include_once 'partials/header.php';
     font-size: 13px;
     letter-spacing: 0.5px;
     text-transform: uppercase;
+    white-space: nowrap;
+    padding: 14px 18px;
 }
+.trace-matrix-table td {
+    padding: 14px 18px;
+    vertical-align: middle;
+}
+.trace-matrix-table tbody tr {
+    transition: background-color 0.2s ease;
+}
+.trace-matrix-table tbody tr:hover {
+    background-color: #f8fafc;
+}
+
+.matrix-scroll-hint {
+    background: linear-gradient(90deg, #f0f7ff 0%, #ffffff 100%);
+    border: 1px dashed #bae6fd !important;
+}
+
+@media (max-width: 767.98px) {
+    .trace-matrix-table {
+        min-width: 720px;
+        font-size: 12.5px;
+    }
+    .trace-matrix-table th {
+        font-size: 12px;
+        padding: 11px 14px;
+    }
+    .trace-matrix-table td {
+        padding: 11px 14px;
+    }
+}
+
 .flow-stepper-item {
     background: #ffffff;
     border: 1px solid #e2e8f0;
@@ -534,7 +598,18 @@ include_once 'partials/header.php';
             </p>
         </div>
 
-        <div class="table-responsive shadow-sm rounded-4 border overflow-hidden">
+        <!-- Mobile Scroll Indicator Banner -->
+        <div class="d-lg-none d-flex align-items-center justify-content-between p-2.5 mb-3 rounded-3 shadow-sm matrix-scroll-hint">
+            <div class="d-flex align-items-center gap-2 text-dark" style="font-size: 13px;">
+                <i class="fa-solid fa-arrows-left-right text-primary fa-fade"></i>
+                <span class="fw-semibold">Swipe sideways to view full traceability matrix</span>
+            </div>
+            <span class="badge bg-primary text-white rounded-pill px-2.5 py-1" style="font-size: 11px;">
+                <i class="fa-solid fa-hand-pointer me-1"></i> Scroll &rarr;
+            </span>
+        </div>
+
+        <div class="trace-matrix-wrap shadow-sm mb-4">
             <table class="table table-hover align-middle mb-0 trace-matrix-table">
                 <thead>
                     <tr>

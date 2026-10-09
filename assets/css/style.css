@@ -12910,4 +12910,26 @@ h6,
   font-family: 'Saira-Medium', 'Saira', sans-serif !important;
 }
 
+/* Global Mobile Table Scrollbar & Touch Responsiveness */
+.table-responsive {
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  scrollbar-color: var(--theme-primary, #3691bf) #f1f5f9;
+}
+.table-responsive::-webkit-scrollbar {
+  height: 8px;
+}
+.table-responsive::-webkit-scrollbar-track {
+  background: #f1f5f9;
+  border-radius: 10px;
+}
+.table-responsive::-webkit-scrollbar-thumb {
+  background: var(--theme-primary, #3691bf);
+  border-radius: 10px;
+  border: 2px solid #f1f5f9;
+}
+.table-responsive::-webkit-scrollbar-thumb:hover {
+  background: #0284c7;
+}
+
 /*# sourceMappingURL=style.css.map */
